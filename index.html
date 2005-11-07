@@ -38,28 +38,30 @@
     to configure and manage remote systems, their connections, and their services.
     </P>
     <UL>
-      <LI><B>Remote systems</B> (aka targets) can range from large-scale host computers, multi-board 
+      <LI><I>Remote systems</I> (aka targets) can range from large-scale host computers, multi-board 
       or multi-core parallel systems to target boards without even a CPU or FPGA (connected
       by a hardware debugging box).</LI>
-      <LI><B>Configuration</B> means dealing with board description files from a variety of sources,
+      <LI><I>Configuration</I> means dealing with board description files from a variety of sources,
       displaying remote system components and manipulating board and connection properties.</LI>
-      <LI><B>Management</B> means maintaining a list of remote systems which is team
+      <LI><I>Management</I> means maintaining a list of remote systems which is team
       shareable and available to other subsystems, creating groups of systems when appropriate,
       and handling access control to targets that are shared in a team (board lab).</LI>
-      <LI><B>Connections</B> can range from TCP/IP standard protocols like FTP or telnet,
+      <LI><I>Connections</I> can range from TCP/IP standard protocols like FTP or telnet,
 	  secure encryption, authentication and firewall tunnelling (ssh), to serial line terminal and 
 	  vendor-specific protocols for remote agent and on-chip debugging (JTAG) solutions.
 	  We want connection schemes and protocols to be pluggable in our framework.</LI>
-	  <LI><B>Services</B> on remote systems include downloading software and data,
+	  <LI><I>Services</I> on remote systems include downloading software and data,
       launching single or multiple configurations, starting and stopping cores,
       resetting and querying target information.</LI>
     </UL>
+    <P>
     Since there are many different vendors and solutions around in the device software
     space, the main charter of target management is to provide data models and frameworks
     that are flexible and open enough for vendor-specific extensions. Sample implementations 
     will be provided for TCP/IP connections, FTP data transfer and gdb remote launching 
     in the CDT environment. The basis for our implementations will be an open-source version
-    of the <A HREF="">IBM Remote Systems Explorer</A>.
+    of the <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
+    IBM Remote System Explorer</A>.
     <P>
     For more information, see the
     <A HREF="doc/DSDPTM_Use_Cases_v1.1c.pdf">Target Management Use-Case Document</A>
@@ -144,6 +146,5 @@
     </td>
   </tr>
   </table>
-
 </body>
 </html>
