@@ -1,0 +1,477 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./DSDPTM_Brainstorming_2005-10-14_files/filelist.xml">
+<title>Eclipse DSDP-TM 2005-10-14</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Felix Burton</o:Author>
+  <o:LastAuthor>Martin Oberhuber</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>443</o:TotalTime>
+  <o:Created>2005-11-07T16:09:00Z</o:Created>
+  <o:LastSaved>2005-11-07T16:09:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>775</o:Words>
+  <o:Characters>4420</o:Characters>
+  <o:Company>Wind River</o:Company>
+  <o:Lines>36</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>5428</o:CharactersWithSpaces>
+  <o:Version>9.6926</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:1270044043;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-685592242 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoNormal>Eclipse DSDP-TM 2005-10-14</p>
+
+<p class=MsoNormal>Brainstorming Notes</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Coordinating
+     debuggers (ARM+DSP) [Events?]</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Run
+      Control</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Module
+      Loads / symbol file association</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Inter-debugger
+      events</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Setting
+      up a multi-core launch</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>TM
+     framework vs. extensions</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>ECF</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Multiple
+     Connections with same target [Querying TM config]</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Unique
+      target ID</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>ICE+agent
+      -&gt; what is target stop</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Each
+      connection might be from different vendors</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Dependencies</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Setting
+      and querying properties (static or dynamic) could be done by getting APIs
+      using adapters or key-value pairs</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Dropping
+     into device debugging (or OS debugging) [Actions, events?]</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Debuggers
+      could be separate</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Too OS
+     focused?</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Workflow
+     scenarios</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Launching
+      scenarios</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Scenarios
+      for board bring up</li>
+  <ul style='margin-top:0in' type=square>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Only
+       memory &amp; registers</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Maybe
+       without run-control or without project</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Connect
+       only</li>
+  </ul>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>OS
+      debugging</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Project-less
+      debugging</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Board
+     description</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Tools
+      or services in TM framework vs. just providing an opaque data store</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Purely
+      informational (docs)</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Board
+      manufacturer to create descriptions</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>XML
+      files</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Composing
+      configuration by reference existing components descriptions</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Converting
+      different formats (XSLT?)</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Define
+      common formats</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Avoid
+      copying device descriptions</li>
+  <ul style='margin-top:0in' type=square>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Directly
+       suck in a standard format</li>
+  </ul>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>AI:
+      bring out current formats to the group (registers, memory, cores)</li>
+  <ul style='margin-top:0in' type=square>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>New
+       subgroup?</li>
+  </ul>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Shared
+     board labs</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Launch
+     actions – scripting?</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Boarder
+     between TM and launch</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>What
+      does “connect” mean?</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Security,
+     encryption &amp; authentication</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Ssh</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Access
+      control (deployed devices)</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>DSM
+     (management of deployed devices)</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Update
+     policies</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Other
+     tools/services beyond debug and download</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Flashing</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Profiling</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Etc</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Events
+     between TM-aware tools/services?</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>An
+      Eclipse issue/service (not TM)?</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>ECF
+      with a loopback connection?</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Listeners</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Concerned
+     about moving debugger stuff down</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Many
+      levels of synchronized run-control</li>
+  <ul style='margin-top:0in' type=square>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Some
+       ICE have HW support for triggering each other.<span style="mso-spacerun:
+       yes">  </span>This must be possible to describe in the TM</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>This
+       cross triggering could also be done in software by connectors</li>
+  </ul>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>AI:
+     Add legend to the DSDP-TM Base Architecture slide</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Connection
+     groups</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Could
+      help describe synchronous run-control</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Same
+      target or different</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Relationships
+      between connections in the same group e.g. agent+HW connection on the
+      same target</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Associate
+     launch with connection.<span style="mso-spacerun: yes">  </span>Associate
+     launch with project.<span style="mso-spacerun: yes">  </span>Associate
+     project with build-spec.</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>System
+      unique properties provided by different sub-system (e.g. project,
+      connection, launch, etc) could be used for filtering by taking
+      intersection of existing ones.<span style="mso-spacerun: yes"> 
+      </span>Example of system unique properties could be</li>
+  <ul style='margin-top:0in' type=square>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Platform
+       (VxWorks, Linux, QNX, etc)</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Project
+       type (Application, Process, SHLIB, Kernel, LKM, etc)</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Architecture
+       (PPC, ARM, etc)</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>CPU
+       variant</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Endianess</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Compatibility
+       (fuzzy?)</li>
+  </ul>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Internal
+      properties could be translated to system unique properties by the
+      sub-system or sub-system plug-ins</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Wizard
+     for creating launches</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Open
+     source GDB using gdb-server need to launch agent on target.<span
+     style="mso-spacerun: yes">  </span>This is true for other agents
+     also.<span style="mso-spacerun: yes">  </span>In the general case a
+     preparation stage might be needed before the agent is available to be
+     connected to.</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Some
+     target connections might want to connect from the wizard w/o asking in
+     order to auto-detect services or settings known by the target e.g. path
+     mapping</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>How do
+     we get the executable to the target?</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Debugger</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Other
+      service</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Multiple
+     download paths</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Availability
+      in connection specification or discovered on the fly by action availability</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Choosing
+      a path in the launch </li>
+  <ul style='margin-top:0in' type=square>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>In
+       other cases user might specify “use any available path”</li>
+  </ul>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>How
+     quickly will CDT adopt Darin’s new architecture?</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Remote
+     GDB – how to handle I/O to/from the debugged program?</li>
+</ul>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Workflow</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Preconditions</li>
+  <ul style='margin-top:0in' type=square>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>First
+       product launch</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>OS
+       already booted &amp; configured</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Agent
+       already running</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Remote
+       X86 target running Linux</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Application
+       debugging using gdb over TCP/IP</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Project
+       is open with application</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Some
+       information already needed at build time (build spec)</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Lot
+       of pre-configuration might be shipped already</li>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Target
+       setup was not of startup</li>
+   <ul style='margin-top:0in' type=disc>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>Questions
+        should be deferred</li>
+   </ul>
+  </ul>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>New
+      &gt; Target Connection &gt; Linux Agent</li>
+  <ul style='margin-top:0in' type=square>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Wizard</li>
+   <ul style='margin-top:0in' type=disc>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>IP
+        address</li>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>Connection
+        name (possibly computed from other properties but could be modified or
+        overridden by user)</li>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>Finish
+        </li>
+    <ul style='margin-top:0in' type=circle>
+     <li class=MsoNormal style='mso-list:l0 level5 lfo1;tab-stops:list 2.5in'>Target
+         connects (if option selected)</li>
+     <li class=MsoNormal style='mso-list:l0 level5 lfo1;tab-stops:list 2.5in'>Status
+         information is shown</li>
+    </ul>
+   </ul>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Select
+       executable &gt; run &gt; debug (create launch)</li>
+   <ul style='margin-top:0in' type=disc>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>System
+        picks correct launch type</li>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>User
+        confirms connection (localhost-native vs. remote)</li>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>Bring
+        up launch dialog</li>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>Enter
+        target path or keep default</li>
+    <ul style='margin-top:0in' type=circle>
+     <li class=MsoNormal style='mso-list:l0 level5 lfo1;tab-stops:list 2.5in'>Specify
+         FTP download</li>
+    </ul>
+    <li class=MsoNormal style='mso-list:l0 level4 lfo1;tab-stops:list 2.0in'>Additional
+        download’s (shared libraries, configuration files, …)</li>
+   </ul>
+   <li class=MsoNormal style='mso-list:l0 level3 lfo1;tab-stops:list 1.5in'>Press
+       “Debug” button</li>
+  </ul>
+ </ul>
+</ul>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>CDT</p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Who
+     extends whom?</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Optional
+      CDT plug-in that depends on TM</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Extend
+     or add launch configuration type</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>CDT
+     could contribute Actions to TM</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Right
+      click on a connection</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Contributed
+      to certain connection types</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Option
+     A: Each vendor (debugger provider) doing their LC-type (by deriving from
+     base type)</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>New
+      launch configuration type: Remote c/c++ application</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Option
+     B: Add an extension point to CDT (or platform?) such that tools/actions
+     can be added to a launch</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Problem:
+      not all debugger back-ends might support TM extension</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Option
+     C: Contribute connection to debugger dropdown</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>What
+      if just running?</li>
+ </ul>
+</ul>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>TM API</p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Connection
+     in launch: reference or copy?</li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Share
+      connections with same mechanisms as launches</li>
+  <li class=MsoNormal style='mso-list:l0 level2 lfo1;tab-stops:list 1.0in'>Warning
+      “changing global settings”</li>
+ </ul>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>getConnectionData(ref)</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>showConnectionSelection(filter)</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>TM to
+     define a Widget for connection selection</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>Connect()
+     vs. isConnected()</li>
+ <li class=MsoNormal style='mso-list:l0 level1 lfo1;tab-stops:list .5in'>RunAction
+     – in first version to be done by delegate</li>
+</ul>
+
+</div>
+
+</body>
+
+</html>

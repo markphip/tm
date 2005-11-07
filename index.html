@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Eclipse Device Software Development Platform - Target Management Project Home</title>
-<link rel="stylesheet" href="..\default_style.css" type="text/css">
+<link rel="stylesheet" href="../default_style.css" type="text/css">
 </head>
 <body text="#000000" bgcolor="#ffffff" link="#0000ee" vlink="#551a8b" alink="#ff0000">
 <table border=0 cellspacing=5 cellpadding=2 width="100%">
@@ -16,7 +16,7 @@
       </td>
       <td width="22%">
         <div align="center">
-          <img src="..\..\images\Idea.jpg" width="120" height="86" hspace="50" align="middle">
+          <img src="../../images/Idea.jpg" width="120" height="86" hspace="50" align="middle">
         </div>
       </td>
     </tr>
@@ -32,7 +32,38 @@
   </tr>
   <tr>
     <td align=left valign=top bgcolor="#FFFFFF">
-			under construction</td>
+    The Target Management project creates data models and frameworks
+    to configure and manage remote systems, their connections, and their services.
+    <UL>
+      <LI><B>Remote systems</B> (aka targets) can range from large-scale host computers, multi-board 
+      or multi-core parallel systems to target boards without even a CPU or FPGA (connected
+      by a hardware debugging box).</LI>
+      <LI><B>Configuration</B> means dealing with board description files from a variety of sources,
+      displaying remote system components and manipulating board and connection properties.</LI>
+      <LI><B>Management</B> means maintaining a list of remote systems which is team
+      shareable and available to other subsystems, creating groups of systems when appropriate,
+      and handling access control to targets that are shared in a team (board lab).</LI>
+      <LI><B>Connections</B> can range from TCP/IP standard protocols like FTP or telnet,
+	  secure encryption, authentication and firewall tunnelling (ssh), to serial line terminal and 
+	  vendor-specific protocols for remote agent and on-chip debugging (JTAG) solutions.
+	  We want connection schemes and protocols to be pluggable in our framework.</LI>
+	  <LI><B>Services</B> on remote systems include downloading software and data,
+      launching single or multiple configurations, starting and stopping cores,
+      resetting and querying target information.</LI>
+    </UL>
+    Since there are many different vendors and solutions around in the device software
+    space, the main charter of target management is to provide data models and frameworks
+    that are flexible and open enough for vendor-specific extensions. Sample implementations 
+    will be provided for TCP/IP connections, FTP data transfer and gdb remote launching 
+    in the CDT environment. The basis for our implementations will be an open-source version
+    of the <A HREF="">IBM Remote Systems Explorer</A>.
+    <P>
+    For more information, see the
+    <A HREF="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/TM_Use_Cases_v1.1c.pdf">
+      Target Management Use-Case Document</A>
+    as well as the <A HREF="news://news.eclipse.org/eclipse.dsdp.tm">eclipse.dsdp.tm newsgroup</A>
+    and <A HREF="http://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev">dsdp-tm-dev mailing list</A>.
+	</td>
   </tr>
 
 </table>
@@ -46,11 +77,16 @@
     <td align=right valign=top width="1%">
 	<img src="../../images/Adarrow.gif" border=0 height=16 width=16></td>
     <td align=left valign=top bgcolor="#FFFFFF" width="96%">
-    <b>DSDP-TM Face-to-Face meeting, Chicago, Oct. 13-14</b><br>
-    Combined with the DSDP-DD meeting, the Target Management community will meet Oct. 13.-14.
-    The meeting is sponsored by Wind River, and will take place at the Wind River offices in
-    Downers Grove near Chicago. Directions, Agenda and other details can be found in the
-    <A HREF="http://dev.eclipse.org/mhonarc/lists/dsdp-tm-dev/maillist.html">mailing list archive</A>.
+    <b>DSDP-TM Face to Face Meeting - Feb 21 - 23, 2006 - Toronto (tentative) </b><br>
+    This meeting will again be a combination of DD and TM projects.
+    <!--
+     Goals:
+&nbsp;&#8211;&nbsp;&nbsp; Provide detailed feedback to Darin on porting efforts to new API.<br>
+&nbsp;&#8211;&nbsp;&nbsp; Discuss EclipseCon tutorials in this area.
+&nbsp;&#8211;&nbsp;&nbsp; Discuss other collaboration areas - perhaps in some embedded-specific debug / utility views.
+&nbsp;&#8211;&nbsp;&nbsp; Review CDT plans for new interfaces.
+&nbsp;&#8211;&nbsp;&nbsp; Action Item follow up and new topics.
+    -->
     </td>
   </tr>
 
@@ -66,13 +102,25 @@
     <td align=right valign=top width="1%">
 	<img src="../../images/Adarrow.gif" border=0 height=16 width=16></td>
     <td align=left valign=top bgcolor="#FFFFFF" width="96%">
-    <b>Meeting Notes</b><br>
-    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050613.pdf">DSDP-TM MeetingNotes 20050613.pdf</a><br>
-    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050627.pdf">DSDP-TM MeetingNotes 20050627.pdf</a><br>
-    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050718.pdf">DSDP-TM MeetingNotes 20050718.pdf</a><br>
-    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050808.pdf">DSDP-TM MeetingNotes 20050808.pdf</a><br>
-    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050829.pdf">DSDP-TM MeetingNotes 20050829.pdf</a><br>
-    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050926.pdf">DSDP-TM MeetingNotes 20050926.pdf</a>
+    <b>Meeting Notes (newest ones first)</b><br>
+	<p><b>CDT Conference Ottawa, 2005 October 25-26</b></p>
+	<ul><li><a href="conferences/2005_CDT_Conference_DSDP_Update.ppt">DSDP Update at CDT Conference (ppt)</a></li>
+	</ul>
+	<p><b>F2F Meeting Chicago, 2005 October 12-13</b></p>
+	<ul><li><a href="meetingnotes/ff01_chicago/2005-10-12_Chicago_TM_MeetingNotes.htm">Meeting Notes</a></li>
+	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes</a></li>
+	    <li><a href="meetingnotes/ff01_chicago/Eclipse_IP_Due_Diligence.ppt">Eclipse IP Due Diligence (ppt)</a></li>
+	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
+	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_DD_Borderline.ppt">On the Borderline between Target Management and Debugging (ppt)</a></li>
+	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_DebuggerBackend.ppt">WR Debugger Backend Interface Proposal (ppt)</a></li>
+	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_TCA.ppt">Target Connection Adapter Proposal (ppt)</a></li>
+	</ul>
+    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050926.pdf">2005-09-26 Phone Conference</a><br>
+    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050829.pdf">2005-08-29 Phone Conference</a><br>
+    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050808.pdf">2005-08-08 Phone Conference</a><br>
+    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050718.pdf">2005-07-18 Phone Conference</a><br>
+    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050627.pdf">2005-06-27 Phone Conference</a><br>
+    <a href="meetingnotes/DSDP-TM_MeetingNotes_20050613.pdf">2005-06-13 Phone Conference</a><br>
     </td>
   </tr>
   <tr>
