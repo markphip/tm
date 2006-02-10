@@ -38,11 +38,11 @@
 			<h3>Development Tools</h3>
 				<ul class="midlist">
 					<li><b><a
-						href="http://dev.eclipse.org/viewcvs/index.cgi">CVS Repository</a></b><br/>
+						href="http://dev.eclipse.org/viewcvs/index.cgi?cvsroot=DSDP_Project">CVS Repository</a></b><br/>
 						TM development is managed in rwo CVS repositories:
 						<ul class="midlist">
-							<li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=dsdp">Core Repository</a>
-						    <li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=dsdp">RSE Repository</a>
+							<li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">Core Repository</a>
+						    <li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>
 						</ul>
 						Both "pserver" and "extssh" are supported. See <a
 							href="http://dev.eclipse.org/cvshowto.html">Using Eclipse with
