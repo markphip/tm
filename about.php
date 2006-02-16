@@ -34,6 +34,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 
+	<h2>Mission Statement</h2>
     The Target Management project creates data models and frameworks
     to configure and manage remote systems, their connections, and their services.
     </P>

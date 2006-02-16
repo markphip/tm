@@ -35,17 +35,17 @@
 		<h1>$pageTitle</h1>
 		<div class="homeitem3col">
 		<h3>Target Management Lead</h3>
-		<li><b>Martin Oberhuber</b>, Wind River<br/>
+		<li><b>Martin Oberhuber, Wind River Systems</b> (martin.oberhuber at windriver.com)<br/>
 			Martin is the overall project lead for the Target Management Project,
-			and in this role he also serves on the DSDP Project Management Council (PMC)<br/>
+			and in this role he also serves on the DSDP Project Management Council (PMC).
 			As a software developer and architect, Martin is responsible for the
-			current Target Manager component in Wind River Workbench. Driven by
-			his strong desire to help people actually use the software he works on,
-			he also contributes ideas for enhancement in many other areas around
-			Eclipse. Martin holds an MS degree in Telematics from the University
+			current Target Manager component in Wind River Workbench.<br/>
+			Martin holds an MS degree in Telematics from the University
 			of Technology Graz/Austria, and has been working on source code analysis
-			and tools development since 1999.</li>
-		<li><b>David Dykstal</b>, IBM<br/>
+			and tools development since 1999.<br/>
+			<a href="http://wiki.eclipse.org/index.php/User:Moberhuber">more about Martin Oberhuber &raquo;</a>
+			</li>
+		<li><b>David Dykstal, IBM</b> (david_dykstal at us.ibm.com)<br/>
 		 	David is the Project Lead for the IBM Remote Systems Explorer,
 		 	and thus plays a key role in all activities around RSE.<br/>
 		 	David has worked either for or with IBM for over 28 years,

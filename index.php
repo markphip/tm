@@ -33,7 +33,7 @@
 <div id="maincontent">
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
-		<h2> </h2>
+		<h2>Mission Statement</h2>
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
@@ -96,6 +96,12 @@
 					href="http://wiki.eclipse.org/index.php/DSDP/TM"
 					target="_self">DSDP-TM Wiki</a> started</li>
 			</ul>
+		</div>
+		<div class="sideitem">
+   			<h6>Incubation</h6>
+   			<div align="center"><a href="/projects/gazoo.php"><img 
+        		align="center" src="/images/gazoo-incubation.jpg" 
+        		border="0" /></a></div>
 		</div>
 	</div>
 </div>

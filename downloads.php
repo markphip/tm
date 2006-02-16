@@ -34,48 +34,21 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 
-    	<h2>Use Cases</h2>
-    	<ul>
-    	<li><a href="doc/DSDPTM_Use_Cases_v1.1c.pdf">DSDP-TM Use Cases v1.1c.pdf</a></li>
-    	<li><a href="doc/nucleus_edge_target_usecase.pdf">nucleus edge target usecase.pdf</a></li>
-    	</ul>
-
-		<h2>Design Documents</h2>
+		The Target Management Project has not published an official release yet, but some code
+		has been submitted to eclipse.org via bugzilla:
+		<p/>
 		<ul>
-	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
-		<li><a href="doc/DSDPTM_Design_Proposal_v0.3.pdf">DSDP-TM Design Proposal v0.3.pdf</a></li>
-		<li><a href="doc/DSDPTM_Target_Connection_Adapter_Proposal.pdf">DSDP-TM Target Connection Adapter Proposal.pdf</a></li>
-	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes from Chicago Meeting</a></li>
+		<li>Bugzilla <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719">125719</a>:
+			IBM RSE Initial Submission (See 
+			<a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">here</a>
+			what it looks like)</li>
+		<li>Bugzilla <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=65471">65471</a>:
+			Remote System Framework (RSF) 2.0.0 code and 
+			<a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=18820">presentation</a>
+			</li>
 		</ul>
-
-		<h2>Older Meeting Notes (Newer notes are on the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a>)</h2>
-		<ul>
-		<h4>CDT Conference Ottawa, 2005 October 25-26</h4>
-		<ul>
-		<li><a href="conferences/2005_CDT_Conference_DSDP_Update.ppt">DSDP Update at CDT Conference (ppt)</a></li>
-		</ul>
-		
-		<h4>F2F Meeting Chicago, 2005 October 12-13</h4>
-		<ul>
-		<li><a href="meetingnotes/ff01_chicago/2005-10-12_Chicago_TM_MeetingNotes.htm">Meeting Notes</a></li>
-	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes</a></li>
-	    <li><a href="meetingnotes/ff01_chicago/Eclipse_IP_Due_Diligence.ppt">Eclipse IP Due Diligence (ppt)</a></li>
-	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
-	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_DD_Borderline.ppt">On the Borderline between Target Management and Debugging (ppt)</a></li>
-	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_DebuggerBackend.ppt">WR Debugger Backend Interface Proposal (ppt)</a></li>
-	    <li><a href="meetingnotes/ff01_chicago/DSDPTM_TCA.ppt">Target Connection Adapter Proposal (ppt)</a></li>
-		</ul>
-		
-		<h4>Phone Meeting Notes</h4>
-		<ul>
-		<li><a href="meetingnotes/DSDP-TM_MeetingNotes_20051107.htm">2005-11-07 Phone Conference</a></li>
-		<li><a href="meetingnotes/DSDP-TM_MeetingNotes_20050926.pdf">2005-09-26 Phone Conference</a><br>
-		<li><a href="meetingnotes/DSDP-TM_MeetingNotes_20050829.pdf">2005-08-29 Phone Conference</a><br>
-		<li><a href="meetingnotes/DSDP-TM_MeetingNotes_20050808.pdf">2005-08-08 Phone Conference</a><br>
-		<li><a href="meetingnotes/DSDP-TM_MeetingNotes_20050718.pdf">2005-07-18 Phone Conference</a><br>
-		<li><a href="meetingnotes/DSDP-TM_MeetingNotes_20050627.pdf">2005-06-27 Phone Conference</a><br>
-		<li><a href="meetingnotes/DSDP-TM_MeetingNotes_20050613.pdf">2005-06-13 Phone Conference</a><br>
-		</ul>
+		<p/>
+		In addition to that, <a href="doc/index.php">Developer Documents</a> are available for download.
 		<p/>
 	</div>
 	<div id="rightcolumn">
