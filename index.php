@@ -60,7 +60,7 @@
 		<div class="homeitem">
 			<h3>Events</h3>
 			<ul class="midlist">
-				<li><a href="http://wiki.eclipse.org/index.php/DSDP-TM_Face-to-face_Toronto_2006x02x23" target="_blank"><b>Face-to-Face Meeting Toronto</b></a>, 24/25-Feb-2006</li>
+				<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM/Face-to-face_Toronto_23-Feb-2006" target="_blank"><b>Face-to-Face Meeting Toronto</b></a>, 23/24-Feb-2006</li>
 				<li><a href="http://www.eclipsecon.org/2006/Sub.do?id=287" target="_blank"><b>Using and Extending the DSDP Target Management Framework</b></a>, long talk at EclipseCon 2006 (accepted!)</li>
 		</div>
 	</div>
@@ -70,14 +70,14 @@
 			<h6>Getting started</h6>
 			<ul>				
 				<li><a
-					href="doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
+				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
 					target="_self">TM Overview Presentation</a></li>
 				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
 					target="_self">IBM RSE Presentation</a></li>
-				<!-- <li><a href="development/index.php">Developer Resources</a></li> -->
-				<li><a href="doc/index.php">Developer Documents</a></li>
+				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
+				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>
@@ -86,8 +86,11 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul> 
+				<li>Feb 28th: Updated the <a
+					href="/dsdp/tm/development/plan.php"
+					target="_self">Project Plan</a></li>
 				<li>Feb 10th: <a
-					href="http://www.eclipse.org/dsdp/tm/index.php"
+					href="/dsdp/tm/index.php"
 					target="_self">DSDP-TM Homepage</a> converted to Phoenix</li>
 				<li>Jan 31st: <a
 					href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719"

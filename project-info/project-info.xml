@@ -189,17 +189,34 @@
      - tentative release.
     -->
   <releases>
-	<milestone status="scheduled">
-    	<date>13/03/2006</date>
+	<milestone status="scheduled" name="1.0M1">
+    	<date>07/04/2006</date>
       	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
       	<download></download>
-      	<name>R8/1.0M1</name>
+      	<name>1.0M1</name>
 	</milestone>
-
+	<milestone status="scheduled" name="1.0M2">
+    	<date>19/05/2006</date>
+      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
+      	<download></download>
+      	<name>1.0M2</name>
+	</milestone>
+	<milestone status="scheduled" name="1.0M3">
+    	<date>30/06/2006</date>
+      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
+      	<download></download>
+      	<name>1.0M3</name>
+	</milestone>
+	<milestone status="scheduled" name="1.0M4">
+    	<date>11/08/2006</date>
+      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
+      	<download></download>
+      	<name>1.0M4</name>
+	</milestone>
     <release 
-       status="tentative"
-       name="R8/1.0"
-       date="3Q2006"
+       status="scheduled"
+       name="1.0"
+       date="22/09/2006"
        plan="/dsdp/tm/development/plan.php" />
   </releases>
 </project>

@@ -85,11 +85,11 @@
 				<li><a
 					href="DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="../meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
+				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
 					target="_self">TM Overview Presentation</a></li>
 				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
 					target="_self">IBM RSE Presentation</a></li>
-				<!-- <li><a href="../development/index.php">Developer Resources</a></li> -->
+				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>

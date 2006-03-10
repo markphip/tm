@@ -43,8 +43,8 @@
 			</tbody>
 		</table><hr/>
 		-->
-		<p>Last revised 12:00 CET Feb. 27, 2006 (<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-		<!-- img src="/eclipse/development/new.gif" alt="(new)" border="0" height="12" width="12" -->
+		<p>Last revised 12:00 CET Feb. 27, 2006 (
+		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
 		marks interesting recent changes)</p>
 
 		
@@ -245,6 +245,23 @@ However, since we do not systematically test them we cannot vouch for them.
 Problems encountered when running Eclipse on a non-reference platform
 that cannot be recreated on any reference platform will be given lower
 priority than problems with running Eclipse on a reference platform.</p>
+
+<h4>
+Datastore Agent Reference Platforms
+<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+</h4>
+<p>The Datastore protocol is the default protocol shipped with RSE for accessing
+remote file systems, process info and shells. It requires a Datastore server 
+(agent) running on the remote system.
+This Datastore agent is shipped as plain Java Source Code together with the 
+RSE distribution. It should run fine on any Java Platform, with additional
+Data Miner Plug-ins that may be OS specific.</p>
+<p>We will test and verify the Datastore agent on the following Reference Platforms,
+which are a subset of the Platforms we test the RSE UI on:</p>
+<ul>
+<li>Red Hat Enterprise Linx 4, Intel x86, IBM and Sun VMs</li>
+<li>SUSE Linux Enterprise Server 9, Intel x86, IBM and Sun VMs</li>
+</ul>
 
 <h4>Internationalization</h4>
 <p>The Remote Systems Explorer is designed as the basis for internationalized

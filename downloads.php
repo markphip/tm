@@ -48,7 +48,7 @@
 			</li>
 		</ul>
 		<p/>
-		In addition to that, <a href="doc/index.php">Developer Documents</a> are available for download.
+		In addition to that, <a href="/dsdp/tm/doc/index.php">Developer Documents</a> are available for download.
 		<p/>
 	</div>
 	<div id="rightcolumn">
@@ -56,14 +56,14 @@
 			<h6>Getting started</h6>
 			<ul>				
 				<li><a
-					href="doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
+				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
 					target="_self">TM Overview Presentation</a></li>
 				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
 					target="_self">IBM RSE Presentation</a></li>
-				<!-- <li><a href="development/index.php">Developer Resources</a></li> -->
-				<li><a href="doc/index.php">Developer Documents</a></li>
+				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
+				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>
