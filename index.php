@@ -37,7 +37,7 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
-		<p>Our first public release (March 2006) will be based on the commercial
+		<p>Our first public release (September 2006) will be based on the commercial
 		<a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
 		IBM Remote Systems Explorer</a>. The codebase has been 
 		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719">submitted</a>,
