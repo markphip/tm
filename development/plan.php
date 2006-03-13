@@ -43,9 +43,9 @@
 			</tbody>
 		</table><hr/>
 		-->
-		<p>Last revised 12:00 CET Feb. 27, 2006 (
+		<p>Last revised 12:00 CET March 13, 2006 (
 		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-		marks interesting recent changes)</p>
+		marks interesting recent changes since the previous draft of Feb. 27, 2006)</p>
 
 		
 <p><i>Please send comments about this draft plan to
@@ -230,10 +230,14 @@ for Solaris SPARC</td>
 <td width="205">
   <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
   Ubuntu / Debian Linux</td>
-<td width="59"><span style="color: rgb(255, 0, 0);">(TBD)</span></td>
+<td width="59">
+  <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+  5.10</td>
 <td width="76">Intel x86</td>
 <td width="59">GTK</td>
-<td width="453">Sun Java 2 Standard Edition 1.4.2_10<br>
+<td width="453">
+  <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+  Sun Java 2 Standard Edition 1.4.2_11<br>
 for Linux x86</td>
 </tr>
 </tbody>
