@@ -117,7 +117,7 @@
 						for the for the coding standards, naming conventions, and other
 						guidelines used by the Platform. TM will use these conventions
 						until such time as deviation is required.</li>
-					<li><b><a href="meetingnotes/ff01_chicago/DSDPTM_Overview.ppt" target="_self">
+					<li><b><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt" target="_self">
 						Architectural Overview</a></b><br>
 						A high level summary of the components and their architecture.</li>
 					<li><b><a

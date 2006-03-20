@@ -43,7 +43,7 @@
 		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719">submitted</a>,
 		and is currently going through the eclipse.org IP Review process.</p>
 		<p> 
-		<a href="about.php">more about target management &raquo;</a> </p>
+		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> </p>
 		<div class="homeitem">
 			<h3>Quick Links</h3>
 				<ul class="midlist">

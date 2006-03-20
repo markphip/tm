@@ -66,10 +66,10 @@
 	  <div class="homeitem3col">
 		<h3>For more information, see the</h3>
     	<ul>
-    	<li><a href="doc/DSDPTM_Use_Cases_v1.1c.pdf">
+    	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
-    	<li><a href="meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">
+    	<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">
       		Target Management Overview Slides</a>
     	  	which include a diagram of the envisioned components and architecture for our project.</li>
     	<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
@@ -87,9 +87,9 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
-				<li><a href="doc/DSDPTM_Use_Cases_v1.1c.pdf"
+				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
+				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
 					target="_self">TM Overview Presentation</a></li>
 				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
 					target="_self">IBM RSE Presentation</a></li>
