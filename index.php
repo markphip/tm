@@ -61,7 +61,8 @@
 			<h3>Events</h3>
 			<ul class="midlist">
 				<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM/Face-to-face_Toronto_23-Feb-2006" target="_blank"><b>Face-to-Face Meeting Toronto</b></a>, 23/24-Feb-2006</li>
-				<li><a href="http://www.eclipsecon.org/2006/Sub.do?id=287" target="_blank"><b>Using and Extending the DSDP Target Management Framework</b></a>, long talk at EclipseCon 2006 (accepted!)</li>
+				<li><a href="http://www.eclipsecon.org/2006/Sub.do?id=287" target="_blank"><b>Using and Extending the DSDP Target Management Framework</b></a>, long talk at EclipseCon 2006 (
+				<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">presentation file</a>)</li>
 		</div>
 	</div>
 
