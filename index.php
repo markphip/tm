@@ -39,9 +39,9 @@
 		 and their services.</p>
 		<p>Our first public release (September 2006) will be based on the commercial
 		<a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-		IBM Remote Systems Explorer</a>. The codebase has been 
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719">submitted</a>,
-		and is currently going through the eclipse.org IP Review process.</p>
+		IBM Remote Systems Explorer</a>. Eclipse IP Review has been completed for the
+		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719">original submission</a>,
+		and we are looking at releasing a first milestone (M1) on Friday, April 21.</p>
 		<p> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> </p>
 		<div class="homeitem">
@@ -87,18 +87,16 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul> 
+				<li>Apr 10th: IP Review of RSE Submission completed successfully!</li>
+				<li>Mar 22nd: About 70 participants at the<a
+					href="http://www.eclipsecon.org/2006/Sub.do?id=287"
+					target="_self">EclipseCon TM talk</a></li>
 				<li>Feb 28th: Updated the <a
 					href="/dsdp/tm/development/plan.php"
 					target="_self">Project Plan</a></li>
-				<li>Feb 10th: <a
-					href="/dsdp/tm/index.php"
-					target="_self">DSDP-TM Homepage</a> converted to Phoenix</li>
 				<li>Jan 31st: <a
 					href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719"
 					target="_self">RSE Codebase</a> initially submitted on Bugzilla</li>
-				<li>Jan 8th: <a
-					href="http://wiki.eclipse.org/index.php/DSDP/TM"
-					target="_self">DSDP-TM Wiki</a> started</li>
 			</ul>
 		</div>
 		<div class="sideitem">

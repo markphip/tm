@@ -43,9 +43,9 @@
 			</tbody>
 		</table><hr/>
 		-->
-		<p>Last revised 12:00 CET March 13, 2006 (
+		<p>Last revised 19:00 CET April 10, 2006 (
 		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-		marks interesting recent changes since the previous draft of Feb. 27, 2006)</p>
+		marks interesting recent changes since the previous draft of Mar. 13, 2006)</p>
 
 		
 <p><i>Please send comments about this draft plan to
@@ -113,7 +113,9 @@ namely:</p>
 milestones are:</p>
 <ul>
 	<li>TBD - Milestone 0 (1.0 M0) - build machine in place</li>
-	<li>Friday April 7, 2006 - Milestone 1 (1.0 M1) - stable build</li>
+	<li>
+	Friday April <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+	21, 2006 - Milestone 1 (1.0 M1) - stable build</li>
 	<li>Friday May 19, 2006 - Milestone 2 (1.0 M2) - stable build</li>
 	<li>Friday June 30, 2006 - Milestone 3 (1.0 M3) - stable build (API freeze)</li>
 	<li>Friday August 11, 2006 - Milestone 4 (1.0 M4/RC0) - stable build</li>
@@ -230,14 +232,11 @@ for Solaris SPARC</td>
 <td width="205">
   <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
   Ubuntu / Debian Linux</td>
-<td width="59">
-  <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-  5.10</td>
+<td width="59">5.10</td>
 <td width="76">Intel x86</td>
 <td width="59">GTK</td>
 <td width="453">
-  <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-  Sun Java 2 Standard Edition 1.4.2_11<br>
+Sun Java 2 Standard Edition 1.4.2_11<br>
 for Linux x86</td>
 </tr>
 </tbody>
@@ -252,7 +251,6 @@ priority than problems with running Eclipse on a reference platform.</p>
 
 <h4>
 Datastore Agent Reference Platforms
-<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
 </h4>
 <p>The Datastore protocol is the default protocol shipped with RSE for accessing
 remote file systems, process info and shells. It requires a Datastore server 
@@ -341,6 +339,8 @@ Connection" as a New Wizard</li>
 <li>Add Persistence Provider for sharing in a team (make
 different versions merge-able by using a scheme that is simpler than
 XMI)</li>
+<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+Add example plugin with secure shell (shh) command view implementation</li>
 <li>Write some Manual Test Plans (Scripts, what the manual
 testers have to do)</li>
 </ul>
