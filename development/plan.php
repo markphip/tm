@@ -327,7 +327,9 @@ etc.), get obvious bugs into Bugzilla, find client OS problems</li>
 <li>Add basic framework for automated tests</li>
 </ul>
 
-<h4>M1 Theme: Functional (April 7)</h4>
+<h4>M1 Theme: Functional (April 
+<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+21)</h4>
 <ul>
 <li><span style="color: rgb(51, 204, 0);">Purpose:</span>
 Add required functionality to provide an environment that is 
