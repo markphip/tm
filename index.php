@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "DSDP-TM Home page";
+	$pageTitle 		= "Target Management Home page";
 	$pageKeywords	= "device, target";
 	$pageAuthor		= "Martin Oberhuber";
 	
@@ -41,7 +41,9 @@
 		<a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
 		IBM Remote Systems Explorer</a>. Eclipse IP Review has been completed for the
 		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719">original submission</a>,
-		and we are looking at releasing a first milestone (M1) on Friday, April 21.</p>
+		and our first milestone (M1) has been 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/">released</a>
+		on Friday, April 28.</p>
 		<p> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> </p>
 		<div class="homeitem">
@@ -87,6 +89,7 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul> 
+			    <li>Apr 28th: RSE M1 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">released!</a></li>
 				<li>Apr 10th: IP Review of RSE Submission completed successfully!</li>
 				<li>Mar 22nd: About 70 participants at the<a
 					href="http://www.eclipsecon.org/2006/Sub.do?id=287"
@@ -94,9 +97,6 @@
 				<li>Feb 28th: Updated the <a
 					href="/dsdp/tm/development/plan.php"
 					target="_self">Project Plan</a></li>
-				<li>Jan 31st: <a
-					href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719"
-					target="_self">RSE Codebase</a> initially submitted on Bugzilla</li>
 			</ul>
 		</div>
 		<div class="sideitem">

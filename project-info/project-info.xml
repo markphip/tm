@@ -189,8 +189,8 @@
      - tentative release.
     -->
   <releases>
-	<milestone status="scheduled" name="1.0M1">
-    	<date>21/04/2006</date>
+	<milestone status="released" name="1.0M1">
+    	<date>28/04/2006</date>
       	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
       	<download></download>
       	<name>1.0M1</name>
