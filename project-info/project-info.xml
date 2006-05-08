@@ -192,25 +192,25 @@
 	<milestone status="released" name="1.0M1">
     	<date>28/04/2006</date>
       	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download></download>
+      	<download>http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M1-200604270100/index.php</download>
       	<name>1.0M1</name>
 	</milestone>
 	<milestone status="scheduled" name="1.0M2">
     	<date>19/05/2006</date>
       	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download></download>
+      	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
       	<name>1.0M2</name>
 	</milestone>
 	<milestone status="scheduled" name="1.0M3">
     	<date>30/06/2006</date>
       	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download></download>
+      	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
       	<name>1.0M3</name>
 	</milestone>
 	<milestone status="scheduled" name="1.0M4">
     	<date>11/08/2006</date>
       	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download></download>
+      	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
       	<name>1.0M4</name>
 	</milestone>
     <release 
