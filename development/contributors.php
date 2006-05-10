@@ -58,6 +58,7 @@
 		<ul class="midlist">
 			<li><b>David Dykstal</b>, IBM</li>
 			<li><b>David McKnight</b>, IBM</li>
+			<li><b>Kushal Munir</b>, IBM</li>
 			<li><b>Martin Oberhuber</b>, Wind River</li>
 			<li><b>Michael Scharf</b>, Wind River</li>
 			<li><b>Uwe Stieber</b>, Wind River</li>
@@ -68,28 +69,34 @@
 		<h3>Contributors (in alphabetical order)</h3>
 		Since we do not have any code contributions yet, we
 		list those people that have been active in the TM
-		face-to-face meetings and phone conferences so far:
+		face-to-face meetings and phone conferences so far.
+		The list is sorted alphabeticallz by company first, then last name:
 		<ul class="midlist">
-			<li><b>Alan Boxall</b>, IBM Distributed Debugger</li>
 			<li><b>Mark Bozeman</b>, Accelerated Technology</li>
-			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>George Clark</b>, Accelerated Technology</li>
-			<li><b>John Cortell</b>, FreeScale</li>
-			<li><b>Paul Gingrich</b>, TI</li>
-			<li><b>David Inglis</b>, QNX</li>
-			<li><b>Peter Lachner</b>, Intel</li>
+			<li><b>Aaron Spear</b>, Accelerated Technology</li>
+			<li><b>Mark Littlefield</b>, Curtiss-Wright Controls</li>
+			<li><b>Darian Wong</b>, Curtiss-Wright Controls</li>
 			<li><b>John Leier</b>, Digi</li>
-			<li><b>Mark Littlefield</b>, Curtiss-Wright</li>
+			<li><b>Kirk Beitz</b>, FreeScale</li>
+			<li><b>John Cortell</b>, FreeScale</li>
+			<li><b>Daymon Rogers</b>, FreeScale</li>
+			<li><b>Alan Boxall</b>, IBM Distributed Debugger</li>
+			<li><b>Peter Lachner</b>, Intel</li>
+			<li><b>Greg Watson</b>, LANL</li>
+			<li><b>Joe Green</b>, Montavista</li>
 			<li><b>Pierre-Alexandre Masse</b>, Montavista</li>
 			<li><b>Ewa Matejska</b>, PalmSource</li>
-			<li><b>Javier Montalvo</b>, Symbian</li>
-			<li><b>Victor Palau</b>, Symbian</li>
-			<li><b>Daymon Rogers</b>, FreeScale</li>
-			<li><b>Matthew Scarpino</b>, Star Bridge Systems</li>
+			<li><b>David Inglis</b>, QNX</li>
 			<li><b>Doug Schaefer</b>, QNX</li>
-			<li><b>Aaron Spear</b>, Accelerated Technology</li>
+			<li><b>Matthew Scarpino</b>, Star Bridge Systems</li>
+			<li><b>Javier Montalvo-Orús</b>, Symbian</li>
+			<li><b>Victor Palau</b>, Symbian</li>
 			<li><b>Neil Taylor</b>, Symbian</li>
-			<li><b>Darian Wong</b>, Curtiss-Wright</li>
+			<li><b>Paul Gingrich</b>, TI</li>
+			<li><b>Tianchao Li</b>, TU Munich</li>
+			<li><b>Felix Burton</b>, Wind River</li>
+			<li><b>Brian Nettleton</b>, Wind River</li>
   		</ul>
 		</div>
 	</div>
