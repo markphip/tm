@@ -35,12 +35,29 @@
 		<p>While we do not want to get too process-heavy, there are a few simple
 		things that will make all our lives easier.</p>
 
-		<h2>Working with Bugzilla</h2>
+		<h2>Checkin Policies</h2>
 		<ul><li>When you check in a fix for a bugzilla entry, <b>please</b> include
 		the bugzilla number in the commit message. Example:
 		   "139207 fix browsing into tar archives by dstore".<p/></li>
-		   <li>After committing, set the entry <b>fixed</b>. Do not set it closed
-		   until it has been tested and verified by somebody else.<p/></li>
+		   <li>After committing a fix for bugzilla, set the entry <b>fixed</b>. 
+		   Do not set it closed until it has been tested and verified by somebody 
+		   else.<p/></li>
+		   <li>When you add a new plugin, feature or other project to your workspace,
+		   please update the <b>Team Project Sets</b> so that other committers or 
+		   CVS users can pick up your new project easily: Add the "www-tm-development" 
+		   project to your workspace. You can do this most easily by importing the 
+		   Team Project set from<ul>
+		     <li><a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
+		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a></li>
+		   </ul>
+		   Update the Project sets there and commit them to the web page:<ul>
+		     <li><a href="http://www.eclipse.org/dsdp/tm/development/rse-committer.psf">
+		     http://www.eclipse.org/dsdp/tm/development/rse-committer.psf</a></li>
+		     <li><a href="http://www.eclipse.org/dsdp/tm/development/rse-anonymous.psf">
+		     http://www.eclipse.org/dsdp/tm/development/rse-anonymous.psf</a></li>
+		   </ul>You can either export a selection as team project set, or edit the 
+		   project set manually. For the pserver version, you typically need to replace-all
+		   ":extssh:" by ":pserver:".<p/></li>
 		</ul>
 
 		<h2>IP Due Diligence</h2>
@@ -67,7 +84,10 @@
 		   </ul>
 		   <li>Add the "www-tm-development" project to your workspace. You can do 
 		   this most easily by importing the Team Project set 
-		   <a href="/dsdp/tm/development/www-tm-development.psf">www-tm-development.psf</a>.
+		   from<ul><li>
+		     <a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
+		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a>
+		   </li></ul>
 		   In the www-tm project, add a line for the contribution in the <b>tm-log.csv</b>
 		   file. There are some sample lines already, so adding one should not be too hard.<p/></li>
 		   <li>Before committing both the code changes and the tm-log.csv, for any files
@@ -75,7 +95,8 @@
 		   file's copyright notice. It's good practice to give credit to our contributors.
 		   (when a whole new file is added by the contribution, leave the copyright notice
 		   as is, of course).<p/></li>
-		   <li>Make sure the bugzilla number is part of the commit message.</li>  
+		   <li>Make sure the bugzilla number is part of the commit message.</li>
+		</ul>  
 
 		<h2>Coding Guidelines</h2>
 		We <b>do not want to be too restrictive right now</b> - especially do not 
