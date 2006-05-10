@@ -67,36 +67,38 @@
 
 		<div class="homeitem3col">
 		<h3>Contributors (in alphabetical order)</h3>
-		Since we do not have any code contributions yet, we
-		list those people that have been active in the TM
-		face-to-face meetings and phone conferences so far.
-		The list is sorted alphabeticallz by company first, then last name:
+		This is the list of people who have made code contributions to the 
+		TM Project on Bugzilla so far. The list is sorted alphabetically
+		by last name:
 		<ul class="midlist">
-			<li><b>Mark Bozeman</b>, Accelerated Technology</li>
-			<li><b>George Clark</b>, Accelerated Technology</li>
-			<li><b>Aaron Spear</b>, Accelerated Technology</li>
-			<li><b>Mark Littlefield</b>, Curtiss-Wright Controls</li>
-			<li><b>Darian Wong</b>, Curtiss-Wright Controls</li>
-			<li><b>John Leier</b>, Digi</li>
-			<li><b>Kirk Beitz</b>, FreeScale</li>
-			<li><b>John Cortell</b>, FreeScale</li>
-			<li><b>Daymon Rogers</b>, FreeScale</li>
-			<li><b>Alan Boxall</b>, IBM Distributed Debugger</li>
-			<li><b>Peter Lachner</b>, Intel</li>
-			<li><b>Greg Watson</b>, LANL</li>
-			<li><b>Joe Green</b>, Montavista</li>
 			<li><b>Pierre-Alexandre Masse</b>, Montavista</li>
 			<li><b>Ewa Matejska</b>, PalmSource</li>
-			<li><b>David Inglis</b>, QNX</li>
-			<li><b>Doug Schaefer</b>, QNX</li>
-			<li><b>Matthew Scarpino</b>, Star Bridge Systems</li>
 			<li><b>Javier Montalvo-Orús</b>, Symbian</li>
-			<li><b>Victor Palau</b>, Symbian</li>
-			<li><b>Neil Taylor</b>, Symbian</li>
-			<li><b>Paul Gingrich</b>, TI</li>
-			<li><b>Tianchao Li</b>, TU Munich</li>
-			<li><b>Felix Burton</b>, Wind River</li>
-			<li><b>Brian Nettleton</b>, Wind River</li>
+  		</ul>
+		</div>
+
+		<div class="homeitem3col">
+		<h3>Other interested parties</h3>
+		This is the list of companies and people who have been active
+		in the TM face-to-face meetings and phone conferences so far.
+		The list is sorted alphabetically by company first, then by last name:
+		<ul class="midlist">
+			<li><b>Accelerated Technology</b>:
+			  Mark Bozeman, George Clark, Aaron Spear</li>
+			<li><b>Curtiss-Wright Controls</b>: Mark Littlefield, Darian Wong</li>
+			<li><b>Digi</b>: John Leier</li>
+			<li><b>FreeScale</b>: Kirk Beitz, John Cortell, Daymon Rogers</li>
+			<li><b>IBM Distributed Debugger</b>: Alan Boxall</li>
+			<li><b>Intel</b>: Peter Lachner</li>
+			<li><b>LANL</b>: Greg Watson</li>
+			<li><b>Montavista</b>: Joe Green, Pierre-Alexandre Masse</li>
+			<li><b>PalmSource</b>: Ewa Matejska</li> 
+			<li><b>QNX</b>: David Inglis, Doug Schaefer</li>
+			<li><b>Star Bridge Systems</b>: Matthew Scarpino</li> 
+			<li><b>Symbian</b>: Javier Montalvo-Orús, Victor Palau, Neil Taylor</li>
+			<li><b>TI</b>: Paul Gingrich</li> 
+			<li><b>TU Munich</b>: Tianchao Li</li> 
+			<li><b>Wind River</b>: Felix Burton, Brian Nettleton</li>
   		</ul>
 		</div>
 	</div>
