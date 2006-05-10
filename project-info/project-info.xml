@@ -129,7 +129,8 @@
      - the separate project-info/maillist file as well.
     -->
 
-  <mailing-lists url="/dsdp/tm/index.php?page=community.html">
+  <mailing-lists url="http://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev">
+    <!-- In case we ever have more than one list, the url should point to our own info -->
     <list name="dsdp-tm-dev"/>
   </mailing-lists>
   

@@ -8,7 +8,16 @@
 
 	require_once($_SERVER['DOCUMENT_ROOT'] . "/projects/common/project-info.class.php");
 	$projectInfo = new ProjectInfo("dsdp.tm");
-	$projectInfo->generate_common_nav( $Nav );
+
+	function add2users() {
+   		global $Nav;
+		#$Nav->addCustomNav("FAQ", "/dash/user-faq.php", "", 2);
+	}   
+	function add2contributors() {
+		global $Nav;
+		$Nav->addCustomNav("Guidelines and Tools", "/dsdp/tm/development/index.php", "", 2);
+	}
+	$projectInfo->generate_common_nav( $Nav, "add2users", NULL, "add2contributors" );
 
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)

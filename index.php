@@ -39,22 +39,20 @@
 		 and their services.</p>
 		<p>Our first public release (September 2006) will be based on the commercial
 		<a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-		IBM Remote Systems Explorer</a>. Eclipse IP Review has been completed for the
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=125719">original submission</a>,
-		and our first milestone (M1) has been 
+		IBM Remote Systems Explorer</a>. Our first open source milestone (M1) has been 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/">released</a>
-		on Friday, April 28.</p>
+		on Friday, April&nbsp;28.</p>
 		<p> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> </p>
 		<div class="homeitem">
 			<h3>Quick Links</h3>
 				<ul class="midlist">
 					<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions and other "not so official" stuff there.</li>
-					<li><a href="news://news.eclipse.org/eclipse.dsdp.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm">archived</a>).</li>
+					<li><a href="news://news.eclipse.org/eclipse.dsdp.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm">Web access</a>, <a href="http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html">archive</a>).</li>
 					<li><a href="http://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev" target="_blank"><b>Mailing List</b></a> | For project development discussions.</li>
 					<li><a href="http://bugs.eclipse.org/bugs" target="_blank"><b>Bugs</b></a> 
 					   | View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
-					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target+Management">Submit new</a> bugs
+					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
 					</li>
 					<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management</a></li>
 					<li><a href="/dsdp/tm/development/plan.php"><b>Project Plan</b></a>
@@ -62,9 +60,15 @@
 		<div class="homeitem">
 			<h3>Events</h3>
 			<ul class="midlist">
-				<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM/Face-to-face_Toronto_23-Feb-2006" target="_blank"><b>Face-to-Face Meeting Toronto</b></a>, 23/24-Feb-2006</li>
-				<li><a href="http://www.eclipsecon.org/2006/Sub.do?id=287" target="_blank"><b>Using and Extending the DSDP Target Management Framework</b></a>, long talk at EclipseCon 2006 (
+				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
+				    (See the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a> for actual
+				    agenda and details)</li>
+				<li>
+				  <!-- <a href="http://eclipsezilla.eclipsecon.org/show_bug.cgi?id=287" target="_blank"> -->
+				  <a href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0" target="_blank">
+				  <b>Using and Extending the DSDP Target Management Framework</b></a>, long talk at EclipseCon 2006 (
 				<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">presentation file</a>)</li>
+				<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM/Face-to-face_Toronto_23-Feb-2006" target="_blank"><b>Face-to-Face Meeting Toronto</b></a>, 23/24-Feb-2006</li>
 		</div>
 	</div>
 
@@ -90,9 +94,9 @@
 			<h6>What's New</h6>
 			<ul> 
 			    <li>Apr 28th: RSE M1 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">released!</a></li>
-				<li>Apr 10th: IP Review of RSE Submission completed successfully!</li>
+				<li>Apr 10th: IP Review of RSE Submission completed!</li>
 				<li>Mar 22nd: About 70 participants at the<a
-					href="http://www.eclipsecon.org/2006/Sub.do?id=287"
+					href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>
 				<li>Feb 28th: Updated the <a
 					href="/dsdp/tm/development/plan.php"
@@ -100,6 +104,14 @@
 			</ul>
 		</div>
 		<div class="sideitem">
+   			<h6>Project Status</h6>
+   			<ul>
+     			<li>This project is in the 
+     			<a href="/projects/dev_process/validation-phase.php">Incubation Phase</a>
+     			</li>
+   			</ul>.
+ 		</div>
+ 		<div class="sideitem">
    			<h6>Incubation</h6>
    			<div align="center"><a href="/projects/gazoo.php"><img 
         		align="center" src="/images/gazoo-incubation.jpg" 
