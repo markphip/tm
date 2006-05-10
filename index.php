@@ -67,8 +67,8 @@
 				<li>
 				  <!-- <a href="http://eclipsezilla.eclipsecon.org/show_bug.cgi?id=287" target="_blank"> -->
 				  <a href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0" target="_blank">
-				  <b>Using and Extending the DSDP Target Management Framework</b></a>, long talk at EclipseCon 2006 (
-				<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">presentation file</a>)</li>
+				  <b>Using and Extending the DSDP Target Management Framework</b></a>, long talk at EclipseCon 2006
+				  (<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">presentation file</a>)</li>
 				<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM/Face-to-face_Toronto_23-Feb-2006" target="_blank"><b>Face-to-Face Meeting Toronto</b></a>, 23/24-Feb-2006</li>
 		</div>
 	</div>
@@ -77,6 +77,8 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
+			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
+			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>

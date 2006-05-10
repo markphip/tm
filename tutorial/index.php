@@ -39,10 +39,14 @@
     <p>
     The basis for our implementations will be an open-source version
     of the <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-    IBM Remote System Explorer</A>.</p>
+    IBM Remote System Explorer</A>. Current milestones can be downloaded for evaluation
+    <a href="http://download.eclipse.org/dsdp/tm/downloads/">here</a>.</p>
 	  <div class="homeitem3col">
 		<h3>For more information, see the</h3>
     	<ul>
+    	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
+      		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
+      		Project fits into DSDP, and what its basic building blocks are.</li> 
     	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
@@ -63,7 +67,9 @@
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Getting started</h6>
-			<ul>				
+			<ul>
+			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
+			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"

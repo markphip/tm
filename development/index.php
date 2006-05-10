@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "DSDP-TM Developer Resources";
+	$pageTitle 		= "TM Developer Resources";
 	$pageKeywords	= "developer,resources,device,target";
 	$pageAuthor		= "Martin Oberhuber";
 	
@@ -39,11 +39,14 @@
 				<ul class="midlist">
 					<li><b><a
 						href="http://dev.eclipse.org/viewcvs/index.cgi?cvsroot=DSDP_Project">CVS Repository</a></b><br/>
-						TM development is managed in rwo CVS repositories:
+						TM development is managed in 
+						<!-- two CVS repositories:
 						<ul class="midlist">
 							<li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">Core Repository</a>
 						    <li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>
 						</ul>
+						-->
+						the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>.
 						Both "pserver" and "extssh" are supported. See <a
 							href="http://dev.eclipse.org/cvshowto.html">Using Eclipse with
 						CVS</a> for instructions.</li>
@@ -51,38 +54,21 @@
 						href="http://www.eclipse.org/webtools/development/apiscanner/apiscanner.html">Eclipse API Scanner</a></b><br/>Describe the API of a component and scan plug-ins for API
 						violations (from the <a href="http://www.eclipse.org/webtools"
 						target="_top">WebTools</a> project).</li>
-					<li><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target+Management"><b>Bug Reports</b></a><br/>Eclipse uses <a target="_top"
-						href="http://bugzilla.mozilla.org/">Bugzilla</a> for bug
-						tracking. View <a
-							href="http://dev.eclipse.org/bugs/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&product=Target+Management">all
-						open</a> TM bug reports or <a target="_top"
-							href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target+Management">open
-						new</a> bugs. View <a href="https://bugs.eclipse.org/bugs/describecomponents.cgi?product=Target+Management">this</a> report to see a list of component owners.</li>
 					<li><b><a href="http://www.eclipse.org/webtools/development/piitools/piitools.html">Check
 						Unused Properties Tool</a></b> <br>
 						Scan property files for unused messages (from the <a
 							href="http://www.eclipse.org/webtools" target="_top">WebTools</a>
 						project).</li>
-					<li><b><a
-							href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target+Management&bug_severity=enhancement">Feature
-						Requests</a></b> <br>
-						Use Bugzilla to submit new features using severity setting of
-						'enhancement'.</li>
-					<li><b><a
-							href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/platform-core-home/downloads.html">Core
+					<li><b><a href="http://www.eclipse.org/eclipse/platform-core/downloads.html">Core
 						Tools</a></b> <br>
 						Useful utilities from the Platform team. Consider adding their
-						update <a
-							href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/platform-core-home/updates
-						">site</a>
-						to your configuration.</li>
+						<a href="http://www.eclipse.org/eclipse/platform-core/downloads.html#updates">
+						update site</a> to your configuration.</li>
 					<li><b><a
-						href="http://download.eclipse.org/eclipse/downloads/drops/R-3.1-200506271435/download.php?dropFile=org.eclipse.releng.tools_3.1.0.zip">Release
-						Engineering Tool</a></b> <br>
-						Use this tool with the project&#39;s release engineering build
-						process.</li>
+						href="http://wiki.eclipse.org/index.php/Platform-releng">Release Engineering</a></b> <br>
+						See the instructions, FAQs and help from the Platform-Releng team.</li>
 					<li><b><a
-						href="http://www.eclipse.org/org/processes/dashboard/dashboard_detail.php?project=Target+Management">Project
+						href="http://www.eclipse.org/projects/dashboard/dashboard_detail.php?project=dsdp.tm">Project
 						Dashboard</a></b> <br>
 						View generated project statistics.</li>
 					<li><b><a
@@ -95,26 +81,21 @@
 		<div class="homeitem">
 			<h3>Development Resources</h3>
 				<ul class="midlist">
-					<li><b><a
-							href="http://help.eclipse.org/help30/topic/org.eclipse.platform.doc.isv/reference/misc/api-usage-rules.html">API
-						Guidelines</a></b> <br>
-						Look <a
-							href="http://help.eclipse.org/help30/topic/org.eclipse.platform.doc.isv/reference/misc/api-usage-rules.html">here</a>
-						for general Eclipse API rules of engagement. Other resources
-						include a draft of <a
-							href="http://www.eclipse.org/org/processes/Eclipse%20Quality%20APIs%20v2.pdf">Eclipse
-						Quality APIs</a>, and works by Jim des Rivieres: <a
-							href="http://www.eclipse.org/eclipse/development/java-api-evolution.html">Evolving
-						Java-based APIs</a> and an EclipseCon presentation <a
-							href="http://www.eclipsecon.org/2005/presentations/EclipseCon2005_12.2APIFirst.pdf">API
-						First</a>.</li>
-					<li><b><a
-							href="http://dev.eclipse.org/conventions.html">Conventions and
-						Guidelines</a></b> <br>
-						Look <a href="http://dev.eclipse.org/conventions.html">here</a>
-						and <a
-							href="http://help.eclipse.org/help30/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/misc/naming.html">here</a>
-						for the for the coding standards, naming conventions, and other
+					<li><b><a href="/dsdp/tm/development/committer_guide.php">Committer Guidelines</a></b><br>
+						Committers need to follow check-in conventions and IP Due Diligence as outlined
+						<a href="/dsdp/tm/development/committer_guide.php">here</a>. 
+						</li>
+					<li><b><a href="http://wiki.eclipse.org/index.php/API_Central">API Guidelines</a></b><br>
+						Look <a href="http://help.eclipse.org/help30/topic/org.eclipse.platform.doc.isv/reference/misc/api-usage-rules.html">
+						here</a> for general Eclipse API rules of engagement. We strive to achieve 
+						<a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
+						Eclipse Quality</a>, as outlined in the draft of
+						<a href="http://www.eclipse.org/projects/dev_process/Eclipse%20Quality%20APIs%20v2.pdf">
+						Eclipse Quality APIs</a>.
+						</li>
+					<li><b><a href="http://wiki.eclipse.org/index.php/Development_Conventions_and_Guidelines">
+					    Coding Conventions</a></b><br>
+						Coding standards, naming conventions, and other
 						guidelines used by the Platform. TM will use these conventions
 						until such time as deviation is required.</li>
 					<li><b><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt" target="_self">
@@ -126,13 +107,14 @@
 						Look here for a list of the project use cases and their
 						priorities.</li>
 					<li><b><a
-						href="http://www.eclipse.org/dsdp/dsdp-charter.html">Charter</a></b>
+						href="http://www.eclipse.org/dsdp/dsdp-charter.php">Charter</a></b>
 						<br>
 						As a DSDP subproject, the TM project abides by the
-						DSDP Project charter found <a
-							href="http://www.eclipse.org/dsdp/dsdp-charter.html">here</a>.</li>
+						<a href="/dsdp/dsdp-charter.php">DSDP Project charter</a> and the
+						<a href="http://www.eclipse.org/projects/dev_process/Eclipse_Standard_TopLevel_Charter_v1.0.php">
+						Eclipse Standard Charter</a>.</li>
 					<li><b><a
-							href="http://www.eclipse.org/dsdp/tm/development/contributors.php">Contributors
+							href="/dsdp/tm/development/contributors.php">Contributors
 						and Committers</a></b> <br>
 						List of TM Project contributors and committers.</li>
 				</ul>
@@ -143,6 +125,8 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
+			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
+			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>

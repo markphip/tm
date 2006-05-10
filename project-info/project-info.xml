@@ -21,7 +21,7 @@
      - also have a short name to be used in HTML lists and other horizontally
      - challenged places.
     -->
-  <short-name>DSDP-TM</short-name>
+  <short-name>Target Management</short-name>
   
   <!--
      - Each Eclipse project has one or more Bugzilla products and components.
