@@ -80,7 +80,7 @@
 		     Contribution Questionnaire</a> has to be filled out!
 		     (The 250 line clause can be waived if the contributor is a committer
 		     himeself, and there is a member committer agreement in place for 
-		     his employer company).</li><p/>
+		     his employer company; it may also be waived for plain bug fixes).</li><p/>
 		   </ul>
 		   <li>Add the "www-tm-development" project to your workspace. You can do 
 		   this most easily by importing the Team Project set 
