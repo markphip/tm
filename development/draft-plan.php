@@ -53,7 +53,7 @@ background-repeat: repeat-y
 			</tbody>
 		</table><hr/>
 		-->
-		<p>Last revised 15:00 CET May 11, 2006 (
+		<p>Last revised 17:20 CET May 15, 2006 (
 		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
 		marks interesting recent changes since the previous draft of April 10, 2006)</p>
 
