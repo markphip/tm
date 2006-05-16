@@ -25,6 +25,7 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local,org.eclipse.rse.services.local"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.ssh,org.eclipse.rse.services.ssh"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.shells.ui,org.eclipse.rse.shells.ui"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.ssh-feature,org.eclipse.rse.ssh-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.core,org.eclipse.rse.subsystems.files.core"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.dstore,org.eclipse.rse.subsystems.files.dstore"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.ftp,org.eclipse.rse.subsystems.files.ftp"/>
