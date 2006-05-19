@@ -53,7 +53,7 @@ background-repeat: repeat-y
 			</tbody>
 		</table><hr/>
 		-->
-		<p>Last revised 10:45 CEST May 19, 2006 (
+		<p>Last revised 10:55 CEST May 19, 2006 (
 		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
 		marks interesting recent changes since the previous draft of April 10, 2006)</p>
 
@@ -303,8 +303,7 @@ compatible with Eclipse Platform 3.2 release and will publish binary
 and source compatibilities with migration guides on subsequent releases.</p>
 
 <h3>API Contract</h3>
-<p>It is a goal of the Target Management Project to avoid
-provisional APIs. APIs published for the 1.0 release will be carefully
+<p>APIs published for the 1.0 release will be carefully
 reviewed prior to release, making use of "internal" packages for
 unsupported and variable implementation classes. Client plug-ins that
 directly depend on anything other than what is specified in the
@@ -313,7 +312,15 @@ about future compatibility. Refer to <i><a
 	href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
 to Use the Eclipse API</a></i> for information about how to write
 compliant plug-ins.</p>
-
+<p><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+Though it is our goal to create stable APIs, being able to do so
+depends on the amount of API feedback we will get from the community.
+As described in <a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
+<i>Eclipse Quality APIs</i></a>, we may therefore mark some of our
+APIs provisional. This removes the guarantee of 1.0 to 2.0 compatibility,
+though we'd strive to achieve that. For those APIs declared provisional
+in RSE 1.0, we'd expect to get sufficient feedback during the 1.0 to
+2.0 development period to declare the APIs final.</p>
 
 <h2><a name="Features">Features and Capabilities</a></h2>
 <p>
