@@ -71,6 +71,7 @@
 		TM Project on Bugzilla so far. The list is sorted alphabetically
 		by last name:
 		<ul class="midlist">
+			<li><b>Michael Berger</b>, IBM
 			<li><b>Pierre-Alexandre Masse</b>, Montavista</li>
 			<li><b>Ewa Matejska</b>, PalmSource</li>
 			<li><b>Javier Montalvo-Orús</b>, Symbian</li>

@@ -436,7 +436,7 @@ Release Review</a></li>
 October 20, 2006</h4>
 <ul>
 <li>Planned and coordinated testing on all supported reference platforms</li>
-<li>Bugfixing</li>
+<li>Bug fixing and verification</li>
 </ul>
 <p/>
 	</div>

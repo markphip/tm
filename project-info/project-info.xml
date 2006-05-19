@@ -214,10 +214,16 @@
       	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
       	<name>1.0M4</name>
 	</milestone>
+	<milestone status="scheduled" name="1.0M5">
+    	<date>22/09/2006</date>
+      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
+      	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
+      	<name>1.0M4</name>
+	</milestone>
     <release 
        status="scheduled"
        name="1.0"
-       date="22/09/2006"
+       date="20/10/2006"
        plan="/dsdp/tm/development/plan.php" />
   </releases>
 </project>

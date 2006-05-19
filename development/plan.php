@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "DSDP - Target Management Draft 1.0 Plan";
+	$pageTitle 		= "DSDP - Target Management 1.0 Plan";
 	$pageKeywords	= "development,project,plan,device,target,embedded,communication";
 	$pageAuthor		= "Martin Oberhuber";
 	
@@ -23,6 +23,16 @@
 	# $Nav->addNavSeparator("My Page Links", 	"downloads.php");
 	# $Nav->addCustomNav("My Link", "mypage.php", "_self", 3);
 	# $Nav->addCustomNav("Google", "http://www.google.com/", "_blank", 3);
+
+	# "Proposal" background image: url('/proposals/proposal.gif')
+	$extraHtmlHeaders = "<style>
+body {  
+background-image: url('/images/draft.gif');
+background-repeat: repeat-y
+}
+</style>
+	";
+	# $App->AddExtraHtmlHeader($extraHtmlHeaders);
 
 	# End: page-specific settings
 	#
@@ -43,9 +53,9 @@
 			</tbody>
 		</table><hr/>
 		-->
-		<p>Last revised 19:00 CET April 10, 2006 (
+		<p>Last revised 10:55 CEST May 19, 2006 (
 		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-		marks interesting recent changes since the previous draft of Mar. 13, 2006)</p>
+		marks interesting recent changes since the previous draft of April 10, 2006)</p>
 
 		
 <p><i>Please send comments about this draft plan to
@@ -99,8 +109,10 @@ namely:</p>
 <ul>
 	<li>Remote Systems Explorer source code release, available as versions tagged "R1_0" in the project's
 		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>
+		<!--
 		and
 		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>
+		-->
 		.
 	</li>
 	<li>Remote Systems Explorer SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
@@ -112,26 +124,32 @@ namely:</p>
 <p>Release milestone will be occurring at roughly 6 week intervals. The
 milestones are:</p>
 <ul>
-	<li>TBD - Milestone 0 (1.0 M0) - build machine in place</li>
 	<li>
 	Friday April <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-	21, 2006 - Milestone 1 (1.0 M1) - stable build</li>
+	28, 2006 - Milestone 1 (1.0 M1) - stable build</li>
 	<li>Friday May 19, 2006 - Milestone 2 (1.0 M2) - stable build</li>
-	<li>Friday June 30, 2006 - Milestone 3 (1.0 M3) - stable build (API freeze)</li>
-	<li>Friday August 11, 2006 - Milestone 4 (1.0 M4/RC0) - stable build</li>
+	<li>Friday June 30, 2006 - Milestone 3 (1.0 M3) - stable build</li>
+	<li>Friday August 11, 2006 - 
+		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+		Milestone 4 (1.0 M4) - stable build (API freeze)</li>
+	<li>Friday September 22, 2006 - 
+		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+		Milestone 5 (1.0 M5/RC0) - stable build</li>
 </ul>
-<p>Lock down and testing then begins with M4, and progress through a
+<p>Lock down and testing then begins with M5, and progress through a
 series of test-fix passes against candidates releases. 
-Release candidate builds are planned as follows (M4 is
+Release candidate builds are planned as follows (M5 is
 release candidate 0):</p>
 <ul>
-	<li>Friday August 25, 2006 - Release Candidate 1 - (1.0 RC1)</li>
-	<li>Friday September 8, 2006 - Release Candidate 2 - (1.0 RC2)</li>
-	<li>Friday September 22, 2006 - Release Candidate 3 - (1.0 RC3)</li>
+	<li>Friday October 6, 2006 - Release Candidate 1 - (1.0 RC1)</li>
+	<li>Friday October 13, 2006 - Release Candidate 2 - (1.0 RC2)</li>
+	<li>Friday 
+		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+		October 20, 2006 - Release Candidate 3 - (1.0 RC3) - Release target date</li>
 </ul>
-<p>As soon as no critical problems are found in the two-week testing
-period between two release candidates, a release candidate can be 
-declared the release.</p>
+<p>As soon as no critical problems are found in the testing
+period between two release candidates (one or two weeks),
+a release candidate can be declared the release.</p>
 <p>All release deliverables
 will be available for download as soon as the release has been tested
 and validated in the operating environments listed below.</p>
@@ -285,8 +303,7 @@ compatible with Eclipse Platform 3.2 release and will publish binary
 and source compatibilities with migration guides on subsequent releases.</p>
 
 <h3>API Contract</h3>
-<p>It is a goal of the Target Management Project to avoid
-provisional APIs. APIs published for the 1.0 release will be carefully
+<p>APIs published for the 1.0 release will be carefully
 reviewed prior to release, making use of "internal" packages for
 unsupported and variable implementation classes. Client plug-ins that
 directly depend on anything other than what is specified in the
@@ -295,7 +312,15 @@ about future compatibility. Refer to <i><a
 	href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
 to Use the Eclipse API</a></i> for information about how to write
 compliant plug-ins.</p>
-
+<p><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+Though it is our goal to create stable APIs, being able to do so
+depends on the amount of API feedback we will get from the community.
+As described in <a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
+<i>Eclipse Quality APIs</i></a>, we may therefore mark some of our
+APIs provisional. This removes the guarantee of 1.0 to 2.0 compatibility,
+though we'd strive to achieve that. For those APIs declared provisional
+in RSE 1.0, we'd expect to get sufficient feedback during the 1.0 to
+2.0 development period to declare the APIs final.</p>
 
 <h2><a name="Features">Features and Capabilities</a></h2>
 <p>
@@ -311,80 +336,108 @@ be concentrated on for each. These themes are presented below, while the
 requirements document and associated Bugzilla entries are left to those 
 wanting more detailed information on each.</p>
 
-<h4>M0 Theme: Infrastructure in place (as soon as EMO completes IP review, + 1 week)</h4>
-<ul>
-<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
-give
-easy access to RSE to a wider community; acquire API comments, begin
-prototyping; documentation feedback regarding missing or semantically
-incorrect instructions (but not about incorrect wording, package names
-etc.), get obvious bugs into Bugzilla, find client OS problems</li>
-<li>Deliverables: Runtime, SDK; some examples part of SDK, but no separate download yet.</li>
-<li>ISV Doc and User doc in its current form (marked "outdated")</li>
-<li>Start automated (weekly) builds</li>
-<li>Create Download site to give access to automated builds</li>
-<li>Plugin and feature versions set to 1</li>
-<li>Add basic framework for automated tests</li>
-</ul>
-
 <h4>M1 Theme: Functional (April 
 <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-21)</h4>
+28)</h4>
 <ul>
 <li><span style="color: rgb(51, 204, 0);">Purpose:</span>
-Add required functionality to provide an environment that is 
-complete for those applications that we currently know of.</li>
+give easy access to RSE to a wider community; acquire API comments, begin
+prototyping; get obvious bugs into Bugzilla, find client OS problems.</li>
+<li>Deliverables: SDK package (plugins and features, no docs yet), rseserver packages.</li>
+<li>Get Build Infrastrucure in place for assembling SDK and rseserver packages. 
+Create Download site.</li>
+<li>Plugin and feature versions set to 1.</li>
+<li>Start Refactoring to separate UI from Non-UI components</li>
+<li>Hide "New..." entries from the RSE tree</li>
+<li>Fix obvious bugs in order to enable community usage of the SDK</li>
+</ul>
+
+<h4>M2 Theme: Added Function (May 19)</h4>
+<ul>
+<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
+Lots of API feedback by the community, lots of bug reports.
+Documentation feedback regarding missing or semantically
+incorrect instructions (but not about incorrect wording, 
+package names etc.) </li>
+<li>Deliverables: Same as M1, docs on bugzilla.</li>
 <li>More Refactoring</li>
-<li>Wizard completely replacable</li>
-<li>Hide "New..." entries from the RSE tree - Register "New
-Connection" as a New Wizard</li>
+<li>Start automated (weekly, nightly) builds</li>
+<li>Register "New Connection" as a New Wizard</li>
 <li>Add Persistence Provider for sharing in a team (make
 different versions merge-able by using a scheme that is simpler than
 XMI)</li>
 <li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-Add example plugin with secure shell (shh) command view implementation</li>
-<li>Write some Manual Test Plans (Scripts, what the manual
-testers have to do)</li>
+ISV Doc and User doc in its current form (marked "outdated")</li>
+<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+Add secure shell (ssh) support for command view and files (sftp)</li>
+<li>Some examples in CVS</li>
+<li>Manual Test Plans (Scripts, what the manual testers have to do)</li>
 </ul>
 
-<h4>M2 Theme: Functional Complete (May 19)</h4>
+<h4>M3 Theme: Functional Complete (June 30)</h4>
 <ul>
 <li><span style="color: rgb(51, 204, 0);">Purpose:</span>
-More
-prototyping, lots of prototype and API feedback by the community, lots
-of bug reports</li>
-<li>Deliverables: Add JUnit tests to Downloads, Make separate download for examples</li>
-<li>More Refactoring</li>
-<li>Add User Actions</li>
-<li>Add Import / Export facility</li>
-<li>Telnet (contributed by WR)</li>
-<li>Write more Manual Test Plans (Scripts, what the manual
-testers have to do)</li>
-<li>Some automated Test Scripts</li>
-<li>Community Feedback on APIs, Docs</li>
-</ul>
-
-<h4>M3 Theme: API Freeze (June 30)</h4>
-<ul>
-<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
+Add required functionality to provide an environment that is 
+complete for those applications that we currently know of. 
 Finding &amp; fixing bugs, prototyping, documentation feedback, use to
 drive future function requests (for next release), verification of
-extensions, usage in various different environments</li>
-<li>Final form for ISV Doc</li>
-<li>Community Feedback on APIs, Docs</li>
+extensions, usage in various different environments.</li>
+<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+Deliverables: Add Docs to SDK. Add Runtime and JUnit tests to Downloads. Make separate download for examples. Add an Automatic Update Site</li>
+<li>More Refactoring: Incorporate community feedback on APIs, Docs</li>
+<li>Add examples, e.g. CDT Launch Example</li>
+<li>Wizard completely replacable</li>
+<li>Add User Actions</li>
+<li>Add Import / Export facility</li>
+<li>Draft form of new ISV doc</li>
+<li>More manual test plans</li>
+<li>Add basic framework for automated tests, add some automated Test Scripts (JUnit).</li>
 <li>Bugfixing</li>
 </ul>
 
-<h4>M4 / RC0 Theme: Ready to Release (August 11)</h4>
+<h4>M4 Theme: API Freeze (August 11)</h4>
+<ul>
+<li><span style="color: rgb(51, 204, 0);">Purpose:</span>
+Planned and coordinated testing on all supported reference platforms,
+polishing, finding documentation issues</li>
+<li>Updated FTP Implementation (through Jakarta Commons Net)</li>
+<li>Telnet (through Jakarta Commons Net)</li>
+<li>Incorporate Community Feedback on APIs, Docs, and change where appropriate</li>
+<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+API and String Constants polish to meet <i>
+<a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
+Eclipse Quality</a></i></li>
+<li>Final form for ISV Doc</li>
+<li>Automated testing for some of API</li>
+<li>Bugfixing</li>
+</ul>
+
+<h4>M5 / RC0 Theme: Ready to Release (September 22)</h4>
 <ul>
 <li><span style="color: rgb(51, 204, 0);">Purpose:</span>
 Planned and coordinated testing on all supported reference platforms,
 fixing final bugs</li>
 <li>Final form of User Doc</li>
 <li>Localization and product polish</li>
+<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+Implementation and Documentation Polish to meet <i>
+<a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
+Eclipse Quality</a></i>: Get rid of accessing Platform <i>internal</i> packages</li>
+<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+JUnit tests and specification for all API where reasonable</li>
+<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+Prepare for <a href="http://www.eclipse.org/projects/dev_process/release-review.php">
+Release Review</a></li>
+<li>Bugfixing</li>
 </ul>
 
-<h4>RSE Release 1.0.0: Target date September 22, 2006</h4>
+<h4>RSE Release 1.0.0: Target date 
+<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+October 20, 2006</h4>
+<ul>
+<li>Planned and coordinated testing on all supported reference platforms</li>
+<li>Bug fixing and verification</li>
+</ul>
 <p/>
 	</div>
 </div>

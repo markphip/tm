@@ -97,14 +97,13 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul> 
+				<li>May 19th: Updated the <a
+					href="/dsdp/tm/development/plan.php"
+					target="_self">Project Plan</a> - New release date Oct. 20th</li>
 			    <li>Apr 28th: RSE M1 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">released!</a></li>
-				<li>Apr 10th: IP Review of RSE Submission completed!</li>
 				<li>Mar 22nd: About 70 participants at the<a
 					href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>
-				<li>Feb 28th: Updated the <a
-					href="/dsdp/tm/development/plan.php"
-					target="_self">Project Plan</a></li>
 			</ul>
 		</div>
 		<div class="sideitem">
