@@ -53,7 +53,7 @@ background-repeat: repeat-y
 			</tbody>
 		</table><hr/>
 		-->
-		<p>Last revised 17:20 CET May 15, 2006 (
+		<p>Last revised 10:45 CEST May 19, 2006 (
 		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
 		marks interesting recent changes since the previous draft of April 10, 2006)</p>
 
@@ -352,7 +352,7 @@ Lots of API feedback by the community, lots of bug reports.
 Documentation feedback regarding missing or semantically
 incorrect instructions (but not about incorrect wording, 
 package names etc.) </li>
-<li>Deliverables: Add docs to SDK.</li>
+<li>Deliverables: Same as M1, docs on bugzilla.</li>
 <li>More Refactoring</li>
 <li>Start automated (weekly, nightly) builds</li>
 <li>Register "New Connection" as a New Wizard</li>
@@ -376,7 +376,7 @@ Finding &amp; fixing bugs, prototyping, documentation feedback, use to
 drive future function requests (for next release), verification of
 extensions, usage in various different environments.</li>
 <li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-Deliverables: Add Runtime and JUnit tests to Downloads. Make separate download for examples. Add an Automatic Update Site</li>
+Deliverables: Add Docs to SDK. Add Runtime and JUnit tests to Downloads. Make separate download for examples. Add an Automatic Update Site</li>
 <li>More Refactoring: Incorporate community feedback on APIs, Docs</li>
 <li>Add examples, e.g. CDT Launch Example</li>
 <li>Wizard completely replacable</li>
