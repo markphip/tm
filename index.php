@@ -37,11 +37,11 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
-		<p>Our first public release (September 2006) will be based on the commercial
+		<p>Our first public release (October 2006) will be based on the commercial
 		<a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-		IBM Remote Systems Explorer</a>. Our first open source milestone (M1) has been 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/">released</a>
-		on Friday, April&nbsp;28.</p>
+		IBM Remote Systems Explorer</a>. Our second open source milestone (M2) has been 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/">posted</a>
+		on Friday, May&nbsp;19.</p>
 		<p> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> </p>
 		<div class="homeitem">
@@ -97,11 +97,12 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul> 
+				<li>May 19th: RSE M2 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">posted!</a></li>
 				<li>May 19th: Updated the <a
 					href="/dsdp/tm/development/plan.php"
 					target="_self">Project Plan</a> - New release date Oct. 20th</li>
 			    <li>Apr 28th: RSE M1 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">released!</a></li>
-				<li>Mar 22nd: About 70 participants at the<a
+			    <li>Mar 22nd: About 70 participants at the<a
 					href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>
 			</ul>

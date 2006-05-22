@@ -65,7 +65,9 @@
     -->
   <cvs repository="/cvsroot/dsdp">
     <module path="org.eclipse.tm.rse" /> 
+    <!--
     <module path="org.eclipse.tm.core" /> 
+	-->
   </cvs>
 
   <!--
