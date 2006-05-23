@@ -51,7 +51,7 @@
 						<a href="rse-anonymous.psf">rse-anonymous.psf</a> or
 						<a href="rse-committer.psf">rse-committer.psf</a>
 						project set to populate your workspace. See
-						<a href="http://dev.eclipse.org/cvshowto.html">Using Eclipse with
+						<a href="http://wiki.eclipse.org/index.php/CVS_Howto">Using Eclipse with
 						CVS</a> for instructions. A 
 						<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/index.html">
 						CVS Changelog</a> is available.</li>
