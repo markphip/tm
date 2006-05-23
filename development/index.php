@@ -88,7 +88,8 @@
 		<div class="homeitem">
 			<h3>Development Resources</h3>
 				<ul class="midlist">
-					<li><b><a href="/dsdp/tm/development/committer_guide.php">Committer Guidelines</a></b><br>
+					<li><b><a href="/dsdp/tm/development/committer_howto.php">Committer HOWTO</a></b><br>
+						Simple cookbook instructions for performing basic tasks properly.
 						Committers need to follow check-in conventions and IP Due Diligence as outlined
 						<a href="/dsdp/tm/development/committer_guide.php">here</a>. 
 						</li>

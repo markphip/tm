@@ -33,7 +33,9 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<p>While we do not want to get too process-heavy, there are a few simple
-		things that will make all our lives easier.</p>
+		things that will make all our lives easier. See also the
+		<a href="committer_howto.php">committer HOWTO</a>
+		for simple cookbook-style instructions for common tasks.</p>
 
 		<h2>Checkin Policies</h2>
 		<ul><li>When you check in a fix for a bugzilla entry, <b>please</b> include
