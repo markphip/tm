@@ -8,10 +8,11 @@ ustieber,,,,,
 
 Developer Contributions,,,,,
 component (CVS directory),bug #,contributor name,size,committer,description
-RSF Sample Code,65471,Pierre-Alexandre Masse,? LOC,not yet,RSF Sample Code from Montavista
-RSE Initial Submission,125719,Various IBM,? LOC,ddykstal,RSE Initial Contribution
-org.eclipse.rse.examples.cdt,137839,Ewa Matejska,? LOC,not yet,CDT Launch Integration
-org.eclipse.rse.services.ftp,140404,Javier Montalvo-Orus,small,not yet,Patch for create folder on FTP service
+-,65471,Pierre-Alexandre Masse,? LOC,not yet,RSF Sample Code from Montavista
+org.eclipse.rse.*,125719,Various IBM,? LOC,ddykstal,RSE Initial Submission
+org.eclipse.rse.examples.cdt,137839,Ewa Matejska,471 LOC,not yet,CDT Launch Integration
+org.eclipse.rse.services.local,138619,Javier Montalvo Orús,2 LOC,ddykstal,Patch for encoding on Win2K
+org.eclipse.rse.ui,140562,Javier Montalvo Orús,17 LOC,kmunir,Register New Connection as New Wizard
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
