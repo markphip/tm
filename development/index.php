@@ -47,9 +47,14 @@
 						</ul>
 						-->
 						the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>.
-						Both "pserver" and "extssh" are supported. See <a
-							href="http://dev.eclipse.org/cvshowto.html">Using Eclipse with
-						CVS</a> for instructions.</li>
+						Use the
+						<a href="rse-anonymous.psf">rse-anonymous.psf</a> or
+						<a href="rse-committer.psf">rse-committer.psf</a>
+						project set to populate your workspace. See
+						<a href="http://dev.eclipse.org/cvshowto.html">Using Eclipse with
+						CVS</a> for instructions. A 
+						<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/index.html">
+						CVS Changelog</a> is available.</li>
 					<li><b><a
 						href="http://www.eclipse.org/webtools/development/apiscanner/apiscanner.html">Eclipse API Scanner</a></b><br/>Describe the API of a component and scan plug-ins for API
 						violations (from the <a href="http://www.eclipse.org/webtools"
@@ -67,10 +72,12 @@
 					<li><b><a
 						href="http://wiki.eclipse.org/index.php/Platform-releng">Release Engineering</a></b> <br>
 						See the instructions, FAQs and help from the Platform-Releng team.</li>
+					<!-- Dashboard is currently not useful.
 					<li><b><a
 						href="http://www.eclipse.org/projects/dashboard/dashboard_detail.php?project=dsdp.tm">Project
 						Dashboard</a></b> <br>
 						View generated project statistics.</li>
+					-->
 					<li><b><a
 						href="https://dev.eclipse.org/committers">Eclipse Committer
 						Tools</a></b> <br>
