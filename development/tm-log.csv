@@ -9,10 +9,10 @@ ustieber,,,,,
 Developer Contributions,,,,,
 component (CVS directory),bug #,contributor name,size,committer,description
 -,65471,Pierre-Alexandre Masse,? LOC,not yet,RSF Sample Code from Montavista
-org.eclipse.rse.*,125719,Various IBM,? LOC,ddykstal,RSE Initial Submission
-org.eclipse.rse.examples.cdt,137839,Ewa Matejska,471 LOC,not yet,CDT Launch Integration
-org.eclipse.rse.services.local,138619,Javier Montalvo Orús,2 LOC,ddykstal,Patch for encoding on Win2K
-org.eclipse.rse.ui,140562,Javier Montalvo Orús,17 LOC,kmunir,Register New Connection as New Wizard
+org.eclipse.tm.rse/*,125719,Various IBM,? LOC,ddykstal,RSE Initial Submission
+plugins/org.eclipse.rse.services.local,138619,Javier Montalvo Orús,2 LOC,ddykstal,Patch for encoding on Win2K
+plugins/org.eclipse.rse.ui,140562,Javier Montalvo Orús,17 LOC,kmunir,Register New Connection as New Wizard
+examples/org.eclipse.rse.remotecdt,137839,Ewa Matejska,471 LOC,moberhuber,CDT Launch Integration
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
