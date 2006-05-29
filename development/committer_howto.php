@@ -41,6 +41,7 @@
 		
 		<p>How do I...</p>
 
+		<a name="checkin_fix">
 		<h2>Check in a bugfix I wrote myself</h2>
 		<ul>
 		  <li>Find the bug report in bugzilla, and fix it.</li>
@@ -54,6 +55,7 @@
 		  <li>Set the bugzilla report FIXED.</li>
 		</ul>
 		
+		<a name="external_contrib">
 		<h2>Apply a patch from an external contributor</h2>
 		<ul>
 		  <li>Ensure that the patch is on <b>bugzilla</b>. If not, ask the contributor
@@ -86,22 +88,46 @@
 		     Contribution Questionnaire</a></li>
 		  <li>Once IP due diligence is completed: Apply the patch and commit it. Do not 
 		    make local modifications between applying and committing, in order to keep the 
-		    process transparent. Put the bugzilla number on the commit message.</li>
-		  <li>Add a line describing the contribution to the <b>tm-log.csv</b></li>
+		    process transparent. <b>Put the bugzilla number on the commit message</b>.</li>
+		  <li>Add a line describing the contribution to the <b>tm-log.csv</b> Project Log, see
+		    <a href="#project_log">below</a>.</li>
 		</ul>
 		
+		<a name="project_log">
+		<h2>Edit the TM Project Log (tm-log.csv)</h2>
+		<ul>
+		  <li>The Project Log is required as per the Eclipse 
+		    <a href="http://www.eclipse.org/projects/dev_process/project-log.php">
+		    Project Log Guidelines</a>. It records every non-committer-contribution
+		    (including legacy code contributions). Please keep it up-to-date.</li>
+		   <li><a name="www_tm_dev">Add the <b>www-tm-development</b> project 
+		   to your workspace. You can do 
+		   this most easily by importing the Team Project set 
+		   from<ul><li>
+		     <a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
+		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a>
+		   </li></ul></li>
+		   <li>When you already have the www-tm-development project in your workspace,
+		     <b>update it</b> before editing -- this saves you from having to merge before checkin.</li>
+		   <li>In the www-tm project, add a line for the contribution in the <b>tm-log.csv</b>
+		   file. There are some sample lines already, so adding one should not be too hard.</li>
+		   <li><b>Commit</b> the changed tm-log.csv file.</li>
+		</ul>
+		
+		<a name="add_plugin">
 		<h2>Add a plugin or other project to the workspace</h2>
 		<ul>
-		  <li>Commit your modifications</li>
-		  <li>Update the team project sets:<ul>
+		  <li>Commit your modifications.</li>
+		  <li>In the <b>www-tm-development</b> project (see <a href="#www_tm_dev">above</a> for how 
+		     to get it), update the <b>team project sets</b>:<ul>
 		     <li><a href="http://www.eclipse.org/dsdp/tm/development/rse-committer.psf">
 		     http://www.eclipse.org/dsdp/tm/development/rse-committer.psf</a></li>
 		     <li><a href="http://www.eclipse.org/dsdp/tm/development/rse-anonymous.psf">
 		     http://www.eclipse.org/dsdp/tm/development/rse-anonymous.psf</a></li>
 		   </ul>You can either export a selection as team project set, or edit the 
 		   project set manually. For the pserver version, you typically need to replace-all
-		   ":extssh:" by ":pserver:".<p/></li>
-		  <li>Send an E-mail to dsdp-tm-dev, informing everybody that team project sets
+		   ":extssh:" by ":pserver:".</li>
+		  <li>Send an <b>E-mail</b> to dsdp-tm-dev, informing everybody that team project sets
 		    have been updated with your new plugins.</li>
 		</ul>
 
