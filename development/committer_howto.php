@@ -127,6 +127,27 @@ padding-bottom: 2px">
 		   <li><b>Commit</b> the changed tm-log.csv file.</li>
 		</ul>
 		
+		<a name="legacy_code">
+		<h2>Add some legacy code to the project</h2>
+		<ul>
+		  <li>Obtain <b>PMC Member Approval</b>: Write an e-mail to 
+		      <a href="mailto:dsdp-pmc@eclipse.org">dsdp-pmc@eclipse.org</a>,
+		      describing the intended contribution. Give the PMC an idea of how large the
+		      contribution is, what it is good for (cryptography?), and if there are 
+		      any other licenses than the EPL involved.</li>
+		  <li>PMC Member Approval should be returned by E-Mail.</li>
+		  <li>Create a <b>Bugzilla Entry</b> holding the contribution in a form that is suitable for checkin.
+		      A ZIP archive of all the files/projects affected is fine.</li>
+		  <li>Fill in a <a href="">Contribution Questionnaire</a> and wait for EMO approval.</li>
+		  <li>Once approved, check in the contribution. Dont forget to add the <b>bugzilla number
+		      on the commit message.</b> Commit the code verbatim as from the bug entry first, 
+		      and make any necessary modifications later.</li>
+		  <li>If project(s) were added, update the <b>*.psf Project Set Files</b> (see
+		      <a href="#add_plugin">below</a>). 
+		  <li>Add a line describing the contribution to the <b>tm-log.csv</b> Project Log, see
+		    <a href="#project_log">above</a>.</li>
+		</ul>
+		
 		<a name="add_plugin">
 		<h2>Add a plugin or other project to the workspace</h2>
 		<ul>
