@@ -18,6 +18,7 @@ doc/org.eclipse.rse.doc.isv,142739,David Dykstal,7800 lines of HTML,ddykstal,RSE
 doc/org.eclipse.dstore.doc.isv,142739,David Dykstal,950 lines of HTML,ddykstal,DStore ISV Documentation
 plugins/org.eclipse.dstore.core,142974,Michael Berger,? LOC,dmcknight,DStore patch for lost connection problem
 plugins/org.eclipse.rse.services.dstore,141813,Michael Berger,? LOC,dmcknight,DStore patch for symbolic links problem
+plugins/org.eclipse.dstore.core,144226,Michael Berger,? LOC,dmcknight,DStore spirit contribution
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
 Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
