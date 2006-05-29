@@ -55,7 +55,12 @@ background-repeat: repeat-y
 		-->
 		<p>Last revised 10:55 CEST May 19, 2006 (
 		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-		marks interesting recent changes since the previous draft of April 10, 2006)</p>
+		marks interesting recent 
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/plan.php.diff?r1=1.6&r2=1.8&cvsroot=Eclipse_Website">changes</a>
+		since the 
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/plan.php?rev=1.6&cvsroot=Eclipse_Website&content-type=text/html">
+		previous draft of April 10, 2006</a>)
+		</p>
 
 		
 <p><i>Please send comments about this draft plan to
