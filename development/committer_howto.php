@@ -138,7 +138,8 @@ padding-bottom: 2px">
 		  <li>PMC Member Approval should be returned by E-Mail.</li>
 		  <li>Create a <b>Bugzilla Entry</b> holding the contribution in a form that is suitable for checkin.
 		      A ZIP archive of all the files/projects affected is fine.</li>
-		  <li>Fill in a <a href="">Contribution Questionnaire</a> and wait for EMO approval.</li>
+		  <li>Fill in a <a href="http://www.eclipse.org/legal/ContributionQuestionnairePart1-v1.0.php">
+		  Contribution Questionnaire</a> and wait for EMO approval.</li>
 		  <li>Once approved, check in the contribution. Dont forget to add the <b>bugzilla number
 		      on the commit message.</b> Commit the code verbatim as from the bug entry first, 
 		      and make any necessary modifications later.</li>
