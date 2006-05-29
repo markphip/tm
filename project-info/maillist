@@ -1,1 +1,2 @@
 ::dsdp-tm-dev::This is a mailing list for the discussion of <a href="http://www.eclipse.org/dsdp/tm/">Target Management</a> development issues. Meeting invitations, proposals and ideas are all posted here. While this list is open to the public, it is intended for discussions related to the implementation of the relevant component. General questions about using Eclipse should be directed to the appropriate Eclipse newsgroup.
+::dsdp-tm-cvs-commit::Subscribe to this list to get notified whenever something is committed to the dsdp-tm CVS repository.

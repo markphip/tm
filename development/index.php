@@ -54,7 +54,8 @@
 						<a href="http://wiki.eclipse.org/index.php/CVS_Howto">Using Eclipse with
 						CVS</a> for instructions. A 
 						<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/index.html">
-						CVS Changelog</a> is available.</li>
+						CVS Changelog</a> is available, and you can subscribe to commit notifications on
+						<a href="https://dev.eclipse.org/mailman/listinfo/dsdp-tm-cvs-commit">dsdp-tm-cvs-commit</a>.</li>
 					<li><b><a
 						href="http://www.eclipse.org/webtools/development/apiscanner/apiscanner.html">Eclipse API Scanner</a></b><br/>Describe the API of a component and scan plug-ins for API
 						violations (from the <a href="http://www.eclipse.org/webtools"
