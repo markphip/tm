@@ -70,7 +70,20 @@
 		        <li>Did you reference any 3rd party material?</li>
 		        <li>If yes, under what terms (license) did you receive this material?</li>
 		        <li>Are you authorized by your employer to make the contribution?</li>
-		    </ul></li>
+		    </ul>
+		    In the typical case (no IP problems expected), the contributor should put
+		    a message like the following on the bugzilla report that holds his/her patch:
+		    <p style="border: thin 1px dashed; background-color: ivory; 
+padding-top: 2px; 
+padding-left: 2px;
+padding-right: 2px;
+padding-bottom: 2px"><tt>
+		    Legal Message: I, {name}, do hereby declare and certify that I developed
+			attached code from scratch, without referencing any 3rd party materials
+			except material licensed under the EPL. I am authorized by my empoloyer,
+			{company} to make this contribution under the EPL.
+		    </tt></p>
+		    </li>
 		  <li>Apply the patch in a <b>test workspace</b>, and review the code for any obvious traces 
 		     of copyright breaches, blasphemy or "bad words". It makes sense to have a
 		     separate workspace for applying patches only, such that your current work
