@@ -77,12 +77,12 @@
 padding-top: 2px; 
 padding-left: 2px;
 padding-right: 2px;
-padding-bottom: 2px"><tt>
+padding-bottom: 2px">
 		    Legal Message: I, {name}, do hereby declare and certify that I developed
 			attached code from scratch, without referencing any 3rd party materials
 			except material licensed under the EPL. I am authorized by my empoloyer,
 			{company} to make this contribution under the EPL.
-		    </tt></p>
+		    </p>
 		    </li>
 		  <li>Apply the patch in a <b>test workspace</b>, and review the code for any obvious traces 
 		     of copyright breaches, blasphemy or "bad words". It makes sense to have a
