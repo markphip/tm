@@ -43,7 +43,8 @@
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/">posted</a>
 		on Friday, May&nbsp;19.</p>
 		<p> 
-		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> </p>
+		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
+		<a href="/dsdp/tm/TM_press_text_2006_06.php">press text - jun 2006 &raquo;</a> </p>
 		<div class="homeitem">
 			<h3>Quick Links</h3>
 				<ul class="midlist">
