@@ -20,6 +20,7 @@ plugins/org.eclipse.dstore.core,142974,Michael Berger,? LOC,dmcknight,DStore pat
 plugins/org.eclipse.rse.services.dstore,141813,Michael Berger,? LOC,dmcknight,DStore patch for symbolic links problem
 plugins/org.eclipse.dstore.core,144226,Michael Berger,? LOC,dmcknight,DStore spirit contribution
 plugins/org.eclipse.rse.ui,145843,Michael Berger,2 LOC,ddykstal,removing non-standard expand and collapse
+plugins/org.eclipse.rse.ui,146339,Michael Berger,8 LOC,ddykstal,added refresh action graphic
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
 Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
