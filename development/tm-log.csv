@@ -10,8 +10,8 @@ Developer Contributions,,,,,
 component (CVS directory),bug #,contributor name,size,committer,description
 -,65471,Pierre-Alexandre Masse,? LOC,not yet,RSF Sample Code from Montavista
 org.eclipse.tm.rse/*,125719,Various IBM,? LOC,ddykstal,RSE Initial Submission
-plugins/org.eclipse.rse.services.local,138619,Javier Montalvo Orús,2 LOC,ddykstal,Patch for encoding on Win2K
-plugins/org.eclipse.rse.ui,140562,Javier Montalvo Orús,17 LOC,kmunir,Register New Connection as New Wizard
+plugins/org.eclipse.rse.services.local,138619,Javier Montalvo Orus,2 LOC,ddykstal,Patch for encoding on Win2K
+plugins/org.eclipse.rse.ui,140562,Javier Montalvo Orus,17 LOC,kmunir,Register New Connection as New Wizard
 examples/org.eclipse.rse.remotecdt,137839,Ewa Matejska,471 LOC,moberhuber,CDT Launch Integration
 doc/org.eclipse.rse.doc.user,142739,David Dykstal,2530 lines of HTML,ddykstal,RSE User Documentation
 doc/org.eclipse.rse.doc.isv,142739,David Dykstal,7800 lines of HTML,ddykstal,RSE ISV Documentation
@@ -21,6 +21,7 @@ plugins/org.eclipse.rse.services.dstore,141813,Michael Berger,? LOC,dmcknight,DS
 plugins/org.eclipse.dstore.core,144226,Michael Berger,? LOC,dmcknight,DStore spirit contribution
 plugins/org.eclipse.rse.ui,145843,Michael Berger,2 LOC,ddykstal,removing non-standard expand and collapse
 plugins/org.eclipse.rse.ui,146339,Michael Berger,8 LOC,ddykstal,added refresh action graphic
+plugins/org.eclipse.dstore.core,146326,Michael Berger,30 LOC,ddykstal,fixed erroneously disconnected dstore elements
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
 Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
