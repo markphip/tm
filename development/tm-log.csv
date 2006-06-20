@@ -22,6 +22,7 @@ plugins/org.eclipse.dstore.core,144226,Michael Berger,? LOC,dmcknight,DStore spi
 plugins/org.eclipse.rse.ui,145843,Michael Berger,2 LOC,ddykstal,removing non-standard expand and collapse
 plugins/org.eclipse.rse.ui,146339,Michael Berger,8 LOC,ddykstal,added refresh action graphic
 plugins/org.eclipse.dstore.core,146326,Michael Berger,30 LOC,ddykstal,fixed erroneously disconnected dstore elements
+plugins/org.eclipse.rse.services.files.ftp,140408,Michael Berger,30 LOC,ddykstal,fixed ftp upload
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
 Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
