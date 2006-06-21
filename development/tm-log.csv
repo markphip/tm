@@ -29,6 +29,7 @@ plugins/org.eclipse.rse.services.files.ftp,140323,Javier Montalvo Orus,30 LOC,dd
 plugins/org.eclipse.rse.services.files.ftp,140348,Javier Montalvo Orus,5 LOC,ddykstal,ftp should use port supplied by user
 plugins/org.eclipse.rse.subsystems.files.ftp,140348,Javier Montalvo Orus,5 LOC,ddykstal,ftp should use port supplied by user
 plugins/org.eclipse.rse.services.files.ftp,140404,Michael Berger,6 LOC,ddykstal,ftp create file implemenation
+plugins/org.eclipse.rse.subsystems.files.ftp,140344,Javier Montalvo Orus,1 LOC,ddykstal,ftp should be allowed to Windows systems
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
 Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
