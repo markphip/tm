@@ -8,7 +8,6 @@ ustieber,,,,,
 
 Developer Contributions,,,,,
 component (CVS directory),bug #,contributor name,size,committer,description
--,65471,Pierre-Alexandre Masse,? LOC,not yet,RSF Sample Code from Montavista
 org.eclipse.tm.rse/*,125719,Various IBM,? LOC,ddykstal,RSE Initial Submission
 plugins/org.eclipse.rse.services.local,138619,Javier Montalvo Orus,2 LOC,ddykstal,Patch for encoding on Win2K
 plugins/org.eclipse.rse.ui,140562,Javier Montalvo Orus,17 LOC,kmunir,Register New Connection as New Wizard
@@ -28,11 +27,12 @@ plugins/org.eclipse.rse.services.local,147791,Michael Berger,10 LOC,ddykstal,fix
 plugins/org.eclipse.rse.services.files.ftp,140323,Javier Montalvo Orus,30 LOC,ddykstal,ftp implementation of move rename delete
 plugins/org.eclipse.rse.services.files.ftp,140348,Javier Montalvo Orus,5 LOC,ddykstal,ftp should use port supplied by user
 plugins/org.eclipse.rse.subsystems.files.ftp,140348,Javier Montalvo Orus,5 LOC,ddykstal,ftp should use port supplied by user
-plugins/org.eclipse.rse.services.files.ftp,140404,Michael Berger,6 LOC,ddykstal,ftp create file implemenation
+plugins/org.eclipse.rse.services.files.ftp,140406,Michael Berger,6 LOC,ddykstal,ftp create file implemenation
 plugins/org.eclipse.rse.subsystems.files.ftp,140344,Javier Montalvo Orus,1 LOC,ddykstal,ftp should be allowed to Windows systems
 plugins/org.eclipse.rse.logging,148434,Michael Berger,6 LOC,ddykstal,Added new help for logging preferences
 plugins/org.eclipse.rse.services,147531,Michael Berger,30 LOC,dmcknight,fix to not get username from system property for processes 
 plugins/org.eclipse.rse.services.dstore,147531,Michael Berger,1 LOC,dmcknight,fix to not get username from system property for processes
+
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
 Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
