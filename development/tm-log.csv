@@ -31,6 +31,8 @@ plugins/org.eclipse.rse.subsystems.files.ftp,140348,Javier Montalvo Orus,5 LOC,d
 plugins/org.eclipse.rse.services.files.ftp,140404,Michael Berger,6 LOC,ddykstal,ftp create file implemenation
 plugins/org.eclipse.rse.subsystems.files.ftp,140344,Javier Montalvo Orus,1 LOC,ddykstal,ftp should be allowed to Windows systems
 plugins/org.eclipse.rse.logging,148434,Michael Berger,6 LOC,ddykstal,Added new help for logging preferences
+plugins/org.eclipse.rse.services,147531,Michael Berger,30 LOC,dmcknight,fix to not get username from system property for processes 
+plugins/org.eclipse.rse.services.dstore,147531,Michael Berger,1 LOC,dmcknight,fix to not get username from system property for processes
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
 Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
