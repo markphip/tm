@@ -33,6 +33,8 @@ plugins/org.eclipse.rse.logging,148434,Michael Berger,6 LOC,ddykstal,Added new h
 plugins/org.eclipse.rse.services,147531,Michael Berger,30 LOC,dmcknight,fix to not get username from system property for processes 
 plugins/org.eclipse.rse.services.dstore,147531,Michael Berger,1 LOC,dmcknight,fix to not get username from system property for processes
 plugins/org.eclipse.rse.services.dstore,147531,Michael Berger,60 LOC,dmcknight,fix to not get username from system property for processes and filter properly
+plugins/org.eclipse.rse.services.dstore,147531,Michael Berger,1 LOC,dmcknight,Patch to allow filtering on either client or server
+plugins/org.eclipse.rse.services.,147531,Michael Berger,3 LOC,dmcknight,Patch to allow filtering on either client or server
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
 Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
