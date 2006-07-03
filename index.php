@@ -39,9 +39,9 @@
 		 and their services.</p>
 		<p>Our first public release (October 2006) will be based on the commercial
 		<a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-		IBM Remote Systems Explorer</a>. Our second open source milestone (M2) has been 
+		IBM Remote Systems Explorer</a>. Our third open source milestone (M3) has been 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/">posted</a>
-		on Friday, May&nbsp;19.</p>
+		on Friday, June&nbsp;30.</p>
 		<p> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
 		<a href="/dsdp/tm/TM_press_text_2006_06.php">press text - jun 2006 &raquo;</a> </p>
@@ -98,7 +98,7 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul> 
-				<li>May 19th: RSE M2 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">posted!</a></li>
+				<li>Jun 30th: RSE M3 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">posted!</a></li>
 				<li>May 19th: Updated the <a
 					href="/dsdp/tm/development/plan.php"
 					target="_self">Project Plan</a> - New release date Oct. 20th</li>
