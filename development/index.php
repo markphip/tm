@@ -56,6 +56,11 @@
 						<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/index.html">
 						CVS Changelog</a> is available, and you can subscribe to commit notifications on
 						<a href="https://dev.eclipse.org/mailman/listinfo/dsdp-tm-cvs-commit">dsdp-tm-cvs-commit</a>.</li>
+					<li><a href="/dsdp/tm/development/bug_process.php" target="_blank"><b>Bug Process</b></a><br> 
+					   View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
+					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
+					   | Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
+					</li>
 					<li><b><a
 						href="http://www.eclipse.org/webtools/development/apiscanner/apiscanner.html">Eclipse API Scanner</a></b><br/>Describe the API of a component and scan plug-ins for API
 						violations (from the <a href="http://www.eclipse.org/webtools"
