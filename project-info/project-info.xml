@@ -160,12 +160,9 @@
   <articles>
     <article url="http://wiki.eclipse.org/index.php/DSDP/TM"/>
   </articles>
-  
-  <!-- not yet
   <blogs>
-    <blog rss="http://douggaff.blogspot.com/atom.xml"/>
+    <blog rss="http://tmober.blogspot.com/atom.xml"/>
   </blogs>
-  -->
   
   <!--
      - Each Eclipse project needs to have a plan both for its internal purposes
