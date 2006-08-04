@@ -424,6 +424,8 @@ tentatively scheduled for Sept. 27, 2006)</li>
 <ul>
 <li>Planned and coordinated testing on all supported reference platforms</li>
 <li>Bug fixing and verification</li>
+<li>Going through <a href="http://www.eclipse.org/eclipse/development/release_checklist_3.2.html">
+Release checklist</a></li>
 </ul>
 
 <h2><a name="Deferred">Deferred Features from the original plan</a></h2>
