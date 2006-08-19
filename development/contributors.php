@@ -58,6 +58,7 @@
 		<ul class="midlist">
 			<li><b>David Dykstal</b>, IBM</li>
 			<li><b>David McKnight</b>, IBM</li>
+			<li><b>Javier Montalvo-Orús</b>, Symbian</li>
 			<li><b>Kushal Munir</b>, IBM</li>
 			<li><b>Martin Oberhuber</b>, Wind River</li>
 			<li><b>Michael Scharf</b>, Wind River</li>
@@ -74,7 +75,6 @@
 			<li><b>Michael Berger</b>, IBM
 			<li><b>Pierre-Alexandre Masse</b>, Montavista</li>
 			<li><b>Ewa Matejska</b>, PalmSource</li>
-			<li><b>Javier Montalvo-Orús</b>, Symbian</li>
   		</ul>
 		</div>
 
