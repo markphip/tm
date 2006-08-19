@@ -37,11 +37,12 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
-		<p>Our first public release (October 2006) will be based on the commercial
-		<a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-		IBM Remote Systems Explorer</a>. Our third open source milestone (M3) has been 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/">posted</a>
-		on Friday, June&nbsp;30.</p>
+		<p><font size="+3"><b>News:</b></font> RSE 1.0M4 has been
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M4-200608182355/index.php">
+		posted for download</a> on Friday, August&nbsp;18. A
+		<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
+		Tutorial</a> is now available as part of the documentation. Please check the
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M4-200608182355/buildNotes.php">build notes</a> for this build.</p>
 		<p> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
 		<a href="/dsdp/tm/TM_press_text_2006_06.php">press text - jun 2006 &raquo;</a> </p>
@@ -81,28 +82,28 @@
 			<ul>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
+				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
+					target="_self">TM Overview Presentation</a></li>
+				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
+					target="_self">RSE 1.0 Tutorial</a></li>
+				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
+					target="_self">IBM RSE Presentation</a></li>
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
-					target="_self">TM Overview Presentation</a></li>
-				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
-					target="_self">IBM RSE Presentation</a></li>
 				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
-				<li><a href="/dsdp/tm/development/plan.php"
-					target="_self">TM Project Plan</a></li>
 			</ul>
 		</div>
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul> 
+				<li>Aug 18th: RSE M4 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M4-200608182355/index.php">posted!</a></li>
 				<li>Jun 30th: RSE M3 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">posted!</a></li>
 				<li>May 19th: Updated the <a
 					href="/dsdp/tm/development/plan.php"
 					target="_self">Project Plan</a> - New release date Oct. 20th</li>
-			    <li>Apr 28th: RSE M1 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/">released!</a></li>
 			    <li>Mar 22nd: About 70 participants at the<a
 					href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>

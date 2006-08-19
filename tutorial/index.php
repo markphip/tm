@@ -37,10 +37,22 @@
 	<p>The Target Management project creates data models and frameworks
     to configure and manage remote systems, their connections, and their services.</p>
     <p>
-    The basis for our implementations will be an open-source version
-    of the <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-    IBM Remote System Explorer</A>. Current milestones can be downloaded for evaluation
-    <a href="http://download.eclipse.org/dsdp/tm/downloads/">here</a>.</p>
+	Our first deliverable is the <i>Remote System Explorer (RSE)</i>,
+	a perspective and toolkit in Eclipse Workbench, that allows you 
+	to connect and work with a variety of remote systems. RSE 1.0M4 has been
+	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
+	posted for download</a> on Friday, August&nbsp;18. A
+	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
+	Tutorial</a> is now available as part of the documentation.</p>
+	<p>
+    The basis of RSE is a former IBM product, for which a
+    <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
+    slide show</A> is still available. Our plans beyond 
+    <a href="/dsdp/tm/development/plan.php">RSE 1.0</a> are available from the
+    Target Management <a href="http://wiki.eclipse.org/RSE_2.0_Planning">RSE
+    2.0 Planning Wiki</a> and our <a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+    Use Cases Document</a>, which covers all areas of interest to us.</p>
+    
 	  <div class="homeitem3col">
 		<h3>For more information, see the</h3>
     	<ul>
@@ -74,6 +86,8 @@
 					target="_self">TM Use Cases Document</a></li>
 				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
 					target="_self">TM Overview Presentation</a></li>
+				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
+					target="_self">RSE 1.0 Tutorial</a></li>
 				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
 					target="_self">IBM RSE Presentation</a></li>
 				<li><a href="/dsdp/tm/development/plan.php"
