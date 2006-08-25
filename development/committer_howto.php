@@ -41,7 +41,7 @@
 		
 		<p>How do I...</p>
 
-		<a name="checkin_fix">
+		<a name="checkin_fix"/>
 		<h2>Check in a bugfix I wrote myself</h2>
 		<ul>
 		  <li>Find the bug report in bugzilla, and fix it.</li>
@@ -55,7 +55,7 @@
 		  <li>Set the bugzilla report FIXED.</li>
 		</ul>
 		
-		<a name="external_contrib">
+		<a name="external_contrib"/>
 		<h2>Apply a patch from an external contributor</h2>
 		<ul>
 		  <li>Ensure that the patch is on <b>bugzilla</b>. If not, ask the contributor
@@ -106,14 +106,14 @@ padding-bottom: 2px">
 		    <a href="#project_log">below</a>.</li>
 		</ul>
 		
-		<a name="project_log">
+		<a name="project_log"/>
 		<h2>Edit the TM Project Log (tm-log.csv)</h2>
 		<ul>
 		  <li>The Project Log is required as per the Eclipse 
 		    <a href="http://www.eclipse.org/projects/dev_process/project-log.php">
 		    Project Log Guidelines</a>. It records every non-committer-contribution
 		    (including legacy code contributions). Please keep it up-to-date.</li>
-		   <li><a name="www_tm_dev">Add the <b>www-tm-development</b> project 
+		   <li><a name="www_tm_dev"/>Add the <b>www-tm-development</b> project 
 		   to your workspace. You can do 
 		   this most easily by importing the Team Project set 
 		   from<ul><li>
@@ -127,7 +127,7 @@ padding-bottom: 2px">
 		   <li><b>Commit</b> the changed tm-log.csv file.</li>
 		</ul>
 		
-		<a name="legacy_code">
+		<a name="legacy_code"/>
 		<h2>Add some legacy code to the project</h2>
 		<ul>
 		  <li>Obtain <b>PMC Member Approval</b>: Write an e-mail to 
@@ -149,7 +149,7 @@ padding-bottom: 2px">
 		    <a href="#project_log">above</a>.</li>
 		</ul>
 		
-		<a name="add_plugin">
+		<a name="add_plugin"/>
 		<h2>Add a plugin or other project to the workspace</h2>
 		<ul>
 		  <li>Commit your modifications.</li>
