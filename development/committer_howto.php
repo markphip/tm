@@ -41,8 +41,8 @@
 		
 		<p>How do I...</p>
 
-		<a name="checkin_fix"/>
-		<h2>Check in a bugfix I wrote myself</h2>
+		<a name="checkin_fix">
+		<h2>Check in a bugfix I wrote myself</h2></a>
 		<ul>
 		  <li>Find the bug report in bugzilla, and fix it.</li>
 		  <li>Test your fix once to verify that it actually works - if this is
@@ -55,8 +55,8 @@
 		  <li>Set the bugzilla report FIXED.</li>
 		</ul>
 		
-		<a name="external_contrib"/>
-		<h2>Apply a patch from an external contributor</h2>
+		<a name="external_contrib">
+		<h2>Apply a patch from an external contributor</h2></a>
 		<ul>
 		  <li>Ensure that the patch is on <b>bugzilla</b>. If not, ask the contributor
 		    to create a bugzilla entry. This is requird even for patches from
@@ -106,16 +106,16 @@ padding-bottom: 2px">
 		    <a href="#project_log">below</a>.</li>
 		</ul>
 		
-		<a name="project_log"/>
-		<h2>Edit the TM Project Log (tm-log.csv)</h2>
+		<a name="project_log">
+		<h2>Edit the TM Project Log (tm-log.csv)</h2></a>
 		<ul>
 		  <li>The Project Log is required as per the Eclipse 
 		    <a href="http://www.eclipse.org/projects/dev_process/project-log.php">
 		    Project Log Guidelines</a>. It records every non-committer-contribution
 		    (including legacy code contributions). Please keep it up-to-date.</li>
-		   <li><a name="www_tm_dev"/>Add the <b>www-tm-development</b> project 
-		   to your workspace. You can do 
-		   this most easily by importing the Team Project set 
+		   <li><a name="www_tm_dev">
+		      Add the <b>www-tm-development</b> project to your workspace.
+		   </a>You can do this most easily by importing the Team Project set 
 		   from<ul><li>
 		     <a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
 		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a>
@@ -127,8 +127,8 @@ padding-bottom: 2px">
 		   <li><b>Commit</b> the changed tm-log.csv file.</li>
 		</ul>
 		
-		<a name="legacy_code"/>
-		<h2>Add some legacy code to the project</h2>
+		<a name="legacy_code">
+		<h2>Add some legacy code to the project</h2></a>
 		<ul>
 		  <li>Obtain <b>PMC Member Approval</b>: Write an e-mail to 
 		      <a href="mailto:dsdp-pmc@eclipse.org">dsdp-pmc@eclipse.org</a>,
@@ -149,8 +149,8 @@ padding-bottom: 2px">
 		    <a href="#project_log">above</a>.</li>
 		</ul>
 		
-		<a name="add_plugin"/>
-		<h2>Add a plugin or other project to the workspace</h2>
+		<a name="add_plugin">
+		<h2>Add a plugin or other project to the workspace</h2></a>
 		<ul>
 		  <li>Commit your modifications.</li>
 		  <li>In the <b>www-tm-development</b> project (see <a href="#www_tm_dev">above</a> for how 
