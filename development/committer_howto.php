@@ -41,6 +41,14 @@
 		
 		<p>How do I...</p>
 
+		<a name="check_code"></a>
+		<h2>Properly check my code before checkin</h2>
+		<ul>
+		  <li>Ensure that you have <a href="/dsdp/tm/development/compiler_warnings.php">Compiler Warnings
+		      </a> switched on as recommended. For every file that you modify, please ensure that it
+		      compiles without warnings before you check it in.</li.
+		</ul>
+
 		<a name="checkin_fix"></a>
 		<h2>Check in a bugfix I wrote myself</h2>
 		<ul>
