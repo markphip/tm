@@ -63,6 +63,7 @@
 			<li><b>Martin Oberhuber</b>, Wind River</li>
 			<li><b>Michael Scharf</b>, Wind River</li>
 			<li><b>Uwe Stieber</b>, Wind River</li>
+			<li><b>Ted Williams</b>, WInd River</li>
 		</ul>
 		</div>
 

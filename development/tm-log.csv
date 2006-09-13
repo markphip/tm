@@ -5,6 +5,7 @@ kmunir,,,,,
 jmontalvo,,,,,
 moberhuber,,,,,
 mscharf,,,,,
+tewillia,,,,,
 ustieber,,,,,
 
 Developer Contributions,,,,,
@@ -37,4 +38,4 @@ plugins/org.eclipse.rse.ui,149080,Michael Berger,500 LOC,dmcknight,Patch to allo
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
-Jakarta Commons Net 1.4.1,not yet checked in,Apache License 2.0,just for example
+Jakarta Commons Net 1.4.1,org.eclipse.tm.core/3rdParty/org.apache.commons.net_1.4.1,Apache License v2.0,FTP client (unmodified binary)
