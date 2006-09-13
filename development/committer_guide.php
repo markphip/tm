@@ -37,14 +37,21 @@
 		<a href="committer_howto.php">committer HOWTO</a>
 		for simple cookbook-style instructions for common tasks.</p>
 
-		<h2>Checkin Policies</h2>
-		<ul><li>When you check in a fix for a bugzilla entry, <b>please</b> include
-		the bugzilla number in the commit message. Example:
-		   "139207 fix browsing into tar archives by dstore".<p/></li>
+		<h2>Bugzilla Guidelines</h2>
+		<ul>
+		  <li>See the <a href="/dsdp/tm/development/bug_process.php">Bug Process Page</a>
+		    for bugzilla queries to find interesting bugs, and our general bug process
+		    (handling bugzilla states and priorities)<p/></li>
+		  <li>When you check in a fix for a bugzilla entry, <b>please</b> include
+			the bugzilla number in the commit message. Example:
+		   <b>"Fix bug 139207 browsing into tar archives by dstore"</b>.<p/></li>
 		   <li>After committing a fix for bugzilla, set the entry <b>fixed</b>. 
 		   Do not set it closed until it has been tested and verified by somebody 
 		   else.<p/></li>
-		   <li>When you add a new plugin, feature or other project to your workspace,
+		</ul>
+		
+		<h2>Checkin Policies</h2>
+		<ul><li>When you add a new plugin, feature or other project to your workspace,
 		   please update the <b>Team Project Sets</b> so that other committers or 
 		   CVS users can pick up your new project easily: Add the "www-tm-development" 
 		   project to your workspace. You can do this most easily by importing the 

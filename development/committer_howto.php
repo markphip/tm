@@ -52,9 +52,11 @@
 		</ul>
 
 		<a name="checkin_fix"></a>
-		<h2>Check in a bugfix I wrote myself</h2>
+		<h2>Work with bugs and fixes</h2>
 		<ul>
-		  <li>Find the bug report in bugzilla, and fix it.</li>
+		  <li>See the <a href="/dsdp/tm/development/bug_process.php">Bug Process Page</a>
+		    for bugzilla queries to find interesting bugs, and our general bug process
+		    (handling bugzilla states and priorities)</li>
 		  <li>Test your fix once to verify that it actually works - if this is
 		    not too difficult. You may also place a note on the bugzilla report,
 		    asking the original submitter to verify.</li>
