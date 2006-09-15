@@ -35,6 +35,8 @@ plugins/org.eclipse.rse.logging,148434,Michael Berger,6 LOC,ddykstal,Added new h
 plugins/org.eclipse.rse.services.dstore,147531,Michael Berger,62 LOC,dmcknight,Patch to allow filtering on either client or server
 plugins/org.eclipse.rse.services,147531,Michael Berger,33 LOC,dmcknight,Patch to allow filtering on either client or server
 plugins/org.eclipse.rse.ui,149080,Michael Berger,500 LOC,dmcknight,Patch to allow JUnit test framework to work
+tests/org.eclipse.rse.tests.framework,149080,David Dykstal,500 LOC,ddykstal,framework that augments JUnit
+tests/org.eclipse.rse.tests.framework.examples,149080,David Dykstal,200 LOC,ddykstal,examples for using framework
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
