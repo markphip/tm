@@ -96,7 +96,43 @@
 		<a href="http://www.eclipse.org/projects/dev_process/bugzilla-use.php">
 		information	and a handy diagram</a> for understanding the 
 		lifecycle of an issue in Bugzilla.<p/> 
+		
+		<h3>How to defer bugs</h2>
+		<p>In our <a href="http://wiki.eclipse.org/index.php/DSDP/TM/Committer_Phone_Meeting_23-May-2006">
+		Committer Meeting on 23-May 2006</a> we decided on the following strategies for deferring bugs:
+		<ul>
+		  <li>Set the <b>Priority</b> according to personal judgement of importance: 
+		    Even bugs with a high priority can be deferred to an upcoming release
+		    if time just dont permit fixing them.</li>
+		  <li>Set Resolved, Resolution=<b>INVALID</b> for requests that do not make
+		    sense.</li>
+		  <li>Set Resolved, Resolution=<b>WONTFIX</b> for bugs that we will supposedly
+		    never address e.g. because there is a suitable workaround or the effort is
+		    just too high although the request makes sense.</li>
+		  <li>Set Resolved, Resolution=<b>LATER</b> for bugs that make sense but are
+		    too much effort for the current release. They should be triaged again for
+		    the next release, and potentially be documented as known limitations in
+		    the release notes.</li>
+		  <li>Set the <b>target milestone</b> for bugs that we want to address in the
+		    current release cycle, but not quite the upcoming milestone.</li>
+		  <li>Assign bugs to the <b>org.eclipse.tm.rse-inbox@eclipse.org</b> if you
+		    have no idea what to do with a request and also dont know who else could
+		    handle it. It will triaged again by all committers together in the next
+		    committer meeting.</li>
+		</ul></p>
 
+		<h3>How to verify and close</h3>
+		<ul>
+		  <li>Bugs that are set RESOLVED are candidates for verification.</li>
+		  <li>Ideally, the person who filed a bug should also verify it and set
+		     it to <b>VERIFIED</b> if OK.</li>
+		  <li>During the final release test cycle, all RESOLVED and even VERIFIED
+		     bugs will be checked again. If they pass the test, they will be set
+		     <b>CLOSED</b>.</li>
+		  <li>Enhancement requests and applied patches can also be set <b>CLOSED</b>
+		     right after checkin, especially if they do not apply to testable
+		     product functionality but rather some code cleanliness.</li>
+		</ul>
 		<h2>Clarification of Fields</h2>
 		<ul>
 		  <li><b>Platform</b> and <b>OS</b>: These should be set by the submitter
