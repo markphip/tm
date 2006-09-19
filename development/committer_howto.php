@@ -39,7 +39,17 @@
 		<p>If you need any background information regarding these instructions,
 		look at the <a href="committer_guide.php">committer guidelines</a>.
 		
-		<p>How do I...</p>
+		<p>How do I...
+		 <ul>
+		   <li><a href="#check_code">Properly check my code before checkin</a></li>
+		   <li><a href="#checkin_fix">Work with bugs and fixes</a></li>
+		   <li><a href="#external_contrib">Apply a patch from an external contributor</a></li>
+		   <li><a href="#project_log">Edit the TM Project Log (tm-log.csv)</a></li>
+		   <li><a href="#sloccount">Count lines of code in a contribution</a></li>
+		   <li><a href="#legacy_code">Add some legacy code to the project</a></li>
+		   <li><a href="#add_plugin">Add a plugin or other project to the workspace</a></li>
+         </ul>
+		</p>
 
 		<a name="check_code"></a>
 		<h2>Properly check my code before checkin</h2>
@@ -136,7 +146,27 @@ padding-bottom: 2px">
 		     <b>update it</b> before editing -- this saves you from having to merge before checkin.</li>
 		   <li>In the www-tm project, add a line for the contribution in the <b>tm-log.csv</b>
 		   file. There are some sample lines already, so adding one should not be too hard.</li>
+		   <li>For <a href="#sloccount">counting lines of code</a> see the section below.</li>
 		   <li><b>Commit</b> the changed tm-log.csv file.</li>
+		</ul>
+
+		<a name="sloccount"></a>
+		<h2>Count lines of code in a contribution</h2>
+		<ul>
+		  <li>Count lines of code in a contribution supplied as archive: First extract it, then cd to the toplevel directory, then:
+		   <pre>
+    # Cat all non-binary files, suppress empty lines, then count lines
+    
+    find . -type f | egrep -iv '\.(gif|png|jpg|exe|dll|so|a|o|obj|tar|gz|jar|zip)$' \
+      | xargs cat | egrep -v '^[^a-zA-Z0-9_/*;,.:#<>(){}=+-]*$' | wc -l
+    </pre></li>
+		  <li>Count lines in a contribution that is submitted as a patch
+		  <pre>
+    # Cat all lines that were added inthe patch, suppress filenames and empty lines
+    
+    grep '^[+]' patch.txt | grep -v '^[+][+]' \
+      | egrep -v '^\+[^a-zA-Z0-9_/*;,.:#<>(){}=+-]*$' | wc -l
+    </pre></li>		  
 		</ul>
 		
 		<a name="legacy_code"></a>
