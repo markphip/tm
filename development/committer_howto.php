@@ -153,6 +153,10 @@ padding-bottom: 2px">
 		<a name="sloccount"></a>
 		<h2>Count lines of code in a contribution</h2>
 		<ul>
+		  <li>For use in Eclipse, we need to count lines of code in contribution, 
+		  INCLUDING xml files, documentation, readmes, property files and so on. Most 
+		  known code counters do not fulfill these needs. The simple UNIX
+		  command lines below count all lines of all text files except empty lines.<p/></li>
 		  <li>Count lines of code in a contribution supplied as archive: First extract it, then cd to the toplevel directory, then:
 		   <pre>
     # Cat all non-binary files, suppress empty lines, then count lines
