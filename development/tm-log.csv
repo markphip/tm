@@ -34,8 +34,7 @@ org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework,149080,David Dykstal,36
 org.eclipse.tm.rse/doc/org.eclipse.rse.doc.*,149331,Michael Berger,3936 (html),kmunir,(Trivial) fix broken links in HTML docs
 org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,149331,Michael Berger,69 (html),kmunir,Add doc on Memory Management
 org.eclipse.tm.core/discovery/*,140320,Javier Montalvo Orus,8417,jmontalvo,Zeroconf Service Discovery
-org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,145799,Michael Berger,31,(not yet checked in),Add doc on Memory Management
-org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,157426,Ewa Matejska,401,(not yet checked in),CDT Launch Integration Patch for using RSE services
+org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,157426,Ewa Matejska,401,moberhuber,CDT Launch Integration Patch for using RSE services
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
