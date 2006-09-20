@@ -157,19 +157,26 @@ padding-bottom: 2px">
 		  INCLUDING xml files, documentation, readmes, property files and so on. Most 
 		  known code counters do not fulfill these needs. The simple UNIX
 		  command lines below count all lines of all text files except empty lines.<p/></li>
+		  <li>We also suppress lines that only contain whitespace, empty comments
+		  or {} charactes. This is in order to account for different coding styles,
+		  which might prefer to have the { characters on a separate line or not.</li>
 		  <li>Count lines of code in a contribution supplied as archive: First extract it, then cd to the toplevel directory, then:
 		   <pre>
-    # Cat all non-binary files, suppress empty lines, then count lines
+    # Cat all non-binary files, suppress empty and lines only containing /*#{}
     
-    find . -type f | egrep -iv '\.(gif|png|jpg|exe|dll|so|a|o|obj|tar|gz|jar|zip)$' \
-      | xargs cat | egrep -v '^[^a-zA-Z0-9_/*;,.:#<>(){}=+-]*$' | wc -l
+    find . -type f | grep -v /CVS/ \
+      | egrep -iv '\.(a|class|dll|exe|gif|png|jpg|so|o|obj|jar|tar|gz|zip)$' \
+      | xargs cat | egrep -v '^[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l
+
+'' | wc -l
     </pre></li>
 		  <li>Count lines in a contribution that is submitted as a patch
 		  <pre>
-    # Cat all lines that were added inthe patch, suppress filenames and empty lines
+    # Cat all lines that were added in the patch.
+    # Suppress filenames, empty lines and lines only containing /*#{}
     
     grep '^[+]' patch.txt | grep -v '^[+][+]' \
-      | egrep -v '^\+[^a-zA-Z0-9_/*;,.:#<>(){}=+-]*$' | wc -l
+      | egrep -v '^\+[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l
     </pre></li>		  
 		</ul>
 		
