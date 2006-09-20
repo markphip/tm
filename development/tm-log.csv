@@ -23,6 +23,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,141813,Michael Berger
 org.eclipse.tm.rse/doc/*,142739,David Dykstal,11280 (html),ddykstal,RSE User and ISV Documentation
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,142974,Michael Berger,37,dmcknight,DStore patch for lost connection problem
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,144226,Michael Berger,505,dmcknight,DStore spirit contribution
+org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,145799,Michael Berger,27,ddykstal,Add dstore refresh() method with depth parameter
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,145843,Michael Berger,2,ddykstal,removing non-standard expand and collapse
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,146326,Michael Berger,30,ddykstal,fixed erroneously disconnected dstore elements
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,146339,Michael Berger,8,ddykstal,added refresh action graphic
