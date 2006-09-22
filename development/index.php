@@ -38,7 +38,7 @@
 			<h3>Development Tools</h3>
 				<ul class="midlist">
 					<li><b><a
-						href="http://dev.eclipse.org/viewcvs/index.cgi?cvsroot=DSDP_Project">CVS Repository</a></b><br/>
+						href="/dsdp/tm/development/cvs_setup.php">CVS Repository</a></b><br/>
 						TM development is managed in 
 						<!-- two CVS repositories:
 						<ul class="midlist">
@@ -46,13 +46,11 @@
 						    <li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>
 						</ul>
 						-->
-						the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>.
-						Use the
-						<a href="rse-anonymous.psf">rse-anonymous.psf</a> or
-						<a href="rse-committer.psf">rse-committer.psf</a>
-						project set to populate your workspace. See
-						<a href="http://wiki.eclipse.org/index.php/CVS_Howto">Using Eclipse with
-						CVS</a> for instructions. A 
+						the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE</a> and
+						<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">Core</a> Repositories.
+						To populate an Eclipse workspace with our code, best use our
+						<a href="/dsdp/tm/development/cvs_setup.php">Team Project Sets</a>.
+						A 
 						<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/index.html">
 						CVS Changelog</a> is available, and you can subscribe to commit notifications on
 						<a href="https://dev.eclipse.org/mailman/listinfo/dsdp-tm-cvs-commit">dsdp-tm-cvs-commit</a>.</li>
