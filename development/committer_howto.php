@@ -207,12 +207,10 @@ padding-bottom: 2px">
 		<ul>
 		  <li>Commit your modifications.</li>
 		  <li>In the <b>www-tm-development</b> project (see <a href="#www_tm_dev">above</a> for how 
-		     to get it), update the <b>team project sets</b>:<ul>
-		     <li><a href="http://www.eclipse.org/dsdp/tm/development/rse-committer.psf">
-		     http://www.eclipse.org/dsdp/tm/development/rse-committer.psf</a></li>
-		     <li><a href="http://www.eclipse.org/dsdp/tm/development/rse-anonymous.psf">
-		     http://www.eclipse.org/dsdp/tm/development/rse-anonymous.psf</a></li>
-		   </ul>You can either export a selection as team project set, or edit the 
+		     to get it), update the <b><a href="/dsdp/tm/development/cvs_setup">
+		     team project sets</a></b>.
+		   You can either export a selection as team project set, and sort
+		   the lines afterwards (e.g. in Emacs, do M-X sort-lines). Or, edit the 
 		   project set manually. For the pserver version, you typically need to replace-all
 		   ":extssh:" by ":pserver:".</li>
 		  <li>Send an <b>E-mail</b> to dsdp-tm-dev, informing everybody that team project sets
