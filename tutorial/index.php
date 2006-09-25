@@ -39,9 +39,9 @@
     <p>
 	Our first deliverable is the <i>Remote System Explorer (RSE)</i>,
 	a perspective and toolkit in Eclipse Workbench, that allows you 
-	to connect and work with a variety of remote systems. RSE 1.0M4 has been
+	to connect and work with a variety of remote systems. RSE 1.0M5 has been
 	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
-	posted for download</a> on Friday, August&nbsp;18. A
+	posted for download</a> on Friday, September&nbsp;22. A
 	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
 	Tutorial</a> is now available as part of the documentation.</p>
 	<p>
@@ -80,6 +80,8 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>
+				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
+				    TM 1.0 Release Review Slides</a></li>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
@@ -88,8 +90,6 @@
 					target="_self">TM Overview Presentation</a></li>
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">RSE 1.0 Tutorial</a></li>
-				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
-					target="_self">IBM RSE Presentation</a></li>
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>

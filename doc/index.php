@@ -48,6 +48,18 @@
 	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes from Chicago Meeting</a></li>
 		</ul>
 
+		<h2>Presentations</h2>
+		<ul>
+		<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">TM 1.0 Release Review Slides (PPT: 248k)</a>
+		   | <a href="/projects/slides/TM_1.0_Release_Review_v3.pdf">(PDF: 1MB)</a></li>
+		<li>EclipseCon 2006: 
+		   <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">
+		   Using and Extending the DSDP Target Management Framework (PPT: 850k)</a>
+		   | <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=287">(Zipped PPT: 559k)</a></li>
+		<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
+		    IBM RSE Presentation</a></li>
+		</ul>
+
 		<h2>Older Meeting Notes (Newer notes are on the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a>)</h2>
 		<ul>
 		<h4>CDT Conference Ottawa, 2005 October 25-26</h4>
@@ -81,7 +93,9 @@
 	<div id="rightcolumn">
 		<div class="sideitem">
 			<h6>Getting started</h6>
-			<ul>				
+			<ul>
+				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
+				    TM 1.0 Release Review Slides</a></li>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
@@ -89,8 +103,6 @@
 					target="_self">TM Use Cases Document</a></li>
 				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
 					target="_self">TM Overview Presentation</a></li>
-				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
-					target="_self">IBM RSE Presentation</a></li>
 				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>

@@ -137,6 +137,8 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
+				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
+				    TM 1.0 Release Review Slides</a></li>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
 			    	target="_top">DSDP Overview Diagrams</a></li>				
 				<li><a
@@ -144,12 +146,8 @@
 					target="_top">TM Use Cases Document</a></li>
 				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
 					target="_top">TM Overview Presentation</a></li>
-				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
-					target="_blank">IBM RSE Presentation</a></li>
 				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
-				<li><a href="/dsdp/tm/development/plan.php"
-					target="_self">TM Project Plan</a></li>
 			</ul>
 		</div>
 	</div>
