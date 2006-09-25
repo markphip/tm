@@ -68,7 +68,7 @@
 				<li>The <b>TM / RSE 1.0 Release Review</b> will be held on
 				    <a href="http://www.timeanddate.com/worldclock/fixedtime.html?month=9&day=27&year=2006&hour=15&min=00&sec=0&p1=0">
 				    September 27, 2006 at 1500 UTC</a> (Slides as 
-				    <a href="http://localhost/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
+				    <a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
 				    <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">PDF</a>).
 				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
 				    (See the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a> for actual
