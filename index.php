@@ -39,8 +39,9 @@
 		 and their services.</p>
 		<p><font size="+3"><b>News:</b></font> RSE 1.0M5 has been
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M5-200609221723/index.php">
-		posted for download</a> on Friday, September&nbsp;22. A
-		<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
+		posted for download</a> on Friday, September&nbsp;22. With this drop, the TM project also
+		passed its <a href="http://localhost/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">1.0 Release Review</a>.
+		A <a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
 		Tutorial</a> is now available as part of the documentation. Please check the
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M5-200609221723/buildNotes.php">build notes</a> for this build.</p>
 		<p>
@@ -65,12 +66,15 @@
 		<div class="homeitem">
 			<h3>Events</h3>
 			<ul class="midlist">
-				<li>The <b>TM / RSE 1.0 Release Review</b> will be held on
-				    <a href="http://www.timeanddate.com/worldclock/fixedtime.html?month=9&day=27&year=2006&hour=15&min=00&sec=0&p1=0">
-				    September 27, 2006 at 1500 UTC</a> (Slides as 
+				<li><b>Oct. 11, 2006</b>: 
+				  <a href="http://www.eclipsecon.org/summiteurope2006/index.php?page=detail/&id=26">
+				  The Remote System Explorer</a> - Talk by Michael Scharf at
+				  Eclipse Summit Europe</li>
+				<li>The TM project <b>passed its 1.0 Release Review</b> on
+				    September 27, 2006. The Slides are an interesting read
+				    for everyone (Slides as  
 				    <a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
-				    <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">PDF</a>).<br/>
-				    Call-in: 866-362-7064 or 613-287-8000, passcode 874551#</li>
+				    <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">PDF</a>).</li>
 				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
 				    (See the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a> for actual
 				    agenda and details)</li>
@@ -102,10 +106,10 @@
 		</div>
 		
 		<div class="sideitem">
-			<h6>What&apo;s New</h6>
+			<h6>What's New</h6>
 			<ul>
-				<li>Sep 27th: <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
-					TM/RSE 1.0 Release Review</a></li>
+				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
+					1.0 Release Review</a></li>
 				<li>Sep 22nd: RSE M5 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M5-200609221723/index.php">posted!</a></li>
 				<li>May 19th: Updated the <a
 					href="/dsdp/tm/development/plan.php"
@@ -114,20 +118,6 @@
 					href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>
 			</ul>
-		</div>
-		<div class="sideitem">
-   			<h6>Project Status</h6>
-   			<ul>
-     			<li>This project is in the 
-     			<a href="/projects/dev_process/validation-phase.php">Incubation Phase</a>
-     			</li>
-   			</ul>.
- 		</div>
- 		<div class="sideitem">
-   			<h6>Incubation</h6>
-   			<div align="center"><a href="/projects/gazoo.php"><img 
-        		align="center" src="/images/gazoo-incubation.jpg" 
-        		border="0" /></a></div>
 		</div>
 	</div>
 </div>

@@ -110,11 +110,9 @@
 		<h2>Coding Guidelines</h2>
 		We <b>do not want to be too restrictive right now</b> - especially do not 
 		rewrite existing code just to make it conform to some naming convention.
-		Most of the RSE code seems to follow proper coding style already. However,
-		as we want to exit incubation phase with our first release, we will have to pass the
-		<a href="http://www.eclipse.org/projects/dev_process/release-review.php">Release Review
-		</a> process, which includes the duty to produce
-		code and APIs of <a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
+		Most of the RSE code seems to follow proper coding style already. In the
+		end, we'll want to produce code and APIs of 
+		<a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
 		Eclipse Quality</a>. Therefore, we better strive for quality early. Which means, try
 		to follow common accepted guidelines for writing new code<p/>
 		Some useful references are 
