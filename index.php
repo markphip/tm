@@ -99,7 +99,9 @@
 					target="_self">RSE 1.0 Tutorial</a></li>
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
-					target="_self">TM Use Cases Document</a></li>
+					target="_self">TM Use Cases</a></li>
+				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf" target="_self">
+					IBM RSE Presentation</a></li>
 				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
 			</ul>
