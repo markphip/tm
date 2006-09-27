@@ -48,6 +48,7 @@
 		   <li><a href="#sloccount">Count lines of code in a contribution</a></li>
 		   <li><a href="#legacy_code">Add some legacy code to the project</a></li>
 		   <li><a href="#add_plugin">Add a plugin or other project to the workspace</a></li>
+		   <li><a href="#fix_copyrights">Find missing or incorrect Copyright notices in my code and fix them</a></li>
          </ul>
 		</p>
 
@@ -215,6 +216,15 @@ padding-bottom: 2px">
 		   ":extssh:" by ":pserver:".</li>
 		  <li>Send an <b>E-mail</b> to dsdp-tm-dev, informing everybody that team project sets
 		    have been updated with your new plugins.</li>
+		</ul>
+
+		<a name="fix_copyrights"></a>
+		<h2>Find missing or incorrect Copyright notices in my code and fix them</h2>
+		<ul>
+		  <li>Please use the Releng tool from the bottom of the 
+		    <a href="http://download.eclipse.org/eclipse/downloads/drops/R-3.2-200606291905/index.php">
+		    Eclipse 3.2 Download Page</a></li>
+		  <li>See the description there: "6. Fix Copyrights"</li>
 		</ul>
 
 		<p/>
