@@ -193,6 +193,14 @@ padding-bottom: 2px">
 		Committer HOWTO</a> guidelines to merge your contribution. 
 		code without being allowed to do so by the copyright owner).
 		<p/>
+		
+		<h2>Testing, tips and tricks for bug finding</h2>
+		<ul>
+		  <li>The <a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">
+		    RSE 1.0 Testing</a> page coordinates the RSE 1.0 Testing efforts.</li>
+		  <li>The <a href="http://wiki.eclipse.org/index.php/Field_Guide_to_Callisto_Bugs">
+		    Field Guide to Callisto Bugs</a> is also an interesting read.</li>
+		</ul>
 		 				   
 	</div>
 
