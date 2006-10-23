@@ -53,13 +53,13 @@ background-repeat: repeat-y
 			</tbody>
 		</table><hr/>
 		-->
-		<p>Last revised 19:30 CEST Jul 5, 2006 (
-		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+		<p>Last revised 11:00 CEST Oct 23, 2006 (
+		<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/>
 		marks interesting recent 
-		<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/plan.php.diff?r1=1.8&r2=1.9&cvsroot=Eclipse_Website">changes</a>
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/plan.php.diff?r1=1.10&r2=1.11&cvsroot=Eclipse_Website">changes</a>
 		since the 
-		<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/plan.php?rev=1.8&cvsroot=Eclipse_Website&content-type=text/html">
-		previous draft of May 19, 2006</a>)
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/plan.php?rev=1.10&cvsroot=Eclipse_Website&content-type=text/html">
+		previous draft of Jul 5, 2006</a>)
 		</p>
 
 		
@@ -123,7 +123,9 @@ namely:</p>
 	<li>Remote Systems Explorer SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	<li>Remote Systems Explorer runtime binary distribution (includes user documentation) (downloadable).</li>
 	<li>Remote Systems Explorer examples (downloadable).</li>
+	<!--
 	<li>Remote Systems Explorer unit tests (downloadable).</li>
+	-->
 </ul>
 <h2><a name="Milestones"></a>Release milestones</h2>
 <p>Release milestone will be occurring at roughly 6 week intervals. The
@@ -141,8 +143,12 @@ Release candidate builds are planned as follows (M5 is
 release candidate 0):</p>
 <ul>
 	<li>Friday October 6, 2006 - Release Candidate 1 - (1.0 RC1)</li>
-	<li>Friday October 13, 2006 - Release Candidate 2 - (1.0 RC2)</li>
-	<li>Friday October 20, 2006 - Release Candidate 3 - (1.0 RC3) - Release target date</li>
+	<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/>
+	    Friday October 20, 2006 - Release Candidate 2 - (1.0 RC2)</li>
+	<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/>
+	    Friday October 27, 2006 - Release Candidate 3 - (1.0 RC3)</li>
+	<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/>
+	    Friday November 3, 2006 - 1.0 Release target date</li>
 </ul>
 <p>As soon as no critical problems are found in the testing
 period between two release candidates (one or two weeks),
@@ -212,7 +218,7 @@ Java 2 Technology Edition 5.0 </td>
   2000</td>
 <td width="76">Intel x86</td>
 <td width="59">Win32</td>
-<td width="453"> Sun Java 2 Standard Edition 1.4.2_10<br>
+<td width="453"> Sun Java 2 Standard Edition <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/> 1.4.2_12<br>
 for Microsoft Windows </td>
 </tr>
 <tr>
@@ -234,8 +240,8 @@ Java 2 Technology Edition 1.4.2 service release 3 </td>
 <tr>
 <td width="205">Sun Solaris</td>
 <td width="59">
-  <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
-  8</td>
+  <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/>
+  9</td>
 <td width="76">SPARC</td>
 <td width="59">
   <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
@@ -251,7 +257,7 @@ for Solaris SPARC</td>
 <td width="76">Intel x86</td>
 <td width="59">GTK</td>
 <td width="453">
-Sun Java 2 Standard Edition 1.4.2_11<br>
+Sun Java 2 Standard Edition <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/> 1.4.2_12<br/>
 for Linux x86</td>
 </tr>
 </tbody>
@@ -309,15 +315,14 @@ about future compatibility. Refer to <i><a
 	href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
 to Use the Eclipse API</a></i> for information about how to write
 compliant plug-ins.</p>
-<p><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
+<p><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/>
 Though it is our goal to create stable APIs, being able to do so
 depends on the amount of API feedback we will get from the community.
 As described in <a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
-<i>Eclipse Quality APIs</i></a>, we may therefore mark some of our
+<i>Eclipse Quality APIs</i></a>, we will therefore mark all of our
 APIs provisional. This removes the guarantee of 1.0 to 2.0 compatibility,
-though we'd strive to achieve that. For those APIs declared provisional
-in RSE 1.0, we'd expect to get sufficient feedback during the 1.0 to
-2.0 development period to declare the APIs final.</p>
+though we&#39;d strive to achieve that. We expect to get sufficient feedback
+during the 1.0 to 2.0 development period to declare the APIs final.</p>
 
 <h2><a name="Features">Features and Capabilities</a></h2>
 <p>
@@ -391,7 +396,7 @@ extensions, usage in various different environments.</li>
 Planned and coordinated testing on all supported reference platforms,
 polishing, finding documentation issues</li>
 <li>Deliverables: <img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-Add JUnit tests to Downloads. Make separate download for examples.</li> 
+Make separate download for examples.</li> 
 <li>Updated FTP Implementation (through Jakarta Commons Net)</li>
 <li>Telnet (through Jakarta Commons Net)</li>
 <li>Incorporate Community Feedback on APIs, Docs, and change where appropriate</li>
@@ -406,23 +411,27 @@ Eclipse Quality</a></i></li>
 <h4><a name="M5">M5 / RC0 Theme: Ready to Release (September 22)</a></h4>
 <ul>
 <li><span style="color: rgb(51, 204, 0);">Purpose:</span>
-Planned and coordinated testing on all supported reference platforms,
+<a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">Planned and coordinated testing</a>
+on all supported reference platforms,
 fixing final bugs</li>
 <li>Final form of User Doc</li>
 <li>Localization and product polish</li>
 <li>Implementation and Documentation Polish to meet <i>
 <a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
 Eclipse Quality</a></i>: Get rid of accessing Platform <i>internal</i> packages</li>
-<li>JUnit tests and specification for all API where reasonable</li>
 <li>Prepare for <a href="http://www.eclipse.org/projects/dev_process/release-review.php">
 Release Review</a> (<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-tentatively scheduled for Sept. 27, 2006)</li>
+Sept. 27, 2006) - slides (<a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
+	<a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">PDF</a>)</li>
 <li>Bugfixing</li>
 </ul>
 
-<h4><a name="REL">RSE Release 1.0.0: Target date October 20, 2006</a></h4>
+<h4><a name="REL">RSE Release 1.0.0: Target date
+	<img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/>
+	November 3, 2006</a></h4>
 <ul>
-<li>Planned and coordinated testing on all supported reference platforms</li>
+<li><a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">Planned and coordinated testing</a>
+	 on all supported reference platforms</li>
 <li>Bug fixing and verification</li>
 <li>Going through <a href="http://www.eclipse.org/eclipse/development/release_checklist_3.2.html">
 Release checklist</a></li>
@@ -432,12 +441,11 @@ Release checklist</a></li>
 The following features were deferred from original plan. They will be provided
 as separately downloadable feature shortly after the release, marked "experimental".
 <ul>
-<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-    User Actions</li>
-<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-    Import / Export facility</li>
-<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12">
-    Experimental Eclipse Filesystem (EFS) provider feature</li>
+<li>User Actions</li>
+<li>Import / Export facility</li>
+<li>Experimental Eclipse Filesystem (EFS) provider feature</li>
+<li><img src="/dsdp/tm/development/new.gif" alt="(new)" border="0" height="12" width="12"/>
+    JUnit tests and specification for all API where reasonable</li>
 </ul>
 
 <p/>
