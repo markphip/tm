@@ -50,6 +50,10 @@
 
 		<h2>Presentations</h2>
 		<ul>
+    	<li>Eclipse Summit Europe 2006-9-29 
+    		<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">
+      		TM Overview Slides (PPT: 314k)</a>
+    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">(PDF: 298k)</a></li>
 		<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">TM 1.0 Release Review Slides (PPT: 248k)</a>
 		   | <a href="/projects/slides/TM_1.0_Release_Review_v3.pdf">(PDF: 1MB)</a></li>
 		<li>EclipseCon 2006: 
@@ -94,6 +98,8 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+					target="_self">TM Overview Slides</a></li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
@@ -101,8 +107,8 @@
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
-					target="_self">TM Overview Presentation</a></li>
+				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
+					target="_self">IBM RSE Presentation</a></li>
 				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>

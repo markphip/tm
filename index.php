@@ -37,13 +37,13 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
-		<p><font size="+3"><b>News:</b></font> RSE 1.0M5 has been
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M5-200609221723/index.php">
-		posted for download</a> on Friday, September&nbsp;22. With this drop, the TM project also
-		passed its <a href="http://localhost/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">1.0 Release Review</a>.
-		A <a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
-		Tutorial</a> is now available as part of the documentation. Please check the
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M5-200609221723/buildNotes.php">build notes</a> for this build.</p>
+		<p><font size="+3"><b>News:</b></font> RSE 1.0RC2 has been
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC2-200610201821/index.php">
+		posted for download</a> on Friday, October&nbsp;20. Having passed its 
+		<a href="http://localhost/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">1.0 Release Review</a>
+		already, we expect only one more release candidate before the 1.0 release on November&nbsp;3rd.
+		Please check the
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC2-200610201821/buildNotes.php">build notes</a> for this build.</p>
 		<p>
 		<u>Additional Links:</u><br/> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
@@ -51,7 +51,7 @@
 		<div class="homeitem">
 			<h3>Quick Links</h3>
 				<ul class="midlist">
-					<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions and other "not so official" stuff there.</li>
+					<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions, meeting notes and other "not so official" stuff there.</li>
 					<li><a href="news://news.eclipse.org/eclipse.dsdp.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm">Web access</a>, <a href="http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html">archive</a>).</li>
 					<li><a href="http://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev" target="_blank"><b>Mailing List</b></a> | For project development discussions.</li>
 					<li><a href="/dsdp/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
@@ -60,7 +60,13 @@
 					   | Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
 					</li>
 					<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management</a></li>
-					<li><a href="/dsdp/tm/development/plan.php"><b>Project Plan</b></a></li>
+			    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
+      					<b>Architectural Overview</b></a>
+    	  				(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
+    	  				| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
+    	  			</li>
+					<li><a href="/dsdp/tm/development/plan.php"><b>1.0 Project Plan</b></a></li>
+					<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning"><b>2.0 Project Plan</b></a></li>
 					<li><a href="/dsdp/dsdp-charter.php"><b>DSDP Project Charter</b></a></li>
 		</div>
 		<div class="homeitem">
@@ -91,6 +97,8 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+					target="_self">TM Overview Slides</a></li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
@@ -110,9 +118,10 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
+				<li>Oct 20th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC2-200610201821/index.php">RSE 1.0RC2</a> has been posted</li>
+				<li>Oct 10th: <a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">RSE 1.0 Testing</a> round 2 is a great success</li>
 				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
 					1.0 Release Review</a></li>
-				<li>Sep 22nd: RSE M5 has been <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M5-200609221723/index.php">posted!</a></li>
 				<li>May 19th: Updated the <a
 					href="/dsdp/tm/development/plan.php"
 					target="_self">Project Plan</a> - New release date Oct. 20th</li>

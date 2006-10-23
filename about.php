@@ -60,29 +60,33 @@
     space, the main charter of target management is to provide data models and frameworks
     that are flexible and open enough for vendor-specific extensions. Sample implementations 
     will be provided for TCP/IP connections, FTP data transfer and gdb remote launching 
-    in the CDT environment. The basis for our implementations will be an open-source version
+    in the CDT environment. The basis for our implementations is an open-source version
     of the <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-    IBM Remote System Explorer</A>. Current milestones can be downloaded for evaluation
+    IBM Remote System Explorer</A>. Current releases can be downloaded for evaluation
     <a href="http://download.eclipse.org/dsdp/tm/downloads/">here</a>.
 	  <div class="homeitem3col">
 		<h3>For more information, see the</h3>
     	<ul>
+    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
+      		Target Management Overview Slides</a>
+    	  	which include a diagram of the envisioned components and architecture for our project
+    	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
+    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
+    	  	</li>
     	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
     	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
-    	<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">
-      		Target Management Overview Slides</a>
-    	  	which include a diagram of the envisioned components and architecture for our project.</li>
     	<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
       		IBM Remote Systems Explorer (RSE) Presentation</a>
 			to get a preview of what the first release of the Target Management System
 			will look like.
-		<li><a href="/dsdp/tm/development/plan.php">
+		<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning">
 			Target Management Project Plan</a> 
-			to understand what features and releases are coming next.</li>
+			to understand what features and releases are coming next
+			(Archive: <a href="/dsdp/tm/development/plan.php">1.0 Project Plan</a>).</li>
 		</ul>
 	  </div>
 	</div>
@@ -91,14 +95,16 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+					target="_self">TM Overview Slides</a></li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
-					target="_self">TM Overview Presentation</a></li>
+				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
+					target="_self">IBM RSE Presentation</a></li>
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>

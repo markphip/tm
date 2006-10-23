@@ -39,16 +39,17 @@
     <p>
 	Our first deliverable is the <i>Remote System Explorer (RSE)</i>,
 	a perspective and toolkit in Eclipse Workbench, that allows you 
-	to connect and work with a variety of remote systems. RSE 1.0M5 has been
+	to connect and work with a variety of remote systems. Release candidates are
 	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
-	posted for download</a> on Friday, September&nbsp;22. A
+	available for download</a> now, the final 1.0 release is expected
+	to be available on November 3rd. A
 	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
 	Tutorial</a> is now available as part of the documentation.</p>
 	<p>
     The basis of RSE is a former IBM product, for which a
     <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
     slide show</A> is still available. Our plans beyond 
-    <a href="/dsdp/tm/development/plan.php">RSE 1.0</a> are available from the
+    RSE 1.0 are available from the
     Target Management <a href="http://wiki.eclipse.org/RSE_2.0_Planning">RSE
     2.0 Planning Wiki</a> and our <a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
     Use Cases Document</a>, which covers all areas of interest to us.</p>
@@ -56,15 +57,18 @@
 	  <div class="homeitem3col">
 		<h3>For more information, see the</h3>
     	<ul>
+    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
+      		Target Management Overview Slides</a>
+    	  	which include a diagram of the envisioned components and architecture for our project
+    	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
+    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
+    	  	</li>
     	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
     	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
-    	<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">
-      		Target Management Overview Slides</a>
-    	  	which include a diagram of the envisioned components and architecture for our project.</li>
     	<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
       		IBM Remote Systems Explorer (RSE) Presentation</a>
 			to get a preview of what the first release of the Target Management System
@@ -80,14 +84,14 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+					target="_self">TM Overview Slides</a></li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
-					target="_self">TM Overview Presentation</a></li>
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">RSE 1.0 Tutorial</a></li>
 				<li><a href="/dsdp/tm/development/plan.php"
