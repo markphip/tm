@@ -15,20 +15,20 @@ org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,137839,Ewa Matejska,471,mo
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local,138619,Javier Montalvo Orus,2,ddykstal,Patch for encoding on Win2K
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,140323,Javier Montalvo Orus,30,ddykstal,ftp implementation of move rename delete
 org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.ftp,140344,Javier Montalvo Orus,1,ddykstal,ftp should be allowed to Windows systems
-org.eclipse.tm.rse/plugins/org.eclipse.rse.{services,subsystems}.files.ftp,140348,Javier Montalvo Orus,10,ddykstal,ftp should use port supplied by user
+org.eclipse.tm.rse/plugins/org.eclipse.rse.{services|subsystems}.files.ftp,140348,Javier Montalvo Orus,10,ddykstal,ftp should use port supplied by user
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,140406,Michael Berger,6,ddykstal,ftp create file implemenation
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,140408,Michael Berger,30,ddykstal,fixed ftp upload
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,140562,Javier Montalvo Orus,17,kmunir,Register New Connection as New Wizard
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,141813,Michael Berger,21,dmcknight,DStore patch for symbolic links problem
 org.eclipse.tm.rse/doc/*,142739,David Dykstal,11280 (html),ddykstal,RSE User and ISV Documentation
-org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,142974,Michael Berger,37,dmcknight,DStore patch for lost connection problem
+org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,142974,Michael Berger,37,dmcknight,DStore patch for lost connection problem (keepalives)
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,144226,Michael Berger,505,dmcknight,DStore spirit contribution
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,145799,Michael Berger,27,ddykstal,Add dstore refresh() method with depth parameter
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,145843,Michael Berger,2,ddykstal,removing non-standard expand and collapse
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,146326,Michael Berger,30,ddykstal,fixed erroneously disconnected dstore elements
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,146339,Michael Berger,8,ddykstal,added refresh action graphic
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services(.dstore)*,147531,Michael Berger,95,dmcknight,Patch to allow filtering on either client or server
-org.eclipse.tm.rse/plugins/org.eclipse.rse.services.{dstore,local},147791,Michael Berger,20,ddykstal,fixed circular search
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.{dstore|local},147791,Michael Berger,20,ddykstal,fixed circular search
 org.eclipse.tm.rse/plugins/org.eclipse.rse.logging,148434,Michael Berger,6,ddykstal,Added new help for logging preferences
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,149080,Michael Berger,30,dmcknight,Patch to allow JUnit test framework to work
 org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework,149080,David Dykstal,3602,ddykstal,framework that augments JUnit
