@@ -37,13 +37,13 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
-		<p><font size="+3"><b>News:</b></font> RSE 1.0RC2 has been
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC2-200610201821/index.php">
-		posted for download</a> on Friday, October&nbsp;20. Having passed its 
+		<p><font size="+3"><b>News:</b></font> RSE 1.0RC4 has been
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC4-200611031816/index.php">
+		posted for download</a> on Friday, November&nbsp;3. Having passed its 
 		<a href="http://localhost/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">1.0 Release Review</a>
-		already, we expect only one more release candidate before the 1.0 release on November&nbsp;3rd.
+		already, we expect the final 1.0 release on November&nbsp;10th.
 		Please check the
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC2-200610201821/buildNotes.php">build notes</a> for this build.</p>
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC4-200611031816/buildNotes.php">build notes</a> for this build.</p>
 		<p>
 		<u>Additional Links:</u><br/> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
@@ -118,7 +118,7 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
-				<li>Oct 20th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC2-200610201821/index.php">RSE 1.0RC2</a> has been posted</li>
+				<li>Nov 3rd: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0RC4-200611031816/index.php">RSE 1.0RC4</a> has been posted</li>
 				<li>Oct 10th: <a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">RSE 1.0 Testing</a> round 2 is a great success</li>
 				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
 					1.0 Release Review</a></li>
