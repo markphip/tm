@@ -68,8 +68,8 @@ the </i><a href="mailto:dsdp-tm-dev@eclipse.org">dsdp-tm-dev@eclipse.org</a> <i>
 mailing list.</i></p>
 <p>This document lays out the feature and API set for the initial
 release of the Eclipse DSDP - Target Management Project, 
-<b>Remote Systems Explorer (RSE) version 1.0.0</b>.</p>
-<p>The Remote Systems Explorer is a Tool and Framework for working with 
+<b>Remote System Explorer (RSE) version 1.0.0</b>.</p>
+<p>The Remote System Explorer is a Tool and Framework for working with 
 remote computer systems. It forms the first release out of the DSDP - 
 Target Management Project, to be augmented by additional plug-ins for device
 specific connection schemes and tasks in the future.</p> 
@@ -97,10 +97,10 @@ clear for any release, even if no features were to change.</p>
 milestones, with more detail on these and future capabilities found on
 the project <a href="/dsdp/tm/development/requirements.php">requirements</a>
 document. Each plan item covers a feature or API that is to be added to
-the Remote Systems Explorer, or some aspect of the project that is
+the Remote System Explorer, or some aspect of the project that is
 to be improved.</p>
 <p>As this plan represents the goals for the initial release of the
-Remote Systems Explorer, it is expected and hoped that the project
+Remote System Explorer, it is expected and hoped that the project
 will acquire additional requirements, a vibrant user community, and most
 importantly, a plug-in developer community to utilize the RSE framework
 for creating additional connection protocols, subsystem visualizers and more.
@@ -112,7 +112,7 @@ extent as possible.</p>
 <p>The release deliverables have the same form as is found in most Eclipse projects,
 namely:</p>
 <ul>
-	<li>Remote Systems Explorer source code release, available as versions tagged "R1_0" in the project's
+	<li>Remote System Explorer source code release, available as versions tagged "R1_0" in the project's
 		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>
 		<!--
 		and
@@ -120,11 +120,11 @@ namely:</p>
 		-->
 		.
 	</li>
-	<li>Remote Systems Explorer SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
-	<li>Remote Systems Explorer runtime binary distribution (includes user documentation) (downloadable).</li>
-	<li>Remote Systems Explorer examples (downloadable).</li>
+	<li>Remote System Explorer SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
+	<li>Remote System Explorer runtime binary distribution (includes user documentation) (downloadable).</li>
+	<li>Remote System Explorer examples (downloadable).</li>
 	<!--
-	<li>Remote Systems Explorer unit tests (downloadable).</li>
+	<li>Remote System Explorer unit tests (downloadable).</li>
 	-->
 </ul>
 <h2><a name="Milestones"></a>Release milestones</h2>
@@ -162,7 +162,7 @@ and validated in the operating environments listed below.</p>
 Environments</h2>
 <p>In order to remain current, each Eclipse release is designed to run on
 reasonably current versions of the underlying operating environments.</p>
-<p>The Remote Systems Explorer depends upon on the Eclipse Platform.
+<p>The Remote System Explorer depends upon on the Eclipse Platform.
 For this release, the RSE sources will be written and compiled
 against version 1.4.2 of the Java Platform APIs (i.e., Java 2 Platform,
 Release 1.4.2 SE), and designed to run on version 1.4.2 of the Java
@@ -173,18 +173,18 @@ be done on Java 5.</p>
 <a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_2.html#TargetOperatingEnvironments">
 reference platforms</a>
 (this list is updated over the course of the release cycle). The 
-Remote Systems Explorer wil be tested and validated against a 
+Remote System Explorer wil be tested and validated against a 
 subset of those listed for the platform, plus some more (marked
 <img src="/dsdp/tm/development/topic.gif" alt="(tm-only)" border="0" height="16" width="16">
 ) for which contributors have have expressed special interest 
 and volunteered to perform the systematic testing:</p>
 
-<table summary="Remote Systems Explorer Reference Platforms" style="width: 821px;"
+<table summary="Remote System Explorer Reference Platforms" style="width: 821px;"
 border="1">
 <tbody>
 <tr bgcolor="#cccccc">
 <th colspan="5">
-<div align="center"><strong><font size="+1">Remote Systems Explorer Reference
+<div align="center"><strong><font size="+1">Remote System Explorer Reference
 Platforms</font></strong></div>
 </th>
 </tr>
@@ -287,7 +287,7 @@ which are a subset of the Platforms we test the RSE UI on:</p>
 </ul>
 
 <h4>Internationalization</h4>
-<p>The Remote Systems Explorer is designed as the basis for internationalized
+<p>The Remote System Explorer is designed as the basis for internationalized
 products. The user interface elements provided by the RSE
 components, including dialogs and error messages, are externalized. The
 English strings are provided as the default resource bundles.
@@ -298,7 +298,7 @@ which locales will be provided and the timeframe for availability.</p>
 <!-- ------------------------------------------------------------ -->
 <h2><a name="Compatibility"></a>Compatibility and Dependencies</h2>
 <h3>Compatibility of Release 1.0</h3>
-<p>The Remote Systems Explorer will be developed in parallel with the
+<p>The Remote System Explorer will be developed in parallel with the
 Eclipse Platform SDK version 3.2. Each RSE Milestone Release will be
 based on the most recent Platform Milestone available at the time of
 release. Therefore, the RSE initial release will be

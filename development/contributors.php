@@ -46,7 +46,7 @@
 			<a href="http://wiki.eclipse.org/index.php/User:Moberhuber">more about Martin Oberhuber &raquo;</a>
 			</li>
 		<li><b>David Dykstal, IBM</b> (david_dykstal at us.ibm.com)<br/>
-		 	David is the Project Lead for the IBM Remote Systems Explorer,
+		 	David is the Project Lead for the IBM Remote System Explorer,
 		 	and thus plays a key role in all activities around RSE.<br/>
 		 	David has worked either for or with IBM for over 28 years,
 		 	including a significant stint with Object Technology International.
