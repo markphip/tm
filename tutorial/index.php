@@ -39,9 +39,15 @@
     <p>
 	Our first deliverable is the <i>Remote System Explorer (RSE)</i>,
 	a framework and toolkit in Eclipse Workbench, that allows you to
-	connect and work with a variety of remote systems, including remote
-	file systems through FTP and SSH, remote shell access, remote process
-	handling through dstore agents, and remote debugging through CDT / gdb.</p>
+	connect and work with a variety of remote systems, including
+	<ul>
+	  <li>remote file systems through SSH, FTP or dstore agents (seamless editing of
+	remote files including remote search and compare),</li>
+	  <li>remote shell access (compiling with error navigation),</li>
+	  <li>remote process handling through dstore agents,</li>
+	  <li>and remote debugging through CDT / gdb.</li>
+	</ul>
+	
 	<p>RSE 1.0 as well as upcoming service releases and milestones are available
     from our 
 	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
