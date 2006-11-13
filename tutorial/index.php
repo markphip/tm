@@ -38,13 +38,20 @@
     to configure and manage remote systems, their connections, and their services.</p>
     <p>
 	Our first deliverable is the <i>Remote System Explorer (RSE)</i>,
-	a perspective and toolkit in Eclipse Workbench, that allows you 
-	to connect and work with a variety of remote systems. Release candidates are
+	a framework and toolkit in Eclipse Workbench, that allows you to
+	connect and work with a variety of remote systems, including remote
+	file systems through FTP and SSH, remote shell access, remote process
+	handling through dstore agents, and remote debugging through CDT / gdb.</p>
+	<p>RSE 1.0 as well as upcoming service releases and milestones are available
+    from our 
 	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
-	available for download</a> now, the final 1.0 release is expected
-	to be available on November 3rd. A
+	download site</a> as well as our 
+	<a href="http://download.eclipse.org/dsdp/tm/updates/">
+	update site</a>. A
 	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
-	Tutorial</a> is now available as part of the documentation.</p>
+	Tutorial</a> is now available as part of the documentation,
+	and an <a href="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ">
+	FAQ</a> is available on the project Wiki.</p>
 	<p>
     The basis of RSE is a former IBM product, for which a
     <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
@@ -63,6 +70,12 @@
     	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
     	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  	</li>
+    	<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
+    		RSE 1.0 Tutorial</a></li>
+    	<li><a href="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ">
+    		TM and RSE FAQ</a></li>
+    	<li><a href="http://wiki.eclipse.org/index.php/RSE_1.0_Known_Issues_and_Workarounds">
+    		RSE 1.0 Known Issues and Workarounds</a></li>
     	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
@@ -73,8 +86,13 @@
       		IBM Remote Systems Explorer (RSE) Presentation</a>
 			to get a preview of what the first release of the Target Management System
 			will look like.
+<!--
 		<li><a href="/dsdp/tm/development/plan.php">
-			Target Management Project Plan</a> 
+			RSE 2.0 Project Plan</a> 
+			to understand what features and releases are coming next.</li>
+-->
+		<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning">
+			RSE 2.0 Project Plan</a> 
 			to understand what features and releases are coming next.</li>
 		</ul>
 	  </div>
