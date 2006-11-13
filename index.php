@@ -43,7 +43,9 @@
 		With it, we deliver a fully functional toolkit for working on remote computer
 		systems. Please check the
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/buildNotes.php">
-		release notes</a> for more information.</p>
+		release notes</a> for more information.<br/>
+		Next goals are an RSE 1.0.1 service release on December 15, 2006
+		and joining the Europa train with RSE 2.0M4 on Jan 4, 2007.</p>
 		<p>
 		<u>Additional Links:</u><br/> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
