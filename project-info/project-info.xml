@@ -49,6 +49,7 @@
   <committers url="/dsdp/tm/development/contributors.php"/>
   <contributors url="/dsdp/tm/development/contributors.php"/>
   <leaders url="/dsdp/tm/development/contributors.php"/>
+  <team url="/dsdp/tm/development/contributors.php"/>
   
   <!--
      - The source code of each Eclipse project is stored in CVS. Eclipse maintains
@@ -65,9 +66,7 @@
     -->
   <cvs repository="/cvsroot/dsdp">
     <module path="org.eclipse.tm.rse" /> 
-    <!--
     <module path="org.eclipse.tm.core" /> 
-	-->
   </cvs>
 
   <!--
@@ -85,7 +84,7 @@
      -       This file is often stored in the /project-info/ directory, thus the
      -       url would be something like "/tptp/project-info/description.html".
     -->
-  <description url="/dsdp/tm/index.php"
+  <description url="/dsdp/tm/about.php"
      paragraph-url="/dsdp/tm/project-info/project-page-paragraph.html"/>
   
   <!--
@@ -110,13 +109,24 @@
   <getting-started url="/dsdp/tm/tutorial/index.php"/>
   
   <!--
+     - It is also important to help new contributors get started with an Eclipse project.
+     - Most Eclipse projects have interesting/complex development environment
+     - setups or to-do lists. The <contributing> element
+     - points to a web page on the project's site that describes how to
+     - get started developing on, and contributing to, the project.
+    -->
+  <contributing url="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ"/>
+
+  <!--
      - Each Eclipse project is required to maintain a current Project IP Log.
      - See http://www.eclipse.org/projects/dev_process/project-log.php
-     - The <ip-log> contains the URL of that log.
-     -
-     - <ip-log url="..."/>
+     - The <ip-log> contains the URL of that log.  If the project has
+     - other legal information as well, it can use the <legal> element
+     - instead and then include the IP Log information on the Legal web page.
     -->
   <ip-log url="/dsdp/tm/development/tm-log.csv"/>
+  <legal url="/projects/slides/TM-IP_log_1.0.csv"/> 
+
 
   <!--
      - Each Eclipse project has one or more mailing lists.
@@ -195,34 +205,26 @@
       	<download>http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M1-200604270100/index.php</download>
       	<name>1.0M1</name>
 	</milestone>
-	<milestone status="scheduled" name="1.0M2">
-    	<date>19/05/2006</date>
-      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
-      	<name>1.0M2</name>
-	</milestone>
-	<milestone status="scheduled" name="1.0M3">
-    	<date>30/06/2006</date>
-      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
-      	<name>1.0M3</name>
-	</milestone>
-	<milestone status="scheduled" name="1.0M4">
-    	<date>11/08/2006</date>
-      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
-      	<name>1.0M4</name>
-	</milestone>
-	<milestone status="scheduled" name="1.0M5">
-    	<date>22/09/2006</date>
-      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download>http://download.eclipse.org/dsdp/tm/downloads/index.php</download>
-      	<name>1.0M4</name>
-	</milestone>
+    <release 
+       status="completed"
+       name="1.0"
+       date="13/11/2006"
+       plan="/dsdp/tm/development/plan.php"
+       download="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/" />
     <release 
        status="scheduled"
-       name="1.0"
-       date="10/11/2006"
+       name="1.0.1"
+       date="15/12/2006"
        plan="/dsdp/tm/development/plan.php" />
+    <release 
+       status="scheduled"
+       name="2.0"
+       date="06/2007"
+       plan="http://wiki.eclipse.org/index.php/RSE_2.0_Planning" />
+	<milestone status="scheduled" name="2.0M4">
+    	<date>04/01/2007</date>
+      	<plan format="defacto1">http://wiki.eclipse.org/index.php/RSE_2.0_Planning</plan>
+      	<name>2.0M4</name>
+	</milestone>
   </releases>
 </project>
