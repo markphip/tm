@@ -59,7 +59,7 @@
     Since there are many different vendors and solutions around in the device software
     space, the main charter of target management is to provide data models and frameworks
     that are flexible and open enough for vendor-specific extensions. Sample implementations 
-    will be provided for TCP/IP connections, FTP data transfer and gdb remote launching 
+    are provided for TCP/IP Secure Shell (ssh) connections, FTP data transfer and gdb remote launching 
     in the CDT environment. The basis for our implementations is an open-source version
     of the <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
     IBM Remote System Explorer</A>. Current releases can be downloaded for evaluation
@@ -82,7 +82,7 @@
     	<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
       		IBM Remote Systems Explorer (RSE) Presentation</a>
 			to get a preview of what the first release of the Target Management System
-			will look like.
+			(RSE 1.0) looks like.
 		<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning">
 			Target Management Project Plan</a> 
 			to understand what features and releases are coming next
@@ -95,6 +95,8 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
+				<li><a href="/dsdp/tm/tutorial/index.php"
+					target="_self">TM Getting Started</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
@@ -103,9 +105,7 @@
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
-					target="_self">IBM RSE Presentation</a></li>
-				<li><a href="/dsdp/tm/development/plan.php"
+				<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning"
 					target="_self">TM Project Plan</a></li>
 			</ul>
 		</div>

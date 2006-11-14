@@ -37,11 +37,17 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
-		<p><font size="+3"><b>News:</b></font> 
+		<p><font size="+3"><b>News:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/">
-		Remote Systems Explorer (RSE) 1.0 has been released</a> on Monday, November&nbsp;13!
+		RSE 1.0 has been released</a></font><br/>
+		on Monday, November&nbsp;13!
 		With it, we deliver a fully functional toolkit for working on remote computer
-		systems. Please check the
+		systems. Grab it for
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/">download</a>, or from the
+		<a href="http://download.eclipse.org/dsdp/tm/updates/">update site</a>. 
+		Look at the
+		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
+		and check the
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/buildNotes.php">
 		release notes</a> for more information.<br/>
 		Next goals are an RSE 1.0.1 service release on December 15, 2006
@@ -75,9 +81,14 @@
 			<h3>Events</h3>
 			<ul class="midlist">
 				<li><b>Oct. 11, 2006</b>: 
-				  <a href="http://www.eclipsecon.org/summiteurope2006/index.php?page=detail/&id=26">
-				  The Remote System Explorer</a> - Talk by Michael Scharf at
-				  Eclipse Summit Europe</li>
+				  Eclipse Summit Europe - 
+				  <a href="http://www.eclipsecon.org/summiteurope2006/index.php?page=detail/&id=26">Talk by Michael Scharf on RSE</a>;<br/>
+				  TM Overview slides
+				  (<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a> | 
+				  <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>);<br/>
+				  DSDP Overview slides
+				  (<a href="http://www.eclipsecon.org/summiteurope2006/presentations/ESE2006_DSDP_Project_Update.pdf">PDF</a>)
+				  </li>
 				<li>The TM project <b>passed its 1.0 Release Review</b> on
 				    September 27, 2006. The Slides are an interesting read
 				    for everyone (Slides as  
@@ -99,19 +110,17 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
+				<li><a href="/dsdp/tm/tutorial/index.php"
+					target="_self">TM Getting Started</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
-			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
-			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">RSE 1.0 Tutorial</a></li>
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases</a></li>
-				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf" target="_self">
-					IBM RSE Presentation</a></li>
 				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
 			</ul>
