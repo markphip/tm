@@ -180,7 +180,8 @@
      - community and ecosystem to understand what will be delivered and when
      - it will be delivered.
     -->
-  <project-plan url="/dsdp/tm/development/plan.php"/>
+  <!-- project-plan url="/dsdp/tm/development/plan.php"/ -->
+  <project-plan url="http://wiki.eclipse.org/index.php/RSE_2.0_Planning"/>
 
   <!--
      - Each Eclipse project creates (optional) nightly builds and milestone builds,

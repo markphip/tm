@@ -110,7 +110,7 @@
 				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
 					target="_self">IBM RSE Presentation</a></li>
 				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
-				<li><a href="/dsdp/tm/development/plan.php"
+				<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning"
 					target="_self">TM Project Plan</a></li>
 			</ul>
 		</div>

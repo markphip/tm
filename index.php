@@ -133,9 +133,6 @@
 				<li>Oct 10th: <a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">RSE 1.0 Testing</a> round 2 is a great success</li>
 				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
 					1.0 Release Review</a></li>
-				<li>May 19th: Updated the <a
-					href="/dsdp/tm/development/plan.php"
-					target="_self">Project Plan</a> - New release date Oct. 20th</li>
 			    <li>Mar 22nd: About 70 participants at the<a
 					href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>
