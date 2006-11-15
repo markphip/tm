@@ -40,7 +40,6 @@
 		<p><font size="+3"><b>News:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/">
 		RSE 1.0 has been released</a></font><br/>
-		on Monday, November&nbsp;13!
 		With it, we deliver a fully functional toolkit for working on remote computer
 		systems. Grab it for
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/">download</a>, or from the
