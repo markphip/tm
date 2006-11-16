@@ -131,6 +131,9 @@
 		  <li>TM
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=VERIFIED&cmdtype=doit">
 		    verified but not yet closed</a>
+		  <li>TM
+		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=1.0&target_milestone=1.0+M1&target_milestone=1.0+M2&target_milestone=1.0+M3&target_milestone=1.0+M4&target_milestone=1.0+M5&target_milestone=1.0+RC1&target_milestone=1.0+RC2&target_milestone=1.0+RC3&target_milestone=1.0+RC4&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">
+		    open bugs assigned to 1.0 or older milestones</a>
 		</ul>
 
 		<p>Reports for Release Review</p>
