@@ -42,6 +42,7 @@
 		<p>How do I...
 		 <ul>
 		   <li><a href="#check_code">Properly check my code before checkin</a></li>
+		   <li><a href="#format_checkin_comment">Format my checkin comment</a></li>
 		   <li><a href="#checkin_fix">Work with bugs and fixes</a></li>
 		   <li><a href="#external_contrib">Apply a patch from an external contributor</a></li>
 		   <li><a href="#project_log">Edit the TM Project Log (tm-log.csv)</a></li>
@@ -62,6 +63,17 @@
 		  	  Code Ownership Page</a> up-to-date on the Wiki.</li>
 		</ul>
 
+		<a name="format_checkin_comment"></a>
+		<h2>Format my checkin comment</h2>
+		<ul>
+		  <li>All checkin comments should be formatted like this:<br/>
+		      &nbsp;&nbsp;&nbsp;&nbsp;<b>[123456] fixing ugly images</b><br/>
+		      &nbsp;&nbsp;&nbsp;&nbsp;<b>[123456] apply patch from Ewa Matejska for remotecdt-over-dstore</b><p/>
+		      Where the number [123456] references a bugzilla number, of course. Checkins that fix 
+		      multiple bugs should have the various bug numbers listed on a separate line of the
+		      checkin comment each.
+		</ul>
+		
 		<a name="checkin_fix"></a>
 		<h2>Work with bugs and fixes</h2>
 		<ul>
@@ -73,8 +85,9 @@
 		    asking the original submitter to verify.</li>
 		  <li>Ideally, write a JUnit test to make sure the bug will not creep
 		    in again (may not always be applicable).</li>
-		  <li>Commit your fix, adding the bugzilla number to the commit message. 
-		    Example: "Fix bug 139207 browsing into tar archives by dstore"</li>
+		  <li>Commit your fix, <a href="#format_checkin_comment">adding the bugzilla number</a>
+		  	to the commit message. 
+		    Example: "[139207] fix browsing into tar archives by dstore"</li>
 		  <li>Set the bugzilla report FIXED.</li>
 		</ul>
 		
