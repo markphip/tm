@@ -87,9 +87,24 @@
 		    in again (may not always be applicable).</li>
 		  <li>Commit your fix, <a href="#format_checkin_comment">adding the bugzilla number</a>
 		  	to the commit message. 
-		    Example: "[139207] fix browsing into tar archives by dstore"</li>
-		  <li>Set the bugzilla report FIXED.</li>
-		</ul>
+		    Example: <ul>
+			  <li><b>[139207] fix browsing into tar archives by dstore</b></li>
+			</ul></li>
+		  <li>Set the <b>bugzilla report FIXED</b>. The bugzilla comment along with the state change 
+  should include some help that allows a reader to understand what was done. Some good examples:<ul>
+    <li><b>Fixed by correcting id in files.ui/plugin.xml</b></li>
+    <li><b>Fixed in SystemViewPart and other *ViewPart files by using common action handler</b></li>
+  </ul>
+  The comment in bugzilla should be short enough so that it is not
+  much effort creating it. But long enough to help a later
+  reader find the corresponding change in cvs, and/or get some idea
+  what the problem actually was and what was done about it:
+  <ul>
+    <li>In case a single file was changed, a reference to the filename is sufficient</li>
+    <li>In case multiple files were changed, the most dominant file is often sufficient</li>
+    <li>In case lots of files were changed, the plugin or the component is fine</li>
+  </ul></li>
+</ul>
 		
 		<a name="external_contrib"></a>
 		<h2>Apply a patch from an external contributor</h2>
