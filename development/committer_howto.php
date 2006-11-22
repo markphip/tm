@@ -148,8 +148,8 @@ padding-bottom: 2px">
 		  <li>If the contribution is more than 250 lines of code and the contributor
 		     is not from your own company, or there is any 
 		     uncertainty about licening and purity of IP and copyrights: fill out 
-		     a <b><a href="http://www.eclipse.org/legal/ContributionQuestionnairePart1-v1.0.php"></b>
-		     Contribution Questionnaire</a></li>
+		     a Contribution Questionnaire (available from the 
+		     <a href="https://dev.eclipse.org/committers/">committer tools</a>)</li>
 		  <li>Once IP due diligence is completed: Apply the patch and commit it. Do not 
 		    make local modifications between applying and committing, in order to keep the 
 		    process transparent. <b>Put the bugzilla number on the commit message</b>.</li>
@@ -220,8 +220,9 @@ padding-bottom: 2px">
 		  <li>PMC Member Approval should be returned by E-Mail.</li>
 		  <li>Create a <b>Bugzilla Entry</b> holding the contribution in a form that is suitable for checkin.
 		      A ZIP archive of all the files/projects affected is fine.</li>
-		  <li>Fill in a <a href="http://www.eclipse.org/legal/ContributionQuestionnairePart1-v1.0.php">
-		  Contribution Questionnaire</a> and wait for EMO approval.</li>
+		  <li>Fill in a Contribution Questionnaire (available from the 
+		     <a href="https://dev.eclipse.org/committers/">committer tools</a>)
+		     and wait for EMO approval.</li>
 		  <li>Once approved, check in the contribution. Dont forget to add the <b>bugzilla number
 		      on the commit message.</b> Commit the code verbatim as from the bug entry first, 
 		      and make any necessary modifications later.</li>
