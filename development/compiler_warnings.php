@@ -53,7 +53,7 @@
   <tr><td>Access to a non-accessible member of an enclosing type:</td><td>Ignore</td><td>&nbsp;</td></tr> 
   <tr><td>Method with a constructor name:</td><td><b>Error</b></td><td>&nbsp;</td></tr> 
   <tr><td>Parameter assignment:</td><td>Ignore</td><td>&nbsp;</td></tr> 
-  <tr><td>Non-externalized strings (missing/unused $NON-NLS$ tag):</td><td>Ignore</td><td>&nbsp;</td></tr> 
+  <tr><td>Non-externalized strings (missing/unused $NON-NLS$ tag):</td><td><b>Warning</b></td><td>&nbsp;</td></tr> 
 
   <tr><th colspan="3" align="center">Potential programming problems</th></tr>
   <tr><td>Serializable class without serialVersionUID:</td><td>Warning</td><td>&nbsp;</td></tr> 
@@ -109,7 +109,7 @@
   <tr><th colspan="3">Javadoc</th></tr>
   <tr><td>Process Javadoc comments (includes search and refactoring)</td><td>On</td><td>&nbsp;</td></tr> 
   <tr><td>Malformed Javadoc comments:</td><td><b>Warning</b></td><td>&nbsp;</td></tr> 
-    <tr><td>&nbsp;&nbsp;&nbsp;Only consider members visible as:</td><td>Public</td><td>&nbsp;</td></tr> 
+    <tr><td>&nbsp;&nbsp;&nbsp;Only consider members visible as:</td><td><b>Protected</b></td><td>&nbsp;</td></tr> 
     <tr><td>&nbsp;&nbsp;&nbsp;Report errors in tags</td><td><b>On</b></td><td>&nbsp;</td></tr> 
     <tr><td>&nbsp;&nbsp;&nbsp;Report non visible references</td><td><b>On</b></td><td>&nbsp;</td></tr> 
     <tr><td>&nbsp;&nbsp;&nbsp;Report deprecated references</td><td><b>On</b></td><td>&nbsp;</td></tr> 
