@@ -76,7 +76,12 @@
 		    <td><a href="discovery-committer.psf">discovery-committer.psf</a></td>
 		  </tr>
 		  <tr>
-		    <td>Complete workspace, including all of the three project sets above</td>
+		    <td>Terminal component</td>
+		    <td><a href="terminal-anonymous.psf">terminal-anonymous.psf</a></td>
+		    <td><a href="terminal-committer.psf">terminal-committer.psf</a></td>
+		  </tr>
+		  <tr>
+		    <td>Complete workspace, including all four project sets above</td>
 		    <td><a href="tm-all-anonymous.psf">tm-all-anonymous.psf</a></td>
 		    <td><a href="tm-all-committer.psf">tm-all-committer.psf</a></td>
 		  </tr>
