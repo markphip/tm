@@ -34,7 +34,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 
-    	<h2>Use Cases</h2>
+    	<h2>Use Cases (your best bet to get started!)</h2>
     	<ul>
     	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">DSDP-TM Use Cases v1.1c.pdf</a></li>
     	<li><a href="/dsdp/tm/doc/nucleus_edge_target_usecase.pdf">nucleus edge target usecase.pdf</a></li>
