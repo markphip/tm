@@ -82,7 +82,7 @@
     	<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
       		IBM Remote Systems Explorer (RSE) Presentation</a>
 			to get a preview of what the first release of the Target Management System
-			(RSE 1.0) looks like.
+			(RSE 1.0.x) looks like.
 		<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning">
 			Target Management Project Plan</a> 
 			to understand what features and releases are coming next

@@ -41,14 +41,26 @@
 	a framework and toolkit in Eclipse Workbench, that allows you to
 	connect and work with a variety of remote systems, including
 	<ul>
-	  <li>remote file systems through SSH, FTP or dstore agents (seamless editing of
+	  <li><b>remote file systems</b> through SSH, FTP or dstore agents (seamless editing of
 	remote files including remote search and compare),</li>
-	  <li>remote shell access (compiling with error navigation),</li>
-	  <li>remote process handling through dstore agents,</li>
-	  <li>and remote debugging through CDT / gdb.</li>
+	  <li><b>remote shell access</b> (compiling with error navigation),</li>
+	  <li><b>remote process</b> handling through dstore agents,</li>
+	  <li>and <b>remote debugging</b> through CDT / gdb / gdbserver.</li>
 	</ul>
 	
-	<p>RSE 1.0 as well as upcoming service releases and milestones are available
+	<p>Besides that, we are working on <b>flexible, re-usable components</b>
+	 for Networking and Target Management that run integrated or without RSE.
+	The following are available from the RSE 1.0.1 download pages 
+	already:
+	<ul>
+	  <li>Fast and Flexible DNS-SD / Zeroconf based <b>Service Discovery</b> (requires EMF)</li>
+	  <li>An ANSI / vt102 compatible <b>Terminal</b> widget with pluggable Serial, ssh and Telnet connectors 
+	    (requires Platform now but can be ported to RCP / J2ME)</li>
+	  <li>Apache Jakarta <b>Commons Net</b> re-bundled for Eclipse to support FTP, rlogin, telnet
+	    and other standard protocols (requires J2SE-1.2 only)</li>
+	</ul> 
+	
+	<p>RSE 1.0.1 as well as upcoming service releases and milestones are available
     from our 
 	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
 	download site</a> as well as our 
@@ -62,7 +74,7 @@
     The basis of RSE is a former IBM product, for which a
     <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
     slide show</A> is still available. Our plans beyond 
-    RSE 1.0 are available from the
+    RSE 1.0.1 are available from the
     Target Management <a href="http://wiki.eclipse.org/RSE_2.0_Planning">RSE
     2.0 Planning Wiki</a> and our <a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
     Use Cases Document</a>, which covers all areas of interest to us.</p>

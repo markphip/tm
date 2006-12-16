@@ -37,20 +37,21 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
-		<p><font size="+3"><b>News:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/">
-		RSE 1.0 has been released</a></font><br/>
-		With it, we deliver a fully functional toolkit for working on remote computer
-		systems. Grab it for
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/">download</a>, or from the
-		<a href="http://download.eclipse.org/dsdp/tm/updates/">update site</a>. 
-		Look at the
+		<p><font size="+2"><b>News:</b> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">
+		RSE 1.0.1 is released</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/">update site</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/buildNotes.php">
+		build notes</a>]<br/>
+		Top news are a new Terminal component, enhanced CDT Remote Launch and more than 60
+		other bug fixes. With it, we deliver a fully functional toolkit for working on remote computer
+		systems.<br/> Look at the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
 		and check the
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/buildNotes.php">
-		release notes</a> for more information.<br/>
-		Next goals are an RSE 1.0.1 service release on December 15, 2006
-		and joining the Europa train with RSE 2.0M4 on Jan 4, 2007.</p>
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/buildNotes.php">
+		build notes</a> for more information.<br/>
+		Next goal is joining the Europa train with RSE 2.0M4 on Jan 4, 2007.</p>
 		<p>
 		<u>Additional Links:</u><br/> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
@@ -116,7 +117,7 @@
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
-					target="_self">RSE 1.0 Tutorial</a></li>
+					target="_self">RSE 1.0.x Tutorial</a></li>
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases</a></li>
@@ -128,6 +129,7 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
+				<li>Dec 15th: <a href="<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
 				<li>Nov 13th: <a href="<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/">RSE 1.0</a> has been released!</li>
 				<li>Oct 10th: <a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">RSE 1.0 Testing</a> round 2 is a great success</li>
 				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">

@@ -213,10 +213,11 @@
        plan="/dsdp/tm/development/plan.php"
        download="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/" />
     <release 
-       status="scheduled"
+       status="completed"
        name="1.0.1"
        date="15/12/2006"
-       plan="/dsdp/tm/development/plan.php" />
+       plan="/dsdp/tm/development/plan.php"
+       download="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/" />
     <release 
        status="scheduled"
        name="2.0"
