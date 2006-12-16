@@ -38,10 +38,6 @@ org.eclipse.tm.core/discovery/*,140320,Javier Montalvo Orus,8417,jmontalvo,Zeroc
 org.eclipse.tm.core/terminal/*,152826,Ted Williams,8526,tewillia,WR Terminal View Contribution
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,157426,Ewa Matejska,401,moberhuber,CDT Launch Integration Patch for using RSE services
 org.eclipse.rse.services.local,161838,Lothar Werzinger,3,moberhuber,LocalShellThread: Support terminating local shells
-org.eclipse.rse.remotecdt,161777,Ewa Matejska,52,moberhuber,Javadoc for HostShellAdapter and HostShellOutputStream
-org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,166343,Tobias Schwarz,4,dmcknigh,fix incorrect children count in SystemView
-org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,166345,Tobias Schwarz,15,dmcknigh,fix "Empty List" appears multiple times
-org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,158784,Ewa Matejska,148,moberhuber,Support specifying gdbserver name, port and debugger options for remotecdt
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
