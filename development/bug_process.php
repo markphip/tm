@@ -64,11 +64,16 @@
 		
 		<p><b>Bugs assigned to committers or contributors</b></p>
 		<ul>
+		  <!--
 		  <li>RSE
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&emailassigned_to1=1&emailtype1=exact&email1=dsdp.tm.rse-inbox%40eclipse.org&cmdtype=doit">
 		    Assigned to Inbox</a></li>
 		  <li>TM Core 
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&emailassigned_to1=1&emailtype1=exact&email1=dsdp.tm.core-inbox%40eclipse.org&cmdtype=doit">
+		    Assigned to Inbox</a></li>
+		  -->
+		  <li>TM and RSE
+		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&emailassigned_to1=1&emailtype1=substring&email1=inbox&cmdtype=doit">
 		    Assigned to Inbox</a></li>
 		  <li>RSE <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=priority&y_axis_field=assigned_to&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&component=RSE&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">
 		    Report: All Open, Assignee vs. Priority</a> - Helps to see who is working on high priority issues;<br/>
