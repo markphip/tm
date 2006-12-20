@@ -73,6 +73,7 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.rse.releng.infocenter,org.eclipse.rse.releng.infocenter"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.rse.updatesite,org.eclipse.rse.updatesite"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests,org.eclipse.rse.tests"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests-feature,org.eclipse.rse.tests-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework,org.eclipse.rse.tests.framework"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework.examples,org.eclipse.rse.tests.framework.examples"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.manual,org.eclipse.rse.tests.manual"/>
