@@ -106,6 +106,9 @@
 		    holding the Remote System Explorer (RSE) framework including services, subsystems,
 		    UI components, examples, tests, documentation and all release engineering
 		    support projects.</li>
+		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.orbit/?cvsroot=Tools_Project">Orbit Repository</a>,
+		    holding the TM contributions to Orbit, namely bundled versions of Jakarta
+		    Commons Net 1.4.1 and Jakarta ORO 2.0.8.</li>
 		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/?cvsroot=Eclipse_Website">TM Website Repository</a>,
 		    holding the project web pages.</li>
 		</ul>
@@ -126,6 +129,11 @@
 		    <td>RSE Main Repository</td>
 		    <td>:pserver:dev.eclipse.org:/cvsroot/dsdp</td>
 		    <td>org.eclipse.tm.rse</td>
+		  </tr>
+		  <tr>
+		    <td>Orbit Repository</td>
+		    <td>:pserver:dev.eclipse.org:/cvsroot/tools</td>
+		    <td>org.eclipse.orbit</td>
 		  </tr>
 		  <tr>
 		    <td>TM Website Repository</td>
