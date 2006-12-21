@@ -185,28 +185,28 @@ padding-bottom: 2px">
 		  <li>For use in Eclipse, we need to count lines of code in contribution, 
 		  INCLUDING xml files, documentation, readmes, property files and so on. Most 
 		  known code counters do not fulfill these needs. The simple UNIX
-		  command lines below count all lines of all text files except empty lines.<p/></li>
+		  command lines below count all lines of all text files except empty lines.</li>
 		  <li>We also suppress lines that only contain whitespace, empty comments
 		  or {} charactes. This is in order to account for different coding styles,
 		  which might prefer to have the { characters on a separate line or not.</li>
-		  <li>Count lines of code in a contribution supplied as archive: First extract it, then cd to the toplevel directory, then:
-		   <pre>
-    # Cat all non-binary files, suppress empty and lines only containing /*#{}
-    
-    find . -type f | grep -v /CVS/ \
-      | egrep -iv '\.(a|class|dll|exe|gif|png|jpg|so|o|obj|jar|tar|gz|zip)$' \
-      | xargs cat | egrep -v '^[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l
-
-'' | wc -l
-    </pre></li>
-		  <li>Count lines in a contribution that is submitted as a patch
-		  <pre>
-    # Cat all lines that were added in the patch.
-    # Suppress filenames, empty lines and lines only containing /*#{}
-    
-    grep '^[+]' patch.txt | grep -v '^[+][+]' \
-      | egrep -v '^\+[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l
-    </pre></li>		  
+		  <li><img src="http://www.eclipse.org/images/new.gif"/>
+		    We now have scripts to count the lines of code in a contribution. They 
+		    basically count all added lines, suppressing binary files, empty lines 
+		    and lines only containing /*#{}. See the script source code for details.
+		    <ul>
+		      <li>UNIX shellscripts should run out of the box. On Windows, Cygwin is
+		          required. Windows .bat files are provided as wrappers if cygwin is
+		          not your primary environment. The .bat files need to be modified
+		          or configured through environment variables -- see their contents
+		          and you'll understand.</li> 
+		      <li>For contributions supplied as an archive, get the <a href="scripts/lc">lc script</a>
+		         (plus <a href="scripts/lc.bat">lc.bat</a> if you are on Windows). Run it
+		         with one or more directories to count as arguments.</li>
+		      <li>For contributions supplied as a patch, get the
+		         <a href="scripts/lcp">lcp script</a>
+		         (plus <a href="scripts/lcp.bat">lcp.bat</a> if you are on Windows).
+		         Run it with the patch file as argument.</li> 
+		    </ul></li>
 		</ul>
 		
 		<a name="legacy_code"></a>
