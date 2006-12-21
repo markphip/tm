@@ -199,12 +199,23 @@ padding-bottom: 2px">
 		          not your primary environment. The .bat files need to be modified
 		          or configured through environment variables -- see their contents
 		          and you'll understand.</li> 
-		      <li>For contributions supplied as an archive, get the <a href="scripts/lc">lc script</a>
-		         (plus <a href="scripts/lc.bat">lc.bat</a> if you are on Windows). Run it
+		      <li>For contributions supplied as an archive, get the 
+		         <!-- <a href="scripts/lc"> -->
+		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lc?root=Eclipse_Website&view=co">
+		         lc script</a>
+		         (plus 
+		         <!-- <a href="scripts/lc.bat"> -->
+		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lc.bat?root=Eclipse_Website&view=co">
+		         lc.bat</a> if you are on Windows). Run it
 		         with one or more directories to count as arguments.</li>
 		      <li>For contributions supplied as a patch, get the
-		         <a href="scripts/lcp">lcp script</a>
-		         (plus <a href="scripts/lcp.bat">lcp.bat</a> if you are on Windows).
+		         <!-- <a href="scripts/lcp"> -->
+		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lcp?root=Eclipse_Website&view=co">
+		         lcp script</a>
+		         (plus 
+		         <!-- <a href="scripts/lcp.bat"> -->
+		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lcp.bat?root=Eclipse_Website&view=co">
+		         lcp.bat</a> if you are on Windows).
 		         Run it with the patch file as argument.</li> 
 		    </ul></li>
 		</ul>
