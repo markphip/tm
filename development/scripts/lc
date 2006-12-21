@@ -1,0 +1,89 @@
+#!/bin/sh
+#******************************************************************************
+# Copyright (c) 2006 Wind River Systems, Inc.
+# All rights reserved. This program and the accompanying materials 
+# are made available under the terms of the Eclipse Public License v1.0 
+# which accompanies this distribution, and is available at 
+# http://www.eclipse.org/legal/epl-v10.html 
+# 
+# Contributors: 
+# Martin Oberhuber - initial API and implementation 
+#******************************************************************************
+#:#
+#:# lc - Count lines of code, data and documentation of all files below a
+#:# list of directories. Do not count empty lines or binary files.
+#:#
+#:# Usage:
+#:#    lc [-fh] {directory,...}
+#:# Options:
+#:#    -f  ..  show file list on stderr (for debugging)
+#:#    -h  ..  show help
+#:# Examples:
+#:#    lc -f org.eclipse.plugin
+
+curdir=`pwd`
+case x$1 in
+  x-f*) SHOW_FILES=1; shift ;;
+  x-*) HELP=1 ;;
+esac
+if [ "$HELP" = "1" ]; then
+  grep '^#:#' $0 | grep -v grep | sed -e 's,^#:#,,'
+  exit 0
+fi
+
+if [ ! -d "$1" ]; then 
+  echo "Error: Argument is not a directory: $1"
+  echo "Type `basename $0` -help for help"
+  exit 1
+fi
+
+FILE_LIST=/tmp/.lc.files.$$
+LINES_FILE=/tmp/.lc.lines.$$
+while [ -f ${FILE_LIST} ]; do
+  FILE_LIST="${FILE_LIST}_"
+done
+while [ -f {LINES_FILE} ]; do
+  RESULT="${LINES_FILE}_"
+done
+trap "rm -f ${FILE_LIST} ${LINES_FILE}" EXIT
+#trap "rm -f ${FILE_LIST} ${LINES_FILE}; cd \"${curdir}\"" EXIT
+
+TOTAL=0
+while [ "$1" != "" ]; do
+  # Cat all non-binary files, suppress empty and lines only containing /*#{}
+  if [ ! -d "$1" ]; then
+    echo "$1: Not a directory"
+    shift
+    continue
+  else
+    echo "$1:"
+  fi
+  cd "$1"
+  find . -type f | egrep -v '/(CVS|.metadata)/' \
+      | egrep -iv '\.(a|class|dll|exe|bmp|gif|png|jpg|so|o|obj|jar|tar|gz|zip)$' \
+      > ${FILE_LIST}
+  if [ "$SHOW_FILES" = "1" ]; then
+    #cat ${FILE_LIST} > /dev/stderr
+    cat ${FILE_LIST} 1>&2-
+  fi
+  
+  ################################
+  # Here's our contribution line counting algorithm:
+  # 1. Cat all files from the contribution, delimited by newlines (xargs -d \\n cat)
+  # 2. Suppress empty lines and lines only containing /*#{}
+  #
+  # Known limitations:
+  # a. Fails for filenames with newlines embedded (a pretty academic limitation)
+  
+  cat ${FILE_LIST} | xargs -d \\n cat \
+    | egrep -v '^[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l > ${LINES_FILE}
+
+  LINES=`cat ${LINES_FILE}`
+  rm ${FILE_LIST} ${LINES_FILE}
+  echo ${LINES}
+  TOTAL=`expr ${TOTAL} + ${LINES}`
+  cd "$curdir"
+  shift
+done
+echo "Total: ${TOTAL}"
+exit 0
