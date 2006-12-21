@@ -37,11 +37,12 @@ fi
 # Here's our contribution line counting algorithm for patches:
 # 1. Cat the patch (necessary to support patches embedding binary data)
 # 2. Extract all lines that were added in the patch (starting with '+').
+#    We use -a in order to work around embedded icons and other binary data
 # 3. Suppress filenames (starting with '+++').
 # 4. Suppress empty lines and lines only containing /*#{}
 #
 # Known limitations:
 # a. "Moving around" type modications count too many + lines.
 
-cat "$1" | grep '^[+]' | grep -v '^[+][+][+]' \
-      | egrep -v '^\+[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l
+cat "$1" | grep -a '^[+]' | grep -a -v '^[+][+][+]' \
+      | egrep -a -v '^\+[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l
