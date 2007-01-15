@@ -43,6 +43,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,166343,Tobias Schwarz,4,dmcknigh,f
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,166345,Tobias Schwarz,15,dmcknigh,fix "Empty List" appears multiple times
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,158784,Ewa Matejska,148,moberhuber,Support specifying gdbserver name, port and debugger options for remotecdt
 org.eclipse.tm.rse/tests/org.eclipse.rse.tests,168810,Tobias Schwarz,923,ustieber,Add specialized testsubsystem for RSE JUnit test framework
+org.eclipse.tm.rse/tests/org.eclipse.rse.tests,170429,Tobias Schwarz,114,ustieber,[170429] applied patch for test subsystem test from Tobias Schwarz (WRS)
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
