@@ -438,6 +438,7 @@ While porting the features, they will be refactored and optimized, which
 may result in collapsing User Actions and Compile Commands into a single
 feature. See the link above for a presentation with more details about
 these features.
+(Themes: Ease of Use, Enterprise Ready / Facilitated On-Boarding)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170909">170909</a>) 
 </p>
 
@@ -447,6 +448,7 @@ cases where it differs from the standard Platform encoding. This will allow
 to transparently edit such remote resources properly. Also, support transparent 
 re-encoding of resources when doing copy&amp;paste or drag&amp;drop between folders 
 that require different encodings. 
+(Theme: Enterprise Ready)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=163820">163820</a>) 
 </p>
 
@@ -458,6 +460,7 @@ command view without terminal emulation.
 The current stand-alone TM Terminal View will be integrated with RSE
 as a new kind of subsystem that provides a terminal over any registered
 RSE IHostShell connection channel.
+(Theme: Ease Of Use)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170910">170910</a>) 
 </p>
 
@@ -469,6 +472,7 @@ they can be added as RSE connections; and finding services on those
 systems and registering them with RSE connections. A single RSE
 connection should be used for a single remote system detected,
 adding support for the services detected.
+(Theme: Ease Of Use)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170911">170911</a>) 
 </p>
   
@@ -484,6 +488,7 @@ Use Common Preferences for ssh and Proxy - Collaborate with Platform/Team
 on (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170883">170883</a>);
 Adopt the Commands framework with retargetable actions (e.g. for Properties);
 Adopt ICU4J and Capabilities. 
+(Theme: Persistent &amp; Pervasive Themes; Ease of Use)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170915">170915</a>) 
 </p>
   
@@ -495,6 +500,7 @@ In addition to that, it would be desirable to support an RSE
 subsystem under the Local system type that acts as an EFS browser,
 i.e. be able to access remote resources through any registered
 EFS provider.
+(Theme: Design for Extensibility)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170916">170916</a>) 
 </p>
   
@@ -506,6 +512,7 @@ need to be considered by IHost objects and registered with systemTypes.
 More considerations need to be made for systemTypes that do not describe TCP/IP
 connections. Finally, contributors should be able to disable SystemTypes 
 via capabilities and/or a dynamic enabler class.
+(Themes: Design for Extensibility, Embedded Device Software)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170918">170918</a>) 
 </p>
   
@@ -513,6 +520,7 @@ via capabilities and/or a dynamic enabler class.
 RSE APIs should be made smaller (less API, more internal) in order to make them
 easier to understand and maintain. Eliminate dead code. Clarify threading
 model. Add asynchronous callbacks for long-runnint operations.
+(Theme: Design for Extensibility)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170922">170922</a>) 
 </p>
   
@@ -524,6 +532,7 @@ accessing the SystemRegistry, getting IHost objects;
 getting ISubSystem, ISubSystemConfiguration objects as well as services;
 and using IFileServiceSubsystem as well as other ISubSystem and IService APIs
 for actions like upload, download, run-shell-command during a headless Launch.
+(Theme: Design for Extensibility)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170923">170923</a>) 
 </p>
   
@@ -538,6 +547,7 @@ In order to differenciate ourselves from EFS, we may add more tools that do not
 operate on an "abstract" file system but support more direct access to remote
 system's contributed permission and other status bits like Access Control
 Lists (ACLs).
+(Themes: Scaling Up, Design for Extensibility)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170926">170926</a>) 
 </p>
   
@@ -550,6 +560,7 @@ more different system types. In addition to that, it should
 be possible to group services into a system; and support
 more dynamic enabling / disabling of subsystems / services 
 based on availability. 
+(Theme: Design for Extensibility)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=150498">150498</a>) 
 </p>
   
@@ -562,6 +573,7 @@ It should be possible to associate connections, profiles, filter
 pools etc. with projects. Data storage should be flexible in the
 metadata or the project workspace, similar to the persistence
 mechanism used by Eclipse Launch Configurations today.
+(Theme: Enterprise Ready / Facilitated On-Boarding)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170932">170932</a>) 
 </p>
   
@@ -569,6 +581,7 @@ mechanism used by Eclipse Launch Configurations today.
 MacOS X is a widespread Eclipse Platform and should be made
 official reference platform, thus giving bug reports a higher
 priority and doing automated unit testing regularly.
+(Theme: Platform Support)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170936">170936</a>) 
 </p>
 
