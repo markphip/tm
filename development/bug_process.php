@@ -39,23 +39,22 @@
 		use the various Bugzilla fields.</p>
 
 		<h2>Interesting Bugzilla Queries</h2>
+		<p><b>Planning and feature work</b></p>
 		<ul>
-		    <!--
-		  <li>TM and RSE
-		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&chfieldfrom=2006-11-14&chfieldto=2006-12-16&chfield=resolution&cmdtype=doit">
-		    Bugs fixed for RSE 1.0.1 (by date)</a></li>
-		  <li>TM and RSE
-		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=1.0.1&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&cmdtype=doit"> 
-		    Bugs fixed for RSE 1.0.1 (by target milestone)</a></li>
-		    -->
-		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=priority&y_axis_field=assigned_to&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=2.0+M5&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">
-		    Report: open bugs assigned to 2.0M5 target milestone</a></li>
+		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&keywords_type=allwords&keywords=plan&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&order=Assignee">
+		    Plan Items</a></li>
+		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=%5Bapi&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&order=Assignee&negate0=1&field0-0-0=short_desc&type0-0-0=casesubstring&value0-0-0=%5Bplan&field0-0-1=blocked&type0-0-1=anywordssubstr&value0-0-1=150498%2C163820%2C170909%2C170910%2C170911%2C170915%2C170916%2C170918%2C170922%2C170923%2C170926%2C170932%2C170936">
+		    unplanned open API</a> bugs (without any plan items as "blocks" references)</li>
+		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=%5Bapi&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&order=Assignee">
+		    all open API</a> bugs</li>
+		</ul>
+
+		<p><b>Bugfix and Contribution work</b></p>
+		<ul>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=priority&type0-0-0=regexp&value0-0-0=P%5B12%5D&field0-0-1=bug_severity&type0-0-1=regexp&value0-0-1=blocker%7Ccritical%7Cmajor">
 		    open major, critical, blocker, P1 or P2</a> bugs</li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=attachments.ispatch&type0-0-0=equals&value0-0-0=1">
 		    open bugs with patches attached</a></li>
-		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=%5Bapi&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">
-		    open API</a> bugs</li>
 	      <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&chfieldfrom=1w&chfieldto=Now&chfieldvalue=&cmdtype=doit&negate0=1&field0-0-0=target_milestone&type0-0-0=equals&value0-0-0=---">
 		    open current bugs</a> (bugs which changed last week, except deferred with Target Milestone="---")</li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=RESOLVED&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&chfieldfrom=7d&chfieldto=Now&chfield=resolution&cmdtype=doit">
@@ -134,6 +133,14 @@
 
 		<p><b>QA queries</b></p>
 		<ul>
+		    <!--
+		  <li>TM and RSE
+		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&chfieldfrom=2006-11-14&chfieldto=2006-12-16&chfield=resolution&cmdtype=doit">
+		    Bugs fixed for RSE 1.0.1 (by date)</a></li>
+		  <li>TM and RSE
+		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=1.0.1&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&cmdtype=doit"> 
+		    Bugs fixed for RSE 1.0.1 (by target milestone)</a></li>
+		    -->
 		  <li>TM
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=RESOLVED&resolution=FIXED&resolution=WORKSFORME&cmdtype=doit&field0-0-0=priority&type0-0-0=regexp&value0-0-0=P%5B12%5D&field0-0-1=bug_severity&type0-0-1=regexp&value0-0-1=blocker%7Ccritical%7Cmajor">
 		    major, critical, blocker, P1 or P2 fixed but not yet verified</a>
@@ -290,7 +297,7 @@ padding-bottom: 2px">
 		</ul>
 		 				   
 	</div>
-
+<p/>
 EOHTML;
 
 	# Generate the web page
