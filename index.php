@@ -50,8 +50,12 @@
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
 		and check the
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/buildNotes.php">
-		build notes</a> for more information.<br/>
-		Next goal is joining the Europa train with RSE 2.0M4 on Jan 4, 2007.</p>
+		build notes</a> for more information.
+		<!--
+		<br/>
+		Next goal is joining the Europa train with RSE 2.0M4 on Jan 4, 2007.
+		-->
+		</p>
 		<p>
 		<u>Additional Links:</u><br/> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
@@ -73,8 +77,7 @@
     	  				(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
     	  				| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  			</li>
-					<li><a href="/dsdp/tm/development/plan.php"><b>1.0 Project Plan</b></a></li>
-					<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning"><b>2.0 Project Plan</b></a></li>
+					<li><a href="/dsdp/tm/development/plan.php"><b>TM Project Plan</b></a></li>
 					<li><a href="/dsdp/dsdp-charter.php"><b>DSDP Project Charter</b></a></li>
 		</div>
 		<div class="homeitem">
@@ -121,8 +124,7 @@
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases</a></li>
-				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
-				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
+				<li><a href="/dsdp/tm/development/plan.php">TM Project Plan</a></li>
 			</ul>
 		</div>
 		

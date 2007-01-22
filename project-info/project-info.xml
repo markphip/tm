@@ -181,7 +181,7 @@
      - it will be delivered.
     -->
   <!-- project-plan url="/dsdp/tm/development/plan.php"/ -->
-  <project-plan url="http://wiki.eclipse.org/index.php/RSE_2.0_Planning"/>
+  <project-plan url="/dsdp/tm/development/tm_project_plan_2_0.html"/>
 
   <!--
      - Each Eclipse project creates (optional) nightly builds and milestone builds,
@@ -200,17 +200,11 @@
      - tentative release.
     -->
   <releases>
-	<milestone status="released" name="1.0M1">
-    	<date>28/04/2006</date>
-      	<plan format="defacto1">/dsdp/tm/development/plan.php</plan>
-      	<download>http://download.eclipse.org/dsdp/tm/downloads/drops/S-1.0M1-200604270100/index.php</download>
-      	<name>1.0M1</name>
-	</milestone>
     <release 
        status="completed"
        name="1.0"
        date="13/11/2006"
-       plan="/dsdp/tm/development/plan.php"
+       plan="/dsdp/tm/development/tm_project_plan_1_0.html"
        download="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/" />
     <release 
        status="completed"
@@ -222,10 +216,11 @@
        status="scheduled"
        name="2.0"
        date="06/2007"
-       plan="http://wiki.eclipse.org/index.php/RSE_2.0_Planning" />
-	<milestone status="scheduled" name="2.0M4">
+       plan="/dsdp/tm/development/tm_project_plan_2_0.html" />
+	<milestone status="released" name="2.0M4">
     	<date>04/01/2007</date>
-      	<plan format="defacto1">http://wiki.eclipse.org/index.php/RSE_2.0_Planning</plan>
+      	<plan format="defacto1">/dsdp/tm/development/tm_project_plan_2_0.html</plan>
+      	<download>http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M4-200701040900/index.php</download>
       	<name>2.0M4</name>
 	</milestone>
   </releases>

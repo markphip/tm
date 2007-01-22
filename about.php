@@ -83,10 +83,9 @@
       		IBM Remote Systems Explorer (RSE) Presentation</a>
 			to get a preview of what the first release of the Target Management System
 			(RSE 1.0.x) looks like.
-		<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning">
-			Target Management Project Plan</a> 
-			to understand what features and releases are coming next
-			(Archive: <a href="/dsdp/tm/development/plan.php">1.0 Project Plan</a>).</li>
+		<li><a href="/dsdp/tm/development/plan.php">
+			Target Management Project Planning</a> 
+			to understand what features and releases are coming next.</li>
 		</ul>
 	  </div>
 	</div>
@@ -105,7 +104,7 @@
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning"
+				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>
 		</div>

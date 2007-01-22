@@ -75,8 +75,8 @@
     <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
     slide show</A> is still available. Our plans beyond 
     RSE 1.0.1 are available from the
-    Target Management <a href="http://wiki.eclipse.org/RSE_2.0_Planning">RSE
-    2.0 Planning Wiki</a> and our <a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+    Target Management <a href="/dsdp/tm/development/plan.php">Project Plan
+    </a> and our <a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
     Use Cases Document</a>, which covers all areas of interest to us.</p>
     
 	  <div class="homeitem3col">
@@ -104,13 +104,8 @@
       		IBM Remote Systems Explorer (RSE) Presentation</a>
 			to get a preview of what the first release of the Target Management System
 			will look like.
-<!--
 		<li><a href="/dsdp/tm/development/plan.php">
-			RSE 2.0 Project Plan</a> 
-			to understand what features and releases are coming next.</li>
--->
-		<li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning">
-			RSE 2.0 Project Plan</a> 
+			Target Management Project Plan</a> 
 			to understand what features and releases are coming next.</li>
 		</ul>
 	  </div>

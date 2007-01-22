@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "TM Bug Process";
+	$pageTitle 		= "Target Management Bug Process";
 	$pageKeywords	= "DSDP, Target Management, Bugs, Process, Guidelines";
 	$pageAuthor		= "Martin Oberhuber";
 	
