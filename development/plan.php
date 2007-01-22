@@ -60,7 +60,7 @@ background-repeat: repeat-y
         This document lays out the feature and API set for the Target Management 2.0 release. </li>
       <li><a href="/dsdp/tm/development/bug_process.php"> Target Management Bug Process</a><br>
     	Queries for up-to-date status on plan items and bugs from Eclipse Bugzilla. </li>
-      <li><a href=""> 
+      <li><a href="http://wiki.eclipse.org/index.php/RSE_2.0_Planning"> 
         RSE 2.0 Planning Wiki</a><br>
         Plan Incubator Wiki, holding ideas for future releases. 
       </li>
