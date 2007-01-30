@@ -82,7 +82,7 @@
     <tr><td>&nbsp;&nbsp;&nbsp;Signal use of deprecated API inside deprecated code</td><td><b>On</b></td><td>&nbsp;</td></tr> 
     <tr><td>&nbsp;&nbsp;&nbsp;Signal overriding or implementing deprecated method</td><td><b>On</b></td><td>&nbsp;</td></tr> 
   <tr><td>Forbidden reference (access rules):</td><td>Error</td><td>&nbsp;</td></tr> 
-  <tr><td>Discouraged reference (access rules):</td><td><b>Ignore</b></td><td>&nbsp;</td></tr> 
+  <tr><td>Discouraged reference (access rules):</td><td>Warning</td><td>&nbsp;</td></tr> 
 
   <tr><th colspan="3" align="center">Unnecessary code</th></tr>
   <tr><td>Local variable is never read:</td><td>Warning</td><td>&nbsp;</td></tr> 
