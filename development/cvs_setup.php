@@ -39,7 +39,7 @@
 		
 		<p>Simply pick the project set below that is appropriate
 		for your use, save it to a local disk and in Eclipse choose
-		<b>File &gr; Import &gt; Team &gr; Team Project Set</b>.
+		<b>File &gt; Import &gt; Team &gt; Team Project Set</b>.
 		Since committers with write access to the repository need
 		a different repository setup, there are specific project
 		sets for committers.</p>
