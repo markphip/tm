@@ -106,7 +106,7 @@
 						Eclipse Quality APIs</a>.
 						</li>
 					<li><b><a href="http://wiki.eclipse.org/index.php/Development_Conventions_and_Guidelines">
-					    Coding Conventions</a></b><br>
+					    Development Conventions and Guidelines</a></b><br>
 						Coding standards, naming conventions, and other
 						guidelines used by the Platform. TM will use these conventions
 						until such time as deviation is required.</li>
