@@ -34,6 +34,7 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.core,org.eclipse.rse.subsystems.processes.core"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.dstore,org.eclipse.rse.subsystems.processes.dstore"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.local,org.eclipse.rse.subsystems.processes.local"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.shell.linux,org.eclipse.rse.subsystems.processes.shell.linux"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.core,org.eclipse.rse.subsystems.shells.core"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.dstore,org.eclipse.rse.subsystems.shells.dstore"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.local,org.eclipse.rse.subsystems.shells.local"/>

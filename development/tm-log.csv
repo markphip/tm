@@ -44,6 +44,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,166345,Tobias Schwarz,15,dmcknigh,
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,158784,Ewa Matejska,148,moberhuber,Support specifying gdbserver name, port and debugger options for remotecdt
 org.eclipse.tm.rse/tests/org.eclipse.rse.tests,168810,Tobias Schwarz,923,ustieber,Add specialized testsubsystem for RSE JUnit test framework
 org.eclipse.tm.rse/tests/org.eclipse.rse.tests,170429,Tobias Schwarz,114,ustieber,[170429] applied patch for test subsystem test from Tobias Schwarz (WRS)
+org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.shell.linux,159522,Yu-Fen Kuo,776,moberhuber,[159522] Initial submission of shell processes subsystem
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
