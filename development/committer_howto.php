@@ -65,6 +65,26 @@
 
 		<a name="format_checkin_comment"></a>
 		<h2>Format my checkin comment</h2>
+		<p>
+		There are 
+		<a href="http://wiki.eclipse.org/index.php/Search_CVS%2C_Release_Notes%2C_%26_Build_News">
+		tools available</a> which build a MySQL database of all CVS 
+		checkins and allow searching it, or even associate checkins with
+		bugzilla bugs in order to generate release notes:
+		for example see the 
+		<a href="http://www.eclipse.org/modeling/emf/searchcvs.php?q=project%3A+org.eclipse.emf+days%3A+7">
+		EMF Search CVS</a> and
+		<a href="http://www.eclipse.org/modeling/emf/news/relnotes.php?project=emf&version=HEAD">
+		EMF Release Notes</a>.</p>
+		<p>
+		At the TM project, we'll want to make use of these tools as soon
+		as possible. In order to associate cvs checkins with bugzilla, 
+		these tools need the bug id properly formatted in the checkin comment.
+		Multiple formats are supported, but this is the preferred one (see also
+		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=164719">
+		bug 164719</a> and 
+		<a href="http://dev.eclipse.org/mhonarc/lists/cross-project-issues-dev/msg00732.html">
+		this e-mail</a>):
 		<ul>
 		  <li>All checkin comments should be formatted like this:<br/>
 		      &nbsp;&nbsp;&nbsp;&nbsp;<b>[123456] fixing ugly images</b><br/>
