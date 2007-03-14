@@ -48,5 +48,5 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.shell.linux,1595
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
-Jakarta Oro 2.0.8,org.eclipse.tm.core/thirdparty/org.apache.oro,Apache Software License v1.1,FTP client (unmodified binary + associated unmodified sources)
-Jakarta Commons Net 1.4.1,org.eclipse.tm.core/thirdparty/org.apache.commons.net,Apache License v2.0,FTP client (unmodified binary + associated unmodified sources)
+Jakarta Oro 2.0.8,/cvsroot/tools,org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,FTP client (unmodified binary + associated unmodified sources)
+Jakarta Commons Net 1.4.1,/cvsroot/tools,org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,FTP client (unmodified binary + associated unmodified sources)
