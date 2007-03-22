@@ -45,6 +45,8 @@ org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,158784,Ewa Matejska,148,mo
 org.eclipse.tm.rse/tests/org.eclipse.rse.tests,168810,Tobias Schwarz,923,ustieber,Add specialized testsubsystem for RSE JUnit test framework
 org.eclipse.tm.rse/tests/org.eclipse.rse.tests,170429,Tobias Schwarz,114,ustieber,[170429] applied patch for test subsystem test from Tobias Schwarz (WRS)
 org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.shell.linux,159522,Yu-Fen Kuo,776,moberhuber,[159522] Initial submission of shell processes subsystem
+org.eclipse.tm.rse/plugins/org.eclipse.rse.importexport,170909,IBM,5993,ddykstal,[170909] Add user actions and import/export from RSE7
+org.eclipse.tm.rse/plugins/org.eclipse.rse.useractions,170909,IBM,16207,ddykstal,[170909] Add user actions and import/export from RSE7
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
