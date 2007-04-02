@@ -19,7 +19,6 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.eclipse.filesystem,org.eclipse.rse.eclipse.filesystem"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,org.eclipse.rse.files.ui"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.importexport,org.eclipse.rse.importexport"/>
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.logging,org.eclipse.rse.logging"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.processes.ui,org.eclipse.rse.processes.ui"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services,org.eclipse.rse.services"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,org.eclipse.rse.services.dstore"/>
