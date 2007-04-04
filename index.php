@@ -37,20 +37,35 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
-		<p><font size="+2"><b>News:</b> 
+		<p><font size="+2"><b>Latest Release:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">
-		RSE 1.0.1 is released</a></font>
+		RSE 1.0.1</a></font>
 		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/">update site</a>
 		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/buildNotes.php">
 		build notes</a>]<br/>
-		Top news are a new Terminal component, enhanced CDT Remote Launch and more than 60
-		other bug fixes. With it, we deliver a fully functional toolkit for working on remote computer
-		systems.<br/> Look at the
+		Includes new Terminal component, enhanced CDT Remote Launch and more than 60
+		other bug fixes compared to 1.0. With it, we deliver a fully functional toolkit for working 
+		on remote computer systems.<br/> Look at the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
 		and check the
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/buildNotes.php">
-		build notes</a> for more information.
+		build notes</a> for more information.</p>
+
+		<p><font size="+0"><b>Latest Milestone:</b> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/">
+		TM 2.0M5</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/milestones/">update site</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/buildNotes.php">
+		build notes</a>]<br/>
+		Changes the Terminal to use RXTX for more portability; adds a 
+		Shell Processes subsystem, encoding support for remote files
+		and passive mode support for FTP. Requires Eclipse 3.3M5.
+		See the 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/buildNotes.php">
+		build notes</a> for new&amp;noteworthy and more information.</p>
+
 		<!--
 		<br/>
 		Next goal is joining the Europa train with RSE 2.0M4 on Jan 4, 2007.
@@ -83,6 +98,22 @@
 		<div class="homeitem">
 			<h3>Events</h3>
 			<ul class="midlist">
+				<li><b>April 12, 2007</b>: 
+				  <a href="http://www.eclipse.org/community/webinars.php">TM Webinar</a> at
+				  1500 UTC; See the link above for how to <b>register</b> by E-Mail
+				  </li> 
+				<li>
+				  EclipseCon 2007:<ul>
+				    <li><a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651" target="_blank">
+				         <b>TM Tutorial</b></a> (includes 
+				         <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>)</li>
+				    <li><a href="http://www.eclipsecon.org/2007/index.php?not_accepted=0&page=sub/&id=3781" target="_blank">
+				         <b>Short Talk</b></a> (includes 
+				         <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3781">slides</a>)</li>
+				    <li><a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=4135" target="_blank">
+				         <b>Short Demo</b></a> (includes 
+				         <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=4135">slides</a>)</li>
+				  </ul></li>
 				<li><b>Oct. 11, 2006</b>: 
 				  Eclipse Summit Europe - 
 				  <a href="http://www.eclipsecon.org/summiteurope2006/index.php?page=detail/&id=26">Talk by Michael Scharf on RSE</a>;<br/>
@@ -100,12 +131,7 @@
 				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
 				    (See the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a> for actual
 				    agenda and details)</li>
-				<li>
-				  <!-- <a href="http://eclipsezilla.eclipsecon.org/show_bug.cgi?id=287" target="_blank"> -->
-				  <a href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0" target="_blank">
-				  <b>Using and Extending the DSDP Target Management Framework</b></a>, long talk at EclipseCon 2006
-				  (<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">presentation file</a>)</li>
-				<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM/Face-to-face_Toronto_23-Feb-2006" target="_blank"><b>Face-to-Face Meeting Toronto</b></a>, 23/24-Feb-2006</li>
+			</ul>
 		</div>
 	</div>
 
@@ -131,9 +157,9 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
+				<li>Apr 12th: <a href="http://www.eclipse.org/community/webinars.php">TM Webinar</a></li>
+				<li>Apr 3nd: <a href="http://wiki.eclipse.org/index.php/TM_2.0_M6_Testing">TM 2.0M6 Testing</a> started</li>
 				<li>Dec 15th: <a href="<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
-				<li>Nov 13th: <a href="<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0-200611121600/">RSE 1.0</a> has been released!</li>
-				<li>Oct 10th: <a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">RSE 1.0 Testing</a> round 2 is a great success</li>
 				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
 					1.0 Release Review</a></li>
 			    <li>Mar 22nd: About 70 participants at the<a
