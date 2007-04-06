@@ -53,17 +53,17 @@
 		build notes</a> for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/">
-		TM 2.0M5</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6-200704061800/">
+		TM 2.0M6</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6-200704061800/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6-200704061800/buildNotes.php">
 		build notes</a>]<br/>
-		Changes the Terminal to use RXTX for more portability; adds a 
-		Shell Processes subsystem, encoding support for remote files
-		and passive mode support for FTP. Requires Eclipse 3.3M5.
+		promotes the <b>Eclipse Filesystem (EFS)</b> integration from "experimental" state to "official";
+		Fixes Copy&Paste, Drag&Drop for the Project Explorer; Includes lots of more API and 
+		flexibility improvements. 
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6-200704061800/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 
 		<!--
