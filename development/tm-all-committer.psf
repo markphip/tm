@@ -31,7 +31,6 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse-feature,org.eclipse.rse-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.core-feature,org.eclipse.rse.core-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.dstore-feature,org.eclipse.rse.dstore-feature"/>
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.efs-feature,org.eclipse.rse.efs-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.ftp-feature,org.eclipse.rse.ftp-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.local-feature,org.eclipse.rse.local-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.remotecdt-feature,org.eclipse.rse.remotecdt-feature"/>
