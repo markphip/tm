@@ -49,6 +49,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.importexport,170909,IBM,5993,ddykstal
 org.eclipse.tm.rse/plugins/org.eclipse.rse.useractions,170909,IBM,16207,ddykstal,[170909] Add user actions and import/export from RSE7
 org.eclipse.rse.remotecdt,180532,Ewa Matejska,1,moberhuber,[180532] RemoteGDBDebuggerPage not found
 org.eclipse.rse.remotecdt,158783,Ewa Matejska,45,moberhuber,[158783][contributed] browse button for cdt remote path
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,181394,Tobias Schwarz,15,moberhuber,Fix incorrect elements shown below filters
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
