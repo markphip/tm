@@ -114,7 +114,7 @@
 						Architectural Overview</a></b><br>
 						A high level summary of the components and their architecture.</li>
 					<li><b><a
-							href="http://www.eclipse.org/dsdp/tm/doc/DSDPTM_Use_cases_v1.1c.pdf">Project
+							href="http://www.eclipse.org/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">Project
 						Requirements</a></b> <br>
 						Look here for a list of the project use cases and their
 						priorities.</li>

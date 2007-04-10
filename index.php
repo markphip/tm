@@ -159,7 +159,7 @@
 			<ul>
 				<li>Apr 12th: <a href="http://www.eclipse.org/community/webinars.php">TM Webinar</a></li>
 				<li>Apr 3nd: <a href="http://wiki.eclipse.org/index.php/TM_2.0_M6_Testing">TM 2.0M6 Testing</a> started</li>
-				<li>Dec 15th: <a href="<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
+				<li>Dec 15th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
 				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
 					1.0 Release Review</a></li>
 			    <li>Mar 22nd: About 70 participants at the<a
