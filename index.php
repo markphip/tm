@@ -53,17 +53,17 @@
 		build notes</a> for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6-200704061800/">
-		TM 2.0M6</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6-200704061800/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/">
+		TM 2.0M6a</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6-200704061800/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/buildNotes.php">
 		build notes</a>]<br/>
 		promotes the <b>Eclipse Filesystem (EFS)</b> integration from "experimental" state to "official";
 		Fixes Copy&Paste, Drag&Drop for the Project Explorer; Includes lots of more API and 
 		flexibility improvements. 
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6-200704061800/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 
 		<!--
@@ -99,11 +99,13 @@
 			<h3>Events</h3>
 			<ul class="midlist">
 				<li><b>April 12, 2007</b>: 
-				  <a href="http://www.eclipse.org/community/webinars.php">TM Webinar</a> at
-				  1500 UTC; See the link above for how to <b>register</b> by E-Mail
+				  <a href="http://www.eclipse.org/community/webinars.php#TM">Webinar</a>:
+				  TM goals, architecture, future plans and online demo
+				  (<a href="http://adobedev.adobe.acrobat.com/p49988370/">50 minute full recording</a> |
+				  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
 				  </li> 
 				<li>
-				  EclipseCon 2007:<ul>
+				  <b>Mar 5-8, 2007</b>: EclipseCon 2007 -<ul>
 				    <li><a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651" target="_blank">
 				         <b>TM Tutorial</b></a> (includes 
 				         <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>)</li>
@@ -143,6 +145,7 @@
 					target="_self">TM Getting Started</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
+				<li><a href="http://www.eclipse.org/community/webinars.php#TM">TM Webinar</a></li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
@@ -157,14 +160,17 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
-				<li>Apr 12th: <a href="http://www.eclipse.org/community/webinars.php">TM Webinar</a></li>
-				<li>Apr 3nd: <a href="http://wiki.eclipse.org/index.php/TM_2.0_M6_Testing">TM 2.0M6 Testing</a> started</li>
+				<li>Apr 12th: <a href="http://www.eclipse.org/community/webinars.php#TM">TM Webinar</a></li>
+				<li>Apr 10th: <a href="http://tmober.blogspot.com/2007/04/target-management-m6-efs-and-webinar.html">TM 2.0M6 provides EFS</a></li>
+				<li>Mar 5th: <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">TM Tutorial</a> at EclipseCon</li>
 				<li>Dec 15th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
 				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
 					1.0 Release Review</a></li>
-			    <li>Mar 22nd: About 70 participants at the<a
-					href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
+                <!--
+ 			    <li>Mar 22nd: About 70 participants at the
+			    	<a href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>
+                -->
 			</ul>
 		</div>
 	</div>

@@ -65,14 +65,18 @@
 	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
 	download site</a> as well as our 
 	<a href="http://download.eclipse.org/dsdp/tm/updates/">
-	update site</a>. A
+	update site</a>. The best resource for programmers to get started
+	with the framework is the 
+	<a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">EclipseCon 2007 Tutorial</a>
+	(includes <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>),
+	which is based on TM 2.0M6. Another
 	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
-	Tutorial</a> is now available as part of the documentation,
+	RSE 1.x based Tutorial</a> is available as part of the ISV documentation,
 	and an <a href="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ">
 	FAQ</a> is available on the project Wiki.</p>
 	<p>
     The basis of RSE is a former IBM product, for which a
-    <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
+    <A href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
     slide show</A> is still available. Our plans beyond 
     RSE 1.0.1 are available from the
     Target Management <a href="/dsdp/tm/development/plan.php">Project Plan
@@ -88,10 +92,20 @@
     	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
     	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  	</li>
-    	<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
-    		RSE 1.0 Tutorial</a></li>
+		<li><a href="http://www.eclipse.org/community/webinars.php#TM">TM Webinar</a>:
+		  goals, architecture, future plans and online demo
+		  (<a href="http://adobedev.adobe.acrobat.com/p49988370/">50 minute full recording</a> |
+		  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
+		  </li> 
     	<li><a href="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ">
     		TM and RSE FAQ</a></li>
+		<li>EclipseCon 2007 
+		  <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651" target="_blank">
+		  <b>TM 2.0 Tutorial</b></a> (includes 
+		  <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>)
+		</li>
+    	<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
+    		RSE 1.0 Tutorial</a></li>
     	<li><a href="http://wiki.eclipse.org/index.php/RSE_1.0_Known_Issues_and_Workarounds">
     		RSE 1.0 Known Issues and Workarounds</a></li>
     	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
@@ -117,6 +131,8 @@
 			<ul>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
+				<li><a href="http://www.eclipse.org/community/webinars.php#TM">TM Webinar</a>
+				    </li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
