@@ -73,9 +73,9 @@
     	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
     	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  	</li>
-		<li><a href="http://www.eclipse.org/community/webinars.php#TM">TM Webinar</a>:
+		<li><a href="http://live.eclipse.org/node/229">TM Webinar</a>:
 		  goals, architecture, future plans and online demo
-		  (<a href="http://adobedev.adobe.acrobat.com/p49988370/">50 minute full recording</a> |
+		  (<a href="http://live.eclipse.org/node/229">50 minute full recording</a> |
 		  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
 		  </li> 
     	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
@@ -103,7 +103,7 @@
 					target="_self">TM Getting Started</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
-				<li><a href="http://www.eclipse.org/community/webinars.php#TM">TM Webinar</a>
+				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a>
 				    </li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				

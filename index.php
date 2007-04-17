@@ -99,9 +99,9 @@
 			<h3>Events</h3>
 			<ul class="midlist">
 				<li><b>April 12, 2007</b>: 
-				  <a href="http://www.eclipse.org/community/webinars.php#TM">Webinar</a>:
+				  <a href="http://live.eclipse.org/node/229">Webinar</a>:
 				  TM goals, architecture, future plans and online demo
-				  (<a href="http://adobedev.adobe.acrobat.com/p49988370/">50 minute full recording</a> |
+				  (<a href="http://live.eclipse.org/node/229">50 minute full recording</a> |
 				  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
 				  </li> 
 				<li>
@@ -145,7 +145,7 @@
 					target="_self">TM Getting Started</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
-				<li><a href="http://www.eclipse.org/community/webinars.php#TM">TM Webinar</a></li>
+				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
@@ -160,7 +160,7 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
-				<li>Apr 12th: <a href="http://www.eclipse.org/community/webinars.php#TM">TM Webinar</a></li>
+				<li>Apr 12th: <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
 				<li>Apr 10th: <a href="http://tmober.blogspot.com/2007/04/target-management-m6-efs-and-webinar.html">TM 2.0M6 provides EFS</a></li>
 				<li>Mar 5th: <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">TM Tutorial</a> at EclipseCon</li>
 				<li>Dec 15th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
