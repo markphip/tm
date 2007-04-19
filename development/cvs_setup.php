@@ -39,7 +39,18 @@
 		
 		<p>Simply pick the project set below that is appropriate
 		for your use, save it to a local disk and in Eclipse choose
-		<b>File &gt; Import &gt; Team &gt; Team Project Set</b>.
+		<b>File &gt; Import &gt; Team &gt; Team Project Set</b>.</p>
+		
+		<p>For most contributors, we recommend using <b>
+		<a href="rse-anonymous.psf">rse-anonymous.psf</a></b>.
+		Since the RSE code is located on three different repositories,
+		importing this project set will ask you three times for 
+		your user and password information. Use
+		<ul><li>User: <b>anonymous</b></li>
+		    <li>Password: <b>your.email@your.provider</b></li>
+		</ul>
+		After entering this three times during import, Eclipse will 
+		not ask you again. 
 		Since committers with write access to the repository need
 		a different repository setup, there are specific project
 		sets for committers.</p>
@@ -165,6 +176,7 @@
 			Using Eclipse with CVS</a> for instructions on how to use
 			Eclipse with CVS.</li>
 		</ul>
+		<p/>
 	</div>
 
 EOHTML;
