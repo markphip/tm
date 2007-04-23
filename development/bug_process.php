@@ -53,8 +53,8 @@
 		<ul>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=blocker&bug_severity=critical&bug_severity=major&cmdtype=doit">
 		    open severe bugs (major, critical, blocker)</a></li>
-		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=assigned_to&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=2.0+M6&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">
-		    open bugs assigned to M6</a>
+		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=assigned_to&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=2.0+M7&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">
+		    open bugs assigned to M7</a>
 		    (or report: <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=assigned_to&query_format=report-table&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">other milestones</a>)
 		    </li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=priority&type0-0-0=regexp&value0-0-0=P%5B12%5D&field0-0-1=bug_severity&type0-0-1=regexp&value0-0-1=blocker%7Ccritical%7Cmajor">
@@ -140,14 +140,14 @@
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=RESOLVED&resolution=FIXED&resolution=WORKSFORME&cmdtype=doit&field0-0-0=priority&type0-0-0=regexp&value0-0-0=P%5B12%5D&field0-0-1=bug_severity&type0-0-1=regexp&value0-0-1=blocker%7Ccritical%7Cmajor">
 		    major, critical, blocker, P1 or P2 fixed but not yet verified</a>
 		  <li>TM
-		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=%5Bapi&classification=DSDP&product=Target+Management&bug_status=VERIFIED&bug_status=CLOSED&bug_status=RESOLVED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&chfieldfrom=2007-02-24&chfieldto=2007-04-08&chfield=resolution&cmdtype=doit">
-		    API bugs fixed for M6</a>
+		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=%5Bapi&classification=DSDP&product=Target+Management&bug_status=VERIFIED&bug_status=CLOSED&bug_status=RESOLVED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&chfieldfrom=2007-04-09&chfieldto=2007-05-20&chfield=resolution&cmdtype=doit">
+		    API bugs fixed for M7</a>
 		  <li>TM
-		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=VERIFIED&bug_status=CLOSED&bug_status=RESOLVED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&chfieldfrom=2007-02-24&chfieldto=2007-04-08&chfield=resolution&cmdtype=doit">
-		    all bugs fixed for M6</a>
+		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=VERIFIED&bug_status=CLOSED&bug_status=RESOLVED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&chfieldfrom=2007-04-09&chfieldto=2007-05-20&chfield=resolution&cmdtype=doit">
+		    all bugs fixed for M7</a>
 		  <li>TM
-		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=1.0&target_milestone=1.0+M1&target_milestone=1.0+M2&target_milestone=1.0+M3&target_milestone=1.0+M4&target_milestone=1.0+M5&target_milestone=1.0+RC1&target_milestone=1.0+RC2&target_milestone=1.0+RC3&target_milestone=1.0+RC4&target_milestone=1.0.1&target_milestone=2.0+M4&target_milestone=2.0+M5&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">
-		    open bugs assigned to 2.0M5 or older milestones</a>
+		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=1.0&target_milestone=1.0+M1&target_milestone=1.0+M2&target_milestone=1.0+M3&target_milestone=1.0+M4&target_milestone=1.0+M5&target_milestone=1.0+RC1&target_milestone=1.0+RC2&target_milestone=1.0+RC3&target_milestone=1.0+RC4&target_milestone=1.0.1&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">
+		    open bugs assigned to 2.0M6 or older milestones</a>
 		  <li>TM
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=VERIFIED&cmdtype=doit">
 		    verified but not yet closed</a>
