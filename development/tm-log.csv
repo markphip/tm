@@ -51,7 +51,8 @@ org.eclipse.rse.remotecdt,180532,Ewa Matejska,1,moberhuber,[180532] RemoteGDBDeb
 org.eclipse.rse.remotecdt,158783,Ewa Matejska,45,moberhuber,[158783][contributed] browse button for cdt remote path
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,181394,Tobias Schwarz,15,moberhuber,Fix incorrect elements shown below filters
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,183134,Tobias Schwarz,1,moberhuber,Fix getLocalHost() does not return Local
-org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,180875,Kevin Doyle,10,dmcknight, Fix so that double-clicking on a file from an RSE dialog doesn't open it in editor
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,180875,Kevin Doyle,10,dmcknight,Fix so that double-clicking on a file from an RSE dialog doesn't open it in editor
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,183870,Kevin Doyle,6,dmcknight,Changed exception thrown for folder exists 
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
