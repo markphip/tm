@@ -52,7 +52,8 @@ org.eclipse.rse.remotecdt,158783,Ewa Matejska,45,moberhuber,[158783][contributed
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,181394,Tobias Schwarz,15,moberhuber,Fix incorrect elements shown below filters
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,183134,Tobias Schwarz,1,moberhuber,Fix getLocalHost() does not return Local
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,180875,Kevin Doyle,10,dmcknight,Fix so that double-clicking on a file from an RSE dialog doesn't open it in editor
-org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,183870,Kevin Doyle,6,dmcknight,Changed exception thrown for folder exists 
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,183870,Kevin Doyle,6,dmcknight,Changed exception thrown for folder exists
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,183772,Kevin Doyle,20,dmcknight,Now using ValidatorFileNameUnique
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
