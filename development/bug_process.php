@@ -47,6 +47,10 @@
 		    unplanned open API</a> bugs (without any plan items as "blocks" references)</li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=%5Bapi&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&order=Assignee">
 		    all open API</a> bugs</li>
+		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=---&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=REOPENED&emailassigned_to1=1&emailtype1=substring&email1=inbox%40eclipse.org&cmdtype=doit">
+		    new bugs not yet triaged</a></li>
+		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=Future&cmdtype=doit">
+		    bugs deferred to the future</a></li>
 		</ul>
 
 		<p><b>Bugfix and Contribution work</b></p>
@@ -61,8 +65,8 @@
 		    open hi-pri bugs</a> (major, critical, blocker, P1 or P2)</li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=attachments.ispatch&type0-0-0=equals&value0-0-0=1">
 		    open bugs with patches attached</a></li>
-	      <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&chfieldfrom=1w&chfieldto=Now&chfieldvalue=&cmdtype=doit&negate0=1&field0-0-0=target_milestone&type0-0-0=equals&value0-0-0=---">
-		    open current bugs</a> (bugs which changed last week, except deferred with Target Milestone="---")</li>
+	      <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&chfieldfrom=1w&chfieldto=Now&chfieldvalue=&cmdtype=doit&negate0=1&field0-0-0=target_milestone&type0-0-0=equals&value0-0-0=---&field0-0-1=target_milestone&type0-0-1=equals&value0-0-1=Future">
+		    open current bugs</a> (bugs which changed last week, except deferred with Target Milestone="---" or Target Milestone="Future")</li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=RESOLVED&resolution=FIXED&resolution=INVALID&resolution=WONTFIX&resolution=DUPLICATE&resolution=WORKSFORME&chfieldfrom=7d&chfieldto=Now&chfield=resolution&cmdtype=doit">
 		    bugs fixed last week</a> (important for verification!)
 		</ul>
@@ -194,7 +198,11 @@
 		
 		<h3>How to defer bugs</h2>
 		<p>In our <a href="http://wiki.eclipse.org/index.php/DSDP/TM/Committer_Phone_Meeting_23-May-2006">
-		Committer Meeting on 23-May 2006</a> we decided on the following strategies for deferring bugs:
+		Committer Meeting on 23-May 2006</a> we decided on the following strategies for deferring bugs.
+		This was later amended according to <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=178923#c75">
+		bug 178923</a> by adding a "Future" milestone. The main goal of these guidelines is 
+		to be able and write good bugzilla queries that allow us avoid looking
+		at deferred bugs again later. So here is the process:
 		<ul>
 		  <li>Set the <b>Priority</b> according to personal judgement of importance: 
 		    Even bugs with a high priority can be deferred to an upcoming release
@@ -204,16 +212,20 @@
 		  <li>Set Resolved, Resolution=<b>WONTFIX</b> for bugs that we will supposedly
 		    never address e.g. because there is a suitable workaround or the effort is
 		    just too high although the request makes sense.</li>
-		  <li>Set Resolved, Resolution=<b>LATER</b> for bugs that make sense but are
+		  <li>Set <b>Target Milestone=Future</b> for bugs that make sense but are
 		    too much effort for the current release. They should be triaged again for
-		    the next release, and potentially be documented as known limitations in
-		    the release notes.</li>
-		  <li>Set the <b>target milestone</b> for bugs that we want to address in the
-		    current release cycle, but not quite the upcoming milestone.</li>
-		  <li>Assign bugs to the <b>org.eclipse.tm.rse-inbox@eclipse.org</b> if you
-		    have no idea what to do with a request and also dont know who else could
-		    handle it. It will triaged again by all committers together in the next
-		    committer meeting.</li>
+		    the next release, and perhaps be documented as known limitations in
+		    the release notes. Such bugs will typically be in NEW state and assigned
+		    to dsdp.tm.rse-inbox@eclipse.org or dsdp.tm.core-inbox@eclipse.org.</li>
+		  <li><b>Assign</b> the bug to a developer and set the <b>target milestone</b>
+		    for bugs that we want to address in the current release cycle.</li>
+		  <li>Assign bugs to the <b>org.eclipse.tm.rse-inbox@eclipse.org</b> with 
+		    the default target milestone="---" if you have no idea what to do with
+		    a request and also dont know who else could handle it. It will triaged
+		    again by all committers together in the next committer meeting. Please
+		    do this as a last resort, though, since looking multiple times at the
+		    same bug is unnecessary effort; and add a comment with your thoughts
+		    on the bug.</li>
 		</ul></p>
 
 		<h3>How to verify and close</h3>
