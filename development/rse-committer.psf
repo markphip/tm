@@ -25,6 +25,7 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,org.eclipse.rse.services.files.ftp"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local,org.eclipse.rse.services.local"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.ssh,org.eclipse.rse.services.ssh"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.telnet,org.eclipse.rse.services.telnet"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.shells.ui,org.eclipse.rse.shells.ui"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.core,org.eclipse.rse.subsystems.files.core"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.dstore,org.eclipse.rse.subsystems.files.dstore"/>
@@ -39,6 +40,7 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.dstore,org.eclipse.rse.subsystems.shells.dstore"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.local,org.eclipse.rse.subsystems.shells.local"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.ssh,org.eclipse.rse.subsystems.shells.ssh"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.telnet,org.eclipse.rse.subsystems.shells.telnet"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,org.eclipse.rse.ui"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.useractions,org.eclipse.rse.useractions"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/dsdp/tm/development,www-tm-development"/>
