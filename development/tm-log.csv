@@ -56,6 +56,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,183870,Kevin Doyle,6,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,183772,Kevin Doyle,20,dmcknight,Now using ValidatorFileNameUnique
 org.eclipse.tm.rse/plugins/org.eclipse.rse(.files).ui,180875,Kevin Doyle,100,dmcknight,Close file dialog on double-click
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(connectorservice|services|subsystems.shells).telnet,178201,Sheldon Dsouza,1717,moberhuber,Telnet subsystem contribution
+org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,186536,Sheldon Dsouza,38,moberhuber,Make Telnet ConnectorService configurable
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
