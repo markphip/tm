@@ -58,6 +58,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse(.files).ui,180875,Kevin Doyle,100,dmc
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(connectorservice|services|subsystems.shells).telnet,178201,Sheldon Dsouza,1717,moberhuber,Telnet subsystem contribution
 org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,186536,Sheldon Dsouza,38,moberhuber,Make Telnet ConnectorService configurable
 org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,186570,Sheldon Dsouza,95,moberhuber,Telnet should handle invalid user id or password more gracefully
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187312,Tobias Schwarz,28,moberhuber,Fix duplicate submenus contributed through plugin.xml
 
 Third Party Software,,,
 name+version,directory or jarfile,license name and version,usage
