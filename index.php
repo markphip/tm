@@ -53,23 +53,21 @@
 		build notes</a> for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/">
-		TM 2.0M6a</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/">
+		TM 2.0M7</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/buildNotes.php">
 		build notes</a>]<br/>
-		promotes the <b>Eclipse Filesystem (EFS)</b> integration from "experimental" state to "official";
-		Fixes Copy&Paste, Drag&Drop for the Project Explorer; Includes lots of more API and 
-		flexibility improvements. 
+		adds the Import/Export feature, a Telnet Client and FTP Directory Listing Parser
+		extension point. Includes lots of API polish and bug fixes. 
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
-
-		<!--
 		<br/>
-		Next goal is joining the Europa train with RSE 2.0M4 on Jan 4, 2007.
-		-->
+		With M7, the <a href="http://wiki.eclipse.org/index.php/TM_2.0_Ramp_down_Plan_for_Europa">
+		Ramp-down phase</a> of release candidates towards
+		the TM 2.0 release with Europa on June 29 has been entered.
 		</p>
 		<p>
 		<u>Additional Links:</u><br/> 
