@@ -11,13 +11,13 @@
 
 <h1>DSDP - Target Management 2.0 Plan</h1>
 
-<p>Last revised 11:00 CEST Apr 5, 2007
+<p>Last revised 19:30 CEST May 21, 2007
 (<img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
 marks interesting recent 
-<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/tm_project_plan_2_0.html.diff?r1=1.2&r2=1.3&cvsroot=Eclipse_Website">changes</a>
+<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/tm_project_plan_2_0.html.diff?r1=1.4&r2=1.5&cvsroot=Eclipse_Website">changes</a>
 since the 
-<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/tm_project_plan_2_0.html?rev=1.2&cvsroot=Eclipse_Website&content-type=text/html">
-previous draft of Jan 19, 2007</a>)
+<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/tm_project_plan_2_0.html?rev=1.4&cvsroot=Eclipse_Website&content-type=text/html">
+previous draft of Apr 5, 2007</a>)
 </p>
 <p><i>Please send comments about this plan to
 the </i><a href="mailto:dsdp-tm-dev@eclipse.org">dsdp-tm-dev@eclipse.org</a> <i>developer
@@ -131,10 +131,14 @@ Europa Simultaneous Release</a> integration.
 Release candidate builds are planned as follows (M7 is
 release candidate 0):
 <ul>
-	<li>Friday June 1, 2007 - Release Candidate 1 - (2.0 RC1)</li>
-	<li>Friday June 8, 2007 - Release Candidate 2 - (2.0 RC2)</li>
 	<li><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
-	    Friday June 15, 2007 - Release Candidate 3 - (2.0 RC3)</li>
+	   Friday May 25, 2007 - Release Candidate 1 - (2.0 RC1)</li>
+	<li><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+	   Tuesday June 5, 2007 - Release Candidate 2 - (2.0 RC2)</li>
+	<li><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+	   Thursday June 14, 2007 - Release Candidate 3 - (2.0 RC3)</li>
+	<li><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+	   Thursday June 21, 2007 - Release Candidate 4 - (2.0 RC4)</li>
 -->
 <p>As soon as no critical problems are found in the testing
 period between two release candidates (one or two weeks),
@@ -175,7 +179,6 @@ subset of those listed for the platform, plus some more (marked
 and volunteered to perform the systematic testing
 (this list is updated over the course of the release cycle).</p>
 <p>
-<img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
 Solaris-Motif is discontinued as a reference platform.
 Although it should still work, it is no longer being regularly tested.
 </p>
@@ -254,8 +257,7 @@ for Linux x86</td>
 </tr>
 <tr>
 <td width="205">Sun Solaris</td>
-<td width="59"><strike>10</strike>
-<img src="new.gif" alt="(new)" border="0" height="12" width="12"/>9</td>
+<td width="59">9</td>
 <td width="76">SPARC</td>
 <td width="59">GTK</td>
 <td width="453">Sun Java 2 Standard Edition 5.0 <strike>Update 8</strike>
@@ -440,16 +442,17 @@ ongoing work and planned delivery milestones.
 
 <h3><a name="Committed">Committed Items</a></h3>
 <blockquote> 
-<p><strong>Contribute User Actions and Import/Export from RSE7.</strong>
+<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<strong>Contribute Import/Export from RSE7.</strong>
 The predecessor of Eclipse RSE was an IBM product, 
 <a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
 IBM RSE 7.0</a>. Not all features of RSE 7.0 have been ported yet.
-For Eclipse RSE 2.0, we will port the missing features, namely
-<em>User Actions</em>, <em>Compile Commands</em> and <em>Import/Export</em>.
-While porting the features, they will be refactored and optimized, which
-may result in collapsing User Actions and Compile Commands into a single
-feature. See the link above for a presentation with more details about
-these features.
+For Eclipse RSE 2.0, we will port the <em>Import/Export</em> feature.
+<img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+Porting User actions and Compile Commands need to be deferred to a later
+release. While porting the feature, it will be refactored and optimized.
+See the link above
+for a presentation with more details about this feature.
 (Themes: Ease of Use, Enterprise Ready / Facilitated On-Boarding)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170909">170909</a>) 
 </p>
@@ -487,6 +490,21 @@ adding support for the services detected.
 (Theme: Ease Of Use)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170911">170911</a>) 
 </p>
+
+<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<strong>Improve UI/Non-UI splitting in RSE.</strong>
+RSE code should be further refactored to split UI from non-UI parts. This means
+providing non-UI (headless) APIs for
+accessing the SystemRegistry, getting IHost objects; 
+getting ISubSystem, ISubSystemConfiguration objects as well as services;
+and using IFileServiceSubsystem as well as other ISubSystem and IService APIs
+for actions like upload, download, run-shell-command.
+<img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+Full support for headless Launches needs to be deferred to a later release.
+(Theme: Design for Extensibility)
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170923">170923</a>) 
+</p>
+  
   
 </blockquote>
 
@@ -534,18 +552,6 @@ easier to understand and maintain. Eliminate dead code. Clarify threading
 model. Add asynchronous callbacks for long-runnint operations.
 (Theme: Design for Extensibility)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170922">170922</a>) 
-</p>
-  
-<p><strong>Improve UI/Non-UI splitting in RSE. Support headless launches.</strong>
-RSE code should be further refactored to split UI from non-UI parts. A Headless
-Eclipse should be able to perform Launches through RSE-provided services /
-subsystems. This means providing non-UI (headless) APIs for
-accessing the SystemRegistry, getting IHost objects; 
-getting ISubSystem, ISubSystemConfiguration objects as well as services;
-and using IFileServiceSubsystem as well as other ISubSystem and IService APIs
-for actions like upload, download, run-shell-command during a headless Launch.
-(Theme: Design for Extensibility)
-(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170923">170923</a>) 
 </p>
   
 <p><strong>Improve the Remote File Service APIs.</strong>
@@ -601,7 +607,27 @@ priority and doing automated unit testing regularly.
 
 <h3><a name="Deferred">Deferred Items</a></h3>
 <blockquote> 
-  <p><i>None at this time.</i></p>
+<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<strong>Contribute User Actions from RSE7.</strong>
+The <a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
+IBM RSE 7.0</a> <em>User Actions</em> and <em>Compile Commands</em>
+could not be ported to Eclipse TM RSE 2.0 in time due to lack of resources.
+They will be added in a later release. See the link above
+for a presentation with more details about these features.
+(Themes: Ease of Use, Enterprise Ready / Facilitated On-Boarding)
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170909">170909</a>) 
+</p>
+
+<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<strong>Support headless launches.</strong>
+Based on improved UI / non-UI splitting, a headless
+Eclipse should be able to perform Launches through RSE-provided services /
+subsystems. While a lot improvement has been made for RSE 2.0, a few 
+roadblocks to full headless launch support could not be overcome due
+to lack of resources. 
+(Theme: Design for Extensibility)
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170923">170923</a>) 
+</p>
 </blockquote>
 
 </body>
