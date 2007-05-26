@@ -53,16 +53,16 @@
 		build notes</a> for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/">
-		TM 2.0M7</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC1-200705252030/">
+		TM 2.0RC1</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC1-200705252030/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC1-200705252030/buildNotes.php">
 		build notes</a>]<br/>
-		adds the Import/Export feature, a Telnet Client and FTP Directory Listing Parser
-		extension point. Includes lots of API polish and bug fixes. 
+		adds a default persistence provider in the .metadata area,
+		and yet more API polish and bug fixes especially for NL translations of RSE and refresh.  
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC1-200705252030/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
 		With M7, the <a href="http://wiki.eclipse.org/index.php/TM_2.0_Ramp_down_Plan_for_Europa">
