@@ -62,7 +62,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187312,Tobias Schwarz,28,moberhube
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187736,Kevin Doyle,4,dmcknight,Fix to mark the directory shown in the table stale when a new resource is created
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,160768,Xuan Chen,Fix to change virtualPath to path in UniversalFileSystemMiner#handleQueryAllArchive
 
-Third Party Software,,,
-name+version,directory or jarfile,license name and version,usage
-Jakarta Oro 2.0.8,/cvsroot/tools:org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,FTP client (unmodified binary + associated unmodified sources)
-Jakarta Commons Net 1.4.1,/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,FTP client (unmodified binary + associated unmodified sources)
+Third Party Software,,,,
+name+version,ipzilla #, directory or jarfile,license name and version,usage
+Jakarta Oro 2.0.8,232,/cvsroot/tools:org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,unmodified binary + associated unmodified sources
+Jakarta Commons Net 1.4.1,230,/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,unmodified binary + associated unmodified sources
