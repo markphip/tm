@@ -60,8 +60,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,186536,Sheldo
 org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,186570,Sheldon Dsouza,95,moberhuber,Telnet should handle invalid user id or password more gracefully
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187312,Tobias Schwarz,28,moberhuber,Fix duplicate submenus contributed through plugin.xml
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187736,Kevin Doyle,4,dmcknight,Fix to mark the directory shown in the table stale when a new resource is created
-org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,160768,Xuan Chen,Fix to change virtualPath to path in UniversalFileSystemMiner#handleQueryAllArchive
-
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,160768,Xuan Chen,10,dmcknight,Fix to change virtualPath to path in UniversalFileSystemMiner#handleQueryAllArchive
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,189041,Xuan Chen,10,dmcknight,need to call ArchiveHandlerManager.cleanUpVirtualPath in DStoreHostFile#renameTo()
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
 Jakarta Oro 2.0.8,232,/cvsroot/tools:org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,unmodified binary + associated unmodified sources
