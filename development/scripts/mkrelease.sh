@@ -5,7 +5,14 @@ cd `dirname $0`
 RELEASE=2.0RC1
 ARCHIVE_NAME=line_count_scripts
 
+if [ -f ${ARCHIVE_NAME}-${RELEASE}.tar ]; then
+  rm -f ${ARCHIVE_NAME}-${RELEASE}.tar
+fi
+if [ -f ${ARCHIVE_NAME}-${RELEASE}.zip ]; then
+  rm -f ${ARCHIVE_NAME}-${RELEASE}.zip
+fi
 mkdir ${ARCHIVE_NAME}
+chmod 755 ${ARCHIVE_NAME}
 cp lc lc.bat lcp lcp.bat ${ARCHIVE_NAME}
 cp notice.html ${ARCHIVE_NAME}
 chmod 755 ${ARCHIVE_NAME}/lc*
