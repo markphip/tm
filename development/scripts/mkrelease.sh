@@ -12,5 +12,5 @@ chmod 755 ${ARCHIVE_NAME}/lc*
 chmod 644 ${ARCHIVE_NAME}/lc*.bat
 chmod 644 ${ARCHIVE_NAME}/notice.html
 tar cfv ${ARCHIVE_NAME}-${RELEASE}.tar ${ARCHIVE_NAME}
-zip ${ARCHIVE_NAME}-${RELEASE}.zip ${ARCHIVE_NAME}
+zip ${ARCHIVE_NAME}-${RELEASE}.zip ${ARCHIVE_NAME}/*
 rm -rf ${ARCHIVE_NAME}
