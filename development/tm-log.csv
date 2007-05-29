@@ -20,7 +20,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,140406,Michael Ber
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,140408,Michael Berger,30,ddykstal,fixed ftp upload
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,140562,Javier Montalvo Orus,17,kmunir,Register New Connection as New Wizard
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,141813,Michael Berger,21,dmcknight,DStore patch for symbolic links problem
-org.eclipse.tm.rse/doc/*,142739,David Dykstal,11280 (html),ddykstal,RSE User and ISV Documentation
+org.eclipse.tm.rse/doc/*,142739,David Dykstal,11280,ddykstal,RSE User and ISV Documentation
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,142974,Michael Berger,37,dmcknight,DStore patch for lost connection problem (keepalives)
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,144226,Michael Berger,505,dmcknight,DStore spirit contribution
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,145799,Michael Berger,27,ddykstal,Add dstore refresh() method with depth parameter
@@ -32,8 +32,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.{dstore|local},147791,Michae
 org.eclipse.tm.rse/plugins/org.eclipse.rse.logging,148434,Michael Berger,6,ddykstal,Added new help for logging preferences
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,149080,Michael Berger,30,dmcknight,Patch to allow JUnit test framework to work
 org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework,149080,David Dykstal,3602,ddykstal,framework that augments JUnit
-org.eclipse.tm.rse/doc/org.eclipse.rse.doc.*,149331,Michael Berger,3936 (html),kmunir,(Trivial) fix broken links in HTML docs
-org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,149331,Michael Berger,69 (html),kmunir,Add doc on Memory Management
+org.eclipse.tm.rse/doc/org.eclipse.rse.doc.*,149331,Michael Berger,3936,kmunir,(Trivial) fix broken links in HTML docs
+org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,149331,Michael Berger,69,kmunir,Add doc on Memory Management
 org.eclipse.tm.core/discovery/*,140320,Javier Montalvo Orus,8417,jmontalvo,Zeroconf Service Discovery
 org.eclipse.tm.core/terminal/*,152826,Ted Williams,8526,tewillia,WR Terminal View Contribution
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,157426,Ewa Matejska,401,moberhuber,CDT Launch Integration Patch for using RSE services
@@ -62,10 +62,11 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187312,Tobias Schwarz,28,moberhube
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187736,Kevin Doyle,4,dmcknight,Fix to mark the directory shown in the table stale when a new resource is created
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,160768,Xuan Chen,10,dmcknight,Fix to change virtualPath to path in UniversalFileSystemMiner#handleQueryAllArchive
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,189041,Xuan Chen,10,dmcknight,need to call ArchiveHandlerManager.cleanUpVirtualPath in DStoreHostFile#renameTo()
+
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
 Jakarta Oro 2.0.8,232,/cvsroot/tools:org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,unmodified binary + associated unmodified sources
 Jakarta Commons Net 1.4.1,230,/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,unmodified binary + associated unmodified sources
-BoundedBufferWithStateTracking: Concurrent Programming in Java 2nd edition,1552,/cvsroot/dsdp:org.eclipse.tm.core/terminal/org.eclipse.tm.terminal/src/org/eclipse/tm/internal/terminal/control/impl/TerminalInputStream.java,Public Domain,derivative work (BoundedByteBuffer)
+BoundedBufferWithStateTracking CPJ2e,1552,/cvsroot/dsdp:org.eclipse.tm.core/terminal/org.eclipse.tm.terminal/src/org/eclipse/tm/internal/terminal/control/impl/TerminalInputStream.java,Public Domain,derivative work (BoundedByteBuffer)
 
 
