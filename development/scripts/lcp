@@ -1,6 +1,6 @@
 #!/bin/sh
 #******************************************************************************
-# Copyright (c) 2006 Wind River Systems, Inc.
+# Copyright (c) 2006, 2007 Wind River Systems, Inc.
 # All rights reserved. This program and the accompanying materials 
 # are made available under the terms of the Eclipse Public License v1.0 
 # which accompanies this distribution, and is available at 
@@ -14,12 +14,16 @@
 #:# as a patch
 #:#
 #:# Usage:
-#:#    lcp {patchfile}
+#:#    lcp [-eh] {patchfile}
+#:# Options:
+#:#    -e  ..  include empty lines in count (like wc -l)
+#:#    -h  ..  show help
 #:# Examples:
 #:#    lcp bug12345.patch.diff
 
 curdir=`pwd`
 case x$1 in
+  x-e*) INCLUDE_EMPTY=1 ;;
   x-*) HELP=1 ;;
 esac
 if [ "$HELP" = "1" ]; then
@@ -44,5 +48,9 @@ fi
 # Known limitations:
 # a. "Moving around" type modications count too many + lines.
 
-cat "$1" | grep -a '^[+]' | grep -a -v '^[+][+][+]' \
+if [ x${INCLUDE_EMPTY} = x1 ]; then
+  cat "$1" | grep -a '^[+]' | grep -a -v '^[+][+][+]' | wc -l
+else
+  cat "$1" | grep -a '^[+]' | grep -a -v '^[+][+][+]' \
       | egrep -a -v '^\+[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l
+fi

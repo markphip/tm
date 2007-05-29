@@ -1,6 +1,6 @@
 #!/bin/sh
 #******************************************************************************
-# Copyright (c) 2006 Wind River Systems, Inc.
+# Copyright (c) 2006, 2007 Wind River Systems, Inc.
 # All rights reserved. This program and the accompanying materials 
 # are made available under the terms of the Eclipse Public License v1.0 
 # which accompanies this distribution, and is available at 
@@ -14,15 +14,18 @@
 #:# list of directories. Do not count empty lines or binary files.
 #:#
 #:# Usage:
-#:#    lc [-fh] {directory,...}
+#:#    lc [-efh] {directory,...}
 #:# Options:
+#:#    -e  ..  include empty lines in count (like wc -l)
 #:#    -f  ..  show file list on stderr (for debugging)
 #:#    -h  ..  show help
 #:# Examples:
-#:#    lc -f org.eclipse.plugin
-
+#:#    lc -f com.foobar.plugin
+#:#    lc -e org.eclipse.core.*
+#:#
 curdir=`pwd`
 case x$1 in
+  x-e*) INCLUDE_EMPTY=1; shift ;;
   x-f*) SHOW_FILES=1; shift ;;
   x-*) HELP=1 ;;
 esac
@@ -75,8 +78,12 @@ while [ "$1" != "" ]; do
   # Known limitations:
   # a. Fails for filenames with newlines embedded (a pretty academic limitation)
   
-  cat ${FILE_LIST} | xargs -d \\n cat \
-    | egrep -v '^[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l > ${LINES_FILE}
+  if [ x${INCLUDE_EMPTY} = x1 ]; then
+    cat ${FILE_LIST} | xargs -d \\n cat | wc -l > ${LINES_FILE}
+  else
+    cat ${FILE_LIST} | xargs -d \\n cat \
+      | egrep -v '^[^a-zA-Z0-9_!?"|@~`$%&()+;,.:<>=+-]*$' | wc -l > ${LINES_FILE}
+  fi
 
   LINES=`cat ${LINES_FILE}`
   rm ${FILE_LIST} ${LINES_FILE}
