@@ -62,6 +62,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187312,Tobias Schwarz,28,moberhube
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187736,Kevin Doyle,4,dmcknight,Fix to mark the directory shown in the table stale when a new resource is created
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,160768,Xuan Chen,10,dmcknight,Fix to change virtualPath to path in UniversalFileSystemMiner#handleQueryAllArchive
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,189041,Xuan Chen,10,dmcknight,need to call ArchiveHandlerManager.cleanUpVirtualPath in DStoreHostFile#renameTo()
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189005,Kevin Doyle,7,moberhuber,Changed setFocus() to setInput to SystemRegistryUI
 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
