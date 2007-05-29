@@ -202,41 +202,53 @@ padding-bottom: 2px">
 		<a name="sloccount"></a>
 		<h2>Count lines of code in a contribution</h2>
 		<ul>
-		  <li>For use in Eclipse, we need to count lines of code in contribution, 
+		  <li>For Eclipse IP review bookkeeping, we need to count lines of code in contribution, 
 		  INCLUDING xml files, documentation, readmes, property files and so on. Most 
-		  known code counters do not fulfill these needs. The simple UNIX
-		  command lines below count all lines of all text files except empty lines.</li>
-		  <li>We also suppress lines that only contain whitespace, empty comments
+		  known code counters do not fulfill these needs. The simple shellscripts
+		  below count all lines of all text files except empty lines.</li>
+		  <li>We optionally also suppress lines that only contain whitespace, empty comments
 		  or {} charactes. This is in order to account for different coding styles,
-		  which might prefer to have the { characters on a separate line or not.</li>
+		  which might prefer to have the { characters on a separate line or not.</li>'
 		  <li><img src="http://www.eclipse.org/images/new.gif"/>
-		    We now have scripts to count the lines of code in a contribution. They 
-		    basically count all added lines, suppressing binary files, empty lines 
-		    and lines only containing /*#{}. See the script source code for details.
+		    We now have scripts to count the lines of code in a contribution. Download
+		    any of the following:
+		    <ul>
+		      <li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/div/line_count_scripts-2.0RC1.tar">line_count_scripts-2.0RC1.tar</a>
+		      <li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/div/line_count_scripts-2.0RC1.zip">line_count_scripts-2.0RC1.zip</a>
+		    </ul>
+		    These scripts count all lines in either a patch or a list of directories,
+		    suppressing binary files and optionally also empty lines or lines containing
+		    only empty comments. See the script source code for details.
 		    <ul>
 		      <li>UNIX shellscripts should run out of the box. On Windows, Cygwin is
 		          required. Windows .bat files are provided as wrappers if cygwin is
-		          not your primary environment. The .bat files need to be modified
-		          or configured through environment variables -- see their contents
-		          and you'll understand.</li> 
-		      <li>For contributions supplied as an archive, get the 
-		         <!-- <a href="scripts/lc"> -->
+		          not your primary environment. The .bat files expect the cygwin bin
+		          directory in your PATH or installed in C:\Cygwin\bin - change the
+		          .bat file if you do not like this assumption.</li> 
+		      <li>For contributions supplied as an archive, use the 
 		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lc?root=Eclipse_Website&view=co">
 		         lc script</a>
 		         (plus 
-		         <!-- <a href="scripts/lc.bat"> -->
 		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lc.bat?root=Eclipse_Website&view=co">
 		         lc.bat</a> if you are on Windows). Run it
-		         with one or more directories to count as arguments.</li>
-		      <li>For contributions supplied as a patch, get the
-		         <!-- <a href="scripts/lcp"> -->
+		         with one or more directories to count as arguments. <b>Example:</b><br/>
+		         <code>
+		           # Count lines in all RSE plugins, including empty lines<br/>
+		           lc -e org.eclipse.rse.*
+		         </code>
+		         </li>
+		      <li>For contributions supplied as a patch, use the
 		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lcp?root=Eclipse_Website&view=co">
 		         lcp script</a>
 		         (plus 
-		         <!-- <a href="scripts/lcp.bat"> -->
 		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lcp.bat?root=Eclipse_Website&view=co">
 		         lcp.bat</a> if you are on Windows).
-		         Run it with the patch file as argument.</li> 
+		         Run it with the patch file as argument.  <b>Example:</b><br/>
+		         <code>
+		           # Count lines in contributed patch for bug 12345<br/>
+		           lcp bug12345_patch.diff.txt
+		         </code>
+		         </li> 
 		    </ul></li>
 		</ul>
 		
