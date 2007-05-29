@@ -3,7 +3,7 @@ curdir=`pwd`
 cd `dirname $0`
 
 RELEASE=2.0RC1
-ARCHIVE_NAME=${ARCHIVE_NAME}
+ARCHIVE_NAME=line_count_scripts
 
 mkdir ${ARCHIVE_NAME}
 cp lc lc.bat lcp lcp.bat ${ARCHIVE_NAME}
