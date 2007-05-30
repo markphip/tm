@@ -160,7 +160,13 @@
 		<p>Reports for Release Review</p>
 		<ul>
 		  <li>TM <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&format=table&action=wrap">
-		    Report: All 2.x bugs vs. Target Milestone</a></li>
+		    Report: All 2.x bugs vs. Target Milestone</a>
+		    <ul>
+		       <li><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&format=table&action=wrap">
+		           Resolved 2.x bugs by Target Milestone</a></li>
+		       <li><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">
+		           Open 2.x bugs by Target Milestone</a></li>
+		    </ul></li>
 		  <li>RSE <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=bug_status&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&component=RSE&format=table&action=wrap">
 		    Report: All Bugs, Severity vs. Status</a></li>
 		  <li>RSE <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=resolution&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&component=RSE&format=table&action=wrap">
