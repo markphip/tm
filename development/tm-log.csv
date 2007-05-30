@@ -63,6 +63,9 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187736,Kevin Doyle,4,dmcknight,Fix
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,160768,Xuan Chen,10,dmcknight,Fix to change virtualPath to path in UniversalFileSystemMiner#handleQueryAllArchive
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,189041,Xuan Chen,10,dmcknight,need to call ArchiveHandlerManager.cleanUpVirtualPath in DStoreHostFile#renameTo()
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189005,Kevin Doyle,7,moberhuber,Changed setFocus() to setInput to SystemRegistryUI
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187553,Kevin Doyle,small,kmunir,Remove Toolbar in Select Input dialog
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui/SystemSearchPage,182024,Kevin Doyle,4,kmunir,Remote Search Only Shows Local Connection in Folder Browse
+
 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
