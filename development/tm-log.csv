@@ -67,6 +67,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187553,Kevin Doyle,small,kmunir,Re
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui/SystemSearchPage,182024,Kevin Doyle,4,kmunir,Remote Search Only Shows Local Connection in Folder Browse
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local/LocalFileService,182221,Kevin Doyle,13,moberhuber,Throwing Proper Exceptions on create file/folder
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.(dstore|local),189487,Xuan Chen,20,dmcknight,fix for copy/paste on windows(dstore and local)
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187312,Tobias Schwarz,28,moberhuber,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,173267,Tobias Schwarz,83,moberhuber,empty list should not be displayed
 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
