@@ -72,6 +72,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,174776,Kevin Doyle,2,dmcknight,vec
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local/LocalVirtualHostfile,189828,Kevin Doyle,5,dmcknight,fix for renaming local virtual host files
 org.eclipse.rse.files.ui/src/org/eclipse/rse/internal/files/ui/search/SystemSearchRemoteFolderDialog,189433,Kevin Doyle,17,kmunir,Dialog for selecting folder to search should display Archive Files
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,189681,Xuan Chen,12,dmcknight,fix for handler to retrieve name/path information of file/folder right below root
+org.eclipse.rse.files.ui/src/org/eclipse/rse/internal/files/ui/search/SystemSearchPage,189430,Kevin Doyle,18,kmunir,Browse for Folder Dialog in Search should not display all system types
 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
