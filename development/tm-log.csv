@@ -70,6 +70,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.(dstore|local),189487,Xuan C
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187312,Tobias Schwarz,28,moberhuber,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,173267,Tobias Schwarz,83,moberhuber,empty list should not be displayed
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,174776,Kevin Doyle,2,dmcknight,vector existing lists passed to ValidatorUniqueString are now sorted
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local/LocalVirtualHostfile,189828,Kevin Doyle,5,dmcknight,fix for renaming local virtual host files
+org.eclipse.rse.files.ui/src/org/eclipse/rse/internal/files/ui/search/SystemSearchRemoteFolderDialog,189433,Kevin Doyle,17,kmunir,Dialog for selecting folder to search should display Archive Files
 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
