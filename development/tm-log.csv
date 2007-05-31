@@ -69,6 +69,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local/LocalFileService,18222
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.(dstore|local),189487,Xuan Chen,20,dmcknight,fix for copy/paste on windows(dstore and local)
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187312,Tobias Schwarz,28,moberhuber,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,173267,Tobias Schwarz,83,moberhuber,empty list should not be displayed
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,174776,Kevin Doyle,2,dmcknight,vector existing lists passed to ValidatorUniqueString are now sorted
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local/LocalVirtualHostfile,189828,Kevin Doyle,5,dmcknight,fix for renaming local virtual host files
 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
