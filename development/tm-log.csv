@@ -75,7 +75,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,189681,Xuan Chen,12,d
 org.eclipse.rse.files.ui/src/org/eclipse/rse/internal/files/ui/search/SystemSearchPage,189430,Kevin Doyle,18,kmunir,Browse for Folder Dialog in Search should not display all system types
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,198434,Rupen Mardirossian,5,dmcknight,modified cloneEvent method to ensure proper constructor is being called and to keep the state of multisource attribute
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(services.dstore|files.ui),187548,Xuan Chen,8,dmcknight, fix - editor name will be update correctly
-
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,180671,Xuan Chen,11,dmcknight,checking if the file need to be re-downloaded even if file has been opened
+ 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
 Jakarta Oro 2.0.8,232,/cvsroot/tools:org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,unmodified binary + associated unmodified sources
