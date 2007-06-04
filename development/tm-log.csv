@@ -80,6 +80,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187342,Xuan Chen,8,dmcknight,addin
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,187530,Rupen Mardirossian,1,dmcknight,took out call to log exception
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,184824,Willian Mitsuda,2,ddykstal,added "Remote" action set item
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,189681,Xuan Chen,4,dmcknight,cleaned up use of separator
+org.eclipse.rse.core/src/org/eclipse/rse/internal/core/filters/SystemFilterContainerCommonMethods,190445,Kevin Doyle,3,kmunir,Move Up/ Move Down actions on filters are not enabled and disabled correctly
  
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
