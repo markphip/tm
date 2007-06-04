@@ -77,6 +77,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui/subsystems/org/eclipse/rse/core/su
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(services.dstore|files.ui),187548,Xuan Chen,8,dmcknight, fix - editor name will be update correctly
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,180671,Xuan Chen,11,dmcknight,checking if the file need to be re-downloaded even if file has been opened
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187342,Xuan Chen,8,dmcknight,adding connect() call after promptForPassword
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,187530,Rupen Mardirossian,1,dmcknight,took out call to log exception
  
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
