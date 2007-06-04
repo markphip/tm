@@ -73,7 +73,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local/LocalVirtualHostfile,1
 org.eclipse.rse.files.ui/src/org/eclipse/rse/internal/files/ui/search/SystemSearchRemoteFolderDialog,189433,Kevin Doyle,17,kmunir,Dialog for selecting folder to search should display Archive Files
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,189681,Xuan Chen,12,dmcknight,fix for handler to retrieve name/path information of file/folder right below root
 org.eclipse.rse.files.ui/src/org/eclipse/rse/internal/files/ui/search/SystemSearchPage,189430,Kevin Doyle,18,kmunir,Browse for Folder Dialog in Search should not display all system types
-org.eclipse.tm.rse/plugins/org.eclipse.rse.core,198434,Rupen Mardirossian,5,dmcknight,modified cloneEvent method to ensure proper constructor is being called and to keep the state of multisource attribute
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui/subsystems/org/eclipse/rse/core/subsystems,189434,Rupen Mardirossian,5,dmcknight,modified cloneEvent method to ensure proper constructor is being called and to keep the state of multisource attribute
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(services.dstore|files.ui),187548,Xuan Chen,8,dmcknight, fix - editor name will be update correctly
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,180671,Xuan Chen,11,dmcknight,checking if the file need to be re-downloaded even if file has been opened
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187342,Xuan Chen,8,dmcknight,adding connect() call after promptForPassword
