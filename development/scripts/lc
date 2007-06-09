@@ -46,7 +46,7 @@ while [ -f ${FILE_LIST} ]; do
   FILE_LIST="${FILE_LIST}_"
 done
 while [ -f {LINES_FILE} ]; do
-  RESULT="${LINES_FILE}_"
+  LINES_FILE="${LINES_FILE}_"
 done
 trap "rm -f ${FILE_LIST} ${LINES_FILE}" EXIT
 #trap "rm -f ${FILE_LIST} ${LINES_FILE}; cd \"${curdir}\"" EXIT
