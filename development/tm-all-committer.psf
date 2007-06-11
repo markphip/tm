@@ -3,6 +3,7 @@
 	<provider id="org.eclipse.team.cvs.core.cvsnature">
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.rse.discovery,org.eclipse.rse.discovery"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery-feature,org.eclipse.tm.discovery-feature"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.doc.isv,org.eclipse.tm.discovery.doc.isv"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.engine,org.eclipse.tm.discovery.engine"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.model,org.eclipse.tm.discovery.model"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.model.edit,org.eclipse.tm.discovery.model.edit"/>
