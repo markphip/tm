@@ -53,15 +53,14 @@
 		build notes</a> for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC2-200706051715/">
-		TM 2.0RC2</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC2-200706051715/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC3-200706140914/">
+		TM 2.0RC3</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC3-200706140914/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC2-200706051715/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC3-200706140914/buildNotes.php">
 		build notes</a>]<br/>
-		includes lots of bug fixes and cleanup, completing the switch to a default persistence provider
-		outside the workspace. See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC2-200706051715/buildNotes.php">
+		includes a few more bug fixes and cleanup as we ramp down for the Europa release. See the 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC3-200706140914/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
 		With M7, the <a href="http://wiki.eclipse.org/index.php/TM_2.0_Ramp_down_Plan_for_Europa">
