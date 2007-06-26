@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="http://www.eclipse.org/default_style.css" type="text/css"/>
+<title>DSDP-TM 2.0 News</title>
+</head>
+<body>
+<h1>DSDP Target Management 2.0 - New and Noteworthy</h1>
+<p>The emphasis on the TM 2.0 release has been API polish and cleanup,
+  so there are not too many new features to mention. Still, here are 
+  some of the more noteworthy things you'll find in TM 2.0 (June 27, 2007)
+  which is now available for <a href="http://download.eclipse.org/dsdp/tm/downloads/index.php" target="_top">download</a>.
+  See the <a href="readme_tm_2.0.html">TM 2.0 release notes</a> as well
+  as the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC4-200706201718/buildNotes.php">build notes</a>
+  for details about API changes, bugs fixed and other changes.</p>
+<ul>
+  <li><a href="#RSE">Remote System Explorer (RSE)</a></li>
+  <li><a href="#Terminal">Terminal</a></li>
+  <li><a href="#Discovery">Discovery</a></li>
+</ul>
+<table border="0" cellpadding="10" cellspacing="0" width="80%">
+  <tr>
+    <td colspan="2"><hr />
+      <h2><a name="RSE" id="RSE"></a>Remote System Explorer (RSE)</h2>
+      <hr /></td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Telnet Shell Subsystem</b></td>
+    <td width="70%" valign="top"><p>The new RSE Telnet Subsystem can be activated
+       by selecting the new system type "Telnet Only (Experimental)". The
+       subsystem can be configured in the New Connection Wizard by setting
+       properties for the expected login, password and prompt Strings.
+       RSE password management is supported. Once connected, the Telnet 
+       connection can serve as the channel for layered subsystems like the
+       Linux Shell Processes subsystem. As per TM 2.0, the Telnet subsystem
+       is still considered experimental because the login sequence is not
+       robust against invalid configuration.</p>
+      <p><img src="images/new-telnet.png" alt="Telnet Subsystem" /></p></td>
+
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Persistence in .metadata</b></td>
+    <td width="70%" valign="top">Persistence of RSE objects is now done in .metadata by default.
+       This fixes problems with workspace locking.
+       Existing connection definitions in the old format are still read and
+       understood. The old default behavior can be restored by a Preference setting.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=187647">[187647]</a>.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>DStore Version Number updated</b></td>
+    <td width="70%" valign="top"><p>The version number of the DStore protocol
+        was updated to <em>"DataStore.9.0.0"</em>, indicating that the TM 2.0
+        RSE client should be used with a TM 2.0 DStore server only. Supporting
+        this change, the default port of the DStore daemon was changed from
+        4035 to 4075
+        [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=188365">188365</a>]
+        [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=194442">194442</a>].</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+      <h2><a name="Terminal" id="Terminal"></a>Terminal</h2>
+      <hr /></td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Lazy initialization</b></td>
+    <td width="70%" valign="top">All terminal connectors are now initialized
+      lazily, avoiding unnecessary plugin activation.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Optional editable input line</b></td>
+    <td width="70%" valign="top">The terminal now supports an optional separate
+      input line. The input line provides editing capabilities as well as a 
+      command history with cursor up/down. The optional input line is useful
+      for connecting to dumb terminals that do not support commandline editing.
+      <p><img border="0" src="images/new-terminalinput.png" alt="Terminal input line" /></p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+      <h2><a name="Discovery" id="Discovery"></a>Discovery</h2>
+      <hr /></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" width="30%"><b>Subsystems can now register for Discovery</b></td>
+    <td valign="top" width="70%">Subsystems can now register for being discovered
+        by the Discovery component. They do so by adding a "services" tag to their
+        subsystemConfigurations extension point markup.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" width="30%"><b>Fill in multicast address
+        for service discovery</b></td>
+    <td valign="top" width="70%">The Service Discovery Wizard now provides
+      a checkbox for automatically filling in the proper IP multicast 
+      address for zeroconf or DNS-SD based service discovery:
+      <p><img src="images/new-sdaddress.png" alt="Multicast Address in SD Wizard" /></p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    </td>
+  </tr>
+</table>
+<p>More details about API changes, new features and bugs fixed are in the 
+  build notes of the earlier TM 2.0 milestone builds:</p>
+<ul>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC4-200706201718/buildNotes.php">
+      TM 2.0RC4 build notes (June 20, 2007)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC3-200706140914/buildNotes.php">
+      TM 2.0RC3 build notes (June 14, 2007)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC2-200706051715/buildNotes.php">
+      TM 2.0RC2 build notes (June 5, 2007)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC1-200705252030/buildNotes.php">
+      TM 2.0RC1 build notes (May 25, 2007)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M7-200705182100/buildNotes.php">
+      TM 2.0M7 build notes (May 18, 2007)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M6a-200704111818/buildNotes.php">
+      TM 2.0M6a build notes (April 11, 2007)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M5-200702240204/buildNotes.php">
+      TM 2.0M5 build notes (February 24, 2007)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M4-200701040900/buildNotes.php">
+      TM 2.0M4 build notes (January 4, 2007)</a></li>
+  </li>
+
+</ul>
+</body>
+</html>
