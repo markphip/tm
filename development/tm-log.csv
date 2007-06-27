@@ -85,7 +85,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,188637,Kevin Doyle,6,dmcknight,Han
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187016,Xuan Chen,20,dmcknight,have context menu refresh action in table view
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189426,Rupen Mardirossian,8,dmcknight,workaround to populate host combo with new host 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191280,Xuan Chen,200,dmcknight, Expand fails for folder "/folk" with 3361 children 
- 
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191280,Xuan Chen,200,dmcknight, Expand fails for folder "/folk" with 3361 children 
+org.eclipse.tm.rse/plugins/org.eclipse.rse.(connectorservice|services).telnet,187301,Sheldon Dsouza,75,moberhuber,Support multiple telnet shells
  
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
