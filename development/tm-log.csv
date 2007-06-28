@@ -87,6 +87,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189426,Rupen Mardirossian,8,dmckni
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191280,Xuan Chen,200,dmcknight, Expand fails for folder "/folk" with 3361 children 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191280,Xuan Chen,200,dmcknight, Expand fails for folder "/folk" with 3361 children 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(connectorservice|services).telnet,187301,Sheldon Dsouza,75,moberhuber,Support multiple telnet shells
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192716,Xuan Chen,50,dmcknight, Refresh Error in Table View after Renaming folder shown in table 
  
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
