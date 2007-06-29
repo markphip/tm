@@ -37,7 +37,8 @@
 		The Target Management Downloads are now available on
 		<ul>
 		<li><a href="http://download.eclipse.org/dsdp/tm/downloads/">The TM Download Site</a>
-		<li><a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">The TM Update Site</a>
+		<li><a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">The TM 2.0 Update Site</a>
+		(or legacy: <a href="http://download.eclipse.org/dsdp/tm/updates/">TM 1.x update site</a>)
 		</ul>
 
 		<p>Older downloads have been submitted to eclipse.org via bugzilla:
