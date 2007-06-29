@@ -92,7 +92,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192716,Xuan Chen,50,dmcknight,Refr
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,177587,Kevin Doyle,100,dmcknight,Made the SystemMonitorViewPart a SelectionProvider that wraps the table viewers selection provider 
 org.ecilpse.tm.rse/plugins/org.eclipse.rse.ui,182403,Kevin Doyle,10,dmcknight,Scratchpad double click on an object that can be expanded 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187707,Kevin Doyle,6,dmcknight,Added separator between New Folder and New File in context menu
- 
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194602,Kevin Doyle,11,dmcknight,fix for Double Clicking on Folder sometimes expands wrong folder 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
 Jakarta Oro 2.0.8,232,/cvsroot/tools:org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,unmodified binary + associated unmodified sources
