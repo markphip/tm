@@ -50,7 +50,7 @@
 	
 	<p>Besides that, we are working on <b>flexible, re-usable components</b>
 	 for Networking and Target Management that run integrated or without RSE.
-	The following are available from the RSE 1.0.1 download pages 
+	The following are available from the TM 2.0 download pages 
 	already:
 	<ul>
 	  <li>Fast and Flexible DNS-SD / Zeroconf based <b>Service Discovery</b> (requires EMF)</li>
@@ -60,25 +60,25 @@
 	    and other standard protocols (requires J2SE-1.2 only)</li>
 	</ul> 
 	
-	<p>RSE 1.0.1 as well as upcoming service releases and milestones are available
+	<p>TM 2.0 as well as upcoming service releases and milestones are available
     from our 
 	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
 	download site</a> as well as our 
-	<a href="http://download.eclipse.org/dsdp/tm/updates/">
+	<a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">
 	update site</a>. The best resource for programmers to get started
 	with the framework is the 
 	<a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">EclipseCon 2007 Tutorial</a>
 	(includes <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>),
 	which is based on TM 2.0M6. Another
 	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
-	RSE 1.x based Tutorial</a> is available as part of the ISV documentation,
+	Tutorial</a> is available as part of the ISV documentation,
 	and an <a href="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ">
 	FAQ</a> is available on the project Wiki.</p>
 	<p>
     The basis of RSE is a former IBM product, for which a
     <A href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
     slide show</A> is still available. Our plans beyond 
-    RSE 1.0.1 are available from the
+    TM 2.0 are available from the
     Target Management <a href="/dsdp/tm/development/plan.php">Project Plan
     </a> and our <a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
     Use Cases Document</a>, which covers all areas of interest to us.</p>
@@ -105,9 +105,9 @@
 		  <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>)
 		</li>
     	<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
-    		RSE 1.0 Tutorial</a></li>
-    	<li><a href="http://wiki.eclipse.org/index.php/RSE_1.0_Known_Issues_and_Workarounds">
-    		RSE 1.0 Known Issues and Workarounds</a></li>
+    		TM 2.0 Tutorial</a></li>
+    	<li><a href="http://wiki.eclipse.org/TM_2.0_Known_Issues_and_Workarounds">
+    		TM 2.0 Known Issues and Workarounds</a></li>
     	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
@@ -140,7 +140,7 @@
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
-					target="_self">RSE 1.0 Tutorial</a></li>
+					target="_self">TM 2.0 Tutorial</a></li>
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>

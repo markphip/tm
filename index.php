@@ -37,21 +37,34 @@
 		<p>The Target Management project creates data models and frameworks
 		 to configure and manage remote systems, their connections,
 		 and their services.</p>
+
+		<p>The core Remote System Explorer (RSE) framework integrates
+         any sort of heterogeneous remote resources under a single, consistent UI
+         and allows transparent working on remote computers just like the local one.
+         Other offerings include a lightweight Terminal and a Network Discovery
+         framework.</p>
+
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">
-		RSE 1.0.1</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/buildNotes.php">
-		build notes</a>]<br/>
-		Includes new Terminal component, enhanced CDT Remote Launch and more than 60
-		other bug fixes compared to 1.0. With it, we deliver a fully functional toolkit for working 
-		on remote computer systems.<br/> Look at the
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">
+		TM 2.0</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">update site</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/buildNotes.php">build notes</a>]<br/>
+		Includes significant cleanups, refactorings and API changes for enhanced flexibility.<br/>
+		541 unique bugs were adressed, including 136 API change requests.<br/>
+		Users will see enhanced FTP configuration options, Terminal improvements,
+		an EFS integration, and Import/Export wizards for bulk uploads and downloads
+		among other improvements.<br/>
+		Look at the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
 		and check the
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/buildNotes.php">
-		build notes</a> for more information.</p>
-
+		<a href="/dsdp/tm/development/relnotes/2.0/tm-news-2.0.html">New & Noteworthy</a>
+<!--
+		<a href="/dsdp/tm/development/relnotes/2.0/readme_tm_2.0.html">
+		release notes</a>
+-->
+		for more information.</p>
+<!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC3-200706140914/">
 		TM 2.0RC3</a></font>
@@ -67,6 +80,7 @@
 		Ramp-down phase</a> of release candidates towards
 		the TM 2.0 release with Europa on June 29 has been entered.
 		</p>
+-->
 		<p>
 		<u>Additional Links:</u><br/> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
@@ -145,7 +159,7 @@
 				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
 				    TM 1.0 Release Review Slides</a></li>				
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
-					target="_self">RSE 1.0.x Tutorial</a></li>
+					target="_self">TM 2.0 Tutorial</a></li>
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases</a></li>
@@ -155,14 +169,14 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul>
+			<ul><li>Jun 29th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">TM 2.0</a> has been released!</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
 				<li>Apr 10th: <a href="http://tmober.blogspot.com/2007/04/target-management-m6-efs-and-webinar.html">TM 2.0M6 provides EFS</a></li>
 				<li>Mar 5th: <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">TM Tutorial</a> at EclipseCon</li>
 				<li>Dec 15th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
+                <!--
 				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
 					1.0 Release Review</a></li>
-                <!--
  			    <li>Mar 22nd: About 70 participants at the
 			    	<a href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>

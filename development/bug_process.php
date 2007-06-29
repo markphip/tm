@@ -59,10 +59,12 @@
 		    open severe bugs (major, critical, blocker)</a></li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=priority&type0-0-0=regexp&value0-0-0=P%5B12%5D&field0-0-1=bug_severity&type0-0-1=regexp&value0-0-1=blocker%7Ccritical%7Cmajor">
 		    open hi-pri bugs</a> (major, critical, blocker, P1 or P2)</li>
+<!--
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=assigned_to&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=2.0+RC2&target_milestone=2.0+RC3&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">
 		    open bugs assigned to RC3</a>
 		    (or report: <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=assigned_to&query_format=report-table&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">other milestones</a>)
 		    </li>
+-->
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=attachments.ispatch&type0-0-0=equals&value0-0-0=1">
 		    open bugs with patches attached</a></li>
 	      <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&chfieldfrom=1w&chfieldto=Now&chfieldvalue=&cmdtype=doit&negate0=1&field0-0-0=target_milestone&type0-0-0=equals&value0-0-0=---&field0-0-1=target_milestone&type0-0-1=equals&value0-0-1=Future">
@@ -143,6 +145,7 @@
 		  <li>TM
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=RESOLVED&resolution=FIXED&resolution=WORKSFORME&cmdtype=doit&field0-0-0=priority&type0-0-0=regexp&value0-0-0=P%5B12%5D&field0-0-1=bug_severity&type0-0-1=regexp&value0-0-1=blocker%7Ccritical%7Cmajor">
 		    major, critical, blocker, P1 or P2 fixed but not yet verified</a>
+<!--
 		  <li>TM
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=%5Bapi&classification=DSDP&product=Target+Management&bug_status=VERIFIED&bug_status=CLOSED&bug_status=RESOLVED&resolution=FIXED&resolution=WONTFIX&resolution=INVALID&resolution=WORKSFORME&chfieldfrom=2007-05-27&chfieldto=2007-06-05&chfield=resolution&cmdtype=doit">
 		    API bugs fixed for RC2</a>
@@ -152,6 +155,7 @@
 		  <li>TM
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=1.0&target_milestone=1.0+M1&target_milestone=1.0+M2&target_milestone=1.0+M3&target_milestone=1.0+M4&target_milestone=1.0+M5&target_milestone=1.0+RC1&target_milestone=1.0+RC2&target_milestone=1.0+RC3&target_milestone=1.0+RC4&target_milestone=1.0.1&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">
 		    open bugs assigned to 2.0RC2 or older milestones</a>
+-->
 		  <li>TM
 		    <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=VERIFIED&cmdtype=doit">
 		    verified but not yet closed</a>
@@ -159,11 +163,13 @@
 
 		<p>Reports for Release Review</p>
 		<ul>
-		  <li>TM <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&format=table&action=wrap">
-		    Report: All 2.x bugs vs. Target Milestone</a>
+		  <li>TM Report: <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&format=table&action=wrap">
+		    All 2.x bugs vs. Target Milestone</a>
 		    <ul>
-		       <li><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&format=table&action=wrap">
-		           Resolved 2.x bugs by Target Milestone</a></li>
+		       <li><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&chfieldfrom=2007-01-01&chfieldto=Now&chfield=bug_status&chfieldvalue=RESOLVED&format=table&action=wrap">
+		           Resolved 2.x bugs by Target Milestone (including API)</a></li>
+		       <li><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&keywords_type=anywords&keywords=api&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&chfieldfrom=2007-01-01&chfieldto=2007-06-28&chfield=bug_status&chfieldvalue=RESOLVED&format=table&action=wrap">
+		           Resolved 2.x API Change Requests by Target Milestone</a></li>
 		       <li><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&target_milestone=---&target_milestone=2.0&target_milestone=2.0+M4&target_milestone=2.0+M5&target_milestone=2.0+M6&target_milestone=2.0+M7&target_milestone=2.0+RC1&target_milestone=2.0+RC2&target_milestone=2.0+RC3&target_milestone=2.0+RC4&target_milestone=2.0.1&target_milestone=Future&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&format=table&action=wrap">
 		           Open 2.x bugs by Target Milestone</a></li>
 		    </ul></li>
@@ -311,8 +317,8 @@ padding-bottom: 2px">
 		
 		<h2>Testing, tips and tricks for bug finding</h2>
 		<ul>
-		  <li>The <a href="http://wiki.eclipse.org/index.php/RSE_1.0_Testing">
-		    RSE 1.0 Testing</a> page coordinates the RSE 1.0 Testing efforts.</li>
+		  <li>The <a href="http://wiki.eclipse.org/DSDP/TM/Testing">
+		    TM Testing</a> page coordinates the TM Testing efforts.</li>
 		  <li>The <a href="http://wiki.eclipse.org/index.php/Field_Guide_to_Callisto_Bugs">
 		    Field Guide to Callisto Bugs</a> is also an interesting read.</li>
 		</ul>

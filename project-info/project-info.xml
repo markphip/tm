@@ -125,7 +125,7 @@
      - instead and then include the IP Log information on the Legal web page.
     -->
   <ip-log url="/dsdp/tm/development/tm-log.csv"/>
-  <legal url="/projects/slides/TM-IP_log_1.0.csv"/> 
+  <!-- <legal url="/projects/slides/TM-IP_log_1.0.csv"/>  -->
 
 
   <!--
@@ -213,15 +213,18 @@
        plan="/dsdp/tm/development/plan.php"
        download="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/" />
     <release 
-       status="scheduled"
+       status="completed"
        name="2.0"
-       date="06/2007"
-       plan="/dsdp/tm/development/tm_project_plan_2_0.html" />
+       date="29/06/2007"
+       plan="/dsdp/tm/development/tm_project_plan_2_0.html"
+       download="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/" />
+    <!--
 	<milestone status="released" name="2.0M4">
     	<date>04/01/2007</date>
       	<plan format="defacto1">/dsdp/tm/development/tm_project_plan_2_0.html</plan>
       	<download>http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0M4-200701040900/index.php</download>
       	<name>2.0M4</name>
 	</milestone>
+	-->
   </releases>
 </project>

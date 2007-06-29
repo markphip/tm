@@ -86,8 +86,7 @@
       		to understand what scenarios we want to cover with our project.</li>
     	<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
       		IBM Remote Systems Explorer (RSE) Presentation</a>
-			to get a preview of what the first release of the Target Management System
-			(RSE 1.0.x) looks like.
+			to get a preview of what RSE looks like.
 		<li><a href="/dsdp/tm/development/plan.php">
 			Target Management Project Planning</a> 
 			to understand what features and releases are coming next.</li>
