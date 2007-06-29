@@ -94,7 +94,7 @@ org.ecilpse.tm.rse/plugins/org.eclipse.rse.ui,182403,Kevin Doyle,10,dmcknight,Sc
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187707,Kevin Doyle,6,dmcknight,Added separator between New Folder and New File in context menu
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194602,Kevin Doyle,11,dmcknight,fix for Double Clicking on Folder sometimes expands wrong folder 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187713,Rupen Mardirossian,13,dmcknight,Check to see if target is null before attempting to retrieve targetAdapter in tranferRSEResources method
-
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192278,Kevin Doyle,30,dmcknight, fix forDelete Dialog appears twice when Deleting from Scratchpad
 
 Third Party Software,,,,
 name+version,ipzilla #, directory or jarfile,license name and version,usage
