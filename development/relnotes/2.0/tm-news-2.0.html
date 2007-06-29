@@ -18,9 +18,9 @@
 <ul>
   <li><a href="#RSE">Remote System Explorer (RSE)</a>
   <ul>
-     <li><a href="#NewConnectionWizard">New Connection Wizard</a></li>
-     <li><a href="#ImportExportWizards">Import and Export Wizards</a></li>
-     <li><a href="#FTP">FTP</a></li>
+     <li><a href="#RSE">Internals</a></li>
+     <li><a href="#Wizards">Wizards</a></li>
+     <li><a href="#Subsystems">Connections and Subsystems</a></li>
   </ul></li>
   <li><a href="#Terminal">Terminal</a></li>
   <li><a href="#Discovery">Discovery</a></li>
@@ -30,24 +30,6 @@
     <td colspan="2"><hr />
       <h2><a name="RSE" id="RSE"></a>Remote System Explorer (RSE)</h2>
       <hr /></td>
-  </tr>
-  <tr>
-    <td width="30%" valign="top" align="left"><b>Telnet Shell Subsystem</b></td>
-    <td width="70%" valign="top"><p>The new RSE Telnet Subsystem can be activated
-       by selecting the new system type "Telnet Only (Experimental)". The
-       subsystem can be configured in the New Connection Wizard by setting
-       properties for the expected login, password and prompt Strings.
-       RSE password management is supported. Once connected, the Telnet 
-       connection can serve as the channel for layered subsystems like the
-       Linux Shell Processes subsystem. As per TM 2.0, the Telnet subsystem
-       is still considered experimental because the login sequence is not
-       robust against invalid configuration.</p>
-      <p><img src="images/new-telnet.png" alt="Telnet Subsystem" /></p></td>
-
-  </tr>
-  <tr>
-    <td colspan="2"><hr />
-    </td>
   </tr>
   <tr>
     <td width="30%" valign="top" align="left"><b>Persistence in .metadata</b></td>
@@ -86,11 +68,11 @@
   </tr>
   <tr>
     <td colspan="2"><hr />
-      <h3><a name="NewConnectionWizard" id="NewConnectionWizard"></a>New Connection Wizard</h3>
+      <h3><a name="Wizards" id="Wizards"></a>RSE: Wizards</h3>
       <hr /></td>
   </tr>
   <tr>
-    <td width="30%" valign="top" align="left"><b>Remote System Type Selection</b></td>
+    <td width="30%" valign="top" align="left"><b>New Connection: System Type Selection</b></td>
     <td width="70%" valign="top"><p>The Remote System Type selection wizard page now supports
     the grouping of system types within categories and filtering. See the TM 2.0 new connection
     wizards extension point documentation for details.
@@ -98,20 +80,28 @@
   </tr>
   <tr>
     <td colspan="2"><hr />
-      <h3><a name="ImportExportWizards" id="ImportExportWizard"></a>Import and Export Wizards</h3>
-      <hr /></td>
+    <!--
+      <h3><a name="ImportExportWizards" id="ImportExportWizard"></a>RSE: Import and Export</h3>
+      <hr />
+    -->
+    </td>
   </tr>
   <tr>
     <td width="30%" valign="top" align="left"><b>Import and Export Wizards</b></td>
     <td width="70%" valign="top"><p>Remote folders can now be downloaded to Eclipse projects via 
     the new Remote File System Import Wizard and Eclipse projects can now be uploaded to remote folders via 
     the new Remote File System Export Wizard.
+    Settings of the import or export operation can be saved in a file for later 
+    re-play of the same operation, such that a local and a remote project can be
+    kept in sync.
     <p><img src="images/new-import.png" alt="Remote File System Import Wizard" /></p>
+    <!--
     <p><img src="images/new-export.png" alt="Remote File System Export Wizard" /></p>
+    -->
   </tr>
   <tr>
     <td colspan="2"><hr />
-      <h3><a name="FTP" id="FTP"></a>FTP</h3>
+      <h3><a name="Subsystems" id="Subsystems"></a>RSE: Connections and Subsystems</h3>
       <hr /></td>
   </tr>
   <tr>
@@ -123,6 +113,44 @@
     in the FTP settings by the user. This may help communicating with 
     servers that incorrectly identify their system type.
     <p><img src="images/new-ftplistformat.png" alt="FTP directory listing and passive mode in FTP settings" /></p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    <!--
+      <h3><a name="Telnet" id="Telnet"></a>RSE: Telnet</h3>
+      <hr />
+    -->
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Telnet Shell Subsystem</b></td>
+    <td width="70%" valign="top"><p>The new RSE Telnet Subsystem can be activated
+       by selecting the new system type "Telnet Only (Experimental)". The
+       subsystem can be configured in the New Connection Wizard by setting
+       properties for the expected login, password and prompt Strings.
+       RSE password management is supported. Once connected, the Telnet 
+       connection can serve as the channel for layered subsystems like the
+       Linux Shell Processes subsystem. As per TM 2.0, the Telnet subsystem
+       is still considered experimental because the login sequence is not
+       robust against invalid configuration.</p>
+      <p><img src="images/new-telnet.png" alt="Telnet Subsystem" /></p></td>
+
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Linux Shell Processes</b></td>
+    <td width="70%" valign="top"><p>For Linux systems, a special processes subsystem
+       has been added that gets its data through any contributed shell subsystem
+       (like an SSH shell or a Telnet shell). This allows working with processes
+       even if dstore is not available. It is also an interesting example of 
+       layering a subsystem on top of another, arbitrary contributed one.</p>
+       <p>Currently, the Shell Processes subsystem works on Linux only because
+       it uses shell commands against the /proc file system.</p>
+      <p><img src="images/new-shellprocesses.png" alt="Shell Processes Subsystem" /></p></td>
+
   </tr>
   <tr>
     <td colspan="2"><hr />
