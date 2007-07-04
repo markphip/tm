@@ -98,6 +98,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192278,Kevin Doyle,30,dmcknight, f
 org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,194464,Sheldon Dsouza,20,moberhuber,fix create multiple telnet shells quickly
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189150,Kevin Doyle,10,dmcknight, fix for clear in the scratchpad view
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194463,Kevin Doyle,7,dmcknight,Check the result of _editable.download(monitor) to decide if editor should be opened 
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193380,Kevin Doyle,3,dmcknight,Removed refresh() call and added remove(multiSource)
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
