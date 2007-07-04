@@ -96,8 +96,9 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194602,Kevin Doyle,11,dmcknight,fi
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187713,Rupen Mardirossian,13,dmcknight,Check to see if target is null before attempting to retrieve targetAdapter in tranferRSEResources method
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192278,Kevin Doyle,30,dmcknight, fix forDelete Dialog appears twice when Deleting from Scratchpad
 org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,194464,Sheldon Dsouza,20,moberhuber,fix create multiple telnet shells quickly
-
-Third Party Software,,,,
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189150,Kevin Doyle,10,dmcknight, fix for clear in the scratchpad view
+ 
+Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
 Jakarta Oro 2.0.8,232,/cvsroot/tools:org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,unmodified binary + associated unmodified sources
 Jakarta Commons Net 1.4.1,230,/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,unmodified binary + associated unmodified sources
