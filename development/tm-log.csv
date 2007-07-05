@@ -100,6 +100,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189150,Kevin Doyle,10,dmcknight, f
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194463,Kevin Doyle,7,dmcknight,Check the result of _editable.download(monitor) to decide if editor should be opened 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193380,Kevin Doyle,3,dmcknight,Removed refresh() call and added remove(multiSource)
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193148,Kevin Doyle,17,dmcknight,Clear Selection Action only enabled on root elements
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services,192741,Xuan Chen,11,moberhuber,Fix extract from archive if more than 1 level deep 
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
