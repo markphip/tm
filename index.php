@@ -178,7 +178,7 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Jul 6th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/">TM 2.0.0.1</a> has been released!</li>
+			<ul><li>Jul 6th: <a href="http://tmober.blogspot.com/2007/07/dsdp-tm-rse-2001-critical-patch-release.html">TM 2.0.0.1 critical patch release</a></li>
 				<li>Jun 29th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">TM 2.0</a> has been released!</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
 				<li>Apr 10th: <a href="http://tmober.blogspot.com/2007/04/target-management-m6-efs-and-webinar.html">TM 2.0M6 provides EFS</a></li>
