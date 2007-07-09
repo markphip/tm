@@ -101,10 +101,11 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194463,Kevin Doyle,7,dmcknight,Che
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193380,Kevin Doyle,3,dmcknight,Removed refresh() call and added remove(multiSource)
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193148,Kevin Doyle,17,dmcknight,Clear Selection Action only enabled on root elements
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services,192741,Xuan Chen,11,moberhuber,Fix extract from archive if more than 1 level deep 
-org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194838,Xuan Chen,123,put common compare code in SystemRegistry
-org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195537,Kevin Doyle,143,Move ElementComparer From SystemView to Separate File
-org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195543,Kevin Doyle,16,Fix for Double Clicking on a folder expands wrong folder if shown twice in view
-org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,195709,Kevin Doyle,4,Fix for Only enQuote the source string once
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194838,Xuan Chen,123,dmcknight,put common compare code in SystemRegistry
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195537,Kevin Doyle,143,dmcknight,Move ElementComparer From SystemView to Separate File
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195543,Kevin Doyle,16,dmcknight,Fix for Double Clicking on a folder expands wrong folder if shown twice in view
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,195709,Kevin Doyle,4,dmcknight,Fix for Only enQuote the source string once
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189423,Kevin Doyle,26,dmcknight,fixing delete event handling in scratchpad
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
