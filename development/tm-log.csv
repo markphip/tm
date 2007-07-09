@@ -102,6 +102,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193380,Kevin Doyle,3,dmcknight,Rem
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193148,Kevin Doyle,17,dmcknight,Clear Selection Action only enabled on root elements
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services,192741,Xuan Chen,11,moberhuber,Fix extract from archive if more than 1 level deep 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194838,Xuan Chen,123,put common compare code in SystemRegistry
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195537,Kevin Doyle,143,Move ElementComparer From SystemView to Separate File
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
