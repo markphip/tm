@@ -106,6 +106,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195537,Kevin Doyle,143,dmcknight,M
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195543,Kevin Doyle,16,dmcknight,Fix for Double Clicking on a folder expands wrong folder if shown twice in view
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,195709,Kevin Doyle,4,dmcknight,Fix for Only enQuote the source string once
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189423,Kevin Doyle,26,dmcknight,fixing delete event handling in scratchpad
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193394,Kevin Doyle,22,dmcknight,fix for Changed mentions of Vector to java.util.List as passed child is an ArrayList not a Vector
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
