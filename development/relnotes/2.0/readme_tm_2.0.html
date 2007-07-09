@@ -3,22 +3,41 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>DSDP-TM Release Notes 2.0</title>
+<title>DSDP-TM Release Notes 2.0.0.1</title>
 </head>
 
 <body>
 
 <h1>DSDP Target Management Release Notes</h1>
-<p>Release 2.0.0<br>
-  Last revised June 27, 2007</p>
+<p>Release 2.0.0.1<br/>
+Last revised July 9, 2007</p>
+<h2>TM Patch Release 2.0.0.1</h2>
+<p>
+The TM 2.0.0.1 patch release changes 6 lines of Java code compared to TM 2.0 in order to fix
+critical bugs <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=192741">192741</a> 
+and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=194204">194204</a>
+which could lead to loss of data
+when working with ZIP archives or renaming files on an FTP connection.
+The RSE Core and RSE FTP features were changed.
+See the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/buildNotes.php">
+TM 2.0.0.1 Build Notes</a> for details.
+</p>
 
+<h2>TM Release 2.0.0</h2>
+<p>
+TM 2.0 includes significant cleanups, refactorings and API changes for enhanced flexibility
+compared to the RSE 1.0 release.
+541 unique bugs were adressed, including 136 API change requests.
+Users will see enhanced FTP configuration options, Terminal improvements,
+an EFS integration, and Import/Export wizards for bulk uploads and downloads
+among other improvements.</p>
 <ul>
   <li>See the <a href="http://www.eclipse.org/dsdp/tm/development/relnotes/2.0/tm-news-2.0.html">TM 2.0 New & Noteworthy</a> for new features</li> 
   <li>See the <a href="http://www.eclipse.org/dsdp/tm/development/tm_project_plan_2_0.html">TM 2.0 Project Plan</a>
       for supported operating environments</li>
   <li>See the <a href="http://wiki.eclipse.org/TM_2.0_Known_Issues_and_Workarounds">TM 2.0 Known Issues and Workarounds</a> Wiki for known problems</li>
   <li>See the <a href="">TM 2.0 Migration</a> Wiki for migration info</li>
-  <li>See the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/buildNotes.php">TM 2.0 Build Notes</a> for bugs fixed, APIs changed and other information</li> 
+  <li>See the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/buildNotes.php">TM 2.0 Build Notes</a> for bugs fixed, APIs changed and other information</li> 
 </ul>
 
 </body>

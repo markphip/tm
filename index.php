@@ -45,13 +45,22 @@
          framework.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">
-		TM 2.0</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/">
+		TM 2.0.0.1</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/buildNotes.php">build notes</a>]<br/>
-		Includes significant cleanups, refactorings and API changes for enhanced flexibility.<br/>
-		541 unique bugs were adressed, including 136 API change requests.<br/>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/buildNotes.php">build notes</a>]<br/>
+		The TM 2.0.0.1 patch release changes 6 lines of Java code compared to TM 2.0 in order to fix
+		critical bugs <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=192741">192741</a> 
+		and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=194204">194204</a>
+		which could lead to loss of data
+		when working with ZIP archives or renaming files on an FTP connection.
+		The RSE Core and RSE FTP features were changed.
+		See the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/buildNotes.php">
+		TM 2.0.0.1 Build Notes</a> for details.
+		<br/>
+		TM 2.0 includes significant cleanups, refactorings and API changes for enhanced flexibility.
+		541 unique bugs were adressed, including 136 API change requests.
 		Users will see enhanced FTP configuration options, Terminal improvements,
 		an EFS integration, and Import/Export wizards for bulk uploads and downloads
 		among other improvements.<br/>
@@ -169,7 +178,8 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Jun 29th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">TM 2.0</a> has been released!</li>
+			<ul><li>Jul 6th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/">TM 2.0.0.1</a> has been released!</li>
+				<li>Jun 29th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">TM 2.0</a> has been released!</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
 				<li>Apr 10th: <a href="http://tmober.blogspot.com/2007/04/target-management-m6-efs-and-webinar.html">TM 2.0M6 provides EFS</a></li>
 				<li>Mar 5th: <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">TM Tutorial</a> at EclipseCon</li>
