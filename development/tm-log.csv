@@ -108,6 +108,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,195709,Kevin Doyle,4,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189423,Kevin Doyle,26,dmcknight,fixing delete event handling in scratchpad
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193394,Kevin Doyle,22,dmcknight,fix for Changed mentions of Vector to java.util.List as passed child is an ArrayList not a Vector
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193151,Kevin Doyle,218,dmcknight,fix for Scratchpad not updated on Move
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193155,Kevin Doyle,1,dmcknight,fix to check to see if element is IAdaptable
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
