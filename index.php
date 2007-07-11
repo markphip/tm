@@ -50,15 +50,9 @@
 		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">update site</a>
 		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/buildNotes.php">build notes</a>]<br/>
-		The TM 2.0.0.1 patch release changes 6 lines of Java code compared to TM 2.0 in order to fix
-		critical bugs <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=192741">192741</a> 
-		and <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=194204">194204</a>
-		which could lead to loss of data
-		when working with ZIP archives or renaming files on an FTP connection.
-		The RSE Core and RSE FTP features were changed.
-		See the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/buildNotes.php">
-		TM 2.0.0.1 Build Notes</a> for details.
-		<br/>
+		The TM 2.0.0.1 patch release fixes
+		<a href="http://tmober.blogspot.com/2007/07/dsdp-tm-rse-2001-critical-patch-release.html">
+		two critical bugs</a> related to rename on FTP, and extraction from ZIP archives.
 		TM 2.0 includes significant cleanups, refactorings and API changes for enhanced flexibility.
 		541 unique bugs were adressed, including 136 API change requests.
 		Users will see enhanced FTP configuration options, Terminal improvements,
@@ -73,6 +67,7 @@
 		release notes</a>
 -->
 		for more information.</p>
+
 <!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-2.0RC3-200706140914/">
@@ -90,6 +85,18 @@
 		the TM 2.0 release with Europa on June 29 has been entered.
 		</p>
 -->
+		<p><font size="+2"><b>Upcoming Releases:</b></font>
+		<ul><li><b>TM 2.0.1</b>: ETA 28-Sep-2007 with <a href="http://www.eclipse.org/projects/europa.php">Europa</a> SR 1
+		        [<a href="http://wiki.eclipse.org/index.php/TM_Future_Planning#TM_2.0.x_Planning">Plan
+		        | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=2.0.1&cmdtype=doit">assigned bugs</a>
+		        | <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa#Ramp_down_for_Europa_SR1_.2828-Sep-2007.29">ramp-down plan</a>]</li>
+		    <li><b>TM 2.0.2</b>: ETA 29-Feb-2008 with <a href="http://www.eclipse.org/projects/europa.php">Europa</a> SR 2</li>
+		    <li><b>TM 3.0:</b> ETA June 2008 with Eclipse 3.4
+		        [<a href="http://wiki.eclipse.org/index.php/TM_Future_Planning#TM_3.0_.28Ganymede.29_Planning">Planning Page</a>]</li>
+		</ul></p>
+
+
+
 		<p>
 		<u>Additional Links:</u><br/> 
 		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>

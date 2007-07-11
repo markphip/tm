@@ -49,6 +49,8 @@
 		    all open API</a> bugs</li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=---&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=REOPENED&emailassigned_to1=1&emailtype1=substring&email1=inbox%40eclipse.org&cmdtype=doit">
 		    new bugs not yet triaged</a></li>
+		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=2.0.1&cmdtype=doit">
+		    2.0.1 assigned bugs</a></li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=Future&cmdtype=doit">
 		    bugs deferred to the future</a></li>
 		</ul>
