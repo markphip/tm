@@ -133,8 +133,8 @@
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a>
 				    </li>
-				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
-				    TM 1.0 Release Review Slides</a></li>				
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				    TM 2.0 Release Review Slides</a></li>
 			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"

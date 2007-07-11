@@ -124,6 +124,10 @@
 		<div class="homeitem">
 			<h3>Events</h3>
 			<ul class="midlist">
+				<li><b>September 19/20, 2007</b>: 
+				  <a href="http://wiki.eclipse.org/DSDP/TM/Face-to-face_Chicago_19-Sep-2007">
+				  Contributor Coding Camp</a>, Chicago
+				  </li> 
 				<li><b>April 12, 2007</b>: 
 				  <a href="http://live.eclipse.org/node/229">Webinar</a>:
 				  TM goals, architecture, future plans and online demo
@@ -151,11 +155,10 @@
 				  DSDP Overview slides
 				  (<a href="http://www.eclipsecon.org/summiteurope2006/presentations/ESE2006_DSDP_Project_Update.pdf">PDF</a>)
 				  </li>
-				<li>The TM project <b>passed its 1.0 Release Review</b> on
-				    September 27, 2006. The Slides are an interesting read
+				<li><b>Sept. 27, 2006</b>: TM passed its 1.0 Release Review. The Slides are an interesting read
 				    for everyone (Slides as  
-				    <a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
-				    <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">PDF</a>).</li>
+				    <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
+				    <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3a.pdf">PDF</a>).</li>
 				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
 				    (See the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a> for actual
 				    agenda and details)</li>
@@ -172,8 +175,8 @@
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
-				<li><a href="/dsdp/tm/doc/TM_1.0_Release_Review_v3.ppt" target="_self">
-				    TM 1.0 Release Review Slides</a></li>				
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				    TM 2.0 Release Review Slides</a></li>
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">TM 2.0 Tutorial</a></li>
 				<li><a
@@ -192,8 +195,6 @@
 				<li>Mar 5th: <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">TM Tutorial</a> at EclipseCon</li>
 				<li>Dec 15th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
                 <!--
-				<li>Sep 27th: TM passed the <a href="http://www.eclipse.org/projects/slides/TM_1.0_Release_Review_v3.pdf">
-					1.0 Release Review</a></li>
  			    <li>Mar 22nd: About 70 participants at the
 			    	<a href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
 					target="_self">EclipseCon TM talk</a></li>

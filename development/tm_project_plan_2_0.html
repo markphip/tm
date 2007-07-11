@@ -11,13 +11,13 @@
 
 <h1>DSDP - Target Management 2.0 Plan</h1>
 
-<p>Last revised 19:30 CEST May 21, 2007
+<p>Last revised 16:20 CEST Jul 11, 2007
 (<img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
 marks interesting recent 
-<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/tm_project_plan_2_0.html.diff?r1=1.4&r2=1.5&cvsroot=Eclipse_Website">changes</a>
+<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/tm_project_plan_2_0.html.diff?r1=1.5&r2=1.6&cvsroot=Eclipse_Website">changes</a>
 since the 
-<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/tm_project_plan_2_0.html?rev=1.4&cvsroot=Eclipse_Website&content-type=text/html">
-previous draft of Apr 5, 2007</a>)
+<a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/tm_project_plan_2_0.html?rev=1.5&cvsroot=Eclipse_Website&content-type=text/html">
+previous draft of May 21, 2007</a>)
 </p>
 <p><i>Please send comments about this plan to
 the </i><a href="mailto:dsdp-tm-dev@eclipse.org">dsdp-tm-dev@eclipse.org</a> <i>developer
@@ -97,6 +97,10 @@ or integrated with RSE:
 	   <li>TM Discovery SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>Redistribution of Apache Jakarta Commons 1.4.1 and Apache ORO 2.0.8 (downloadable through the Orbit project).</li>
     </ul></li>
+    <li><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+       TM 2.0 <a href="http://www.eclipse.org/projects/dev_process/release-review.php">Release Review</a> Slide Deck (Jun 6, 2007)
+        (<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt">PPT</a> | 
+	     <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.pdf">PDF</a>)</li>
 </ul>
 Notes:
 The former experimental RSE EFS integration is scheduled to be moved
@@ -121,7 +125,7 @@ relationship. The milestones are:</p>
 </ul>
 <p>Lock down and testing then begins with M7, and progress through a
 series of test-fix passes against candidates releases.
-<br/><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<br/>
 A detailed <a href="http://wiki.eclipse.org/index.php/TM_2.0_Ramp_down_Plan_for_Europa">
 TM 2.0 Ramp down Plan</a> towards the release is available especially for the Eclipse 
 <a href="http://wiki.eclipse.org/index.php/Europa_Simultaneous_Release">
@@ -442,13 +446,12 @@ ongoing work and planned delivery milestones.
 
 <h3><a name="Committed">Committed Items</a></h3>
 <blockquote> 
-<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<p>
 <strong>Contribute Import/Export from RSE7.</strong>
 The predecessor of Eclipse RSE was an IBM product, 
 <a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
 IBM RSE 7.0</a>. Not all features of RSE 7.0 have been ported yet.
 For Eclipse RSE 2.0, we will port the <em>Import/Export</em> feature.
-<img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
 Porting User actions and Compile Commands need to be deferred to a later
 release. While porting the feature, it will be refactored and optimized.
 See the link above
@@ -467,18 +470,6 @@ that require different encodings.
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=163820">163820</a>) 
 </p>
 
-<p><strong>Integrate the TM Terminal View with RSE.</strong>
-RSE provides a framework for registering data transfer protocols and
-managing connections. It provides a subsystem for executing commands
-on remote hosts through those protocols, but this is a line-oriented
-command view without terminal emulation.
-The current stand-alone TM Terminal View will be integrated with RSE
-as a new kind of subsystem that provides a terminal over any registered
-RSE IHostShell connection channel.
-(Theme: Ease Of Use)
-(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170910">170910</a>) 
-</p>
-
 <p><strong>Improve Discovery and Autodetect in RSE.</strong>
 Support the use cases defined by the 
 <a href="http://wiki.eclipse.org/index.php/DSDP/TM/Autodetect">
@@ -491,7 +482,7 @@ adding support for the services detected.
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170911">170911</a>) 
 </p>
 
-<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<p>
 <strong>Improve UI/Non-UI splitting in RSE.</strong>
 RSE code should be further refactored to split UI from non-UI parts. This means
 providing non-UI (headless) APIs for
@@ -499,7 +490,6 @@ accessing the SystemRegistry, getting IHost objects;
 getting ISubSystem, ISubSystemConfiguration objects as well as services;
 and using IFileServiceSubsystem as well as other ISubSystem and IService APIs
 for actions like upload, download, run-shell-command.
-<img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
 Full support for headless Launches needs to be deferred to a later release.
 (Theme: Design for Extensibility)
 (<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170923">170923</a>) 
@@ -607,7 +597,7 @@ priority and doing automated unit testing regularly.
 
 <h3><a name="Deferred">Deferred Items</a></h3>
 <blockquote> 
-<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<p>
 <strong>Contribute User Actions from RSE7.</strong>
 The <a href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
 IBM RSE 7.0</a> <em>User Actions</em> and <em>Compile Commands</em>
@@ -615,10 +605,10 @@ could not be ported to Eclipse TM RSE 2.0 in time due to lack of resources.
 They will be added in a later release. See the link above
 for a presentation with more details about these features.
 (Themes: Ease of Use, Enterprise Ready / Facilitated On-Boarding)
-(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170909">170909</a>) 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=187395">187395</a>) 
 </p>
 
-<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<p>
 <strong>Support headless launches.</strong>
 Based on improved UI / non-UI splitting, a headless
 Eclipse should be able to perform Launches through RSE-provided services /
@@ -626,7 +616,21 @@ subsystems. While a lot improvement has been made for RSE 2.0, a few
 roadblocks to full headless launch support could not be overcome due
 to lack of resources. 
 (Theme: Design for Extensibility)
-(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170923">170923</a>) 
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170923">170923</a>,
+<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170923">183771</a>) 
+</p>
+
+<p><img src="new.gif" alt="(new)" border="0" height="12" width="12"/>
+<strong>Integrate the TM Terminal View with RSE.</strong>
+RSE provides a framework for registering data transfer protocols and
+managing connections. It provides a subsystem for executing commands
+on remote hosts through those protocols, but this is a line-oriented
+command view without terminal emulation.
+The current stand-alone TM Terminal View will be integrated with RSE
+as a new kind of subsystem that provides a terminal over any registered
+RSE IHostShell connection channel.
+(Theme: Ease Of Use)
+(<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=170910">170910</a>) 
 </p>
 </blockquote>
 
