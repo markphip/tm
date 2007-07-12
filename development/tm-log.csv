@@ -112,6 +112,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193155,Kevin Doyle,1,dmcknight,fix
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(services.(local|dstore)|subsystems.files.dstore),190010,Kevin Doyle,14,dmcknight,fixes for cancelling shell
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192725,Kevin Doyle,10,dmcknight,fix for deleting Files doesn't remove them from Search view
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services,194293,Xuan Chen,73,dmcknight, fix for Saving file second time in an Archive Errors
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,187427,Kevin Doyle,21,dmcknight, checks Search Archive's checkbox when selecting an archive or file in an archive
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
