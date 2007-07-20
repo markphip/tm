@@ -116,6 +116,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,187427,Kevin Doyle,21,dmckni
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.(local|dstore),196211,Kevin Doyle,103,dmcknight, Updates for Local and DStore move to use Java File.rename()
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192725,Kevin Doyle,9,dmcknight, fix for Deleting Files doesn't remove them from Search
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,196588,Kevin Doyle,12,dmcknight, fix for Archives are visible on connections that support archive management
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,160378,Kevin Doyle,2,dmcknight,fix for Subset action should be disabled when there are no tabs available in Remote Monitor view
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
