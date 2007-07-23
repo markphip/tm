@@ -118,6 +118,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192725,Kevin Doyle,9,dmcknight, fi
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,196588,Kevin Doyle,12,dmcknight, fix for Archives are visible on connections that support archive management
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,160378,Kevin Doyle,2,dmcknight,fix for Subset action should be disabled when there are no tabs available in Remote Monitor view
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,197484,Tobias Schwarz,10,moberhuber,fix for SystemView to provide ContextObject for queries on all levels
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,196582,Kevin Doyle,12,dmcknight,fix for ClassCastException when doing copy/paste with Search view open
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
