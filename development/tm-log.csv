@@ -120,7 +120,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,160378,Kevin Doyle,2,dmcknight,fix
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,197484,Tobias Schwarz,10,moberhuber,fix for SystemView to provide ContextObject for queries on all levels
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,196582,Kevin Doyle,12,dmcknight,fix for ClassCastException when doing copy/paste with Search view open
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194899,Kevin Doyle,10,dmcknight,Remove All should do a full reset of the scratchpad
-
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,175277,Kevin Doyle,18,dmcknight,Cannot disconnect multiple connections at once with multiselect
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
