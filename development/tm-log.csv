@@ -121,6 +121,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,197484,Tobias Schwarz,10,moberhube
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,196582,Kevin Doyle,12,dmcknight,fix for ClassCastException when doing copy/paste with Search view open
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194899,Kevin Doyle,10,dmcknight,Remove All should do a full reset of the scratchpad
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,175277,Kevin Doyle,18,dmcknight,Cannot disconnect multiple connections at once with multiselect
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,197971,Kevin Doyle,35,dmcknight,fix for NPE when table has no input and doing commands in Systems View
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
