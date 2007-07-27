@@ -44,8 +44,8 @@
 		    (handling bugzilla states and priorities)<p/></li>
 		  <li>When you check in a fix for a bugzilla entry, <b>please</b> include
 			the bugzilla number in the commit message. Example:
-		   <b>"Fix bug 139207 browsing into tar archives by dstore"</b>.<p/></li>
-		   <li>After committing a fix for bugzilla, set the entry <b>fixed</b>. 
+		   <b>"[139207] Fix browsing into tar archives by dstore"</b>.<p/></li>
+		   <li>After committing a fix for bugzilla, set the entry <b>FIXED</b>. 
 		   Do not set it closed until it has been tested and verified by somebody 
 		   else.<p/></li>
 		</ul>
@@ -72,7 +72,7 @@
 		<h2>IP Due Diligence</h2>
 		When you check in a contributed patch, we <b>have to follow IP Due Diligence
 		guidelines</b>, as outlined on the 
-		<a href="http://www.eclipse.org/legal/EclipseLegalProcessPoster-v1.2.4.pdf">
+		<a href="http://www.eclipse.org/legal/EclipseLegalProcessPoster.pdf">
 		Eclipse IP Process Flowchart</a> and the
 		<a href="http://www.eclipse.org/projects/dev_process/project-log.php">
 		Project Log Guidelines</a>:<p/>
@@ -105,6 +105,8 @@
 		   (when a whole new file is added by the contribution, leave the copyright notice
 		   as is, of course).<p/></li>
 		   <li>Make sure the bugzilla number is part of the commit message.</li>
+		   <li>For more details, see the <a href="/dsdp/tm/development/committer_howto.php#external_contrib">Committer Howto
+		       on applying a patch from an external contributor</a></li>.
 		</ul>  
 
 		<h2>Coding Guidelines</h2>

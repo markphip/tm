@@ -110,7 +110,9 @@
 		    Example: <ul>
 			  <li><b>[139207] fix browsing into tar archives by dstore</b></li>
 			</ul></li>
-		  <li>Set the <b>bugzilla report FIXED</b>. The bugzilla comment along with the state change 
+		  <li>Set the <b>bugzilla report FIXED</b> and verify that the bugzilla
+		      <b>Target Milestone</b> reflects the version that your fix is about
+		      to go into. The bugzilla comment along with the state change 
   should include some help that allows a reader to understand what was done. Some good examples:<ul>
     <li><b>Fixed by correcting id in files.ui/plugin.xml</b></li>
     <li><b>Fixed in SystemViewPart and other *ViewPart files by using common action handler</b></li>
@@ -133,7 +135,7 @@
 		    to create a bugzilla entry. This is requird even for patches from
 		    co-workers in your own company!</li>
 		  <li><b>Contact the contributor</b> and ask the following (see the 
-		    <a href="http://www.eclipse.org/legal/EclipseLegalProcessPoster-v1.2.4.pdf">
+		    <a href="http://www.eclipse.org/legal/EclipseLegalProcessPoster.pdf">
 		    Eclipse Legal Poster</a>):
 		    <ul><li>If this is the first time the contributor makes a contribution: 
 		         Contact information for IP records - Name, Company, E-Mail, Office address, Office phone.</li>  
@@ -175,6 +177,10 @@ padding-bottom: 2px">
 		    process transparent. <b>Put the bugzilla number on the commit message</b>.</li>
 		  <li>Add a line describing the contribution to the <b>tm-log.csv</b> Project Log, see
 		    <a href="#project_log">below</a>.</li>
+		  <li>Add the keyword <b>contributed</b> to the bugzilla report that the patch came 
+		    from. Verify that the bugzilla <b>Target Milestone</b> reflects the
+		    version that your fix is about to go into, then set the bugzilla report
+		    to <b>FIXED</b>.
 		</ul>
 		
 		<a name="project_log"></a>
@@ -288,6 +294,12 @@ padding-bottom: 2px">
 		   ":extssh:" by ":pserver:".</li>
 		  <li>Send an <b>E-mail</b> to dsdp-tm-dev, informing everybody that team project sets
 		    have been updated with your new plugins.</li>
+		  <li>For <b>release engineering</b> purposes, it may be necessary to also reference your
+		      new plugins in an existing feature, add new features, modify Mapfiles
+		      and/or the ANT files for nightly builds in the project <tt>org.eclipse.rse.build</tt>.
+		      These tasks can all be accomplished by your build and release engineer, 
+		      so this is another reason for sending an <b>E-mail to dsdp-tm-dev</b> 
+		      when you added a new plugin. 
 		</ul>
 
 		<a name="fix_copyrights"></a>
@@ -297,6 +309,11 @@ padding-bottom: 2px">
 		    <a href="http://download.eclipse.org/eclipse/downloads/drops/R-3.2-200606291905/index.php">
 		    Eclipse 3.2 Download Page</a></li>
 		  <li>See the description there: "6. Fix Copyrights"</li>
+		  <li>For more detail information about "Fix Copyright" vs. "Advanced Fix Copyrights" also see
+		  <ul><li><a href="http://dev.eclipse.org/mhonarc/lists/cross-project-issues-dev/msg01116.html">This message</a> on cross-project-issues-dev</li>
+		      <li><a href="http://dev.eclipse.org/mhonarc/lists/cross-project-issues-dev/msg01118.html">This message</a> which was a reply on it</li>
+		      <li><a href="http://dev.eclipse.org/mhonarc/lists/dsdp-tm-dev/msg01214.html">This message</a> on dsdp-tm-dev</li>
+		  </ul></li>
 		</ul>
 
 		<p/>
