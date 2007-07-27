@@ -64,18 +64,25 @@
 			<li><b>Michael Scharf</b>, Wind River</li>
 			<li><b>Uwe Stieber</b>, Wind River</li>
 			<li><b>Ted Williams</b>, Wind River</li>
+			<li><b>Xuan Chen</b>, IBM</li>
 		</ul>
 		</div>
 
 		<div class="homeitem3col">
 		<h3>Contributors (in alphabetical order)</h3>
 		This is the list of people who have made code contributions to the 
-		TM Project on Bugzilla so far. The list is sorted alphabetically
+		TM Project on Bugzilla so far, with their code actually being 
+		merged into the TM codebase in CVS. The list is sorted alphabetically
 		by last name:
 		<ul class="midlist">
 			<li><b>Michael Berger</b>, IBM
-			<li><b>Pierre-Alexandre Masse</b>, Montavista</li>
-			<li><b>Ewa Matejska</b>, PalmSource</li>
+			<li><b>Kevin Doyle</b>, IBM
+			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
+			<li><b>Rupen Mardirossian</b>, IBM
+			<li><b>Yu-Fen Kuo</b>, Montavista</li>
+			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
+			<li><b>Willian Mitsuda</b>, 
+			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
   		</ul>
 		</div>
@@ -95,10 +102,9 @@
 			<li><b>Intel</b>: Peter Lachner</li>
 			<li><b>LANL</b>: Greg Watson</li>
 			<li><b>Montavista</b>: Joe Green, Pierre-Alexandre Masse</li>
-			<li><b>PalmSource</b>: Ewa Matejska</li> 
 			<li><b>QNX</b>: David Inglis, Doug Schaefer</li>
 			<li><b>Star Bridge Systems</b>: Matthew Scarpino</li> 
-			<li><b>Symbian</b>: Javier Montalvo-Orús, Victor Palau, Neil Taylor</li>
+			<li><b>Symbian</b>: Victor Palau, Neil Taylor</li>
 			<li><b>TI</b>: Paul Gingrich</li> 
 			<li><b>TU Munich</b>: Tianchao Li</li> 
 			<li><b>Wind River</b>: Felix Burton, Brian Nettleton</li>
