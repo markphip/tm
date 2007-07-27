@@ -81,7 +81,7 @@
 			<li><b>Rupen Mardirossian</b>, IBM
 			<li><b>Yu-Fen Kuo</b>, Montavista</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
-			<li><b>Willian Mitsuda</b>, 
+			<li><b>Willian Mitsuda</b>, (private)</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
   		</ul>
