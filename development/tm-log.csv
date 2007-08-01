@@ -123,6 +123,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194899,Kevin Doyle,10,dmcknight,Re
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,175277,Kevin Doyle,18,dmcknight,Cannot disconnect multiple connections at once with multiselect
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,197971,Kevin Doyle,35,dmcknight,fix for NPE when table has no input and doing commands in Systems View
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,198114,Kevin Doyle,3,dmcknight,fix for Allowed to move file into existing folder/archive on first attempt
+org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.)ui,198576,Kevin Doyle,34,dmcknight,fix for Renaming a folder directly under a Filter doesn't update children
 
 
 Third Party Software,,,, 
