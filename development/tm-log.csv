@@ -127,6 +127,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.)ui,198576,Kevin Doyle,34,dmck
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189421,Kevin Doyle,274,dmcknight,fix for Scratchpad not updated after Rename
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194867,Kevin Doyle,33,dmcknight,fix for Remote Scratchpad should have Refresh Action on toolbar
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services,181784,Xuan Chen,1,xchen,fix for zipped text files have unexpected contents 
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,198007,Kevin Doyle,27,xchen,fix for Moving multiple folders allows moving to themselves
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
