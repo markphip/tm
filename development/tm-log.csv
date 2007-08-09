@@ -129,6 +129,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194867,Kevin Doyle,33,dmcknight,fi
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services,181784,Xuan Chen,1,xchen,fix for zipped text files have unexpected contents 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,198007,Kevin Doyle,27,xchen,fix for Moving multiple folders allows moving to themselves
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187536,Kevin Doyle,1,xchen,fix for Drag & Drop file to Editor launchs file in system editor
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,196582,Kevin Doyle,23,xchen,fix for ClassCastException when doing copy/paste with Remote Search view open
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
