@@ -131,6 +131,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,198007,Kevin Doyle,27,xchen,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187536,Kevin Doyle,1,xchen,fix for Drag & Drop file to Editor launchs file in system editor
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,196582,Kevin Doyle,23,xchen,fix for ClassCastException when doing copy/paste with Remote Search view open
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191548,Kevin Doyle,11,xchen,fix for Deleting Read-Only directory removes it from view and displays no error
+org.eclipse.tm.rse/plugins/org.eclipse.rse.*.local,199871,Kevin Doyle,22,moberhuber,fix for NPEs when loading messages for local files or processes
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
