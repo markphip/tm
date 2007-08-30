@@ -132,6 +132,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187536,Kevin Doyle,1,xchen,fix for
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,196582,Kevin Doyle,23,xchen,fix for ClassCastException when doing copy/paste with Remote Search view open
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191548,Kevin Doyle,11,xchen,fix for Deleting Read-Only directory removes it from view and displays no error
 org.eclipse.tm.rse/plugins/org.eclipse.rse.*.local,199871,Kevin Doyle,22,moberhuber,fix for NPEs when loading messages for local files or processes
+org.eclipse.tm.rse/plugins/org.eclipse.rse.core,163883,Kevin Doyle,20,ddykstal,fix for activating multiple filter strings across sessions
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
