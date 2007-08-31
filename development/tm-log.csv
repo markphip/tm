@@ -134,6 +134,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191548,Kevin Doyle,11
 org.eclipse.tm.rse/plugins/org.eclipse.rse.*.local,199871,Kevin Doyle,22,moberhuber,fix for NPEs when loading messages for local files or processes
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,163883,Kevin Doyle,20,ddykstal,fix for activating multiple filter strings across sessions
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,197199,Kevin Doyle,6,ddykstal,fix profile renaming persistence
+org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.ssh,201864,Mikhail Kalugin,1,moberhuber,Fix Terminal SSH keyboard interactive authentication
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
