@@ -80,13 +80,13 @@
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
 			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
 			<li><b>Rupen Mardirossian</b>, IBM</li>
-			<li><b>Benjamin Muskalla</b></li>
+			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
 			<li><b>Yu-Fen Kuo</b>, Montavista</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
 			<li><b>Willian Mitsuda</b>, (private)</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
-			<li><b>Remy Chi Jian Suen</b></li>
+			<li><b>Remy Chi Jian Suen</b>, IBM</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
   		</ul>
