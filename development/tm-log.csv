@@ -139,6 +139,7 @@ org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.ssh,201867,Mikhail Kalugin,
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,190613,Yu-Fen Kuo,5,moberhuber,Fix NPE in Remotecdt when RSEUIPlugin has not been loaded
 org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,192906,Remy Chi Jian Suen,21,moberhuber,[efs] No Error when trying to Create Remote Project when project with name exists
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.ssh,174690,Benjamin Muskalla,5,moberhuber,[ssh] cannot delete symbolic links on remote systems
+org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,203124,Olivier Thomann,40,moberhuber,HTML errors in org.eclipse.rse.doc.isv
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
