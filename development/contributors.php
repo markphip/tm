@@ -75,14 +75,19 @@
 		merged into the TM codebase in CVS. The list is sorted alphabetically
 		by last name:
 		<ul class="midlist">
-			<li><b>Michael Berger</b>, IBM
-			<li><b>Kevin Doyle</b>, IBM
+			<li><b>Michael Berger</b>, IBM</li>
+			<li><b>Kevin Doyle</b>, IBM</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
-			<li><b>Rupen Mardirossian</b>, IBM
+			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
+			<li><b>Rupen Mardirossian</b>, IBM</li>
+			<li><b>Benjamin Muskalla</b></li>
+			<li><b>Mikhail Kalugin</b>, Xored Software</li>
 			<li><b>Yu-Fen Kuo</b>, Montavista</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
 			<li><b>Willian Mitsuda</b>, (private)</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
+			<li><b>Remy Chi Jian Suen</b></li>
+			<li><b>Olivier Thomann</b>, IBM</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
   		</ul>
 		</div>
