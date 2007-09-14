@@ -141,7 +141,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,192906,Remy Chi Jian Suen,21,m
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.ssh,174690,Benjamin Muskalla,5,moberhuber,[ssh] cannot delete symbolic links on remote systems
 org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,203124,Olivier Thomann,40,moberhuber,HTML errors in org.eclipse.rse.doc.isv
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,203365,Kevin Doyle,23,dmcknight,Profile should not be saved as a result of file transfer
-
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,197855,Kevin Doyle,20,moberhuber,Cannot Delete/Rename/Move a Read-Only File
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
