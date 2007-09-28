@@ -35,17 +35,31 @@
 		<h1>$pageTitle</h1>
 		<h2>Mission Statement</h2>
 		<p>The Target Management project creates data models and frameworks
-		 to configure and manage remote systems, their connections,
-		 and their services.</p>
+		 to configure and manage remote (mainframe down to embedded) systems,
+		 their connections, and their services.</p>
+		 
+		 <h3>The Vision</h3>
+		 <p>To be the Eclipse <i>"Explorer of the Network Neighborhood"</i>,
+		 with pluggable information providers under a single, consistent UI.
+		 Interactively discover, drill down, analyze remote systems (from
+		 mainframes down to embedded systems), and provide the
+		 context for more advanced actions being plugged in to it.
+		 
+		 <h3>The Toolkit</h3>
 
 		<p>The core Remote System Explorer (RSE) framework integrates
-         any sort of heterogeneous remote resources under a single, consistent UI
-         and allows transparent working on remote computers just like the local one.
+         any sort of heterogeneous remote resources through a concept
+         of pluggable subsystems. The base toolkit includes a Remote Files
+         subsystem that allows <a href="http://eclipsewebmaster.blogspot.com/2007/01/remote-editing-using-eclipse.html">
+         transparent working on remote computers</a> just 
+         like the local one, a shell and a processes subsystem.
          Other offerings include a lightweight Terminal and a Network Discovery
          framework.</p>
+        <p>Vendors are extending the RSE with custom subsystems for debugging,
+        remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.1-200709270920/">
+		<a href="http://tmober.blogspot.com/2007/09/tm-201-can-terminal-be-too-fast.html">
 		TM 2.0.1</a></font>
 		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.1-200709270920/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">update site</a>
@@ -57,7 +71,9 @@
 		</ul>
 		EFS works nicely now for mapping remote resources into any kind of Eclipse project.
 		<p/>
-		TM 2.0.1 is 100% upward and backward API compatible with TM 2.0; look at the
+		TM 2.0.1 is 100% upward and backward compatible with TM 2.0. If you already have TM 2.0, you 
+		can "check for updates" using the Eclipse update manager to get it.<br/>
+		Look at <a href="http://tmober.blogspot.com/2007/09/tm-201-can-terminal-be-too-fast.html">this blog</a>, the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
 		and check the
 		<a href="/dsdp/tm/development/relnotes/2.0/tm-news-2.0.html">New & Noteworthy</a>
@@ -186,7 +202,7 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Sep 28th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.1-200709270920/">TM 2.0.1</a> Service Release</li>
+			<ul><li>Sep 28th: <a href="http://tmober.blogspot.com/2007/09/tm-201-can-terminal-be-too-fast.html">TM 2.0.1</a> Service Release</li>
 				<li>Jul 6th: <a href="http://tmober.blogspot.com/2007/07/dsdp-tm-rse-2001-critical-patch-release.html">TM 2.0.0.1 critical patch release</a></li>
 				<li>Jun 29th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">TM 2.0</a> has been released!</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
