@@ -45,20 +45,19 @@
          framework.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/">
-		TM 2.0.0.1</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.1-200709270920/">
+		TM 2.0.1</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.1-200709270920/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/buildNotes.php">build notes</a>]<br/>
-		The TM 2.0.0.1 patch release fixes
-		<a href="http://tmober.blogspot.com/2007/07/dsdp-tm-rse-2001-critical-patch-release.html">
-		two critical bugs</a> related to rename on FTP, and extraction from ZIP archives.
-		TM 2.0 includes significant cleanups, refactorings and API changes for enhanced flexibility.
-		541 unique bugs were adressed, including 136 API change requests.
-		Users will see enhanced FTP configuration options, Terminal improvements,
-		an EFS integration, and Import/Export wizards for bulk uploads and downloads
-		among other improvements.<br/>
-		Look at the
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.1-200709270920/buildNotes.php">build notes</a>]<br/>
+		Tm TM 2.0.1 service release includes more than 150 bug fixes and performance enhancements, particularly
+		<ul><li>Fixes <b>non-ASCII encodings</b> for files and directories on remote FTP or SSH servers
+		    <li>includes a <b>lighting fast new Terminal implementation</b> (up to 1000 times faster than the old one on Windows)</li>
+		    <li>Several fixes for FTP passive mode, archive handlers and the <b>Eclipse Filesystem (EFS) provider</b></li>.
+		</ul>
+		EFS works nicely now for mapping remote resources into any kind of Eclipse project.
+		<p/>
+		TM 2.0.1 is 100% upward and backward API compatible with TM 2.0; look at the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
 		and check the
 		<a href="/dsdp/tm/development/relnotes/2.0/tm-news-2.0.html">New & Noteworthy</a>
@@ -66,7 +65,7 @@
 		<a href="/dsdp/tm/development/relnotes/2.0/readme_tm_2.0.html">
 		release notes</a>
 -->
-		for more information.</p>
+		for more information about interesting things in TM 2.0.</p>
 
 <!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
@@ -86,11 +85,10 @@
 		</p>
 -->
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 2.0.1</b>: ETA 28-Sep-2007 with <a href="http://www.eclipse.org/projects/europa.php">Europa</a> SR 1
+		<ul><li><b>TM 2.0.2</b>: ETA 29-Feb-2008 with <a href="http://www.eclipse.org/projects/europa.php">Europa</a> SR 2
 		        [<a href="http://wiki.eclipse.org/index.php/TM_Future_Planning#TM_2.0.x_Planning">Plan
-		        | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=2.0.1&cmdtype=doit">assigned bugs</a>
-		        | <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa#Ramp_down_for_Europa_SR1_.2828-Sep-2007.29">ramp-down plan</a>]</li>
-		    <li><b>TM 2.0.2</b>: ETA 29-Feb-2008 with <a href="http://www.eclipse.org/projects/europa.php">Europa</a> SR 2</li>
+		        | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=2.0.2&cmdtype=doit">assigned bugs</a>
+		        | <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa#Ramp_down_for_Europa_SR2_.2829-Feb-2007.29">ramp-down plan</a>]</li>
 		    <li><b>TM 3.0:</b> ETA June 2008 with Eclipse 3.4
 		        [<a href="http://wiki.eclipse.org/index.php/TM_Future_Planning#TM_3.0_.28Ganymede.29_Planning">Planning Page</a>]</li>
 		</ul></p>
@@ -188,7 +186,8 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Jul 6th: <a href="http://tmober.blogspot.com/2007/07/dsdp-tm-rse-2001-critical-patch-release.html">TM 2.0.0.1 critical patch release</a></li>
+			<ul><li>Sep 28th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.1-200709270920/">TM 2.0.1</a> Service Release</li>
+				<li>Jul 6th: <a href="http://tmober.blogspot.com/2007/07/dsdp-tm-rse-2001-critical-patch-release.html">TM 2.0.0.1 critical patch release</a></li>
 				<li>Jun 29th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">TM 2.0</a> has been released!</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
 				<li>Apr 10th: <a href="http://tmober.blogspot.com/2007/04/target-management-m6-efs-and-webinar.html">TM 2.0M6 provides EFS</a></li>

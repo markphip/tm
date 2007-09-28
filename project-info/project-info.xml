@@ -224,6 +224,12 @@
        date="06/07/2007"
        plan="/dsdp/tm/development/tm_project_plan_2_0.html"
        download="http://europa-mirror1.eclipse.org/dsdp/tm/downloads/drops/R-2.0.0.1-200707061039/" />
+    <release 
+       status="completed"
+       name="2.0.1"
+       date="28/09/2007"
+       plan="/dsdp/tm/development/tm_project_plan_2_0.html"
+       download="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.1-200709270920/" />
     <!--
 	<milestone status="released" name="2.0M4">
     	<date>04/01/2007</date>
