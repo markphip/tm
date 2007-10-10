@@ -142,9 +142,9 @@
 				  <b>October 9-11, 2007</b>: Eclipse Summit Europe 2007 -<ul>
 				    <li><a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&id=21" target="_blank">
 				         <b>The DSDP Target Management Project</b></a>, long talk by Martin Oberhuber
-				         <!-- (includes 
-				         <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>)
-				         -->
+				         (slides;  
+				         <a href="http://download.eclipse.org/dsdp/tm/presentations/2007-10-10_TM_ESE2007.ppt">PPT</a> |
+				         <a href="http://download.eclipse.org/dsdp/tm/presentations/2007-10-10_TM_ESE2007.pdf">PDF</a>)
 				         </li>
 				    </ul></li>
 				<li><b>September 17-19, 2007</b>: 
