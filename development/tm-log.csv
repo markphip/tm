@@ -145,6 +145,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,197855,Kevin Doyle,20,moberh
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,189271,Yufen Kuo,10,dmcknight,Fix for new profile's always being active
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,197976,Kevin Doyle,24,kdoyle,Changing a file to read-only when it is open doesn't update local copy
 org.ecilpse.tm.rse/plugins/org.eclipse.rse.ui,197841,Kevin Doyle,14,kdoyle,"Terminate and Remove" should remove the shell from Scratchpad
+org.ecilpse.tm.rse/plugins/org.eclipse.rse.shells.ui,198534,Kevin Doyle,17,kdoyle,Shell Menu Enablement Issue's
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
