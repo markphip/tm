@@ -147,7 +147,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,197976,Kevin Doyle,24,kdoyle
 org.ecilpse.tm.rse/plugins/org.eclipse.rse.ui,197841,Kevin Doyle,14,kdoyle,"Terminate and Remove" should remove the shell from Scratchpad
 org.ecilpse.tm.rse/plugins/org.eclipse.rse.shells.ui,198534,Kevin Doyle,17,kdoyle,Shell Menu Enablement Issue's
 org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.core,204307,Rupen Mardirossian,8,dmcknight,listFolders now deals with a null parameter for fileNameFilter preventing NPE
-org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),208435,Rupen Mardirossian,100,dmcknigh3,Patch to disable the user to rename to the same name when multiple collisions occur
+org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),208435,Rupen Mardirossian,100,dmcknight,Patch to disable the user to rename to the same name when multiple collisions occur
  
 
 Third Party Software,,,, 
