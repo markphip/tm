@@ -77,7 +77,9 @@
 		by last name:
 		<ul class="midlist">
 			<li><b>Michael Berger</b>, IBM</li>
+			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
+			<li><b>Øyvind Harboe</b>, Zylin</li>
 			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
 			<li><b>Yu-Fen Kuo</b>, Montavista</li>
@@ -87,6 +89,7 @@
 			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
+			<li><b>Eugene Tarassov</b>, Wind River</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
   		</ul>
@@ -112,7 +115,8 @@
 			<li><b>Symbian</b>: Victor Palau, Neil Taylor</li>
 			<li><b>TI</b>: Paul Gingrich</li> 
 			<li><b>TU Munich</b>: Tianchao Li</li> 
-			<li><b>Wind River</b>: Felix Burton, Brian Nettleton</li>
+			<li><b>Wind River</b>: Martin Gutschelhofer, Brian Nettleton</li>
+			<li><b>Zend Technologies</b>: Yossi Leon, Yaron Mazor</li> 
   		</ul>
 		</div>
 	</div>
