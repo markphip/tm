@@ -56,6 +56,8 @@
 		<div class="homeitem3col">
 		<h3>Committers (in alphabetical order)</h3>
 		<ul class="midlist">
+			<li><b>Xuan Chen</b>, IBM</li>
+			<li><b>Kevin Doyle</b>, IBM</li>
 			<li><b>David Dykstal</b>, IBM</li>
 			<li><b>David McKnight</b>, IBM</li>
 			<li><b>Javier Montalvo-Orús</b>, Symbian</li>
@@ -64,7 +66,6 @@
 			<li><b>Michael Scharf</b>, Wind River</li>
 			<li><b>Uwe Stieber</b>, Wind River</li>
 			<li><b>Ted Williams</b>, Wind River</li>
-			<li><b>Xuan Chen</b>, IBM</li>
 		</ul>
 		</div>
 
@@ -76,15 +77,14 @@
 		by last name:
 		<ul class="midlist">
 			<li><b>Michael Berger</b>, IBM</li>
-			<li><b>Kevin Doyle</b>, IBM</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
 			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
-			<li><b>Rupen Mardirossian</b>, IBM</li>
-			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
 			<li><b>Yu-Fen Kuo</b>, Montavista</li>
+			<li><b>Rupen Mardirossian</b>, IBM</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
 			<li><b>Willian Mitsuda</b>, (private)</li>
+			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
