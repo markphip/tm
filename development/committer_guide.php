@@ -118,8 +118,8 @@
 		Eclipse Quality</a>. Therefore, we better strive for quality early. Which means, try
 		to follow common accepted guidelines for writing new code<p/>
 		Some useful references are 
-		<ul><li>The <a href="http://wiki.eclipse.org/index.php/API_Central">Eclipse Platform API Central</a></li>
-		<li>The <a href="http://wiki.eclipse.org/index.php/Development_Conventions_and_Guidelines">Eclipse Platform Devlopment Guidelines</a></li>
+		<ul><li>The <a href="http://wiki.eclipse.org/API_Central">Eclipse Platform API Central</a></li>
+		<li>The <a href="http://wiki.eclipse.org/Development_Conventions_and_Guidelines">Eclipse Platform Devlopment Guidelines</a></li>
 		</ul>
 
 		<h2>Other stuff for reference</h2>

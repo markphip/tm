@@ -74,7 +74,7 @@
 						<a href="http://www.eclipse.org/eclipse/platform-core/downloads.html#updates">
 						update site</a> to your configuration.</li>
 					<li><b><a
-						href="http://wiki.eclipse.org/index.php/Platform-releng">Release Engineering</a></b> <br>
+						href="http://wiki.eclipse.org/Platform-releng">Release Engineering</a></b> <br>
 						See the instructions, FAQs and help from the Platform-Releng team.</li>
 					<!-- Dashboard is currently not useful.
 					<li><b><a
@@ -97,7 +97,7 @@
 						Committers need to follow check-in conventions and IP Due Diligence as outlined
 						<a href="/dsdp/tm/development/committer_guide.php">here</a>. 
 						</li>
-					<li><b><a href="http://wiki.eclipse.org/index.php/API_Central">API Guidelines</a></b><br>
+					<li><b><a href="http://wiki.eclipse.org/API_Central">API Guidelines</a></b><br>
 						Look <a href="http://help.eclipse.org/help30/topic/org.eclipse.platform.doc.isv/reference/misc/api-usage-rules.html">
 						here</a> for general Eclipse API rules of engagement. We strive to achieve 
 						<a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
@@ -105,7 +105,7 @@
 						<a href="http://www.eclipse.org/projects/dev_process/Eclipse%20Quality%20APIs%20v2.pdf">
 						Eclipse Quality APIs</a>.
 						</li>
-					<li><b><a href="http://wiki.eclipse.org/index.php/Development_Conventions_and_Guidelines">
+					<li><b><a href="http://wiki.eclipse.org/Development_Conventions_and_Guidelines">
 					    Development Conventions and Guidelines</a></b><br>
 						Coding standards, naming conventions, and other
 						guidelines used by the Platform. TM will use these conventions
@@ -141,7 +141,7 @@
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
+			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_top">DSDP Overview Diagrams</a></li>				
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"

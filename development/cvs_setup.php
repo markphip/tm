@@ -172,7 +172,7 @@
 		<a name="cvsbackground"></a>
 		<h2>Background information on CVS and Eclipse</h2>
 		<ul>
-		  <li>See <a href="http://wiki.eclipse.org/index.php/CVS_Howto">
+		  <li>See <a href="http://wiki.eclipse.org/CVS_Howto">
 			Using Eclipse with CVS</a> for instructions on how to use
 			Eclipse with CVS.</li>
 		</ul>

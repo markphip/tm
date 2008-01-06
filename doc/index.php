@@ -66,7 +66,7 @@
 		    IBM RSE Presentation</a></li>
 		</ul>
 
-		<h2>Older Meeting Notes (Newer notes are on the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a>)</h2>
+		<h2>Older Meeting Notes (Newer notes are on the <a href="http://wiki.eclipse.org/DSDP/TM">Wiki</a>)</h2>
 		<ul>
 		<h4>CDT Conference Ottawa, 2005 October 25-26</h4>
 		<ul>
@@ -104,7 +104,7 @@
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
+			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"

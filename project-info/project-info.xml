@@ -115,7 +115,7 @@
      - points to a web page on the project's site that describes how to
      - get started developing on, and contributing to, the project.
     -->
-  <contributing url="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ"/>
+  <contributing url="http://wiki.eclipse.org/TM_and_RSE_FAQ"/>
 
   <!--
      - Each Eclipse project is required to maintain a current Project IP Log.
@@ -168,7 +168,7 @@
      - them into the liveness measure (or rather, "will incorporate").
     -->
   <articles>
-    <article url="http://wiki.eclipse.org/index.php/DSDP/TM"/>
+    <article url="http://wiki.eclipse.org/DSDP/TM"/>
   </articles>
   <blogs>
     <blog rss="http://tmober.blogspot.com/atom.xml"/>

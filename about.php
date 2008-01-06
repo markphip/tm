@@ -78,7 +78,7 @@
 		  (<a href="http://live.eclipse.org/node/229">50 minute full recording</a> |
 		  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
 		  </li> 
-    	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
+    	<li><a href="http://wiki.eclipse.org/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
     	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
@@ -106,7 +106,7 @@
 				    </li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
+			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>

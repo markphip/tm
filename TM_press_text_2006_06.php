@@ -48,7 +48,7 @@ for accessing remote compute resources from Eclipse. The current code base
 <p>For the 2.0 release planning and the longer term future, the TM project
 participants are dealing with advanced extensions to the framework in
 various technology sub-groups (see 
-<a href="http://wiki.eclipse.org/index.php/DSDP/TM">http://wiki.eclipse.org/index.php/DSDP/TM</a>).
+<a href="http://wiki.eclipse.org/DSDP/TM">http://wiki.eclipse.org/DSDP/TM</a>).
 Active discussions are also going on for collaboration with other Eclipse
 Projects, especially the 
  <a href="http://www.eclipse.org/cdt">CDT project</a>, the 

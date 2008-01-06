@@ -72,7 +72,7 @@
 	which is based on TM 2.0M6. Another
 	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
 	Tutorial</a> is available as part of the ISV documentation,
-	and an <a href="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ">
+	and an <a href="http://wiki.eclipse.org/TM_and_RSE_FAQ">
 	FAQ</a> is available on the project Wiki.</p>
 	<p>
     The basis of RSE is a former IBM product, for which a
@@ -97,7 +97,7 @@
 		  (<a href="http://live.eclipse.org/node/229">50 minute full recording</a> |
 		  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
 		  </li> 
-    	<li><a href="http://wiki.eclipse.org/index.php/TM_and_RSE_FAQ">
+    	<li><a href="http://wiki.eclipse.org/TM_and_RSE_FAQ">
     		TM and RSE FAQ</a></li>
 		<li>EclipseCon 2007 
 		  <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651" target="_blank">
@@ -108,7 +108,7 @@
     		TM 2.0 Tutorial</a></li>
     	<li><a href="http://wiki.eclipse.org/TM_2.0_Known_Issues_and_Workarounds">
     		TM 2.0 Known Issues and Workarounds</a></li>
-    	<li><a href="http://wiki.eclipse.org/index.php/DSDP">
+    	<li><a href="http://wiki.eclipse.org/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
     	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
@@ -135,7 +135,7 @@
 				    </li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
+			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>

@@ -93,18 +93,18 @@
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
 <!--
-		With M7, the <a href="http://wiki.eclipse.org/index.php/TM_2.0_Ramp_down_Plan_for_Europa">
+		With M7, the <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa">
 		Ramp-down phase</a> of release candidates towards
 		the TM 2.0 release with Europa on June 29 has been entered.
 		</p>
 -->
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
 		<ul><li><b>TM 2.0.3</b>: ETA 25-Feb-2008 with <a href="http://www.eclipse.org/projects/europa.php">Europa</a> SR 2
-		        [<a href="http://wiki.eclipse.org/index.php/TM_Future_Planning#TM_2.0.x_Planning">Plan
+		        [<a href="http://wiki.eclipse.org/TM_Future_Planning#TM_2.0.x_Planning">Plan
 		        | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=2.0.3&cmdtype=doit">assigned bugs</a>
 		        | <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa#Ramp_down_for_Europa_SR2_.2829-Feb-2007.29">ramp-down plan</a>]</li>
 		    <li><b>TM 3.0:</b> ETA June 2008 with Eclipse 3.4
-		        [<a href="http://wiki.eclipse.org/index.php/TM_Future_Planning#TM_3.0_.28Ganymede.29_Planning">Planning Page</a>]</li>
+		        [<a href="http://wiki.eclipse.org/TM_Future_Planning#TM_3.0_.28Ganymede.29_Planning">Planning Page</a>]</li>
 		</ul></p>
 
 
@@ -116,7 +116,7 @@
 		<div class="homeitem">
 			<h3>Quick Links</h3>
 				<ul class="midlist">
-					<li><a href="http://wiki.eclipse.org/index.php/DSDP/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions, meeting notes and other "not so official" stuff there.</li>
+					<li><a href="http://wiki.eclipse.org/DSDP/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions, meeting notes and other "not so official" stuff there.</li>
 					<li><a href="news://news.eclipse.org/eclipse.dsdp.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm">Web access</a>, <a href="http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html">archive</a>).</li>
 					<li><a href="http://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev" target="_blank"><b>Mailing List</b></a> | For project development discussions.</li>
 					<li><a href="/dsdp/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
@@ -181,7 +181,7 @@
 				    <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
 				    <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3a.pdf">PDF</a>).</li>
 				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
-				    (See the <a href="http://wiki.eclipse.org/index.php/DSDP/TM">Wiki</a> for actual
+				    (See the <a href="http://wiki.eclipse.org/DSDP/TM">Wiki</a> for actual
 				    agenda and details)</li>
 			</ul>
 		</div>

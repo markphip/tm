@@ -59,7 +59,7 @@
 		  <li>Ensure that you have <a href="/dsdp/tm/development/compiler_warnings.php">Compiler Warnings
 		      </a> switched on as recommended. For every file that you modify, please ensure that it
 		      compiles without warnings before you check it in.</li>
-		  <li>Keep the <a href="http://wiki.eclipse.org/index.php/DSDP/TM/Code_Ownership">
+		  <li>Keep the <a href="http://wiki.eclipse.org/DSDP/TM/Code_Ownership">
 		  	  Code Ownership Page</a> up-to-date on the Wiki.</li>
 		</ul>
 
@@ -67,7 +67,7 @@
 		<h2>Format my checkin comment</h2>
 		<p>
 		There are 
-		<a href="http://wiki.eclipse.org/index.php/Search_CVS%2C_Release_Notes%2C_%26_Build_News">
+		<a href="http://wiki.eclipse.org/Search_CVS%2C_Release_Notes%2C_%26_Build_News">
 		tools available</a> which build a MySQL database of all CVS 
 		checkins and allow searching it, or even associate checkins with
 		bugzilla bugs in order to generate release notes:

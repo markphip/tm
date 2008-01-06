@@ -43,7 +43,7 @@
 			Martin holds an MS degree in Telematics from the University
 			of Technology Graz/Austria, and has been working on source code analysis
 			and tools development since 1999.<br/>
-			<a href="http://wiki.eclipse.org/index.php/User:Moberhuber">more about Martin Oberhuber &raquo;</a>
+			<a href="http://wiki.eclipse.org/User:Moberhuber">more about Martin Oberhuber &raquo;</a>
 			</li>
 		<li><b>David Dykstal, IBM</b> (david_dykstal at us.ibm.com)<br/>
 		 	David is the Project Lead for the IBM Remote System Explorer,
@@ -128,7 +128,7 @@
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/index.php/DSDP" 
+			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"

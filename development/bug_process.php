@@ -213,7 +213,7 @@
 		lifecycle of an issue in Bugzilla.<p/> 
 		
 		<h3>How to defer bugs</h2>
-		<p>In our <a href="http://wiki.eclipse.org/index.php/DSDP/TM/Committer_Phone_Meeting_23-May-2006">
+		<p>In our <a href="http://wiki.eclipse.org/DSDP/TM/Committer_Phone_Meeting_23-May-2006">
 		Committer Meeting on 23-May 2006</a> we decided on the following strategies for deferring bugs.
 		This was later amended according to <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=178923#c75">
 		bug 178923</a> by adding a "Future" milestone. The main goal of these guidelines is 
@@ -321,7 +321,7 @@ padding-bottom: 2px">
 		<ul>
 		  <li>The <a href="http://wiki.eclipse.org/DSDP/TM/Testing">
 		    TM Testing</a> page coordinates the TM Testing efforts.</li>
-		  <li>The <a href="http://wiki.eclipse.org/index.php/Field_Guide_to_Callisto_Bugs">
+		  <li>The <a href="http://wiki.eclipse.org/Field_Guide_to_Callisto_Bugs">
 		    Field Guide to Callisto Bugs</a> is also an interesting read.</li>
 		</ul>
 		 				   
