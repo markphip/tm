@@ -16,7 +16,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Eclipse Target Management Project - Remote System Explorer";
-	$pageKeywords	= "target management, remote system explorer, tm, rse, Eclipse, device, target"
+	$pageKeywords	= "target management, remote system explorer, tm, rse, Eclipse, device, target";
 	$pageAuthor		= "Martin Oberhuber";
 	
 	# Add page-specific Nav bars here
