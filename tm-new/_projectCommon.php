@@ -43,7 +43,7 @@ EOBRANDING;
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;FAQ (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Newsgroup", "http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html", "_self", 1);
 
-	$Nav->addNavSeparator("&nbsp;&nbsp;&nbsp;&nbsp;Contributors (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 1);
+	$Nav->addNavSeparator("Contributors (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Contributing (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Mailing List", "https://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;CVS", "/dsdp/tm/tm-new/cvs/", "_self", 1);

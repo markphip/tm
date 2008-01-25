@@ -44,9 +44,15 @@
 			</td>
 		</tr>
 		</table>
-		<div id="homeitem">
+		<div id="homeitem3col">
 			<h3>News</h3>
 			<ul>
+				<li>
+					Jan 7th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/">TM 3.0M4</a> released
+				</li>
+				<li>
+					Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal
+				</li>
 				<li>
 					Nov 13, 2007: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/index.php">TM 2.0.2</a> Service Release
 				</li>
