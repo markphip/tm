@@ -18,9 +18,7 @@
 	$Nav->setLinkList(array());
 	$branding = <<<EOBRANDING
 <div id="branding">
-<center>
 <h1><a href="http://eclipse.org/dsdp/tm/">Target Management (Remote System Explorer)</a></h1>
-</center>
 </div>
 EOBRANDING;
 
