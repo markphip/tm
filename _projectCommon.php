@@ -88,6 +88,7 @@ $buildtypes = array(
 	}   
 	function add2contributors() {
 		global $Nav;
+		global $PR;
 		$Nav->addCustomNav("Development Tools", "/dsdp/tm/development/index.php", "", 2);
 		$Nav->addCustomNav("Search CVS", "/$PR/searchcvs.php?q=file%3A+org.eclipse.tm%25%2F" . "+days%3A+7", "_self", 2);
 	}
