@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "DSDP-TM Developer Documents";
+	$pageTitle 		= "TM Developer Documents";
 	$pageKeywords	= "device, target";
 	$pageAuthor		= "Martin Oberhuber";
 	
