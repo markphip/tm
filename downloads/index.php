@@ -67,6 +67,7 @@ $dls = array(
 $filePre = array(
 	/* "/newproj" => array("emft-newproj", "emf-newproj"), */
 	"/emf" => array("emf-sdo-xsd", "emf-sdo", "emf", "sdo", "xsd"),
+	"/rse" => array("RSE"),
 );
 /* alternate method for specifying prefixes - static list */
 $filePreStatic = array(

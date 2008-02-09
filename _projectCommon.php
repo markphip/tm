@@ -50,7 +50,8 @@ $extraprojects = array(); //components with only downloads, no info yet, "pretty
 $nodownloads = array("coordinated","jcrm","temporality", "emf4net"); //components with only information, no downloads, or no builds available yet, "projectkey"
 $nonewsgroup = array(); //components without newsgroup
 $nomailinglist = array(); //components without mailinglist
-$incubating = $projects; // ALL components are incubating
+#$incubating = $projects; // ALL components are incubating
+$incubating = array("tcf"); //Only TCF is incubating for now
 $hasmoved = array(
 	"query" => "emf", "transaction" => "emf", "validation" => "emf",
 	"eodm" => "mdt", "ocl" => "mdt",
