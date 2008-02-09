@@ -38,6 +38,25 @@ $dls = array(
 			"Automated Tests" => "automated-tests"
 		)
 	),*/
+	"/rse" => array(
+		"RSE" => array(
+			"SDK (Runtime, Source, Doc)" => "SDK",
+			"Runtime" => "runtime",
+			"Examples" => "examples",
+			"Automated Tests" => "automated-tests"
+		),
+		"RSE Add-ons, Integrations and Stand-alone Offerings" => array(
+			"Remote CDT Integration" => "remotecdt",
+			"Discovery Framework" => "discovery",
+			"Terminal" => "terminal"
+		),
+		"DStore Server Runtime" => array(
+			"rseserver-windows" => "windows",
+			"rseserver-linux" => "linux",
+			"rseserver for Other UNIX" => "unix",
+			"rseserver for Mac OS X" => "macosx"
+		),
+	),
 	"/emf" => array(
 		"EMF, SDO, and XSD" => array(
 			"<b style=\"color:green\">All-In-One SDK</b> (Runtime, Source, Doc)" => "SDK",
@@ -67,7 +86,7 @@ $dls = array(
 $filePre = array(
 	/* "/newproj" => array("emft-newproj", "emf-newproj"), */
 	"/emf" => array("emf-sdo-xsd", "emf-sdo", "emf", "sdo", "xsd"),
-	"/rse" => array("RSE"),
+	"/rse" => array("RSE", "TM", "rseserver"),
 );
 /* alternate method for specifying prefixes - static list */
 $filePreStatic = array(
