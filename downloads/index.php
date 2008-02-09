@@ -98,7 +98,7 @@ $html = ob_get_contents();
 ob_end_clean();
 
 $trans = array_flip($projects);
-$pageTitle = "Eclipse DSDP - " . (false===strpos($trans[$projct], "EMF") ? "EMF " : "") . $trans[$projct] . " - Downloads";
+$pageTitle = "Eclipse DSDP - " . $trans[$projct] . " - Downloads";
 $pageKeywords = ""; // TODO: add something here
 $pageAuthor = "Neil Skrypuch, Nick Boldt, Martin Oberhuber";
 
