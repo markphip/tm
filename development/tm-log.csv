@@ -150,6 +150,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.core,204307,Rupen Ma
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),208435,Rupen Mardirossian,100,dmcknight,Patch to disable the user to rename to the same name when multiple collisions occur
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local,218173,Radoslav Gerganov,3,dmcknight,[local] non-generic filters don't work
 svn:org.eclipse.tm.tcf,210751,Eugene Tarassov,73566,moberhuber,Target Communication Framework (TCF) initial contribution
+org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,217675,Ruslan Sychev,8,mischarf,Exception when closing Terminal while connection establishing
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
