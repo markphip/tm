@@ -81,14 +81,14 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/">
-		TM 3.0M4</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">
+		TM 3.0M5</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/buildNotes.php">
 		build notes</a>]<br/>
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
 <!--
@@ -208,7 +208,8 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Jan 7th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/">TM 3.0M4</a> released</li>
+			<ul><li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">TM 3.0M5</a> released</li>
+			    <li>Jan 7th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/">TM 3.0M4</a> released</li>
 			    <li>Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal</li>
 			    <li>Nov 13th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/index.php">TM 2.0.2</a> Service Release</li>
 				<li>Sep 28th: <a href="http://tmober.blogspot.com/2007/09/tm-201-can-terminal-be-too-fast.html">TM 2.0.1</a> Service Release</li>

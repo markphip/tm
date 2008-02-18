@@ -47,6 +47,7 @@
 		<div id="homeitem3col">
 			<h3>News</h3>
 			<ul>
+				<li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">TM 3.0M5</a> released</li>
 				<li>
 					Jan 7th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/">TM 3.0M4</a> released
 				</li>
