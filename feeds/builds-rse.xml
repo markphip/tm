@@ -11,15 +11,15 @@
   <id>http://download.eclipse.org/dsdp/tm/feeds/builds-rse.xml</id>
   <entry>
     <title>[announce] RSE 3.0.0M5 (S200802181400) is available</title>
-    <link href="http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200802181400#S200802181400"/>
-    <id>http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200802181400#S200802181400</id>
+    <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/index.php"/>
+    <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/index.php</id>
     <updated>2008-02-18T14:50:00Z</updated>
     <summary>
-      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200802181450" href="http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200802181400#S200802181400" type="S" version="3.0.0">
-        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M4-200801071150/" log="buildlog.txt" map="directory.txt"/>
+      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200802181450" href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/index.php" type="S" version="3.0.0">
+        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M5-200802181400/" log="buildlog.txt" map="directory.txt"/>
         <update>http://download.eclipse.org/dsdp/tm/updates/3.0</update>
-        <downloads>http://www.eclipse.org/dsdp/tm/downloads/?project=rse</downloads>
-        <releasenotes>http://www.eclipse.org/dsdp/tm/news/relnotes.php?project=rse&amp;version=S200802181400
+        <downloads>http://download.eclipse.org/dsdp/tm/downloads/</downloads>
+        <releasenotes>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/buildNotes.php
           </releasenotes>
         <releases>
           <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0M5.zip</release>
@@ -44,7 +44,7 @@
     <title>[announce] RSE 3.0.0M4 (S200801071150) is available</title>
     <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/index.php"/>
     <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/index.php</id>
-    <updated>2008-01-10T09:03:51Z</updated>
+    <updated>2008-01-07T12:50:00Z</updated>
     <summary>
       <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200801071150" href="http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200801071150#S200801071150" type="S" version="3.0.0">
         <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M4-200801071150/" log="buildlog.txt" map="directory.txt"/>
