@@ -10,35 +10,6 @@
   </author>
   <id>http://download.eclipse.org/dsdp/tm/feeds/builds-rse.xml</id>
   <entry>
-    <title>[announce] RSE 3.0.0M4 (S200801071150) is available</title>
-    <link href="http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200801071150#S200801071150"/>
-    <id>http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200801071150#S200801071150</id>
-    <updated>2008-01-07T20:04:42Z</updated>
-    <summary>
-      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200801071150" href="http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200801071150#S200801071150" type="S" version="3.0.0">
-        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M4-200801071150/" log="buildlog.txt" map="directory.txt"/>
-        <update>http://download.eclipse.org/dsdp/tm/updates/3.0</update>
-        <downloads>http://www.eclipse.org/dsdp/tm/downloads/?project=rse</downloads>
-        <releasenotes>http://www.eclipse.org/dsdp/tm/news/relnotes.php?project=rse&amp;version=S200801071150
-          </releasenotes>
-        <releases>
-          <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0M4.zip</release>
-        </releases>
-        <tests>
-          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M4-200801071150/testResults.php" type="junit">
-            <result arch="ALL" os="ALL" ws="ALL">PASS</result>
-          </test>
-        </tests>
-        <dependencies>
-          <dependency>http://download.eclipse.org/modeling/emf/emf/downloads/drops/2.4.0/S200712160044/emf-sdo-xsd-SDK-2.4.0M4.zip</dependency>
-          <dependency>http://download.eclipse.org/tools/orbit/downloads/drops/S200712072116/orbit-S200712072116.zip</dependency>
-          <dependency>http://download.eclipse.org/eclipse/downloads/drops/S-3.4M4-200712131700/eclipse-SDK-3.4M4-linux-gtk.tar.gz</dependency>
-        </dependencies>
-        <coordinated status=""/>
-      </build>
-    </summary>
-  </entry>
-  <entry>
     <title>[announce] RSE 3.0.0M5 (S200802181400) is available</title>
     <link href="http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200802181400#S200802181400"/>
     <id>http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200802181400#S200802181400</id>
@@ -64,6 +35,35 @@
           <dependency>http://download.eclipse.org/eclipse/downloads/drops/S-3.4M5-200802071530/eclipse-SDK-3.4M5-linux-gtk.tar.gz</dependency>
           <dependency>http://download.eclipse.org/tools/cdt/builds/5.0.0/I.I200802111122/cdt-master-5.0.0-I200802111122.zip</dependency>
           <dependency>http://rxtx.qbang.org/eclipse/downloads/RXTX-SDK-I20071016-1945.zip</dependency>
+        </dependencies>
+        <coordinated status=""/>
+      </build>
+    </summary>
+  </entry>
+  <entry>
+    <title>[announce] RSE 3.0.0M4 (S200801071150) is available</title>
+    <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/index.php"/>
+    <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/index.php</id>
+    <updated>2008-01-10T09:03:51Z</updated>
+    <summary>
+      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200801071150" href="http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200801071150#S200801071150" type="S" version="3.0.0">
+        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M4-200801071150/" log="buildlog.txt" map="directory.txt"/>
+        <update>http://download.eclipse.org/dsdp/tm/updates/3.0/</update>
+        <downloads>http://download.eclipse.org/dsdp/tm/downloads/</downloads>
+        <releasenotes>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/buildNotes.php
+          </releasenotes>
+        <releases>
+          <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0M4.zip</release>
+        </releases>
+        <tests>
+          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M4-200801071150/testResults.php" type="junit">
+            <result arch="ALL" os="ALL" ws="ALL">PASS</result>
+          </test>
+        </tests>
+        <dependencies>
+          <dependency>http://download.eclipse.org/modeling/emf/emf/downloads/drops/2.4.0/S200712160044/emf-sdo-xsd-SDK-2.4.0M4.zip</dependency>
+          <dependency>http://download.eclipse.org/tools/orbit/downloads/drops/S200712072116/orbit-S200712072116.zip</dependency>
+          <dependency>http://download.eclipse.org/eclipse/downloads/drops/S-3.4M4-200712131700/eclipse-SDK-3.4M4-linux-gtk.tar.gz</dependency>
         </dependencies>
         <coordinated status=""/>
       </build>
