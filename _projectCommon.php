@@ -29,13 +29,21 @@ else
 
 /* projects/components in cvs */
 /* "proj" => "cvsname" */
-$cvsprojs = array (); /* should always be empty */
+#$cvsprojs = array (); /* should always be empty */
+$cvsprojs = array (
+	"rse" => "org.eclipse.tm.rse"
+);
 
 /* sub-projects/components in cvs for projects/components above (if any) */
-/* "cvsname" => array("shortname" => "cvsname") */
+/* "cvsname" => array("shortname" => "cvs-subname") */
 $cvscoms = array(
-	"org.eclipse.tm.rse" => array (
-		"rse" => "org.eclipse.tm.rse",
+	#"org.eclipse.tm.rse" => array (
+	#	"rse" => "rse",
+	#	/* add more here */
+	#),
+	"org.eclipse.tm.core" => array (
+		"terminal" => "terminal",
+		"discovery" => "discovery"
 		/* add more here */
 	)
 );
