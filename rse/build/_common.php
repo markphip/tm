@@ -6,12 +6,17 @@ $options = array (
 	
 	"BranchAndJDK" => array (
 		"dsdp.eclipse.org=------------,------------",
-		"3.0.0=HEAD,/opt/sun-java2-1.4",
-		"3.0.0=HEAD,/opt/sun-java2-5.0",
+		"3.0.0=HEAD,/opt/JDKs/i386/j2sdk1.4.2_16",
+		"3.0.0=HEAD,/opt/JDKs/i386/jdk1.5.0_14",
+		"3.0.0=HEAD,/opt/JDKs/i386/jdk1.6.0_04",
+		"3.0.0=HEAD,/opt/JDKs/i386/IBMJava2-142-10.0",
+		"3.0.0=HEAD,/opt/JDKs/i386/ibm-java2-i386-50-6.0",
+		"3.0.0=HEAD,/opt/JDKs/i386/ibm-java2-i386-60-0.0",
 		
 		"build.eclipse.org=------------,------------",
-		"3.0.0=HEAD,/shared/dsdp/tm/ws2/IBMJava2-ppc-142",
-		"3.0.0=HEAD,/opt/public/common/ibm-java2-ppc-50"
+		"3.0.0=HEAD,/shared/dsdp/JDKs/ppc/IBMJava2-ppc-142-10.0",
+		"3.0.0=HEAD,/shared/dsdp/JDKs/ppc/ibm-java2-ppc-50-6.0",
+		"3.0.0=HEAD,/shared/common/ibm-java-ppc-60"
 	),
 	
 	"Mapfile_Rule_Default" => 0, // 0: "Use Map, No Tagging=use-false" or 1:"Generate Map, No Tagging=gen-false"
