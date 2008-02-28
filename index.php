@@ -59,16 +59,20 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/">
-		TM 2.0.2</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530/">
+		TM 2.0.3</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/buildNotes.php">build notes</a>]<br/>
-		Tm TM 2.0.2 service release includes 26 bug fixes compared to TM 2.0.1, plus more than 150 bug fixes and
-		performance enhancements compared to TM 2.0. Especially the <b>Terminal</b>, the <b>Eclipse Filesystem
-		(EFS) provider)</b> and <b>non-ASCII encodings</b> over FTP or SSH were improved.
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530/buildNotes.php">build notes</a>]<br/>
+		The TM 2.0.3 service release includes 13 bug fixes compared to TM 2.0.2.
+		RSE persistence was made more robust,
+		SSH connections do not time out any more thanks to keepalives,
+		FTP connections can show hidden files, and the Terminal
+		optional input line got Ctrl+Space field assist for quickly accessing its history.
+		Includes also all TM 2.0.x fixes for Terminal and EFS issues, 
+		and support for non-ASCII encodings over FTP or SSH.
 		<br/>
-		TM 2.0.2 is 100% upward and backward compatible with TM 2.0. If you already have TM 2.0, you 
+		TM 2.0.3 is 100% upward and backward compatible with TM 2.0. If you already have TM 2.0, you 
 		can "check for updates" using the Eclipse update manager to get it.
 		Look at <a href="http://tmober.blogspot.com/2007/09/tm-201-can-terminal-be-too-fast.html">this blog</a>, the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
@@ -98,11 +102,7 @@
 		</p>
 -->
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 2.0.3</b>: ETA 25-Feb-2008 with <a href="http://www.eclipse.org/projects/europa.php">Europa</a> SR 2
-		        [<a href="http://wiki.eclipse.org/TM_Future_Planning#TM_2.0.x_Planning">Plan
-		        | <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&target_milestone=2.0.3&cmdtype=doit">assigned bugs</a>
-		        | <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa#Ramp_down_for_Europa_SR2_.2829-Feb-2007.29">ramp-down plan</a>]</li>
-		    <li><b>TM 3.0:</b> ETA June 2008 with Eclipse 3.4
+		<ul><li><b>TM 3.0:</b> ETA June 2008 with Eclipse 3.4
 		        [<a href="http://wiki.eclipse.org/TM_Future_Planning#TM_3.0_.28Ganymede.29_Planning">Planning Page</a>]</li>
 		</ul></p>
 
@@ -208,16 +208,12 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">TM 3.0M5</a> released</li>
-			    <li>Jan 7th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/">TM 3.0M4</a> released</li>
+			<ul><li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
+				<li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">TM 3.0M5</a> released</li>
 			    <li>Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal</li>
-			    <li>Nov 13th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/index.php">TM 2.0.2</a> Service Release</li>
-				<li>Sep 28th: <a href="http://tmober.blogspot.com/2007/09/tm-201-can-terminal-be-too-fast.html">TM 2.0.1</a> Service Release</li>
-				<li>Jun 29th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0-200706270925/">TM 2.0</a> has been released!</li>
+			    <li>Nov 13th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/">TM 2.0.2</a> Service Release</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
-				<li>Apr 10th: <a href="http://tmober.blogspot.com/2007/04/target-management-m6-efs-and-webinar.html">TM 2.0M6 provides EFS</a></li>
 				<li>Mar 5th: <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">TM Tutorial</a> at EclipseCon</li>
-				<li>Dec 15th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-1.0.1-200612151830/">RSE 1.0.1</a> has been released!</li>
                 <!--
  			    <li>Mar 22nd: About 70 participants at the
 			    	<a href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
