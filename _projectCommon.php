@@ -10,7 +10,6 @@ $isBuildDotEclipseServer = $_SERVER["SERVER_NAME"] == "build.eclipse.org";
 $isWWWserver = (preg_match("/^(?:www.|)eclipse.org$/", $_SERVER["SERVER_NAME"]));
 $isEclipseCluster = (preg_match("/^(?:www.||download.|download1.|build.)eclipse.org$/", $_SERVER["SERVER_NAME"]));
 $debug = (isset ($_GET["debug"]) && preg_match("/^\d+$/", $_GET["debug"]) ? $_GET["debug"] : -1);
-#$writableRoot = ($isBuildServer ? $_SERVER["DOCUMENT_ROOT"] . "/dsdp/includes/" : "/home/data/httpd/writable/www.eclipse.org/");
 $writableRoot = ($isBuildServer ? $_SERVER["DOCUMENT_ROOT"] . "/dsdp/includes/" : "/home/data/httpd/writable/dsdp/");
 $writableBuildRoot = $isBuildDotEclipseServer ? "/opt/public/dsdp" : "/home/www-data";
 
@@ -18,13 +17,18 @@ $rooturl = "http://" . $_SERVER["HTTP_HOST"] . "/$PR";
 $downurl = ($isBuildServer ? "" : "http://www.eclipse.org");
 $bugurl = "https://bugs.eclipse.org";
 
+# Set the theme for your project's web pages.
+# See the Committer Tools "How Do I" for list of themes
+# https://dev.eclipse.org/committers/
+# Optional: defaults to system theme 
+#$theme = "Lazarus";
 if (isset ($_GET["skin"]) && preg_match("/^(Blue|EclipseStandard|Industrial|Lazarus|Miasma|Modern|OldStyle|Phoenix|PhoenixTest|PlainText)$/", $_GET["skin"], $regs))
 {
 	$theme = $regs[1];
 }
 else
 {
-	$theme = "Phoenix";
+	$theme = "Lazarus";
 }
 
 /* projects/components in cvs */
@@ -37,10 +41,6 @@ $cvsprojs = array (
 /* sub-projects/components in cvs for projects/components above (if any) */
 /* "cvsname" => array("shortname" => "cvs-subname") */
 $cvscoms = array(
-	#"org.eclipse.tm.rse" => array (
-	#	"rse" => "rse",
-	#	/* add more here */
-	#),
 	"org.eclipse.tm.core" => array (
 		"terminal" => "terminal",
 		"discovery" => "discovery"
@@ -48,8 +48,12 @@ $cvscoms = array(
 	)
 );
 
+/* Readable Project names: "bugzilla component" => "shortname" */
 $projects = array(
 	"RSE" => "rse",
+	#"TCF" => "tcf",
+	"Terminal" => "terminal",
+	#"Core" => "discovery",
 );
 
 $bugcoms = array_flip($projects);
@@ -82,13 +86,6 @@ $buildtypes = array(
 );
 # </modeling variables>
 
-	# Set the theme for your project's web pages.
-	# See the Committer Tools "How Do I" for list of themes
-	# https://dev.eclipse.org/committers/
-	# Optional: defaults to system theme 
-	$theme = "Lazarus";
-
-
 	# Define your project-wide Nav bars here.
 	# Format is Link text, link URL (can be http://www.someothersite.com/), target (_self, _blank), level (1, 2 or 3)
 	# these are optional
@@ -111,6 +108,7 @@ EOBRANDING;
 	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1);
 	#$Nav->addCustomNav("About", "/dsdp/tm/tm-new/about", "_self", 2);
 	#$Nav->addCustomNav("Team", "/dsdp/tm/tm-new/team",	"_self", 2);
+	$Nav->addCustomNav("Team", "/dsdp/tm/development/contributors.php",	"_self", 2);
 	#$Nav->addCustomNav("Demos", "/dsdp/tm/tm-new/demos", "_self", 2);
 	#$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/DSDP/TM", "_self", 2); 
 
@@ -127,7 +125,7 @@ EOBRANDING;
 	#$Nav->addCustomNav("Release Notes", "/$PR/news/relnotes.php?project=$proj&amp;version=HEAD", "_self", 2);
 	#$Nav->addCustomNav("Legal", "dsdp/tm/development/tm-log.csv", "_self", 2);
 
-	$Nav->addNavSeparator("Contributors", "", "_self", 2);
+	$Nav->addCustomNav("Contributors", "/dsdp/tm/development/contributors.php", "_self", 2);
 	$Nav->addCustomNav("Contributing (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 2);
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev", "_self", 2);
 	$Nav->addCustomNav("CVS", "/dsdp/tm/development/cvs_setup.php", "_self", 2);
