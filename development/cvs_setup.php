@@ -111,14 +111,14 @@
 		<ul>
 		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core Repository</a>, 
 		    holding re-usable core components without further dependencies like
-		    third party libraries (Apache Jakarta Commons Net, Jakarta-ORO),
+		    third party libraries (Apache Commons Net, Jakarta-ORO),
 		    Discovery components and Terminal view.</li>
 		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>,
 		    holding the Remote System Explorer (RSE) framework including services, subsystems,
 		    UI components, examples, tests, documentation and all release engineering
 		    support projects.</li>
 		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.orbit/?cvsroot=Tools_Project">Orbit Repository</a>,
-		    holding the TM contributions to Orbit, namely bundled versions of Jakarta
+		    holding the TM contributions to Orbit, namely bundled versions of Apache
 		    Commons Net 1.4.1 and Jakarta ORO 2.0.8.</li>
 		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/?cvsroot=Eclipse_Website">TM Website Repository</a>,
 		    holding the project web pages.</li>

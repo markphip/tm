@@ -56,7 +56,7 @@
 	  <li>Fast and Flexible DNS-SD / Zeroconf based <b>Service Discovery</b> (requires EMF)</li>
 	  <li>An ANSI / vt102 compatible <b>Terminal</b> widget with pluggable Serial, ssh and Telnet connectors 
 	    (requires Platform now but can be ported to RCP / J2ME)</li>
-	  <li>Apache Jakarta <b>Commons Net</b> re-bundled for Eclipse to support FTP, rlogin, telnet
+	  <li>Apache <b>Commons Net</b> re-bundled for Eclipse to support FTP, rlogin, telnet
 	    and other standard protocols (requires J2SE-1.2 only)</li>
 	</ul> 
 	

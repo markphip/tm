@@ -93,7 +93,7 @@ area on the Project Website at
 <h4>what features are coming next:</h4> 
 <ul><li>user-defined menus and actions for instant access to remote programs</li>
     <li>import/export wizards for fast remote file transfer</li>
-    <li>Jakarta Commons/Net integration for FTP, Telnet</li>
+    <li>Apache Commons Net integration for FTP, Telnet</li>
     <li>Bring documentation/examples up-to-date</li>
 </ul>
  
