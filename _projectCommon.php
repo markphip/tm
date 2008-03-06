@@ -125,7 +125,7 @@ EOBRANDING;
 	#$Nav->addCustomNav("Release Notes", "/$PR/news/relnotes.php?project=$proj&amp;version=HEAD", "_self", 2);
 	#$Nav->addCustomNav("Legal", "dsdp/tm/development/tm-log.csv", "_self", 2);
 
-	$Nav->addCustomNav("Contributors", "/dsdp/tm/development/contributors.php", "_self", 2);
+	$Nav->addNavSeparator("Contributors", "/dsdp/tm/development/contributors.php", "_self", 2);
 	$Nav->addCustomNav("Contributing (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 2);
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev", "_self", 2);
 	$Nav->addCustomNav("CVS", "/dsdp/tm/development/cvs_setup.php", "_self", 2);
