@@ -61,12 +61,10 @@
 			<li><b>David Dykstal</b>, IBM</li>
 			<li><b>David McKnight</b>, IBM</li>
 			<li><b>Javier Montalvo-Orús</b>, Symbian</li>
-			<li><b>Kushal Munir</b>, IBM</li>
 			<li><b>Martin Oberhuber</b>, Wind River</li>
 			<li><b>Michael Scharf</b>, Wind River</li>
 			<li><b>Eugene Tarassov</b>, Wind River</li>
 			<li><b>Uwe Stieber</b>, Wind River</li>
-			<li><b>Ted Williams</b>, Wind River</li>
 		</ul>
 		</div>
 
@@ -88,6 +86,7 @@
 			<li><b>Rupen Mardirossian</b>, IBM</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
 			<li><b>Willian Mitsuda</b>, (private)</li>
+			<li><b>Kushal Munir</b>, IBM</li>
 			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
@@ -95,6 +94,7 @@
 			<li><b>Eugene Tarassov</b>, Wind River</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
+			<li><b>Ted Williams</b>, Wind River</li>
   		</ul>
 		</div>
 
