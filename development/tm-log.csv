@@ -153,6 +153,7 @@ svn:org.eclipse.tm.tcf,210751,Eugene Tarassov,73566,moberhuber,Target Communicat
 org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,217675,Ruslan Sychev,8,mischarf,Exception when closing Terminal while connection establishing
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,164300,Patrick Juhl,1,dmcknight,Fix for unix (Parameters for port selection)
 org.eclipse.tm.rse/plugins/org.eclipse.rse.shells.ui,181563,Radoslav Gerganov,33,moberhuber,Fix hardcoded Ctrl+Space for remote shell content assist 
+org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,216195,Radoslav Gerganov,19,kdoyle,[dstore] Saving empty file fails
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
