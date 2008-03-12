@@ -83,6 +83,7 @@
 			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
 			<li><b>Yu-Fen Kuo</b>, Montavista</li>
+			<li><b>Johnson Ma</b>, Wind River</li>
 			<li><b>Rupen Mardirossian</b>, IBM</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
 			<li><b>Willian Mitsuda</b>, (private)</li>

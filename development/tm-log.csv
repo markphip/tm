@@ -155,6 +155,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,164300,Patrick Juhl,1
 org.eclipse.tm.rse/plugins/org.eclipse.rse.shells.ui,181563,Radoslav Gerganov,33,moberhuber,Fix hardcoded Ctrl+Space for remote shell content assist 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,216195,Radoslav Gerganov,19,kdoyle,[dstore] Saving empty file fails
 svn:org.eclipse.tm.tcf,221380,Felix Burton,221,eutarass,Asynchronous IO for TCF agent
+org.eclipse.tm.terminal.ssh|org.eclipse.rse.connectorservice.ssh,218880,Johnson Ma,72,moberhuber,UI for configuring SSH keepalives
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
