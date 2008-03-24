@@ -158,6 +158,7 @@ svn:org.eclipse.tm.tcf,221380,Felix Burton,221,eutarass,Asynchronous IO for TCF 
 org.eclipse.tm.terminal.ssh|org.eclipse.rse.connectorservice.ssh,218880,Johnson Ma,72,moberhuber,UI for configuring SSH keepalives
 org.eclipse.rse.(files.ui|services|services.dstore|tests),195402,Johnson Ma,899,moberhuber,Add tar.gz / tgz archive support
 svn:org.eclipse.tm.tcf,222363,Felix Burton,334,eutarass,TCF Initial implementation of value-add
+svn:org.eclipse.tm.tcf,222929,Renan Le Padellec,2,eutarass,Processes attach command generates an invalid TCF message
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
