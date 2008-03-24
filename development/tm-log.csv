@@ -159,6 +159,7 @@ org.eclipse.tm.terminal.ssh|org.eclipse.rse.connectorservice.ssh,218880,Johnson 
 org.eclipse.rse.(files.ui|services|services.dstore|tests),195402,Johnson Ma,899,moberhuber,Add tar.gz / tgz archive support
 svn:org.eclipse.tm.tcf,222363,Felix Burton,334,eutarass,TCF Initial implementation of value-add
 svn:org.eclipse.tm.tcf,222929,Renan Le Padellec,2,eutarass,Processes attach command generates an invalid TCF message
+svn:org.eclipse.tm.tcf,223571,Felix Burton,378,eutarass,TCF message logger value-add process
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
