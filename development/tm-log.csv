@@ -160,6 +160,8 @@ org.eclipse.rse.(files.ui|services|services.dstore|tests),195402,Johnson Ma,899,
 svn:org.eclipse.tm.tcf,222363,Felix Burton,334,eutarass,TCF Initial implementation of value-add
 svn:org.eclipse.tm.tcf,222929,Renan Le Padellec,2,eutarass,Processes attach command generates an invalid TCF message
 svn:org.eclipse.tm.tcf,223571,Felix Burton,378,eutarass,TCF message logger value-add process
+org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),210682,Rupen Mardirossian,1647,dmcknight,[210682] Copy collisions will use SystemCopyDialog now instead of renameDialog when there is a copy collision within the same connection 
+
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
