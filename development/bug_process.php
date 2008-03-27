@@ -88,7 +88,7 @@
 		    <p/>
 		    <table border=1>
 		      <tr><th>Company</th><th>TM Open Assigned to</th><th>NEW for</th><th>Changed last week for</th></tr>
-		      <tr><td rowspan="3">IBM</td>
+		      <tr><td rowspan="4">IBM</td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=david_dykstal@us.ibm.com&cmdtype=doit">david_dykstal</a></td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&emailassigned_to1=1&emailtype1=exact&email1=david_dykstal@us.ibm.com&cmdtype=doit">david_dykstal</a></td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=david_dykstal@us.ibm.com&cmdtype=doit&chfieldfrom=1w&chfieldto=Now">david_dykstal</a></td>
