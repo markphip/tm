@@ -162,7 +162,7 @@ svn:org.eclipse.tm.tcf,222929,Renan Le Padellec,2,eutarass,Processes attach comm
 svn:org.eclipse.tm.tcf,223571,Felix Burton,378,eutarass,TCF message logger value-add process
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),210682,Rupen Mardirossian,1647,dmcknight,[210682] Copy collisions will use SystemCopyDialog now instead of renameDialog when there is a copy collision within the same connection
 org.eclipse.tm.core/wince/*,214887,Radoslav Gerganov,3480,moberhuber,[214887] Add Windows CE / RAPI initial contribution
-
+org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),220126,Noriaki Takatsu,401,dmcknight,[dstore][api][breaking] Single process server for multiple clients
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
