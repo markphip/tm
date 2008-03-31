@@ -67,9 +67,9 @@
 	<a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">
 	update site</a>. The best resource for programmers to get started
 	with the framework is the 
-	<a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">EclipseCon 2007 Tutorial</a>
-	(includes <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>),
-	which is based on TM 2.0M6. Another
+	<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.pdf">EclipseCon 2008 Tutorial</a>
+	(includes <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_Econ08_samples.zip">sample code</a>),
+	which is based on TM 3.0M5. Another
 	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
 	Tutorial</a> is available as part of the ISV documentation,
 	and an <a href="http://wiki.eclipse.org/TM_and_RSE_FAQ">
@@ -92,20 +92,25 @@
     	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
     	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  	</li>
-		<li><a href="http://live.eclipse.org/node/229">TM Webinar</a>:
+	    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=39" target="_blank">
+	         <b>Target Management 3.0 New & Noteworthy</b></a>, EclipseCon 2008
+			(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Short_ECon08.ppt">PPT</a> 707 KB |
+			<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Short_ECon08.pdf">PDF</a> 581 KB)
+		<li><a href="http://live.eclipse.org/node/229">TM 2.0 Webinar</a>:
 		  goals, architecture, future plans and online demo
 		  (<a href="http://live.eclipse.org/node/229">50 minute full recording</a> |
 		  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
 		  </li> 
     	<li><a href="http://wiki.eclipse.org/TM_and_RSE_FAQ">
     		TM and RSE FAQ</a></li>
-		<li>EclipseCon 2007 
-		  <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651" target="_blank">
-		  <b>TM 2.0 Tutorial</b></a> (includes 
-		  <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>)
+		<li>EclipseCon 2008 
+		  <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">
+		  <b>TM 3.0 Tutorial</b></a> (includes 
+		  <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.pdf">slides</a> and
+		  <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_Econ08_samples.zip">sample code</a>)
 		</li>
     	<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
-    		TM 2.0 Tutorial</a></li>
+    		TM Online Docs Tutorial</a></li>
     	<li><a href="http://wiki.eclipse.org/TM_2.0_Known_Issues_and_Workarounds">
     		TM 2.0 Known Issues and Workarounds</a></li>
     	<li><a href="http://wiki.eclipse.org/DSDP">
