@@ -136,6 +136,24 @@
 			<h3>Events</h3>
 			<ul class="midlist">
 				<li>
+				  <b>March 17-20, 2008</b>: <a href="http://www.eclipsecon.org/2008">EclipseCon 2008</a> - <ul>
+				    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">
+				         <b>Remote access with the DSDP Target Management Project</b></a>, Tutorial by Martin Oberhuber (Wind River)
+						(slides:  
+						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.ppt">PPT</a> 757 KB |
+						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.pdf">PDF</a> 639 KB) |
+						(code:
+						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.ppt">tcf-0.2.0.zip</a> 3.7 MB |
+						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_Econ08_samples.zip">tmtutorial.zip</a> 465 KB)</li>
+				    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=39" target="_blank">
+				         <b>Target Management New and Noteworthy</b></a>, Short Talk by Martin Oberhuber (Wind River), TM project lead
+						(slides:  
+						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Short_ECon08.ppt">PPT</a> 707 KB |
+						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Short_ECon08.pdf">PDF</a> 581 KB)
+					</ul></li>
+				<li><b>March 14, 2008</b>: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a>
+					publicly announced</li>
+				<li>
 				  <b>October 9-11, 2007</b>: Eclipse Summit Europe 2007 -<ul>
 				    <li><a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&id=21" target="_blank">
 				         <b>The DSDP Target Management Project</b></a>, long talk by Martin Oberhuber
@@ -208,7 +226,8 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
+			<ul><li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
+				<li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
 				<li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">TM 3.0M5</a> released</li>
 			    <li>Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal</li>
 			    <li>Nov 13th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/">TM 2.0.2</a> Service Release</li>
