@@ -164,6 +164,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),210682,Rupen Mardirossi
 org.eclipse.tm.core/wince/*,214887,Radoslav Gerganov,3480,moberhuber,[214887] Add Windows CE / RAPI initial contribution
 org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),220126,Noriaki Takatsu,401,dmcknight,[dstore][api][breaking] Single process server for multiple clients
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,57,moberhuber,[224873] WinCE cleanup: RAPI version 0.1.0, Javadoc fixes, adding README.txt for native build, NLS class, 4KB buffersize
+svn:org.eclipse.tm.tcf,224277,Felix Burton,240,eutarass,TCF ptrace attach race condition
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
