@@ -166,6 +166,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),220126,
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,57,moberhuber,[224873] WinCE cleanup: RAPI version 0.1.0, Javadoc fixes, adding README.txt for native build, NLS class, 4KB buffersize
 svn:org.eclipse.tm.tcf,224277,Felix Burton,240,eutarass,TCF ptrace attach race condition
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,52,moberhuber,[224873] committing contributed patch: WinCE subsystem cleanup part 2
+org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,2,moberhuber,[224873] Use Bundle-NativeCode to specify DLL path
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
