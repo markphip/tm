@@ -47,7 +47,8 @@
 		 
 		 <h3>The Toolkit</h3>
 
-		<p>The core Remote System Explorer (RSE) framework integrates
+		<p>The core <a href="http://tmober.blogspot.com/2006/11/remote-system-explorer-10-is-released.html">
+		 Remote System Explorer (RSE)</a> framework integrates
          any sort of heterogeneous remote resources through a concept
          of pluggable subsystems. The base toolkit includes a Remote Files
          subsystem that allows <a href="http://eclipsewebmaster.blogspot.com/2007/01/remote-editing-using-eclipse.html">
