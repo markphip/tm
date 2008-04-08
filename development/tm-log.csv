@@ -169,6 +169,7 @@ org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,52,moberhuber,[224873] comm
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,2,moberhuber,[224873] Use Bundle-NativeCode to specify DLL path
 org.eclipse.tm.core/wince/*,225553,Radoslav Gerganov,93,moberhuber,[225553][wince] Add support for creating processes on the device
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,226074,Noriaki Takatsu,6,dmcknight,process for getStatus() API
+org.eclipse.tm.core/wince/*,225727,Radoslav Gerganov,180,moberhuber,[225727][wince][api] Add support for setting file attributes and file times
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
