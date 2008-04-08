@@ -168,7 +168,7 @@ svn:org.eclipse.tm.tcf,224277,Felix Burton,240,eutarass,TCF ptrace attach race c
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,52,moberhuber,[224873] committing contributed patch: WinCE subsystem cleanup part 2
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,2,moberhuber,[224873] Use Bundle-NativeCode to specify DLL path
 org.eclipse.tm.core/wince/*,225553,Radoslav Gerganov,93,moberhuber,[225553][wince] Add support for creating processes on the device
-
+org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,226074,Noriaki Takatsu,6,dmcknight,process for getStatus() API
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
