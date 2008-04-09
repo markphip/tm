@@ -171,6 +171,8 @@ org.eclipse.tm.core/wince/*,225553,Radoslav Gerganov,93,moberhuber,[225553][winc
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,226074,Noriaki Takatsu,6,dmcknight,process for getStatus() API
 org.eclipse.tm.core/wince/*,225727,Radoslav Gerganov,180,moberhuber,[225727][wince][api] Add support for setting file attributes and file times
 org.eclipse.tm.core/wince/*,225874,Radoslav Gerganov,328,moberhuber,[225874][wince][api] Rename org.eclipse.tm.rapi.OS to Rapi
+org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),226237,Noriaki Takatsu,8,dmcknight,[dstore] Move the place where ServerLogger instance is made
+
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
