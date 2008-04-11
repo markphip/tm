@@ -76,14 +76,15 @@
 		by last name:
 		<ul class="midlist">
 			<li><b>Michael Berger</b>, IBM</li>
+			<li><b>Anna Dushistova</b>, MontaVista</li>
 			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
 			<li><b>Radoslav Gerganov</b>, (ProSyst/private)</li>
 			<li><b>Øyvind Harboe</b>, Zylin</li>
 			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
-			<li><b>Yu-Fen Kuo</b>, Montavista</li>
-			<li><b>Renan Le Padellec</b>, WInd River</li>
+			<li><b>Yu-Fen Kuo</b>, MontaVista</li>
+			<li><b>Renan Le Padellec</b>, Wind River</li>
 			<li><b>Johnson Ma</b>, Wind River</li>
 			<li><b>Rupen Mardirossian</b>, IBM</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>

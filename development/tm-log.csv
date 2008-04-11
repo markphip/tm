@@ -7,6 +7,10 @@ moberhuber,,,,,
 mscharf,,,,,
 tewillia,,,,,
 ustieber,,,,,
+kdoyle,,,,,
+xchen,,,,,
+eutarass,,,,,
+
 
 Developer Contributions,,,,,
 component (CVS directory),bug #,contributor name,size (lines),committer,description
@@ -173,6 +177,8 @@ org.eclipse.tm.core/wince/*,225727,Radoslav Gerganov,180,moberhuber,[225727][win
 org.eclipse.tm.core/wince/*,225874,Radoslav Gerganov,328,moberhuber,[225874][wince][api] Rename org.eclipse.tm.rapi.OS to Rapi
 org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),226237,Noriaki Takatsu,8,dmcknight,[dstore] Move the place where ServerLogger instance is made
 org.eclipse.tm.core/wince/*,226280,Radoslav Gerganov,25,moberhuber,[226280][apidoc][WinCE] Provide better javadoc for org.eclipse.tm.rapi.*
+org.eclipse.rse.services.ssh/.../SshServiceResources*,170910,Yu-Fen Kuo,8,moberhuber,[170910] Adopt RSE ITerminalService API for SSH
+org.eclipse.rse.services.ssh/.../SshTerminalShell,170910,Anna Dushistova,20,moberhuber,[170910] Adopt RSE ITerminalService API for SSH
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
