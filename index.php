@@ -86,14 +86,14 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">
-		TM 3.0M5</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/">
+		TM 3.0M6</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/buildNotes.php">
 		build notes</a>]<br/>
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
 <!--
@@ -227,10 +227,10 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
+			<ul><li>Apr 11th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/">TM 3.0M6</a> released</li>
+				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
-				<li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/">TM 3.0M5</a> released</li>
-			    <li>Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal</li>
+				<li>Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal</li>
 			    <li>Nov 13th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.2-200711131300/">TM 2.0.2</a> Service Release</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
 				<li>Mar 5th: <a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651">TM Tutorial</a> at EclipseCon</li>
