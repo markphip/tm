@@ -179,6 +179,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),226237,
 org.eclipse.tm.core/wince/*,226280,Radoslav Gerganov,25,moberhuber,[226280][apidoc][WinCE] Provide better javadoc for org.eclipse.tm.rapi.*
 org.eclipse.rse.services.ssh/.../SshServiceResources*,170910,Yu-Fen Kuo,8,moberhuber,[170910] Adopt RSE ITerminalService API for SSH
 org.eclipse.rse.services.ssh/.../SshTerminalShell,170910,Anna Dushistova,20,moberhuber,[170910] Adopt RSE ITerminalService API for SSH
+svn:org.eclipse.tm.tcf,226789,Felix Burton,366,eutarass,TCF input buffer and thread-less UDP discovery patch
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
