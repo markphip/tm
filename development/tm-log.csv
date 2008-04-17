@@ -182,6 +182,7 @@ org.eclipse.rse.services.ssh/.../SshTerminalShell,170910,Anna Dushistova,20,mobe
 svn:org.eclipse.tm.tcf,226789,Felix Burton,366,eutarass,TCF input buffer and thread-less UDP discovery patch
 org.eclipse.tm.rse/plugins/*.terminals.*,226764,Yu-Fen Kuo and Anna Dushistova,2106,moberhuber,[226764] Contribute RSE Terminal Subsystem
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,227509,Johann Draschwandtner,10,moberhuber,[227509][apidoc] Add note how to persist property sets 
+svn:org.eclipse.tm.tcf/agent,227494,Renan Le Padellec,156,moberhuber,Replace C++ style comments by C style comments in TCF agent
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
