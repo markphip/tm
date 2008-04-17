@@ -76,6 +76,7 @@
 		by last name:
 		<ul class="midlist">
 			<li><b>Michael Berger</b>, IBM</li>
+			<li><b>Johann Draschwandtner</b>, Wind River</li>
 			<li><b>Anna Dushistova</b>, MontaVista</li>
 			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
