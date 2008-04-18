@@ -307,15 +307,15 @@ padding-bottom: 2px">
 		<ul>
 		<!--
 		  <li>Please use the Releng tool from the bottom of the 
-		    <a href="http://download.eclipse.org/eclipse/downloads/drops/R-3.2-200606291905/index.php">
+		    <a href="http://archive.eclipse.org/eclipse/downloads/drops/R-3.2-200606291905/index.php">
 		    Eclipse 3.2 Download Page</a></li>
 		  <li>See the description there: "6. Fix Copyrights"</li>
 		-->
 		  <li>Please use the Releng tool from the bottom of the 
-		    <a href="http://download.eclipse.org/eclipse/downloads/drops/R-3.3-200706251500/index.php#org.eclipse.releng">
+		    <a href="http://archive.eclipse.org/eclipse/downloads/drops/R-3.3-200706251500/index.php#org.eclipse.releng">
 		    Eclipse 3.3 Download Page</a></li>
 		  <li>See the description there at the end of the page:
-		    <a href="http://download.eclipse.org/eclipse/downloads/drops/R-3.3-200706251500/details.php#org.eclipse.releng">Fix Copyright</a></li>
+		    <a href="http://archive.eclipse.org/eclipse/downloads/drops/R-3.3-200706251500/details.php#org.eclipse.releng">Fix Copyright</a></li>
 		  <li>For more detail information about "Fix Copyright" vs. "Advanced Fix Copyrights" also see
 		  <ul><li><a href="http://dev.eclipse.org/mhonarc/lists/cross-project-issues-dev/msg01116.html">This message</a> on cross-project-issues-dev</li>
 		      <li><a href="http://dev.eclipse.org/mhonarc/lists/cross-project-issues-dev/msg01118.html">This message</a> which was a reply on it</li>
