@@ -70,7 +70,7 @@
 		</div>
 
 		<div class="homeitem3col">
-		<h4>Former Committers (in alphabetical order)</h3>
+		<h3>Former Committers (in alphabetical order)</h3>
 		<ul class="midlist">
 			<li><b>Kushal Munir</b>, IBM</li>
 			<li><b>Ted Williams</b>, Wind River</li>
@@ -110,20 +110,29 @@
 
 		<div class="homeitem3col">
 		<h3>Other interested parties</h3>
-		This is the list of companies and people who have been active
-		in the TM face-to-face meetings and phone conferences so far.
+		We also honor the contributions that people make in the form of bug reports,
+		good questions on the mailing list, or other discussions. These are partially
+		reflected in the following
+		<ul>
+  		<li><b><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=bug_severity&y_axis_field=reporter&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&format=table&action=wrap&negate0=1&field0-0-0=reporter&type0-0-0=equals&value0-0-0=martin.oberhuber%40windriver.com&field0-0-1=reporter&type0-0-1=equals&value0-0-1=Javier.MontalvoOrus%40gmail.com&field0-0-2=reporter&type0-0-2=equals&value0-0-2=david_dykstal%40us.ibm.com&field0-0-3=reporter&type0-0-3=equals&value0-0-3=dmcknigh%40ca.ibm.com&field0-0-4=reporter&type0-0-4=equals&value0-0-4=kjdoyle%40ca.ibm.com&field0-0-5=reporter&type0-0-5=equals&value0-0-5=Michael.Scharf%40windriver.com&field0-0-6=reporter&type0-0-6=equals&value0-0-6=eugene.tarassov%40windriver.com&field0-0-7=reporter&type0-0-7=equals&value0-0-7=uwe.stieber%40windriver.com&field0-0-8=reporter&type0-0-8=equals&value0-0-8=xuanchen%40ca.ibm.com&field0-0-9=reporter&type0-0-9=equals&value0-0-9=r_gerganov%40prosyst.bg&field0-0-10=reporter&type0-0-10=equals&value0-0-10=felix.burton%40windriver.com&field0-0-11=reporter&type0-0-11=equals&value0-0-11=ted.williams%40windriver.com&field0-0-12=reporter&type0-0-12=equals&value0-0-12=kmunir%40ca.ibm.com">
+  		Bugzilla Report</a></b> - all bug reporters except committers</li>
+  		</ul> 
+		Apart from plain bugs, here is the list of companies and people who have 
+		been active in the TM face-to-face meetings and phone conferences so far,
+		or made interesting contributions on the TM Mailing List.
 		The list is sorted alphabetically by company first, then by last name:
 		<ul class="midlist">
 			<li><b>Accelerated Technology</b>:
 			  Mark Bozeman, George Clark, Aaron Spear</li>
+			<li><b>Cisco</b>: Hamang Lavana</li>
 			<li><b>Curtiss-Wright Controls</b>: Mark Littlefield, Darian Wong</li>
 			<li><b>Digi</b>: John Leier</li>
 			<li><b>FreeScale</b>: Kirk Beitz, John Cortell, Daymon Rogers</li>
-			<li><b>IBM Distributed Debugger</b>: Alan Boxall</li>
+			<li><b>IBM</b>: Alan Boxall, Denise Schmidt</li>
+			<li><b>IBM / LANL</b>: Greg Watson</li>
 			<li><b>Intel</b>: Peter Lachner</li>
-			<li><b>LANL</b>: Greg Watson</li>
 			<li><b>Montavista</b>: Joe Green, Pierre-Alexandre Masse</li>
-			<li><b>QNX</b>: David Inglis, Doug Schaefer</li>
+			<li><b>QNX</b>: Alex Chapiro, David Inglis, Doug Schaefer</li>
 			<li><b>Star Bridge Systems</b>: Matthew Scarpino</li> 
 			<li><b>Symbian</b>: Victor Palau, Neil Taylor</li>
 			<li><b>TI</b>: Paul Gingrich</li> 
@@ -131,9 +140,6 @@
 			<li><b>Wind River</b>: Martin Gutschelhofer, Brian Nettleton</li>
 			<li><b>Zend Technologies</b>: Yossi Leon, Yaron Mazor</li> 
   		</ul>
-  		<p><b><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=bug_severity&y_axis_field=reporter&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&format=table&action=wrap&negate0=1&field0-0-0=reporter&type0-0-0=equals&value0-0-0=martin.oberhuber%40windriver.com&field0-0-1=reporter&type0-0-1=equals&value0-0-1=Javier.MontalvoOrus%40gmail.com&field0-0-2=reporter&type0-0-2=equals&value0-0-2=david_dykstal%40us.ibm.com&field0-0-3=reporter&type0-0-3=equals&value0-0-3=dmcknigh%40ca.ibm.com&field0-0-4=reporter&type0-0-4=equals&value0-0-4=kjdoyle%40ca.ibm.com&field0-0-5=reporter&type0-0-5=equals&value0-0-5=Michael.Scharf%40windriver.com&field0-0-6=reporter&type0-0-6=equals&value0-0-6=eugene.tarassov%40windriver.com&field0-0-7=reporter&type0-0-7=equals&value0-0-7=uwe.stieber%40windriver.com&field0-0-8=reporter&type0-0-8=equals&value0-0-8=xuanchen%40ca.ibm.com&field0-0-9=reporter&type0-0-9=equals&value0-0-9=r_gerganov%40prosyst.bg&field0-0-10=reporter&type0-0-10=equals&value0-0-10=felix.burton%40windriver.com&field0-0-11=reporter&type0-0-11=equals&value0-0-11=ted.williams%40windriver.com&field0-0-12=reporter&type0-0-12=equals&value0-0-12=kmunir%40ca.ibm.com">
-  		Bugzilla Report</a></b> - all bug reporters except committers
-  		</p> 
 		</div>
 	</div>
 	<div id="rightcolumn">
