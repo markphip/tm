@@ -59,13 +59,13 @@
 			<li><b>Xuan Chen</b>, IBM</li>
 			<li><b>Kevin Doyle</b>, IBM</li>
 			<li><b>David Dykstal</b>, IBM</li>
+			<li><b>Radoslav Gerganov</b>, ProSyst</li>
 			<li><b>David McKnight</b>, IBM</li>
 			<li><b>Javier Montalvo-Orús</b>, Private</li>
-			<li><b>Radoslav Gerganov</b>, ProSyst</li>
 			<li><b>Martin Oberhuber</b>, Wind River</li>
 			<li><b>Michael Scharf</b>, Wind River</li>
-			<li><b>Eugene Tarassov</b>, Wind River</li>
 			<li><b>Uwe Stieber</b>, Wind River</li>
+			<li><b>Eugene Tarassov</b>, Wind River</li>
 		</ul>
 		</div>
 
