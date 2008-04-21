@@ -70,6 +70,14 @@
 		</div>
 
 		<div class="homeitem3col">
+		<h4>Former Committers (in alphabetical order)</h3>
+		<ul class="midlist">
+			<li><b>Kushal Munir</b>, IBM</li>
+			<li><b>Ted Williams</b>, Wind River</li>
+		</ul>
+		</div>
+
+		<div class="homeitem3col">
 		<h3>Contributors (in alphabetical order)</h3>
 		This is the list of people who have made code contributions to the 
 		TM Project on Bugzilla so far, with their code actually being 
@@ -77,11 +85,10 @@
 		by last name:
 		<ul class="midlist">
 			<li><b>Michael Berger</b>, IBM</li>
-			<li><b>Johann Draschwandtner</b>, Wind River</li>
-			<li><b>Anna Dushistova</b>, MontaVista</li>
 			<li><b>Felix Burton</b>, Wind River</li>
+			<li><b>Johann Draschwandtner</b>, Wind River</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
-			<li><b>Radoslav Gerganov</b>, (ProSyst/private)</li>
+			<li><b>Anna Dushistova</b>, MontaVista</li>
 			<li><b>Øyvind Harboe</b>, Zylin</li>
 			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
@@ -91,7 +98,6 @@
 			<li><b>Rupen Mardirossian</b>, IBM</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
 			<li><b>Willian Mitsuda</b>, (private)</li>
-			<li><b>Kushal Munir</b>, IBM</li>
 			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
@@ -99,7 +105,6 @@
 			<li><b>Noriaki Takatsu</b>, IBM</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
-			<li><b>Ted Williams</b>, Wind River</li>
   		</ul>
 		</div>
 
@@ -126,6 +131,9 @@
 			<li><b>Wind River</b>: Martin Gutschelhofer, Brian Nettleton</li>
 			<li><b>Zend Technologies</b>: Yossi Leon, Yaron Mazor</li> 
   		</ul>
+  		<p><b><a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=bug_severity&y_axis_field=reporter&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&format=table&action=wrap&negate0=1&field0-0-0=reporter&type0-0-0=equals&value0-0-0=martin.oberhuber%40windriver.com&field0-0-1=reporter&type0-0-1=equals&value0-0-1=Javier.MontalvoOrus%40gmail.com&field0-0-2=reporter&type0-0-2=equals&value0-0-2=david_dykstal%40us.ibm.com&field0-0-3=reporter&type0-0-3=equals&value0-0-3=dmcknigh%40ca.ibm.com&field0-0-4=reporter&type0-0-4=equals&value0-0-4=kjdoyle%40ca.ibm.com&field0-0-5=reporter&type0-0-5=equals&value0-0-5=Michael.Scharf%40windriver.com&field0-0-6=reporter&type0-0-6=equals&value0-0-6=eugene.tarassov%40windriver.com&field0-0-7=reporter&type0-0-7=equals&value0-0-7=uwe.stieber%40windriver.com&field0-0-8=reporter&type0-0-8=equals&value0-0-8=xuanchen%40ca.ibm.com&field0-0-9=reporter&type0-0-9=equals&value0-0-9=r_gerganov%40prosyst.bg&field0-0-10=reporter&type0-0-10=equals&value0-0-10=felix.burton%40windriver.com&field0-0-11=reporter&type0-0-11=equals&value0-0-11=ted.williams%40windriver.com&field0-0-12=reporter&type0-0-12=equals&value0-0-12=kmunir%40ca.ibm.com">
+  		Bugzilla Report</a></b> - all bug reporters except committers
+  		</p> 
 		</div>
 	</div>
 	<div id="rightcolumn">
