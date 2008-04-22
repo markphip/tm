@@ -183,6 +183,8 @@ svn:org.eclipse.tm.tcf,226789,Felix Burton,366,eutarass,TCF input buffer and thr
 org.eclipse.tm.rse/plugins/*.terminals.*,226764,Yu-Fen Kuo and Anna Dushistova,2106,moberhuber,[226764] Contribute RSE Terminal Subsystem
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,227509,Johann Draschwandtner,10,moberhuber,[227509][apidoc] Add note how to persist property sets 
 svn:org.eclipse.tm.tcf/agent,227494,Renan Le Padellec,156,moberhuber,Replace C++ style comments by C style comments in TCF agent
+org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,227905,Noriaki Takatsu,1,dmcknight,[dstore] Double invocations of finished() of ConnectionEstablisher  
+org.eclipse.tm.rse/plugins/org.eclispe.rse.dstore.core,228156,Noriaki Takatsu,1,dmcknight,[dstore] DataElementRemover thread doesn't terminate even after a client disconnects the server.
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
