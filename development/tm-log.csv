@@ -186,6 +186,7 @@ svn:org.eclipse.tm.tcf/agent,227494,Renan Le Padellec,156,moberhuber,Replace C++
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,227905,Noriaki Takatsu,1,dmcknight,[dstore] Double invocations of finished() of ConnectionEstablisher  
 org.eclipse.tm.rse/plugins/org.eclispe.rse.dstore.core,228156,Noriaki Takatsu,1,dmcknight,[dstore] DataElementRemover thread doesn't terminate even after a client disconnects the server.
 org.eclipse.tm.rse/plugins/org.eclipse.rse(.subsystems)?.terminals(.ui)?,227527,Yu-Fen Kuo,151,moberhuber,[rseterminal] RSE Terminal doesn't reset the "connected" state when the shell exits
+org.eclipse.tm.core/wince/*,226282,Radoslav Gerganov,7,rgerganov,[226282][api][WinCE] Encapsulate the public native methods in org.eclipse.tm.rapi.Rapi
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
