@@ -142,7 +142,7 @@
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&emailassigned_to1=1&emailtype1=exact&email1=Javier.MontalvoOrus@gmail.com&cmdtype=doit">javier.montalvoorus</a></td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=Javier.MontalvoOrus@gmail.com&cmdtype=doit&chfieldfrom=1w&chfieldto=Now">javier.montalvoorus</a></td>
 		      </tr><tr>
-		        <td rowspan="5">Contributors</td>
+		        <td rowspan="6">Contributors</td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=ewa.matejska@access-company.com&cmdtype=doit">ewa.matejska</a></td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&emailassigned_to1=1&emailtype1=exact&email1=ewa.matejska@access-company.com&cmdtype=doit">ewa.matejska</a></td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=ewa.matejska@access-company.com&cmdtype=doit&chfieldfrom=1w&chfieldto=Now">ewa.matejska</a></td>
@@ -162,6 +162,10 @@
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=rupenm@ca.ibm.com&cmdtype=doit">rupenm</a></td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&emailassigned_to1=1&emailtype1=exact&email1=rupenm@ca.ibm.com&cmdtype=doit">rupenm</a></td>
 		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=rupenm@ca.ibm.com&cmdtype=doit&chfieldfrom=1w&chfieldto=Now">rupenm</a></td>
+		      </tr><tr>
+		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=miyamoto.takuya@lab.ime.cmc.osaka-u.ac.jp&cmdtype=doit">rupenm</a></td>
+		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&emailassigned_to1=1&emailtype1=exact&email1=miyamoto.takuya@lab.ime.cmc.osaka-u.ac.jp&cmdtype=doit">rupenm</a></td>
+		        <td><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&emailassigned_to1=1&emailtype1=exact&email1=miyamoto.takuya@lab.ime.cmc.osaka-u.ac.jp&cmdtype=doit&chfieldfrom=1w&chfieldto=Now">rupenm</a></td>
 		      </tr>
 		    </table></li>
 		</ul>
