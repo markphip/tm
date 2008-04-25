@@ -189,6 +189,7 @@ org.eclipse.tm.rse/plugins/org.eclispe.rse.dstore.core,228156,Noriaki Takatsu,1,
 org.eclipse.tm.rse/plugins/org.eclipse.rse(.subsystems)?.terminals(.ui)?,227527,Yu-Fen Kuo,151,moberhuber,[rseterminal] RSE Terminal doesn't reset the "connected" state when the shell exits
 org.eclipse.tm.core/wince/*,226282,Radoslav Gerganov,7,rgerganov,[226282][api][WinCE] Encapsulate the public native methods in org.eclipse.tm.rapi.Rapi
 org.eclipse.tm.core/terminal/*,227537,Anna Dushistova,150,moberhuber,[227537] moved actions from terminal.view to terminal plugin
+org.eclipse.rse.shells.ui,149285,Anna Dushistova,20,moberhuber,[149285] [ssh] multiple prompts and errors in case of incorrect username
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
