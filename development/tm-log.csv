@@ -190,6 +190,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse(.subsystems)?.terminals(.ui)?,227527,
 org.eclipse.tm.core/wince/*,226282,Radoslav Gerganov,7,rgerganov,[226282][api][WinCE] Encapsulate the public native methods in org.eclipse.tm.rapi.Rapi
 org.eclipse.tm.core/terminal/*,227537,Anna Dushistova,150,moberhuber,[227537] moved actions from terminal.view to terminal plugin
 org.eclipse.rse.shells.ui,149285,Anna Dushistova,20,moberhuber,[149285] [ssh] multiple prompts and errors in case of incorrect username
+org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,228335,Noriaki Takatsu,3,dmcknight,[dstore][multithread] start() in SecuredThread class
+
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
