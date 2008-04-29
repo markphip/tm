@@ -191,7 +191,7 @@ org.eclipse.tm.core/wince/*,226282,Radoslav Gerganov,7,rgerganov,[226282][api][W
 org.eclipse.tm.core/terminal/*,227537,Anna Dushistova,150,moberhuber,[227537] moved actions from terminal.view to terminal plugin
 org.eclipse.rse.shells.ui,149285,Anna Dushistova,20,moberhuber,[149285] [ssh] multiple prompts and errors in case of incorrect username
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,228335,Noriaki Takatsu,3,dmcknight,[dstore][multithread] start() in SecuredThread class
-
+org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,229146,Noriaki Takatsu,1,dmcknigh,[dstore][multithread] changes to stop Miner threads when clients disconnect
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
