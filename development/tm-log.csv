@@ -192,6 +192,9 @@ org.eclipse.tm.core/terminal/*,227537,Anna Dushistova,150,moberhuber,[227537] mo
 org.eclipse.rse.shells.ui,149285,Anna Dushistova,20,moberhuber,[149285] [ssh] multiple prompts and errors in case of incorrect username
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,228335,Noriaki Takatsu,3,dmcknight,[dstore][multithread] start() in SecuredThread class
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,229146,Noriaki Takatsu,1,dmcknigh,[dstore][multithread] changes to stop Miner threads when clients disconnect
+org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.core,229479,Anna Dushistova,2,moberhuber,[229479][rseterminal][api] terminals.core should not force load terminals.ui
+
+
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
