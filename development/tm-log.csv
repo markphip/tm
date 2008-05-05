@@ -194,6 +194,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,228335,Noriaki Takatsu,3,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,229146,Noriaki Takatsu,1,dmcknigh,[dstore][multithread] changes to stop Miner threads when clients disconnect
 org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.core,229479,Anna Dushistova,2,moberhuber,[229479][rseterminal][api] terminals.core should not force load terminals.ui
 org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.{core|ui},228577,Anna Dushistova,28,moberhuber,[rseterminal] Clean up RSE Terminal impl
+org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,202098,Remy Chi Jian Suen,10,moberhuber,[efs][nls] Improve error message when creating a remote project with existing name
 
 
 Third Party Software,,,, 
