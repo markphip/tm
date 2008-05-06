@@ -197,6 +197,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.{core|ui},228577,Anna Dushi
 org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,202098,Remy Chi Jian Suen,10,moberhuber,[efs][nls] Improve error message when creating a remote project with existing name
 org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.ui,227535,Anna Dushistova,134,moberhuber,[rseterminal][api] Add "Launch Terminal" command handler code
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,230399,Noriaki Takatsu,10,dmcknight,[multithread] changes to stop CommandMiner threads when clients disconnect
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,227213,Rupen Mardirossian,44,dmcknight,Copy and pasting to the parent folder will create a "Copy of" that resource
 
 
 Third Party Software,,,, 
