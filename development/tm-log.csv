@@ -11,6 +11,7 @@ kdoyle,,,,,
 xchen,,,,,
 eutarass,,,,,
 rgerganov,,,,,
+fburton,,,,,
 
 
 Developer Contributions,,,,,
@@ -199,6 +200,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.ui,227535,Anna Dushistova,1
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,230399,Noriaki Takatsu,10,dmcknight,[multithread] changes to stop CommandMiner threads when clients disconnect
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,227213,Rupen Mardirossian,44,dmcknight,Copy and pasting to the parent folder will create a "Copy of" that resource
 svn:org.eclipse.tm.tcf,230274,Sidharth Kodikal,28,eutarass,[tcf][api] Runcontrol Service. Reverse resume modes
+svn:org.eclipse.tm.tcf,228389,Sidharth Kodikal,280,fburton,[tcf][api] Breakpoint data structure extensions
 
 
 Third Party Software,,,, 
