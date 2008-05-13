@@ -93,11 +93,12 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189426,Rupen Mardirossian,8,dmckni
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191280,Xuan Chen,200,dmcknight, Expand fails for folder "/folk" with 3361 children 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,191280,Xuan Chen,200,dmcknight, Expand fails for folder "/folk" with 3361 children 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(connectorservice|services).telnet,187301,Sheldon Dsouza,75,moberhuber,Support multiple telnet shells
-TM 2.0.1,,,,,
+TM 2.0 released -- 2.0.1 Stream starting here,,,,,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192716,Xuan Chen,50,dmcknight,Refresh Error in Table View after Renaming folder shown in table 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,177587,Kevin Doyle,100,dmcknight,Made the SystemMonitorViewPart a SelectionProvider that wraps the table viewers selection provider 
 org.ecilpse.tm.rse/plugins/org.eclipse.rse.ui,182403,Kevin Doyle,10,dmcknight,Scratchpad double click on an object that can be expanded 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187707,Kevin Doyle,6,dmcknight,Added separator between New Folder and New File in context menu
+TODO:DaveD,187741,Rupen Mardirossian,,ddykstal,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194602,Kevin Doyle,11,dmcknight,fix for Double Clicking on Folder sometimes expands wrong folder 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187713,Rupen Mardirossian,13,dmcknight,Check to see if target is null before attempting to retrieve targetAdapter in tranferRSEResources method
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192278,Kevin Doyle,30,dmcknight, fix forDelete Dialog appears twice when Deleting from Scratchpad
@@ -111,6 +112,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194838,Xuan Chen,123,dmcknight,put
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195537,Kevin Doyle,143,dmcknight,Move ElementComparer From SystemView to Separate File
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,195543,Kevin Doyle,16,dmcknight,Fix for Double Clicking on a folder expands wrong folder if shown twice in view
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,195709,Kevin Doyle,4,dmcknight,Fix for Only enQuote the source string once
+org.apache.commons.net,194259,Rob Hasselbaum,19,moberhuber,fixes for NET-3 and NET-73 (see also 3rd party software below)
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,189423,Kevin Doyle,26,dmcknight,fixing delete event handling in scratchpad
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193394,Kevin Doyle,22,dmcknight,fix for Changed mentions of Vector to java.util.List as passed child is an ArrayList not a Vector
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,193151,Kevin Doyle,218,dmcknight,fix for Scratchpad not updated on Move
@@ -148,6 +150,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.ssh,174690,Benjamin Muskalla
 org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,203124,Olivier Thomann,40,moberhuber,HTML errors in org.eclipse.rse.doc.isv
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,203365,Kevin Doyle,23,dmcknight,Profile should not be saved as a result of file transfer
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,197855,Kevin Doyle,20,moberhuber,Cannot Delete/Rename/Move a Read-Only File
+TM 2.0.2 released -- 3.0 Stream starting here,,,,,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,189271,Yufen Kuo,10,dmcknight,Fix for new profile's always being active
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,197976,Kevin Doyle,24,kdoyle,Changing a file to read-only when it is open doesn't update local copy
 org.ecilpse.tm.rse/plugins/org.eclipse.rse.ui,197841,Kevin Doyle,14,kdoyle,"Terminate and Remove" should remove the shell from Scratchpad
@@ -169,7 +172,7 @@ svn:org.eclipse.tm.tcf,223571,Felix Burton,378,eutarass,TCF message logger value
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),210682,Rupen Mardirossian,1647,dmcknight,[210682] Copy collisions will use SystemCopyDialog now instead of renameDialog when there is a copy collision within the same connection
 org.eclipse.tm.core/wince/*,214887,Radoslav Gerganov,3480,moberhuber,[214887] Add Windows CE / RAPI initial contribution
 org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),220126,Noriaki Takatsu,401,dmcknight,[dstore][api][breaking] Single process server for multiple clients
-org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,57,moberhuber,[224873] WinCE cleanup: RAPI version 0.1.0, Javadoc fixes, adding README.txt for native build, NLS class, 4KB buffersize
+org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,57,moberhuber,[224873] WinCE cleanup: RAPI version 0.1.0; Javadoc fixes; adding README.txt for native build; NLS class; 4KB buffersize
 svn:org.eclipse.tm.tcf,224277,Felix Burton,240,eutarass,TCF ptrace attach race condition
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,52,moberhuber,[224873] committing contributed patch: WinCE subsystem cleanup part 2
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,2,moberhuber,[224873] Use Bundle-NativeCode to specify DLL path
@@ -187,12 +190,13 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.core,227509,Johann Draschwandtner,10,
 svn:org.eclipse.tm.tcf/agent,227494,Renan Le Padellec,156,moberhuber,Replace C++ style comments by C style comments in TCF agent
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,227905,Noriaki Takatsu,1,dmcknight,[dstore] Double invocations of finished() of ConnectionEstablisher  
 org.eclipse.tm.rse/plugins/org.eclispe.rse.dstore.core,228156,Noriaki Takatsu,1,dmcknight,[dstore] DataElementRemover thread doesn't terminate even after a client disconnects the server.
-org.eclipse.tm.rse/plugins/org.eclipse.rse(.subsystems)?.terminals(.ui)?,227527,Yu-Fen Kuo,151,moberhuber,[rseterminal] RSE Terminal doesn't reset the "connected" state when the shell exits
+org.eclipse.tm.rse/plugins/org.eclipse.rse(.subsystems)?.terminals(.ui)?,227572,Yu-Fen Kuo,151,moberhuber,[rseterminal] RSE Terminal doesn't reset the "connected" state when the shell exits
 org.eclipse.tm.core/wince/*,226282,Radoslav Gerganov,7,rgerganov,[226282][api][WinCE] Encapsulate the public native methods in org.eclipse.tm.rapi.Rapi
 org.eclipse.tm.core/terminal/*,227537,Anna Dushistova,150,moberhuber,[227537] moved actions from terminal.view to terminal plugin
 org.eclipse.rse.shells.ui,149285,Anna Dushistova,20,moberhuber,[149285] [ssh] multiple prompts and errors in case of incorrect username
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,228335,Noriaki Takatsu,3,dmcknight,[dstore][multithread] start() in SecuredThread class
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,229146,Noriaki Takatsu,1,dmcknigh,[dstore][multithread] changes to stop Miner threads when clients disconnect
+TODO:DaveD,198728,Rupen Mardirossian,,ddykstal,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.core,229479,Anna Dushistova,2,moberhuber,[229479][rseterminal][api] terminals.core should not force load terminals.ui
 org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.{core|ui},228577,Anna Dushistova,28,moberhuber,[rseterminal] Clean up RSE Terminal impl
 org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,202098,Remy Chi Jian Suen,10,moberhuber,[efs][nls] Improve error message when creating a remote project with existing name
