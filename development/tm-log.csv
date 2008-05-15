@@ -99,7 +99,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192716,Xuan Chen,50,dmcknight,Refr
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,177587,Kevin Doyle,100,dmcknight,Made the SystemMonitorViewPart a SelectionProvider that wraps the table viewers selection provider 
 org.ecilpse.tm.rse/plugins/org.eclipse.rse.ui,182403,Kevin Doyle,10,dmcknight,Scratchpad double click on an object that can be expanded 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187707,Kevin Doyle,6,dmcknight,Added separator between New Folder and New File in context menu
-TODO:DaveD,187741,Rupen Mardirossian,,ddykstal,
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187741,Rupen Mardirossian,15,ddykstal,Handle double-click in Team View
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,194602,Kevin Doyle,11,dmcknight,fix for Double Clicking on Folder sometimes expands wrong folder 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,187713,Rupen Mardirossian,13,dmcknight,Check to see if target is null before attempting to retrieve targetAdapter in tranferRSEResources method
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,192278,Kevin Doyle,30,dmcknight, fix forDelete Dialog appears twice when Deleting from Scratchpad
@@ -197,7 +197,7 @@ org.eclipse.tm.core/terminal/*,227537,Anna Dushistova,150,moberhuber,[227537] mo
 org.eclipse.rse.shells.ui,149285,Anna Dushistova,20,moberhuber,[149285] [ssh] multiple prompts and errors in case of incorrect username
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,228335,Noriaki Takatsu,3,dmcknight,[dstore][multithread] start() in SecuredThread class
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,229146,Noriaki Takatsu,1,dmcknigh,[dstore][multithread] changes to stop Miner threads when clients disconnect
-TODO:DaveD,198728,Rupen Mardirossian,,ddykstal,
+org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,198728,Rupen Mardirossian,60,ddykstal,Copy empty folders across connections
 org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.core,229479,Anna Dushistova,2,moberhuber,[229479][rseterminal][api] terminals.core should not force load terminals.ui
 org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.{core|ui},228577,Anna Dushistova,28,moberhuber,[rseterminal] Clean up RSE Terminal impl
 org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,202098,Remy Chi Jian Suen,10,moberhuber,[efs][nls] Improve error message when creating a remote project with existing name
