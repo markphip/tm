@@ -208,7 +208,7 @@ svn:org.eclipse.tm.tcf,230274,Sidharth Kodikal,28,eutarass,[tcf][api] Runcontrol
 svn:org.eclipse.tm.tcf,228389,Sidharth Kodikal,280,fburton,[tcf][api] Breakpoint data structure extensions
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,232738,Jacob Garcowski,28,dmcknight,[dstore] Delay creation of log file until written to
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,232443,Noriaki Takatsu,2,dmcknight,[multithread] A single rsecomm.log for all clients 
-
+org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet,231959,Sean Adams,-1,moberhuber,[terminal][telnet] NPE in TelnetConnector.java
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage

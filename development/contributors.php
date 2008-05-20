@@ -84,6 +84,7 @@
 		merged into the TM codebase in CVS. The list is sorted alphabetically
 		by last name:
 		<ul class="midlist">
+		    <li><b>Sean Adams</b>, Cisco</li>
 			<li><b>Michael Berger</b>, IBM</li>
 			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>Johann Draschwandtner</b>, Wind River</li>
