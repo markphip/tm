@@ -89,6 +89,7 @@
 			<li><b>Johann Draschwandtner</b>, Wind River</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
 			<li><b>Anna Dushistova</b>, MontaVista</li>
+			<li><b>Jacob Garcowski</b>, IBM</li>
 			<li><b>Øyvind Harboe</b>, Zylin</li>
 			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
