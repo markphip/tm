@@ -207,6 +207,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,227213,Rupen Mardirossian,44
 svn:org.eclipse.tm.tcf,230274,Sidharth Kodikal,28,eutarass,[tcf][api] Runcontrol Service. Reverse resume modes
 svn:org.eclipse.tm.tcf,228389,Sidharth Kodikal,280,fburton,[tcf][api] Breakpoint data structure extensions
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,232738,Jacob Garcowski,28,dmcknight,[dstore] Delay creation of log file until written to
+org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,232443,Noriaki Takatsu,2,dmcknight,[multithread] A single rsecomm.log for all clients 
 
 
 Third Party Software,,,, 
