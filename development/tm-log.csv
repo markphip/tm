@@ -212,6 +212,7 @@ org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet,231959,Sean Adams,-1
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,231827,Johann Draschwandtner,128,moberhuber,[remotecdt]Auto-compute default for Remote path
 org.eclipse.tm.rse/plugins/org.eclipse.rse.efs,224538,Timur Shipilov,6,moberhuber,RSEFileStore.getParent() returns null for element which is not root of filesystem
 org.eclipse.tm.rse/plugins/org.eclipse.rse.efs,224540,Timur Shipilov,8,moberhuber,RSEFileStore.mkdir(EFS.NONE, null) doesn't create parent folder
+org.eclipse.tm.rse/plugins/org.eclipse.rse.(terminals|subsystems.files)?.ui,227535,Anna Dushistova,136,moberhuber,[rseterminal][api] terminals.ui should not depend on files.core
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
