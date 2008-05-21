@@ -116,7 +116,7 @@ EOBRANDING;
 	$Nav->addCustomNav("Getting Started", "/dsdp/tm/tutorial/index.php", "_self", 2);
 	$Nav->addCustomNav("Downloads", "http://download.eclipse.org/dsdp/tm/downloads/index.php", "_self", 2);
 	$Nav->addCustomNav("FAQ (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ", "_self", 2);
-	$Nav->addCustomNav("Newsgroup", "http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html", "_self", 2);
+	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm", "_self", 2);
 	$Nav->addCustomNav("Bugs", "/dsdp/tm/bugs", "_self", 2);
 
 	$Nav->addNavSeparator("Integrators", "", "_self", 2);
