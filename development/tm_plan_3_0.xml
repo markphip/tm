@@ -10,18 +10,21 @@ integrated perspective and toolkit for seamlessly working on
 remote systems. Besides that, we deliver flexible, re-usable 
 components for Networking and Target Management that run stand-alone
 or integrated with RSE.
+<p>
+In terms of interfaces to other Eclipse projects, we provide an
+Eclipse Filesystem (EFS) provider to allow remote resources be
+mapped into an Eclipse Workspace, and a CDT Remote Launch integration.
+</p>  
     ]]>
   </introduction>
   <release_deliverables><![CDATA[
 <ul>
-	<li>Target Management source code release, available as versions tagged "R3_0" in the project's
-		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>,
-		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>
-		and
-		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.tcf/trunk/?root=DSDP_SVN">TM TCF SVN Repository</a>.
-		.
-	</li>
-	<li>Remote System Explorer (RSE):<ul>
+	<li><b>Target Management source code release</b>, available as versions tagged "R3_0" in the project's<ul>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>,</li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>, and</li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.tcf/trunk/?root=DSDP_SVN">TM TCF SVN Repository</a>.</li>
+	</ul></li>
+	<li><b>Remote System Explorer (RSE):</b><ul>
 	   <li>RSE SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>RSE client runtime binaries (split up by protocol, includes user documentation) (downloadable).</li>
 	   <li>RSE dstore server runtime (downloadable).</li>
@@ -30,12 +33,12 @@ or integrated with RSE.
 	   <li>RSE tutorial code and examples (downloadable).</li>
        <li>RSE unit test framework and tests (downloadable).</li>
     </ul></li>
-    <li>Stand-alone components:<ul>
+    <li><b>Stand-alone components:</b><ul>
 	   <li>TM Terminal SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>TM Discovery SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>Redistribution of Apache Commons Net 1.4.1 and Jakarta ORO 2.0.8 (downloadable through the Orbit project).</li>
     </ul></li>
-    <li>Incubating components:<ul>
+    <li><b>Incubating components:</b><ul>
 	   <li>RSE Terminal Integration (runtime and sources) (downloadable).</li>
 	   <li>RSE WinCE Subsystems and RAPI wrappers (runtime and sources) (downloadable).</li>
     </ul></li>
@@ -358,7 +361,36 @@ Cleaning up our API's is a prime goal for TM 3.0 in order to limit our
 API's to a self-contained, understandable core set and make them 
 maintainable in the future.
       </description>
-      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bapi%5D%20%5Bbreaking%5D&amp;classification=DSDP&amp;product=Target%20Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bapi%5D%20%5Bbreaking%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.0&amp;target_milestone=3.0+M3&amp;target_milestone=3.0+M4&amp;target_milestone=3.0+M5&amp;target_milestone=3.0+M6&amp;target_milestone=3.0+M7&amp;target_milestone=3.0+RC1&amp;target_milestone=3.0+RC2&amp;target_milestone=3.0+RC3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+      <proposed></proposed>
+      <deferred bugzilla=""></deferred>
+    </theme>
+    <theme name="Fix and improve the EFS provider">
+      <description>
+The RSE EFS provider is an important piece of integration for other projects
+to get access to remote resources. It needs to work reliably and with
+good performance.
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Befs%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.0&amp;target_milestone=3.0+M3&amp;target_milestone=3.0+M4&amp;target_milestone=3.0+M5&amp;target_milestone=3.0+M6&amp;target_milestone=3.0+M7&amp;target_milestone=3.0+RC1&amp;target_milestone=3.0+RC2&amp;target_milestone=3.0+RC3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+      <proposed></proposed>
+      <deferred bugzilla=""></deferred>
+    </theme>
+    <theme name="Integrate RSE with the Terminal">
+      <description>
+The RSE's Command View is missing terminal emulation. A Terminal
+integration should make the existing Terminal widget available 
+from RSE.
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Brseterminal%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.0&amp;target_milestone=3.0+M3&amp;target_milestone=3.0+M4&amp;target_milestone=3.0+M5&amp;target_milestone=3.0+M6&amp;target_milestone=3.0+M7&amp;target_milestone=3.0+RC1&amp;target_milestone=3.0+RC2&amp;target_milestone=3.0+RC3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+      <proposed></proposed>
+      <deferred bugzilla=""></deferred>
+    </theme>
+    <theme name="Avoid plugin activation and Improve Performance">
+      <description>
+RSE should activate plugins only when necessary, and work with
+good overall performance.
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bperformance%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.0&amp;target_milestone=3.0+M3&amp;target_milestone=3.0+M4&amp;target_milestone=3.0+M5&amp;target_milestone=3.0+M6&amp;target_milestone=3.0+M7&amp;target_milestone=3.0+RC1&amp;target_milestone=3.0+RC2&amp;target_milestone=3.0+RC3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
       <proposed></proposed>
       <deferred bugzilla=""></deferred>
     </theme>
@@ -366,9 +398,9 @@ maintainable in the future.
       <description>
 Features and bugs that we plan to address in the next three months that are not yet categorized into a theme.
 	  </description>
-      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Eclipse+Foundation&amp;product=Community&amp;component=Dashboard&amp;component=IPZilla&amp;component=Portal&amp;component=Process&amp;target_milestone=July+08&amp;target_milestone=June+08&amp;target_milestone=May+08&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5E%5C%5B%5BA-Z%5D"></proposed>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.0&amp;target_milestone=3.0+M3&amp;target_milestone=3.0+M4&amp;target_milestone=3.0+M5&amp;target_milestone=3.0+M6&amp;target_milestone=3.0+M7&amp;target_milestone=3.0+RC1&amp;target_milestone=3.0+RC2&amp;target_milestone=3.0+RC3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5E%5C%5B%5BA-Z%5D"></proposed>
     </theme>
   </themes_and_priorities>
-<!--  <appendix name="Eclipse Monkey"><![CDATA[
+<!--  <appendix name="Appendix"><![CDATA[
   ]]></appendix> -->  
 </plan>
