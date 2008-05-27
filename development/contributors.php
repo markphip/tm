@@ -54,8 +54,9 @@
 		</div>
 
 		<div class="homeitem3col">
-		<h3>Committers (in alphabetical order)</h3>
+		<h3>Committers (alphabetic order by last name)</h3>
 		<ul class="midlist">
+			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>Xuan Chen</b>, IBM</li>
 			<li><b>Kevin Doyle</b>, IBM</li>
 			<li><b>David Dykstal</b>, IBM</li>
@@ -86,7 +87,6 @@
 		<ul class="midlist">
 		    <li><b>Sean Adams</b>, Cisco</li>
 			<li><b>Michael Berger</b>, IBM</li>
-			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>Johann Draschwandtner</b>, Wind River</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
 			<li><b>Anna Dushistova</b>, MontaVista</li>
