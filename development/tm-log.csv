@@ -215,6 +215,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.efs,224540,Timur Shipilov,8,moberhube
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(terminals|subsystems.files)?.ui,227535,Anna Dushistova,136,moberhuber,[rseterminal][api] terminals.ui should not depend on files.core
 svn:org.eclipse.tm.tcf,230346,Laura Le Padellec,36,fburton,[tcf] TCF client should accept script of input commands
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,233057,Johann Draschwandtner,15,moberhuber,[remotecdt]Fix button enablement
+org.eclipse.tm.rse/plugins/org.eclipse.rse.(shells|subsystems.files)?.ui,226550,Anna Dushistova,80,moberhuber,[api][breaking] Launch Shell and Launch Terminal actions should be contributed declaratively
 
 
 Third Party Software,,,, 
