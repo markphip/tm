@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
+<plan plan-format="1.0">
+  <release projectid="dsdp.tm" version="3.0"/>
+    <introduction><![CDATA[
+The Target Management Project provides data models, frameworks and tools 
+for working with remote computer systems.
+The main deliverable is the Remote System Explorer (RSE), a feature-rich 
+integrated perspective and toolkit for seamlessly working on
+remote systems. Besides that, we deliver flexible, re-usable 
+components for Networking and Target Management that run stand-alone
+or integrated with RSE.
+    ]]>
+  </introduction>
+  <release_deliverables><![CDATA[
+<ul>
+	<li>Target Management source code release, available as versions tagged "R3_0" in the project's
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>,
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>
+		and
+		<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.tcf/trunk/?root=DSDP_SVN">TM TCF SVN Repository</a>.
+		.
+	</li>
+	<li>Remote System Explorer (RSE):<ul>
+	   <li>RSE SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
+	   <li>RSE client runtime binaries (split up by protocol, includes user documentation) (downloadable).</li>
+	   <li>RSE dstore server runtime (downloadable).</li>
+	   <li>RSE User Actions and Compile Commands (downloadable).</li>
+	   <li>RSE CDT Launch Integration (downloadable).</li>
+	   <li>RSE tutorial code and examples (downloadable).</li>
+       <li>RSE unit test framework and tests (downloadable).</li>
+    </ul></li>
+    <li>Stand-alone components:<ul>
+	   <li>TM Terminal SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
+	   <li>TM Discovery SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
+	   <li>Redistribution of Apache Commons Net 1.4.1 and Jakarta ORO 2.0.8 (downloadable through the Orbit project).</li>
+    </ul></li>
+    <li>Incubating components:<ul>
+	   <li>RSE Terminal Integration (runtime and sources) (downloadable).</li>
+	   <li>RSE WinCE Subsystems and RAPI wrappers (runtime and sources) (downloadable).</li>
+    </ul></li>
+</ul>
+<b>Notes:</b>
+All stand-alone components will have an integration part that makes
+them work inside the RSE framework. For that reason, there are no
+downloadable stand-alone component tests, but the RSE unit test
+component will also have tests for the stand-alone components.
+<p>
+The incubating <b>TCF</b> component is not going to produce downloadable
+artifacts for the TM 3.0 reelease.
+  ]]></release_deliverables>
+  <release_milestones>
+    <preamble><![CDATA[      
+Release milestone will be occurring at roughly 6 week intervals,
+and will be aligned with the
+<a href="http://www.eclipse.org/projects/ganymede.php">
+Ganymede Simultaneous Release</a> train.
+Milestone names start with M3 in order to clarify this
+relationship.
+    ]]></preamble>
+    <milestone date="11/14/2007" milestone="M3" bugzilla=""><![CDATA[ 3.0M3 ]]></milestone>
+    <milestone date="1/7/2008" milestone="M4" bugzilla=""><![CDATA[ 3.0M4 ]]></milestone>
+    <milestone date="2/18/2008" milestone="M5" bugzilla=""><![CDATA[ 3.0M5 ]]></milestone>
+    <milestone date="4/7/2008" milestone="M6" bugzilla=""><![CDATA[ 3.0M6 ]]></milestone>
+    <milestone date="5/6/2008" milestone="M7" bugzilla=""><![CDATA[ 3.0M7 ]]></milestone>
+    <milestone date="5/20/2008" milestone="RC1" bugzilla=""><![CDATA[ 3.0RC1 ]]></milestone>
+    <milestone date="5/27/2008" milestone="RC2" bugzilla=""><![CDATA[ 3.0RC2 ]]></milestone>
+    <milestone date="6/3/2008" milestone="RC3" bugzilla=""><![CDATA[ 3.0RC3 ]]></milestone>
+    <milestone date="6/10/2008" milestone="RC4" bugzilla=""><![CDATA[ 3.0RC4 ]]></milestone>
+    <postamble><![CDATA[
+A detailed <a href="http://wiki.eclipse.org/TM_3.0_Ramp_down_Plan">
+TM 3.0 Ramp down Plan</a> towards the release is available especially for the Eclipse 
+<a href="http://www.eclipse.org/projects/ganymede.php">
+Ganymede Simultaneous Release</a> integration.
+<p>
+The target date for availability of Target Management 3.0 is:</p>
+<ul>
+	<li>Wednesday June 25, 2008 - TM 3.0 Release date (with Ganymede)</li>
+</ul>
+    ]]></postamble>
+  </release_milestones>
+  <target_environments><![CDATA[
+In order to remain current, each Eclipse release is designed to run on
+reasonably current versions of the underlying operating environments.
+</p>
+<p>The Target Management Project 3.0 depends upon on the Eclipse Platform 3.4.
+Various sub components also depend on other Eclipse Projects, namely
+the C/C++ Development Tools (CDT) 4.0 and the Eclipse Modeling Framework 
+(EMF) 2.3. 
+For this release, the RSE sources will be written and compiled
+against version 1.4.2 of the Java Platform APIs (i.e., Java 2 Platform,
+Release 1.4.2 SE), and designed to run on version 1.4.2 of the Java
+Runtime Environment, Standard Edition. Since Java 5 is also used as
+Eclipse Reference Platform, some testing of Target Management will also
+be done on Java 5.</p> 
+
+<p>Eclipse Platform SDK 3.4 will be tested and validated on a number of
+<a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_4.html#TargetOperatingEnvironments">
+reference platforms</a>. The 
+Target Management deliverables will be tested and validated against a 
+subset of those listed for the platform, plus some more (marked
+<img src="topic.gif" alt="(tm-only)" border="0" height="16" width="16">
+) for which contributors have have expressed special interest 
+and volunteered to perform the systematic testing
+(this list is updated over the course of the release cycle).</p>
+<!--
+<p>
+Solaris-Motif is discontinued as a reference platform.
+Although it should still work, it is no longer being regularly tested.
+</p>
+-->
+
+<table summary="Target Management Reference Platforms" style="width: 821px;"
+border="1">
+<tbody>
+<tr bgcolor="#cccccc">
+<th colspan="5">
+<div align="center"><strong><font size="+1">Target Management Reference
+Platforms</font></strong></div>
+</th>
+</tr>
+<tr>
+<td width="205"><b>Operating system</b></td>
+<td width="59"><b>OS version</b></td>
+<td width="76"><b>Processor architecture</b></td>
+<td width="59"><b>Window system</b></td>
+<td width="453"><b>Java 2 Platform</b></td>
+</tr>
+<tr>
+<td width="205">Microsoft Windows</td>
+<td width="59">XP</td>
+<td width="76">Intel x86</td>
+<td width="59">Win32</td>
+<td width="453"> Sun Java 2 Standard Edition 5.0 Update 11<br>
+for Microsoft Windows </td>
+</tr>
+<tr>
+<td width="205">Microsoft Windows</td>
+<td width="59">XP</td>
+<td width="76">Intel x86</td>
+<td width="59">Win32</td>
+<td width="453"> IBM 32-bit SDK for Windows,<br>
+Java 2 Technology Edition 5.0 </td>
+</tr>
+<tr>
+<td width="205">Microsoft Windows</td>
+<td width="59">
+  <img src="topic.gif" alt="(tm-only)" border="0" height="16" width="16">
+  2000</td>
+<td width="76">Intel x86</td>
+<td width="59">Win32</td>
+<td width="453"> Sun Java 2 Standard Edition <strike>1.4.2_13</strike>
+1.4.2_14<br>
+for Microsoft Windows </td>
+</tr>
+<tr>
+<td width="205">Red Hat Enterprise Linux</td>
+<td width="59">WS 4</td>
+<td width="76">Intel x86</td>
+<td width="59">GTK</td>
+<td width="453"> Sun Java 2 Standard Edition 5.0 <strike>Update 8</strike>
+Update 11<br>
+for Linux x86</td>
+</tr>
+<tr>
+<td width="205">SUSE Linux Enterprise Server</td>
+<td width="59">9</td>
+<td width="76">Intel x86</td>
+<td width="59">GTK</td>
+<td width="453"> IBM 32-bit SDK for Linux on Intel architecture,<br>
+Java 2 Technology Edition 1.4.2 service release 3 </td>
+</tr>
+<tr>
+<td width="205">
+  <img src="topic.gif" alt="(tm-only)" border="0" height="16" width="16">
+  Ubuntu / Debian Linux</td>
+<td width="59">5.10</td>
+<td width="76">Intel x86</td>
+<td width="59">GTK</td>
+<td width="453">
+Sun Java 2 Standard Edition 1.4.2_13<br/>
+for Linux x86</td>
+</tr>
+<tr>
+<td width="205">Sun Solaris</td>
+<td width="59">9</td>
+<td width="76">SPARC</td>
+<td width="59">GTK</td>
+<td width="453">Sun Java 2 Standard Edition 5.0 <strike>Update 8</strike>
+Update 11<br>
+for Solaris SPARC</td>
+</tr>
+<tr>
+<td width="205"><strike>Sun Solaris</strike></td>
+<td width="59"><strike>9</strike></td>
+<td width="76"><strike>SPARC</strike></td>
+<td width="59"><strike>Motif</strike></td>
+<td width="453"><strike>Sun Java 2 Standard Edition 5.0 Update 8<br>
+for Solaris SPARC</strike></td>
+</tr>
+<tr>
+<td width="205">Apple Mac OS X</td>
+<td width="59">10.4</td>
+<td width="76">Power</td>
+<td width="59">Carbon</td>
+<td width="453">
+Java 2 Platform Standard Edition (J2SE) 1.4.2<br>service release 2 for Tiger
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>Eclipse and Target Management undoubtedly run fine
+in many operating environments beyond the reference platforms we test.
+However, since we do not systematically test them we cannot vouch for them.
+Problems encountered when running Target Management on a non-reference platform
+that cannot be recreated on any reference platform will be given lower
+priority than problems with running Target Management on a reference platform.</p>
+
+<p>Although untested, Target Management should work fine on other OSes that 
+support the same window system. For Win32: Windows 98, ME, NT, 2000, and Server 
+2003; SWT HTML viewer requires Internet Explorer 5 (or higher). For GTK on other 
+Linux systems: version 2.2.1 of the GTK+ widget toolkit and associated libraries 
+(GLib, Pango); SWT HTML viewer requires Mozilla 1.4GTK2. For more details, see
+the
+<a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_4.html#TargetOperatingEnvironments">
+Eclipse Project Plan Reference Platforms</a>.</p>
+
+<h4>
+Datastore Agent Reference Platforms
+</h4>
+<p>The Datastore protocol is the default protocol shipped with RSE for accessing
+remote file systems, process info and shells. It requires a Datastore server 
+(agent) running on the remote system.
+This Datastore agent is shipped as plain Java Source Code together with the 
+RSE distribution. It should run fine on any Java Platform, with additional
+Data Miner Plug-ins that may be OS specific.</p>
+<p>We will test and verify the Datastore agent on the following Reference Platforms,
+which are a subset of the Platforms we test the RSE UI on:</p>
+<ul>
+<li>Red Hat Enterprise Linx 4, Intel x86, Sun 1.5.0_11 VM</li>
+<li>SUSE Linux Enterprise Server 9, Intel x86, IBM 1.4.2 sr 3 VM</li>
+<li>Apple Mac OS X 10.4, Power, Apple 1.4.2 sr 2 VM</li>
+</ul>
+  ]]>  <internationalization><![CDATA[
+<p>The Remote System Explorer is designed as the basis for internationalized
+products. The user interface elements provided by the RSE
+components, including dialogs and error messages, are externalized. The
+English strings are provided as the default resource bundles.
+The default bundles will be localized to a subset of those
+locales offered by the Platform. This plan will be updated to indicate
+which locales will be provided and the timeframe for availability.</p>
+    ]]></internationalization>
+  </target_environments>
+  <compatibility_with_previous_releases><![CDATA[
+<p>In order to evolve APIs and especially foster more UI/Non-UI separation,
+Target Management 3.0 will not be compatible with TM 2.0.</p>
+<p>
+  <strong>API Contract Compatibility:</strong> Target Management 3.0 will not be 
+  compatible with TM 2.0.
+</p>
+<p><strong>Binary (plug-in) Compatibility:</strong> Target Management 3.0 will not be 
+  compatible with TM 2.0. 
+</p>
+<p><strong>Source Compatibility:</strong> Target Management 3.0 will not be 
+  compatible with TM 2.0, but a <em>Target Management 3.0 Migration Guide</em>
+  will be published that explains how to port TM 2.0 applications to the 
+  TM 3.0 APIs.
+  In most cases, "organize imports" should be sufficient in order to
+  update API usage to classes refactored for better UI/Non-UI separation.
+  Downward source compatibility is not supported. 
+</p>
+<p><strong>Workspace Compatibility:</strong> We intend to keep Target Management
+  3.0 upwards workspace-compatible with TM 2.0 unless noted. 
+  This means that workspaces and projects created with TM 2.0 can be successfully 
+  opened by Target Mangement 3.0 and upgraded to a 3.0 workspace.
+  This includes especially TM 2.0 connection definitions, which may propagate 
+  between workspaces via file copying or team repositories.
+  User interface session state may be discarded when a workspace is upgraded.
+  Downward workspace compatibility is not supported. 
+  A workspace created (or opened) by a product based on TM 3.0 will be unusable 
+  with a product based on TM 2.0.
+</p>
+<h3>API Contract</h3>
+<p>APIs published for the Target Management 3.0 release will be carefully
+reviewed prior to release, making use of "internal" packages for
+unsupported and variable implementation classes. Client plug-ins that
+directly depend on anything other than what is specified in the
+published API are inherently unsupportable and receive no guarantees
+about future compatibility. Refer to <i><a
+	href="http://www.eclipse.org/articles/Article-API%20use/eclipse-api-usage-rules.html">How
+to Use the Eclipse API</a></i> for information about how to write
+compliant plug-ins.</p>
+<!--
+<p>
+Though it is our goal to create stable APIs, being able to do so
+depends on the amount of API feedback we will get from the community.
+As described in <a href="http://www.eclipse.org/projects/dev_process/eclipse-quality.php">
+<i>Eclipse Quality APIs</i></a>, we will therefore mark all of our
+APIs provisional. This removes the guarantee of 1.0 to 2.0 compatibility,
+though we&#39;d strive to achieve that. We expect to get sufficient feedback
+during the 1.0 to 2.0 development period to declare the APIs final.</p>
+-->
+  ]]></compatibility_with_previous_releases>
+  <themes_and_priorities>
+    <preamble><![CDATA[
+<p>Plan items listed bleow were defined according to contributor requirements,
+but in accordance with the Target Management
+<a href="http://www.eclipse.org/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+Use Cases Document</a> and the DSDP and Eclipse
+<a href="http://wiki.eclipse.org/RequirementsCouncil06TP#Embedded_Device_Software">
+Themes and Priorities</a> (Preliminary Roadmap v3)
+set forth by the Eclipse Requirments Council.
+Each plan item covers a feature or API that is to be added to the 
+Target Management deliverables, or some aspect of the Target 
+Management Project that is to be improved. Each plan item has its 
+own entry in the Eclipse bugzilla database, with a title and a 
+concise summary (usually a single paragraph) that explains the 
+work item at a suitably high enough level so that everyone can 
+readily understand what the work item is without having to understand
+the nitty-gritty detail. 
+</p>
+<p>Not all plan items represent the same amount of work; some may be quite
+large, others, quite small. Although some plan items are for work that is 
+more pressing than others, the plan items appear in no particular order.
+Use the
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&keywords_type=allwords&keywords=plan&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">
+<!--
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&short_desc_type=allwordssubstr&short_desc=%5Bplan&classification=DSDP&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit>
+-->
+TM Project plan items</a> bugzilla query for an up-to-date list.
+See the corresponding bugzilla items for up-to-date status information on
+ongoing work and planned delivery milestones.
+</p>
+<p>The current status of each plan item is noted:
+</p>
+<ul>
+  <li><b>Committed</b> plan item - A committed plan item is one that we have
+    decided to address for the release.</li>
+  <li><b>Proposed</b> plan item - A proposed plan item is one that we are
+    considering addressing for the release. Although we are actively
+    investigating it, we are not yet in a position to commit to it, or to say
+    that we won't be able to address it. After due consideration, a proposal
+    will either be committed or deferred.</li>
+  <li><b>Deferred</b> plan item - A reasonable proposal that will not make it in
+    to this release for some reason is marked as deferred with a brief note as
+    to why it was deferred. Deferred plan items may resurface as committed plan
+    items at a later point.</li>
+</ul>
+    ]]></preamble>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <theme name="Cleanup API">
+      <description>
+Cleaning up our API's is a prime goal for TM 3.0 in order to limit our
+API's to a self-contained, understandable core set and make them 
+maintainable in the future.
+      </description>
+      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bapi%5D%20%5Bbreaking%5D&amp;classification=DSDP&amp;product=Target%20Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
+      <proposed></proposed>
+      <deferred bugzilla=""></deferred>
+    </theme>
+    <theme name="Other">
+      <description>
+Features and bugs that we plan to address in the next three months that are not yet categorized into a theme.
+	  </description>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=Eclipse+Foundation&amp;product=Community&amp;component=Dashboard&amp;component=IPZilla&amp;component=Portal&amp;component=Process&amp;target_milestone=July+08&amp;target_milestone=June+08&amp;target_milestone=May+08&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5E%5C%5B%5BA-Z%5D"></proposed>
+    </theme>
+  </themes_and_priorities>
+<!--  <appendix name="Eclipse Monkey"><![CDATA[
+  ]]></appendix> -->  
+</plan>
