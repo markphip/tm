@@ -64,8 +64,8 @@ relationship.
     <milestone date="11/14/2007" milestone="M3" bugzilla=""><![CDATA[ 3.0M3 ]]></milestone>
     <milestone date="1/7/2008" milestone="M4" bugzilla=""><![CDATA[ 3.0M4 ]]></milestone>
     <milestone date="2/18/2008" milestone="M5" bugzilla=""><![CDATA[ 3.0M5 ]]></milestone>
-    <milestone date="4/7/2008" milestone="M6" bugzilla=""><![CDATA[ 3.0M6 ]]></milestone>
-    <milestone date="5/6/2008" milestone="M7" bugzilla=""><![CDATA[ 3.0M7 ]]></milestone>
+    <milestone date="4/7/2008" milestone="M6" bugzilla=""><![CDATA[ 3.0M6 (API Freeze)]]></milestone>
+    <milestone date="5/6/2008" milestone="M7" bugzilla=""><![CDATA[ 3.0M7 (Feature Freeze)]]></milestone>
     <milestone date="5/20/2008" milestone="RC1" bugzilla=""><![CDATA[ 3.0RC1 ]]></milestone>
     <milestone date="5/27/2008" milestone="RC2" bugzilla=""><![CDATA[ 3.0RC2 ]]></milestone>
     <milestone date="6/3/2008" milestone="RC3" bugzilla=""><![CDATA[ 3.0RC3 ]]></milestone>
