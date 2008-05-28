@@ -86,14 +86,14 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/">
-		TM 3.0RC1</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/">
+		TM 3.0RC2</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/buildNotes.php">
 		build notes</a>]<br/>
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
 <!--
@@ -227,7 +227,7 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>May 21st: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/">TM 3.0RC1</a> released</li>
+			<ul><li>May 27th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/">TM 3.0RC2</a> released</li>
 				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
 				<li>Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal</li>
