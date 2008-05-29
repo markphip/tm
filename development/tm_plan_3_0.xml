@@ -88,8 +88,8 @@ reasonably current versions of the underlying operating environments.
 </p>
 <p>The Target Management Project 3.0 depends upon on the Eclipse Platform 3.4.
 Various sub components also depend on other Eclipse Projects, namely
-the C/C++ Development Tools (CDT) 4.0 and the Eclipse Modeling Framework 
-(EMF) 2.3. 
+the C/C++ Development Tools (CDT) 4.0 or later, and the Eclipse Modeling
+Framework (EMF) 2.3 or later. 
 For this release, the RSE sources will be written and compiled
 against version 1.4.2 of the Java Platform APIs (i.e., Java 2 Platform,
 Release 1.4.2 SE), and designed to run on version 1.4.2 of the Java
@@ -97,21 +97,10 @@ Runtime Environment, Standard Edition. Since Java 5 is also used as
 Eclipse Reference Platform, some testing of Target Management will also
 be done on Java 5.</p> 
 
-<p>Eclipse Platform SDK 3.4 will be tested and validated on a number of
-<a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_4.html#TargetOperatingEnvironments">
-reference platforms</a>. The 
-Target Management deliverables will be tested and validated against a 
-subset of those listed for the platform, plus some more (marked
-<img src="topic.gif" alt="(tm-only)" border="0" height="16" width="16">
-) for which contributors have have expressed special interest 
-and volunteered to perform the systematic testing
+<p>The Target Management deliverables will be tested and validated against a 
+subset of the reference platforms listed in the 
+<a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_4.html#TargetOperatingEnvironments">Eclipse Platform 3.4 Project Plan</a>
 (this list is updated over the course of the release cycle).</p>
-<!--
-<p>
-Solaris-Motif is discontinued as a reference platform.
-Although it should still work, it is no longer being regularly tested.
-</p>
--->
 
 <table summary="Target Management Reference Platforms" style="width: 821px;"
 border="1">
@@ -132,86 +121,65 @@ Platforms</font></strong></div>
 <tr>
 <td width="205">Microsoft Windows</td>
 <td width="59">XP</td>
-<td width="76">Intel x86</td>
+<td width="76">x86-32</td>
 <td width="59">Win32</td>
-<td width="453"> Sun Java 2 Standard Edition 5.0 Update 11<br>
+<td width="453"> Sun Java 2 Standard Edition 5.0 Update 14<br>
 for Microsoft Windows </td>
 </tr>
 <tr>
 <td width="205">Microsoft Windows</td>
 <td width="59">XP</td>
-<td width="76">Intel x86</td>
+<td width="76">x86-32</td>
 <td width="59">Win32</td>
 <td width="453"> IBM 32-bit SDK for Windows,<br>
-Java 2 Technology Edition 5.0 </td>
-</tr>
-<tr>
-<td width="205">Microsoft Windows</td>
-<td width="59">
-  <img src="topic.gif" alt="(tm-only)" border="0" height="16" width="16">
-  2000</td>
-<td width="76">Intel x86</td>
-<td width="59">Win32</td>
-<td width="453"> Sun Java 2 Standard Edition <strike>1.4.2_13</strike>
-1.4.2_14<br>
-for Microsoft Windows </td>
+Java 2 Technology Edition 5.0, SR5 </td>
 </tr>
 <tr>
 <td width="205">Red Hat Enterprise Linux</td>
-<td width="59">WS 4</td>
-<td width="76">Intel x86</td>
+<td width="59">WS 4 update 2</td>
+<td width="76">x86-32</td>
 <td width="59">GTK</td>
-<td width="453"> Sun Java 2 Standard Edition 5.0 <strike>Update 8</strike>
-Update 11<br>
+<td width="453"> Sun Java 2 Standard Edition 5.0 Update 14<br>
 for Linux x86</td>
 </tr>
 <tr>
 <td width="205">SUSE Linux Enterprise Server</td>
-<td width="59">9</td>
-<td width="76">Intel x86</td>
+<td width="59">10</td>
+<td width="76">x86-32</td>
 <td width="59">GTK</td>
 <td width="453"> IBM 32-bit SDK for Linux on Intel architecture,<br>
-Java 2 Technology Edition 1.4.2 service release 3 </td>
-</tr>
-<tr>
-<td width="205">
-  <img src="topic.gif" alt="(tm-only)" border="0" height="16" width="16">
-  Ubuntu / Debian Linux</td>
-<td width="59">5.10</td>
-<td width="76">Intel x86</td>
-<td width="59">GTK</td>
-<td width="453">
-Sun Java 2 Standard Edition 1.4.2_13<br/>
-for Linux x86</td>
+Java 2 Technology Edition 1.4.2 SR7 </td>
 </tr>
 <tr>
 <td width="205">Sun Solaris</td>
-<td width="59">9</td>
+<td width="59">10</td>
 <td width="76">SPARC</td>
 <td width="59">GTK</td>
-<td width="453">Sun Java 2 Standard Edition 5.0 <strike>Update 8</strike>
-Update 11<br>
+<td width="453">Sun Java 2 Standard Edition 5.0 Update 14<br>
 for Solaris SPARC</td>
 </tr>
 <tr>
-<td width="205"><strike>Sun Solaris</strike></td>
-<td width="59"><strike>9</strike></td>
-<td width="76"><strike>SPARC</strike></td>
-<td width="59"><strike>Motif</strike></td>
-<td width="453"><strike>Sun Java 2 Standard Edition 5.0 Update 8<br>
-for Solaris SPARC</strike></td>
-</tr>
-<tr>
-<td width="205">Apple Mac OS X</td>
-<td width="59">10.4</td>
+<td width="205">Apple Mac OS X (<i>Secondary, see below</i>)</td>
+<td width="59">10.5</td>
 <td width="76">Power</td>
 <td width="59">Carbon</td>
 <td width="453">
-Java 2 Platform Standard Edition (J2SE) 1.4.2<br>service release 2 for Tiger
+Apple Java 2 Platform Standard Edition (J2SE) 5, service release 4
 </td>
 </tr>
 </tbody>
 </table>
+
+<p>The following Platforms have been discontinued as Reference Platforms
+for TM 3.0: Microsoft Windows 2000, Ubuntu Linux, SuSE Linux Enterprise
+Server 9, Solaris 9, and Mac OS X 10.4. 
+We expect that TM still runs fine on these Platforms, but don't have
+the resources and interested parties at hand to perform systematic
+testing on them.<br/>
+Apple Mac OS X 10.5 is considered a "secondary" Reference Platform
+meaning that it does receive some amount of systematic testing but
+doesn't enjoy quite the same priority for bug fixes as the other
+Platforms.</p>
 
 <p>Eclipse and Target Management undoubtedly run fine
 in many operating environments beyond the reference platforms we test.
@@ -221,29 +189,29 @@ that cannot be recreated on any reference platform will be given lower
 priority than problems with running Target Management on a reference platform.</p>
 
 <p>Although untested, Target Management should work fine on other OSes that 
-support the same window system. For Win32: Windows 98, ME, NT, 2000, and Server 
-2003; SWT HTML viewer requires Internet Explorer 5 (or higher). For GTK on other 
-Linux systems: version 2.2.1 of the GTK+ widget toolkit and associated libraries 
-(GLib, Pango); SWT HTML viewer requires Mozilla 1.4GTK2. For more details, see
-the
+support the same window system. For Win32: NT, 2000, Vista, and Server 
+2003; SWT HTML viewer requires Internet Explorer 5 (or higher).
+For GTK on other Linux systems: version 2.2.1 of the GTK+ widget toolkit
+and associated libraries (GLib, Pango); SWT HTML viewer requires 
+Mozilla 1.4GTK2. For more details, see the
 <a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_4.html#TargetOperatingEnvironments">
-Eclipse Project Plan Reference Platforms</a>.</p>
+Eclipse Project Plan 3.4 Reference Platforms</a>.</p>
 
 <h4>
 Datastore Agent Reference Platforms
 </h4>
-<p>The Datastore protocol is the default protocol shipped with RSE for accessing
-remote file systems, process info and shells. It requires a Datastore server 
-(agent) running on the remote system.
+<p>The Datastore protocol is the default protocol shipped with RSE for
+accessing remote file systems, process info and shells. It requires a
+Datastore server (agent) running on the remote system.
 This Datastore agent is shipped as plain Java Source Code together with the 
 RSE distribution. It should run fine on any Java Platform, with additional
 Data Miner Plug-ins that may be OS specific.</p>
-<p>We will test and verify the Datastore agent on the following Reference Platforms,
-which are a subset of the Platforms we test the RSE UI on:</p>
+<p>We will test and verify the Datastore agent on the following Reference
+Platforms, which are a subset of the Platforms we test the RSE UI on:</p>
 <ul>
-<li>Red Hat Enterprise Linx 4, Intel x86, Sun 1.5.0_11 VM</li>
-<li>SUSE Linux Enterprise Server 9, Intel x86, IBM 1.4.2 sr 3 VM</li>
-<li>Apple Mac OS X 10.4, Power, Apple 1.4.2 sr 2 VM</li>
+<li>Red Hat Enterprise Linx 4, Intel x86, Sun 1.5.0_14 VM</li>
+<li>SUSE Linux Enterprise Server 10, Intel x86, IBM 1.4.2 sr 7 VM</li>
+<li>Apple Mac OS X 10.5, Power, Apple J2SE 5 sr 4 VM</li>
 </ul>
   ]]>  <internationalization><![CDATA[
 <p>The Remote System Explorer is designed as the basis for internationalized
