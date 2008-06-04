@@ -172,7 +172,7 @@ svn:org.eclipse.tm.tcf,222929,Renan Le Padellec,2,eutarass,Processes attach comm
 svn:org.eclipse.tm.tcf,223571,Felix Burton,378,eutarass,TCF message logger value-add process
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),210682,Rupen Mardirossian,1647,dmcknight,[210682] Copy collisions will use SystemCopyDialog now instead of renameDialog when there is a copy collision within the same connection
 org.eclipse.tm.core/wince/*,214887,Radoslav Gerganov,3480,moberhuber,[214887] Add Windows CE / RAPI initial contribution
-org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),220126,Noriaki Takatsu,401,dmcknight,[dstore][api][breaking] Single process server for multiple clients
+org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),220126,Noriaki Takatsu and Masao Nishimoto,401,dmcknight,[dstore][api][breaking] Single process server for multiple clients
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,57,moberhuber,[224873] WinCE cleanup: RAPI version 0.1.0; Javadoc fixes; adding README.txt for native build; NLS class; 4KB buffersize
 svn:org.eclipse.tm.tcf,224277,Felix Burton,240,eutarass,TCF ptrace attach race condition
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,52,moberhuber,[224873] committing contributed patch: WinCE subsystem cleanup part 2

@@ -101,6 +101,7 @@
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
 			<li><b>Willian Mitsuda</b>, (private)</li>
 			<li><b>Benjamin Muskalla</b>, Innoopract</li>
+			<li><b>Masao Nishimoto</b>, IBM</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
 			<li><b>Timur Shipilov</b>, Xored Software</li>
