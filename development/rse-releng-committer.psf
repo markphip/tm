@@ -10,11 +10,14 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.ftp-feature,org.eclipse.rse.ftp-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.local-feature,org.eclipse.rse.local-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.remotecdt-feature,org.eclipse.rse.remotecdt-feature"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.remotecdt.wrapper-feature,org.eclipse.rse.remotecdt.wrapper-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.sdk-feature,org.eclipse.rse.sdk-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.ssh-feature,org.eclipse.rse.ssh-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.telnet-feature,org.eclipse.rse.telnet-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.terminals-feature,org.eclipse.rse.terminals-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.useractions-feature,org.eclipse.rse.useractions-feature"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.useractions.wrapper-feature,org.eclipse.rse.useractions.wrapper-feature"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.wince.wrapper-feature,org.eclipse.rse.wince.wrapper-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse,org.eclipse.rse"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.sdk,org.eclipse.rse.sdk"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.rse.build,org.eclipse.rse.build"/>
