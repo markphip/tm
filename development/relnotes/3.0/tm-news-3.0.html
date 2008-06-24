@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="http://www.eclipse.org/default_style.css" type="text/css"/>
+<title>DSDP-TM 3.0 News</title>
+</head>
+<body>
+<h1>DSDP Target Management 3.0 - New and Noteworthy</h1>
+<p>The emphasis on the TM 3.0 release has been API polish, cleanup
+  and performance improvements,
+  so there are not too many new features to mention. Still, here are 
+  some of the more noteworthy things you'll find in TM 3.0 (June 25, 2008)
+  which is now available for <a href="http://download.eclipse.org/dsdp/tm/downloads/index.php" target="_top">download</a>.
+  See the <a href="readme_tm_3.0.html">TM 3.0 release notes</a> as well
+  as the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">build notes</a>
+  for details about API changes, bugs fixed and other changes.</p>
+<ul>
+  <li><a href="#RSE">Remote System Explorer (RSE)</a>
+  <ul>
+     <li><a href="#RSE">Internals</a></li>
+<!--
+     <li><a href="#Wizards">Wizards</a></li>
+-->
+     <li><a href="#Subsystems">Connections and Subsystems</a></li>
+  </ul></li>
+  <li><a href="#Terminal">Terminal</a></li>
+</ul>
+<table border="0" cellpadding="10" cellspacing="0" width="80%">
+  <tr>
+    <td colspan="2"><hr />
+      <h2><a name="RSE" id="RSE"></a>Remote System Explorer (RSE)</h2>
+      <hr /></td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Import / Export of Connections</b></td>
+    <td width="70%" valign="top">Connections data, along with their filters,
+       can now be exported to a file for sharing with others.  
+       For details, see bugs
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=189274">[189274]</a> and
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=216858">[216858]</a>.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+      <h3><a name="Subsystems" id="Subsystems"></a>RSE: Connections and Subsystems</h3>
+      <hr /></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" width="30%"><b>Windows CE Subsystem</b></td>
+    <td valign="top" width="70%">FTP passive mode can now be enabled through the FTP settings,
+    either in the New Connection Wizard or on the subsystem properties page.
+    The FTP listing parser is automatically assigned depending on 
+    the remote server information, but it can also be selected from a list 
+    in the FTP settings by the user. This may help communicating with 
+    servers that incorrectly identify their system type.
+    <p><img src="images/new-wince.gif" alt="Windows CE Subsystem" /></p></td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+    </td>
+  </tr>
+</table>
+<p>More details about API changes, new features and bugs fixed are in the 
+  build notes of the earlier TM 3.0 milestone builds:</p>
+<ul>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">
+      TM 3.0 build notes (June 25, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC4a-200806161545/buildNotes.php">
+      TM 3.0RC4a build notes (June 16, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC3a-200806052135/buildNotes.php">
+      TM 3.0RC3a build notes (June 5, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/buildNotes.php">
+      TM 3.0RC2 build notes (May 27, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/buildNotes.php">
+      TM 3.0RC1 build notes (May 21, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M7-200805081345/buildNotes.php">
+      TM 3.0M7 build notes (May 8, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/buildNotes.php">
+      TM 3.0M6 build notes (April 11, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/buildNotes.php">
+      TM 3.0M5 build notes (February 18, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/buildNotes.php">
+      TM 3.0M4 build notes (January 7, 2008)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M3-200711141025/buildNotes.php">
+      TM 3.0M3 build notes (November 14, 2007)</a></li>
+  </li>
+
+</ul>
+</body>
+</html>
