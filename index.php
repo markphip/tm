@@ -60,31 +60,30 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530/">
-		TM 2.0.3</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/2.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530/buildNotes.php">build notes</a>]<br/>
-		The TM 2.0.3 service release includes 13 bug fixes compared to TM 2.0.2.
-		RSE persistence was made more robust,
-		SSH connections do not time out any more thanks to keepalives,
-		FTP connections can show hidden files, and the Terminal
-		optional input line got Ctrl+Space field assist for quickly accessing its history.
-		Includes also all TM 2.0.x fixes for Terminal and EFS issues, 
-		and support for non-ASCII encodings over FTP or SSH.
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/">
+		TM 3.0</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">build notes</a>]<br/>
+		The TM 3.0 release includes 445 unique bug fixes, including 115 API change requests.
+		While the focus was on API cleanup and performance, some interesting news include
+		a Windows CE Subsystem, User-defined action support, an RSE Terminal Integration,
+		UNIX File Permission support, and a connection import/export facility.
 		<br/>
-		TM 2.0.3 is 100% upward and backward compatible with TM 2.0. If you already have TM 2.0, you 
-		can "check for updates" using the Eclipse update manager to get it.
-		Look at <a href="http://tmober.blogspot.com/2007/09/tm-201-can-terminal-be-too-fast.html">this blog</a>, the
-		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>
-		and the
-		<a href="/dsdp/tm/development/relnotes/2.0/tm-news-2.0.html">TM 2.0 New & Noteworthy</a>
+		TM 3.0 is not binary compatible with TM 2.0, but existing workspaces can still be
+		used. TM 3.0 runs on Eclipse 3.4 (Ganymede), as well as Eclipse 3.3 (Europa) with
+		only a minor limitation in SSH support.
+		Look at the
+		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
+		<a href="/dsdp/tm/development/relnotes/3.0/tm-news-3.0.html">TM 3.0 New & Noteworthy</a>,
 <!--
-		<a href="/dsdp/tm/development/relnotes/2.0/readme_tm_2.0.html">
+        and the
+		<a href="/dsdp/tm/development/relnotes/3.0/readme_tm_3.0.html">
 		release notes</a>
 -->
 		for more information.</p>
 
+<!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/">
 		TM 3.0RC2</a></font>
@@ -96,14 +95,14 @@
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
-<!--
+
 		With M7, the <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa">
 		Ramp-down phase</a> of release candidates towards
 		the TM 2.0 release with Europa on June 29 has been entered.
 		</p>
 -->
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.0:</b> ETA June 2008 with Eclipse 3.4
+		<ul><li><b>TM 3.1:</b> ETA June 2009 with Eclipse 3.5
 		        [<a href="http://wiki.eclipse.org/TM_Future_Planning#TM_3.0_.28Ganymede.29_Planning">Planning Page</a>]</li>
 		</ul></p>
 
@@ -227,7 +226,7 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>May 27th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/">TM 3.0RC2</a> released</li>
+			<ul><li>Jun 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/">TM 3.0</a> released</li>
 				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
 				<li>Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal</li>
