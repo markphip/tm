@@ -64,7 +64,11 @@
 		TM 3.0</a></font>
 		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">build notes</a>]<br/>
+		<!--
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">build notes</a>
+		-->
+		| <a href="/dsdp/tm/development/relnotes/3.0/readme_tm_3.0.html">release notes</a>
+		]<br/>
 		The TM 3.0 release includes 445 unique bug fixes, including 115 API change requests.
 		While the focus was on API cleanup and performance, some interesting news include
 		a Windows CE Subsystem, User-defined action support, an RSE Terminal Integration,
@@ -75,12 +79,8 @@
 		only a minor limitation in SSH support.
 		Look at the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
+		and the
 		<a href="/dsdp/tm/development/relnotes/3.0/tm-news-3.0.html">TM 3.0 New & Noteworthy</a>,
-<!--
-        and the
-		<a href="/dsdp/tm/development/relnotes/3.0/readme_tm_3.0.html">
-		release notes</a>
--->
 		for more information.</p>
 
 <!--
