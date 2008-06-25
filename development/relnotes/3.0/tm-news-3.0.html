@@ -35,9 +35,13 @@
   </tr>
   <tr>
     <td width="30%" valign="top" align="left"><b>Import / Export of Connections</b></td>
-    <td width="70%" valign="top">Connections data, along with their filters,
-       can now be exported to a file for sharing with others.  
-       For details, see bugs
+    <td width="70%" valign="top">Connections data, along with the filters stored in the connection-private filter pool,
+       can now be exported to a file for sharing with others.
+       The file is in zip file format but may be given any name by the user.
+       When imported, the connection and its connection-private filter pool are added to the default profile.
+       If there is a conflicting name for the connection, a new name is generated for it.
+       There is no API for this function in this release.
+       For more details, see bugs
        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=189274">[189274]</a> and
        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=216858">[216858]</a>.</td>
   </tr>
