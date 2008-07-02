@@ -220,6 +220,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.(files|terminals)?.ui,234274,Anna Dus
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,234490,Anna Dushistova,28,moberhuber,[remotecdt] Launching with disconnected target fails
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(shells|terminals)?.ui,235934,Anna Dushistova,12,moberhuber,Launch Shell/Terminal commands enabled when selection is empty (Apply patch from Anna Dushistova)
 svn:org.eclipse.tm.tcf,237378,Daniel Friederich,14,eutarass,[tcf] TCF Reference implementation does not follow spec for Flow Control command F
+org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,239073,Noriaki Takatsu,2,dmcknight, [dstore] [multithread] In multithread, the cache jar should be assigned after the client is set
 
 
 Third Party Software,,,, 
