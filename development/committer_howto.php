@@ -181,6 +181,11 @@ padding-bottom: 2px">
 		    from. Verify that the bugzilla <b>Target Milestone</b> reflects the
 		    version that your fix is about to go into, then set the bugzilla report
 		    to <b>FIXED</b>.
+		  <li>Add the bugzilla <b>iplog+</b> flag <b>On the attachment</b> that was 
+		    committed to CVS and that came from the original contributor. This is
+		    important in order to properly generate the
+		    <a href="http://wiki.eclipse.org/Development_Resources/Automatic_IP_Log">
+		    Automatic IP Log</a>.</li>
 		</ul>
 		
 		<a name="project_log"></a>
