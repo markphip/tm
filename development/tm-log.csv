@@ -225,6 +225,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,239068,Noriaki Takats
 org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.core,231966,Anna Dushistova,22,adushistova, [rseterminal][apidoc] Add terminals.rse Javadoc (package.html)
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,235298,Anna Dushistova,10,adushistova,[remotecdt] Further improve progress reporting and cancellation of Remote CDT Launch
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,241197,Kenya Ishimoto,3,dmcknight,Paste action causes IllegalArgumentException at Resource.copy
+org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,239419,Noriaki Takatsu,8,dmcknight,[multithread] Dynamically change the level of logging
 
 
 Third Party Software,,,, 
