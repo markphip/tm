@@ -36,6 +36,7 @@ mapped into an Eclipse Workspace, and a CDT Remote Launch integration.
     <li><b>Stand-alone components:</b><ul>
 	   <li>TM Terminal SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>TM Discovery SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
+	   <li>TCF SDK (includes runtime, user and programmer documentation, and examples, with sources) (downloadable).</li>
 	   <li>Redistribution of Apache Commons Net 1.4.1 and Jakarta ORO 2.0.8 (downloadable through the Orbit project).</li>
     </ul></li>
     <li><b>Incubating components:</b><ul>
@@ -48,9 +49,6 @@ All stand-alone components will have an integration part that makes
 them work inside the RSE framework. For that reason, there are no
 downloadable stand-alone component tests, but the RSE unit test
 component will also have tests for the stand-alone components.
-<p>
-The incubating <b>TCF</b> component is not going to produce downloadable
-artifacts for the TM 3.1 release.
   ]]></release_deliverables>
   <release_milestones>
     <preamble><![CDATA[      
@@ -208,6 +206,18 @@ Platforms, which are a subset of the Platforms we test the RSE UI on:</p>
 <li>SUSE Linux Enterprise Server 10, Intel x86, IBM 1.4.2 sr 7 VM</li>
 <li>Apple Mac OS X 10.5, Power, Apple J2SE 5 sr 4 VM</li>
 </ul>
+
+<h4>
+TCF Agent Reference Platforms
+</h4>
+<p>The TCF agent is shipped as as precompiled binaries for Linux and
+WIndows XP, together with the TCF SDK.</p>
+<p>We will test and verify the TCF agent on the following Reference
+Platforms, which are a subset of the Platforms we test the RSE UI on:</p>
+<ul>
+<li>Red Hat Enterprise Linux 4, Intel x86</li>
+<li>Windows XP SP2, Intel x86</li>
+</ul>
   ]]>  <internationalization><![CDATA[
 <p>The Remote System Explorer is designed as the basis for internationalized
 products. The user interface elements provided by the RSE
@@ -299,14 +309,25 @@ ongoing work and planned delivery milestones.
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
+    <theme name="Bring TCF to Maturity">
+      <description>
+The TCF component is scheduled to exit incubation and release a 1.0 version
+together with TM 3.1. This will require release engineering and packaging 
+efforts, unit tests, documentation, and cleanup and agreement on the TCFThe RSE EFS provider is an important piece of integration for other projects
+API's.
+      </description>
+      <committed bugzilla=""></committed>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Btcf%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></proposed>
+      <deferred bugzilla=""></deferred>
+    </theme>
     <theme name="Fix and improve the EFS provider">
       <description>
 The RSE EFS provider is an important piece of integration for other projects
 to get access to remote resources. It needs to work reliably and with
 good performance.
       </description>
-      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Befs%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.0&amp;target_milestone=3.0+M3&amp;target_milestone=3.0+M4&amp;target_milestone=3.0+M5&amp;target_milestone=3.0+M6&amp;target_milestone=3.0+M7&amp;target_milestone=3.0+RC1&amp;target_milestone=3.0+RC2&amp;target_milestone=3.0+RC3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
-      <proposed></proposed>
+      <committed bugzilla=""></committed>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Befs%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></proposed>
       <deferred bugzilla=""></deferred>
     </theme>
     <theme name="Avoid plugin activation and Improve Performance">
@@ -314,15 +335,15 @@ good performance.
 RSE should activate plugins only when necessary, and work with
 good overall performance.
       </description>
-      <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bperformance%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.0&amp;target_milestone=3.0+M3&amp;target_milestone=3.0+M4&amp;target_milestone=3.0+M5&amp;target_milestone=3.0+M6&amp;target_milestone=3.0+M7&amp;target_milestone=3.0+RC1&amp;target_milestone=3.0+RC2&amp;target_milestone=3.0+RC3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></committed>
-      <proposed></proposed>
+      <committed bugzilla=""></committed>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bperformance%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0="></proposed>
       <deferred bugzilla=""></deferred>
     </theme>
     <theme name="Other">
       <description>
 Features and bugs that we plan to address in the next three months that are not yet categorized into a theme.
 	  </description>
-      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.0&amp;target_milestone=3.0+M3&amp;target_milestone=3.0+M4&amp;target_milestone=3.0+M5&amp;target_milestone=3.0+M6&amp;target_milestone=3.0+M7&amp;target_milestone=3.0+RC1&amp;target_milestone=3.0+RC2&amp;target_milestone=3.0+RC3&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5E%5C%5B%5BA-Z%5D"></proposed>
+      <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5E%5C%5B%5BA-Z%5D"></proposed>
     </theme>
   </themes_and_priorities>
 <!--  <appendix name="Appendix"><![CDATA[
