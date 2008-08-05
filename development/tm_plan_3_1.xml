@@ -313,31 +313,31 @@ ongoing work and planned delivery milestones.
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
     <theme name="Bring TCF to Maturity">
-      <description>
+      <description><![CDATA[
 The TCF component is scheduled to exit incubation and release a 1.0 version
 together with TM 3.1. This will require release engineering and packaging 
 efforts, unit tests, documentation, and cleanup and agreement on the TCF
 API's. In bugzilla, these items are tagged with <b>"[tcf]"</b> in the Summary.
-      </description>
+      ]]></description>
       <!--  Query: short_desc LIKE %[tcf]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Btcf%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Btcf%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Btcf%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Bring the WinCE component to Maturity">
-      <description>
+      <description><![CDATA[
 The Windows CE connector component for RSE is scheduled to exit incubation and 
 release a 1.0 version together with TM 3.1. This will require release engineering and packaging 
 efforts, unit tests, documentation, and cleanup and agreement on the WinCE / JRapi
 API's. In bugzilla, these items are tagged with <b>"[wince]"</b> in the Summary.
-      </description>
+      ]]></description>
       <!--  Query: short_desc LIKE %[wince]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bwince%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bwince%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bwince%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Bring the Terminal APIs to Maturity">
-      <description>
+      <description><![CDATA[
 The TM Terminal Component has been in "incubation" state with only "internal" APIs for two
 releases in a row now. Adoption of the Terminal is growing, and there are requests for official
 APIs to embed the Terminal Widget, create connections programmatically, provide additional
@@ -345,29 +345,29 @@ contributed services on top of the Terminal, and customize the Terminal Renderin
 providing a hyperlink navigator like in the console). In order to further support and grow
 adoption, these APIs must be designed and exposed to community feedback before they can be
 declared final. In bugzilla, these items are tagged with <b>"[terminal]"</b> in the Summary and
-an "api" keyword.
-      </description>
+an <b>"api"</b> keyword.
+      ]]></description>
       <!--  Query: short_desc LIKE %[terminal]% AND keywords LIKE %api% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bterminal%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=api&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bterminal%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=api&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bterminal%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=api&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Improve Release Engineering">
-      <description>
+      <description><![CDATA[
 For the constantly growing TM code size and committer base, it is important to have a 
 reliable but easy-to-use release engineering system. Required features include automatic
 signing and adoption of Orbit, easy promoting to the Eclipse Servers and Galileo, 
 running automated unit tests with automatic reporting of test failures to the mailing
 lists, ability and description for running the releng build on any adopter's system.
  In bugzilla, these items are tagged with <b>"[releng]"</b> in the Summary.  
-      </description>
+      ]]></description>
       <!--  Query: short_desc LIKE %[releng]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Breleng%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Breleng%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Breleng%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Improve Unittest Coverage">
-      <description>
+      <description><![CDATA[
 As the TM Codebase is growing, it is important to secure its functionality with
 unit tests against regressions. Since large portions of RSE especially are UI
 code, there should be an automated UI test suite run every night. Tests should
@@ -376,39 +376,39 @@ platforms. Adopters should be able to run a TM test suite on their own systems
 easily, and configure it for sanity checking or compliance testing their own
 connector plug-ins.  
 In bugzilla, these items are tagged with <b>"[testing]"</b> in the Summary.
-       </description>
+       ]]></description>
       <!--  Query: short_desc LIKE %[testing]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Btesting%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Btesting%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Btesting%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Fix and improve the EFS provider">
-      <description>
+      <description><![CDATA[
 The RSE EFS provider is an important piece of integration for other projects
 to get access to remote resources. It needs to work reliably and with
 good performance.
 In bugzilla, these items are tagged with <b>"[efs]"</b> in the Summary.
-      </description>
+      ]]></description>
       <!--  Query: short_desc LIKE %[efs]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Befs%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Befs%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Befs%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Improve User Actions and Compile Commands">
-      <description>
+      <description><![CDATA[
 The User Actions and Compile Commands component is meant to be a re-usable 
 framework, but as of TM/RSE 3.0 it does not expose any public API yet. Its
 API needs to be hardened, and functionality needs to be made reliable with
 good usability.
 In bugzilla, these items are tagged with <b>"[useractions]"</b> in the Summary.
-      </description>
+      ]]></description>
       <!--  Query: short_desc LIKE %[useractions]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Buseractions%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Buseractions%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Buseractions%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Improve Usability">
-      <description>
+      <description><![CDATA[
 TM and RSE are increasingly used for mostly remote file access, but also
 other kinds of remote operations. Setup and usage should be simple, and
 users should be aided in their first-time experience wherever possible.
@@ -416,14 +416,14 @@ This includes new much-wanted features, addition of user documentation
 and cheat sheets, improvements in Wizards, and striving for consistency 
 across all of Eclipse / Galileo in terms of UI metaphors.
 In bugzilla, these items are tagged with <b>"[usability]"</b> in the Summary.
-      </description>
+      ]]></description>
       <!--  Query: short_desc LIKE %[usability]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Busability%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Busability%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Busability%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Componentization">
-      <description>
+      <description><![CDATA[
 TM and RSE are adopted in many diverse products. In order to increase
 adoption in RCPs, headless (server-side) applications and highly
 configurable, dynamic environments, RSE must be further split into
@@ -433,39 +433,36 @@ enablement of subsystems more dynamic; and improved Wizards that support
 creating connections from a choice of optional subsystems rather than just
 relying on static association.
 In bugzilla, these items are tagged with <b>"[components]"</b> in the Summary.
-      </description>
+      ]]></description>
       <!--  Query: short_desc LIKE %[usability]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bcomponents%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bcomponents%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bcomponents%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Avoid plugin activation and Improve Performance">
-      <description>
+      <description><![CDATA[
 RSE should activate plugins only when necessary, and work with
 good overall performance.
 In bugzilla, these items are tagged with <b>"[performance]"</b> in the Summary.
-      </description>
+      ]]></description>
       <!--  Query: short_desc LIKE %[performance]% -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bperformance%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bperformance%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></proposed>
       <deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=%5Bperformance%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></deferred>
     </theme>
     <theme name="Other">
-      <description>
+      <description><![CDATA[
 Features and bugs that we plan to address in the next release cycle until 3.1 M7, that are not categorized into one of the themes above.
 Items currently under discussion include rewriting the Details View for more flexibility, improved multi-core awareness of RSE,
 and an improved logging framework.&lt;br&gt;
 In order not to overload the project plan with less important items, only those marked with a <b>"plan"</b> or <b>"investigate"</b> keyword will be
 added to the project plan. The pool of known items to add to the plan can be found from the
 associated 
-
-https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.1&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;target_milestone=Future&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;resolution=FIXED&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5C%5B%28tcf%7Cwince%7Cterminal%7Creleng%7Ctesting%7Cefs%7Cperformance%7Cuseractions%7Cusability%7Ccomponents%29
-
 <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5C%5B%28tcf%7Cwince%7Cterminal%7Creleng%7Ctesting%7Cefs%7Cperformance%7Cuseractions%7Cusability%7Ccomponents%29">committed</a>,
 <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.1&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5C%5B%28tcf%7Cwince%7Cterminal%7Creleng%7Ctesting%7Cefs%7Cperformance%7Cuseractions%7Cusability%7Ccomponents%29">proposed</a> and
 <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5C%5B%28tcf%7Cwince%7Cterminal%7Creleng%7Ctesting%7Cefs%7Cperformance%7Cuseractions%7Cusability%7Ccomponents%29">deferred</a>
 bugzilla queries. 
-	  </description>
+	  ]]></description>
       <!--  Query: short_desc NOT LIKE REGEX "\[(tcf|wince|terminal|releng|testing|efs|performance|useractions|usability|components)"  -->
       <committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=3.1+M2&amp;target_milestone=3.1+M3&amp;target_milestone=3.1+M4&amp;target_milestone=3.1+M5&amp;target_milestone=3.1+M6&amp;target_milestone=3.1+M7&amp;keywords_type=allwords&amp;keywords=plan+investigate&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5C%5B%28tcf%7Cwince%7Cterminal%7Creleng%7Ctesting%7Cefs%7Cperformance%7Cuseractions%7Cusability%7Ccomponents%29"></committed>
       <proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.1&amp;keywords_type=allwords&amp;keywords=plan+investigate&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5C%5B%28tcf%7Cwince%7Cterminal%7Creleng%7Ctesting%7Cefs%7Cperformance%7Cuseractions%7Cusability%7Ccomponents%29"></proposed>
