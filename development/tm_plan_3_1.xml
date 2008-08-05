@@ -308,8 +308,8 @@ ongoing work and planned delivery milestones.
 
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 <!-- Query: Committed = target_milestone LIKE %3.1+M[234567]% AND NOT priority=P5  -->
-<!-- Query: Proposed  = target_milestone IN [ 3.1 , --- ]     AND NOT priority=P5  AND resolution=---  -->
-<!-- Query: Deferred  = target_milestone IS Future            AND NOT priority=P5  AND resolution=---  -->
+<!-- Query: Proposed  = target_milestone IN [ 3.1 , - ]       AND NOT priority=P5  AND resolution=-  -->
+<!-- Query: Deferred  = target_milestone IS Future            AND NOT priority=P5  AND resolution=-  -->
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
     <theme name="Bring TCF to Maturity">
@@ -454,7 +454,7 @@ In bugzilla, these items are tagged with <b>"[performance]"</b> in the Summary.
       <description>
 Features and bugs that we plan to address in the next release cycle until 3.1 M7, that are not categorized into one of the themes above.
 Items currently under discussion include rewriting the Details View for more flexibility, improved multi-core awareness of RSE,
-and an improved logging framework.<br>
+and an improved logging framework.&lt;br&gt;
 In order not to overload the project plan with less important items, only those marked with a <b>"plan"</b> or <b>"investigate"</b> keyword will be
 added to the project plan. The pool of known items to add to the plan can be found from the
 associated 
