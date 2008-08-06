@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
-<plan plan-format="1.0">
+<plan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="projectplan.xsd"
+plan-format="1.0">
   <release projectid="dsdp.tm" version="3.1"/>
     <introduction><![CDATA[
 The Target Management Project provides data models, frameworks and tools 
@@ -59,16 +61,16 @@ Galileo Simultaneous Release</a> train.
 Milestone names start with M2 in order to clarify this
 relationship.
     ]]></preamble>
-    <milestone date="10/1/2008" milestone="M2" bugzilla=""><![CDATA[ 3.1M2 ]]></milestone>
-    <milestone date="11/12/2008" milestone="M3" bugzilla=""><![CDATA[ 3.1M3 ]]></milestone>
-    <milestone date="12/29/2008" milestone="M4" bugzilla=""><![CDATA[ 3.1M4 ]]></milestone>
-    <milestone date="2/6/2009" milestone="M5" bugzilla=""><![CDATA[ 3.1M5 ]]></milestone>
-    <milestone date="3/18/2009" milestone="M6" bugzilla=""><![CDATA[ 3.1M6 (API Freeze)]]></milestone>
-    <milestone date="5/5/2009" milestone="M7" bugzilla=""><![CDATA[ 3.1M7 (Feature Freeze)]]></milestone>
-    <milestone date="5/19/2009" milestone="RC1" bugzilla=""><![CDATA[ 3.1RC1 ]]></milestone>
-    <milestone date="5/26/2009" milestone="RC2" bugzilla=""><![CDATA[ 3.1RC2 ]]></milestone>
-    <milestone date="6/2/2009" milestone="RC3" bugzilla=""><![CDATA[ 3.1RC3 ]]></milestone>
-    <milestone date="6/9/2009" milestone="RC4" bugzilla=""><![CDATA[ 3.1RC4 ]]></milestone>
+    <milestone date="10/1/2008" milestone="M2"><![CDATA[ 3.1M2 ]]></milestone>
+    <milestone date="11/12/2008" milestone="M3"><![CDATA[ 3.1M3 ]]></milestone>
+    <milestone date="12/29/2008" milestone="M4"><![CDATA[ 3.1M4 ]]></milestone>
+    <milestone date="2/6/2009" milestone="M5"><![CDATA[ 3.1M5 ]]></milestone>
+    <milestone date="3/18/2009" milestone="M6"><![CDATA[ 3.1M6 (API Freeze)]]></milestone>
+    <milestone date="5/5/2009" milestone="M7"><![CDATA[ 3.1M7 (Feature Freeze)]]></milestone>
+    <milestone date="5/19/2009" milestone="RC1"><![CDATA[ 3.1RC1 ]]></milestone>
+    <milestone date="5/26/2009" milestone="RC2"><![CDATA[ 3.1RC2 ]]></milestone>
+    <milestone date="6/2/2009" milestone="RC3"><![CDATA[ 3.1RC3 ]]></milestone>
+    <milestone date="6/9/2009" milestone="RC4"><![CDATA[ 3.1RC4 ]]></milestone>
     <postamble><![CDATA[
 A detailed <a href="http://wiki.eclipse.org/DSDP/TM/3.1_Ramp_down_Plan">
 TM 3.1 Ramp down Plan</a> towards the release is available especially for the Eclipse 
