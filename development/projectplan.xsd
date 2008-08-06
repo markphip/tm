@@ -46,9 +46,9 @@
         </xsd:choice>
 	</xsd:complexType>
 	
-	<xsd:complexType name="TargetEnvironmentsType">
+	<xsd:complexType name="TargetEnvironmentsType" mixed="true">
         <xsd:sequence>
-            <xsd:any namespace="##other" processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:any namespace="##other" processContents="skip" minOccurs="0" maxOccurs="unbounded" />
             <xsd:element name="internationalization" type="UserAreaType" minOccurs="1" maxOccurs="unbounded"/>
         </xsd:sequence>
 	</xsd:complexType>
