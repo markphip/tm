@@ -313,9 +313,9 @@ ongoing work and planned delivery milestones.
 <!-- Query: Deferred  = target_milestone IS Future            AND NOT priority=P5  AND resolution=-  -->
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-    <theme name="Bring TCF to Maturity">
+    <theme name="Tentative: Bring TCF to Maturity">
       <description><![CDATA[
-The TCF component is scheduled to exit incubation and release a 1.0 version
+We are considering to have the TCF component exit incubation and release a 1.0 version
 together with TM 3.1. This will require release engineering and packaging 
 efforts, unit tests, documentation, and cleanup and agreement on the TCF
 API's. In bugzilla, these items are tagged with <b>"[tcf]"</b> in the Summary
