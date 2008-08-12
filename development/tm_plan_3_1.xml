@@ -5,6 +5,10 @@ xsi:noNamespaceSchemaLocation="projectplan.xsd"
 plan-format="1.0">
   <release projectid="dsdp.tm" version="3.1"/>
     <introduction><![CDATA[
+<hr>
+<font background="yellow" foreground="black" size="+2><center><b>Preliminary</b></center></font>
+The TM 3.1 project plan is still in preliminary state and not yet agreed upon by all parties.
+<hr>
 The Target Management Project provides data models, frameworks and tools 
 for working with remote computer systems.
 The main deliverable is the Remote System Explorer (RSE), a feature-rich 
