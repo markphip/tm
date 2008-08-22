@@ -229,6 +229,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,239419,Noriaki Takatsu,8,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,242968,Noriaki Takatsu,10,dmcknight, [multithread] serverSocket must be closed when an exception happens in Accept
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,239419,Noriaki Takatsu,4,dmcknight,[multithread] Dynamically change the level of logging
 svn:org.eclipse.tm.tcf,243768,Gaetan Morice,93,eutarass,[tcf] Possibility to programatically add new services to the java implementation
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,244807,Don Yantzi,7,dmcknight,Delay connecting if resolving filters while restoring from cache
+
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
