@@ -231,6 +231,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,239419,Noriaki Takatsu,4,
 svn:org.eclipse.tm.tcf,243768,Gaetan Morice,93,eutarass,[tcf] Possibility to programatically add new services to the java implementation
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,244807,Don Yantzi,7,dmcknight,Delay connecting if resolving filters while restoring from cache
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,241716,Richie Yu,5,ddykstal,Handle change of expired password during validation
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,233970,Don Yantzi,7,ddykstal,Use ICredentialsValidator message during credentials validation rather than generic
 
 
 Third Party Software,,,, 
