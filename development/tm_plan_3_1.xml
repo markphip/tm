@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
-<plan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="projectplan.xsd"
-plan-format="1.0">
-  <release projectid="dsdp.tm" version="3.1"/>
-    <introduction><![CDATA[
-<hr>
-<font background="yellow" foreground="red" size="+2"><center><b>Preliminary</b></center></font><br>
+<plan plan-format="1.0" xmlns="http://www.eclipse.org/project/plan" xmlns:html="http://www.w3.org/1999/xhtml"
+      name="Target Management">
+   <release projectid="dsdp.tm" version="3.1"/>
+    <introduction><html:p>
+<html:hr/>
+<font background="yellow" foreground="red" size="+2"><center><b>Preliminary</b></center></font><br/>
 The TM 3.1 project plan is still in preliminary state and not yet agreed upon by all parties.
-<hr>
+<html:hr/>
 The Target Management Project provides data models, frameworks and tools 
 for working with remote computer systems.
 The main deliverable is the Remote System Explorer (RSE), a feature-rich 
@@ -29,7 +28,7 @@ Table of contents:
   <li><a href="#compatibility">Compatibility</a></li>
   <li><a href="#themes">Themes and Priorities</a></li>
 </ul>
-    ]]>
+    </html:p>
   </introduction>
   <release_deliverables><![CDATA[
 <a name="release_deliverables"></a>
