@@ -7,7 +7,7 @@
    <p:release projectid="dsdp.tm" version="3.1"/>
     <p:introduction><div>
 <hr/>
-<font background="yellow" foreground="red" size="+2"><center><b>Preliminary</b></center></font><br/>
+<center><font size="+2"><b>Preliminary</b></font></center><br/>
 The TM 3.1 project plan is still in preliminary state and not yet agreed upon by all parties.
 <hr/>
 The Target Management Project provides data models, frameworks and tools 
