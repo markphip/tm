@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!--  Use this to test local rendering in firefox -->
-<!--  <?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?> -->
-<?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
+<?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?>
+<!--  <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?> -->
 <p:plan plan-format="1.0" xmlns:p="http://www.eclipse.org/project/plan" xmlns="http://www.w3.org/1999/xhtml"
       name="Target Management">
    <p:release projectid="dsdp.tm" version="3.1"/>
     <p:introduction><div>
 <hr/>
-<p style="align:center;"><big><b>Preliminary</b></big></p>
+<div style="align:center;"><big><b>Preliminary</b></big></div>
 The TM 3.1 project plan is still in preliminary state and not yet agreed upon by all parties.
 <hr/>
 The Target Management Project provides data models, frameworks and tools 
@@ -23,7 +23,7 @@ Eclipse Filesystem (EFS) provider to allow remote resources be
 mapped into an Eclipse Workspace, and a CDT Remote Launch integration.
 </p>
 Table of contents:
-<ul xmlns="http://www.w3.org/1999/xhtml">
+<ul>
   <li><a href="#release_deliverables">Release Deliverables</a></li>
   <li><a href="#release_milestones">Release Milestones</a></li>
   <li><a href="#target_environments">Target Environments</a></li>
@@ -117,7 +117,7 @@ subset of the reference platforms listed in the
 <a href="http://www.eclipse.org/eclipse/development/eclipse_project_plan_3_5.html#TargetOperatingEnvironments">Eclipse Platform 3.5 Project Plan</a>
 (this list is updated over the course of the release cycle).</p>
 
-<table xmlns="http://www.w3.org/1999/xhtml" summary="Target Management Reference Platforms" style="width: 821px;"
+<table summary="Target Management Reference Platforms" style="width: 821px;"
 border="1">
 <tbody>
 <tr style="background:#cccccc">
@@ -306,7 +306,7 @@ ongoing work and planned delivery milestones.
 </p>
 <p>The current status of each plan item is noted:
 </p>
-<ul xmlns="http://www.w3.org/1999/xhtml">
+<ul>
   <li><b>Committed</b> plan item - A committed plan item is one that we have
     decided to address for the release. In bugzilla, this is reflected by
     having a concrete target milestone assigned.</li>
@@ -508,10 +508,10 @@ associated queries
       <p:deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=anywords&amp;keywords=plan+investigate&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=%5C%5B%28tcf%7Cwince%7Cterminal%7Creleng%7Ctesting%7Cefs%7Cperformance%7Cuseractions%7Cusability%7Ccomponents%29"></p:deferred>
     </p:theme>
   </p:themes_and_priorities>
-  <p:appendix name="Appendix"><p>
+  <p:appendix name="A"><p>
       The TM team uses Eclipse Bugzilla for all it's planning. Based on the plan item queries
       listed above, the following consistency queries should never return any results:</p>
-      <ul xmlns="http://www.w3.org/1999/xhtml">
+      <ul>
         <li>Target milestone "3.1", "---" or "Future" but resolved "FIXED":
             <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.1&amp;target_milestone=Future&amp;resolution=FIXED&amp;cmdtype=doit">Query</a></li>
         <li>Keyword "performance" but not tagged "[performance]":
