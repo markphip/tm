@@ -7,7 +7,7 @@
    <p:release projectid="dsdp.tm" version="3.1"/>
     <p:introduction><div>
 <hr/>
-<center><font size="+2"><b>Preliminary</b></font></center><br/>
+<p style="align:center;"><big><b>Preliminary</b></big></p>
 The TM 3.1 project plan is still in preliminary state and not yet agreed upon by all parties.
 <hr/>
 The Target Management Project provides data models, frameworks and tools 
@@ -120,65 +120,65 @@ subset of the reference platforms listed in the
 <table xmlns="http://www.w3.org/1999/xhtml" summary="Target Management Reference Platforms" style="width: 821px;"
 border="1">
 <tbody>
-<tr bgcolor="#cccccc">
+<tr style="background:#cccccc">
 <th colspan="5" align="center">
-<strong><font size="+1">Target Management Reference
-Platforms</font></strong>
+<big><strong>Target Management Reference
+Platforms</strong></big>
 </th>
 </tr>
 <tr>
-<td width="205"><b>Operating system</b></td>
-<td width="59"><b>OS version</b></td>
-<td width="76"><b>Processor architecture</b></td>
-<td width="59"><b>Window system</b></td>
-<td width="453"><b>Java 2 Platform</b></td>
+<td style="width: 205px;"><b>Operating system</b></td>
+<td style="width: 59px;"><b>OS version</b></td>
+<td style="width: 76px;"><b>Processor architecture</b></td>
+<td style="width: 59px;"><b>Window system</b></td>
+<td style="width: 453px;"><b>Java 2 Platform</b></td>
 </tr>
 <tr>
-<td width="205">Microsoft Windows</td>
-<td width="59">XP</td>
-<td width="76">x86-32</td>
-<td width="59">Win32</td>
-<td width="453"> Sun Java 2 Standard Edition 5.0 Update 14<br/>
+<td style="width: 205px;">Microsoft Windows</td>
+<td style="width: 59px;">XP</td>
+<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">Win32</td>
+<td style="width: 453px;"> Sun Java 2 Standard Edition 5.0 Update 14<br/>
 for Microsoft Windows </td>
 </tr>
 <tr>
-<td width="205">Microsoft Windows</td>
-<td width="59">XP</td>
-<td width="76">x86-32</td>
-<td width="59">Win32</td>
-<td width="453"> IBM 32-bit SDK for Windows,<br/>
+<td style="width: 205px;">Microsoft Windows</td>
+<td style="width: 59px;">XP</td>
+<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">Win32</td>
+<td style="width: 453px;"> IBM 32-bit SDK for Windows,<br/>
 Java 2 Technology Edition 5.0, SR5 </td>
 </tr>
 <tr>
-<td width="205">Red Hat Enterprise Linux</td>
-<td width="59">WS 4 update 2</td>
-<td width="76">x86-32</td>
-<td width="59">GTK</td>
-<td width="453"> Sun Java 2 Standard Edition 5.0 Update 14<br/>
+<td style="width: 205px;">Red Hat Enterprise Linux</td>
+<td style="width: 59px;">WS 4 update 2</td>
+<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">GTK</td>
+<td style="width: 453px;"> Sun Java 2 Standard Edition 5.0 Update 14<br/>
 for Linux x86</td>
 </tr>
 <tr>
-<td width="205">SUSE Linux Enterprise Server</td>
-<td width="59">10</td>
-<td width="76">x86-32</td>
-<td width="59">GTK</td>
-<td width="453"> IBM 32-bit SDK for Linux on Intel architecture,<br/>
+<td style="width: 205px;">SUSE Linux Enterprise Server</td>
+<td style="width: 59px;">10</td>
+<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">GTK</td>
+<td style="width: 453px;"> IBM 32-bit SDK for Linux on Intel architecture,<br/>
 Java 2 Technology Edition 1.4.2 SR7 </td>
 </tr>
 <tr>
-<td width="205">Sun Solaris</td>
-<td width="59">10</td>
-<td width="76">SPARC</td>
-<td width="59">GTK</td>
-<td width="453">Sun Java 2 Standard Edition 5.0 Update 14<br/>
+<td style="width: 205px;">Sun Solaris</td>
+<td style="width: 59px;">10</td>
+<td style="width: 76px;">SPARC</td>
+<td style="width: 59px;">GTK</td>
+<td style="width: 453px;">Sun Java 2 Standard Edition 5.0 Update 14<br/>
 for Solaris SPARC</td>
 </tr>
 <tr>
-<td width="205">Apple Mac OS X (<i>Secondary, see below</i>)</td>
-<td width="59">10.5</td>
-<td width="76">Power</td>
-<td width="59">Carbon</td>
-<td width="453">
+<td style="width: 205px;">Apple Mac OS X (<i>Secondary, see below</i>)</td>
+<td style="width: 59px;">10.5</td>
+<td style="width: 76px;">Power</td>
+<td style="width: 59px;">Carbon</td>
+<td style="width: 453px;">
 Apple Java 2 Platform Standard Edition (J2SE) 5, service release 4
 </td>
 </tr>
