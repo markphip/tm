@@ -233,6 +233,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,244807,Don Yantzi,7,dmcknight,Dela
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,241716,Richie Yu,5,ddykstal,Handle change of expired password during validation
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,233970,Don Yantzi,7,ddykstal,Use ICredentialsValidator message during credentials validation rather than generic
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,244807,Don Yantzi,1,dmcknight,Delay connecting if resolving filters while restoring from cache
+svn:org.eclipse.tm.tcf,245511,Renan Le Padellec,15,eutarass,[tcf] Interactive mode should be optional
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
