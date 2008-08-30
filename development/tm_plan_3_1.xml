@@ -75,16 +75,16 @@ Galileo Simultaneous Release</a> train.
 Milestone names start with M2 in order to clarify this
 relationship.
     </p></p:preamble>
-    <p:milestone date="10/1/2008" milestone="M2"><p> 3.1M2 </p></p:milestone>
-    <p:milestone date="11/12/2008" milestone="M3"><p> 3.1M3 </p></p:milestone>
-    <p:milestone date="12/29/2008" milestone="M4"><p> 3.1M4 </p></p:milestone>
-    <p:milestone date="2/6/2009" milestone="M5"><p> 3.1M5 </p></p:milestone>
-    <p:milestone date="3/18/2009" milestone="M6"><p> 3.1M6 (API Freeze)</p></p:milestone>
-    <p:milestone date="5/5/2009" milestone="M7"><p> 3.1M7 (Feature Freeze)</p></p:milestone>
-    <p:milestone date="5/19/2009" milestone="RC1"><p> 3.1RC1 </p></p:milestone>
-    <p:milestone date="5/26/2009" milestone="RC2"><p> 3.1RC2 </p></p:milestone>
-    <p:milestone date="6/2/2009" milestone="RC3"><p> 3.1RC3 </p></p:milestone>
-    <p:milestone date="6/9/2009" milestone="RC4"><p> 3.1RC4 </p></p:milestone>
+    <p:milestone date="10/1/2008" milestone="M2"><div>3.1M2</div></p:milestone>
+    <p:milestone date="11/12/2008" milestone="M3"><div>3.1M3</div></p:milestone>
+    <p:milestone date="12/29/2008" milestone="M4"><div>3.1M4</div></p:milestone>
+    <p:milestone date="2/6/2009" milestone="M5"><div>3.1M5</div></p:milestone>
+    <p:milestone date="3/18/2009" milestone="M6"><div>3.1M6 (API Freeze)</div></p:milestone>
+    <p:milestone date="5/5/2009" milestone="M7"><div>3.1M7 (Feature Freeze)</div></p:milestone>
+    <p:milestone date="5/19/2009" milestone="RC1"><div>3.1RC1</div></p:milestone>
+    <p:milestone date="5/26/2009" milestone="RC2"><div>3.1RC2</div></p:milestone>
+    <p:milestone date="6/2/2009" milestone="RC3"><div>3.1RC3</div></p:milestone>
+    <p:milestone date="6/9/2009" milestone="RC4"><div>3.1RC4</div></p:milestone>
     <p:postamble><div>
 A detailed <a href="http://wiki.eclipse.org/DSDP/TM/3.1_Ramp_down_Plan">
 TM 3.1 Ramp down Plan</a> towards the release is available especially for the Eclipse 
