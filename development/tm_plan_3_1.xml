@@ -32,9 +32,8 @@ Table of contents:
 </ul>
   </div></p:introduction>
   <p:release_deliverables><div>
-<a name="release_deliverables"></a>
 <ul>
-	<li><b>Target Management source code release</b>, available as versions tagged "R3_1" in the project's<ul>
+	<li><b><a name="release_deliverables">Target Management</a> source code release</b>, available as versions tagged "R3_1" in the project's<ul>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>,</li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>, and</li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.tcf/trunk/?root=DSDP_SVN">TM TCF SVN Repository</a>.</li>
@@ -67,8 +66,8 @@ component will also have tests for the stand-alone components.
   </div></p:release_deliverables>
   <p:release_milestones>
     <p:preamble><p>      
-<a name="release_milestones"></a>
-Release milestone will be occurring at roughly 6 week intervals,
+<a name="release_milestones">Release milestones</a>
+will be occurring at roughly 6 week intervals,
 and will be aligned with the
 <a href="http://wiki.eclipse.org/Galileo_Simultaneous_Release">
 Galileo Simultaneous Release</a> train.
@@ -98,7 +97,7 @@ The target date for availability of Target Management 3.1 is:</p>
     </div></p:postamble>
   </p:release_milestones>
   <p:target_environments><div>
-<a name="target_environments" />
+<a name="target_environments">In order</a>
 In order to remain current, each Eclipse release is designed to run on
 reasonably current versions of the underlying operating environments.
 <p>The Target Management Project 3.1 depends upon on the Eclipse Platform 3.5.
@@ -245,8 +244,7 @@ which locales will be provided and the timeframe for availability.</p>
     </p:internationalization>
   </p:target_environments>
   <p:compatibility_with_previous_releases><div>
-<a name="compatibility"></a>
-<p>Target Management 3.1 will be backward compatible with TM 3.0.</p>
+<p><a name="compatibility">Target Management 3.1</a> will be backward compatible with TM 3.0.</p>
 <p>
   <strong>API Contract Compatibility:</strong> Target Management 3.1 will be 
   compatible with TM 3.0 as per the constraints documented in the TM 3.0 API Docs.
@@ -281,8 +279,7 @@ compliant plug-ins.</p>
   </div></p:compatibility_with_previous_releases>
   <p:themes_and_priorities>
     <p:preamble><div>
-<a name="themes"></a>
-<p>Plan items listed below were defined according to contributor requirements,
+<p><a name="themes">Plan items</a> listed below were defined according to contributor requirements,
 but in accordance with the Target Management
 <a href="http://www.eclipse.org/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
 Use Cases Document</a> and the DSDP and Eclipse
