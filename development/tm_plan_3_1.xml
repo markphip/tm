@@ -98,7 +98,7 @@ The target date for availability of Target Management 3.1 is:</p>
     </div></p:postamble>
   </p:release_milestones>
   <p:target_environments><div>
-<a name="target_environments"></a>
+<a name="target_environments" />
 In order to remain current, each Eclipse release is designed to run on
 reasonably current versions of the underlying operating environments.
 <p>The Target Management Project 3.1 depends upon on the Eclipse Platform 3.5.
