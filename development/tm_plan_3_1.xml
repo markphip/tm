@@ -24,16 +24,28 @@ mapped into an Eclipse Workspace, and a CDT Remote Launch integration.
 </p>
 Table of contents:
 <ul>
-  <li><a href="#release_deliverables">Release Deliverables</a></li>
-  <li><a href="#release_milestones">Release Milestones</a></li>
-  <li><a href="#target_environments">Target Environments</a></li>
-  <li><a href="#compatibility">Compatibility</a></li>
-  <li><a href="#themes">Themes and Priorities</a></li>
+  <li><a href="#m_release_deliverables">Release Deliverables</a></li>
+  <li><a href="#m_release_milestones">Release Milestones</a></li>
+  <li><a href="#m_target_environments">Target Environments</a></li>
+  <li><a href="#m_compatibility">Compatibility</a></li>
+  <li><a href="#m_themes">Themes and Priorities</a>
+  <ul><li><a href="#tp_tcf">Tentative: Bring TCF to Maturity</a></li>
+      <li><a href="#tp_wince">Bring the WinCE component to Maturity</a></li>
+      <li><a href="#tp_terminal">Bring the Terminal APIs to Maturity</a></li>
+      <li><a href="#tp_releng">Improve Release Engineering</a></li>
+      <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>
+      <li><a href="#tp_efs">Tentative: Fix and improve the EFS Provider</a></li>
+      <li><a href="#tp_ua">Improve User Actions and Compile Commands</a></li>
+      <li><a href="#tp_usability">Improve Usability</a></li>
+      <li><a href="#tp_components">Componentization</a></li>
+      <li><a href="#tp_performance">Avoid plugin activation and Imrpove Performance</a></li>
+      <li><a href="#tp_other">Other</a></li>
+  </ul></li>
 </ul>
   </div></p:introduction>
   <p:release_deliverables><div>
 <ul>
-	<li><b><a name="release_deliverables">Target Management</a> source code release</b>, available as versions tagged "R3_1" in the project's<ul>
+	<li><b><a name="m_release_deliverables">Target Management</a> source code release</b>, available as versions tagged "R3_1" in the project's<ul>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>,</li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>, and</li>
 		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.tcf/trunk/?root=DSDP_SVN">TM TCF SVN Repository</a>.</li>
@@ -66,7 +78,7 @@ component will also have tests for the stand-alone components.
   </div></p:release_deliverables>
   <p:release_milestones>
     <p:preamble><p>      
-<a name="release_milestones">Release milestones</a>
+<a name="m_release_milestones">Release milestones</a>
 will be occurring at roughly 6 week intervals,
 and will be aligned with the
 <a href="http://wiki.eclipse.org/Galileo_Simultaneous_Release">
@@ -97,7 +109,7 @@ The target date for availability of Target Management 3.1 is:</p>
     </div></p:postamble>
   </p:release_milestones>
   <p:target_environments><div>
-<a name="target_environments">In order</a>
+<a name="m_target_environments">In order</a>
 In order to remain current, each Eclipse release is designed to run on
 reasonably current versions of the underlying operating environments.
 <p>The Target Management Project 3.1 depends upon on the Eclipse Platform 3.5.
@@ -244,7 +256,7 @@ which locales will be provided and the timeframe for availability.</p>
     </p:internationalization>
   </p:target_environments>
   <p:compatibility_with_previous_releases><div>
-<p><a name="compatibility">Target Management 3.1</a> will be backward compatible with TM 3.0.</p>
+<p><a name="m_compatibility">Target Management 3.1</a> will be backward compatible with TM 3.0.</p>
 <p>
   <strong>API Contract Compatibility:</strong> Target Management 3.1 will be 
   compatible with TM 3.0 as per the constraints documented in the TM 3.0 API Docs.
@@ -279,7 +291,7 @@ compliant plug-ins.</p>
   </div></p:compatibility_with_previous_releases>
   <p:themes_and_priorities>
     <p:preamble><div>
-<p><a name="themes">Plan items</a> listed below were defined according to contributor requirements,
+<p>Plan items listed <a name="m_themes">below</a> were defined according to contributor requirements,
 but in accordance with the Target Management
 <a href="http://www.eclipse.org/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
 Use Cases Document</a> and the DSDP and Eclipse
@@ -329,7 +341,7 @@ ongoing work and planned delivery milestones.
 
     <p:theme name="Tentative: Bring TCF to Maturity">
       <p:description><p>
-We are considering to have the TCF component exit incubation and release a 1.0 version
+We are considering to have the <a name="tp_tcf">TCF</a> component exit incubation and release a 1.0 version
 together with TM 3.1. This will require release engineering and packaging 
 efforts, unit tests, documentation, and cleanup and agreement on the TCF
 API's. In bugzilla, these items are tagged with <b>"[tcf]"</b> in the Summary
@@ -343,7 +355,7 @@ all [tcf] open</a>).
     </p:theme>
     <p:theme name="Bring the WinCE component to Maturity">
       <p:description><p>
-The Windows CE connector component for RSE is scheduled to exit incubation and 
+The <a name="tp_wince">Windows CE</a> connector component for RSE is scheduled to exit incubation and 
 release a 1.0 version together with TM 3.1. This will require release engineering and packaging 
 efforts, unit tests, documentation, and cleanup and agreement on the WinCE / JRapi
 API's. In bugzilla, these items are tagged with <b>"[wince]"</b> in the Summary
@@ -357,7 +369,7 @@ all [wince] open</a>).
     </p:theme>
     <p:theme name="Bring the Terminal APIs to Maturity">
       <p:description><p>
-The TM Terminal Component has been in "incubation" state with only "internal" APIs for two
+The <a name="tp_terminal">TM Terminal</a> Component has been in "incubation" state with only "internal" APIs for two
 releases in a row now. Adoption of the Terminal is growing, and there are requests for official
 APIs to embed the Terminal Widget, create connections programmatically, provide additional
 contributed services on top of the Terminal, and customize the Terminal Rendering (for 
@@ -376,7 +388,7 @@ all [terminal] open</a>).
     <p:theme name="Improve Release Engineering">
       <p:description><p>
 For the constantly growing TM code size and committer base, it is important to have a 
-reliable but easy-to-use release engineering system. Required features include automatic
+reliable but easy-to-use <a name="tp_releng">release engineering</a> system. Required features include automatic
 signing and adoption of Orbit, easy promoting to the Eclipse Servers and Galileo, 
 running automated unit tests with automatic reporting of test failures to the mailing
 lists, ability and description for running the releng build on any adopter's system.
@@ -392,7 +404,7 @@ all [releng] open</a>).
     <p:theme name="Improve Unittest Coverage">
       <p:description><p>
 As the TM Codebase is growing, it is important to secure its functionality with
-unit tests against regressions. Since large portions of RSE especially are UI
+<a name="tp_unittest">unit tests</a> against regressions. Since large portions of RSE especially are UI
 code, there should be an automated UI test suite run every night. Tests should
 automatically run on all supported host platforms against all supported target
 platforms. Adopters should be able to run a TM test suite on their own systems
@@ -409,7 +421,7 @@ all [testing] open</a>).
     </p:theme>
     <p:theme name="Tentative: Fix and improve the EFS provider">
       <p:description><p>
-The RSE EFS provider is an important piece of integration for other projects
+The RSE <a name="tp_efs">EFS provider</a> is an important piece of integration for other projects
 to get access to remote resources. It needs to work reliably and with
 good performance.
 In bugzilla, these items are tagged with <b>"[efs]"</b> in the Summary
@@ -423,7 +435,7 @@ all [efs] open</a>).
     </p:theme>
     <p:theme name="Improve User Actions and Compile Commands">
       <p:description><p>
-The User Actions and Compile Commands component is meant to be a re-usable 
+The <a name="tp_ua">User Actions</a> and Compile Commands component is meant to be a re-usable 
 framework, but as of TM/RSE 3.0 it does not expose any public API yet. Its
 API needs to be hardened, and functionality needs to be made reliable with
 good usability.
@@ -438,7 +450,7 @@ all [useractions] open</a>).
     </p:theme>
     <p:theme name="Improve Usability">
       <p:description><p>
-TM and RSE are increasingly used for mostly remote file access, but also
+<a name="tp_usability">TM and RSE</a> are increasingly used for mostly remote file access, but also
 other kinds of remote operations. Setup and usage should be simple, and
 users should be aided in their first-time experience wherever possible.
 This includes new much-wanted features, addition of user documentation 
@@ -458,7 +470,7 @@ all [usability] open</a>).
 TM and RSE are adopted in many diverse products. In order to increase
 adoption in RCPs, headless (server-side) applications and highly
 configurable, dynamic environments, RSE must be further split into
-re-usable components. This includes clean UI/Non-UI splitting; stripping
+<a name="tp_components">re-usable components</a>. This includes clean UI/Non-UI splitting; stripping
 of all Workspace / Resources related code into a separate plug-in; making
 enablement of subsystems more dynamic; and improved Wizards that support
 creating connections from a choice of optional subsystems rather than just
@@ -475,7 +487,7 @@ all [components] open</a>).
     <p:theme name="Avoid plugin activation and Improve Performance">
       <p:description><p>
 RSE should activate plugins only when necessary, and work with
-good overall performance.
+good overall <a name="tp_performance">performance</a>.
 In bugzilla, these items are tagged with <b>"[performance]"</b> in the Summary
 (query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[performance%5D&amp;classification=DSDP&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=TCF&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
 all [performance] open</a>).
@@ -487,7 +499,7 @@ all [performance] open</a>).
     </p:theme>
     <p:theme name="Other">
       <p:description><p>
-Features and bugs that we plan to address in the next release cycle until 3.1 M7, that are not categorized into one of the themes above.
+<a name="tp_other">Features and bugs</a> that we plan to address in the next release cycle until 3.1 M7, that are not categorized into one of the themes above.
 Items currently under discussion include rewriting the Details View for more flexibility, improved multi-core awareness of RSE,
 and an improved logging framework.&lt;br&gt;
 In order not to overload the project plan with less important items, only those marked with a <b>"plan"</b> or <b>"investigate"</b> keyword will be
