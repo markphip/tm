@@ -60,24 +60,18 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/">
-		TM 3.0</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.1-200809181400/">
+		TM 3.0.1</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.1-200809181400/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.1-200809181400/buildNotes.php">build notes</a>
 		<!--
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">build notes</a>
-		-->
 		| <a href="/dsdp/tm/development/relnotes/3.0/readme_tm_3.0.html">release notes</a>
+		-->
 		]<br/>
-		The TM 3.0 release includes 445 unique bug fixes, including 115 API change requests.
-		While the focus was on API cleanup and performance, some interesting news include
-		a Windows CE Subsystem, User-defined action support, an RSE Terminal Integration,
-		UNIX File Permission support, and a connection import/export facility.
-		<br/>
-		TM 3.0 is not binary compatible with TM 2.0, but existing workspaces can still be
-		used. TM 3.0 runs on Eclipse 3.4 (Ganymede), as well as Eclipse 3.3 (Europa) with
-		only a minor limitation in SSH support.
-		Look at the
+		The TM 3.0.1 release includes more than 120 unique bug fixes and performance improvements.
+		It is fully compatible with TM 3.0, and runs on Eclipse 3.4 (Ganymede) as well as 
+		Eclipse 3.3 (Europa). Look at the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
 		and the
 		<a href="/dsdp/tm/development/relnotes/3.0/tm-news-3.0.html">TM 3.0 New & Noteworthy</a>,
@@ -102,8 +96,9 @@
 		</p>
 -->
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.1:</b> ETA June 2009 with Eclipse 3.5
-		        [<a href="http://wiki.eclipse.org/TM_Future_Planning#TM_3.0_.28Ganymede.29_Planning">Planning Page</a>]</li>
+		<ul><li><b>TM 3.0.2:</b> ETA February 2009 with <a href="http://wiki.eclipse.org/Ganymede#Coordinated_Service_Releases">Ganymede SR2</a></li>
+		    <li><b>TM 3.1:</b> ETA June 2009 with Eclipse 3.5
+		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
 
 
@@ -226,7 +221,7 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Jun 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/">TM 3.0</a> released</li>
+			<ul><li>Sep 24th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.1-200809181400/">TM 3.0.1</a> Service Release</li>
 				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
 				<li>Dec 20th: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=210751">TCF</a> has been approved by Eclipse Legal</li>
