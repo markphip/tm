@@ -4,7 +4,7 @@ dmcknight,,,,,
 kmunir,,,,,
 jmontalvo,,,,,
 moberhuber,,,,,
-mscharf,,,,,
+mischarf,,,,,
 tewillia,,,,,
 ustieber,,,,,
 kdoyle,,,,,
@@ -12,6 +12,7 @@ xchen,,,,,
 eutarass,,,,,
 rgerganov,,,,,
 fburton,,,,,
+adushistova,,,,,
 
 
 Developer Contributions,,,,,
@@ -164,17 +165,17 @@ org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,217675,Ruslan Sychev,8,misc
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,164300,Patrick Juhl,1,dmcknight,Fix for unix (Parameters for port selection)
 org.eclipse.tm.rse/plugins/org.eclipse.rse.shells.ui,181563,Radoslav Gerganov,33,moberhuber,Fix hardcoded Ctrl+Space for remote shell content assist 
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,216195,Radoslav Gerganov,19,kdoyle,[dstore] Saving empty file fails
-svn:org.eclipse.tm.tcf,221380,Felix Burton,221,eutarass,Asynchronous IO for TCF agent
+svn:org.eclipse.tm.tcf/agent,221380,Felix Burton,221,eutarass,Asynchronous IO for TCF agent
 org.eclipse.tm.terminal.ssh|org.eclipse.rse.connectorservice.ssh,218880,Johnson Ma,72,moberhuber,UI for configuring SSH keepalives
 org.eclipse.rse.(files.ui|services|services.dstore|tests),195402,Johnson Ma,899,moberhuber,Add tar.gz / tgz archive support
-svn:org.eclipse.tm.tcf,222363,Felix Burton,334,eutarass,TCF Initial implementation of value-add
-svn:org.eclipse.tm.tcf,222929,Renan Le Padellec,2,eutarass,Processes attach command generates an invalid TCF message
-svn:org.eclipse.tm.tcf,223571,Felix Burton,378,eutarass,TCF message logger value-add process
+svn:org.eclipse.tm.tcf/agent,222363,Felix Burton,334,eutarass,TCF Initial implementation of value-add
+svn:org.eclipse.tm.tcf/agent,222929,Renan Le Padellec,2,eutarass,Processes attach command generates an invalid TCF message
+svn:org.eclipse.tm.tcf/agent,223571,Felix Burton,378,eutarass,TCF message logger value-add process
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(files.ui|ui),210682,Rupen Mardirossian,1647,dmcknight,[210682] Copy collisions will use SystemCopyDialog now instead of renameDialog when there is a copy collision within the same connection
 org.eclipse.tm.core/wince/*,214887,Radoslav Gerganov,3480,moberhuber,[214887] Add Windows CE / RAPI initial contribution
 org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),220126,Noriaki Takatsu and Masao Nishimoto,401,dmcknight,[dstore][api][breaking] Single process server for multiple clients
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,57,moberhuber,[224873] WinCE cleanup: RAPI version 0.1.0; Javadoc fixes; adding README.txt for native build; NLS class; 4KB buffersize
-svn:org.eclipse.tm.tcf,224277,Felix Burton,240,eutarass,TCF ptrace attach race condition
+svn:org.eclipse.tm.tcf/agent,224277,Felix Burton,240,eutarass,TCF ptrace attach race condition
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,52,moberhuber,[224873] committing contributed patch: WinCE subsystem cleanup part 2
 org.eclipse.tm.core/wince/*,224873,Radoslav Gerganov,2,moberhuber,[224873] Use Bundle-NativeCode to specify DLL path
 org.eclipse.tm.core/wince/*,225553,Radoslav Gerganov,93,moberhuber,[225553][wince] Add support for creating processes on the device
@@ -185,7 +186,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.(dstore.core|rse.services.dstore),226237,
 org.eclipse.tm.core/wince/*,226280,Radoslav Gerganov,25,moberhuber,[226280][apidoc][WinCE] Provide better javadoc for org.eclipse.tm.rapi.*
 org.eclipse.rse.services.ssh/.../SshServiceResources*,170910,Yu-Fen Kuo,8,moberhuber,[170910] Adopt RSE ITerminalService API for SSH
 org.eclipse.rse.services.ssh/.../SshTerminalShell,170910,Anna Dushistova,20,moberhuber,[170910] Adopt RSE ITerminalService API for SSH
-svn:org.eclipse.tm.tcf,226789,Felix Burton,366,eutarass,TCF input buffer and thread-less UDP discovery patch
+svn:org.eclipse.tm.tcf/agent,226789,Felix Burton,366,eutarass,TCF input buffer and thread-less UDP discovery patch
 org.eclipse.tm.rse/plugins/*.terminals.*,226764,Yu-Fen Kuo and Anna Dushistova,2106,moberhuber,[226764] Contribute RSE Terminal Subsystem
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,227509,Johann Draschwandtner,10,moberhuber,[227509][apidoc] Add note how to persist property sets 
 svn:org.eclipse.tm.tcf/agent,227494,Renan Le Padellec,156,moberhuber,Replace C++ style comments by C style comments in TCF agent
@@ -204,8 +205,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,202098,Remy Chi Jian Suen,10,m
 org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.ui,227535,Anna Dushistova,134,moberhuber,[rseterminal][api] Add "Launch Terminal" command handler code
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,230399,Noriaki Takatsu,10,dmcknight,[multithread] changes to stop CommandMiner threads when clients disconnect
 org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,227213,Rupen Mardirossian,44,dmcknight,Copy and pasting to the parent folder will create a "Copy of" that resource
-svn:org.eclipse.tm.tcf,230274,Sidharth Kodikal,28,eutarass,[tcf][api] Runcontrol Service. Reverse resume modes
-svn:org.eclipse.tm.tcf,228389,Sidharth Kodikal,280,fburton,[tcf][api] Breakpoint data structure extensions
+svn:org.eclipse.tm.tcf/docs,230274,Sidharth Kodikal,28,eutarass,[tcf][api] Runcontrol Service. Reverse resume modes
+svn:org.eclipse.tm.tcf/docs,228389,Sidharth Kodikal,280,fburton,[tcf][api] Breakpoint data structure extensions
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,232738,Jacob Garcowski,28,dmcknight,[dstore] Delay creation of log file until written to
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,232443,Noriaki Takatsu,2,dmcknight,[multithread] A single rsecomm.log for all clients 
 org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet,231959,Sean Adams,-1,moberhuber,[terminal][telnet] NPE in TelnetConnector.java
@@ -213,13 +214,15 @@ org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,231827,Johann Draschwandtn
 org.eclipse.tm.rse/plugins/org.eclipse.rse.efs,224538,Timur Shipilov,6,moberhuber,RSEFileStore.getParent() returns null for element which is not root of filesystem
 org.eclipse.tm.rse/plugins/org.eclipse.rse.efs,224540,Timur Shipilov,8,moberhuber,RSEFileStore.mkdir(EFS.NONE, null) doesn't create parent folder
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(terminals|subsystems.files)?.ui,227535,Anna Dushistova,136,moberhuber,[rseterminal][api] terminals.ui should not depend on files.core
-svn:org.eclipse.tm.tcf,230346,Laura Le Padellec,36,fburton,[tcf] TCF client should accept script of input commands
+svn:org.eclipse.tm.tcf/agent,230346,Laura Le Padellec,36,fburton,[tcf] TCF client should accept script of input commands
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,233057,Johann Draschwandtner,15,moberhuber,[remotecdt]Fix button enablement
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(shells|subsystems.files)?.ui,226550,Anna Dushistova,80,moberhuber,[api][breaking] Launch Shell and Launch Terminal actions should be contributed declaratively
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(files|terminals)?.ui,234274,Anna Dushistova,12,moberhuber,[api] Launch Shell / Terminal commands menu placement and category
 org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,234490,Anna Dushistova,28,moberhuber,[remotecdt] Launching with disconnected target fails
 org.eclipse.tm.rse/plugins/org.eclipse.rse.(shells|terminals)?.ui,235934,Anna Dushistova,12,moberhuber,Launch Shell/Terminal commands enabled when selection is empty (Apply patch from Anna Dushistova)
-svn:org.eclipse.tm.tcf,237378,Daniel Friederich,14,eutarass,[tcf] TCF Reference implementation does not follow spec for Flow Control command F
+TM 3.0 released -- 3.0.1 Stream starting here,,,,,
+svn:org.eclipse.tm.tcf/agent,237378,Daniel Friederich,8,eutarass,[tcf] TCF Reference implementation does not follow spec for Flow Control command F
+svn:org.eclipse.tm.tcf/plugins,237378,Daniel Friederich,7,eutarass,[tcf] TCF Reference implementation does not follow spec for Flow Control command F
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,239073,Noriaki Takatsu,2,dmcknight, [dstore] [multithread] In multithread, the cache jar should be assigned after the client is set
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,239068,Noriaki Takatsu,2,dmcknight, [multithread] "client.username" property must be set via dataStore Client
 org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.core,231966,Anna Dushistova,22,adushistova, [rseterminal][apidoc] Add terminals.rse Javadoc (package.html)
@@ -228,14 +231,14 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,241197,Kenya Ishimoto,3,dmcknight,
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,239419,Noriaki Takatsu,8,dmcknight,[multithread] Dynamically change the level of logging
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,242968,Noriaki Takatsu,10,dmcknight, [multithread] serverSocket must be closed when an exception happens in Accept
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,239419,Noriaki Takatsu,4,dmcknight,[multithread] Dynamically change the level of logging
-svn:org.eclipse.tm.tcf,243768,Gaetan Morice,93,eutarass,[tcf] Possibility to programatically add new services to the java implementation
+svn:org.eclipse.tm.tcf/plugins/org.eclipse.tm.tcf,243768,Gaetan Morice,93,eutarass,[tcf] Possibility to programatically add new services to the java implementation
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,244807,Don Yantzi,7,dmcknight,Delay connecting if resolving filters while restoring from cache
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,241716,Richie Yu,5,ddykstal,Handle change of expired password during validation
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,233970,Don Yantzi,7,ddykstal,Use ICredentialsValidator message during credentials validation rather than generic
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,244807,Don Yantzi,1,dmcknight,Delay connecting if resolving filters while restoring from cache
-svn:org.eclipse.tm.tcf,245511,Renan Le Padellec,15,eutarass,[tcf] Interactive mode should be optional
+svn:org.eclipse.tm.tcf/agent,245511,Renan Le Padellec,15,eutarass,[tcf] Interactive mode should be optional
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,245069,Noriaki Takatsu,2,dmcknight,[dstore] dstoreTrace has no timestamp
-svn:org.eclipse.tm.tcf,249742,Vlad Lungu,28,eutarass,[tcf] Need generic array support
+svn:org.eclipse.tm.tcf/agent,249742,Vlad Lungu,28,eutarass,[tcf] Need generic array support
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
