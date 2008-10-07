@@ -45,9 +45,8 @@
 		   <li><a href="#format_checkin_comment">Format my checkin comment</a></li>
 		   <li><a href="#checkin_fix">Work with bugs and fixes</a></li>
 		   <li><a href="#external_contrib">Apply a patch from an external contributor</a></li>
-		   <li><a href="#project_log">Edit the TM Project Log (tm-log.csv)</a></li>
-		   <li><a href="#sloccount">Count lines of code in a contribution</a></li>
 		   <li><a href="#legacy_code">Add some legacy code to the project</a></li>
+		   <li><a href="#sloccount">Count lines of code in a contribution</a></li>
 		   <li><a href="#add_plugin">Add a plugin or other project to the workspace</a></li>
 		   <li><a href="#fix_copyrights">Find missing or incorrect Copyright notices in my code and fix them</a></li>
          </ul>
@@ -61,25 +60,16 @@
 		      compiles without warnings before you check it in.</li>
 		  <li>Keep the <a href="http://wiki.eclipse.org/DSDP/TM/Code_Ownership">
 		  	  Code Ownership Page</a> up-to-date on the Wiki.</li>
+		  <li>Ideally, run <a href="http://www.jroller.com/andyl/entry/findbugs_update1">FindBugs 
+		      on your code to find additional issues.</li>
 		</ul>
 
 		<a name="format_checkin_comment"></a>
 		<h2>Format my checkin comment</h2>
 		<p>
-		There are 
-		<a href="http://wiki.eclipse.org/Search_CVS%2C_Release_Notes%2C_%26_Build_News">
-		tools available</a> which build a MySQL database of all CVS 
-		checkins and allow searching it, or even associate checkins with
-		bugzilla bugs in order to generate release notes:
-		for example see the 
-		<a href="http://www.eclipse.org/modeling/emf/searchcvs.php?q=project%3A+org.eclipse.emf+days%3A+7">
-		EMF Search CVS</a> and
-		<a href="http://www.eclipse.org/modeling/emf/news/relnotes.php?project=emf&version=HEAD">
-		EMF Release Notes</a>.</p>
-		<p>
-		At the TM project, we'll want to make use of these tools as soon
-		as possible. In order to associate cvs checkins with bugzilla, 
-		these tools need the bug id properly formatted in the checkin comment.
+		The <a href="http://dsdp.eclipse.org/dsdp/tm/searchcvs.php?q=file%3A+org.eclipse.tm%25%2F+days%3A+7">TM SearchCVS</a>
+		facility allows searching for CVS commits, and directly linking to bugzilla provided
+		that checkin comments are properly formatted.
 		Multiple formats are supported, but this is the preferred one (see also
 		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=164719">
 		bug 164719</a> and 
@@ -93,6 +83,11 @@
 		      multiple bugs should have the various bug numbers listed on a separate line of the
 		      checkin comment each.
 		</ul>
+		For more details, see the
+		<a href="http://wiki.eclipse.org/Search_CVS%2C_Release_Notes%2C_%26_Build_News">
+		Search CVS, Release_Notes, & Build_News</a> Wiki page and the
+		<a href="http://www.eclipse.org/modeling/emf/news/relnotes.php?project=emf&version=HEAD">
+		EMF Release Notes</a>.</p>
 		
 		<a name="checkin_fix"></a>
 		<h2>Work with bugs and fixes</h2>
@@ -201,8 +196,6 @@ padding-bottom: 2px">
 		  <li>Once IP due diligence is completed: Apply the patch and commit it. Do not 
 		    make local modifications between applying and committing, in order to keep the 
 		    process transparent. <b>Put the bugzilla number on the commit message</b>.</li>
-		  <li>Add a line describing the contribution to the <b>tm-log.csv</b> Project Log, see
-		    <a href="#project_log">below</a>.</li>
 		  <li>Verify that the bugzilla <b>Target Milestone</b> reflects the
 		    version that your fix is about to go into, then set the bugzilla report
 		    to <b>FIXED</b>.
@@ -213,28 +206,33 @@ padding-bottom: 2px">
 		    Automatic IP Log</a>.</li>
 		</ul>
 		
-		<a name="project_log"></a>
-		<h2>Edit the TM Project Log (tm-log.csv)</h2>
+		<a name="legacy_code"></a>
+		<h2>Add some legacy code to the project</h2>
 		<ul>
-		  <li>The Project Log is required as per the Eclipse 
-		    <a href="http://www.eclipse.org/projects/dev_process/project-log.php">
-		    Project Log Guidelines</a>. It records every non-committer-contribution
-		    (including legacy code contributions). Please keep it up-to-date.</li>
-		   <li><a name="www_tm_dev"></a>
-		      Add the <b>www-tm-development</b> project to your workspace.
-		      You can do this most easily by importing the Team Project set 
-			  from<ul><li>
-		     <a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
-		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a>
-		   </li></ul></li>
-		   <li>When you already have the www-tm-development project in your workspace,
-		     <b>update it</b> before editing -- this saves you from having to merge before checkin.</li>
-		   <li>In the www-tm project, add a line for the contribution in the <b>tm-log.csv</b>
-		   file. There are some sample lines already, so adding one should not be too hard.</li>
-		   <li>For <a href="#sloccount">counting lines of code</a> see the section below.</li>
-		   <li><b>Commit</b> the changed tm-log.csv file.</li>
+		  <li>Obtain <b>PMC Member Approval</b>: Write an e-mail to 
+		      <a href="mailto:dsdp-pmc@eclipse.org">dsdp-pmc@eclipse.org</a>,
+		      describing the intended contribution. Give the PMC an idea of how large the
+		      contribution is, what it is good for (cryptography?), and if there are 
+		      any other licenses than the EPL involved.</li>
+		  <li>PMC Member Approval should be returned by E-Mail. You don't need to
+		      wait for the full PMC approval since it will be tracked via the CQ
+		      you are going to create -- just wait long enough to be reasonably
+		      sure that the PMC is not going to deny the request (because then
+		      you'd be creating the CQ in vain).</li>
+		  <li>Create a <b>Bugzilla Entry</b> holding the contribution in a form that is suitable for checkin.
+		      A ZIP archive of all the files/projects affected is fine.</li>
+		  <li>Fill in a Contribution Questionnaire (available from the 
+		     <a href="http://portal.eclipse.org">Portal</a>)
+		     and wait for EMO approval. You'll need to attach the 
+		     contribution's source code once again, but creating the
+		     CQ is effortless based on the bugzilla ID you already have.</li>
+		  <li>Once approved, check in the contribution. Dont forget to add the <b>bugzilla number
+		      on the commit message.</b> Commit the code verbatim as from the bug entry first, 
+		      and make any necessary modifications later.</li>
+		  <li>If project(s) were added, update the <b>*.psf Project Set Files</b> (see
+		      <a href="#add_plugin">below</a>). 
 		</ul>
-
+		
 		<a name="sloccount"></a>
 		<h2>Count lines of code in a contribution</h2>
 		<ul>
@@ -273,12 +271,18 @@ padding-bottom: 2px">
 		           lc -e org.eclipse.rse.*
 		         </code>
 		         </li>
-		      <li>For contributions supplied as a patch, use the
+		      <li>For contributions supplied as a patch, Eclipse 3.4 or later now
+		         has line counters directly in the "Apply patch" wizard. These can
+		         be used out of the box as-is -- they will count empty lines as well
+		         (which is less exact than the script here, but good
+		         enough for the "patch" case).</li>
+		      <li>As an alternative, you can use the
 		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lcp?root=Eclipse_Website&view=co">
 		         lcp script</a>
 		         (plus 
 		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lcp.bat?root=Eclipse_Website&view=co">
-		         lcp.bat</a> if you are on Windows).
+		         lcp.bat</a> if you are on Windows) which doesn't count empty lines
+		         in the patch.
 		         Run it with the patch file as argument.  <b>Example:</b><br/>
 		         <code>
 		           # Count lines in contributed patch for bug 12345<br/>
@@ -288,40 +292,26 @@ padding-bottom: 2px">
 		    </ul></li>
 		</ul>
 		
-		<a name="legacy_code"></a>
-		<h2>Add some legacy code to the project</h2>
-		<ul>
-		  <li>Obtain <b>PMC Member Approval</b>: Write an e-mail to 
-		      <a href="mailto:dsdp-pmc@eclipse.org">dsdp-pmc@eclipse.org</a>,
-		      describing the intended contribution. Give the PMC an idea of how large the
-		      contribution is, what it is good for (cryptography?), and if there are 
-		      any other licenses than the EPL involved.</li>
-		  <li>PMC Member Approval should be returned by E-Mail.</li>
-		  <li>Create a <b>Bugzilla Entry</b> holding the contribution in a form that is suitable for checkin.
-		      A ZIP archive of all the files/projects affected is fine.</li>
-		  <li>Fill in a Contribution Questionnaire (available from the 
-		     <a href="https://dev.eclipse.org/committers/">committer tools</a>)
-		     and wait for EMO approval.</li>
-		  <li>Once approved, check in the contribution. Dont forget to add the <b>bugzilla number
-		      on the commit message.</b> Commit the code verbatim as from the bug entry first, 
-		      and make any necessary modifications later.</li>
-		  <li>If project(s) were added, update the <b>*.psf Project Set Files</b> (see
-		      <a href="#add_plugin">below</a>). 
-		  <li>Add a line describing the contribution to the <b>tm-log.csv</b> Project Log, see
-		    <a href="#project_log">above</a>.</li>
-		</ul>
-		
 		<a name="add_plugin"></a>
 		<h2>Add a plugin or other project to the workspace</h2>
 		<ul>
 		  <li>Commit your modifications.</li>
-		  <li>In the <b>www-tm-development</b> project (see <a href="#www_tm_dev">above</a> for how 
-		     to get it), update the <b><a href="/dsdp/tm/development/cvs_setup">
-		     team project sets</a></b>.
+		   <li><a name="www_tm_dev"></a>
+		      Add the <b>www-tm-development</b> project to your workspace.
+		      You can do this most easily by importing the Team Project set 
+			  from<ul><li>
+		     <a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
+		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a>
+		   </li></ul></li>
+		   <li>When you already have the www-tm-development project in your workspace,
+		     <b>update it</b> before editing -- this saves you from having to merge before checkin.</li>
+		   <li>In the <b>www-tm-development</b> project, update the 
+		     <b><a href="/dsdp/tm/development/cvs_setup">team project sets</a></b>:
 		   You can either export a selection as team project set, and sort
 		   the lines afterwards (e.g. in Emacs, do M-X sort-lines). Or, edit the 
 		   project set manually. For the pserver version, you typically need to replace-all
-		   ":extssh:" by ":pserver:".</li>
+		   ":extssh:" by ":pserver:".
+		  </li>
 		  <li>Send an <b>E-mail</b> to dsdp-tm-dev, informing everybody that team project sets
 		    have been updated with your new plugins.</li>
 		  <li>For <b>release engineering</b> purposes, it may be necessary to also reference your
