@@ -156,6 +156,32 @@ padding-bottom: 2px">
 			licensed under the EPL. {I am authorized by my employer to make this
 			contribution under the EPL.}
 		    </p>
+		    In the case of the TCF agent, which is dual-licensed under 
+		    <a href="http://www.eclipse.org/org/documents/epl-v10.php">EPL</a> and 
+		    <a href="http://www.eclipse.org/org/documents/edl-v10.php">EDL</a>,
+		    the message added as a bugzilla comment should reference both EPL and EDL:
+		    <p style="border: thin 1px dashed; background-color: ivory; 
+padding-top: 2px; 
+padding-left: 2px;
+padding-right: 2px;
+padding-bottom: 2px">
+		    Legal Message: I, {name}, declare that I developed attached code from
+			scratch, without referencing any 3rd party materials except material
+			licensed under the EPL and EDL. {I am authorized by my employer to make
+			this contribution under the EPL and EDL.}
+		    </p>
+		    The point about <i>"...authorized by my employer"</i> must be added when
+		    the contribution is made as part of an employee relationship that makes
+		    the employer the actual copyright owner. In case the contribution is
+		    written as a private activity, the following should be added instead:
+		    <p style="border: thin 1px dashed; background-color: ivory; 
+padding-top: 2px; 
+padding-left: 2px;
+padding-right: 2px;
+padding-bottom: 2px">
+		    I certify that I am the copyright owner and authorize this contribution.
+		    </p>
+		    For more info, see the <a href="http://www.eclipse.org/legal/eplfaq.php">EPL FAQ</a>.
 		    </li>
 		  <li>Apply the patch in a <b>test workspace</b>, and review the code for any obvious traces 
 		     of copyright breaches, blasphemy or "bad words". It makes sense to have a
@@ -177,8 +203,7 @@ padding-bottom: 2px">
 		    process transparent. <b>Put the bugzilla number on the commit message</b>.</li>
 		  <li>Add a line describing the contribution to the <b>tm-log.csv</b> Project Log, see
 		    <a href="#project_log">below</a>.</li>
-		  <li>Add the keyword <b>contributed</b> to the bugzilla report that the patch came 
-		    from. Verify that the bugzilla <b>Target Milestone</b> reflects the
+		  <li>Verify that the bugzilla <b>Target Milestone</b> reflects the
 		    version that your fix is about to go into, then set the bugzilla report
 		    to <b>FIXED</b>.
 		  <li>Add the bugzilla <b>iplog+</b> flag <b>On the attachment</b> that was 

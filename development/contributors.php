@@ -63,7 +63,6 @@
 			<li><b>David Dykstal</b>, IBM</li>
 			<li><b>Radoslav Gerganov</b>, ProSyst</li>
 			<li><b>David McKnight</b>, IBM</li>
-			<li><b>Javier Montalvo-Orús</b>, Private</li>
 			<li><b>Martin Oberhuber</b>, Wind River</li>
 			<li><b>Michael Scharf</b>, Wind River</li>
 			<li><b>Uwe Stieber</b>, Wind River</li>
@@ -72,8 +71,9 @@
 		</div>
 
 		<div class="homeitem3col">
-		<h3>Former Committers (in alphabetical order)</h3>
+		<h3>Former Committers (alphabetic order by last name)</h3>
 		<ul class="midlist">
+			<li><b>Javier Montalvo-Orús</b>, Symbian</li>
 			<li><b>Kushal Munir</b>, IBM</li>
 			<li><b>Ted Williams</b>, Wind River</li>
 		</ul>
