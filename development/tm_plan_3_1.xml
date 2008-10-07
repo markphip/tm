@@ -22,25 +22,19 @@ In terms of interfaces to other Eclipse projects, we provide an
 Eclipse Filesystem (EFS) provider to allow remote resources be
 mapped into an Eclipse Workspace, and a CDT Remote Launch integration.
 </p>
-Table of contents:
+Shortcut to Themes:
 <ul>
-  <li><a href="#m_release_deliverables">Release Deliverables</a></li>
-  <li><a href="#m_release_milestones">Release Milestones</a></li>
-  <li><a href="#m_target_environments">Target Environments</a></li>
-  <li><a href="#m_compatibility">Compatibility</a></li>
-  <li><a href="#m_themes">Themes and Priorities</a>
-  <ul><li><a href="#tp_tcf">Tentative: Bring TCF to Maturity</a></li>
-      <li><a href="#tp_wince">Bring the WinCE component to Maturity</a></li>
-      <li><a href="#tp_terminal">Bring the Terminal APIs to Maturity</a></li>
-      <li><a href="#tp_releng">Improve Release Engineering</a></li>
-      <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>
-      <li><a href="#tp_efs">Tentative: Fix and improve the EFS Provider</a></li>
-      <li><a href="#tp_ua">Improve User Actions and Compile Commands</a></li>
-      <li><a href="#tp_usability">Improve Usability</a></li>
-      <li><a href="#tp_components">Componentization</a></li>
-      <li><a href="#tp_performance">Avoid plugin activation and Imrpove Performance</a></li>
-      <li><a href="#tp_other">Other</a></li>
-  </ul></li>
+  <li><a href="#tp_tcf">Tentative: Bring TCF to Maturity</a></li>
+  <li><a href="#tp_wince">Bring the WinCE component to Maturity</a></li>
+  <li><a href="#tp_terminal">Bring the Terminal APIs to Maturity</a></li>
+  <li><a href="#tp_releng">Improve Release Engineering</a></li>
+  <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>
+  <li><a href="#tp_efs">Tentative: Fix and improve the EFS Provider</a></li>
+  <li><a href="#tp_ua">Improve User Actions and Compile Commands</a></li>
+  <li><a href="#tp_usability">Improve Usability</a></li>
+  <li><a href="#tp_components">Componentization</a></li>
+  <li><a href="#tp_performance">Avoid plugin activation and Imrpove Performance</a></li>
+  <li><a href="#tp_other">Other</a></li>
 </ul>
   </div></p:introduction>
   <p:release_deliverables><div>
