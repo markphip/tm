@@ -59,6 +59,8 @@
 
 		<h2>Presentations</h2>
 		<ul>
+		<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
+		    TM 3.0 Release Review Slides</a></li>
 		<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt">TM 2.0 Release Review Slides (PPT: 237k)</a>
 		   | <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.pdf">(PDF: 300K)</a></li>
     	<li>Eclipse Summit Europe 2006-9-29 
@@ -111,6 +113,8 @@
 			<ul>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
+				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
+				    TM 3.0 Release Review Slides</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
