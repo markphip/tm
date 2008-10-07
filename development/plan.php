@@ -56,8 +56,8 @@ background-repeat: repeat-y
 		<div class="homeitem3col">
 			<h3>Releases currently under development</h3>
     <ul>
-      <li><a href="tm_project_plan_2_0.html"> Target Management Project 2.0 Plan</a><br>
-        This document lays out the feature and API set for the Target Management 2.0 release. </li>
+      <li><a href="http://www.eclipse.org/projects/project-plan.php?projectid=dsdp.tm">Target Management Project 3.1 Plan</a><br>
+        This document lays out the feature and API set for the Target Management 3.1 release. </li>
       <li><a href="/dsdp/tm/development/bug_process.php"> Target Management Bug Process</a><br>
     	Queries for up-to-date status on plan items and bugs from Eclipse Bugzilla. </li>
       <li><a href="http://wiki.eclipse.org/TM_Future_Planning"> 
@@ -85,6 +85,10 @@ background-repeat: repeat-y
 		<div class="homeitem3col">
 			<h3>Historical information about past releases</h3>
 	<ul>
+    <li><a href="tm_project_plan_3_0.html"> Target Management Project 3.0 Plan</a><br>
+        This document lays out the feature and API set for the Target Management 3.0 release. </li>
+    <li><a href="tm_project_plan_2_0.html"> Target Management Project 2.0 Plan</a><br>
+        This document lays out the feature and API set for the Target Management 2.0 release. </li>
 	<li><a href="tm_project_plan_1_0.html"> Target Management Project 1.0 Plan</a><br>
         This document lays out the feature and API set for the Target Management 1.0 release. </li>
     </ul>
