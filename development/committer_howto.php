@@ -127,7 +127,7 @@
 		<h2>Apply a patch from an external contributor</h2>
 		<ul>
 		  <li>Ensure that the patch is on <b>bugzilla</b>. If not, ask the contributor
-		    to create a bugzilla entry. This is requird even for patches from
+		    to create a bugzilla entry. This is required even for patches from
 		    co-workers in your own company!</li>
 		  <li><b>Contact the contributor</b> and ask the following (see the 
 		    <a href="http://www.eclipse.org/legal/EclipseLegalProcessPoster.pdf">
@@ -190,9 +190,9 @@ padding-bottom: 2px">
 		    </ul></li>
 		  <li>If the contribution is more than 250 lines of code and the contributor
 		     is not from your own company, or there is any 
-		     uncertainty about licening and purity of IP and copyrights: fill out 
+		     uncertainty about licensing and purity of IP and copyrights: fill out 
 		     a Contribution Questionnaire (available from the 
-		     <a href="https://dev.eclipse.org/committers/">committer tools</a>)</li>
+		     <a href="http://portal.eclipse.org">Portal</a>)</li>
 		  <li>Once IP due diligence is completed: Apply the patch and commit it. Do not 
 		    make local modifications between applying and committing, in order to keep the 
 		    process transparent. <b>Put the bugzilla number on the commit message</b>.</li>
