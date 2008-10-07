@@ -77,24 +77,24 @@
 		<a href="/dsdp/tm/development/relnotes/3.0/tm-news-3.0.html">TM 3.0 New & Noteworthy</a>,
 		for more information.</p>
 
-<!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/">
-		TM 3.0RC2</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/">
+		TM 3.1M2</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1milestones/">update site</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/buildNotes.php">
 		build notes</a>]<br/>
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
-
+<!--
 		With M7, the <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa">
 		Ramp-down phase</a> of release candidates towards
 		the TM 2.0 release with Europa on June 29 has been entered.
-		</p>
 -->
+		</p>
+
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
 		<ul><li><b>TM 3.0.2:</b> ETA February 2009 with <a href="http://wiki.eclipse.org/Ganymede#Coordinated_Service_Releases">Ganymede SR2</a></li>
 		    <li><b>TM 3.1:</b> ETA June 2009 with Eclipse 3.5
