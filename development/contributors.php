@@ -107,6 +107,7 @@
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
 			<li><b>Timur Shipilov</b>, Xored Software</li>
+			<li><b>Andrei Sobolev</b>, Xored Software</li>
 			<li><b>Ruslan Sychev</b>, Xored Software</li>
 			<li><b>Noriaki Takatsu</b>, IBM</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
