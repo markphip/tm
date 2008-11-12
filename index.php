@@ -78,14 +78,14 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/">
-		TM 3.1M2</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M3-200811121314/">
+		TM 3.1M3</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M3-200811121314/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M3-200811121314/buildNotes.php">
 		build notes</a>]<br/>
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M3-200811121314/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
 <!--
@@ -96,7 +96,8 @@
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.0.2:</b> ETA February 2009 with <a href="http://wiki.eclipse.org/Ganymede#Coordinated_Service_Releases">Ganymede SR2</a></li>
+		<ul><li><b>TM 3.0.2:</b> ETA December 2008</li>
+		    <li><b>TM 3.0.3:</b> ETA February 2009 with <a href="http://wiki.eclipse.org/Ganymede#Coordinated_Service_Releases">Ganymede SR2</a></li>
 		    <li><b>TM 3.1:</b> ETA June 2009 with Eclipse 3.5
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
