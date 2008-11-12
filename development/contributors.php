@@ -98,6 +98,7 @@
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
 			<li><b>Yu-Fen Kuo</b>, MontaVista</li>
 			<li><b>Renan Le Padellec</b>, Wind River</li>
+			<li><b>Justin Lin</b>, IBM</li>
 			<li><b>Johnson Ma</b>, Wind River</li>
 			<li><b>Rupen Mardirossian</b>, IBM</li>
 			<li><b>Ewa Matejska</b>, ACCESS Systems (formerly PalmSource)</li>
