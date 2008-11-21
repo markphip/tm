@@ -239,6 +239,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,244807,Don Yantzi,1,dmcknight,Dela
 svn:org.eclipse.tm.tcf/agent,245511,Renan Le Padellec,15,eutarass,[tcf] Interactive mode should be optional
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,245069,Noriaki Takatsu,2,dmcknight,[dstore] dstoreTrace has no timestamp
 svn:org.eclipse.tm.tcf/agent,249742,Vlad Lungu,28,eutarass,[tcf] Need generic array support
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,256135,Li Ding,12,dmcknight,Subsystem not restored in system view tree if subsystem configuration does not support filter
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
