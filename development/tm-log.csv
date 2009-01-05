@@ -241,7 +241,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,245069,Noriaki Takatsu,2,
 svn:org.eclipse.tm.tcf/agent,249742,Vlad Lungu,28,eutarass,[tcf] Need generic array support
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,256135,Li Ding,12,dmcknight,Subsystem not restored in system view tree if subsystem configuration does not support filter
 org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,256724,Noriaki Takatsu,3,dmcknight,[multithread] thread-level security is not established in FileClassifier thread
-org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,257666,Noriaki Takatsu,3,dmcknight,10,[dstore][multithread] TCP/IP socket connection is not closed
+org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,257666,Noriaki Takatsu,10,dmcknight,[dstore][multithread] TCP/IP socket connection is not closed
+org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,259905,Noriaki Takatsu,16,dmcknight,[api] Provide a facility to use its own keystore
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
