@@ -24,7 +24,7 @@ EOBRANDING;
 
 	$Menu->setProjectBranding($branding);
 	
-	$Nav->addNavSeparator("Target Management", 	"/dsdp/tm/tm-new/");
+	$Nav->addNavSeparator("Target Management", 	"/dsdp/tm/tm-new/", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Information", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;About", "/dsdp/tm/tm-new/about", "_self", 1);
 	$Nav->addCustomNav("&nbsp;&nbsp;&nbsp;&nbsp;Team", "/dsdp/tm/tm-new/team",	"_self", 1);
