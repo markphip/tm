@@ -24,8 +24,7 @@ EOBRANDING;
 
 	$Menu->setProjectBranding($branding);
 	
-	$Nav->addNavSeparator("Target Management", 	"/dsdp/tm/tm-new/", "_self", 1);
-	$Nav->addCustomNav("Information", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1);
+	# $Nav->addNavSeparator("Target Management", 	"/dsdp/tm/tm-new/", "_self", 1);
 	$Nav->addCustomNav("About", "/dsdp/tm/tm-new/about", "_self", 1);
 	$Nav->addCustomNav("Team", "/dsdp/tm/tm-new/team",	"_self", 1);
 	$Nav->addCustomNav("Plan", "/dsdp/tm/tm-new/plan", "_self", 1);
@@ -33,6 +32,7 @@ EOBRANDING;
 	$Nav->addCustomNav("Demos", "/dsdp/tm/tm-new/demos", "_self", 1);
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/DSDP/TM", "_self", 1); 
 	$Nav->addCustomNav("Legal", "dsdp/tm/development/tm-log.csv", "_self", 1);
+	$Nav->addCustomNav("DSDP", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1);
 
 	$Nav->addNavSeparator("Users", "/dsdp/tm/tm-new/tutorial", "_self", 1);
 	$Nav->addCustomNav("Getting Started", "/dsdp/tm/tm-new/tutorial", "_self", 1);
