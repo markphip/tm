@@ -31,6 +31,7 @@ EOBRANDING;
 	$Nav->addCustomNav("Presentations", "/dsdp/tm/tm-new/presentations", "_self", 1);
 	$Nav->addCustomNav("Demos", "/dsdp/tm/tm-new/demos", "_self", 1);
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/DSDP/TM", "_self", 1); 
+	$Nav->addCustomNav("Summary", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1); 
 	$Nav->addCustomNav("Summary", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1);
 	$Nav->addCustomNav("Legal", "dsdp/tm/development/tm-log.csv", "_self", 1);
 
