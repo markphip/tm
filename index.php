@@ -60,16 +60,16 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.2-200812050230/">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">
 		TM 3.0.2</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.2-200812050230/">downloads</a> 
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.2-200812050230/buildNotes.php">build notes</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/buildNotes.php">build notes</a>
 		<!--
 		| <a href="/dsdp/tm/development/relnotes/3.0/readme_tm_3.0.html">release notes</a>
 		-->
 		]<br/>
-		The TM 3.0.2 release includes more than 30 unique bug fixes and performance improvements.
+		The TM 3.0.3 service release includes 12 distinct bug fixes and performance improvements.
 		It is fully compatible with TM 3.0, and runs on Eclipse 3.4 (Ganymede) as well as 
 		Eclipse 3.3 (Europa). Look at the
 		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>, the build notes
@@ -96,8 +96,7 @@
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.0.3:</b> ETA February 2009 with <a href="http://wiki.eclipse.org/Ganymede#Coordinated_Service_Releases">Ganymede SR2</a></li>
-		    <li><b>TM 3.1:</b> ETA June 2009 with Eclipse 3.5
+		<ul><li><b>TM 3.1:</b> ETA June 2009 with Eclipse 3.5 (<a href="http://wiki.eclipse.org/Galileo">Galileo</a>)
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
 
