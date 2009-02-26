@@ -61,7 +61,7 @@
 
 		<p><font size="+2"><b>Latest Release:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">
-		TM 3.0.2</a></font>
+		TM 3.0.3</a></font>
 		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
 		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/buildNotes.php">build notes</a>
@@ -222,8 +222,8 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Dec 5th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.2-200812050230/">TM 3.0.2</a> Service Release</li>
-			    <li>Sep 24th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.1-200809181400/">TM 3.0.1</a> Service Release</li>
+			<ul><li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">TM 3.0.3</a> Service Release</li>
+			    <li>Dec 5th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.2-200812050230/">TM 3.0.2</a> Service Release</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
 				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
