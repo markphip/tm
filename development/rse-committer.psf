@@ -50,6 +50,7 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.ssh,org.eclipse.rse.subsystems.terminals.ssh"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.ui,org.eclipse.rse.terminals.ui"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,org.eclipse.rse.ui"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui.capabilities,org.eclipse.rse.ui.capabilities"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.useractions,org.eclipse.rse.useractions"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/dsdp/tm/development,www-tm-development"/>
 	</provider>
