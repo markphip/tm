@@ -78,14 +78,14 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M5-200902081925/">
-		TM 3.1M5</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M5-200902081925/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/">
+		TM 3.1M6</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M5-200902081925/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/buildNotes.php">
 		build notes</a>]<br/>
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M5-200902081925/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
 <!--
