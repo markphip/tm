@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+<provider id="org.tigris.subversion.subclipse.core.svnnature">
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/agent,org.eclipse.tm.tcf.agent"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/docs,org.eclipse.tm.tcf.docs"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/examples/org.eclipse.tm.tcf.examples.daytime,org.eclipse.tm.tcf.examples.daytime"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/examples/org.eclipse.tm.tcf.examples.daytime.agent,org.eclipse.tm.tcf.examples.daytime.agent"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf,org.eclipse.tm.tcf"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.cdt.ui,org.eclipse.tm.tcf.cdt.ui"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.debug,org.eclipse.tm.tcf.debug"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.debug.ui,org.eclipse.tm.tcf.debug.ui"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.dsf,org.eclipse.tm.tcf.dsf"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.dsf.ui,org.eclipse.tm.tcf.dsf.ui"/>
+<project reference="0.9.3,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.rse,org.eclipse.tm.tcf.rse"/>
+</provider>
+</psf>
