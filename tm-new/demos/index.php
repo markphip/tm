@@ -13,7 +13,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "New Page Template";
+	$pageTitle 		= "Demos";
 	$pageKeywords	= "device, target";
 	$pageAuthor		= "David Dykstal";
 	
@@ -33,6 +33,9 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 		<p>
+		Under Construction!
+		</p>
+		<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam. Nunc pretium. Suspendisse potenti. Nullam et lorem. Mauris dui. Nulla nisi. Duis at erat. In consectetur. Ut vel quam. Nam tristique, dui vitae iaculis suscipit, urna risus iaculis purus, quis facilisis odio augue sed dui. Sed varius semper tortor. Nam rhoncus, nibh non convallis scelerisque, nulla quam egestas dui, vel tincidunt augue lectus eget nulla. Aenean condimentum pede vitae velit. Duis vulputate.
 		</p>
 		<p>
@@ -47,10 +50,6 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>
-				<li><a href="">fake link</a> with an explanation of said link.</li>
-				<li><a href="">fake link</a> with an explanation of said link.</li>
-				<li><a href="">fake link</a> with an explanation of said link.</li>
-				<li><a href="">fake link</a> with an explanation of said link.</li>
 			</ul>
 		</div>
 	</div>
