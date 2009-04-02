@@ -23,30 +23,30 @@
 EOBRANDING;
 
 	$Menu->setProjectBranding($branding);
-	
-	$Nav->addNavSeparator("Target Management");
-	$Nav->addCustomNav("About", "/dsdp/tm/tm-new/about", "_self", 1);
-	$Nav->addCustomNav("Team", "/dsdp/tm/tm-new/team",	"_self", 1);
-	$Nav->addCustomNav("Plan", "/dsdp/tm/tm-new/plan", "_self", 1);
-	$Nav->addCustomNav("Presentations", "/dsdp/tm/tm-new/presentations", "_self", 1);
-	$Nav->addCustomNav("Demos", "/dsdp/tm/tm-new/demos", "_self", 1);
-	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/DSDP/TM", "_self", 1); 
-	$Nav->addCustomNav("Summary", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1); 
-	$Nav->addCustomNav("Summary", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1);
-	$Nav->addCustomNav("Legal", "dsdp/tm/development/tm-log.csv", "_self", 1);
 
-	$Nav->addNavSeparator("Users");
-	$Nav->addCustomNav("Getting Started", "/dsdp/tm/tm-new/tutorial", "_self", 1);
-	$Nav->addCustomNav("Downloads", "/dsdp/tm/tm-new/downloads", "_self", 1);
-	$Nav->addCustomNav("Bugs", "/dsdp/tm/tm-new/bugs", "_self", 1);
+	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1);
+	
+	$Nav->addNavSeparator("Target Management", "/dsdp/tm/tm-new/index.php", "_self", 1);
+	$Nav->addCustomNav("About", "/dsdp/tm/tm-new/about/index.php", "_self", 1);
+	$Nav->addCustomNav("Team", "/dsdp/tm/tm-new/team/index.php", "_self", 1);
+	$Nav->addCustomNav("Plan", "/dsdp/tm/development/plan.php", "_self", 1);
+	$Nav->addCustomNav("Presentations", "/dsdp/tm/tm-new/presentations/index.php", "_self", 1);
+	$Nav->addCustomNav("Demos", "/dsdp/tm/tm-new/demos/index.php", "_self", 1);
+	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/DSDP/TM", "_self", 1); 
+	$Nav->addCustomNav("Legal", "/dsdp/tm/development/tm-log.csv", "_self", 1);
+
+	$Nav->addNavSeparator("Users", "/dsdp/tm/tm-new/tutorial/index.php", "_self", 1);
+	$Nav->addCustomNav("Getting Started", "/dsdp/tm/tm-new/tutorial/index.php", "_self", 1);
+	$Nav->addCustomNav("Downloads", "/dsdp/tm/tm-new/downloads/index.php", "_self", 1);
+	$Nav->addCustomNav("Bugs", "/dsdp/tm/tm-new/bugs/index.php", "_self", 1);
 	$Nav->addCustomNav("FAQ (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ", "_self", 1);
 	$Nav->addCustomNav("Newsgroup", "http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html", "_self", 1);
 
-	$Nav->addNavSeparator("Contributors (wiki)");
+	$Nav->addNavSeparator("Contributors (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 1);
 	$Nav->addCustomNav("Contributing (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 1);
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev", "_self", 1);
-	$Nav->addCustomNav("CVS", "/dsdp/tm/tm-new/cvs/", "_self", 1);
-	$Nav->addCustomNav("Development Tools", "dsdp/tm/development/", "_self", 1);
+	$Nav->addCustomNav("CVS", "/dsdp/tm/development/cvs-setup.php", "_self", 1);
+	$Nav->addCustomNav("Development Tools", "dsdp/tm/development/index.php", "_self", 1);
 
 
 ?>

@@ -34,7 +34,7 @@
 	<div id="midcolumn">
 		<h1>$pageTitle</h1>
 
-	<h2>Mission Statement</h2>
+	<h2>Mission</h2>
     The Target Management project creates data models and frameworks
     to configure and manage remote systems, their connections, and their services.
     </P>
@@ -96,7 +96,7 @@
 
 	<div id="rightcolumn">
 		<div class="sideitem">
-			<h6>Getting started</h6>
+			<h6>Related Links</h6>
 			<ul>				
 				<li><a href="/dsdp/tm/tutorial/index.php"
 					target="_self">TM Getting Started</a></li>
