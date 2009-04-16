@@ -33,7 +33,7 @@ EOBRANDING;
 	$Nav->addCustomNav("Presentations", "/dsdp/tm/tm-new/presentations/index.php", "_self", 1);
 	$Nav->addCustomNav("Demos", "/dsdp/tm/tm-new/demos/index.php", "_self", 1);
 	$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/DSDP/TM", "_self", 1); 
-	$Nav->addCustomNav("Legal", "/dsdp/tm/development/tm-log.csv", "_self", 1);
+	$Nav->addCustomNav("IP Log", "http://www.eclipse.org/projects/ip_log.php?projectid=dsdp.tm", "_self", 1);
 
 	$Nav->addNavSeparator("Users", "/dsdp/tm/tm-new/tutorial/index.php", "_self", 1);
 	$Nav->addCustomNav("Getting Started", "/dsdp/tm/tm-new/tutorial/index.php", "_self", 1);
@@ -46,7 +46,8 @@ EOBRANDING;
 	$Nav->addCustomNav("Contributing (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 1);
 	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev", "_self", 1);
 	$Nav->addCustomNav("CVS", "/dsdp/tm/development/cvs-setup.php", "_self", 1);
-	$Nav->addCustomNav("Development Tools", "dsdp/tm/development/index.php", "_self", 1);
+	$Nav->addCustomNav("Development Tools", "/dsdp/tm/development/index.php", "_self", 1);
+	$Nav->addCustomNav("Search CVS", "/dsdp/tm/searchcvs.php?q=file%3A+org.eclipse.tm%25%2F" . "+days%3A+7", "_self", 2);
 
 
 ?>
