@@ -246,8 +246,5 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,259905,Noriaki Takatsu,16
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
-Jakarta Oro 2.0.8,232,/cvsroot/tools:org.eclipse.orbit/org.apache.oro,Apache Software License v1.1,unmodified binary + associated unmodified sources
-Apache Commons Net 1.4.1,230,/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,unmodified binary + associated unmodified sources
+Apache Commons Net 2.0.0,3188,/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,unmodified binary + associated unmodified sources
 BoundedBufferWithStateTracking CPJ2e,1552,/cvsroot/dsdp:org.eclipse.tm.core/terminal/org.eclipse.tm.terminal/src/org/eclipse/tm/internal/terminal/control/impl/TerminalInputStream.java,Public Domain,derivative work (BoundedByteBuffer)
-Apache Commons Net 1.4.1 patch NET-3,1752,/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,patch from Apache Courtesy Rob Hasselbaum
-Apache Commons Net 1.4.1 patch NET-73,1753,/cvsroot/tools:org.eclipse.orbit/org.apache.commons.net,Apache License v2.0,patch from Apache Courtesy Rob Hasselbaum

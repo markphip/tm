@@ -28,8 +28,7 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi,org.eclipse.tm.rapi"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.examples,org.eclipse.tm.rapi.examples"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.tests,org.eclipse.tm.rapi.tests"/>
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.commons.net,org.apache.commons.net,v1_4_1"/>
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.oro,org.apache.oro,v2_0_8"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.commons.net,org.apache.commons.net,v2_0_0"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/doc/org.eclipse.dstore.doc.isv,org.eclipse.dstore.doc.isv"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,org.eclipse.rse.doc.isv"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/doc/org.eclipse.rse.doc.user,org.eclipse.rse.doc.user"/>

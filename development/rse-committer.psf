@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <psf version="2.0">
 	<provider id="org.eclipse.team.cvs.core.cvsnature">
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.commons.net,org.apache.commons.net,v1_4_1"/>
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.oro,org.apache.oro,v2_0_8"/>
+		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.commons.net,org.apache.commons.net,v2_0_0"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.rse.subsystems.wince,org.eclipse.rse.subsystems.wince"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi,org.eclipse.tm.rapi"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.examples,org.eclipse.tm.rapi.examples"/>
