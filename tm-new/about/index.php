@@ -59,8 +59,12 @@
     Since there are many different vendors and solutions around in the device software
     space, the main charter of target management is to provide data models and frameworks
     that are flexible and open enough for vendor-specific extensions. Sample implementations 
-    are provided for TCP/IP Secure Shell (ssh) connections, FTP data transfer and gdb remote launching 
-    in the CDT environment. The basis for our implementations is an open-source version
+    are provided for TCP/IP Secure Shell (ssh) connections, FTP data transfer, Telnet and
+    Windows CE connections. In addition to that, with the <a href="http://wiki.eclipse.org/TCF">Target Communication Framework (TCF)</a>,
+    a lightweight communication protocol specifically suited for embedded software development
+    is also part of our offering.</p>
+    <p>
+    The basis for our implementations is an open-source version
     of the <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
     IBM Remote System Explorer</A>. Current releases can be downloaded for evaluation
     <a href="http://download.eclipse.org/dsdp/tm/downloads/">here</a>.

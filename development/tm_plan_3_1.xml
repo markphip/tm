@@ -20,7 +20,8 @@ or integrated with RSE.
 <p>
 In terms of interfaces to other Eclipse projects, we provide an
 Eclipse Filesystem (EFS) provider to allow remote resources be
-mapped into an Eclipse Workspace, and a CDT Remote Launch integration.
+mapped into an Eclipse Workspace. The DLTK and CDT projects are
+other Eclipse projects known to integrate with DSDP-TM.
 </p>
 Shortcut to Themes:
 <ul>
@@ -51,7 +52,7 @@ Shortcut to Themes:
 	   <li>RSE client runtime binaries (split up by protocol, includes user documentation) (downloadable).</li>
 	   <li>RSE dstore server runtime (downloadable).</li>
 	   <li>RSE User Actions and Compile Commands (downloadable).</li>
-	   <li>RSE CDT Launch Integration (downloadable).</li>
+	   <li><strike>RSE CDT Launch Integration (downloadable).</strike> is moved into CDT as per Galileo M7.</li>
 	   <li>RSE tutorial code and examples (downloadable).</li>
        <li>RSE unit test framework and tests (downloadable).</li>
     </ul></li>
@@ -59,10 +60,9 @@ Shortcut to Themes:
 	   <li>TM Terminal SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>TM Discovery SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>TCF SDK (includes runtime, user and programmer documentation, and examples, with sources) (downloadable).</li>
-	   <li>Redistribution of Apache Commons Net 1.4.1 and Jakarta ORO 2.0.8 (downloadable through the Orbit project).</li>
+	   <li>Redistribution of <strike>Apache Commons Net 1.4.1 and Jakarta ORO 2.0.8</strike> Apache Commons Net 2.0 (downloadable through the Orbit project).</li>
     </ul></li>
     <li><b>Incubating components:</b><ul>
-	   <li>RSE Terminal Integration (runtime and sources) (downloadable).</li>
 	   <li>RSE WinCE Subsystems and RAPI wrappers (runtime and sources) (downloadable).</li>
     </ul></li>
 </ul>
@@ -110,14 +110,13 @@ In order to remain current, each Eclipse release is designed to run on
 reasonably current versions of the underlying operating environments.
 <p>The Target Management Project 3.1 depends upon on the Eclipse Platform 3.5.
 Various sub components also depend on other Eclipse Projects, namely
-the C/C++ Development Tools (CDT) 4.0 or later, and the Eclipse Modeling
-Framework (EMF) 2.3 or later. 
+the Eclipse Modeling Framework (EMF) 2.3 or later. 
 For this release, the RSE sources will be written and compiled
 against version 1.4.2 of the Java Platform APIs (i.e., Java 2 Platform,
 Release 1.4.2 SE), and designed to run on version 1.4.2 of the Java
-Runtime Environment, Standard Edition. Since Java 5 is also used as
-Eclipse Reference Platform, some testing of Target Management will also
-be done on Java 5.</p> 
+Runtime Environment, Standard Edition except for the following components,
+which are compiled on and running against Java 5:
+<b>FTP, Telnet and Import/Export</b>.</p> 
 
 <p>The Target Management deliverables will be tested and validated against a 
 subset of the reference platforms listed in the 
