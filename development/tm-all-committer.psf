@@ -35,14 +35,11 @@
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/examples/org.eclipse.rse.examples-feature,org.eclipse.rse.examples-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/examples/org.eclipse.rse.examples.daytime,org.eclipse.rse.examples.daytime"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/examples/org.eclipse.rse.examples.tutorial,org.eclipse.rse.examples.tutorial"/>
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/examples/org.eclipse.rse.remotecdt,org.eclipse.rse.remotecdt"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse-feature,org.eclipse.rse-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.core-feature,org.eclipse.rse.core-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.dstore-feature,org.eclipse.rse.dstore-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.ftp-feature,org.eclipse.rse.ftp-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.local-feature,org.eclipse.rse.local-feature"/>
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.remotecdt-feature,org.eclipse.rse.remotecdt-feature"/>
-		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.remotecdt.wrapper-feature,org.eclipse.rse.remotecdt.wrapper-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.sdk-feature,org.eclipse.rse.sdk-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.ssh-feature,org.eclipse.rse.ssh-feature"/>
 		<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.telnet-feature,org.eclipse.rse.telnet-feature"/>
