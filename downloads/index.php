@@ -46,7 +46,6 @@ $dls = array(
 			"Automated Tests" => "automated-tests"
 		),
 		"RSE Add-ons, Integrations and Stand-alone Offerings" => array(
-			"Remote CDT Integration" => "remotecdt",
 			"Discovery Framework" => "discovery",
 			"Terminal" => "terminal"
 		),
