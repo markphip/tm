@@ -73,6 +73,9 @@
 						Useful utilities from the Platform team. Consider adding their
 						<a href="http://www.eclipse.org/eclipse/platform-core/downloads.html#updates">
 						update site</a> to your configuration.</li>
+					<li><b><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/releng/org.eclipse.rse.build/README_build.txt?revision=1.2&root=DSDP_Project">
+						Building RSE</a></b><br/>
+						Instructions how to perform unattended builds of TM / RSE.</li> 
 					<li><b><a
 						href="http://wiki.eclipse.org/Platform-releng">Release Engineering</a></b> <br>
 						See the instructions, FAQs and help from the Platform-Releng team.</li>
