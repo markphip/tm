@@ -78,21 +78,19 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/">
-		TM 3.1M6</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/">
+		TM 3.1M7</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/buildNotes.php">
 		build notes</a>]<br/>
 		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
-<!--
-		With M7, the <a href="http://wiki.eclipse.org/TM_2.0_Ramp_down_Plan_for_Europa">
+		With M7, the <a href="http://wiki.eclipse.org/DSDP/TM/3.1_Ramp_down_Plan">
 		Ramp-down phase</a> of release candidates towards
-		the TM 2.0 release with Europa on June 29 has been entered.
--->
+		the TM 3.1 release with Galileo end of June has been entered.
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
