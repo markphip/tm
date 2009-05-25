@@ -111,6 +111,7 @@
 			<li><b>Gaetan Morice</b>, Anyware-Tech</li>
 			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Masao Nishimoto</b>, IBM</li>
+			<li><b>Alex Panchenko</b>, Xored Software</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
 			<li><b>Timur Shipilov</b>, Xored Software</li>
