@@ -1,13 +1,13 @@
-@REM ******************************************************************************
-@REM # Copyright (c) 2006, 2007 Wind River Systems, Inc.
-@REM # All rights reserved. This program and the accompanying materials 
-@REM # are made available under the terms of the Eclipse Public License v1.0 
-@REM # which accompanies this distribution, and is available at 
-@REM # http://www.eclipse.org/legal/epl-v10.html 
-@REM # 
-@REM # Contributors: 
-@REM # Martin Oberhuber - initial API and implementation 
-@REM #******************************************************************************
+@rem ***************************************************************************
+@rem # Copyright (c) 2006, 2007 Wind River Systems, Inc.
+@rem # All rights reserved. This program and the accompanying materials 
+@rem # are made available under the terms of the Eclipse Public License v1.0 
+@rem # which accompanies this distribution, and is available at 
+@rem # http://www.eclipse.org/legal/epl-v10.html 
+@rem # 
+@rem # Contributors: 
+@rem # Martin Oberhuber - initial API and implementation 
+@rem ***************************************************************************
 @ECHO OFF
 REM #:#
 REM #:# lcp.bat - Shellscript wrapper for Cygwin "lcp" to Count lines of code,
