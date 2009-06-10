@@ -1,0 +1,1854 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List
+href="APPROVED%20IP%20Log%20for%20dpsp_tm%20for%20Galileo_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="APPROVED%20IP%20Log%20for%20dpsp_tm%20for%20Galileo_files/editdata.mso">
+<link rel=OLE-Object-Data
+href="APPROVED%20IP%20Log%20for%20dpsp_tm%20for%20Galileo_files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+x\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>IP Log for dsdp.tm</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>Barb Cochrane</o:LastAuthor>
+  <o:LastSaved>2009-06-04T20:08:44Z</o:LastSaved>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=stylesheet type="text/css"
+href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/small.css"
+title=small>
+<link rel="alternate stylesheet" type="text/css"
+href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/large.css"
+title=large>
+<link rel=stylesheet type="text/css"
+href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/visual.css"
+media=screen>
+<link rel=stylesheet type="text/css"
+href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/layout.css"
+media=screen>
+<link rel=stylesheet type="text/css"
+href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/print.css"
+media=print>
+<link rel=stylesheet type="text/css"
+href="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/css/header.css"
+media=screen>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style24
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:Hyperlink;
+	mso-style-id:8;}
+a:link
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+a:visited
+	{color:purple;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding:0px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:12.0pt;}
+.xl25
+	{mso-style-parent:style0;
+	font-size:24.0pt;
+	font-weight:700;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	text-align:left;
+	padding-left:12px;
+	mso-char-indent-count:1;}
+.xl27
+	{mso-style-parent:style24;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	text-align:left;
+	padding-left:12px;
+	mso-char-indent-count:1;}
+.xl28
+	{mso-style-parent:style0;
+	font-size:18.0pt;
+	font-weight:700;}
+.xl29
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid black;
+	background:gray;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl30
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	border:.5pt solid black;
+	white-space:normal;}
+.xl31
+	{mso-style-parent:style0;
+	border:.5pt solid black;
+	white-space:normal;}
+.xl32
+	{mso-style-parent:style24;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	border:.5pt solid black;
+	white-space:normal;}
+.xl33
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	background:gray;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl34
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	background:gray;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl35
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	background:gray;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl36
+	{mso-style-parent:style0;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl37
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl38
+	{mso-style-parent:style0;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl39
+	{mso-style-parent:style0;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl40
+	{mso-style-parent:style0;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl41
+	{mso-style-parent:style24;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl42
+	{mso-style-parent:style24;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:.5pt solid black;
+	white-space:normal;}
+.xl43
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	text-align:left;
+	padding-left:24px;
+	mso-char-indent-count:2;}
+.xl44
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>APPROVED IP Log for dpsp_tm for</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>300</x:DefaultRowHeight>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>600</x:VerticalResolution>
+     </x:Print>
+     <x:CodeName>Sheet1</x:CodeName>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>38</x:ActiveRow>
+       <x:ActiveCol>2</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>8700</x:WindowHeight>
+  <x:WindowWidth>16155</x:WindowWidth>
+  <x:WindowTopX>360</x:WindowTopX>
+  <x:WindowTopY>120</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2059"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="2"/>
+ </o:shapelayout></xml><![endif]-->
+<meta name=author content="">
+<meta name=keywords content="">
+
+<script  type="text/javascript" src="/eclipse.org-common/themes/Phoenix/styleswitcher.js">
+</script>
+</head>
+
+<body link=blue vlink=purple class=xl24>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=896 style='border-collapse:
+ collapse;table-layout:fixed;width:672pt'>
+ <col class=xl24 width=128 style='mso-width-source:userset;mso-width-alt:4681;
+ width:96pt'>
+ <col class=xl24 width=256 span=3 style='mso-width-source:userset;mso-width-alt:
+ 9362;width:192pt'>
+ <tr class=xl44 height=24 style='height:18.0pt'>
+  <td height=24 class=xl44 colspan=3 width=640 style='height:18.0pt;mso-ignore:
+  colspan;width:480pt'>APPROVED IP Log for dpsp_tm for Galileo</td>
+  <td class=xl44 width=256 style='width:192pt'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl25 style='height:30.0pt'>Eclipse</td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl26 style='height:15.0pt'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/org/foundation/contact.php">Contact</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/legal/">Legal</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt' align=left valign=top><!--[if gte vml 1]><v:shapetype
+   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s2050" type="#_x0000_t75" alt="Eclipse Live"
+   href="http://live.eclipse.org/" style='position:absolute;margin-left:0;
+   margin-top:0;width:21pt;height:21pt;z-index:1' o:button="t">
+   <v:imagedata src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><v:shape id="_x0000_s2052" type="#_x0000_t75" alt="Planet Eclipse"
+   href="http://www.planeteclipse.org/" style='position:absolute;margin-left:43.5pt;
+   margin-top:0;width:21pt;height:21pt;z-index:3' o:button="t">
+   <v:imagedata src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><v:shape id="_x0000_s2051" type="#_x0000_t75" alt="Eclipse Plugin Central"
+   href="http://www.eclipseplugincentral.com/" style='position:absolute;
+   margin-left:21.75pt;margin-top:0;width:21pt;height:21pt;z-index:2' o:button="t">
+   <v:imagedata src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
+  position:absolute;z-index:1;margin-left:0px;margin-top:0px;width:86px;
+  height:28px'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=0 height=0></td>
+    <td width=28></td>
+    <td width=1></td>
+    <td width=28></td>
+    <td width=1></td>
+    <td width=28></td>
+   </tr>
+   <tr>
+    <td height=28></td>
+    <td align=left valign=top><a href="http://live.eclipse.org/"><img border=0
+    width=28 height=28
+    src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_Live.png"
+    alt="Eclipse Live" title="Eclipse Live" v:shapes="_x0000_s2050"></a></td>
+    <td></td>
+    <td align=left valign=top><a href="http://www.eclipseplugincentral.com/"><img
+    border=0 width=28 height=28
+    src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_plugin.png"
+    alt="Eclipse Plugin Central" title="Eclipse Plugin Central" v:shapes="_x0000_s2051"></a></td>
+    <td></td>
+    <td align=left valign=top><a href="http://www.planeteclipse.org/"><img
+    border=0 width=28 height=28
+    src="http://www.eclipse.org/eclipse.org-common/themes/Phoenix/images/Icon_planet.png"
+    alt="Planet Eclipse" title="Planet Eclipse" v:shapes="_x0000_s2052"></a></td>
+   </tr>
+  </table>
+  </span><![endif]><span style='mso-ignore:vglayout2'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td height=20 class=xl24 width=128 style='height:15.0pt;width:96pt'></td>
+   </tr>
+  </table>
+  </span></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl26 style='height:15.0pt'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/" target="_self">Home</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/users/" target="_self">Users</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/membership/" target="_self">Members</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/committers/" target="_self">Committers</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/downloads/" target="_self">Downloads</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/resources/" target="_self">Resources</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/projects/" target="_self">Projects</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/org/" target="_self">About Us</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt' align=left valign=top>
+  <form action="http://www.google.com/cse"
+  id="searchbox_017941334893793413703:sqfrdtd112s">
+  </form>
+  <!--[if gte vml 1]><v:shapetype id="_x0000_t201" coordsize="21600,21600"
+   o:spt="201" path="m,l,21600r21600,l21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path shadowok="f" o:extrusionok="f" strokeok="f" fillok="f"
+    o:connecttype="rect"/>
+   <o:lock v:ext="edit" shapetype="t"/>
+  </v:shapetype><v:shape id="_x0000_s2053" type="#_x0000_t201" style='position:absolute;
+   margin-left:0;margin-top:0;width:1in;height:18pt;z-index:4;visibility:hidden'
+   strokecolor="windowText [64]" o:insetmode="auto">
+   <![if gte mso 9]><v:imagedata src="APPROVED%20IP%20Log%20for%20dpsp_tm%20for%20Galileo_files/image001.emz"
+    o:title=""/>
+   <![endif]><x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Pict</x:CF>
+   </x:ClientData>
+  </v:shape><v:shape id="_x0000_s2054" type="#_x0000_t201" style='position:absolute;
+   margin-left:48.75pt;margin-top:0;width:143.25pt;height:18pt;z-index:5'
+   strokecolor="windowText [64]" o:insetmode="auto">
+   <![if gte mso 9]><v:imagedata src="APPROVED%20IP%20Log%20for%20dpsp_tm%20for%20Galileo_files/image002.emz"
+    o:title=""/>
+   <![endif]><x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Pict</x:CF>
+   </x:ClientData>
+  </v:shape><v:shape id="_x0000_s2055" type="#_x0000_t201" style='position:absolute;
+   margin-left:96pt;margin-top:0;width:50.25pt;height:25.5pt;z-index:6'
+   strokecolor="windowText [64]" o:insetmode="auto">
+   <![if gte mso 9]><v:imagedata src="APPROVED%20IP%20Log%20for%20dpsp_tm%20for%20Galileo_files/image003.emz"
+    o:title=""/>
+   <![endif]><x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Pict</x:CF>
+   </x:ClientData>
+  </v:shape><![endif]--><script  type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_017941334893793413703%3Asqfrdtd112s?=en">
+  </script><![if !vml]><span style='mso-ignore:vglayout;position:absolute;
+  z-index:4;margin-left:0px;margin-top:0px;width:256px;height:34px'><span
+  style='mso-ignore:vglayout;position:absolute;z-index:4;margin-left:0px;
+  margin-top:0px;width:96px;height:24px'><![endif]><![if !mso]>
+  <div style="visibility:hidden"><![endif]><INPUT TYPE="hidden" NAME="cx" VALUE="017941334893793413703:sqfrdtd112s"
+  v:shapes="_x0000_s2053" class=shape><![if !mso]></div>
+  <![endif]><![if !vml]></span><span style='mso-ignore:vglayout;position:absolute;
+  z-index:5;margin-left:65px;margin-top:0px;width:191px;height:24px'><![endif]><INPUT TYPE="text" SIZE="25" NAME="q"
+  v:shapes="_x0000_s2054" class=shape><![if !vml]></span><span
+  style='mso-ignore:vglayout;position:absolute;z-index:6;margin-left:128px;
+  margin-top:0px;width:67px;height:34px'><![endif]><INPUT TYPE="submit" VALUE="Search" NAME="sa"
+  v:shapes="_x0000_s2055" class=shape><![if !vml]></span></span><![endif]><span
+  style='mso-ignore:vglayout2'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td height=20 class=xl24 width=128 style='height:15.0pt;width:96pt'></td>
+   </tr>
+  </table>
+  </span></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl26 style='height:15.0pt'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl26 style='height:15.0pt'>A A</td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl26 style='height:15.0pt'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://dev.eclipse.org/site_login/">login</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl25 colspan=2 style='height:30.0pt;mso-ignore:colspan'>IP
+  Log for dsdp.tm</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 class=xl28 style='height:23.25pt'>Licenses</td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl26 style='height:15.0pt'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl26 colspan=2 style='height:15.0pt;mso-ignore:colspan'>Eclipse
+  Public License, 1.0</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 class=xl28 colspan=2 style='height:23.25pt;mso-ignore:colspan'>Third-Party
+  Code</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl29 width=128 style='height:15.0pt;width:96pt'>CQ</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>Third-Party
+  Code</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>License</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>Use</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1060">1060</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Processes
+  subsystem for SSH Version: 1.0</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Eclipse
+  Public License</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl32 align=right width=128 style='height:15.0pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1069">1069</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>RSE
+  connection test cases Version: 1.0</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Eclipse
+  Public License</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1161">1161</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Import/Export
+  and User Defined Actions Version: 1.0</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Eclipse
+  Public License</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl32 align=right width=128 style='height:15.0pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1393">1393</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>RSE
+  Telnet Shell Subsystem Version: 1.0</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Eclipse
+  Public License</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1552">1552</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>BoundedBufferWithStateTracking
+  Version: unknown</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Public
+  Domain</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1870">1870</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Target
+  Communication Framework (TCF) Initial Contribution</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Eclipse
+  Public License</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2183">2183</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>RAPI2
+  wrapper and WinCE subsystem for RSE</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Eclipse
+  Public License</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl32 align=right width=128 style='height:15.0pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2256">2256</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>RSE
+  Terminal Integration</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Eclipse
+  Public License</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl32 align=right width=128 style='height:15.0pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2714">2714</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>RSE
+  Team Synchronization Plugin</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Eclipse
+  Public License</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=3188">3188</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Apache
+  Commons Net Version: 2.0 (Subset) (using Orbit CQ3044)</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Apache
+  License, 2.0</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>unmodified
+  source&nbsp;&amp;&nbsp;binary</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 class=xl28 colspan=2 style='height:23.25pt;mso-ignore:colspan'>Pre-Req
+  Dependencies</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl29 width=128 style='height:15.0pt;width:96pt'>CQ</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>Third-Party
+  Code</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>License</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>Dependencies</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2600">2600</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>RXTX
+  Version: 2.1-7r2</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>GNU
+  Library or 'Lesser' General Public License (LGPL)</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>works
+  with</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 class=xl28 colspan=2 style='height:23.25pt;mso-ignore:colspan'>Unused
+  Approved Contributions</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl29 width=128 style='height:15.0pt;width:96pt'>CQ</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>Third-Party
+  Code</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>License</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>Status</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=230">230</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Apache
+  Jakarta Commons Net Library Version: 1.4.1</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Apache
+  License, 2.0</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>obsolete:
+  was used in the past but is not longer used</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=232">232</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Apache
+  Jakarta ORO Library Version: 2.0.8</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Apache
+  Software License 1.1</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>obsolete:
+  was used in the past but is not longer used</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1752">1752</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Jakarta
+  Commons Net patch 1.4.1 patch NET-3</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Apache
+  License, 2.0</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>obsolete:
+  was used in the past but is not longer used</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=1753">1753</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Jakarta
+  Commons Net patch 1.4.1 patch NET-73</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Apache
+  License, 2.0</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>obsolete:
+  was used in the past but is not longer used</td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl32 align=right width=128 style='height:25.5pt;
+  border-top:none;width:96pt' x:num><a
+  href="https://dev.eclipse.org/ipzilla/show_bug.cgi?id=2519">2519</a></td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Change
+  TCF agent to EPL/EDL dual-license</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>obsolete:
+  was used in the past but is not longer used</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 class=xl28 colspan=2 style='height:23.25pt;mso-ignore:colspan'>Committers</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl33 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Past and Present Active</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl29 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Name</td>
+  <td class=xl29 width=256 style='border-top:none;border-left:none;width:192pt'>Organization</td>
+  <td class=xl29 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Felix Burton</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Wind
+  River</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Xuan Chen</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>IBM</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Kevin Doyle</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>IBM</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Anna Dushistova</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>MontaVista
+  Software</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>David Dykstal</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>IBM</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Radoslav Gerganov</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>David McKnight</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>IBM</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Javier Montalvo Orus</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Kushal Munir</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Martin Oberhuber</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Wind
+  River</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Michael Scharf</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Wind
+  River</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Uwe Stieber</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Wind
+  River</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Eugene Tarassov</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Wind
+  River</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl31 width=128 style='height:15.0pt;border-top:none;
+  width:96pt'>Ted Williams</td>
+  <td class=xl31 width=256 style='border-top:none;border-left:none;width:192pt'>Wind
+  River</td>
+  <td class=xl30 width=256 style='border-top:none;border-left:none;width:192pt'>&nbsp;</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 class=xl28 colspan=3 style='height:23.25pt;mso-ignore:colspan'>Contributors
+  and Their Contributions</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl29 width=128 style='height:15.0pt;width:96pt'>Bug</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>Size</td>
+  <td class=xl29 width=256 style='border-left:none;width:192pt'>Description</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Felix&nbsp;Burton (windriver.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=221380">221380</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>3.9K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  TCF agent depends on pthreads for asynchronous events</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>missing part of previous patch</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=221380">221380</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>22.6K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  TCF agent depends on pthreads for asynchronous events</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Partial implementation of async request support</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=221380">221380</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.0K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  TCF agent depends on pthreads for asynchronous events</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>missing part from previous patch</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=40 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:30.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=222363">222363</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>54.6K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Initial implementation of value-add</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Initial value-add framework</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=222363">222363</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.3K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Initial implementation of value-add</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Fix to close channel when EOM is received from remote peer</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=40 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:30.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=223571">223571</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>10.3K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  message logger value-add process</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>TCF message log process</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=224277">224277</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>23.6K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  ptrace attach race condition</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>updated fix for ptrace attach race condition</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=226789">226789</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>32.4K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  input buffer and thread less udp discovery patch</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>input buffer and thread less udp discovery patch</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Li&nbsp;Ding (ca.ibm.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td rowspan=2 height=71 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:53.25pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=256135">256135</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.2K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>Subsystem
+  not restored in system view tree if subsystem configuration does not support
+  filter</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Add checking for supportFilters</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Anna&nbsp;Dushistova (ru.mvista.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=231966">231966</a></td>
+  <td rowspan=2 class=xl36 align=right width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt' x:num>881</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[rseterminal][apidoc]
+  Add terminals.rse Javadoc (package.html)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>package javadoc</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=235934">235934</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.8K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>Launch
+  Shell/Terminal commands enabled when selection is empty</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>patch that fixes the issue</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Daniel&nbsp;Friederich (freescale.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td rowspan=2 height=85 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:63.75pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=237378">237378</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.0K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  TCF Reference implementation does not follow spec for Flow Control command F</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Patch for the agent to accept the defined syntax too.</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td rowspan=2 height=85 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:63.75pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=237378">237378</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.6K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  TCF Reference implementation does not follow spec for Flow Control command F</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>java side patch. Send terminating 0 byte (see in comment for
+  additional remarks)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=264723">264723</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>13.1K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  API extension to TCF Registers and Memory services</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Patch with register service changes</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Kenya&nbsp;Ishimoto (jp.ibm.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td rowspan=2 height=85 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:63.75pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=241197">241197</a></td>
+  <td rowspan=2 class=xl36 align=right width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt' x:num>892</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>Paste
+  action causes IllegalArgumentException at Resource.copy</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Patch of org.eclipse.rse.ui - change
+  SystemPasteFromClipboardAction.</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Sidharth&nbsp;Kodikal (freescale.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=228389">228389</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>33.7K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf][api]
+  Breakpoint data structure extensions</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Updated Breakpoint service spec</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=230274">230274</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>31.2K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf][api]
+  Runcontrol Service. Reverse resume modes</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Runcontrol spec update</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Mike&nbsp;Kucera (ca.ibm.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=241316">241316</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>14.6K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[efs]
+  Cannot restore editors for RSE/EFS-backed resources</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>enhanced patch</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Justin&nbsp;Lin (ca.ibm.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=244051">244051</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.8K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>JJ:
+  Environment Variables property page allows duplicates in table</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Patch to fix duplicate name checking in the environment
+  variables page</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Vlad&nbsp;Lungu (windriver.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=249736">249736</a></td>
+  <td rowspan=2 class=xl36 align=right width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt' x:num>679</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Cannot bind to default port after using connection and restarting</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>SO_REUSEADDR on default port</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=40 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:30.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=249742">249742</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.0K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Need generic array support</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>generic array support</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=249841">249841</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.6K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Changes in TCF discovery protocol: UDP instead of TCP in slave mode</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>move Locator.Hello detection to start of event branch</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=254484">254484</a></td>
+  <td rowspan=2 class=xl36 align=right width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt' x:num>800</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  json_read_array() fails on empty array i.e. []</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>fix for json_read_array() bug</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Laura&nbsp;Le&nbsp;Padellec (windriver.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=230346">230346</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.8K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  TCF client should accept script of input commands</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Client accepts file of input commands - revision 2</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Renan&nbsp;Le&nbsp;Padellec (windriver.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=222929">222929</a></td>
+  <td rowspan=2 class=xl36 align=right width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt' x:num>634</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  &quot;Processes attach &quot; command generates an invalid TCF message<ID></td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Reworked &quot;Processes attach&quot; reply</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=227494">227494</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>37.6K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Comments should follow the ANSI-C syntax</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Replace all C++ comments (i.e //) by the standard C syntax (i.e.
+  /* */)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=71 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:53.25pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=245511">245511</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.4K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Interactive mode should be optional</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td height=51 class=xl37 width=256 style='height:38.25pt;border-left:none;
+  width:192pt'>&quot;#define ENABLE_Cmdline&quot; in config.h controls presence
+  of interactive mode code</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Alex&nbsp;Panchenko (xored.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=277061">277061</a></td>
+  <td rowspan=2 class=xl36 align=right width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt' x:num>860</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[terminal]
+  TelnetConnection.isConnected() should check if socket was not closed</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>TelnetConnection.java patch</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Ken&nbsp;Ryall (nokia.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=274627">274627</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.2K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Fix NPE in a couple ILogger implementations</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>fix NPE</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=40 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:30.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=274652">274652</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.2K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Cancel the agent's event loop</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>cancel event loop</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Andrei&nbsp;Sobolev (xored.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td rowspan=2 height=71 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:53.25pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=250456">250456</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.0K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[terminal][regression]
+  Ssh banner message causes IllegalArgumentException popup</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Patch to fix issue</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Noriaki&nbsp;Takatsu (jp.ibm.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=239068">239068</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.3K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[dstore][multithread]
+  &quot;client.username&quot; property in getUserPreferencesDirectory</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>&quot;client.username&quot; property in UniversalServerUtilities</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=239073">239073</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.6K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[dstore][multithread]
+  assignCacheJar() is to be done after setClient()</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>In multithread, the cache jar should be assigned after
+  setClient() is called</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=239419">239419</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.1K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[dstore]
+  Dynamically change the level of logging</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Refer to system.property every time the log is requested</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=239419">239419</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.7K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[dstore]
+  Dynamically change the level of logging</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Change System property name and add System.err</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td rowspan=2 height=85 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:63.75pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=242968">242968</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.8K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[dstore][multithread]
+  serverSocket will be exhausted when client timeout occurrs in Accept</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>serverSocket must be closed when an exception happens in Accept</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=40 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:30.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=245069">245069</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.4K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[dstore]
+  dstoreTrace has no timestamp</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>dstoreTrace should have timestamps</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=256724">256724</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.8K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[multithread]
+  thread-level security is not established in FileClassifier thread</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Establish thread-level security in FileClassifier thread</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=259905">259905</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.7K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[dstore][api]
+  To enable a product to use it's own keystore</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>To provide a way to use its own keystore</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Greg&nbsp;Watson (computer.org)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td rowspan=2 height=71 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:53.25pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=252060">252060</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>1.7K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>InputStream
+  from HostShellProcessAdapter incorrectly throws IOException</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>patch to fix problem</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=40 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:30.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=268817">268817</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>92.0K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>Add
+  support for Mac OS X</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Patch to add support for Mac OS X</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Don&nbsp;Yantzi (ca.ibm.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=233970">233970</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.1K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>StandardCredentialsProvider
+  ignores ICredentialsValidator message</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl37 width=256 style='height:15.0pt;border-left:none;
+  width:192pt'>Proposed patch for both issues.</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=244807">244807</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>3.0K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>System
+  view does not handle restore from cache</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Subsystem patch (with Contribution statement)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=85 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:63.75pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=244807">244807</a></td>
+  <td rowspan=2 class=xl36 align=right width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt' x:num>940</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>System
+  view does not handle restore from cache</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=51 style='height:38.25pt'>
+  <td height=51 class=xl37 width=256 style='height:38.25pt;border-left:none;
+  width:192pt'>This is an update to the original patch (requires the original
+  patch be applied first)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>Richie&nbsp;Yu (ca.ibm.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=2 height=54 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:40.5pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=241716">241716</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>2.2K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>Handle
+  change expired password</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>updates local variable to handle potential change in .validate
+  ()</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=3 height=20 class=xl38 width=640 style='border-right:.5pt solid black;
+  height:15.0pt;width:480pt'>gaetan&nbsp;morice (anyware-tech.com)</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td rowspan=2 height=68 class=xl41 align=right width=128 style='border-bottom:
+  .5pt solid black;height:51.0pt;border-top:none;width:96pt' x:num><a
+  href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=243768">243768</a></td>
+  <td rowspan=2 class=xl36 width=256 style='border-bottom:.5pt solid black;
+  border-top:none;width:192pt'>9.7K</td>
+  <td class=xl36 width=256 style='border-top:none;border-left:none;width:192pt'>[tcf]
+  Possibility to programatically add new services to the java implementation</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=34 style='height:25.5pt'>
+  <td height=34 class=xl37 width=256 style='height:25.5pt;border-left:none;
+  width:192pt'>Patch in order to add an API for local/remote service addition</td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=31 style='height:23.25pt'>
+  <td height=31 class=xl28 colspan=2 style='height:23.25pt;mso-ignore:colspan'>Repositories</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl24 colspan=4 style='height:15.0pt;mso-ignore:colspan'>The
+  information contained in this log was generated by using commit information
+  from the following repositories:</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl43 colspan=2 style='height:15.0pt;mso-ignore:colspan'>/cvsroot/dsdp/org.eclipse.tm.core</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl43 colspan=2 style='height:15.0pt;mso-ignore:colspan'>/cvsroot/dsdp/org.eclipse.tm.rse</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl43 colspan=2 width=384 style='height:15.0pt;mso-ignore:
+  colspan;width:288pt'><script  type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script><script  type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-910670-2");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+  </script>/dsdp/org.eclipse.tm.tcf</td>
+  <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl26 style='height:15.0pt'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><!-- midcolumn --><!-- maincontent --><a
+  href="http://www.eclipse.org/">Home</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/legal/privacy.php">Privacy Policy</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl27 style='height:15.0pt'><a
+  href="http://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl24 colspan=3 style='height:15.0pt;mso-ignore:colspan'>Copyright
+  &copy; 2009 The Eclipse Foundation. All Rights Reserved</td>
+  <td class=xl24></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=128 style='width:96pt'></td>
+  <td width=256 style='width:192pt'></td>
+  <td width=256 style='width:192pt'></td>
+  <td width=256 style='width:192pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
