@@ -15,45 +15,77 @@
   See the <a href="readme_tm_3.1.html">TM 3.1 release notes</a> as well
   as the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">build notes</a>
   for details about API changes, bugs fixed and other changes.</p>
-<!--
+
 <ul>
   <li><a href="#RSE">Remote System Explorer (RSE)</a>
-  <ul>
-     <li><a href="#RSE">Internals</a></li>
-     <li><a href="#Wizards">Wizards</a></li>
-     <li><a href="#Subsystems">Connections and Subsystems</a></li>
-  </ul></li>
   <li><a href="#Terminal">Terminal</a></li>
 </ul>
--->
+
 <table border="0" cellpadding="10" cellspacing="0" width="80%">
   <tr>
     <td colspan="2"><hr />
-      <h2><a name="RSE" id="RSE"></a>Title</h2>
-      <hr /></td>
+      <h2><a name="RSE" id="RSE"></a>Remote System Explorer (RSE)</h2>
+      <hr /></td> 
+  </tr>
+    <tr>
+    <td width="30%" valign="top" align="left"><b>Team Review/Synchronize with Import/Export </b></td>
+    <td width="70%" valign="top">Users have the option of selecting Review/Synchronize from the 
+    Remote file system Export and Import wizards when doing and export or import.  This has the 
+    effect of using the Platform Team view to see changes between remote and local source before 
+    committing changes to/from a remote system.
+       For more details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=185925">[185925]</a>.    
+       <p><img src="images/exportwizard.gif" alt="Remote file system Export" /></p>
+       <p><img src="images/reviewsynchronize.gif" alt="Review/Synchronize in the Team view" /></p></td>
+       
   </tr>
   <tr>
-    <td width="30%" valign="top" align="left"><b>Feature</b></td>
-    <td width="70%" valign="top">Description.
-       For more details, see bugs
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=189274">[189274]</a> and
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=216858">[216858]</a>.</td>
+    <td width="30%" valign="top" align="left"><b>Allowing Files from the same Host but from a Different Connection to be Mapped to Different Locations</b></td>
+    <td width="70%" valign="top">This feature provides a preference allowing users to choose whether
+    files on the same host but different connections should get mapped to the same local temporary file location 
+    as each other.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=245260">[245260]</a>.</td>
   </tr>
+  
+   <tr>
+    <td width="30%" valign="top" align="left"><b>Show in Remote Systems view</b></td>
+    <td width="70%" valign="top">This feature provides the ability to select a remote object in a given
+    view, such as the Remote System Details view or the Remote Scratchpad and have it displayed in the Remote Systems view.
+    This also allows a user to select resource in the Resource Navigator view and have the corresponding resource displayed
+    in the Remote Systems view.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=160105">[160105]</a>. and
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=218227">[218227]
+       </td>
+  </tr>
+   
   <tr>
-    <td width="30%" valign="top" align="left"><b>Feature</b></td>
-    <td width="70%" valign="top">Description.
-       For details, see bugs
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=180507">[180507]</a> and
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=209593">[209593]</a>.</td>
-  </tr>
+    <td width="30%" valign="top" align="left"><b>Drag and Drop of Hosts to Change Order</b></td>
+    <td width="70%" valign="top">The user is able to drag and drop Host objects in the Remote Systems view
+    in order to change the order in which they appear.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=196166">[196166]</a>.</td>
+  </tr> 
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Small Fixes and Enhancements</b></td>
+    <td valign="top" width="70%">Several small fixes and enhancements
+    were made:
+    <ul>
+      <li>[usability] RSE Save Conflict dialog should indicate which file is in conflict
+        [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=242389">242389</a>].</li>
+      <li>[api] New: Allow file name search in Remote Search to not be case sensitive
+        [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=243495">243495</a>].</li>
+      <li>[dstore][api] Wrong encoding
+        [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=267247">267247</a>].</li>
+   </ul>
+   </td>  
+   </tr>
+   
+  <!--  
   <tr>
     <td colspan="2"><hr />
     </td>
-  </tr>
-  <tr>
-    <td colspan="2"><hr />
-      <h3><a name="Subsystems" id="Subsystems"></a>Title</h3>
-      <hr /></td>
   </tr>
   <tr>
     <td align="left" valign="top" width="30%"><b>Feature</b></td>
@@ -65,6 +97,7 @@
     <td colspan="2"><hr />
     </td>
   </tr>
+  -->
 </table>
 <p>More details about API changes, new features and bugs fixed are in the 
   build notes of the earlier TM 3.1 milestone builds:</p>
