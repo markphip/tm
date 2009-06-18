@@ -8,18 +8,20 @@
 </head>
 <body>
 <h1>DSDP Target Management 3.1 - New and Noteworthy</h1>
-<p>The emphasis on the TM 3.1 release has been bug fixes,
+<p>The emphasis on the TM 3.1 release has been on solidifying and hardening 
+  existing functionality,
   so there are not too many new features to mention. Still, here are 
   some of the more noteworthy things you'll find in TM 3.1 (June 25, 2009)
   which is now available for <a href="http://download.eclipse.org/dsdp/tm/downloads/index.php" target="_top">download</a>.
-  See the <a href="readme_tm_3.1.html">TM 3.1 release notes</a> as well
-  as the <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">build notes</a>
-  for details about API changes, bugs fixed and other changes.</p>
+  See the <a href="readme_tm_3.1.html">TM 3.1 release notes</a> for details
+  on bugs fixed, known issues, noteworthy new API and other changes.</p>
 
+<!--  TOC is of no use with only one item
 <ul>
   <li><a href="#RSE">Remote System Explorer (RSE)</a>
 </ul>
-
+ -->
+ 
 <table border="0" cellpadding="10" cellspacing="0" width="80%">
   <tr>
     <td colspan="2"><hr />
@@ -28,11 +30,12 @@
   </tr>
     <tr>
     <td width="30%" valign="top" align="left"><b>Team Review/Synchronize with Import/Export </b></td>
-    <td width="70%" valign="top">Users have the option of selecting Review/Synchronize from the 
-    Remote file system Export and Import wizards when doing and export or import.  This has the 
-    effect of using the Platform Team view to see changes between remote and local source before 
-    committing changes to/from a remote system.
-       For more details, see bug
+    <td width="70%" valign="top">In the Remote file system Export and Import wizards (<b>File &gt; 
+    Import &gt; Remote Systems &gt; Remote File System</b>), users can now select the new 
+    <b>Review/Synchronize</b> option. This allows to see changes between the remote and local 
+    file systems before committing changes to/from a remote system. Kudos to GSoC student
+    Takuya Miyamoto for contributing this functionality.   
+       For details, see bug
        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=185925">[185925]</a>.    
        <p><img src="images/exportwizard.gif" alt="Remote file system Export" /></p>
        <p><img src="images/reviewsynchronize.gif" alt="Review/Synchronize in the Team view" /></p></td>
@@ -41,7 +44,7 @@
   <tr>
     <td width="30%" valign="top" align="left"><b>Multiple Connections to the same Host</b></td>
     <td width="70%" valign="top">RSE 3.1 provides the ability to maintain separate local cache locations 
-    for separate connections to the same remote host. This allows to correctly maintain systems where 
+    for multiple connections to the same remote host. This allows to correctly maintain systems where 
     different logins to the same host reveal different portions of the file system (such as multiple FTP 
     accounts on a remote web server), or when different ports on a gateway are tunneled to different remote 
     hosts (such as SSH tunnels).  By default, the RSE 3.0 setting of re-using the same file cache for 
@@ -54,57 +57,67 @@
    <tr>
     <td width="30%" valign="top" align="left"><b>Show in Remote Systems view</b></td>
     <td width="70%" valign="top">This feature provides the ability to select a remote object in a given
-    view, such as the Remote System Details view or the Remote Scratchpad and have it displayed in the Remote Systems view.
-    This also allows a user to select a resource in the Project Explorer view and have the corresponding resource displayed
-    in the Remote Systems view.
+    view such as the Remote System Details view or the Remote Scratchpad, and have it displayed in the 
+    Remote Systems view. This is helpful for understanding an element's position in the file system
+    hierarchy to navigate up and down.<br/>
+    From the Project Explorer, the same action locates a selected resource in the RSE Local Files
+    Subsystem in the Remote Systems view. This is particularly helpful for tar, tgz or zip archives,
+    which RSE can browse into. It can also be used for comparing a folder's files by size, owner
+    or other attributes in the tabular Remote System Details view.
        For details, see bug
        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=160105">[160105]</a> and
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=218227">[218227].
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=218227">[218227]</a>.
        <p><img src="images/showinrse.gif" alt="Show in RSE" /></p>
        </td>
   </tr>
-   
   <tr>
-    <td width="30%" valign="top" align="left"><b>Drag and Drop of Hosts to Change Order</b></td>
-    <td width="70%" valign="top">The user is able to drag and drop Host objects in the Remote Systems view
-    in order to change the order in which they appear.
-       For details, see bug
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=196166">[196166]</a>.</td>
-  </tr> 
+    <td width="30%" valign="top" align="left"><b>Non-Case-Sensitive Remote Search</b></td>
+    <td valign="top" width="70%">Users now have the option to match filenames ignoring
+    case when doing a Remote Search. In RSE 3.0, filenames were always matched by case.
+    In RSE 3.1, case insensitive matching is default in order to avoid missing expected
+    matches. Note that from the subsystems shipped with RSE, only dstore supports 
+    remote search.
+     For details, see bug
+        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=243495">243495</a>.
+        <p><img src="images/casesensitivesearch.gif" alt="Case-Sensitive Search" /></p>
+        </td>
+  </tr>
   <tr>
     <td width="30%" valign="top" align="left"><b>RSE Save Conflict Dialog Indicating Conflicting File</b></td>
     <td valign="top" width="70%">When RSE detects a save conflict, the dialog presented to the user
-    now indicates which file is in conflict. 
+    now indicates which file is in conflict. This is especially important when performing a
+    "Save All", or when dirty editors are scheduled to save during shutdown.
      For details, see bug
         <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=242389">242389</a>.
         <p><img src="images/conflict.gif" alt="Save Conflict" /></p>
         </td>
   </tr>
   <tr>
-    <td width="30%" valign="top" align="left"><b>Non-Case-Sensitive Remote Search</b></td>
-    <td valign="top" width="70%">Users now have the option to match filenames ignoring
-    case when doing a Remote Search.  In RSE 3.0, filenames were always matched by case.
-     For details, see bug
-        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=243495">243495</a>.
-        <p><img src="images/casesensitivesearch.gif" alt="Case-Sensitive Search" /></p>
-        </td>
-  </tr>
+    <td width="30%" valign="top" align="left"><b>Drag and Drop of Hosts to Change Order</b></td>
+    <td width="70%" valign="top">The user is now able to drag and drop Host objects in the 
+    Remote Systems view in order to change the order in which they appear.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=196166">[196166]</a>.</td>
+  </tr> 
     <tr>
-    <td width="30%" valign="top" align="left"><b>DataStore File Upload Using Workspace Encoding</b></td>
-    <td valign="top" width="70%">When uploading edited text files via the DataStore file service,
-    the workspace encoding is now used as the client encoding to determine how text is converted to
-    the remote host encoding.  In RSE 3.0, the client encoding was assumed to be UTF-8. This conversion 
-    change is important in order to support external non-Eclipse tools to operate on remote 
-    text files encoded with encodings unknown to those tools.    
+    <td width="30%" valign="top" align="left"><b>DStore File Cache Using Workspace Encoding</b></td>
+    <td valign="top" width="70%">Files types which are specified to transfer in text mode 
+    (as per the Remote Systems Files Preference page) are now locally cached in the default
+    local workspace encoding (as specified on the Workspace Preference page). In RSE 3.0, 
+    the local encoding was always assumed to be UTF-8; making the client encoding configurable 
+    allows external non-Eclipse tools which only understand a specific encoding to be used on 
+    the downloaded files. Only the dstore files subsystem performs this transcoding.
+     For details, see bug
         <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=267247">267247</a>.
         </td>
   </tr>
  <tr>
-    <td width="30%" valign="top" align="left"><b>RSE Terminal Integration </b></td>
+    <td width="30%" valign="top" align="left"><b>RSE Telnet Terminal Subsystem</b></td>
     <td width="70%" valign="top">  A "Terminals" subsystem for Telnet is now 
     available in RSE in addition to SSH <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=227569">[227569]</a>. 
     A Generic RSE Shell Service can now run based on adapting any ITerminalService <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=240523">[240523]</a>, 
     thus allowing implementers of a new protocol create a terminal service and immediately get the shell service from it.
+    The SSH and Telnet subsystems have been refactored to leverage this new API and thus share more common code.
     </td>  
 </tr>
  <tr>
@@ -119,33 +132,16 @@
     <td width="70%" valign="top">The Remote CDT Launch now supports running arbitrary commands
 before actually invoking the debuggee. This allows fine-tuning the environment on the remote machine where
 the program will run.
-       For more details, see bug
+       For details, see bug
        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181517">[181517]</a>.    
-       <p><img src="images/remoteCDT-executeCommands.png" alt="Commands to Execute Field in the Remote CDT Launcher" /></p></td>
-       
+       <p><img src="images/remcdtcommands.gif" alt="Commands to Execute Field in the Remote CDT Launcher" /></p></td>
   </tr>
-  <!--  
-  <tr>
-    <td colspan="2"><hr />
-    </td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" width="30%"><b>Feature</b></td>
-    <td valign="top" width="70%">Description.
-    <p><img src="images/new-terminal.gif" alt="New Terminal Features" /></p></td>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2"><hr />
-    </td>
-  </tr>
-  -->
 </table>
 <p>More details about API changes, new features and bugs fixed are in the 
   build notes of the earlier TM 3.1 milestone builds:</p>
 <ul>
-  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0-200806202130/buildNotes.php">
-      TM 3.1 build notes (June 25, 2009)</a></li>
+  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1RC4-200906102040/buildNotes.php">
+      TM 3.1RC4 build notes (June 10, 2009)</a></li>
   <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/buildNotes.php">
       TM 3.1M7 build notes (May 5, 2009)</a></li>
   <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M6-200903192015/buildNotes.php">
@@ -158,8 +154,6 @@ the program will run.
       TM 3.1M3 build notes (November 12, 2008)</a></li>
   <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M2-200809301300/buildNotes.php">
       TM 3.1M2 build notes (September 30, 2008)</a></li>
-  </li>
-
 </ul>
 </body>
 </html>

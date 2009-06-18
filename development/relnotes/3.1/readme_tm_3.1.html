@@ -9,21 +9,57 @@
 <body>
 <h1>DSDP Target Management Release Notes</h1>
 <p>Release 3.1<br/>
-Last revised May 28, 2009</p>
+Last revised June 19, 2009</p>
 
 <h2>TM Release 3.1</h2>
 <p>
-TBD
-(n) unique bugs were adressed, including (m) API change requests.
+224 unique bugs were addressed since TM 3.0, including 23 API change requests.<br/>
+See <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&component=Core&component=RSE&component=Terminal&target_milestone=3.1&target_milestone=3.1+M2&target_milestone=3.1+M3&target_milestone=3.1+M4&target_milestone=3.1+M5&target_milestone=3.1+M6&target_milestone=3.1+M7&target_milestone=3.1+RC1&target_milestone=3.1+RC2&target_milestone=3.1+RC3&target_milestone=3.1+RC4&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&format=table&action=wrap">this report</a> 
+for details on all bugs, and 
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&component=Core&component=RSE&component=Terminal&target_milestone=3.1&target_milestone=3.1+M2&target_milestone=3.1+M3&target_milestone=3.1+M4&target_milestone=3.1+M5&target_milestone=3.1+M6&target_milestone=3.1+M7&target_milestone=3.1+RC1&target_milestone=3.1+RC2&target_milestone=3.1+RC3&target_milestone=3.1+RC4&keywords_type=allwords&keywords=api&resolution=FIXED&cmdtype=doit">this list</a> on API changes.
+</p><p>
+See the <a href="http://www.eclipse.org/dsdp/tm/development/relnotes/3.1/tm-news-3.1.html">TM 3.1 New &amp; Noteworthy</a> for new features<br/> 
+See the <a href="http://www.eclipse.org/projects/project-plan.php?projectid=dsdp.tm">TM 3.1 Project Plan</a>
+      for supported operating environments<br/>
+See the <a href="http://wiki.eclipse.org/DSDP/TM/3.1_Known_Issues_and_Workarounds">TM 3.1 Known Issues and Workarounds</a> Wiki for known problems.<br/>
+  <!--  <li>See the <a href="">TM 3.1 Migration</a> Wiki for migration info</li> -->
+</p><p>
+Some amendments to API specifications are worth noticing, and may require changes 
+in client code even though they are binary compatible.
+More information can be found in the associated bugzilla items:
 </p>
 <ul>
-  <li>See the <a href="http://www.eclipse.org/dsdp/tm/development/relnotes/3.1/tm-news-3.1.html">TM 3.1 New & Noteworthy</a> for new features</li> 
-  <li>See the <a href="http://www.eclipse.org/projects/project-plan.php?projectid=dsdp.tm">TM 3.1 Project Plan</a>
-      for supported operating environments</li>
-  <li>See the <a href="http://wiki.eclipse.org/DSDP/TM/3.1_Known_Issues_and_Workarounds">TM 3.1 Known Issues and Workarounds</a> Wiki for known problems</li>
-<!--  <li>See the <a href="">TM 3.1 Migration</a> Wiki for migration info</li> -->
-  <li>See the <a href="buildNotes.php">TM 3.1 Build Notes</a> for bugs fixed, APIs changed and other information</li> 
+<li>Methods <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/IService.html#initService(org.eclipse.core.runtime.IProgressMonitor)">IService.initService()</a></code>
+  and <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/core/subsystems/ISubSystem.html#initializeSubSystem(org.eclipse.core.runtime.IProgressMonitor)">ISubSystem.initializeSubSystem</a></code>
+  can now throw a <code>SystemMessageException</code> on error. As per the 
+  <a href="http://wiki.eclipse.org/Evolving_Java-based_APIs_2#Evolving_API_interfaces_-_API_methods">Java API compatibility guide</a>,
+  this is not strictly a change breaking binary compatibility, but it does break source compatibility.
+  In other words, you'll need to update your sources when you recompile, though old compiled bundles
+  will continue to run
+  [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=272882">272882</a>].</li>
+<li>The <b>TerminalState.OPENED</b> state has been removed. This was provisional "internal" API,
+  so this change does not constitute an official API change. Still, in order to properly
+  support all update scenarios for consumers of the previous provisional API, the bundle
+  <b>version of org.eclipse.tm.terminal has been moved up to 3.0.0</b>
+  [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=262996">262996</a>].</li>
+<li>The <b>SshShellService, SshHostShell, TelnetShellService, TelnetHostShell</b> and related 
+  classes have been removed and replaced by a generic Terminal-to-HostShell adapter which can 
+  re-use the functionality across the Telnet and SSH plugins.
+  In order to ensure proper version computing on update, the following plugin versinos were changed:
+  <ul>
+    <li><b>org.eclipse.rse.services.ssh</b> changed from 2.1.0 to 3.0.0</li>
+    <li><b>org.eclipse.rse.services.telnet</b> changed from 1.1.0 to 2.0.0</li>
+  </ul>
+  These changes do not indicate breaking public API since the removed classes were
+  actually never API, but consumers should be aware of the probably unexpected
+  major version bump, which was required due to the internal version dependency
+  structure
+  [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=261478">261478</a>].</li>
 </ul>
+For other questions, please check the
+    <a href="http://wiki.eclipse.org/TM_and_RSE_FAQ">TM and RSE FAQ</a>
+    as well as the
+    <a href="http://www.eclipse.org/dsdp/tm/tutorial/">TM getting started guide</a>.
 
 </body>
 </html>
