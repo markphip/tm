@@ -16,7 +16,8 @@ Last revised June 19, 2009</p>
 224 unique bugs were addressed since TM 3.0, including 23 API change requests.<br/>
 See <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&classification=DSDP&product=Target+Management&component=Core&component=RSE&component=Terminal&target_milestone=3.1&target_milestone=3.1+M2&target_milestone=3.1+M3&target_milestone=3.1+M4&target_milestone=3.1+M5&target_milestone=3.1+M6&target_milestone=3.1+M7&target_milestone=3.1+RC1&target_milestone=3.1+RC2&target_milestone=3.1+RC3&target_milestone=3.1+RC4&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&format=table&action=wrap">this report</a> 
 for details on all bugs, and 
-<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&component=Core&component=RSE&component=Terminal&target_milestone=3.1&target_milestone=3.1+M2&target_milestone=3.1+M3&target_milestone=3.1+M4&target_milestone=3.1+M5&target_milestone=3.1+M6&target_milestone=3.1+M7&target_milestone=3.1+RC1&target_milestone=3.1+RC2&target_milestone=3.1+RC3&target_milestone=3.1+RC4&keywords_type=allwords&keywords=api&resolution=FIXED&cmdtype=doit">this list</a> on API changes.
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&component=Core&component=RSE&component=Terminal&target_milestone=3.1&target_milestone=3.1+M2&target_milestone=3.1+M3&target_milestone=3.1+M4&target_milestone=3.1+M5&target_milestone=3.1+M6&target_milestone=3.1+M7&target_milestone=3.1+RC1&target_milestone=3.1+RC2&target_milestone=3.1+RC3&target_milestone=3.1+RC4&keywords_type=allwords&keywords=api&resolution=FIXED&cmdtype=doit">this list</a>
+for new API introduced.
 </p><p>
 See the <a href="http://www.eclipse.org/dsdp/tm/development/relnotes/3.1/tm-news-3.1.html">TM 3.1 New &amp; Noteworthy</a> for new features<br/> 
 See the <a href="http://www.eclipse.org/projects/project-plan.php?projectid=dsdp.tm">TM 3.1 Project Plan</a>
@@ -29,6 +30,9 @@ in client code even though they are binary compatible.
 More information can be found in the associated bugzilla items:
 </p>
 <ul>
+<li>Method <code><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/files/DefaultFileServiceCodePageConverter.html">DefaultFileServiceCodePageConverter#convertFileFromRemoteEncoding()</a></code>
+  can now throw a <b>RuntimeException</b> when a remote file cannot be transcoded to the requested encoding without data loss
+  [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=279014">279014</a>].</li>
 <li>Methods <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/IService.html#initService(org.eclipse.core.runtime.IProgressMonitor)">IService.initService()</a></code>
   and <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/core/subsystems/ISubSystem.html#initializeSubSystem(org.eclipse.core.runtime.IProgressMonitor)">ISubSystem.initializeSubSystem</a></code>
   can now throw a <code>SystemMessageException</code> on error. As per the 
