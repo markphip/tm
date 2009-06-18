@@ -81,7 +81,31 @@
    </ul>
    </td>  
    </tr>
-   
+ <tr>
+    <td width="30%" valign="top" align="left"><b>RSE Terminal Integration </b></td>
+    <td width="70%" valign="top">  A "Terminals" subsystem for Telnet is now 
+    available in RSE in addition to SSH <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=227569">[227569]</a>. 
+    A Generic RSE Shell Service can now run based on adapting any ITerminalService <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=240523">[240523]</a>, 
+    thus allowing implementers of a new protocol create a terminal service and immediately get the shell service from it.
+    </td>  
+</tr>
+ <tr>
+    <td width="30%" valign="top" align="left"><b>Remote CDT Launch feature was moved to CDT </b></td>
+    <td width="70%" valign="top"> The remoteCDT feature has been moved to the CDT project as of the CDT M7 release.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=267065">[267065]</a>.        
+    </td>  
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Remote CDT Launcher Supports Commands Before Launch </b></td>
+    <td width="70%" valign="top">The Remote CDT Launch now supports running arbitrary commands
+before actually invoking the debuggee. This allows fine-tuning the environment on the remote machine where
+the program will run.
+       For more details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=181517">[181517]</a>.    
+       <p><img src="images/remoteCDT-executeCommands.png" alt="Commands to Execute Field in the Remote CDT Launcher" /></p></td>
+       
+  </tr>
   <!--  
   <tr>
     <td colspan="2"><hr />
