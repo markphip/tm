@@ -18,7 +18,6 @@
 
 <ul>
   <li><a href="#RSE">Remote System Explorer (RSE)</a>
-  <li><a href="#Terminal">Terminal</a></li>
 </ul>
 
 <table border="0" cellpadding="10" cellspacing="0" width="80%">
@@ -40,23 +39,28 @@
        
   </tr>
   <tr>
-    <td width="30%" valign="top" align="left"><b>Allowing Files from the same Host but from a Different Connection to be Mapped to Different Locations</b></td>
-    <td width="70%" valign="top">This feature provides a preference allowing users to choose whether
-    files on the same host but different connections should get mapped to the same local temporary file location 
-    as each other.
+    <td width="30%" valign="top" align="left"><b>Multiple Connections to the same Host</b></td>
+    <td width="70%" valign="top">RSE 3.1 provides the ability to maintain separate local cache locations 
+    for separate connections to the same remote host. This allows to correctly maintain systems where 
+    different logins to the same host reveal different portions of the file system (such as multiple FTP 
+    accounts on a remote web server), or when different ports on a gateway are tunneled to different remote 
+    hosts (such as SSH tunnels).  By default, the RSE 3.0 setting of re-using the same file cache for 
+    multiple connections is enabled but this can be disabled in the Preferences.    
        For details, see bug
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=245260">[245260]</a>.</td>
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=245260">[245260]</a>.
+       <p><img src="images/filesharingpreference.gif" alt="File Sharing Preference" /></p></td>
   </tr>
   
    <tr>
     <td width="30%" valign="top" align="left"><b>Show in Remote Systems view</b></td>
     <td width="70%" valign="top">This feature provides the ability to select a remote object in a given
     view, such as the Remote System Details view or the Remote Scratchpad and have it displayed in the Remote Systems view.
-    This also allows a user to select resource in the Resource Navigator view and have the corresponding resource displayed
+    This also allows a user to select a resource in the Project Explorer view and have the corresponding resource displayed
     in the Remote Systems view.
        For details, see bug
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=160105">[160105]</a>. and
-       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=218227">[218227]
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=160105">[160105]</a> and
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=218227">[218227].
+       <p><img src="images/showinrse.gif" alt="Show in RSE" /></p>
        </td>
   </tr>
    
@@ -68,19 +72,33 @@
        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=196166">[196166]</a>.</td>
   </tr> 
   <tr>
-    <td width="30%" valign="top" align="left"><b>Small Fixes and Enhancements</b></td>
-    <td valign="top" width="70%">Several small fixes and enhancements
-    were made:
-    <ul>
-      <li>[usability] RSE Save Conflict dialog should indicate which file is in conflict
-        [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=242389">242389</a>].</li>
-      <li>[api] New: Allow file name search in Remote Search to not be case sensitive
-        [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=243495">243495</a>].</li>
-      <li>[dstore][api] Wrong encoding
-        [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=267247">267247</a>].</li>
-   </ul>
-   </td>  
-   </tr>
+    <td width="30%" valign="top" align="left"><b>RSE Save Conflict Dialog Indicating Conflicting File</b></td>
+    <td valign="top" width="70%">When RSE detects a save conflict, the dialog presented to the user
+    now indicates which file is in conflict. 
+     For details, see bug
+        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=242389">242389</a>.
+        <p><img src="images/conflict.gif" alt="Save Conflict" /></p>
+        </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Non-Case-Sensitive Remote Search</b></td>
+    <td valign="top" width="70%">Users now have the option to match filenames ignoring
+    case when doing a Remote Search.  In RSE 3.0, filenames were always matched by case.
+     For details, see bug
+        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=243495">243495</a>.
+        <p><img src="images/casesensitivesearch.gif" alt="Case-Sensitive Search" /></p>
+        </td>
+  </tr>
+    <tr>
+    <td width="30%" valign="top" align="left"><b>DataStore File Upload Using Workspace Encoding</b></td>
+    <td valign="top" width="70%">When uploading edited text files via the DataStore file service,
+    the workspace encoding is now used as the client encoding to determine how text is converted to
+    the remote host encoding.  In RSE 3.0, the client encoding was assumed to be UTF-8. This conversion 
+    change is important in order to support external non-Eclipse tools to operate on remote 
+    text files encoded with encodings unknown to those tools.    
+        <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=267247">267247</a>.
+        </td>
+  </tr>
  <tr>
     <td width="30%" valign="top" align="left"><b>RSE Terminal Integration </b></td>
     <td width="70%" valign="top">  A "Terminals" subsystem for Telnet is now 
