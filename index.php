@@ -60,15 +60,16 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">
-		TM 3.0.3</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/buildNotes.php">build notes</a>
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/">
+		TM 3.1</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1/">update site</a>
 		<!--
-		| <a href="/dsdp/tm/development/relnotes/3.0/readme_tm_3.0.html">release notes</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/buildNotes.php">build notes</a>
 		-->
+		| <a href="/dsdp/tm/development/relnotes/3.1/readme_tm_3.1.html">release notes</a>
 		]<br/>
+		<!--
 		The TM 3.0.3 service release includes 12 distinct bug fixes and performance improvements.
 		It is fully compatible with TM 3.0, and runs on Eclipse 3.4 (Ganymede) as well as 
 		Eclipse 3.3 (Europa). Look at the
@@ -91,6 +92,7 @@
 		With M7, the <a href="http://wiki.eclipse.org/DSDP/TM/3.1_Ramp_down_Plan">
 		Ramp-down phase</a> of release candidates towards
 		the TM 3.1 release with Galileo end of June has been entered.
+		-->
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
