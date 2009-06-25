@@ -94,12 +94,12 @@
 		the TM 3.1 release with Galileo end of June has been entered.
 		-->
 		</p>
-
+<!--
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
 		<ul><li><b>TM 3.1:</b> ETA June 2009 with Eclipse 3.5 (<a href="http://wiki.eclipse.org/Galileo">Galileo</a>)
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
-
+-->
 
 
 		<p>
