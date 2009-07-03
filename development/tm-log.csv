@@ -246,6 +246,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,259905,Noriaki Takatsu,16
 org.eclipse.tm.rse/plugins/org.eclipse.rse.core,282238,Zhou Renjian,2,dmcknight,NPE when copying host and overwrite itself
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,282241,Zhou Renjian,4,dmcknight,"Paste" is enabled on file system when text is in clipboard
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,282242,Zhou Renjian,4,dmcknight,"LOCALHOST" as host name for first time connection creation
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,282239,Zhou Renjian,15,dmcknight,Monitor view does not update icon according to connection status
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
