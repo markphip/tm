@@ -248,6 +248,7 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,282241,Zhou Renjian,4,dmcknight,"P
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,282242,Zhou Renjian,4,dmcknight,"LOCALHOST" as host name for first time connection creation
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,282239,Zhou Renjian,15,dmcknight,Monitor view does not update icon according to connection status
 org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.core,28365,Noriaki Takatsu,21,dmcknight,[multithread][dstore] Serviceability issue
+org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,285047,Patrick Tasse,6,dmcknight,SystemRefreshAction not disabled when showRefresh returns false
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
