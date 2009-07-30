@@ -220,8 +220,8 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">TM 3.0.3</a> Service Release</li>
-			    <li>Dec 5th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.2-200812050230/">TM 3.0.2</a> Service Release</li>
+			<ul><li>Jun 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/">TM 3.1</a> released</li>
+			    <li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">TM 3.0.3</a> Service Release</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
 				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
