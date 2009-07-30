@@ -119,6 +119,7 @@
 			<li><b>Andrei Sobolev</b>, Xored Software</li>
 			<li><b>Ruslan Sychev</b>, Xored Software</li>
 			<li><b>Noriaki Takatsu</b>, IBM</li>
+			<li><b>Patrick Tassé, Ericsson</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
 			<li><b>Don Yantzi</b>, IBM</li>
