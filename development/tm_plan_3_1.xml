@@ -16,10 +16,6 @@
       name="Target Management">
    <p:release projectid="dsdp.tm" version="3.1"/>
     <p:introduction><div>
-<hr/>
-<div style="align:center;"><big><b>Preliminary</b></big></div>
-The TM 3.1 project plan is still in preliminary state and not yet agreed upon by all parties.
-<hr/>
 The Target Management Project provides data models, frameworks and tools 
 for working with remote computer systems.
 The main deliverable is the Remote System Explorer (RSE), a feature-rich 
@@ -35,20 +31,12 @@ other Eclipse projects known to integrate with DSDP-TM.
 </p>
 Shortcut to Themes:
 <ul>
-  <li><a href="#tp_tcf">Tentative: Bring TCF to Maturity</a></li>
-  <li><a href="#tp_wince">Bring the WinCE component to Maturity</a></li>
-  <li><a href="#tp_terminal">Bring the Terminal APIs to Maturity</a></li>
   <li><a href="#tp_releng">Improve Release Engineering</a></li>
-  <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>
-  <!--
-  <li><a href="#tp_efs">Tentative: Fix and improve the EFS Provider</a></li>
-  -->
   <li><a href="#tp_ua">Improve User Actions and Compile Commands</a></li>
   <li><a href="#tp_usability">Improve Usability</a></li>
-  <li><a href="#tp_components">Componentization</a></li>
   <li><a href="#tp_performance">Avoid plugin activation and Improve Performance</a></li>
   <li><a href="#tp_other">Other</a></li>
-</ul>
+  <!--  Deferred Themes:  <li><a href="#tp_tcf">Tentative: Bring TCF to Maturity</a></li>  <li><a href="#tp_wince">Bring the WinCE component to Maturity</a></li>  <li><a href="#tp_terminal">Bring the Terminal APIs to Maturity</a></li>  <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>  <li><a href="#tp_efs">Tentative: Fix and improve the EFS Provider</a></li>  <li><a href="#tp_components">Componentization</a></li>  --></ul><p><b>Special Note:</b> The Discovery component is no longer actively maintained and will likely be removed in a future release.</p>
   </div></p:introduction>
   <p:release_deliverables><div>
 <ul>
@@ -69,12 +57,11 @@ Shortcut to Themes:
     <li><b>Stand-alone components:</b><ul>
 	   <li>TM Terminal SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>TM Discovery SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
-	   <li>TCF SDK (includes runtime, user and programmer documentation, and examples, with sources) (downloadable).</li>
 	   <li>Redistribution of <strike>Apache Commons Net 1.4.1 and Jakarta ORO 2.0.8</strike> Apache Commons Net 2.0 (downloadable through the Orbit project).</li>
     </ul></li>
     <li><b>Incubating components:</b><ul>
 	   <li>RSE WinCE Subsystems and RAPI wrappers (runtime and sources) (downloadable).</li>
-    </ul></li>
+	   <li>TCF (runtime, user and programmer documentation, and examples) (available from SVN).</li>    </ul></li>
 </ul>
 <b>Notes:</b>
 All stand-alone components will have an integration part that makes
@@ -179,7 +166,7 @@ for Linux x86</td>
 <td style="width: 76px;">x86-32</td>
 <td style="width: 59px;">GTK</td>
 <td style="width: 453px;"> IBM 32-bit SDK for Linux on Intel architecture,<br/>
-Java 2 Technology Edition 1.4.2 SR7 </td>
+Java 2 Technology Edition 5.0, SR5 </td>
 </tr>
 <tr>
 <td style="width: 205px;">Sun Solaris</td>
@@ -329,12 +316,12 @@ ongoing work and planned delivery milestones.
     investigating it, we are not yet in a position to commit to it, or to say
     that we won't be able to address it. After due consideration, a proposal
     will either be committed or deferred. In bugzilla, such items are reflected
-    by having a target milestone "3.1" or "---" assigned.</li>
+    by having a target milestone "3.1" assigned.</li>
   <li><b>Deferred</b> plan item - A reasonable proposal that will not make it in
     to this release for some reason is marked as deferred with a brief note as
     to why it was deferred. Deferred plan items may resurface as committed plan
     items at a later point. In bugzilla, such items are reflected by having
-    a target milestone "Future" assigned.</li>
+    a target milestone "Future" or "---" assigned.</li>
 </ul>
     </div></p:preamble>
 
