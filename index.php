@@ -60,24 +60,23 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/">
-		TM 3.1</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/">
+		TM 3.1.1</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1/">update site</a>
 		<!--
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/buildNotes.php">build notes</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/buildNotes.php">build notes</a>
 		-->
 		| <a href="/dsdp/tm/development/relnotes/3.1/readme_tm_3.1.html">release notes</a>
 		]<br/>
-		<!--
-		The TM 3.0.3 service release includes 12 distinct bug fixes and performance improvements.
-		It is fully compatible with TM 3.0, and runs on Eclipse 3.4 (Ganymede) as well as 
-		Eclipse 3.3 (Europa). Look at the
-		<a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>, the build notes
-		and the
-		<a href="/dsdp/tm/development/relnotes/3.0/tm-news-3.0.html">TM 3.0 New & Noteworthy</a>,
+		The TM 3.1.1 service release includes more than 50 distinct bug fixes and performance 
+		improvements. It is fully compatible with TM 3.1, and runs on Eclipse 3.4 (Ganymede) 
+		and later. Look at the <a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
+		the build notes and the
+		<a href="/dsdp/tm/development/relnotes/3.1/tm-news-3.1.html">TM 3.1 New & Noteworthy</a>
 		for more information.</p>
 
+        <!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/">
 		TM 3.1M7</a></font>
@@ -96,7 +95,9 @@
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.1.1:</b> ETA September 2009 with Eclipse <a href="http://wiki.eclipse.org/Galileo#SR1">Galileo SR1</a>
+		<ul><li><b>TM 3.1.2:</b> ETA Feb 26, 2010 with Eclipse <a href="http://wiki.eclipse.org/Galileo#SR2">Galileo SR2</a>
+		        [<a href="http://wiki.eclipse.org/DSDP/TM/3.1_Ramp_down_Plan#Ramp_down_for_Galileo_SR2_.28Feb_24.2C_2010.29">Ramp-down Plan</a>]</li>
+		    <li><b>TM 3.2:</b> ETA June, 2010 with Eclipse <a href="http://wiki.eclipse.org/Helios">Helios</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
 
@@ -220,7 +221,8 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Jun 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/">TM 3.1</a> released</li>
+			<ul><li>Sep 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/">TM 3.1.1</a> released</li>
+			    <li>Jun 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/">TM 3.1</a> released</li>
 			    <li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">TM 3.0.3</a> Service Release</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
 				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
