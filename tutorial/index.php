@@ -77,10 +77,7 @@
 	and an <a href="http://wiki.eclipse.org/TM_and_RSE_FAQ">
 	FAQ</a> is available on the project Wiki.</p>
     <p>
-    The basis of RSE is a former IBM product, for which a
-    <A href="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-    slide show</A> is still available. Our plans beyond 
-    TM 3.0 are available from the
+	Our plans beyond TM 3.0 are available from the
     Target Management <a href="/dsdp/tm/development/plan.php">Project Plan
     </a> and our <a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
     Use Cases Document</a>, which covers all areas of interest to us.</p>
@@ -121,10 +118,6 @@
     	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
-    	<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
-      		IBM Remote Systems Explorer (RSE) Presentation</a>
-			to get a preview of what the first release of the Target Management System
-			will look like.
 		<li><a href="/dsdp/tm/development/plan.php">
 			Target Management Project Plan</a> 
 			to understand what features and releases are coming next.</li>

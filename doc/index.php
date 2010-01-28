@@ -73,8 +73,6 @@
 		   <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">
 		   Using and Extending the DSDP Target Management Framework (PPT: 850k)</a>
 		   | <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=287">(Zipped PPT: 559k)</a></li>
-		<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
-		    IBM RSE Presentation</a></li>
 		</ul>
 
 		<h2>Older Meeting Notes (Newer notes are on the <a href="http://wiki.eclipse.org/DSDP/TM">Wiki</a>)</h2>
@@ -122,8 +120,6 @@
 				<li><a
 					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf"
-					target="_self">IBM RSE Presentation</a></li>
 				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/dsdp/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>

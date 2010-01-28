@@ -64,9 +64,7 @@
     a lightweight communication protocol specifically suited for embedded software development
     is also part of our offering.</p>
     <p>
-    The basis for our implementations is an open-source version
-    of the <A HREF="http://www.developer.ibm.com/isv/rational/remote_system_explorer.html">
-    IBM Remote System Explorer</A>. Current releases can be downloaded for evaluation
+    Current releases can be downloaded for evaluation
     <a href="http://download.eclipse.org/dsdp/tm/downloads/">here</a>.
 	  <div class="homeitem3col">
 		<h3>For more information, see the</h3>
@@ -88,9 +86,6 @@
     	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
-    	<li><a href="http://www.developer.ibm.com/isv/rational/rse_pres.pdf">
-      		IBM Remote Systems Explorer (RSE) Presentation</a>
-			to get a preview of what RSE looks like.
 		<li><a href="/dsdp/tm/development/plan.php">
 			Target Management Project Planning</a> 
 			to understand what features and releases are coming next.</li>
