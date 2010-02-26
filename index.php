@@ -60,17 +60,17 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/">
-		TM 3.1.1</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">
+		TM 3.1.2</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1/">update site</a>
 		<!--
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/buildNotes.php">build notes</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/buildNotes.php">build notes</a>
 		-->
 		| <a href="/dsdp/tm/development/relnotes/3.1/readme_tm_3.1.html">release notes</a>
 		]<br/>
-		The TM 3.1.1 service release includes more than 50 distinct bug fixes and performance 
-		improvements. It is fully compatible with TM 3.1, and runs on Eclipse 3.4 (Ganymede) 
+		The TM 3.1.2 service release includes 4 bug fixes compared to TM 3.1.1. 
+		It is fully compatible with TM 3.1, and runs on Eclipse 3.4 (Ganymede) 
 		and later. Look at the <a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
 		the build notes and the
 		<a href="/dsdp/tm/development/relnotes/3.1/tm-news-3.1.html">TM 3.1 New & Noteworthy</a>
@@ -221,12 +221,12 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Sep 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/">TM 3.1.1</a> released</li>
+			<ul><li>Feb 26th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
+			    <li>Sep 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/">TM 3.1.1</a> released</li>
 			    <li>Jun 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/">TM 3.1</a> released</li>
 			    <li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">TM 3.0.3</a> Service Release</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
 				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
-				<li>Feb 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-2.0.3-200802251530">TM 2.0.3</a> Service Release</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
                 <!--
  			    <li>Mar 22nd: About 70 participants at the
