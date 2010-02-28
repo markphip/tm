@@ -122,6 +122,7 @@
 			<li><b>Noriaki Takatsu</b>, IBM</li>
 			<li><b>Patrick Tassé, Ericsson</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
+			<li><b>Peter Wang</b>, IBM</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
 			<li><b>Don Yantzi</b>, IBM</li>
 			<li><b>Richie Yu</b>, IBM</li>
