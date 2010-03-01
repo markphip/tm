@@ -59,7 +59,7 @@
 			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>Xuan Chen</b>, IBM</li>
 			<li><b>Kevin Doyle</b>, IBM</li>
-			<li><b>Anna Dushistova</b>, MontaVista</li>
+			<li><b>Anna Dushistova</b>, Mentor Graphics</li>
 			<li><b>David Dykstal</b>, IBM</li>
 			<li><b>Radoslav Gerganov</b>, ProSyst</li>
 			<li><b>David McKnight</b>, IBM</li>
@@ -112,6 +112,7 @@
 			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Masao Nishimoto</b>, IBM</li>
 			<li><b>Alex Panchenko</b>, Xored Software</li>
+			<li><b>Mirko Raner</b></li>
 			<li><b>Zhou Renjian</b>, Shanghai Kortide</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>David Sciamma</b>, Anyware-Tech</li>

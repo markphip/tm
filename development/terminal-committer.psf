@@ -3,6 +3,8 @@
 <provider id="org.eclipse.team.cvs.core.cvsnature">
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,org.eclipse.tm.terminal"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal-feature,org.eclipse.tm.terminal-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local,org.eclipse.tm.terminal.local"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local-feature,org.eclipse.tm.terminal.local-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.sdk-feature,org.eclipse.tm.terminal.sdk-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.serial,org.eclipse.tm.terminal.serial"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.serial-feature,org.eclipse.tm.terminal.serial-feature"/>
