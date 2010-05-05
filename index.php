@@ -76,28 +76,28 @@
 		<a href="/dsdp/tm/development/relnotes/3.1/tm-news-3.1.html">TM 3.1 New & Noteworthy</a>
 		for more information.</p>
 
-        <!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/">
-		TM 3.1M7</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.2M7-201005032039/">
+		TM 3.2M7</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.2M7-201005032039/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.2milestones/">update site</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.2M7-201005032039/buildNotes.php">
 		build notes</a>]<br/>
-		See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.1M7-200905051815/buildNotes.php">
+		TM 3.2M7 is the best and most stable TM release so far. Stability problems with FTP connections
+		have been fixed, and dstore connections have gone through a long series of testing and fixing.
+		For contributors, TM 3.2M7 supports the 
+		<a href="http://download.eclipse.org/eclipse/downloads/drops/S-3.6M7-201004291549/eclipse-news-M7.html#importcvs">Import from CVS</a>
+		feature with Eclipse 3.6M7. See the 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.2M7-201005032039/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.</p>
 		<br/>
-		With M7, the <a href="http://wiki.eclipse.org/DSDP/TM/3.1_Ramp_down_Plan">
+		With M7, the <a href="http://wiki.eclipse.org/DSDP/TM/3.2_Ramp_down_Plan">
 		Ramp-down phase</a> of release candidates towards
-		the TM 3.1 release with Galileo end of June has been entered.
-		-->
+		the TM 3.2 release with Helios end of June has been entered.
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.1.2:</b> ETA Feb 26, 2010 with Eclipse <a href="http://wiki.eclipse.org/Galileo#SR2">Galileo SR2</a>
-		        [<a href="http://wiki.eclipse.org/DSDP/TM/3.1_Ramp_down_Plan#Ramp_down_for_Galileo_SR2_.28Feb_24.2C_2010.29">Ramp-down Plan</a>]</li>
-		    <li><b>TM 3.2:</b> ETA June, 2010 with Eclipse <a href="http://wiki.eclipse.org/Helios">Helios</a>
+		<ul><li><b>TM 3.2:</b> ETA June, 2010 with Eclipse <a href="http://wiki.eclipse.org/Helios">Helios</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
 
