@@ -133,7 +133,7 @@
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
 			<li><b>Ruslan Sychev</b>, Xored Software</li>
 			<li><b>Noriaki Takatsu</b>, IBM</li>
-			<li><b>Patrick Tassé, Ericsson</li>
+			<li><b>Patrick Tassé</b>, Ericsson</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
 			<li><b>Peter Wang</b>, IBM</li>
 			<li><b>Greg Watson</b>, IBM</li>
