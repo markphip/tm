@@ -159,7 +159,7 @@
 		<ul class="midlist">
 			<li><b>Accelerated Technology</b>:
 			  Mark Bozeman, George Clark, Aaron Spear</li>
-			<li><b>Cisco</b>: Hamang Lavana</li>
+			<li><b>Cisco</b>: Hemang Lavana</li>
 			<li><b>Curtiss-Wright Controls</b>: Mark Littlefield, Darian Wong</li>
 			<li><b>Digi</b>: John Leier</li>
 			<li><b>FreeScale</b>: Kirk Beitz, John Cortell, Daymon Rogers</li>
