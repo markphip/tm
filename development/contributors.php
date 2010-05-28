@@ -108,7 +108,7 @@
 			<li><b>Yu-Fen Kuo</b>, MontaVista</li>
 			<li><b>Michael Sills-Lavoie</b>, Ecole Polytechnique de Montreal</li>
 			<li><b>Anton Leherbauer</b>, Wind River</li>
-			<li><b>Kit Lo</li>, IBM</li>
+			<li><b>Kit Lo</b>, IBM</li>
 			<li><b>Laura Le Padellec</b>, Wind River</li>
 			<li><b>Renan Le Padellec</b>, Wind River</li>
 			<li><b>Justin Lin</b>, IBM</li>
