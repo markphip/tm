@@ -89,7 +89,10 @@
 		by last name:
 		<ul class="midlist">
 		    <li><b>Sean Adams</b>, Cisco</li>
+		    <li><b>Peder Andersen</b>, Wind River</li>
 			<li><b>Michael Berger</b>, IBM</li>
+			<li><b>Nick Boldt</b>, Red Hat</li>
+			<li><b>John Cortell</b>, Freescale</li>
 			<li><b>Li Ding</b>, IBM</li>
 			<li><b>Johann Draschwandtner</b>, Wind River</li>
 			<li><b>Sheldon D&acute;Souza</b>, Celunite</li>
@@ -97,9 +100,15 @@
 			<li><b>Jacob Garcowski</b>, IBM</li>
 			<li><b>Øyvind Harboe</b>, Zylin</li>
 			<li><b>Rob Hasselbaum</b>, BEZ Systems, Inc</li>
+			<li><b>Bryan Hunt</b></li>
 			<li><b>Kenya Ishimoto</b>, IBM Japan</li>
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
+			<li><b>Sidharth Kodikal</b>, Freescale</li>
+			<li><b>Mike Kucera</b>, IBM</li>
 			<li><b>Yu-Fen Kuo</b>, MontaVista</li>
+			<li><b>Michael Sills-Lavoie</b>, Ecole Polytechnique de Montreal</li>
+			<li><b>Anton Leherbauer</b>, Wind River</li>
+			<li><b>Kit Lo</li>, IBM</li>
 			<li><b>Laura Le Padellec</b>, Wind River</li>
 			<li><b>Renan Le Padellec</b>, Wind River</li>
 			<li><b>Justin Lin</b>, IBM</li>
@@ -112,18 +121,22 @@
 			<li><b>Benjamin Muskalla</b>, Innoopract</li>
 			<li><b>Masao Nishimoto</b>, IBM</li>
 			<li><b>Alex Panchenko</b>, Xored Software</li>
+			<li><b>Philippe Proulx</b>, Ecole Polytechnique de Montreal</li>
 			<li><b>Mirko Raner</b></li>
 			<li><b>Zhou Renjian</b>, Shanghai Kortide</li>
+			<li><b>Ken Ryall</b>, Nokia</li>
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>David Sciamma</b>, Anyware-Tech</li>
 			<li><b>Timur Shipilov</b>, Xored Software</li>
 			<li><b>Andrei Sobolev</b>, Xored Software</li>
+			<li><b>Ed Swartz</b>, Nokia</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
 			<li><b>Ruslan Sychev</b>, Xored Software</li>
 			<li><b>Noriaki Takatsu</b>, IBM</li>
 			<li><b>Patrick Tassé, Ericsson</li>
 			<li><b>Olivier Thomann</b>, IBM</li>
 			<li><b>Peter Wang</b>, IBM</li>
+			<li><b>Greg Watson</b>, IBM</li>
 			<li><b>Lothar Werzinger</b>, Tradescape Inc.</li>
 			<li><b>Don Yantzi</b>, IBM</li>
 			<li><b>Richie Yu</b>, IBM</li>
