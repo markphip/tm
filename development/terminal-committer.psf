@@ -5,6 +5,7 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal-feature,org.eclipse.tm.terminal-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local,org.eclipse.tm.terminal.local"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local-feature,org.eclipse.tm.terminal.local-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local.sdk-feature,org.eclipse.tm.terminal.local.sdk-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.sdk-feature,org.eclipse.tm.terminal.sdk-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.serial,org.eclipse.tm.terminal.serial"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.serial-feature,org.eclipse.tm.terminal.serial-feature"/>
@@ -13,6 +14,7 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet,org.eclipse.tm.terminal.telnet"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet-feature,org.eclipse.tm.terminal.telnet-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.test,org.eclipse.tm.terminal.test"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.test-feature,org.eclipse.tm.terminal.test-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.view,org.eclipse.tm.terminal.view"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.view-feature,org.eclipse.tm.terminal.view-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/dsdp/tm/development,www-tm-development"/>
