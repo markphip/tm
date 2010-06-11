@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.rse.subsystems.files.dstore (2.1.100.v200905272300)" referee="org.eclipse.rse.subsystems.files.core (3.2.0.v201005221100)" reference_count="1" reference_visibility="22">
+    <target name="org.eclipse.rse.subsystems.files.core.subsystems.IVirtualRemoteFile" type="org.eclipse.rse.subsystems.files.core.subsystems.IVirtualRemoteFile">
+        <reference_kind flags="1" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.subsystems.files.dstore.DStoreVirtualFile illegally implements org.eclipse.rse.subsystems.files.core.subsystems.IRemoteFile via org.eclipse.rse.subsystems.files.core.subsystems.IVirtualRemoteFile" origin="org.eclipse.rse.internal.subsystems.files.dstore.DStoreVirtualFile" type="org.eclipse.rse.internal.subsystems.files.dstore.DStoreVirtualFile"/>
+        </reference_kind>
+    </target>
+</references>

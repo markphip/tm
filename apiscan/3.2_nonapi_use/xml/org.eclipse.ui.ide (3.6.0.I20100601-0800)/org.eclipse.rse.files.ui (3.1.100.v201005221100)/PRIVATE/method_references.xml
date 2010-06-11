@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.rse.files.ui (3.1.100.v201005221100)" referee="org.eclipse.ui.ide (3.6.0.I20100601-0800)" reference_count="13" reference_visibility="2">
+    <target member="removeCheckStateListener" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.removeCheckStateListener(ICheckStateListener)" signature="(Lorg/eclipse/jface/viewers/ICheckStateListener;)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="282" member="removeCheckStateListener" origin="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.removeCheckStateListener(ICheckStateListener)" signature="(Lorg/eclipse/jface/viewers/ICheckStateListener;)V" type="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm"/>
+        </reference_kind>
+    </target>
+    <target member="getListTable" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.getListTable()" signature="()Lorg/eclipse/swt/widgets/Table;" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="230" member="setEnabled" origin="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.setEnabled(boolean)" signature="(Z)V" type="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm"/>
+        </reference_kind>
+    </target>
+    <target member="getAllCheckedListItems" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.getAllCheckedListItems()" signature="()Ljava/util/List;" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="291" member="getSelectedFiles" origin="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.getSelectedFiles()" signature="()[Lorg/eclipse/rse/subsystems/files/core/subsystems/IRemoteFile;" type="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm"/>
+        </reference_kind>
+    </target>
+    <target member="addCheckStateListener" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.addCheckStateListener(ICheckStateListener)" signature="(Lorg/eclipse/jface/viewers/ICheckStateListener;)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="275" member="addCheckStateListener" origin="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.addCheckStateListener(ICheckStateListener)" signature="(Lorg/eclipse/jface/viewers/ICheckStateListener;)V" type="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm"/>
+        </reference_kind>
+    </target>
+    <target member="updateSelections" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.updateSelections(Map)" signature="(Ljava/util/Map;)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="548" member="setupSelectionsBasedOnSelectedTypes" origin="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.setupSelectionsBasedOnSelectedTypes()" signature="()V" type="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm"/>
+        </reference_kind>
+    </target>
+    <target member="setAllSelections" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setAllSelections(boolean)" signature="(Z)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="464" member="widgetSelected" origin="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.3.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm$3"/>
+            <reference linenumber="476" member="widgetSelected" origin="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.4.widgetSelected(SelectionEvent)" signature="(Lorg/eclipse/swt/events/SelectionEvent;)V" type="org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm$4"/>
+        </reference_kind>
+    </target>
+<target member="populateListViewer" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.populateListViewer(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="133" member="refreshFiles" origin="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.refreshFiles()" signature="()V" type="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup"/>
+        </reference_kind>
+    </target>
+    <target member="setRoot" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setRoot(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="setRoot" origin="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.setRoot(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="159" member="setRoot" origin="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.setRoot(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup"/>
+        </reference_kind>
+    </target>
+    <target member="&lt;init&gt;" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.ResourceTreeAndListGroup(Composite, Object, ITreeContentProvider, ILabelProvider, IStructuredContentProvider, ILabelProvider, int, boolean)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/Object;Lorg/eclipse/jface/viewers/ITreeContentProvider;Lorg/eclipse/jface/viewers/ILabelProvider;Lorg/eclipse/jface/viewers/IStructuredContentProvider;Lorg/eclipse/jface/viewers/ILabelProvider;IZ)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="536870912" reference_kind_name="SUPER_CONSTRUCTORMETHOD">
+            <reference linenumber="68" member="&lt;init&gt;" origin="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.SystemFileTreeAndListGroup(Composite, Object, ITreeContentProvider, ILabelProvider, IStructuredContentProvider, ILabelProvider, int, int, int)" signature="(Lorg/eclipse/swt/widgets/Composite;Ljava/lang/Object;Lorg/eclipse/jface/viewers/ITreeContentProvider;Lorg/eclipse/jface/viewers/ILabelProvider;Lorg/eclipse/jface/viewers/IStructuredContentProvider;Lorg/eclipse/jface/viewers/ILabelProvider;III)V" type="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup"/>
+        </reference_kind>
+    </target>
+    <target member="selectionChanged" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="selectionChanged" origin="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="1048576" reference_kind_name="INVOKED_SPECIAL">
+            <reference linenumber="146" member="selectionChanged" origin="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup"/>
+        </reference_kind>
+    </target>
+</references>

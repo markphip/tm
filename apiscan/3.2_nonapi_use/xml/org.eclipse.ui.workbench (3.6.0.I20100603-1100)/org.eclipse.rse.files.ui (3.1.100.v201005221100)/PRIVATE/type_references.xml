@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.rse.files.ui (3.1.100.v201005221100)" referee="org.eclipse.ui.workbench (3.6.0.I20100603-1100)" reference_count="4" reference_visibility="2">
+    <target name="org.eclipse.ui.internal.WorkbenchPage" type="org.eclipse.ui.internal.WorkbenchPage">
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="1640" member="openEditor" origin="org.eclipse.rse.files.ui.resources.SystemEditableRemoteFile.openEditor()" signature="()V" type="org.eclipse.rse.files.ui.resources.SystemEditableRemoteFile"/>
+        <reference linenumber="322" member="hackOpenEditor" origin="org.eclipse.rse.internal.files.ui.actions.SystemRemoteFileOpenWithMenu.hackOpenEditor(SystemEditableRemoteFile, IEditorDescriptor)" signature="(Lorg/eclipse/rse/files/ui/resources/SystemEditableRemoteFile;Lorg/eclipse/ui/IEditorDescriptor;)V" type="org.eclipse.rse.internal.files.ui.actions.SystemRemoteFileOpenWithMenu"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.ui.internal.dialogs.FileExtensionDialog" type="org.eclipse.ui.internal.dialogs.FileExtensionDialog">
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="720" member="promptForResourceType" origin="org.eclipse.rse.internal.files.ui.propertypages.UniversalPreferencePage.promptForResourceType()" signature="()V" type="org.eclipse.rse.internal.files.ui.propertypages.UniversalPreferencePage"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="720" member="promptForResourceType" origin="org.eclipse.rse.internal.files.ui.propertypages.UniversalPreferencePage.promptForResourceType()" signature="()V" type="org.eclipse.rse.internal.files.ui.propertypages.UniversalPreferencePage"/>
+        </reference_kind>
+    </target>
+</references>

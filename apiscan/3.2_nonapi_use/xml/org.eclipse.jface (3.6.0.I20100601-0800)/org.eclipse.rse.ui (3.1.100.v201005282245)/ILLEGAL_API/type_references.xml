@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.rse.ui (3.1.100.v201005282245)" referee="org.eclipse.jface (3.6.0.I20100601-0800)" reference_count="5" reference_visibility="22">
+    <target name="org.eclipse.jface.viewers.TreeViewer" type="org.eclipse.jface.viewers.TreeViewer">
+        <reference_kind flags="1" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.ui.filters.SystemFilterWorkWithFilterPoolsTreeViewer illegally extends org.eclipse.jface.viewers.TreeViewer" origin="org.eclipse.rse.internal.ui.filters.SystemFilterWorkWithFilterPoolsTreeViewer" type="org.eclipse.rse.internal.ui.filters.SystemFilterWorkWithFilterPoolsTreeViewer"/>
+        <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.ui.view.SafeTreeViewer illegally extends org.eclipse.jface.viewers.TreeViewer" origin="org.eclipse.rse.internal.ui.view.SafeTreeViewer" type="org.eclipse.rse.internal.ui.view.SafeTreeViewer"/>
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.ui.view.SystemTableTreeView illegally extends org.eclipse.jface.viewers.TreeViewer" origin="org.eclipse.rse.internal.ui.view.SystemTableTreeView" type="org.eclipse.rse.internal.ui.view.SystemTableTreeView"/>
+        <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.ui.view.team.SystemTeamView illegally extends org.eclipse.jface.viewers.TreeViewer" origin="org.eclipse.rse.internal.ui.view.team.SystemTeamView" type="org.eclipse.rse.internal.ui.view.team.SystemTeamView"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.jface.viewers.TableViewer" type="org.eclipse.jface.viewers.TableViewer">
+        <reference_kind flags="1" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.ui.view.SystemTableView illegally extends org.eclipse.jface.viewers.TableViewer" origin="org.eclipse.rse.ui.view.SystemTableView" type="org.eclipse.rse.ui.view.SystemTableView"/>
+        </reference_kind>
+    </target>
+</references>

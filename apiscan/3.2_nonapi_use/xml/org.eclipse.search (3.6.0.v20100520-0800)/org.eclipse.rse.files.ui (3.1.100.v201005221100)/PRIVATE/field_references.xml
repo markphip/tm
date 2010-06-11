@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.rse.files.ui (3.1.100.v201005221100)" referee="org.eclipse.search (3.6.0.v20100520-0800)" reference_count="2" reference_visibility="2">
+    <target member="SearchDialog_searchAction" name="org.eclipse.search.internal.ui.SearchMessages.SearchDialog_searchAction" type="org.eclipse.search.internal.ui.SearchMessages">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="1101" member="createControl" origin="org.eclipse.rse.internal.files.ui.search.SystemSearchPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.rse.internal.files.ui.search.SystemSearchPage"/>
+        </reference_kind>
+    </target>
+    <target member="SearchDialog_customize" name="org.eclipse.search.internal.ui.SearchMessages.SearchDialog_customize" type="org.eclipse.search.internal.ui.SearchMessages">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="1100" member="createControl" origin="org.eclipse.rse.internal.files.ui.search.SystemSearchPage.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.rse.internal.files.ui.search.SystemSearchPage"/>
+        </reference_kind>
+    </target>
+</references>

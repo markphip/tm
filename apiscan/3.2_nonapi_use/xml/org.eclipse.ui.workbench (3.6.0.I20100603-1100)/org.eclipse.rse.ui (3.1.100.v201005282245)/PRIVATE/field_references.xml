@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Fields" origin="org.eclipse.rse.ui (3.1.100.v201005282245)" referee="org.eclipse.ui.workbench (3.6.0.I20100603-1100)" reference_count="1" reference_visibility="2">
+    <target member="PendingUpdateAdapter_PendingLabel" name="org.eclipse.ui.internal.progress.ProgressMessages.PendingUpdateAdapter_PendingLabel" type="org.eclipse.ui.internal.progress.ProgressMessages">
+        <reference_kind flags="0" kind="2048" reference_kind_name="GETS_STATIC_FIELD">
+            <reference linenumber="2587" member="run" origin="org.eclipse.rse.internal.ui.view.SystemView.CheckPending.run()" signature="()V" type="org.eclipse.rse.internal.ui.view.SystemView$CheckPending"/>
+        </reference_kind>
+    </target>
+</references>

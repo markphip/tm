@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.rse.ui (3.1.100.v201005282245)" referee="org.eclipse.swt.win32.win32.x86 (3.6.0.v3650b)" reference_count="1" reference_visibility="22">
+    <target member="&lt;init&gt;" name="org.eclipse.swt.widgets.TypedListener.TypedListener(SWTEventListener)" signature="(Lorg/eclipse/swt/internal/SWTEventListener;)V" type="org.eclipse.swt.widgets.TypedListener">
+        <reference_kind flags="1" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="120" member="addSelectionListener" message_arguments="org.eclipse.rse.ui.widgets.InheritControl illegally references constructor org.eclipse.swt.widgets.TypedListener" origin="org.eclipse.rse.ui.widgets.InheritControl.addSelectionListener(SelectionListener)" signature="(Lorg/eclipse/swt/events/SelectionListener;)V" type="org.eclipse.rse.ui.widgets.InheritControl"/>
+        </reference_kind>
+    </target>
+</references>

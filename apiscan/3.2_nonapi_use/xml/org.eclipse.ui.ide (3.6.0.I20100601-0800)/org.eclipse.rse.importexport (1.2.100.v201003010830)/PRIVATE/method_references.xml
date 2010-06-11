@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.rse.importexport (1.2.100.v201003010830)" referee="org.eclipse.ui.ide (3.6.0.I20100601-0800)" reference_count="7" reference_visibility="2">
+    <target member="setRoot" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setRoot(Object)" signature="(Ljava/lang/Object;)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="991" member="resetSelection" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.resetSelection()" signature="()V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1"/>
+        </reference_kind>
+    </target>
+    <target member="selectionChanged" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.selectionChanged(SelectionChangedEvent)" signature="(Lorg/eclipse/jface/viewers/SelectionChangedEvent;)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="207" member="run" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.QueryAllJob.2.run()" signature="()V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$QueryAllJob$2"/>
+            <reference linenumber="211" member="run" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.QueryAllJob.2.run()" signature="()V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$QueryAllJob$2"/>
+        </reference_kind>
+    </target>
+    <target member="setFocus" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setFocus()" signature="()V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="1306" member="setVisible" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.setVisible(boolean)" signature="(Z)V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1"/>
+            <reference linenumber="909" member="handleSourceBrowseButtonPressed" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.handleSourceBrowseButtonPressed()" signature="()V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1"/>
+            <reference linenumber="397" member="createControl" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.createControl(Composite)" signature="(Lorg/eclipse/swt/widgets/Composite;)V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1"/>
+        </reference_kind>
+    </target>
+    <target member="setAllSelections" name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setAllSelections(boolean)" signature="(Z)V" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+        <reference_kind flags="0" kind="256" reference_kind_name="VIRTUAL_METHOD">
+            <reference linenumber="160" member="run" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.QueryAllJob.1.run()" signature="()V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$QueryAllJob$1"/>
+        </reference_kind>
+    </target>
+</references>

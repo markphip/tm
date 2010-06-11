@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.rse.files.ui (3.1.100.v201005221100)" referee="org.eclipse.compare (3.5.100.I20100526-0800)" reference_count="2" reference_visibility="22">
+    <target name="org.eclipse.compare.structuremergeviewer.DiffTreeViewer" type="org.eclipse.compare.structuremergeviewer.DiffTreeViewer">
+        <reference_kind flags="1" kind="1" reference_kind_name="EXTENDS">
+            <reference linenumber="-1" message_arguments="An anonymous type defined in org.eclipse.rse.files.ui.compare.SystemCompareInput.createDiffViewer(Composite) illegally extends DiffTreeViewer" origin="org.eclipse.rse.files.ui.compare.SystemCompareInput.2" type="org.eclipse.rse.files.ui.compare.SystemCompareInput$2"/>
+            <reference linenumber="188" message_arguments="An anonymous type defined in org.eclipse.rse.files.ui.compare.SystemCompareInput.createDiffViewer(Composite) illegally extends DiffTreeViewer" origin="org.eclipse.rse.files.ui.compare.SystemCompareInput.2" type="org.eclipse.rse.files.ui.compare.SystemCompareInput$2"/>
+        </reference_kind>
+    </target>
+</references>

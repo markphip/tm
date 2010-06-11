@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.rse.importexport (1.2.100.v201003010830)" referee="org.eclipse.team.core (3.5.100.I20100527-0800)" reference_count="1" reference_visibility="2">
+    <target member="&lt;init&gt;" name="org.eclipse.team.internal.core.mapping.LocalResourceVariant.LocalResourceVariant(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)V" type="org.eclipse.team.internal.core.mapping.LocalResourceVariant">
+        <reference_kind flags="0" kind="64" reference_kind_name="CONSTRUCTOR_METHOD">
+            <reference linenumber="188" member="getSyncInfo" origin="org.eclipse.rse.internal.synchronize.filesystem.subscriber.FileSystemSubscriber.getSyncInfo(IResource, IResourceVariant, IResourceVariant)" signature="(Lorg/eclipse/core/resources/IResource;Lorg/eclipse/team/core/variants/IResourceVariant;Lorg/eclipse/team/core/variants/IResourceVariant;)Lorg/eclipse/team/core/synchronize/SyncInfo;" type="org.eclipse.rse.internal.synchronize.filesystem.subscriber.FileSystemSubscriber"/>
+        </reference_kind>
+    </target>
+</references>

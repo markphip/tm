@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.rse.services.dstore (3.1.100.v201005200200)" referee="org.eclipse.rse.services (3.2.0.v201006041352)" reference_count="3" reference_visibility="22">
+    <target name="org.eclipse.rse.services.files.IFileService" type="org.eclipse.rse.services.files.IFileService">
+        <reference_kind flags="1" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.services.dstore.files.DStoreFileService illegally implements org.eclipse.rse.services.files.IFileService" origin="org.eclipse.rse.internal.services.dstore.files.DStoreFileService" type="org.eclipse.rse.internal.services.dstore.files.DStoreFileService"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.rse.services.search.ISearchService" type="org.eclipse.rse.services.search.ISearchService">
+        <reference_kind flags="1" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.services.dstore.search.DStoreSearchService illegally implements org.eclipse.rse.services.search.ISearchService" origin="org.eclipse.rse.internal.services.dstore.search.DStoreSearchService" type="org.eclipse.rse.internal.services.dstore.search.DStoreSearchService"/>
+        </reference_kind>
+    </target>
+<target name="org.eclipse.rse.services.shells.IShellService" type="org.eclipse.rse.services.shells.IShellService">
+        <reference_kind flags="1" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.services.dstore.shells.DStoreShellService illegally implements org.eclipse.rse.services.shells.IShellService" origin="org.eclipse.rse.internal.services.dstore.shells.DStoreShellService" type="org.eclipse.rse.internal.services.dstore.shells.DStoreShellService"/>
+        </reference_kind>
+    </target>
+</references>

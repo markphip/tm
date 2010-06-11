@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.rse.importexport (1.2.100.v201003010830)" referee="org.eclipse.ui.ide (3.6.0.I20100601-0800)" reference_count="8" reference_visibility="2">
+    <target name="org.eclipse.ui.internal.ide.dialogs.IElementFilter" type="org.eclipse.ui.internal.ide.dialogs.IElementFilter">
+        <reference_kind flags="0" kind="33554432" reference_kind_name="LOCAL_VAR_DECLARED">
+            <reference linenumber="1164" member="setupSelectionsBasedOnSelectedTypes" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.setupSelectionsBasedOnSelectedTypes()" signature="()V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1"/>
+            <reference linenumber="1231" member="setupSelectionsBasedOnImportData" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.setupSelectionsBasedOnImportData()" signature="()V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="16" reference_kind_name="PARAMETER">
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.13.13(RemoteImportWizardPage1, IElementFilter)" signature="(Lorg/eclipse/rse/internal/importexport/files/RemoteImportWizardPage1;Lorg/eclipse/ui/internal/ide/dialogs/IElementFilter;)V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$13"/>
+            <reference linenumber="-1" member="&lt;init&gt;" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.11.11(RemoteImportWizardPage1, IElementFilter)" signature="(Lorg/eclipse/rse/internal/importexport/files/RemoteImportWizardPage1;Lorg/eclipse/ui/internal/ide/dialogs/IElementFilter;)V" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$11"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.12" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$12"/>
+            <reference linenumber="-1" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.10" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$10"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="4" reference_kind_name="DECLARED_FIELD">
+            <reference linenumber="-1" member="val$filter" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.11.val$filter" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$11"/>
+            <reference linenumber="-1" member="val$filter" origin="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.13.val$filter" type="org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1$13"/>
+        </reference_kind>
+    </target>
+</references>

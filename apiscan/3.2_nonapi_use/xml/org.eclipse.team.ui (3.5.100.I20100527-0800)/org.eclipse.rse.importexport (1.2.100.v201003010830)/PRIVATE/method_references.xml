@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.rse.importexport (1.2.100.v201003010830)" referee="org.eclipse.team.ui (3.5.100.I20100527-0800)" reference_count="5" reference_visibility="2">
+    <target member="log" name="org.eclipse.team.internal.ui.TeamUIPlugin.log(CoreException)" signature="(Lorg/eclipse/core/runtime/CoreException;)V" type="org.eclipse.team.internal.ui.TeamUIPlugin">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="241" member="&lt;init&gt;" origin="org.eclipse.rse.internal.synchronize.filesystem.ui.FileSystemSynchronizeParticipant.FileSystemSynchronizeParticipant(SynchronizationContext)" signature="(Lorg/eclipse/team/core/mapping/provider/SynchronizationContext;)V" type="org.eclipse.rse.internal.synchronize.filesystem.ui.FileSystemSynchronizeParticipant"/>
+        </reference_kind>
+    </target>
+    <target member="getResourceMapping" name="org.eclipse.team.internal.ui.Utils.getResourceMapping(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/core/resources/mapping/ResourceMapping;" type="org.eclipse.team.internal.ui.Utils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="56" member="getResourceMappings" origin="org.eclipse.rse.internal.synchronize.filesystem.ui.ModelMergeAction.getResourceMappings(IStructuredSelection)" signature="(Lorg/eclipse/jface/viewers/IStructuredSelection;)[Lorg/eclipse/core/resources/mapping/ResourceMapping;" type="org.eclipse.rse.internal.synchronize.filesystem.ui.ModelMergeAction"/>
+            <reference linenumber="55" member="getResourceMappings" origin="org.eclipse.rse.internal.synchronize.filesystem.ui.ModelPutAction.getResourceMappings(IStructuredSelection)" signature="(Lorg/eclipse/jface/viewers/IStructuredSelection;)[Lorg/eclipse/core/resources/mapping/ResourceMapping;" type="org.eclipse.rse.internal.synchronize.filesystem.ui.ModelPutAction"/>
+            <reference linenumber="52" member="getResourceMappings" origin="org.eclipse.rse.internal.synchronize.filesystem.ui.ModelGetAction.getResourceMappings(IStructuredSelection)" signature="(Lorg/eclipse/jface/viewers/IStructuredSelection;)[Lorg/eclipse/core/resources/mapping/ResourceMapping;" type="org.eclipse.rse.internal.synchronize.filesystem.ui.ModelGetAction"/>
+        </reference_kind>
+    </target>
+    <target member="getResource" name="org.eclipse.team.internal.ui.Utils.getResource(Object)" signature="(Ljava/lang/Object;)Lorg/eclipse/core/resources/IResource;" type="org.eclipse.team.internal.ui.Utils">
+        <reference_kind flags="0" kind="128" reference_kind_name="INVOKED_STATIC">
+            <reference linenumber="157" member="fillContextMenu" origin="org.eclipse.rse.internal.synchronize.filesystem.ui.FileSystemSynchronizeParticipant.FileSystemParticipantActionGroup.fillContextMenu(IMenuManager)" signature="(Lorg/eclipse/jface/action/IMenuManager;)V" type="org.eclipse.rse.internal.synchronize.filesystem.ui.FileSystemSynchronizeParticipant$FileSystemParticipantActionGroup"/>
+        </reference_kind>
+    </target>
+</references>

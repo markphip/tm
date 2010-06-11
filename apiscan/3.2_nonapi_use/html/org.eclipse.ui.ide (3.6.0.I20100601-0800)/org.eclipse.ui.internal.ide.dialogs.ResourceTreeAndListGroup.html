@@ -1,0 +1,427 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	.main {		font-family:Arial, Helvetica, sans-serif;
+	}
+	.main h3 {
+		font-family:Arial, Helvetica, sans-serif;
+		ackground-color:#FFFFFF;
+		font-size:14px;
+		margin:0.1em;
+	}
+	.main h4 {
+		background-color:#CCCCCC;
+		margin:0.15em;
+	}
+	a.typeslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	a.typeslnk:hover {
+		text-decoration:underline;
+	}
+	a.kindslnk {
+		font-family:Arial, Helvetica, sans-serif;
+		text-decoration:none;
+		margin-left:0.25em;
+	}
+	.types {
+		display:none;
+		margin-bottom:0.25em;
+		margin-top:0.25em;
+		margin-right:0.25em;
+		margin-left:0.75em;
+	}
+</style>
+<script type="text/javascript">
+	function expand(location) {
+		if(document.getElementById) {
+			var childhtml = location.firstChild;
+			if(!childhtml.innerHTML) {
+				childhtml = childhtml.nextSibling;
+			}
+			childhtml.innerHTML = childhtml.innerHTML == '[+] ' ? '[-] ' : '[+] ';
+			var parent = location.parentNode;
+			childhtml = parent.nextSibling.style ? parent.nextSibling : parent.nextSibling.nextSibling;
+			childhtml.style.display = childhtml.style.display == 'block' ? 'none' : 'block';
+		}
+	}
+</script>
+<noscript>
+	<style type="text/css">
+		.types {display:block;}
+		.kinds{display:block;}
+	</style>
+</noscript>
+<title>ResourceTreeAndListGroup usage details</title>
+</head>
+<body>
+<h3>ResourceTreeAndListGroup usage details</h3>
+<h4>Summary</h4>
+<p>org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup has 21 total references to 12 different members.</p>
+<h4>Reference Details</h4>
+<p>Click an entry in the table below to reveal the details of the references made to that element. You can hover over an element to see its qualified signature information and hover over the visibility to see details.</p>
+<div align="left" class="main"><table border="1" width="80%">
+<tr>
+<td bgcolor="#E0C040"><b>Member</b></td>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
+<span>[+] </span>ResourceTreeAndListGroup
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>EXTENDS</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.ResourceTreeAndListGroup(org.eclipse.swt.widgets.Composite, java.lang.Object, org.eclipse.jface.viewers.ITreeContentProvider, org.eclipse.jface.viewers.ILabelProvider, org.eclipse.jface.viewers.IStructuredContentProvider, org.eclipse.jface.viewers.ILabelProvider, int, boolean) : void">
+<span>[+] </span>ResourceTreeAndListGroup(Composite, Object, ITreeContentProvider, ILabelProvider, IStructuredContentProvider, ILabelProvider, int, boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>SUPER_CONSTRUCTORMETHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.SystemFileTreeAndListGroup(Composite, Object, ITreeContentProvider, ILabelProvider, IStructuredContentProvider, ILabelProvider, int, int, int)</td>
+<td align="center">68</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.addCheckStateListener(org.eclipse.jface.viewers.ICheckStateListener) : void">
+<span>[+] </span>addCheckStateListener(ICheckStateListener) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.addCheckStateListener(ICheckStateListener)</td>
+<td align="center">275</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.getAllCheckedListItems() : java.util.List">
+<span>[+] </span>getAllCheckedListItems() : List
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.getSelectedFiles()</td>
+<td align="center">291</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.getListTable() : org.eclipse.swt.widgets.Table">
+<span>[+] </span>getListTable() : Table
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.setEnabled(boolean)</td>
+<td align="center">230</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.populateListViewer(java.lang.Object) : void">
+<span>[+] </span>populateListViewer(Object) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.refreshFiles()</td>
+<td align="center">133</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.removeCheckStateListener(org.eclipse.jface.viewers.ICheckStateListener) : void">
+<span>[+] </span>removeCheckStateListener(ICheckStateListener) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.removeCheckStateListener(ICheckStateListener)</td>
+<td align="center">282</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.selectionChanged(org.eclipse.jface.viewers.SelectionChangedEvent) : void">
+<span>[+] </span>selectionChanged(SelectionChangedEvent) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.selectionChanged(SelectionChangedEvent)</td>
+<td align="center">146</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.selectionChanged(SelectionChangedEvent)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.QueryAllJob.2.run()</td>
+<td align="center">207</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.QueryAllJob.2.run()</td>
+<td align="center">211</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setAllSelections(boolean) : void">
+<span>[+] </span>setAllSelections(boolean) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.3.widgetSelected(SelectionEvent)</td>
+<td align="center">464</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.4.widgetSelected(SelectionEvent)</td>
+<td align="center">476</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.QueryAllJob.1.run()</td>
+<td align="center">160</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setFocus() : void">
+<span>[+] </span>setFocus() : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.setVisible(boolean)</td>
+<td align="center">1306</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.handleSourceBrowseButtonPressed()</td>
+<td align="center">909</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.createControl(Composite)</td>
+<td align="center">397</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.setRoot(java.lang.Object) : void">
+<span>[+] </span>setRoot(Object) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>INVOKED_SPECIAL</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.setRoot(Object)</td>
+<td align="center">159</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>OVERRIDE</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup.setRoot(Object)</td>
+<td align="center">-1</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.internal.importexport.files.RemoteImportWizardPage1.resetSelection()</td>
+<td align="center">991</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+<tr>
+<td align="left">
+<b><a href="javascript:void(0)" class="typeslnk" onclick="expand(this)" title="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup.updateSelections(java.util.Map) : void">
+<span>[+] </span>updateSelections(Map) : void
+</a>
+</b><div colspan="6" class="types">
+<table width="100%" border="0" cellspacing="1" cellpadding="6">
+<tr align="left"> 
+<td colspan="3" bgcolor="#CCCCCC"><b>VIRTUAL_METHOD</b></td>
+</tr>
+<tr bgcolor="#E0C040"><td align="left" width="84%"><b>Reference Location</b></td>
+<td align="center" width="8%"><b>Line Number</b></td>
+<td align="center" width="8%"><b>Visibility</b></td>
+</tr>
+<tr>
+<td>org.eclipse.rse.files.ui.widgets.SystemSelectRemoteFilesForm.setupSelectionsBasedOnSelectedTypes()</td>
+<td align="center">548</td>
+<td align="center"><span class="typeslnk">PRIVATE</span></td>
+</tr>
+</table>
+
+</div>
+</tr>
+</table>
+</div>
+<p><a href="index.html">Back to bundle index</a>
+</p>
+<p>
+	<a href="http://validator.w3.org/check?uri=referer">
+<img src="http://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
+</p>

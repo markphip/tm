@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.rse.subsystems.files.core (3.2.0.v201005221100)" referee="org.eclipse.rse.core (3.1.100.v201003151933)" reference_count="3" reference_visibility="22">
+    <target name="org.eclipse.rse.core.model.ISystemContentsType" type="org.eclipse.rse.core.model.ISystemContentsType">
+        <reference_kind flags="1" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.subsystems.files.core.subsystems.RemoteFolderChildrenContentsType illegally implements org.eclipse.rse.core.model.ISystemContentsType" origin="org.eclipse.rse.subsystems.files.core.subsystems.RemoteFolderChildrenContentsType" type="org.eclipse.rse.subsystems.files.core.subsystems.RemoteFolderChildrenContentsType"/>
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.subsystems.files.core.subsystems.RemoteFileChildrenContentsType illegally implements org.eclipse.rse.core.model.ISystemContentsType" origin="org.eclipse.rse.subsystems.files.core.subsystems.RemoteFileChildrenContentsType" type="org.eclipse.rse.subsystems.files.core.subsystems.RemoteFileChildrenContentsType"/>
+            <reference linenumber="-1" message_arguments="org.eclipse.rse.subsystems.files.core.subsystems.RemoteSearchResultsContentsType illegally implements org.eclipse.rse.core.model.ISystemContentsType" origin="org.eclipse.rse.subsystems.files.core.subsystems.RemoteSearchResultsContentsType" type="org.eclipse.rse.subsystems.files.core.subsystems.RemoteSearchResultsContentsType"/>
+        </reference_kind>
+    </target>
+</references>

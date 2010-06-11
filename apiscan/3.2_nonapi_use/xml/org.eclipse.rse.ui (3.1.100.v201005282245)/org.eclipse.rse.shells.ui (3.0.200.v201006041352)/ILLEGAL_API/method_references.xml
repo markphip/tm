@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Methods" origin="org.eclipse.rse.shells.ui (3.0.200.v201006041352)" referee="org.eclipse.rse.ui (3.1.100.v201005282245)" reference_count="1" reference_visibility="22">
+    <target member="getUniquePropertyDescriptors" name="org.eclipse.rse.ui.view.AbstractSystemViewAdapter.getUniquePropertyDescriptors()" signature="()[Lorg/eclipse/ui/views/properties/IPropertyDescriptor;" type="org.eclipse.rse.ui.view.AbstractSystemViewAdapter">
+        <reference_kind flags="1" kind="268435456" reference_kind_name="OVERRIDE">
+            <reference linenumber="-1" member="getUniquePropertyDescriptors" message_arguments="org.eclipse.rse.shells.ui.view.SystemViewRemoteOutputAdapter.getUniquePropertyDescriptors() illegally overrides org.eclipse.rse.ui.view.AbstractSystemViewAdapter.getUniquePropertyDescriptors()" origin="org.eclipse.rse.shells.ui.view.SystemViewRemoteOutputAdapter.getUniquePropertyDescriptors()" signature="()[Lorg/eclipse/ui/views/properties/IPropertyDescriptor;" type="org.eclipse.rse.shells.ui.view.SystemViewRemoteOutputAdapter"/>
+        </reference_kind>
+    </target>
+</references>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.tm.tcf.rse (0.3.0.201006081604)" referee="org.eclipse.rse.services (3.2.0.v201006041352)" reference_count="1" reference_visibility="22">
+    <target name="org.eclipse.rse.services.processes.IProcessService" type="org.eclipse.rse.services.processes.IProcessService">
+        <reference_kind flags="1" kind="2" reference_kind_name="IMPLEMENTS">
+            <reference linenumber="-1" message_arguments="org.eclipse.tm.internal.tcf.rse.processes.TCFProcessService illegally implements org.eclipse.rse.services.processes.IProcessService" origin="org.eclipse.tm.internal.tcf.rse.processes.TCFProcessService" type="org.eclipse.tm.internal.tcf.rse.processes.TCFProcessService"/>
+        </reference_kind>
+    </target>
+</references>

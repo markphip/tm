@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<references name="Types" origin="org.eclipse.rse.files.ui (3.1.100.v201005221100)" referee="org.eclipse.compare (3.5.100.I20100526-0800)" reference_count="6" reference_visibility="2">
+    <target name="org.eclipse.compare.internal.BufferedResourceNode" type="org.eclipse.compare.internal.BufferedResourceNode">
+        <reference_kind flags="0" kind="524288" reference_kind_name="INSTANCEOF">
+            <reference linenumber="231" member="commit" origin="org.eclipse.rse.files.ui.compare.SystemCompareInput.commit(DiffNode, IProgressMonitor)" signature="(Lorg/eclipse/compare/structuremergeviewer/DiffNode;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.rse.files.ui.compare.SystemCompareInput"/>
+            <reference linenumber="235" member="commit" origin="org.eclipse.rse.files.ui.compare.SystemCompareInput.commit(DiffNode, IProgressMonitor)" signature="(Lorg/eclipse/compare/structuremergeviewer/DiffNode;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.rse.files.ui.compare.SystemCompareInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="134217728" reference_kind_name="INSTANTIATION">
+            <reference linenumber="114" member="getStructure" origin="org.eclipse.rse.files.ui.compare.SystemCompareInput.getStructure(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/compare/structuremergeviewer/IStructureComparator;" type="org.eclipse.rse.files.ui.compare.SystemCompareInput"/>
+            <reference linenumber="118" member="getStructure" origin="org.eclipse.rse.files.ui.compare.SystemCompareInput.getStructure(IResource)" signature="(Lorg/eclipse/core/resources/IResource;)Lorg/eclipse/compare/structuremergeviewer/IStructureComparator;" type="org.eclipse.rse.files.ui.compare.SystemCompareInput"/>
+        </reference_kind>
+        <reference_kind flags="0" kind="262144" reference_kind_name="CASTS">
+            <reference linenumber="232" member="commit" origin="org.eclipse.rse.files.ui.compare.SystemCompareInput.commit(DiffNode, IProgressMonitor)" signature="(Lorg/eclipse/compare/structuremergeviewer/DiffNode;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.rse.files.ui.compare.SystemCompareInput"/>
+            <reference linenumber="236" member="commit" origin="org.eclipse.rse.files.ui.compare.SystemCompareInput.commit(DiffNode, IProgressMonitor)" signature="(Lorg/eclipse/compare/structuremergeviewer/DiffNode;Lorg/eclipse/core/runtime/IProgressMonitor;)V" type="org.eclipse.rse.files.ui.compare.SystemCompareInput"/>
+        </reference_kind>
+    </target>
+</references>
