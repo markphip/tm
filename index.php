@@ -60,13 +60,28 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/">
+		TM 3.2</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.2/">update site</a>
+		<!--
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/buildNotes.php">build notes</a>
+		-->
+		| <a href="/dsdp/tm/development/relnotes/3.2/readme_tm_3.2.html">release notes</a>
+		]<br/>
+		The TM 3.2 release includes more than 100 bug fixes compared to TM 3.1.2. 
+		It is fully compatible with TM 3.1, and runs on Eclipse 3.4 (Ganymede) 
+		and later. Look at the <a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
+		the build notes and the
+		<a href="/dsdp/tm/development/relnotes/3.2/tm-news-3.2.html">TM 3.1 New & Noteworthy</a>
+		for more information.</p>
+
+		<!--
+		<p><font size="+2"><b>Latest Release:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">
 		TM 3.1.2</a></font>
 		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1/">update site</a>
-		<!--
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/buildNotes.php">build notes</a>
-		-->
 		| <a href="/dsdp/tm/development/relnotes/3.1/readme_tm_3.1.html">release notes</a>
 		]<br/>
 		The TM 3.1.2 service release includes 4 bug fixes compared to TM 3.1.1. 
@@ -100,6 +115,7 @@
 		<ul><li><b>TM 3.2:</b> ETA June, 2010 with Eclipse <a href="http://wiki.eclipse.org/Helios">Helios</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
+		-->
 
 		<p>
 		<u>Additional Links:</u><br/> 
