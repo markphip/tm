@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="http://www.eclipse.org/default_style.css" type="text/css"/>
+<title>DSDP-TM 3.2 News</title>
+</head>
+<body>
+<h1>DSDP Target Management 3.2 - New and Noteworthy</h1>
+<p>The emphasis on the <a href="http://www.eclipse.org/dsdp/tm/tutorial/">Target Management 3.2</a>
+  release has been on solidifying and hardening existing functionality,
+  so there are not too many new features to mention. Still, here are 
+  some of the more noteworthy things you'll find in TM 3.2 (June 23, 2010)
+  which is now available for <a href="http://download.eclipse.org/dsdp/tm/downloads/index.php" target="_top">download</a>.
+  See the <a href="readme_tm_3.2.html">TM 3.2 release notes</a> for details
+  on bugs fixed, known issues, noteworthy new API and other changes.</p>
+
+<!--  TOC is of no use with only one item
+<ul>
+  <li><a href="#RSE">Remote System Explorer (RSE)</a>
+</ul>
+ -->
+ 
+<table border="0" cellpadding="10" cellspacing="0" width="80%">
+  <tr>
+    <td colspan="2"><hr />
+      <h2><a name="RSE" id="RSE"></a>Remote System Explorer (RSE)</h2>
+      <hr /></td> 
+  </tr>
+    <tr>
+    <td width="30%" valign="top" align="left"><b>Improved FTP Robustness and Performance </b></td>
+    <td width="70%" valign="top">FTP performance was strongly improved and made more reliable, by eliminating
+      potential race conditions and lockups due to excessive sending of NOOP commands.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=269171">269171</a> and bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=300394">300394</a>.    
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Improved EFS Provider</b></td>
+    <td width="70%" valign="top">EFS provider performance was improved, and multiple connections to a host can
+      now be disambiguated by name.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=291738">291738</a> and bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=287185">287185</a>.
+    </td>
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>XML File Type for DStore</b></td>
+    <td width="70%" valign="top">File types can now be specified as "XML", in addition to the existing "binary"
+      and "text" file types. The special property of XML files is that they are transferred
+      in binary mode, but the local character encoding is determined by looking at the XML
+      magic inside the file. The XML filetype association can be configured by the
+      <tt>remoteFileTypes</tt> extension point, or in the Remote Files Preference Page.
+      This feature required new API to be added, for details see bug
+      <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=283033">283033</a>.
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><hr />
+      <h2><a name="Terminal" id="Terminal"></a>TM Terminal</h2>
+      <hr /></td> 
+  </tr>
+ <tr>
+    <td width="30%" valign="top" align="left"><b>Local Terminal </b></td>
+    <td width="70%" valign="top"> A local terminal connector was added - Thanks to Mirko Raner for this contribution.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=196337">[196337]</a>.        
+    </td>  
+  </tr>
+ <tr>
+    <td width="30%" valign="top" align="left"><b>Scroll Lock </b></td>
+    <td width="70%" valign="top"> A Scroll Lock button has been added to the stand-alone Terminal View.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=205486">[205486]</a>.        
+    </td>  
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+      <h2><a name="General" id="General"></a>Target Communication Framework (TCF)</h2>
+      <hr /></td> 
+  </tr>
+ <tr>
+    <td width="30%" valign="top" align="left"><b>TCF Improvements </b></td>
+    <td width="70%" valign="top"> TCF Improvements are tracked on the TM Wiki.
+       For details, see
+       <a href="http://wiki.eclipse.org/DSDP/TM/3.2_Release_Summary#Executive_Summary">The TM Release Summary</a>.
+    </td>  
+  </tr>
+  <tr>
+    <td colspan="2"><hr />
+      <h2><a name="General" id="General"></a>General Improvements</h2>
+      <hr /></td> 
+  </tr>
+  <tr>
+    <td width="30%" valign="top" align="left"><b>Repository Information in Released Bundles </b></td>
+    <td width="70%" valign="top">TM now embeds repository information in released bundles.
+     This allows PDE versions newer than Eclipse 3.6M7 to import source from the 
+     Eclipse CVS Repository directly from an installed binary TM bundle, and thus makes it
+      much easier to contribute patches.
+       For details, see bug
+       <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=311447">[311447]</a>.    
+    </td>
+  </tr>
+</table>
+<p>More details about API changes, new features and bugs fixed are in the 
+  build notes of the earlier TM 3.2 milestone builds:</p>
+<ul>
+  <li><a href="http://archive.eclipse.org/dsdp/tm/downloads/drops/S-3.2RC4-201006051820/buildNotes.php">
+      TM 3.2RC4 build notes (June 5, 2010)</a></li>
+  <li><a href="http://archive.eclipse.org/dsdp/tm/downloads/drops/S-3.2M7-201005032039/buildNotes.php">
+      TM 3.2M7 build notes (May 3, 2010)</a></li>
+  <li><a href="http://archive.eclipse.org/dsdp/tm/downloads/drops/S-3.2M6-201003160452/buildNotes.php">
+      TM 3.2M6 build notes (March 16, 2010)</a></li>
+</ul>
+</body>
+</html>

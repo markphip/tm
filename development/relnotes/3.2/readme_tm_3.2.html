@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>DSDP-TM Release Notes 3.2</title>
+</head>
+
+<body>
+<h1>DSDP Target Management Release Notes</h1>
+<p>Release 3.2<br/>
+Last revised Jun 21, 2010</p>
+
+<h2>TM Release 3.2</h2>
+<p>
+129 unique bugs were addressed in the TM 3.2 release, including 4 API change requests.<br/>
+See <a href="https://bugs.eclipse.org/bugs/report.cgi?x_axis_field=target_milestone&y_axis_field=bug_severity&z_axis_field=&query_format=report-table&short_desc_type=allwordssubstr&short_desc=&classification=DSDP&product=Target+Management&component=Core&component=RSE&component=TCF&component=Terminal&target_milestone=3.2&target_milestone=3.2+M2&target_milestone=3.2+M3&target_milestone=3.2+M4&target_milestone=3.2+M5&target_milestone=3.2+M6&target_milestone=3.2+M7&target_milestone=3.2+RC1&target_milestone=3.2+RC2&target_milestone=3.2+RC3&target_milestone=3.2+RC4&longdesc_type=allwordssubstr&longdesc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&status_whiteboard_type=allwordssubstr&status_whiteboard=&keywords_type=allwords&keywords=&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailtype1=substring&email1=&emailtype2=substring&email2=&bugidtype=include&bug_id=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&format=table&action=wrap&field0-0-0=noop&type0-0-0=noop&value0-0-0=">this report</a> 
+for details on all bugs, and 
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?keywords=api;query_format=advanced;keywords_type=allwords;component=Core;component=RSE;component=TCF;component=Terminal;resolution=FIXED;target_milestone=3.2;target_milestone=3.2%20M2;target_milestone=3.2%20M3;target_milestone=3.2%20M4;target_milestone=3.2%20M5;target_milestone=3.2%20M6;target_milestone=3.2%20M7;target_milestone=3.2%20RC1;target_milestone=3.2%20RC2;target_milestone=3.2%20RC3;target_milestone=3.2%20RC4;product=Target%20Management;classification=DSDP">this list</a>
+for new API introduced.
+</p><p>
+See the <a href="http://www.eclipse.org/dsdp/tm/development/relnotes/3.2/tm-news-3.2.html">TM 3.2 New &amp; Noteworthy</a> for new features<br/> 
+See the <a href="http://wiki.eclipse.org/DSDP/TM/3.2_Release_Summary">TM 3.2 Release Summary</a> for statistics and interesting data about the project<br/>
+See the <a href="http://www.eclipse.org/projects/project-plan.php?projectid=dsdp.tm">TM 3.2 Project Plan</a>
+      for supported operating environments<br/>
+See the <a href="http://wiki.eclipse.org/DSDP/TM/3.2_Known_Issues_and_Workarounds">TM 3.2 Known Issues and Workarounds</a> Wiki for known problems.<br/>
+  <!--  <li>See the <a href="">TM 3.2 Migration</a> Wiki for migration info</li> -->
+</p>
+<p><b>TM 3.2 API Specification Updates</b>
+
+API Specification Updates are binary compatible, but may require clients to 
+make small adjustments in their code.
+<ul>
+  <li>The <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.dstore.doc.isv/reference/api/org/eclipse/dstore/core/server/IServerLogger.html">IServerLogger</a></code>
+
+      interface was marked as <b>@noimplement</b> in order to allow adding a new method. Clients must extend the 
+      default <a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.dstore.doc.isv/reference/api/org/eclipse/dstore/core/server/ServerLogger.html">ServerLogger</a></code>
+      class in order to contribute a valid custom server logger. We believe that any useful server logger would have done that
+      already, so the API specification update seems acceptable
+      [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=305272">305272</a>].</li>
+  <li>The <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/clientserver/ISystemFileTypes.html">ISystemFileTypes</a></code>,
+      <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/subsystems/files/core/model/ISystemFileTransferModeMapping.html">ISystemFileTransferModeMapping</a></code>
+
+      and <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/subsystems/files/core/model/ISystemFileTransferModeRegistry.html">ISystemFileTransferModeRegistry</a></code>
+      interfaces have been marked <b>@noimplement</b> in order to allow adding new methods.
+      These interfaces had not been documented at all so far, and have never been intended
+      to be implemented. The amendment adds a restriction which should have been there
+      from the start 
+      [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=304170">304170</a>].</li>
+</ul>
+
+For other questions, please check the
+    <a href="http://wiki.eclipse.org/TM_and_RSE_FAQ">TM and RSE FAQ</a>
+    as well as the
+    <a href="http://www.eclipse.org/dsdp/tm/tutorial/">TM getting started guide</a>.
+
+</body>
+</html>
