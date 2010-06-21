@@ -65,9 +65,6 @@
 		TM 3.2</a></font>
 		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.2/">update site</a>
-		<!--
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/buildNotes.php">build notes</a>
-		-->
 		| <a href="/dsdp/tm/development/relnotes/3.2/readme_tm_3.2.html">release notes</a>
 		]<br/>
 		The TM 3.2 release includes more than 100 bug fixes. 
