@@ -59,7 +59,7 @@
         <p>Vendors are extending the RSE with custom subsystems for debugging,
         remote VNC display and other uses.</p>
 
-		<!-- TODO ENABLE THIS for 3.2
+		<!-- TODO ENABLE THIS for 3.2 -->
 		<p><font size="+2"><b>Latest Release:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/">
 		TM 3.2</a></font>
@@ -73,9 +73,9 @@
 		the build notes and the
 		<a href="/dsdp/tm/development/relnotes/3.2/tm-news-3.2.html">TM 3.2 New & Noteworthy</a>
 		for more information.</p>
-		END TODO ENABLE for 3.2-->
+		<!-- END TODO ENABLE for 3.2 -->
 
-		<!-- TODO DISABLE for 3.2-->
+		<!-- TODO DISABLE for 3.2
 		<p><font size="+2"><b>Latest Release:</b> 
 		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">
 		TM 3.1.2</a></font>
@@ -114,7 +114,7 @@
 		<ul><li><b>TM 3.2:</b> ETA June, 2010 with Eclipse <a href="http://wiki.eclipse.org/Helios">Helios</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
-		<!-- TODO Disable for 3.2 -->
+		TODO Disable for 3.2 -->
 
 		<p>
 		<u>Additional Links:</u><br/> 
