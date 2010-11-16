@@ -338,9 +338,8 @@ all [testing] open</a>).
       <p:deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[testing%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:deferred>
     </p:theme>    <p:theme name="Other">
       <p:description><p>
-<a name="tp_other">Features and bugs</a> that we plan to address in the next release cycle until 3.3 M7, that are not categorized into one of the themes above.
-Items currently under discussion include rewriting the Details View for more flexibility, improved multi-core awareness of RSE,
-and an improved logging framework.&lt;br&gt;
+Bug fixes for improved robustness, stability and usability are part of ongoing maintenance.Besides that, here are some larger<a name="tp_other">features and bugs</a> that we plan to address in the next release cycle until 3.3 M7, but are not categorized into one of the themes above.
+&lt;br&gt;
 In order not to overload the project plan with less important items, only those marked with a <b>"plan"</b> keyword will be
 added to the project plan. The pool of known items to add to the plan can be found from the
 associated queries
