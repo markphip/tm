@@ -44,6 +44,7 @@
 		 Interactively discover, drill down, analyze remote systems (from
 		 mainframes down to embedded systems), and provide the
 		 context for more advanced actions being plugged in to it.
+		 </p>
 		 
 		 <h3>The Toolkit</h3>
 
@@ -59,62 +60,42 @@
         <p>Vendors are extending the RSE with custom subsystems for debugging,
         remote VNC display and other uses.</p>
 
-		<!-- TODO ENABLE THIS for 3.2 -->
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/">
-		TM 3.2</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2.1-201009070720/">
+		TM 3.2.1</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2.1-201009070720/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.2/">update site</a>
 		| <a href="/dsdp/tm/development/relnotes/3.2/readme_tm_3.2.html">release notes</a>
 		]<br/>
-		The TM 3.2 release includes more than 100 bug fixes. 
-		It is fully compatible with TM 3.1, and runs on Eclipse 3.4 (Ganymede) 
+		The TM 3.2.1 service release includes 22 bug fixes compared to TM 3.2. 
+		It is fully compatible with TM 3.2, and runs on Eclipse 3.4 (Ganymede) 
 		and later. Look at the <a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
 		the build notes and the
 		<a href="/dsdp/tm/development/relnotes/3.2/tm-news-3.2.html">TM 3.2 New & Noteworthy</a>
 		for more information.</p>
-		<!-- END TODO ENABLE for 3.2 -->
-
-		<!-- TODO DISABLE for 3.2
-		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">
-		TM 3.1.2</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1/">update site</a>
-		| <a href="/dsdp/tm/development/relnotes/3.1/readme_tm_3.1.html">release notes</a>
-		]<br/>
-		The TM 3.1.2 service release includes 4 bug fixes compared to TM 3.1.1. 
-		It is fully compatible with TM 3.1, and runs on Eclipse 3.4 (Ganymede) 
-		and later. Look at the <a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
-		the build notes and the
-		<a href="/dsdp/tm/development/relnotes/3.1/tm-news-3.1.html">TM 3.1 New & Noteworthy</a>
-		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.2RC3-201005310720/">
-		TM 3.2RC3</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.2RC3-201005310720/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.2milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.2RC3-201005310720/buildNotes.php">
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M3-201011090901/">
+		TM 3.3M3</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M3-201011090901/">downloads</a> 
+		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.3milestones/">update site</a>
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M3-201011090901/buildNotes.php">
 		build notes</a>]<br/>
-		TM 3.2RC3 is the best and most stable TM release so far. Stability problems with FTP connections
-		have been fixed, and dstore connections have gone through a long series of testing and fixing.
-		For contributors, TM 3.2RC3 supports the 
-		<a href="http://download.eclipse.org/eclipse/downloads/drops/S-3.6M7-201004291549/eclipse-news-M7.html#importcvs">Import from CVS</a>
-		feature with Eclipse 3.6M7. See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.2RC3-201005310720/buildNotes.php">
-		build notes</a> for new&amp;noteworthy and more information.</p>
+		TM 3.3M3 contains even more bugfixes compared to TM 3.2.x. See the 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M3-201011090901/buildNotes.php">
+		build notes</a> for new&amp;noteworthy and more information.
+		<!-- TODO Enable for ramp-down
 		<br/>
 		With M7, the <a href="http://wiki.eclipse.org/DSDP/TM/3.2_Ramp_down_Plan">
 		Ramp-down phase</a> of release candidates towards
 		the TM 3.2 release with Helios end of June has been entered.
+		-->
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.2:</b> ETA June, 2010 with Eclipse <a href="http://wiki.eclipse.org/Helios">Helios</a>
+		<ul><li><b>TM 3.3:</b> ETA June, 2011 with Eclipse <a href="http://wiki.eclipse.org/Indigo">Indigo</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
 		</ul></p>
-		TODO Disable for 3.2 -->
 
 		<p>
 		<u>Additional Links:</u><br/> 
@@ -143,6 +124,14 @@
 		<div class="homeitem">
 			<h3>Events</h3>
 			<ul class="midlist">
+				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
+				    (See the <a href="http://wiki.eclipse.org/DSDP/TM">Wiki</a> for actual
+				    agenda and details)</li>
+				<li>
+				  <b>March 22-25, 2010</b>: <a href="http://www.eclipsecon.org/2010">EclipseCon 2010</a> - <ul>
+				    <li><a href="http://www.eclipsecon.org/2010/sessions/?page=sessions&id=1424" target="_blank">
+				         <b>TCF - Target Communication Framework Update for Helios</b></a>, Talk by Martin Oberhuber (slides available)
+					</ul></li>
 				<li>
 				  <b>March 17-20, 2008</b>: <a href="http://www.eclipsecon.org/2008">EclipseCon 2008</a> - <ul>
 				    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">
@@ -170,44 +159,16 @@
 				         <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2007-10-10_TM_ESE2007.pdf">PDF</a>)
 				         </li>
 				    </ul></li>
-				<li><b>September 17-19, 2007</b>: 
-				  <a href="http://wiki.eclipse.org/DSDP/TM/Face-to-face_Meeting_Toronto_17-Sep-2007">
-				  TM Planning Meeting and Coding Camp</a>, Toronto
-				  </li> 
 				<li><b>April 12, 2007</b>: 
 				  <a href="http://live.eclipse.org/node/229">Webinar</a>:
 				  TM goals, architecture, future plans and online demo
 				  (<a href="http://live.eclipse.org/node/229">50 minute full recording</a> |
 				  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
 				  </li> 
-				<li>
-				  <b>Mar 5-8, 2007</b>: EclipseCon 2007 -<ul>
-				    <li><a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=3651" target="_blank">
-				         <b>TM Tutorial</b></a> (includes 
-				         <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3651">slides and sample code</a>)</li>
-				    <li><a href="http://www.eclipsecon.org/2007/index.php?not_accepted=0&page=sub/&id=3781" target="_blank">
-				         <b>Short Talk</b></a> (includes 
-				         <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=3781">slides</a>)</li>
-				    <li><a href="http://www.eclipsecon.org/2007/index.php?page=sub/&id=4135" target="_blank">
-				         <b>Short Demo</b></a> (includes 
-				         <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=4135">slides</a>)</li>
-				  </ul></li>
-				<li><b>Oct. 11, 2006</b>: 
-				  Eclipse Summit Europe - 
-				  <a href="http://www.eclipsecon.org/summiteurope2006/index.php?page=detail/&id=26">Talk by Michael Scharf on RSE</a>;<br/>
-				  TM Overview slides
-				  (<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a> | 
-				  <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>);<br/>
-				  DSDP Overview slides
-				  (<a href="http://www.eclipsecon.org/summiteurope2006/presentations/ESE2006_DSDP_Project_Update.pdf">PDF</a>)
-				  </li>
 				<li><b>Sept. 27, 2006</b>: TM passed its 1.0 Release Review. The Slides are an interesting read
 				    for everyone (Slides as  
 				    <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
 				    <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3a.pdf">PDF</a>).</li>
-				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
-				    (See the <a href="http://wiki.eclipse.org/DSDP/TM">Wiki</a> for actual
-				    agenda and details)</li>
 			</ul>
 		</div>
 	</div>
@@ -221,10 +182,14 @@
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
+				<li><a href="http://eclipse.org/project-slides/Helios/TM_Helios_Release.pdf" target="_self">
+				    TM 3.1 Release Review Slides</a></li>
 				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 				    TM 3.0 Release Review Slides</a></li>
+				    <!--
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
+				    -->
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">TM 3.0 Tutorial</a></li>
 				<li><a
@@ -236,12 +201,11 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Feb 26th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
-			    <li>Sep 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.1-200909160905/">TM 3.1.1</a> released</li>
-			    <li>Jun 25th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1-200906171400/">TM 3.1</a> released</li>
-			    <li>Feb 18th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">TM 3.0.3</a> Service Release</li>
+			<ul><li>Sep 24th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2.1-201009070720/">TM 3.2.1</a> released</li>
+			    <li>Jun 23rd: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/">TM 3.2</a> released</li>
+			    <li>Feb 26th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
-				<li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
+			    <li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
                 <!--
  			    <li>Mar 22nd: About 70 participants at the
