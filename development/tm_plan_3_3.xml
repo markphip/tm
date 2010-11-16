@@ -31,10 +31,8 @@ other Eclipse projects known to integrate with Target Management.
 </p>
 Shortcut to Themes:
 <ul>
-  <li><a href="#tp_releng">Improve Release Engineering</a></li>  <!-- 
-  <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>  <li><a href="#tp_usability">Improve Usability</a></li>   -->
-  <li><a href="#tp_performance">Avoid plugin activation and Improve Performance</a></li>
-  <li><a href="#tp_other">Other</a></li>
+  <li><a href="#tp_releng">Improve Release Engineering</a></li>  <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>  <!--   <li><a href="#tp_usability">Improve Usability</a></li>  <li><a href="#tp_performance">Avoid plugin activation and Improve Performance</a></li>
+   -->  <li><a href="#tp_other">Other</a></li>
   <!--  Deferred Themes:  --></ul><p><b>Special Notes:</b><ul>  <li>The Discovery component is no longer actively maintained and will likely be removed in a future release.</li>  <li>The Target Communication Framework (TCF) has been moved to become  a subproject of <a href="http://www.eclipse.org/cdt">CDT</a>.</li></ul></p>
   </div></p:introduction>
   <p:release_deliverables><div>
