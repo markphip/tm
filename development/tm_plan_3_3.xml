@@ -364,7 +364,7 @@ associated queries
         <li>Component "Terminal" but not tagged "[terminal]":
             <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Terminal&amp;cmdtype=doit&amp;negate0=1&amp;field0-0-0=short_desc&amp;type0-0-0=substring&amp;value0-0-0=[terminal">Query</a></li>
         <li>Marked "FIXED" but still assigned to an "inbox":
-            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;component=Website&amp;resolution=FIXED&amp;resolution=WORKSFORME&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=inbox&amp;cmdtype=doit">Query</a></li>
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;component=Website&amp;resolution=FIXED&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=inbox&amp;cmdtype=doit">Query</a></li>
       </ul>
   </p:appendix>  
 </p:plan>
