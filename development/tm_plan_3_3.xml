@@ -38,9 +38,8 @@ Shortcut to Themes:
   <p:release_deliverables><div>
 <ul>
 	<li><b><a name="m_release_deliverables">Target Management</a> source code release</b>, available as versions tagged "R3_2" in the project's<ul>
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>,</li>
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>, and</li>
-		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.tcf/trunk/?root=DSDP_SVN">TM TCF SVN Repository</a>.</li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE CVS Repository</a>, and</li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core CVS Repository</a>.</li>
 	</ul></li>
 	<li><b>Remote System Explorer (RSE):</b><ul>
 	   <li>RSE SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
@@ -52,7 +51,6 @@ Shortcut to Themes:
     </ul></li>
     <li><b>Stand-alone components:</b><ul>
 	   <li>TM Terminal SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
-	   <li>TM Discovery SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
 	   <li>Redistribution of Apache Commons Net 2.0 (downloadable through the Orbit project).</li>
     </ul></li>
     <li><b>Incubating components:</b><ul>
@@ -95,7 +93,7 @@ The target date for availability of Target Management 3.3 is:</p>
   </p:release_milestones>
   <p:target_environments><div>
 <a name="m_target_environments">In order</a>
-In order to remain current, each Eclipse release is designed to run on
+to remain current, each Eclipse release is designed to run on
 reasonably current versions of the underlying operating environments.
 <p>The Target Management Project 3.3 depends upon on the Eclipse Platform 3.7.
 Various sub components also depend on other Eclipse Projects, namely
@@ -366,7 +364,7 @@ associated queries
         <li>Component "Terminal" but not tagged "[terminal]":
             <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Terminal&amp;cmdtype=doit&amp;negate0=1&amp;field0-0-0=short_desc&amp;type0-0-0=substring&amp;value0-0-0=[terminal">Query</a></li>
         <li>Marked "FIXED" but still assigned to an "inbox":
-            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;resolution=FIXED&amp;resolution=WORKSFORME&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=inbox&amp;cmdtype=doit">Query</a></li>
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;component=Website&amp;resolution=FIXED&amp;resolution=WORKSFORME&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=inbox&amp;cmdtype=doit">Query</a></li>
       </ul>
   </p:appendix>  
 </p:plan>
