@@ -105,6 +105,7 @@
 			<li><b>Mikhail Kalugin</b>, Xored Software</li>
 			<li><b>Sidharth Kodikal</b>, Freescale</li>
 			<li><b>Mike Kucera</b>, IBM</li>
+			<li><b>Krzysztof Kosmatka</b></li>
 			<li><b>Yu-Fen Kuo</b>, MontaVista</li>
 			<li><b>Michael Sills-Lavoie</b>, Ecole Polytechnique de Montreal</li>
 			<li><b>Anton Leherbauer</b>, Wind River</li>
