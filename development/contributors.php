@@ -129,6 +129,7 @@
 			<li><b>Tobias Schwarz</b>, Wind River</li>
 			<li><b>David Sciamma</b>, Anyware-Tech</li>
 			<li><b>Timur Shipilov</b>, Xored Software</li>
+			<li><b>Nikita Shulga</b>, Mentor Graphics</li>
 			<li><b>Andrei Sobolev</b>, Xored Software</li>
 			<li><b>Ed Swartz</b>, Nokia</li>
 			<li><b>Remy Chi Jian Suen</b>, IBM</li>
