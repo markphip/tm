@@ -30,7 +30,7 @@ Shortcut to Themes:
 <ul>
   <li><a href="#tp_releng">Improve Release Engineering</a></li>  <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>  <!--   <li><a href="#tp_usability">Improve Usability</a></li>  <li><a href="#tp_performance">Avoid plugin activation and Improve Performance</a></li>
    -->  <li><a href="#tp_other">Other</a></li>
-  <!--  Deferred Themes:  --></ul><p><b>Special Notes:</b><ul>  <li>The Discovery component is no longer actively maintained and will likely be removed in a future release.</li>  <li>The Target Communication Framework (TCF) has been moved to become  a subproject of <a href="http://www.eclipse.org/cdt">CDT</a>.</li></ul></p>
+  <!--  Deferred Themes:  --></ul><p><b>Special Notes:</b><ul>  <li>The Discovery component is being retired with the TM 3.3 release.  Older releases are still available from the Eclipse Archives; Eclipse   <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=330337">bug 330337</a>  can be used as a channel for asking questions moving forward.</li>  <li>The Target Communication Framework (TCF) has been moved to become  a subproject of <a href="http://www.eclipse.org/cdt">CDT</a>.</li></ul></p>
   </div></p:introduction>
   <p:release_deliverables><div>
 <ul>
@@ -93,8 +93,6 @@ The target date for availability of Target Management 3.3 is:</p>
 to remain current, each Eclipse release is designed to run on
 reasonably current versions of the underlying operating environments.
 <p>The Target Management Project 3.3 depends upon on the Eclipse Platform 3.7.
-Various sub components also depend on other Eclipse Projects, namely
-the Eclipse Modeling Framework (EMF) 2.3 or later. 
 For this release, the RSE sources will mostly be written and compiled
 against version 1.4.2 of the Java Platform APIs (i.e., Java 2 Platform,
 Release 1.4.2 SE), and designed to run on version 1.4.2 of the Java

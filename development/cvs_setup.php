@@ -82,7 +82,7 @@
 		    <td><a href="rse-releng-committer.psf">rse-releng-committer.psf</a></td>
 		  </tr>
 		  <tr>
-		    <td>Discovery component</td>
+		    <td>Discovery component (archived)</td>
 		    <td><a href="discovery-anonymous.psf">discovery-anonymous.psf</a></td>
 		    <td><a href="discovery-committer.psf">discovery-committer.psf</a></td>
 		  </tr>

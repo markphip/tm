@@ -15,7 +15,6 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,org.eclipse.rse.connectorservice.telnet"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.core,org.eclipse.rse.core"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.core-feature,org.eclipse.rse.core-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.rse.discovery,org.eclipse.rse.discovery"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,org.eclipse.rse.doc.isv"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/doc/org.eclipse.rse.doc.user,org.eclipse.rse.doc.user"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.dstore-feature,org.eclipse.rse.dstore-feature"/>
@@ -73,15 +72,6 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.useractions,org.eclipse.rse.useractions"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.useractions-feature,org.eclipse.rse.useractions-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.rse.wince-feature,org.eclipse.rse.wince-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery-feature,org.eclipse.tm.discovery-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.doc.isv,org.eclipse.tm.discovery.doc.isv"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.engine,org.eclipse.tm.discovery.engine"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.model,org.eclipse.tm.discovery.model"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.model.edit,org.eclipse.tm.discovery.model.edit"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.protocol.dnssd,org.eclipse.tm.discovery.protocol.dnssd"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.transport.udp,org.eclipse.tm.discovery.transport.udp"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.view,org.eclipse.tm.discovery.view"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.wizard,org.eclipse.tm.discovery.wizard"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi,org.eclipse.tm.rapi"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.examples,org.eclipse.tm.rapi.examples"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.tests,org.eclipse.tm.rapi.tests"/>
@@ -165,18 +155,6 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.examples.daytime" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.rapi.examples" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.wince" type="4"/>
-</workingSets>
-<workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1257517172279_4" label="tm-discovery" name="tm-discovery">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.engine" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.doc.isv" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.model.edit" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.protocol.dnssd" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.transport.udp" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.wizard" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.discovery" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.model" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.view" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1257517203563_6" label="tm-releng" name="tm-releng">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.scp-feature" type="4"/>
