@@ -75,14 +75,14 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M3-201011090901/">
-		TM 3.3M3</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M3-201011090901/">downloads</a> 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M4-201012140730/">
+		TM 3.3M4</a></font>
+		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M4-201012140730/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.3milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M3-201011090901/buildNotes.php">
+		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M4-201012140730/buildNotes.php">
 		build notes</a>]<br/>
-		TM 3.3M3 contains even more bugfixes compared to TM 3.2.x. See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M3-201011090901/buildNotes.php">
+		TM 3.3M4 contains a new SCP file subsystem, and several bug fixes. See the 
+		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M4-201012140730/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.
 		<!-- TODO Enable for ramp-down
 		<br/>
