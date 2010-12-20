@@ -98,7 +98,7 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.test,org.eclipse.tm.terminal.test,v200907301400"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.view,org.eclipse.tm.terminal.view,v200907301400"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.view-feature,org.eclipse.tm.terminal.view-feature,v200907301400"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/dsdp/tm/development,www-tm-development"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/tm/development,www-tm-development"/>
 </provider>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1289572052548_7" label="rse-core" name="rse-core">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.dstore.core" type="4"/>

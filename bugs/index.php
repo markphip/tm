@@ -63,7 +63,7 @@
 				All Resolved Bugs</a></li>
 			</ul>
 			<p>
-			See the <a href="/dsdp/tm/development/bug_process.php">Bug Process Page</a> for more queries and information.
+			See the <a href="/tm/development/bug_process.php">Bug Process Page</a> for more queries and information.
 			<p>
 		</div>
 		

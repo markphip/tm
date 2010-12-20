@@ -125,7 +125,7 @@
 		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.orbit/?cvsroot=Tools_Project">Orbit Repository</a>,
 		    holding the TM contributions to Orbit, namely bundled versions of Apache
 		    Commons Net 1.4.1 and Jakarta ORO 2.0.8.</li>
-		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/?cvsroot=Eclipse_Website">TM Website Repository</a>,
+		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/www/tm/?cvsroot=Eclipse_Website">TM Website Repository</a>,
 		    holding the project web pages.</li>
 		</ul>
 
@@ -154,7 +154,7 @@
 		  <tr>
 		    <td>TM Website Repository</td>
 		    <td>:pserver:dev.eclipse.org:/cvsroot/org.eclipse</td>
-		    <td>www/dsdp/tm</td>
+		    <td>www/tm</td>
 		  </tr>
 		</table>
 

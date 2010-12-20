@@ -47,13 +47,13 @@
 					<a href="/dsdp/dsdp-charter.php"><b>DSDP Project Charter</b></a>
 				</li>
 				<li>
-					<a href="/dsdp/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
+					<a href="/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
 					| View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
 					| <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
 					| Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
 				</li>
 				<li>
-					<a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management
+					<a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management
 				</li>
 			    <li>
 			    	<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"><b>Architectural Overview</b></a>
@@ -78,7 +78,7 @@
 			[ <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/">Downloads</a> 
 			| <a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">Update Site</a>
 			| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.0.3-200902181300/buildNotes.php">Build Notes</a>
-			| <a href="/dsdp/tm/development/relnotes/3.0/tm-news-3.0.html">New &amp; Noteworthy</a>
+			| <a href="/tm/development/relnotes/3.0/tm-news-3.0.html">New &amp; Noteworthy</a>
 			]
 			<br/>
 			Compatible with TM 3.0. Runs on Eclipse 3.4 (Ganymede) and Eclipse 3.3 (Europa).

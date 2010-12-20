@@ -357,7 +357,7 @@ padding-bottom: 2px">
 		dsdp-tm-dev@eclipse.org</a> Developer Mailing List to seek assistance of
 		a committer.<br/>
 		Once your contribution is attached to Bugzilla, a committer will pick it
-		up and follow the <a href="/dsdp/tm/development/committer_howto.php#external_contrib">
+		up and follow the <a href="/tm/development/committer_howto.php#external_contrib">
 		Committer HOWTO</a> guidelines to merge your contribution. 
 		code without being allowed to do so by the copyright owner).
 		<p/>

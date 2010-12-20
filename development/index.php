@@ -38,7 +38,7 @@
 			<h3>Development Tools</h3>
 				<ul class="midlist">
 					<li><b><a
-						href="/dsdp/tm/development/cvs_setup.php">CVS Repository</a></b><br/>
+						href="/tm/development/cvs_setup.php">CVS Repository</a></b><br/>
 						TM development is managed in 
 						<!-- two CVS repositories:
 						<ul class="midlist">
@@ -49,12 +49,12 @@
 						the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE</a> and
 						<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">Core</a> Repositories.
 						To populate an Eclipse workspace with our code, best use our
-						<a href="/dsdp/tm/development/cvs_setup.php">Team Project Sets</a>.
+						<a href="/tm/development/cvs_setup.php">Team Project Sets</a>.
 						A 
 						<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/index.html">
 						CVS Changelog</a> is available, and you can subscribe to commit notifications on
 						<a href="https://dev.eclipse.org/mailman/listinfo/dsdp-tm-cvs-commit">dsdp-tm-cvs-commit</a>.</li>
-					<li><a href="/dsdp/tm/development/bug_process.php" target="_self"><b>Bug Process</b></a><br> 
+					<li><a href="/tm/development/bug_process.php" target="_self"><b>Bug Process</b></a><br> 
 					   View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
 					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
 					   | Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
@@ -95,10 +95,10 @@
 		<div class="homeitem">
 			<h3>Development Resources</h3>
 				<ul class="midlist">
-					<li><b><a href="/dsdp/tm/development/committer_howto.php">Committer HOWTO</a></b><br>
+					<li><b><a href="/tm/development/committer_howto.php">Committer HOWTO</a></b><br>
 						Simple cookbook instructions for performing basic tasks properly.
 						Committers need to follow check-in conventions and IP Due Diligence as outlined
-						<a href="/dsdp/tm/development/committer_guide.php">here</a>. 
+						<a href="/tm/development/committer_guide.php">here</a>. 
 						</li>
 					<li><b><a href="http://wiki.eclipse.org/API_Central">API Guidelines</a></b><br>
 						Look <a href="http://help.eclipse.org/help30/topic/org.eclipse.platform.doc.isv/reference/misc/api-usage-rules.html">
@@ -117,7 +117,7 @@
 						Architectural Overview</a></b><br>
 						A high level summary of the components and their architecture.</li>
 					<li><b><a
-							href="http://www.eclipse.org/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">Project
+							href="http://www.eclipse.org/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">Project
 						Requirements</a></b> <br>
 						Look here for a list of the project use cases and their
 						priorities.</li>
@@ -129,7 +129,7 @@
 						<a href="http://www.eclipse.org/projects/dev_process/Eclipse_Standard_TopLevel_Charter_v1.0.php">
 						Eclipse Standard Charter</a>.</li>
 					<li><b><a
-							href="/dsdp/tm/development/contributors.php">Contributors
+							href="/tm/development/contributors.php">Contributors
 						and Committers</a></b> <br>
 						List of TM Project contributors and committers.</li>
 				</ul>
@@ -149,10 +149,10 @@
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_top">DSDP Overview Diagrams</a></li>				
 				<li><a
-					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_top">TM Use Cases Document</a></li>
-				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
-				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
+				<!-- <li><a href="/tm/development/index.php">Developer Resources</a></li> -->
+				<li><a href="/tm/doc/index.php">Developer Documents</a></li>
 			</ul>
 		</div>
 	</div>

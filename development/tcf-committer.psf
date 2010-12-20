@@ -11,6 +11,6 @@
 <project reference="1.0.0,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/examples/org.eclipse.tm.tcf.examples.daytime.agent,org.eclipse.tm.tcf.examples.daytime.agent,20539411a3bf001c18ffa6dc15ac7c2d;svn+ssh://dev.eclipse.org/svnroot/dsdp;svn+ssh://dev.eclipse.org/svnroot/dsdp;branches;tags;trunk"/>
 <project reference="1.0.0,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.rse,org.eclipse.tm.tcf.rse,20539411a3bf001c18ffa6dc15ac7c2d;svn+ssh://dev.eclipse.org/svnroot/dsdp;svn+ssh://dev.eclipse.org/svnroot/dsdp;branches;tags;trunk"/>
 <project reference="1.0.0,svn+ssh://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/docs,tcf_docs,20539411a3bf001c18ffa6dc15ac7c2d;svn+ssh://dev.eclipse.org/svnroot/dsdp;svn+ssh://dev.eclipse.org/svnroot/dsdp;branches;tags;trunk"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/dsdp/tm/development,www-tm-development"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/tm/development,www-tm-development"/>
 </provider>
 </psf>

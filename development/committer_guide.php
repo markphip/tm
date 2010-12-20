@@ -39,7 +39,7 @@
 
 		<h2>Bugzilla Guidelines</h2>
 		<ul>
-		  <li>See the <a href="/dsdp/tm/development/bug_process.php">Bug Process Page</a>
+		  <li>See the <a href="/tm/development/bug_process.php">Bug Process Page</a>
 		    for bugzilla queries to find interesting bugs, and our general bug process
 		    (handling bugzilla states and priorities)<p/></li>
 		  <li>When you check in a fix for a bugzilla entry, <b>please</b> include
@@ -56,14 +56,14 @@
 		   CVS users can pick up your new project easily: Add the "www-tm-development" 
 		   project to your workspace. You can do this most easily by importing the 
 		   Team Project set from<ul>
-		     <li><a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
-		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a></li>
+		     <li><a href="http://www.eclipse.org/tm/development/www-tm-development.psf">
+		     http://www.eclipse.org/tm/development/www-tm-development.psf</a></li>
 		   </ul>
 		   Update the Project sets there and commit them to the web page:<ul>
-		     <li><a href="http://www.eclipse.org/dsdp/tm/development/rse-committer.psf">
-		     http://www.eclipse.org/dsdp/tm/development/rse-committer.psf</a></li>
-		     <li><a href="http://www.eclipse.org/dsdp/tm/development/rse-anonymous.psf">
-		     http://www.eclipse.org/dsdp/tm/development/rse-anonymous.psf</a></li>
+		     <li><a href="http://www.eclipse.org/tm/development/rse-committer.psf">
+		     http://www.eclipse.org/tm/development/rse-committer.psf</a></li>
+		     <li><a href="http://www.eclipse.org/tm/development/rse-anonymous.psf">
+		     http://www.eclipse.org/tm/development/rse-anonymous.psf</a></li>
 		   </ul>You can either export a selection as team project set, or edit the 
 		   project set manually. For the pserver version, you typically need to replace-all
 		   ":extssh:" by ":pserver:".<p/></li>
@@ -94,8 +94,8 @@
 		   <li>Add the "www-tm-development" project to your workspace. You can do 
 		   this most easily by importing the Team Project set 
 		   from<ul><li>
-		     <a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
-		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a>
+		     <a href="http://www.eclipse.org/tm/development/www-tm-development.psf">
+		     http://www.eclipse.org/tm/development/www-tm-development.psf</a>
 		   </li></ul>
 		   In the www-tm project, add a line for the contribution in the <b>tm-log.csv</b>
 		   file. There are some sample lines already, so adding one should not be too hard.<p/></li>
@@ -105,7 +105,7 @@
 		   (when a whole new file is added by the contribution, leave the copyright notice
 		   as is, of course).<p/></li>
 		   <li>Make sure the bugzilla number is part of the commit message.</li>
-		   <li>For more details, see the <a href="/dsdp/tm/development/committer_howto.php#external_contrib">Committer Howto
+		   <li>For more details, see the <a href="/tm/development/committer_howto.php#external_contrib">Committer Howto
 		       on applying a patch from an external contributor</a></li>.
 		</ul>  
 
@@ -128,7 +128,7 @@
 		DSDP Project Charter</a>) has more information about committer rights
 		and duties, and our development process.<p/>
 		In particular, this charter says that committers need to agree on the
-		<a href="/dsdp/tm/development/plan.php">project plan</a> and its modifications,
+		<a href="/tm/development/plan.php">project plan</a> and its modifications,
 		and that committers can veto code changes.<p/> 
 		   
 	</div>

@@ -57,7 +57,7 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
-				<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
+				<li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt"
 					target="_self">TM Overview Presentation</a></li>
 				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 				    TM 3.0 Release Review Slides</a></li>
@@ -66,10 +66,10 @@
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
-					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
-				<li><a href="/dsdp/tm/doc/index.php">Developer Documents</a></li>
+				<!-- <li><a href="/tm/development/index.php">Developer Resources</a></li> -->
+				<li><a href="/tm/doc/index.php">Developer Documents</a></li>
 			</ul>
 		</div>
 	</div>

@@ -57,11 +57,11 @@ Projects, especially the
  <a href="http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/platform-vcm-home/main.html">
  Eclipse Platform/Team group.</a>
 A comprehensive 
- <a href="http://www.eclipse.org/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">document
+ <a href="http://www.eclipse.org/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">document
  outlining the use-cases</a> and applicability
 of the Target Management Project is available from the "Getting Started"
 area on the Project Website at 
-  <a href="http://www.eclipse.org/dsdp/tm">http://www.eclipse.org/dsdp/tm</a>.
+  <a href="http://www.eclipse.org/tm">http://www.eclipse.org/tm</a>.
 </p> 
  
 <h4>active project participants:</h4>

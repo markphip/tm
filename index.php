@@ -65,13 +65,13 @@
 		TM 3.2.1</a></font>
 		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2.1-201009070720/">downloads</a> 
 		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.2/">update site</a>
-		| <a href="/dsdp/tm/development/relnotes/3.2/readme_tm_3.2.html">release notes</a>
+		| <a href="/tm/development/relnotes/3.2/readme_tm_3.2.html">release notes</a>
 		]<br/>
 		The TM 3.2.1 service release includes 22 bug fixes compared to TM 3.2. 
 		It is fully compatible with TM 3.2, and runs on Eclipse 3.4 (Ganymede) 
-		and later. Look at the <a href="/dsdp/tm/tutorial/index.php">Getting Started Page</a>,
+		and later. Look at the <a href="/tm/tutorial/index.php">Getting Started Page</a>,
 		the build notes and the
-		<a href="/dsdp/tm/development/relnotes/3.2/tm-news-3.2.html">TM 3.2 New & Noteworthy</a>
+		<a href="/tm/development/relnotes/3.2/tm-news-3.2.html">TM 3.2 New & Noteworthy</a>
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
@@ -99,26 +99,26 @@
 
 		<p>
 		<u>Additional Links:</u><br/> 
-		<a href="/dsdp/tm/about.php">more about target management &raquo;</a> <br/>
-		<a href="/dsdp/tm/TM_press_text_2006_06.php">press text - jun 2006 &raquo;</a> </p>
+		<a href="/tm/about.php">more about target management &raquo;</a> <br/>
+		<a href="/tm/TM_press_text_2006_06.php">press text - jun 2006 &raquo;</a> </p>
 		<div class="homeitem">
 			<h3>Quick Links</h3>
 				<ul class="midlist">
 					<li><a href="http://wiki.eclipse.org/DSDP/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions, meeting notes and other "not so official" stuff there.</li>
 					<li><a href="news://news.eclipse.org/eclipse.dsdp.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm">Web access</a>, <a href="http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html">archive</a>).</li>
 					<li><a href="http://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev" target="_blank"><b>Mailing List</b></a> | For project development discussions.</li>
-					<li><a href="/dsdp/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
+					<li><a href="/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
 					   | View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
 					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
 					   | Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
 					</li>
-					<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management</a></li>
+					<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management</a></li>
 			    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
       					<b>Architectural Overview</b></a>
     	  				(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
     	  				| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  			</li>
-					<li><a href="/dsdp/tm/development/plan.php"><b>TM Project Plan</b></a></li>
+					<li><a href="/tm/development/plan.php"><b>TM Project Plan</b></a></li>
 					<li><a href="/dsdp/dsdp-charter.php"><b>DSDP Project Charter</b></a></li>
 		</div>
 		<div class="homeitem">
@@ -177,7 +177,7 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
-				<li><a href="/dsdp/tm/tutorial/index.php"
+				<li><a href="/tm/tutorial/index.php"
 					target="_self">TM Getting Started</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
@@ -195,9 +195,9 @@
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">TM 3.0 Tutorial</a></li>
 				<li><a
-					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases</a></li>
-				<li><a href="/dsdp/tm/development/plan.php">TM Project Plan</a></li>
+				<li><a href="/tm/development/plan.php">TM Project Plan</a></li>
 			</ul>
 		</div>
 		

@@ -83,10 +83,10 @@
     	<li><a href="http://wiki.eclipse.org/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
-    	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+    	<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
-		<li><a href="/dsdp/tm/development/plan.php">
+		<li><a href="/tm/development/plan.php">
 			Target Management Project Planning</a> 
 			to understand what features and releases are coming next.</li>
 		</ul>
@@ -97,7 +97,7 @@
 		<div class="sideitem">
 			<h6>Related Links</h6>
 			<ul>				
-				<li><a href="/dsdp/tm/tutorial/index.php"
+				<li><a href="/tm/tutorial/index.php"
 					target="_self">TM Getting Started</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
@@ -107,9 +107,9 @@
 				    TM 2.0 Release Review Slides</a></li>
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
-				<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+				<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="/dsdp/tm/development/plan.php"
+				<li><a href="/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>
 		</div>

@@ -48,7 +48,7 @@ background-repeat: repeat-y
 			<tbody>
 				<tr>
 					<td align="left"><h1>$pageTitle</h1></td>
-					<td align="right"><img align="right" src="/dsdp/tm/images/logo_banner.png" /></td>
+					<td align="right"><img align="right" src="/tm/images/logo_banner.png" /></td>
 				</tr>
 			</tbody>
 		</table><hr/>
@@ -56,9 +56,9 @@ background-repeat: repeat-y
 		<div class="homeitem3col">
 			<h3>Releases currently under development</h3>
     <ul>
-    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/dsdp/tm/development/tm_plan_3_3.xml">Target Management Project 3.3 Plan</a><br>
+    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/tm/development/tm_plan_3_3.xml">Target Management Project 3.3 Plan</a><br>
         This document lays out the feature and API set for the Target Management 3.3 release. </li>
-      <li><a href="/dsdp/tm/development/bug_process.php"> Target Management Bug Process</a><br>
+      <li><a href="/tm/development/bug_process.php"> Target Management Bug Process</a><br>
     	Queries for up-to-date status on plan items and bugs from Eclipse Bugzilla. </li>
       <li><a href="http://wiki.eclipse.org/TM_Future_Planning"> 
         TM Future Planning Wiki</a><br>
@@ -71,13 +71,13 @@ background-repeat: repeat-y
 		<div class="homeitem3col">
 			<h3>Development Process</h3>
 	<ul>
-	<li><a href="/dsdp/tm/development/">
+	<li><a href="/tm/development/">
 		TM Development Home Page</a><br>
 		Main page for Target Management Development Resources.</li>
-	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+	<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
     	Target Management Use Cases Document</a><br>
     	Requirements: Target Management Use Cases - dated but still current.</li>
-	<li><a href="/dsdp/tm/doc/index.php">
+	<li><a href="/tm/doc/index.php">
 		Developer Documents</a><br>
 		Target Management Development Documents.</li>
     </ul>
@@ -85,9 +85,9 @@ background-repeat: repeat-y
 		<div class="homeitem3col">
 			<h3>Historical information about past releases</h3>
 	<ul>
-    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/dsdp/tm/development/tm_plan_3_2.xml">Target Management Project 3.2 Plan</a><br>
+    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/tm/development/tm_plan_3_2.xml">Target Management Project 3.2 Plan</a><br>
         This document lays out the feature and API set for the Target Management 3.2 release. </li>
-    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/dsdp/tm/development/tm_plan_3_1.xml">Target Management Project 3.1 Plan</a><br>
+    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/tm/development/tm_plan_3_1.xml">Target Management Project 3.1 Plan</a><br>
         This document lays out the feature and API set for the Target Management 3.1 release. </li>
     <li><a href="tm_project_plan_3_0.html"> Target Management Project 3.0 Plan</a><br>
         This document lays out the feature and API set for the Target Management 3.0 release. </li>

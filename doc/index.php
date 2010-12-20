@@ -36,8 +36,8 @@
 
     	<h2>Use Cases (your best bet to get started!)</h2>
     	<ul>
-    	<li><a href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">DSDP-TM Use Cases v1.1c.pdf</a></li>
-    	<li><a href="/dsdp/tm/doc/nucleus_edge_target_usecase.pdf">nucleus edge target usecase.pdf</a></li>
+    	<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">DSDP-TM Use Cases v1.1c.pdf</a></li>
+    	<li><a href="/tm/doc/nucleus_edge_target_usecase.pdf">nucleus edge target usecase.pdf</a></li>
     	</ul>
 
 		<h2>Current API Docs</h2>
@@ -51,10 +51,10 @@
 
 		<h2>Design Documents</h2>
 		<ul>
-	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
-		<li><a href="/dsdp/tm/doc/DSDPTM_Design_Proposal_v0.3.pdf">DSDP-TM Design Proposal v0.3.pdf</a></li>
-		<li><a href="/dsdp/tm/doc/DSDPTM_Target_Connection_Adapter_Proposal.pdf">DSDP-TM Target Connection Adapter Proposal.pdf</a></li>
-	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes from Chicago Meeting</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
+		<li><a href="/tm/doc/DSDPTM_Design_Proposal_v0.3.pdf">DSDP-TM Design Proposal v0.3.pdf</a></li>
+		<li><a href="/tm/doc/DSDPTM_Target_Connection_Adapter_Proposal.pdf">DSDP-TM Target Connection Adapter Proposal.pdf</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes from Chicago Meeting</a></li>
 		</ul>
 
 		<h2>Presentations</h2>
@@ -79,29 +79,29 @@
 		<ul>
 		<h4>CDT Conference Ottawa, 2005 October 25-26</h4>
 		<ul>
-		<li><a href="/dsdp/tm/conferences/2005_CDT_Conference_DSDP_Update.ppt">DSDP Update at CDT Conference (ppt)</a></li>
+		<li><a href="/tm/conferences/2005_CDT_Conference_DSDP_Update.ppt">DSDP Update at CDT Conference (ppt)</a></li>
 		</ul>
 		
 		<h4>F2F Meeting Chicago, 2005 October 12-13</h4>
 		<ul>
-		<li><a href="/dsdp/tm/meetingnotes/ff01_chicago/2005-10-12_Chicago_TM_MeetingNotes.htm">Meeting Notes</a></li>
-	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes</a></li>
-	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/Eclipse_IP_Due_Diligence.ppt">Eclipse IP Due Diligence (ppt)</a></li>
-	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
-	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_DD_Borderline.ppt">On the Borderline between Target Management and Debugging (ppt)</a></li>
-	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_DebuggerBackend.ppt">WR Debugger Backend Interface Proposal (ppt)</a></li>
-	    <li><a href="/dsdp/tm/meetingnotes/ff01_chicago/DSDPTM_TCA.ppt">Target Connection Adapter Proposal (ppt)</a></li>
+		<li><a href="/tm/meetingnotes/ff01_chicago/2005-10-12_Chicago_TM_MeetingNotes.htm">Meeting Notes</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/Eclipse_IP_Due_Diligence.ppt">Eclipse IP Due Diligence (ppt)</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_DD_Borderline.ppt">On the Borderline between Target Management and Debugging (ppt)</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_DebuggerBackend.ppt">WR Debugger Backend Interface Proposal (ppt)</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_TCA.ppt">Target Connection Adapter Proposal (ppt)</a></li>
 		</ul>
 		
 		<h4>Phone Meeting Notes</h4>
 		<ul>
-		<li><a href="/dsdp/tm/meetingnotes/DSDP-TM_MeetingNotes_20051107.htm">2005-11-07 Phone Conference</a></li>
-		<li><a href="/dsdp/tm/meetingnotes/DSDP-TM_MeetingNotes_20050926.pdf">2005-09-26 Phone Conference</a><br>
-		<li><a href="/dsdp/tm/meetingnotes/DSDP-TM_MeetingNotes_20050829.pdf">2005-08-29 Phone Conference</a><br>
-		<li><a href="/dsdp/tm/meetingnotes/DSDP-TM_MeetingNotes_20050808.pdf">2005-08-08 Phone Conference</a><br>
-		<li><a href="/dsdp/tm/meetingnotes/DSDP-TM_MeetingNotes_20050718.pdf">2005-07-18 Phone Conference</a><br>
-		<li><a href="/dsdp/tm/meetingnotes/DSDP-TM_MeetingNotes_20050627.pdf">2005-06-27 Phone Conference</a><br>
-		<li><a href="/dsdp/tm/meetingnotes/DSDP-TM_MeetingNotes_20050613.pdf">2005-06-13 Phone Conference</a><br>
+		<li><a href="/tm/meetingnotes/DSDP-TM_MeetingNotes_20051107.htm">2005-11-07 Phone Conference</a></li>
+		<li><a href="/tm/meetingnotes/DSDP-TM_MeetingNotes_20050926.pdf">2005-09-26 Phone Conference</a><br>
+		<li><a href="/tm/meetingnotes/DSDP-TM_MeetingNotes_20050829.pdf">2005-08-29 Phone Conference</a><br>
+		<li><a href="/tm/meetingnotes/DSDP-TM_MeetingNotes_20050808.pdf">2005-08-08 Phone Conference</a><br>
+		<li><a href="/tm/meetingnotes/DSDP-TM_MeetingNotes_20050718.pdf">2005-07-18 Phone Conference</a><br>
+		<li><a href="/tm/meetingnotes/DSDP-TM_MeetingNotes_20050627.pdf">2005-06-27 Phone Conference</a><br>
+		<li><a href="/tm/meetingnotes/DSDP-TM_MeetingNotes_20050613.pdf">2005-06-13 Phone Conference</a><br>
 		</ul>
 		<p/>
 	</div>
@@ -118,10 +118,10 @@
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
-					href="/dsdp/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<!-- <li><a href="/dsdp/tm/development/index.php">Developer Resources</a></li> -->
-				<li><a href="/dsdp/tm/development/plan.php"
+				<!-- <li><a href="/tm/development/index.php">Developer Resources</a></li> -->
+				<li><a href="/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>
 			</ul>
 		</div>

@@ -55,7 +55,7 @@
 		<a name="check_code"></a>
 		<h2>Properly check my code before checkin</h2>
 		<ul>
-		  <li>Ensure that you have <a href="/dsdp/tm/development/compiler_warnings.php">Compiler Warnings
+		  <li>Ensure that you have <a href="/tm/development/compiler_warnings.php">Compiler Warnings
 		      </a> switched on as recommended. For every file that you modify, please ensure that it
 		      compiles without warnings before you check it in.</li>
 		  <li>Keep the <a href="http://wiki.eclipse.org/DSDP/TM/Code_Ownership">
@@ -67,7 +67,7 @@
 		<a name="format_checkin_comment"></a>
 		<h2>Format my checkin comment</h2>
 		<p>
-		The <a href="http://dsdp.eclipse.org/dsdp/tm/searchcvs.php?q=file%3A+org.eclipse.tm%25%2F+days%3A+7">TM SearchCVS</a>
+		The <a href="http://dsdp.eclipse.org/tm/searchcvs.php?q=file%3A+org.eclipse.tm%25%2F+days%3A+7">TM SearchCVS</a>
 		facility allows searching for CVS commits, and directly linking to bugzilla provided
 		that checkin comments are properly formatted.
 		Multiple formats are supported, but this is the preferred one (see also
@@ -92,7 +92,7 @@
 		<a name="checkin_fix"></a>
 		<h2>Work with bugs and fixes</h2>
 		<ul>
-		  <li>See the <a href="/dsdp/tm/development/bug_process.php">Bug Process Page</a>
+		  <li>See the <a href="/tm/development/bug_process.php">Bug Process Page</a>
 		    for bugzilla queries to find interesting bugs, and our general bug process
 		    (handling bugzilla states and priorities)</li>
 		  <li>Test your fix once to verify that it actually works - if this is
@@ -260,10 +260,10 @@ padding-bottom: 2px">
 		          directory in your PATH or installed in C:\Cygwin\bin - change the
 		          .bat file if you do not like this assumption.</li> 
 		      <li>For contributions supplied as an archive, use the 
-		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lc?root=Eclipse_Website&view=co">
+		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/tm/development/scripts/lc?root=Eclipse_Website&view=co">
 		         lc script</a>
 		         (plus 
-		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lc.bat?root=Eclipse_Website&view=co">
+		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/tm/development/scripts/lc.bat?root=Eclipse_Website&view=co">
 		         lc.bat</a> if you are on Windows). Run it
 		         with one or more directories to count as arguments. <b>Example:</b><br/>
 		         <code>
@@ -277,10 +277,10 @@ padding-bottom: 2px">
 		         (which is less exact than the script here, but good
 		         enough for the "patch" case).</li>
 		      <li>As an alternative, you can use the
-		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lcp?root=Eclipse_Website&view=co">
+		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/tm/development/scripts/lcp?root=Eclipse_Website&view=co">
 		         lcp script</a>
 		         (plus 
-		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/dsdp/tm/development/scripts/lcp.bat?root=Eclipse_Website&view=co">
+		         <a href="http://dev.eclipse.org/viewcvs/index.cgi/www/tm/development/scripts/lcp.bat?root=Eclipse_Website&view=co">
 		         lcp.bat</a> if you are on Windows) which doesn't count empty lines
 		         in the patch.
 		         Run it with the patch file as argument.  <b>Example:</b><br/>
@@ -300,13 +300,13 @@ padding-bottom: 2px">
 		      Add the <b>www-tm-development</b> project to your workspace.
 		      You can do this most easily by importing the Team Project set 
 			  from<ul><li>
-		     <a href="http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf">
-		     http://www.eclipse.org/dsdp/tm/development/www-tm-development.psf</a>
+		     <a href="http://www.eclipse.org/tm/development/www-tm-development.psf">
+		     http://www.eclipse.org/tm/development/www-tm-development.psf</a>
 		   </li></ul></li>
 		   <li>When you already have the www-tm-development project in your workspace,
 		     <b>update it</b> before editing -- this saves you from having to merge before checkin.</li>
 		   <li>In the <b>www-tm-development</b> project, update the 
-		     <b><a href="/dsdp/tm/development/cvs_setup">team project sets</a></b>:
+		     <b><a href="/tm/development/cvs_setup">team project sets</a></b>:
 		   You can either export a selection as team project set, and sort
 		   the lines afterwards (e.g. in Emacs, do M-X sort-lines). Or, edit the 
 		   project set manually. For the pserver version, you typically need to replace-all
