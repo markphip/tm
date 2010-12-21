@@ -2,98 +2,98 @@
 <psf version="2.0">
 <provider id="org.eclipse.team.cvs.core.cvsnature">
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.commons.net,org.apache.commons.net,v2_0_0"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,org.eclipse.dstore.core"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/doc/org.eclipse.dstore.doc.isv,org.eclipse.dstore.doc.isv"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.dstore.extra,org.eclipse.dstore.extra"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,org.eclipse.dstore.core"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/doc/org.eclipse.dstore.doc.isv,org.eclipse.dstore.doc.isv"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.dstore.extra,org.eclipse.dstore.extra"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/callisto,org.eclipse.indigo.build,org.eclipse.indigo.build"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse,org.eclipse.rse"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse-feature,org.eclipse.rse-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.rse.build,org.eclipse.rse.build"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.dstore,org.eclipse.rse.connectorservice.dstore"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.local,org.eclipse.rse.connectorservice.local"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.ssh,org.eclipse.rse.connectorservice.ssh"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,org.eclipse.rse.connectorservice.telnet"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.core,org.eclipse.rse.core"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.core-feature,org.eclipse.rse.core-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,org.eclipse.rse.doc.isv"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/doc/org.eclipse.rse.doc.user,org.eclipse.rse.doc.user"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.dstore-feature,org.eclipse.rse.dstore-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.security,org.eclipse.rse.dstore.security"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.efs,org.eclipse.rse.efs"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,org.eclipse.rse.efs.ui"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/examples/org.eclipse.rse.examples-feature,org.eclipse.rse.examples-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/examples/org.eclipse.rse.examples.daytime,org.eclipse.rse.examples.daytime"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/examples/org.eclipse.rse.examples.tutorial,org.eclipse.rse.examples.tutorial"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,org.eclipse.rse.files.ui"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.ftp-feature,org.eclipse.rse.ftp-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.importexport,org.eclipse.rse.importexport"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.local-feature,org.eclipse.rse.local-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.processes.ui,org.eclipse.rse.processes.ui"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.rse.releng.infocenter,org.eclipse.rse.releng.infocenter"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.scp-feature,org.eclipse.rse.scp-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.sdk,org.eclipse.rse.sdk"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.sdk-feature,org.eclipse.rse.sdk-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services,org.eclipse.rse.services"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,org.eclipse.rse.services.dstore"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,org.eclipse.rse.services.files.ftp"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local,org.eclipse.rse.services.local"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.ssh,org.eclipse.rse.services.ssh"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.telnet,org.eclipse.rse.services.telnet"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.shells.ui,org.eclipse.rse.shells.ui"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.ssh-feature,org.eclipse.rse.ssh-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.core,org.eclipse.rse.subsystems.files.core"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.dstore,org.eclipse.rse.subsystems.files.dstore"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.ftp,org.eclipse.rse.subsystems.files.ftp"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.local,org.eclipse.rse.subsystems.files.local"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.scp,org.eclipse.rse.subsystems.files.scp"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.ssh,org.eclipse.rse.subsystems.files.ssh"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.core,org.eclipse.rse.subsystems.processes.core"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.dstore,org.eclipse.rse.subsystems.processes.dstore"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.local,org.eclipse.rse.subsystems.processes.local"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.shell.linux,org.eclipse.rse.subsystems.processes.shell.linux"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.core,org.eclipse.rse.subsystems.shells.core"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.dstore,org.eclipse.rse.subsystems.shells.dstore"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.local,org.eclipse.rse.subsystems.shells.local"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.ssh,org.eclipse.rse.subsystems.shells.ssh"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.telnet,org.eclipse.rse.subsystems.shells.telnet"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.core,org.eclipse.rse.subsystems.terminals.core"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.ssh,org.eclipse.rse.subsystems.terminals.ssh"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.rse.subsystems.wince,org.eclipse.rse.subsystems.wince"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.telnet-feature,org.eclipse.rse.telnet-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.terminals-feature,org.eclipse.rse.terminals-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.ui,org.eclipse.rse.terminals.ui"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests,org.eclipse.rse.tests"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests-feature,org.eclipse.rse.tests-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework,org.eclipse.rse.tests.framework"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework.examples,org.eclipse.rse.tests.framework.examples"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.manual,org.eclipse.rse.tests.manual"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,org.eclipse.rse.ui"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.rse.updatesite,org.eclipse.rse.updatesite"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/plugins/org.eclipse.rse.useractions,org.eclipse.rse.useractions"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/features/org.eclipse.rse.useractions-feature,org.eclipse.rse.useractions-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.rse.wince-feature,org.eclipse.rse.wince-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi,org.eclipse.tm.rapi"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.examples,org.eclipse.tm.rapi.examples"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.tests,org.eclipse.tm.rapi.tests"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.tm.releng,org.eclipse.tm.releng"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.tm.releng.master-feature,org.eclipse.tm.releng.master-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.rse/releng/org.eclipse.tm.releng.test-feature,org.eclipse.tm.releng.test-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,org.eclipse.tm.terminal"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal-feature,org.eclipse.tm.terminal-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local,org.eclipse.tm.terminal.local"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local-feature,org.eclipse.tm.terminal.local-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local.sdk-feature,org.eclipse.tm.terminal.local.sdk-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.sdk-feature,org.eclipse.tm.terminal.sdk-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.serial,org.eclipse.tm.terminal.serial"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.serial-feature,org.eclipse.tm.terminal.serial-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.ssh,org.eclipse.tm.terminal.ssh"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.ssh-feature,org.eclipse.tm.terminal.ssh-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet,org.eclipse.tm.terminal.telnet"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet-feature,org.eclipse.tm.terminal.telnet-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.test,org.eclipse.tm.terminal.test"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.test-feature,org.eclipse.tm.terminal.test-feature"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.view,org.eclipse.tm.terminal.view"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/dsdp,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.view-feature,org.eclipse.tm.terminal.view-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse,org.eclipse.rse"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse-feature,org.eclipse.rse-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.rse.build,org.eclipse.rse.build"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.dstore,org.eclipse.rse.connectorservice.dstore"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.local,org.eclipse.rse.connectorservice.local"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.ssh,org.eclipse.rse.connectorservice.ssh"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.telnet,org.eclipse.rse.connectorservice.telnet"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.core,org.eclipse.rse.core"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.core-feature,org.eclipse.rse.core-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/doc/org.eclipse.rse.doc.isv,org.eclipse.rse.doc.isv"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/doc/org.eclipse.rse.doc.user,org.eclipse.rse.doc.user"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.dstore-feature,org.eclipse.rse.dstore-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.dstore.security,org.eclipse.rse.dstore.security"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.efs,org.eclipse.rse.efs"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.efs.ui,org.eclipse.rse.efs.ui"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/examples/org.eclipse.rse.examples-feature,org.eclipse.rse.examples-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/examples/org.eclipse.rse.examples.daytime,org.eclipse.rse.examples.daytime"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/examples/org.eclipse.rse.examples.tutorial,org.eclipse.rse.examples.tutorial"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,org.eclipse.rse.files.ui"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.ftp-feature,org.eclipse.rse.ftp-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.importexport,org.eclipse.rse.importexport"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.local-feature,org.eclipse.rse.local-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.processes.ui,org.eclipse.rse.processes.ui"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.rse.releng.infocenter,org.eclipse.rse.releng.infocenter"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.scp-feature,org.eclipse.rse.scp-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.sdk,org.eclipse.rse.sdk"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.sdk-feature,org.eclipse.rse.sdk-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services,org.eclipse.rse.services"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,org.eclipse.rse.services.dstore"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,org.eclipse.rse.services.files.ftp"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local,org.eclipse.rse.services.local"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.ssh,org.eclipse.rse.services.ssh"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.telnet,org.eclipse.rse.services.telnet"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.shells.ui,org.eclipse.rse.shells.ui"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.ssh-feature,org.eclipse.rse.ssh-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.core,org.eclipse.rse.subsystems.files.core"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.dstore,org.eclipse.rse.subsystems.files.dstore"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.ftp,org.eclipse.rse.subsystems.files.ftp"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.local,org.eclipse.rse.subsystems.files.local"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.scp,org.eclipse.rse.subsystems.files.scp"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.files.ssh,org.eclipse.rse.subsystems.files.ssh"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.core,org.eclipse.rse.subsystems.processes.core"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.dstore,org.eclipse.rse.subsystems.processes.dstore"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.local,org.eclipse.rse.subsystems.processes.local"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.processes.shell.linux,org.eclipse.rse.subsystems.processes.shell.linux"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.core,org.eclipse.rse.subsystems.shells.core"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.dstore,org.eclipse.rse.subsystems.shells.dstore"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.local,org.eclipse.rse.subsystems.shells.local"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.ssh,org.eclipse.rse.subsystems.shells.ssh"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.shells.telnet,org.eclipse.rse.subsystems.shells.telnet"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.core,org.eclipse.rse.subsystems.terminals.core"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.subsystems.terminals.ssh,org.eclipse.rse.subsystems.terminals.ssh"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/wince/org.eclipse.rse.subsystems.wince,org.eclipse.rse.subsystems.wince"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.telnet-feature,org.eclipse.rse.telnet-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.terminals-feature,org.eclipse.rse.terminals-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.terminals.ui,org.eclipse.rse.terminals.ui"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/tests/org.eclipse.rse.tests,org.eclipse.rse.tests"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/tests/org.eclipse.rse.tests-feature,org.eclipse.rse.tests-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework,org.eclipse.rse.tests.framework"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework.examples,org.eclipse.rse.tests.framework.examples"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.manual,org.eclipse.rse.tests.manual"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,org.eclipse.rse.ui"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.rse.updatesite,org.eclipse.rse.updatesite"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.useractions,org.eclipse.rse.useractions"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.useractions-feature,org.eclipse.rse.useractions-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/wince/org.eclipse.rse.wince-feature,org.eclipse.rse.wince-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/wince/org.eclipse.tm.rapi,org.eclipse.tm.rapi"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.examples,org.eclipse.tm.rapi.examples"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/wince/org.eclipse.tm.rapi.tests,org.eclipse.tm.rapi.tests"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng,org.eclipse.tm.releng"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng.master-feature,org.eclipse.tm.releng.master-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng.test-feature,org.eclipse.tm.releng.test-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,org.eclipse.tm.terminal"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal-feature,org.eclipse.tm.terminal-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local,org.eclipse.tm.terminal.local"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local-feature,org.eclipse.tm.terminal.local-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local.sdk-feature,org.eclipse.tm.terminal.local.sdk-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.sdk-feature,org.eclipse.tm.terminal.sdk-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.serial,org.eclipse.tm.terminal.serial"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.serial-feature,org.eclipse.tm.terminal.serial-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.ssh,org.eclipse.tm.terminal.ssh"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.ssh-feature,org.eclipse.tm.terminal.ssh-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet,org.eclipse.tm.terminal.telnet"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.telnet-feature,org.eclipse.tm.terminal.telnet-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.test,org.eclipse.tm.terminal.test"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.test-feature,org.eclipse.tm.terminal.test-feature"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.view,org.eclipse.tm.terminal.view"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.view-feature,org.eclipse.tm.terminal.view-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/tm/development,www-tm-development"/>
 </provider>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1291225407570_42" label="Release Train" name="Release Train">
@@ -182,17 +182,6 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ssh-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.local-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ftp-feature" type="4"/>
-</workingSets>
-<workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1269037221238_7" label="tm-tcf" name="tm-tcf">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.agent" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.debug" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.docs" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.cdt.ui" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.rse" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.debug.ui" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.core" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1257517185312_5" label="tm-terminal" name="tm-terminal">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.test-feature" type="4"/>

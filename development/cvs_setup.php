@@ -138,12 +138,12 @@
 		  <tr><th> &nbsp; </th><th>Repository</th><th>Module path</th></tr>
 		  <tr>
 		    <td>TM Core Repository</td>
-		    <td>:pserver:dev.eclipse.org:/cvsroot/dsdp</td>
+		    <td>:pserver:dev.eclipse.org:/cvsroot/tools</td>
 		    <td>org.eclipse.tm.core</td>
 		  </tr>
 		  <tr>
 		    <td>RSE Main Repository</td>
-		    <td>:pserver:dev.eclipse.org:/cvsroot/dsdp</td>
+		    <td>:pserver:dev.eclipse.org:/cvsroot/tools</td>
 		    <td>org.eclipse.tm.rse</td>
 		  </tr>
 		  <tr>
