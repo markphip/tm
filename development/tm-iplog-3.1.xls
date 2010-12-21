@@ -1793,11 +1793,11 @@ td
   <td height=20 colspan=4 class=xl24 style='height:15.0pt;mso-ignore:colspan'></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl43 colspan=2 style='height:15.0pt;mso-ignore:colspan'>/cvsroot/dsdp/org.eclipse.tm.core</td>
+  <td height=20 class=xl43 colspan=2 style='height:15.0pt;mso-ignore:colspan'>/cvsroot/tools/org.eclipse.tm.core</td>
   <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl43 colspan=2 style='height:15.0pt;mso-ignore:colspan'>/cvsroot/dsdp/org.eclipse.tm.rse</td>
+  <td height=20 class=xl43 colspan=2 style='height:15.0pt;mso-ignore:colspan'>/cvsroot/tools/org.eclipse.tm.rse</td>
   <td colspan=2 class=xl24 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
