@@ -114,11 +114,11 @@
 		<p>Our repositories can also be accessed over the internet 
 		through the viewcvs interface:</p>
 		<ul>
-		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">TM Core Repository</a>, 
+		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=Tools_Project">TM Core Repository</a>, 
 		    holding re-usable core components without further dependencies like
 		    third party libraries (Apache Commons Net, Jakarta-ORO),
 		    Discovery components and Terminal view.</li>
-		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>,
+		  <li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=Tools_Project">RSE Repository</a>,
 		    holding the Remote System Explorer (RSE) framework including services, subsystems,
 		    UI components, examples, tests, documentation and all release engineering
 		    support projects.</li>
@@ -164,8 +164,8 @@
 		to the repositories. Unfortunately, these need to be separate for the
 		Core and RSE repositories due to technical constraints:</p>
 		<ul>
-		  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/index.html">RSE Main Changelog</a></li>
-		  <li><a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/core/index.html">Core Components Changelog</a></li>
+		  <li><a href="http://download.eclipse.org/tm/downloads/drops/N-changelog/index.html">RSE Main Changelog</a></li>
+		  <li><a href="http://download.eclipse.org/tm/downloads/drops/N-changelog/core/index.html">Core Components Changelog</a></li>
 		</ul>
 		
 		<a name="notifications"></a>

@@ -42,20 +42,20 @@
 						TM development is managed in 
 						<!-- two CVS repositories:
 						<ul class="midlist">
-							<li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">Core Repository</a>
-						    <li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE Repository</a>
+							<li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=Tools_Project">Core Repository</a>
+						    <li>The <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=Tools_Project">RSE Repository</a>
 						</ul>
 						-->
-						the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=DSDP_Project">RSE</a> and
-						<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=DSDP_Project">Core</a> Repositories.
+						the <a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=Tools_Project">RSE</a> and
+						<a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=Tools_Project">Core</a> Repositories.
 						To populate an Eclipse workspace with our code, best use our
 						<a href="/tm/development/cvs_setup.php">Team Project Sets</a>.
 						A 
-						<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/N-changelog/index.html">
+						<a href="http://download.eclipse.org/tm/downloads/drops/N-changelog/index.html">
 						CVS Changelog</a> is available, and you can subscribe to commit notifications on
 						<a href="https://dev.eclipse.org/mailman/listinfo/dsdp-tm-cvs-commit">dsdp-tm-cvs-commit</a>.</li>
 					<li><a href="/tm/development/bug_process.php" target="_self"><b>Bug Process</b></a><br> 
-					   View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
+					   View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
 					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
 					   | Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
 					</li>
@@ -73,7 +73,7 @@
 						Useful utilities from the Platform team. Consider adding their
 						<a href="http://www.eclipse.org/eclipse/platform-core/downloads.html#updates">
 						update site</a> to your configuration.</li>
-					<li><b><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/releng/org.eclipse.rse.build/README_build.txt?revision=1.2&root=DSDP_Project">
+					<li><b><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/releng/org.eclipse.rse.build/README_build.txt?revision=1.2&root=Tools_Project">
 						Building RSE</a></b><br/>
 						Instructions how to perform unattended builds of TM / RSE.</li> 
 					<li><b><a
