@@ -17,11 +17,12 @@
 <project reference="0.9.3,svn://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.debug.ui,org.eclipse.tm.tcf.debug.ui"/>
 <project reference="0.9.3,svn://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/plugins/org.eclipse.tm.tcf.rse,org.eclipse.tm.tcf.rse"/>
 <project reference="0.9.3,svn://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/server,org.eclipse.tm.tcf.server"/>
-<project reference="0.9.3,svn://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/tests,org.eclipse.tm.tcf.tests"/>
+<project reference="0.9.3,svn://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/trunk/tests,org.eclipse.tcf.tests"/>
 </provider>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1294110173942_8" label="tcf" name="tcf">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tcf.target.core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tcf.target.ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tcf.tests" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.agent" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.cdt.ui" type="4"/>
@@ -36,6 +37,5 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.rse" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.server" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.site" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.tcf.tests" type="4"/>
 </workingSets>
 </psf>
