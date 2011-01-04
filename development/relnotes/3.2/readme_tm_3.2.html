@@ -42,17 +42,17 @@ See the <a href="http://wiki.eclipse.org/TM/3.2_Known_Issues_and_Workarounds">TM
 API Specification Updates are binary compatible, but may require clients to 
 make small adjustments in their code.
 <ul>
-  <li>The <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.dstore.doc.isv/reference/api/org/eclipse/dstore/core/server/IServerLogger.html">IServerLogger</a></code>
+  <li>The <code><a href="http://help.eclipse.org/helios/topic/org.eclipse.dstore.doc.isv/reference/api/org/eclipse/dstore/core/server/IServerLogger.html">IServerLogger</a></code>
 
       interface was marked as <b>@noimplement</b> in order to allow adding a new method. Clients must extend the 
-      default <a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.dstore.doc.isv/reference/api/org/eclipse/dstore/core/server/ServerLogger.html">ServerLogger</a></code>
+      default <a href="http://help.eclipse.org/helios/topic/org.eclipse.dstore.doc.isv/reference/api/org/eclipse/dstore/core/server/ServerLogger.html">ServerLogger</a></code>
       class in order to contribute a valid custom server logger. We believe that any useful server logger would have done that
       already, so the API specification update seems acceptable
       [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=305272">305272</a>].</li>
-  <li>The <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/clientserver/ISystemFileTypes.html">ISystemFileTypes</a></code>,
-      <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/subsystems/files/core/model/ISystemFileTransferModeMapping.html">ISystemFileTransferModeMapping</a></code>
+  <li>The <code><a href="http://help.eclipse.org/helios/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/clientserver/ISystemFileTypes.html">ISystemFileTypes</a></code>,
+      <code><a href="http://help.eclipse.org/helios/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/subsystems/files/core/model/ISystemFileTransferModeMapping.html">ISystemFileTransferModeMapping</a></code>
 
-      and <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/subsystems/files/core/model/ISystemFileTransferModeRegistry.html">ISystemFileTransferModeRegistry</a></code>
+      and <code><a href="http://help.eclipse.org/helios/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/subsystems/files/core/model/ISystemFileTransferModeRegistry.html">ISystemFileTransferModeRegistry</a></code>
       interfaces have been marked <b>@noimplement</b> in order to allow adding new methods.
       These interfaces had not been documented at all so far, and have never been intended
       to be implemented. The amendment adds a restriction which should have been there

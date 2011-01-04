@@ -52,11 +52,11 @@ in client code even though they are binary compatible.
 More information can be found in the associated bugzilla items:
 </p>
 <ul>
-<li>Method <code><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/files/DefaultFileServiceCodePageConverter.html">DefaultFileServiceCodePageConverter#convertFileFromRemoteEncoding()</a></code>
+<li>Method <code><a href="http://help.eclipse.org/galileo/index.jsp?topic=/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/files/DefaultFileServiceCodePageConverter.html">DefaultFileServiceCodePageConverter#convertFileFromRemoteEncoding()</a></code>
   can now throw a <b>RuntimeException</b> when a remote file cannot be transcoded to the requested encoding without data loss
   [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=279014">279014</a>].</li>
-<li>Methods <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/IService.html#initService(org.eclipse.core.runtime.IProgressMonitor)">IService.initService()</a></code>
-  and <code><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/core/subsystems/ISubSystem.html#initializeSubSystem(org.eclipse.core.runtime.IProgressMonitor)">ISubSystem.initializeSubSystem</a></code>
+<li>Methods <code><a href="http://help.eclipse.org/galileo/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/services/IService.html#initService(org.eclipse.core.runtime.IProgressMonitor)">IService.initService()</a></code>
+  and <code><a href="http://help.eclipse.org/galileo/topic/org.eclipse.rse.doc.isv/reference/api/org/eclipse/rse/core/subsystems/ISubSystem.html#initializeSubSystem(org.eclipse.core.runtime.IProgressMonitor)">ISubSystem.initializeSubSystem</a></code>
   can now throw a <code>SystemMessageException</code> on error. As per the 
   <a href="http://wiki.eclipse.org/Evolving_Java-based_APIs_2#Evolving_API_interfaces_-_API_methods">Java API compatibility guide</a>,
   this is not strictly a change breaking binary compatibility, but it does break source compatibility.
