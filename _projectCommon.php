@@ -1,7 +1,7 @@
 <?php
 
 # <modeling variables>
-$PR = "dsdp/tm";
+$PR = "tm";
 $projectName = "Target Management";
 
 $isEMFserver = (preg_match("/^emf(?:\.torolab\.ibm\.com)$/", $_SERVER["SERVER_NAME"]));
@@ -110,20 +110,20 @@ EOBRANDING;
 	#$Nav->addCustomNav("Team", "/tm/tm-new/team",	"_self", 2);
 	$Nav->addCustomNav("Team", "/tm/development/contributors.php",	"_self", 2);
 	#$Nav->addCustomNav("Demos", "/tm/tm-new/demos", "_self", 2);
-	#$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/DSDP/TM", "_self", 2); 
+	#$Nav->addCustomNav("Wiki", "http://wiki.eclipse.org/TM", "_self", 2); 
 
 	$Nav->addNavSeparator("Users", "", "_self", 2);
 	$Nav->addCustomNav("Getting Started", "/tm/tutorial/index.php", "_self", 2);
 	$Nav->addCustomNav("Downloads", "http://download.eclipse.org/tm/downloads/index.php", "_self", 2);
 	$Nav->addCustomNav("FAQ (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ", "_self", 2);
-	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm", "_self", 2);
+	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.tm", "_self", 2);
 	$Nav->addCustomNav("Bugs", "/tm/bugs", "_self", 2);
 
 	$Nav->addNavSeparator("Integrators", "", "_self", 2);
 	$Nav->addCustomNav("API Plan", "/tm/development/plan.php", "_self", 2);
 	$Nav->addCustomNav("Documents", "/tm/doc/", "_self", 2);
 	#$Nav->addCustomNav("Release Notes", "/$PR/news/relnotes.php?project=$proj&amp;version=HEAD", "_self", 2);
-	#$Nav->addCustomNav("Legal", "dsdp/tm/development/tm-log.csv", "_self", 2);
+	#$Nav->addCustomNav("Legal", "tm/development/tm-log.csv", "_self", 2);
 
 	$Nav->addNavSeparator("Contributors", "/tm/development/contributors.php", "_self", 2);
 	$Nav->addCustomNav("Contributing (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 2);

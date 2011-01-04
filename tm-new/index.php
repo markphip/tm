@@ -87,7 +87,7 @@
 			<b>Latest Milestone:</b> 
 			<a href="http://download.eclipse.org/tm/downloads/drops/S-3.1M6-200903192015/">TM 3.1M6</a>
 			[ <a href="http://download.eclipse.org/tm/downloads/drops/S-3.1M6-200903192015/">Downloads</a> 
-			| <a href="http://download.eclipse.org/dsdp/tm/updates/3.1milestones/">Update Site</a>
+			| <a href="http://download.eclipse.org/tm/updates/3.1milestones/">Update Site</a>
 			| <a href="http://download.eclipse.org/tm/downloads/drops/S-3.1M6-200903192015/buildNotes.php">Build Notes</a>
 			]
 			<br/>

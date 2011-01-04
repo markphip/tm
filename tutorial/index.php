@@ -59,7 +59,7 @@
 	  <li>Apache <b>Commons Net</b> re-bundled for Eclipse to support FTP, rlogin, telnet
 	    and other standard protocols (requires J2SE-1.2 only)</li>
 	</ul>
-	while the <b><a href="http://wiki.eclipse.org/DSDP/TM/TCF_FAQ">Target Communication Framework (TCF)</a></b>
+	while the <b><a href="http://wiki.eclipse.org/TCF">Target Communication Framework (TCF)</a></b>
 	is currently available from its SVN Repository only. 
 	
 	<p>TM 3.0 as well as upcoming service releases and milestones are available
@@ -134,8 +134,6 @@
 				    TM 3.0 Release Review Slides</a></li>
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/DSDP" 
-			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
