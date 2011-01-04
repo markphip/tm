@@ -91,7 +91,7 @@ $buildtypes = array(
 	# these are optional
 	#$Nav->addNavSeparator("Target Management", 	"/tm/index.php");
 	#$Nav->addCustomNav("About", 		"/tm/about.php", 	 "_self", 2);
-	#$Nav->addCustomNav("Downloads", 	"/dsdp/tm/downloads.php", "_self", 2);
+	#$Nav->addCustomNav("Downloads", 	"/tm/downloads.php", "_self", 2);
 	#$Nav->addCustomNav("Getting Started", "/tm/tutorial/index.php",  "_self", 2);
 	#$Nav->addCustomNav("Development", 	"/tm/development/index.php", "_self", 2);
 
@@ -114,7 +114,7 @@ EOBRANDING;
 
 	$Nav->addNavSeparator("Users", "", "_self", 2);
 	$Nav->addCustomNav("Getting Started", "/tm/tutorial/index.php", "_self", 2);
-	$Nav->addCustomNav("Downloads", "http://download.eclipse.org/dsdp/tm/downloads/index.php", "_self", 2);
+	$Nav->addCustomNav("Downloads", "http://download.eclipse.org/tm/downloads/index.php", "_self", 2);
 	$Nav->addCustomNav("FAQ (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ", "_self", 2);
 	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm", "_self", 2);
 	$Nav->addCustomNav("Bugs", "/tm/bugs", "_self", 2);
@@ -127,7 +127,7 @@ EOBRANDING;
 
 	$Nav->addNavSeparator("Contributors", "/tm/development/contributors.php", "_self", 2);
 	$Nav->addCustomNav("Contributing (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ#Working_on_TM_.2F_RSE", "_self", 2);
-	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev", "_self", 2);
+	$Nav->addCustomNav("Mailing List", "https://dev.eclipse.org/mailman/listinfo/tm-dev", "_self", 2);
 	$Nav->addCustomNav("CVS", "/tm/development/cvs_setup.php", "_self", 2);
 	$Nav->addCustomNav("Development Tools", "/tm/development/", "_self", 2);
 	$Nav->addCustomNav("Search CVS", "/$PR/searchcvs.php?q=file%3A+org.eclipse.tm%25%2F" . "+days%3A+7", "_self", 2);

@@ -7,7 +7,7 @@
 	# Author: 		Martin Oberhuber
 	# Date:			2006-02-01
 	#
-	# Description: DSDP-TM developer documents index page
+	# Description: TM developer documents index page
 	#
 	#
 	#****************************************************************************
@@ -36,7 +36,7 @@
 
     	<h2>Use Cases (your best bet to get started!)</h2>
     	<ul>
-    	<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">DSDP-TM Use Cases v1.1c.pdf</a></li>
+    	<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">TM Use Cases v1.1c.pdf</a></li>
     	<li><a href="/tm/doc/nucleus_edge_target_usecase.pdf">nucleus edge target usecase.pdf</a></li>
     	</ul>
 
@@ -51,9 +51,9 @@
 
 		<h2>Design Documents</h2>
 		<ul>
-	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
-		<li><a href="/tm/doc/DSDPTM_Design_Proposal_v0.3.pdf">DSDP-TM Design Proposal v0.3.pdf</a></li>
-		<li><a href="/tm/doc/DSDPTM_Target_Connection_Adapter_Proposal.pdf">DSDP-TM Target Connection Adapter Proposal.pdf</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">TM Overview (ppt)</a></li>
+		<li><a href="/tm/doc/DSDPTM_Design_Proposal_v0.3.pdf">TM Design Proposal v0.3.pdf</a></li>
+		<li><a href="/tm/doc/DSDPTM_Target_Connection_Adapter_Proposal.pdf">TM Target Connection Adapter Proposal.pdf</a></li>
 	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes from Chicago Meeting</a></li>
 		</ul>
 
@@ -61,21 +61,21 @@
 		<ul>
 		<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 		    TM 3.0 Release Review Slides</a></li>
-		<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt">TM 2.0 Release Review Slides (PPT: 237k)</a>
-		   | <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.pdf">(PDF: 300K)</a></li>
+		<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt">TM 2.0 Release Review Slides (PPT: 237k)</a>
+		   | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.pdf">(PDF: 300K)</a></li>
     	<li>Eclipse Summit Europe 2006-9-29 
-    		<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">
+    		<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">
       		TM Overview Slides (PPT: 314k)</a>
-    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">(PDF: 298k)</a></li>
-		<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3.ppt">TM 1.0 Release Review Slides (PPT: 248k)</a>
-		   | <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3a.pdf">(PDF: 195K)</a></li>
+    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">(PDF: 298k)</a></li>
+		<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_1.0_Release_Review_v3.ppt">TM 1.0 Release Review Slides (PPT: 248k)</a>
+		   | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_1.0_Release_Review_v3a.pdf">(PDF: 195K)</a></li>
 		<li>EclipseCon 2006: 
-		   <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">
+		   <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-3-22_EclipseCon_Target_Management.ppt">
 		   Using and Extending the DSDP Target Management Framework (PPT: 850k)</a>
 		   | <a href="http://eclipsezilla.eclipsecon.org/php/attachment.php?bugid=287">(Zipped PPT: 559k)</a></li>
 		</ul>
 
-		<h2>Older Meeting Notes (Newer notes are on the <a href="http://wiki.eclipse.org/DSDP/TM">Wiki</a>)</h2>
+		<h2>Older Meeting Notes (Newer notes are on the <a href="http://wiki.eclipse.org/TM">Wiki</a>)</h2>
 		<ul>
 		<h4>CDT Conference Ottawa, 2005 October 25-26</h4>
 		<ul>
@@ -87,7 +87,7 @@
 		<li><a href="/tm/meetingnotes/ff01_chicago/2005-10-12_Chicago_TM_MeetingNotes.htm">Meeting Notes</a></li>
 	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Brainstorming_2005-10-14.htm">Brainstorming Notes</a></li>
 	    <li><a href="/tm/meetingnotes/ff01_chicago/Eclipse_IP_Due_Diligence.ppt">Eclipse IP Due Diligence (ppt)</a></li>
-	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">DSDP-TM Overview (ppt)</a></li>
+	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_Overview.ppt">TM Overview (ppt)</a></li>
 	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_DD_Borderline.ppt">On the Borderline between Target Management and Debugging (ppt)</a></li>
 	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_DebuggerBackend.ppt">WR Debugger Backend Interface Proposal (ppt)</a></li>
 	    <li><a href="/tm/meetingnotes/ff01_chicago/DSDPTM_TCA.ppt">Target Connection Adapter Proposal (ppt)</a></li>
@@ -109,11 +109,11 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 				    TM 3.0 Release Review Slides</a></li>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				

@@ -14,8 +14,8 @@ $options = array (
 		"3.0.0=HEAD,/opt/JDKs/i386/ibm-java2-i386-60-0.0",
 		
 		"build.eclipse.org=------------,------------",
-		"3.0.0=HEAD,/shared/dsdp/JDKs/ppc/IBMJava2-ppc-142-10.0",
-		"3.0.0=HEAD,/shared/dsdp/JDKs/ppc/ibm-java2-ppc-50-6.0",
+		"3.0.0=HEAD,/shared/tools/tm/JDKs/ppc/IBMJava2-ppc-142-10.0",
+		"3.0.0=HEAD,/shared/tools/tm/JDKs/ppc/ibm-java2-ppc-50-6.0",
 		"3.0.0=HEAD,/shared/common/ibm-java-ppc-60"
 	),
 	

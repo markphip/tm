@@ -12,21 +12,21 @@
 
   <entry>
     <title>[announce] RSE 3.0.0RC2 (S200805271940) is available</title>
-    <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/index.php"/>
-    <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/index.php</id>
+    <link href="http://download.eclipse.org/tm/downloads/drops/S-3.0RC2-200805271940/index.php"/>
+    <id>http://download.eclipse.org/tm/downloads/drops/S-3.0RC2-200805271940/index.php</id>
     <updated>2008-05-27T21:00:00Z</updated>
     <summary>
-      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200805271940" href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/index.php" type="S" version="3.0.0">
-        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/" log="buildlog.txt" map="directory.txt"/>
+      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200805271940" href="http://download.eclipse.org/tm/downloads/drops/S-3.0RC2-200805271940/index.php" type="S" version="3.0.0">
+        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0RC2-200805271940/" log="buildlog.txt" map="directory.txt"/>
         <update>http://download.eclipse.org/dsdp/tm/updates/3.0</update>
-        <downloads>http://download.eclipse.org/dsdp/tm/downloads/</downloads>
-        <releasenotes>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/buildNotes.php
+        <downloads>http://download.eclipse.org/tm/downloads/</downloads>
+        <releasenotes>http://download.eclipse.org/tm/downloads/drops/S-3.0RC2-200805271940/buildNotes.php
           </releasenotes>
         <releases>
           <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0RC2.zip</release>
         </releases>
         <tests>
-          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0RC2-200805271940/testResults.php" type="junit">
+          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0RC2-200805271940/testResults.php" type="junit">
             <result arch="ALL" os="ALL" ws="ALL">PASS</result>
           </test>
         </tests>
@@ -44,21 +44,21 @@
 
   <entry>
     <title>[announce] RSE 3.0.0RC1 (S200805211446) is available</title>
-    <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/index.php"/>
-    <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/index.php</id>
+    <link href="http://download.eclipse.org/tm/downloads/drops/S-3.0RC1-200805211446/index.php"/>
+    <id>http://download.eclipse.org/tm/downloads/drops/S-3.0RC1-200805211446/index.php</id>
     <updated>2008-05-21T16:00:00Z</updated>
     <summary>
-      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200805211446" href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/index.php" type="S" version="3.0.0">
-        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/" log="buildlog.txt" map="directory.txt"/>
+      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200805211446" href="http://download.eclipse.org/tm/downloads/drops/S-3.0RC1-200805211446/index.php" type="S" version="3.0.0">
+        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0RC1-200805211446/" log="buildlog.txt" map="directory.txt"/>
         <update>http://download.eclipse.org/dsdp/tm/updates/3.0</update>
-        <downloads>http://download.eclipse.org/dsdp/tm/downloads/</downloads>
-        <releasenotes>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/buildNotes.php
+        <downloads>http://download.eclipse.org/tm/downloads/</downloads>
+        <releasenotes>http://download.eclipse.org/tm/downloads/drops/S-3.0RC1-200805211446/buildNotes.php
           </releasenotes>
         <releases>
           <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0RC1.zip</release>
         </releases>
         <tests>
-          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0RC1-200805211446/testResults.php" type="junit">
+          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0RC1-200805211446/testResults.php" type="junit">
             <result arch="ALL" os="ALL" ws="ALL">PASS</result>
           </test>
         </tests>
@@ -76,21 +76,21 @@
 
   <entry>
     <title>[announce] RSE 3.0.0M7 (S200805081345) is available</title>
-    <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M7-200805081345/index.php"/>
-    <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M7-200805081345/index.php</id>
+    <link href="http://download.eclipse.org/tm/downloads/drops/S-3.0M7-200805081345/index.php"/>
+    <id>http://download.eclipse.org/tm/downloads/drops/S-3.0M7-200805081345/index.php</id>
     <updated>2008-05-08T16:00:00Z</updated>
     <summary>
-      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200805081345" href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M7-200805081345/index.php" type="S" version="3.0.0">
-        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M7-200805081345/" log="buildlog.txt" map="directory.txt"/>
+      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200805081345" href="http://download.eclipse.org/tm/downloads/drops/S-3.0M7-200805081345/index.php" type="S" version="3.0.0">
+        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0M7-200805081345/" log="buildlog.txt" map="directory.txt"/>
         <update>http://download.eclipse.org/dsdp/tm/updates/3.0</update>
-        <downloads>http://download.eclipse.org/dsdp/tm/downloads/</downloads>
-        <releasenotes>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M7-200805081345/buildNotes.php
+        <downloads>http://download.eclipse.org/tm/downloads/</downloads>
+        <releasenotes>http://download.eclipse.org/tm/downloads/drops/S-3.0M7-200805081345/buildNotes.php
           </releasenotes>
         <releases>
           <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0M7.zip</release>
         </releases>
         <tests>
-          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M7-200805081345/testResults.php" type="junit">
+          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0M7-200805081345/testResults.php" type="junit">
             <result arch="ALL" os="ALL" ws="ALL">PASS</result>
           </test>
         </tests>
@@ -108,21 +108,21 @@
 
   <entry>
     <title>[announce] RSE 3.0.0M6 (S200804112145) is available</title>
-    <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/index.php"/>
-    <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/index.php</id>
+    <link href="http://download.eclipse.org/tm/downloads/drops/S-3.0M6-200804112145/index.php"/>
+    <id>http://download.eclipse.org/tm/downloads/drops/S-3.0M6-200804112145/index.php</id>
     <updated>2008-04-12T08:00:00Z</updated>
     <summary>
-      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200804112145" href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/index.php" type="S" version="3.0.0">
-        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M6-200804112145/" log="buildlog.txt" map="directory.txt"/>
+      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200804112145" href="http://download.eclipse.org/tm/downloads/drops/S-3.0M6-200804112145/index.php" type="S" version="3.0.0">
+        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0M6-200804112145/" log="buildlog.txt" map="directory.txt"/>
         <update>http://download.eclipse.org/dsdp/tm/updates/3.0</update>
-        <downloads>http://download.eclipse.org/dsdp/tm/downloads/</downloads>
-        <releasenotes>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M6-200804112145/buildNotes.php
+        <downloads>http://download.eclipse.org/tm/downloads/</downloads>
+        <releasenotes>http://download.eclipse.org/tm/downloads/drops/S-3.0M6-200804112145/buildNotes.php
           </releasenotes>
         <releases>
           <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0M6.zip</release>
         </releases>
         <tests>
-          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M6-200804112145/testResults.php" type="junit">
+          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0M6-200804112145/testResults.php" type="junit">
             <result arch="ALL" os="ALL" ws="ALL">PASS</result>
           </test>
         </tests>
@@ -140,21 +140,21 @@
 
   <entry>
     <title>[announce] RSE 3.0.0M5 (S200802181400) is available</title>
-    <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/index.php"/>
-    <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/index.php</id>
+    <link href="http://download.eclipse.org/tm/downloads/drops/S-3.0M5-200802181400/index.php"/>
+    <id>http://download.eclipse.org/tm/downloads/drops/S-3.0M5-200802181400/index.php</id>
     <updated>2008-02-18T14:50:00Z</updated>
     <summary>
-      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200802181450" href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/index.php" type="S" version="3.0.0">
-        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M5-200802181400/" log="buildlog.txt" map="directory.txt"/>
+      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200802181450" href="http://download.eclipse.org/tm/downloads/drops/S-3.0M5-200802181400/index.php" type="S" version="3.0.0">
+        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0M5-200802181400/" log="buildlog.txt" map="directory.txt"/>
         <update>http://download.eclipse.org/dsdp/tm/updates/3.0</update>
-        <downloads>http://download.eclipse.org/dsdp/tm/downloads/</downloads>
-        <releasenotes>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M5-200802181400/buildNotes.php
+        <downloads>http://download.eclipse.org/tm/downloads/</downloads>
+        <releasenotes>http://download.eclipse.org/tm/downloads/drops/S-3.0M5-200802181400/buildNotes.php
           </releasenotes>
         <releases>
           <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0M5.zip</release>
         </releases>
         <tests>
-          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M5-200802181400/testResults.php" type="junit">
+          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0M5-200802181400/testResults.php" type="junit">
             <result arch="ALL" os="ALL" ws="ALL">PASS</result>
           </test>
         </tests>
@@ -171,21 +171,21 @@
   </entry>
   <entry>
     <title>[announce] RSE 3.0.0M4 (S200801071150) is available</title>
-    <link href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/index.php"/>
-    <id>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/index.php</id>
+    <link href="http://download.eclipse.org/tm/downloads/drops/S-3.0M4-200801071150/index.php"/>
+    <id>http://download.eclipse.org/tm/downloads/drops/S-3.0M4-200801071150/index.php</id>
     <updated>2008-01-07T12:50:00Z</updated>
     <summary>
-      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200801071150" href="http://www.eclipse.org/dsdp/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200801071150#S200801071150" type="S" version="3.0.0">
-        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M4-200801071150/" log="buildlog.txt" map="directory.txt"/>
+      <build xmlns="http://www.eclipse.org/2006/BuildFeed" branch="HEAD" datetime="200801071150" href="http://www.eclipse.org/tm/downloads/?project=rse&amp;showAll=1&amp;hlbuild=S200801071150#S200801071150" type="S" version="3.0.0">
+        <detail config="build.cfg" href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0M4-200801071150/" log="buildlog.txt" map="directory.txt"/>
         <update>http://download.eclipse.org/dsdp/tm/updates/3.0/</update>
-        <downloads>http://download.eclipse.org/dsdp/tm/downloads/</downloads>
-        <releasenotes>http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.0M4-200801071150/buildNotes.php
+        <downloads>http://download.eclipse.org/tm/downloads/</downloads>
+        <releasenotes>http://download.eclipse.org/tm/downloads/drops/S-3.0M4-200801071150/buildNotes.php
           </releasenotes>
         <releases>
           <release arch="ALL" os="ALL" type="SDK" ws="ALL">RSE-SDK-3.0M4.zip</release>
         </releases>
         <tests>
-          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/dsdp/tm/downloads/drops/S-3.0M4-200801071150/testResults.php" type="junit">
+          <test href="http://www.eclipse.org/downloads/download.php?r=1&amp;file=/tm/downloads/drops/S-3.0M4-200801071150/testResults.php" type="junit">
             <result arch="ALL" os="ALL" ws="ALL">PASS</result>
           </test>
         </tests>

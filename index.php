@@ -7,7 +7,7 @@
 	# Author: 		Martin Oberhuber
 	# Date:			2006-02-01
 	#
-	# Description: DSDP-TM main page
+	# Description: TM main page
 	#
 	#
 	#****************************************************************************
@@ -61,10 +61,10 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2.1-201009070720/">
+		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.1-201009070720/">
 		TM 3.2.1</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2.1-201009070720/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.2/">update site</a>
+		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.1-201009070720/">downloads</a> 
+		| <a href="http://download.eclipse.org/tm/updates/3.2/">update site</a>
 		| <a href="/tm/development/relnotes/3.2/readme_tm_3.2.html">release notes</a>
 		]<br/>
 		The TM 3.2.1 service release includes 22 bug fixes compared to TM 3.2. 
@@ -75,18 +75,18 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M4-201012140730/">
+		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M4-201012140730/">
 		TM 3.3M4</a></font>
-		[<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M4-201012140730/">downloads</a> 
-		| <a href="http://download.eclipse.org/dsdp/tm/updates/3.3milestones/">update site</a>
-		| <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M4-201012140730/buildNotes.php">
+		[<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M4-201012140730/">downloads</a> 
+		| <a href="http://download.eclipse.org/tm/updates/3.3milestones/">update site</a>
+		| <a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M4-201012140730/buildNotes.php">
 		build notes</a>]<br/>
 		TM 3.3M4 contains a new SCP file subsystem, and several bug fixes. See the 
-		<a href="http://download.eclipse.org/dsdp/tm/downloads/drops/S-3.3M4-201012140730/buildNotes.php">
+		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M4-201012140730/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.
 		<!-- TODO Enable for ramp-down
 		<br/>
-		With M7, the <a href="http://wiki.eclipse.org/DSDP/TM/3.2_Ramp_down_Plan">
+		With M7, the <a href="http://wiki.eclipse.org/TM/3.2_Ramp_down_Plan">
 		Ramp-down phase</a> of release candidates towards
 		the TM 3.2 release with Helios end of June has been entered.
 		-->
@@ -104,19 +104,19 @@
 		<div class="homeitem">
 			<h3>Quick Links</h3>
 				<ul class="midlist">
-					<li><a href="http://wiki.eclipse.org/DSDP/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions, meeting notes and other "not so official" stuff there.</li>
-					<li><a href="news://news.eclipse.org/eclipse.dsdp.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm">Web access</a>, <a href="http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html">archive</a>).</li>
-					<li><a href="http://dev.eclipse.org/mailman/listinfo/dsdp-tm-dev" target="_blank"><b>Mailing List</b></a> | For project development discussions.</li>
+					<li><a href="http://wiki.eclipse.org/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions, meeting notes and other "not so official" stuff there.</li>
+					<li><a href="news://news.eclipse.org/eclipse.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm">Web access</a>, <a href="http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html">archive</a>).</li>
+					<li><a href="http://dev.eclipse.org/mailman/listinfo/tm-dev" target="_blank"><b>Mailing List</b></a> | For project development discussions.</li>
 					<li><a href="/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
-					   | View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&classification=DSDP&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
+					   | View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
 					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
 					   | Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
 					</li>
 					<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management</a></li>
-			    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
+			    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
       					<b>Architectural Overview</b></a>
-    	  				(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
-    	  				| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
+    	  				(<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
+    	  				| <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  			</li>
 					<li><a href="/tm/development/plan.php"><b>TM Project Plan</b></a></li>
 					<li><a href="/dsdp/dsdp-charter.php"><b>DSDP Project Charter</b></a></li>
@@ -125,7 +125,7 @@
 			<h3>Events</h3>
 			<ul class="midlist">
 				<li>Monthly developer phone conference, every 1st wednesday of the month, 9am PST
-				    (See the <a href="http://wiki.eclipse.org/DSDP/TM">Wiki</a> for actual
+				    (See the <a href="http://wiki.eclipse.org/TM">Wiki</a> for actual
 				    agenda and details)</li>
 				<li>
 				  <b>March 22-25, 2010</b>: <a href="http://www.eclipsecon.org/2010">EclipseCon 2010</a> - <ul>
@@ -137,16 +137,16 @@
 				    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">
 				         <b>Remote access with the DSDP Target Management Project</b></a>, Tutorial by Martin Oberhuber (Wind River)
 						(slides:  
-						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.ppt">PPT</a> 757 KB |
-						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.pdf">PDF</a> 639 KB) |
+						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt">PPT</a> 757 KB |
+						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf">PDF</a> 639 KB) |
 						(code:
-						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.ppt">tcf-0.2.0.zip</a> 3.7 MB |
-						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_Econ08_samples.zip">tmtutorial.zip</a> 465 KB)</li>
+						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt">tcf-0.2.0.zip</a> 3.7 MB |
+						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_Econ08_samples.zip">tmtutorial.zip</a> 465 KB)</li>
 				    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=39" target="_blank">
 				         <b>Target Management New and Noteworthy</b></a>, Short Talk by Martin Oberhuber (Wind River), TM project lead
 						(slides:  
-						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Short_ECon08.ppt">PPT</a> 707 KB |
-						<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Short_ECon08.pdf">PDF</a> 581 KB)
+						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Short_ECon08.ppt">PPT</a> 707 KB |
+						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Short_ECon08.pdf">PDF</a> 581 KB)
 					</ul></li>
 				<li><b>March 14, 2008</b>: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a>
 					publicly announced</li>
@@ -155,8 +155,8 @@
 				    <li><a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&id=21" target="_blank">
 				         <b>The DSDP Target Management Project</b></a>, long talk by Martin Oberhuber
 				         (slides:  
-				         <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2007-10-10_TM_ESE2007.ppt">PPT</a> |
-				         <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2007-10-10_TM_ESE2007.pdf">PDF</a>)
+				         <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.ppt">PPT</a> |
+				         <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.pdf">PDF</a>)
 				         </li>
 				    </ul></li>
 				<li><b>April 12, 2007</b>: 
@@ -167,8 +167,8 @@
 				  </li> 
 				<li><b>Sept. 27, 2006</b>: TM passed its 1.0 Release Review. The Slides are an interesting read
 				    for everyone (Slides as  
-				    <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
-				    <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_1.0_Release_Review_v3a.pdf">PDF</a>).</li>
+				    <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_1.0_Release_Review_v3.ppt">PPT</a> | 
+				    <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_1.0_Release_Review_v3a.pdf">PDF</a>).</li>
 			</ul>
 		</div>
 	</div>
@@ -179,7 +179,7 @@
 			<ul>				
 				<li><a href="/tm/tutorial/index.php"
 					target="_self">TM Getting Started</a></li>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
 				<li><a href="http://eclipse.org/project-slides/Helios/TM_Helios_Release.pdf" target="_self">
@@ -189,7 +189,7 @@
 				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 				    TM 3.0 Release Review Slides</a></li>
 				    <!--
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
 				    -->
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
@@ -203,9 +203,9 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Sep 24th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2.1-201009070720/">TM 3.2.1</a> released</li>
-			    <li>Jun 23rd: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.2-201006071030/">TM 3.2</a> released</li>
-			    <li>Feb 26th: <a href="http://download.eclipse.org/dsdp/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
+			<ul><li>Sep 24th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.1-201009070720/">TM 3.2.1</a> released</li>
+			    <li>Jun 23rd: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2-201006071030/">TM 3.2</a> released</li>
+			    <li>Feb 26th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
 			    <li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>

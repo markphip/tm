@@ -7,14 +7,14 @@
 	# Author: 		Martin Oberhuber
 	# Date:			2006-02-01
 	#
-	# Description: DSDP-TM downloads page
+	# Description: TM downloads page
 	#
 	#
 	#****************************************************************************
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "DSDP-TM Downloads";
+	$pageTitle 		= "TM Downloads";
 	$pageKeywords	= "device, target";
 	$pageAuthor		= "Martin Oberhuber";
 	
@@ -36,9 +36,9 @@
 
 		The Target Management Downloads are now available on
 		<ul>
-		<li><a href="http://download.eclipse.org/dsdp/tm/downloads/">The TM Download Site</a>
-		<li><a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">The TM 3.0 Update Site</a>
-		(or legacy: <a href="http://download.eclipse.org/dsdp/tm/updates/2.0">TM 2.x update site</a>)
+		<li><a href="http://download.eclipse.org/tm/downloads/">The TM Download Site</a>
+		<li><a href="http://download.eclipse.org/tm/updates/3.0/">The TM 3.0 Update Site</a>
+		(or legacy: <a href="http://download.eclipse.org/tm/updates/2.0">TM 2.x update site</a>)
 		</ul>
 
 		<p>Older downloads have been submitted to eclipse.org via bugzilla:
@@ -50,7 +50,7 @@
 			</li>
 		</ul>
 		<p/>
-		In addition to that, <a href="/dsdp/tm/doc/index.php">Developer Documents</a> are available for download.
+		In addition to that, <a href="/tm/doc/index.php">Developer Documents</a> are available for download.
 		<p/>
 	</div>
 	<div id="rightcolumn">
@@ -61,10 +61,8 @@
 					target="_self">TM Overview Presentation</a></li>
 				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 				    TM 3.0 Release Review Slides</a></li>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/DSDP" 
-			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
 					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>

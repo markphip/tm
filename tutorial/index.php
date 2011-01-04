@@ -64,13 +64,13 @@
 	
 	<p>TM 3.0 as well as upcoming service releases and milestones are available
     from our 
-	<a href="http://download.eclipse.org/dsdp/tm/downloads/">
+	<a href="http://download.eclipse.org/tm/downloads/">
 	download site</a> as well as our 
 	<a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">
 	update site</a>. The best resource for programmers to get started
 	with the framework is the 
-	<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.pdf">EclipseCon 2008 Tutorial</a>
-	(includes <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_Econ08_samples.zip">sample code</a>),
+	<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf">EclipseCon 2008 Tutorial</a>
+	(includes <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_Econ08_samples.zip">sample code</a>),
 	which is based on TM 3.0M5. Another
 	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
 	Tutorial</a> is available as part of the ISV documentation,
@@ -85,16 +85,16 @@
 	  <div class="homeitem3col">
 		<h3>For more information, see the</h3>
     	<ul>
-    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
+    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
       		Target Management Overview Slides</a>
     	  	which include a diagram of the envisioned components and architecture for our project
-    	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
-    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
+    	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
+    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  	</li>
 	    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=39" target="_blank">
 	         <b>Target Management 3.0 New & Noteworthy</b></a>, EclipseCon 2008
-			(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Short_ECon08.ppt">PPT</a> 707 KB |
-			<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Short_ECon08.pdf">PDF</a> 581 KB)
+			(<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Short_ECon08.ppt">PPT</a> 707 KB |
+			<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Short_ECon08.pdf">PDF</a> 581 KB)
 		<li><a href="http://live.eclipse.org/node/229">TM 2.0 Webinar</a>:
 		  goals, architecture, future plans and online demo
 		  (<a href="http://live.eclipse.org/node/229">50 minute full recording</a> |
@@ -105,16 +105,13 @@
 		<li>EclipseCon 2008 
 		  <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">
 		  <b>TM 3.0 Tutorial</b></a> (includes 
-		  <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_ECon08.pdf">slides</a> and
-		  <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_Tutorial_Econ08_samples.zip">sample code</a>)
+		  <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf">slides</a> and
+		  <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_Econ08_samples.zip">sample code</a>)
 		</li>
     	<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
     		TM Online Docs Tutorial</a></li>
     	<li><a href="http://wiki.eclipse.org/TM_3.0_Known_Issues_and_Workarounds">
     		TM 3.0 Known Issues and Workarounds</a></li>
-    	<li><a href="http://wiki.eclipse.org/DSDP">
-      		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
-      		Project fits into DSDP, and what its basic building blocks are.</li> 
     	<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
@@ -129,13 +126,13 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a>
 				    </li>
 				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 				    TM 3.0 Release Review Slides</a></li>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				

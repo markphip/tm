@@ -65,24 +65,21 @@
     is also part of our offering.</p>
     <p>
     Current releases can be downloaded for evaluation
-    <a href="http://download.eclipse.org/dsdp/tm/downloads/">here</a>.
+    <a href="http://download.eclipse.org/tm/downloads/">here</a>.
 	  <div class="homeitem3col">
 		<h3>For more information, see the</h3>
     	<ul>
-    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
+    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
       		Target Management Overview Slides</a>
     	  	which include a diagram of the envisioned components and architecture for our project
-    	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
-    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
+    	  	(<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
+    	  	| <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  	</li>
 		<li><a href="http://live.eclipse.org/node/229">TM Webinar</a>:
 		  goals, architecture, future plans and online demo
 		  (<a href="http://live.eclipse.org/node/229">50 minute full recording</a> |
 		  <a href="http://www.eclipse.org/projects/slides/TM_Webinar_Slides_070412.ppt">PPT slides</a>)
 		  </li> 
-    	<li><a href="http://wiki.eclipse.org/DSDP">
-      		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
-      		Project fits into DSDP, and what its basic building blocks are.</li> 
     	<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
@@ -99,14 +96,12 @@
 			<ul>				
 				<li><a href="/tm/tutorial/index.php"
 					target="_self">TM Getting Started</a></li>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a>
 				    </li>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/DSDP" 
-			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<li><a href="/tm/development/plan.php"
