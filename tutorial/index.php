@@ -66,7 +66,7 @@
     from our 
 	<a href="http://download.eclipse.org/tm/downloads/">
 	download site</a> as well as our 
-	<a href="http://download.eclipse.org/dsdp/tm/updates/3.0/">
+	<a href="http://download.eclipse.org/tm/updates/3.0/">
 	update site</a>. The best resource for programmers to get started
 	with the framework is the 
 	<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf">EclipseCon 2008 Tutorial</a>
