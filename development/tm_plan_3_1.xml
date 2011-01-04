@@ -27,7 +27,7 @@ or integrated with RSE.
 In terms of interfaces to other Eclipse projects, we provide an
 Eclipse Filesystem (EFS) provider to allow remote resources be
 mapped into an Eclipse Workspace. The DLTK and CDT projects are
-other Eclipse projects known to integrate with DSDP-TM.
+other Eclipse projects known to integrate with TM.
 </p>
 Shortcut to Themes:
 <ul>
@@ -90,7 +90,7 @@ relationship.
     <p:milestone date="6/2/2009" milestone="RC3"><div>3.1RC3</div></p:milestone>
     <p:milestone date="6/9/2009" milestone="RC4"><div>3.1RC4</div></p:milestone>
     <p:postamble><div>
-A detailed <a href="http://wiki.eclipse.org/DSDP/TM/3.1_Ramp_down_Plan">
+A detailed <a href="http://wiki.eclipse.org/TM/3.1_Ramp_down_Plan">
 TM 3.1 Ramp down Plan</a> towards the release is available especially for the Eclipse 
 <a href="http://wiki.eclipse.org/Galileo_Simultaneous_Release">
 Galileo Simultaneous Release</a> integration.
@@ -285,8 +285,8 @@ compliant plug-ins.</p>
     <p:preamble><div>
 <p>Plan items listed <a name="m_themes">below</a> were defined according to contributor requirements,
 but in accordance with the Target Management
-<a href="http://www.eclipse.org/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
-Use Cases Document</a> and the DSDP and Eclipse
+<a href="http://www.eclipse.org/tm/doc/TM_Use_Cases_v1.1c.pdf">
+Use Cases Document</a> and the Eclipse
 <a href="http://wiki.eclipse.org/RequirementsCouncilThemesAndPriorities#Embedded_Device_Software">
 Themes and Priorities</a>
 set forth by the Eclipse Requirements Council.

@@ -77,7 +77,7 @@ relationship.
     <p:milestone date="5/30/2011" milestone="RC3"><div>3.3RC3</div></p:milestone>
     <p:milestone date="6/6/2011" milestone="RC4"><div>3.3RC4</div></p:milestone>
     <p:postamble><div>
-A detailed <a href="http://wiki.eclipse.org/DSDP/TM/3.3_Ramp_down_Plan">
+A detailed <a href="http://wiki.eclipse.org/TM/3.3_Ramp_down_Plan">
 TM 3.3 Ramp down Plan</a> towards the release is available especially for the Eclipse 
 <a href="http://wiki.eclipse.org/Indigo/Simultaneous_Release_Plan">
 Indigo Simultaneous Release</a> integration.
@@ -250,8 +250,8 @@ compliant plug-ins.</p>
     <p:preamble><div>
 <p>Plan items listed <a name="m_themes">below</a> were defined according to contributor requirements,
 but in accordance with the Target Management
-<a href="http://www.eclipse.org/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
-Use Cases Document</a> and the DSDP and Eclipse
+<a href="http://www.eclipse.org/tm/doc/TM_Use_Cases_v1.1c.pdf">
+Use Cases Document</a> and the Eclipse
 <a href="http://wiki.eclipse.org/RequirementsCouncilThemesAndPriorities#Embedded_Device_Software">
 Themes and Priorities</a>
 set forth by the Eclipse Requirements Council.

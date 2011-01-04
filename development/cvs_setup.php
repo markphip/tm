@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "TM Repository and Team Project Sets";
-	$pageKeywords	= "DSDP, Target Management, Team, Development, Project Set, psf, workspace";
+	$pageKeywords	= "Device, Remote, Target Management, Team, Development, Project Set, psf, workspace";
 	$pageAuthor		= "Martin Oberhuber";
 	
 	# Add page-specific Nav bars here
@@ -171,7 +171,7 @@
 		<a name="notifications"></a>
 		<h2>Commit Notifications</h2>
 		<p>You can subscribe to the 
-		  <a href="https://dev.eclipse.org/mailman/listinfo/dsdp-tm-cvs-commit">dsdp-tm-cvs-commit</a>
+		  <a href="https://dev.eclipse.org/mailman/listinfo/tm-cvs-commit">tm-cvs-commit</a>
 		  mailing list to receive notification E-Mails for new checkins.</p>
 
 		<a name="cvsbackground"></a>

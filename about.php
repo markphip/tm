@@ -83,7 +83,7 @@
     	<li><a href="http://wiki.eclipse.org/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
-    	<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+    	<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
 		<li><a href="/tm/development/plan.php">
@@ -109,7 +109,7 @@
 				    TM 2.0 Release Review Slides</a></li>
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
-				<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+				<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<li><a href="/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>

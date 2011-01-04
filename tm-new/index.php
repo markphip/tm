@@ -53,7 +53,7 @@
 					| Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
 				</li>
 				<li>
-					<a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management
+					<a href="/tm/doc/TM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management
 				</li>
 			    <li>
 			    	<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"><b>Architectural Overview</b></a>

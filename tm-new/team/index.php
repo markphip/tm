@@ -131,7 +131,7 @@
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
-					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<!-- <li><a href="/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/tm/doc/index.php">Developer Documents</a></li>

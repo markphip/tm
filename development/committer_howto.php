@@ -7,7 +7,7 @@
 	# Author: 		Martin Oberhuber
 	# Date:			2006-05-23
 	#
-	# Description: Committer Howto for the DSDP TM Project
+	# Description: Committer Howto for the TM Project
 	#
 	#
 	#****************************************************************************
@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "TM Committer Howto";
-	$pageKeywords	= "DSDP, Target Management, Committer, Howto, Guidelines, IP";
+	$pageKeywords	= "Device, Remote, Target Management, Committer, Howto, Guidelines, IP";
 	$pageAuthor		= "Martin Oberhuber";
 	
 	# Add page-specific Nav bars here
@@ -58,7 +58,7 @@
 		  <li>Ensure that you have <a href="/tm/development/compiler_warnings.php">Compiler Warnings
 		      </a> switched on as recommended. For every file that you modify, please ensure that it
 		      compiles without warnings before you check it in.</li>
-		  <li>Keep the <a href="http://wiki.eclipse.org/DSDP/TM/Code_Ownership">
+		  <li>Keep the <a href="http://wiki.eclipse.org/TM/Code_Ownership">
 		  	  Code Ownership Page</a> up-to-date on the Wiki.</li>
 		  <li>Ideally, run <a href="http://www.jroller.com/andyl/entry/findbugs_update1">FindBugs 
 		      on your code to find additional issues.</li>
@@ -210,7 +210,7 @@ padding-bottom: 2px">
 		<h2>Add some legacy code to the project</h2>
 		<ul>
 		  <li>Obtain <b>PMC Member Approval</b>: Write an e-mail to 
-		      <a href="mailto:dsdp-pmc@eclipse.org">dsdp-pmc@eclipse.org</a>,
+		      <a href="mailto:tools-pmc@eclipse.org">tools-pmc@eclipse.org</a>,
 		      describing the intended contribution. Give the PMC an idea of how large the
 		      contribution is, what it is good for (cryptography?), and if there are 
 		      any other licenses than the EPL involved.</li>
@@ -247,8 +247,8 @@ padding-bottom: 2px">
 		    We now have scripts to count the lines of code in a contribution. Download
 		    any of the following:
 		    <ul>
-		      <li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/div/line_count_scripts-2.0RC1.tar">line_count_scripts-2.0RC1.tar</a>
-		      <li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/div/line_count_scripts-2.0RC1.zip">line_count_scripts-2.0RC1.zip</a>
+		      <li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/div/line_count_scripts-2.0RC1.tar">line_count_scripts-2.0RC1.tar</a>
+		      <li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/div/line_count_scripts-2.0RC1.zip">line_count_scripts-2.0RC1.zip</a>
 		    </ul>
 		    These scripts count all lines in either a patch or a list of directories,
 		    suppressing binary files and optionally also empty lines or lines containing
@@ -312,13 +312,13 @@ padding-bottom: 2px">
 		   project set manually. For the pserver version, you typically need to replace-all
 		   ":extssh:" by ":pserver:".
 		  </li>
-		  <li>Send an <b>E-mail</b> to dsdp-tm-dev, informing everybody that team project sets
+		  <li>Send an <b>E-mail</b> to tm-dev, informing everybody that team project sets
 		    have been updated with your new plugins.</li>
 		  <li>For <b>release engineering</b> purposes, it may be necessary to also reference your
 		      new plugins in an existing feature, add new features, modify Mapfiles
 		      and/or the ANT files for nightly builds in the project <tt>org.eclipse.rse.build</tt>.
 		      These tasks can all be accomplished by your build and release engineer, 
-		      so this is another reason for sending an <b>E-mail to dsdp-tm-dev</b> 
+		      so this is another reason for sending an <b>E-mail to tm-dev</b> 
 		      when you added a new plugin. 
 		</ul>
 

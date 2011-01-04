@@ -7,7 +7,7 @@
 	# Author: 		Martin Oberhuber
 	# Date:			2006-02-10
 	#
-	# Description: DSDP-TM developer resources page
+	# Description: TM developer resources page
 	#
 	#
 	#****************************************************************************
@@ -53,7 +53,7 @@
 						A 
 						<a href="http://download.eclipse.org/tm/downloads/drops/N-changelog/index.html">
 						CVS Changelog</a> is available, and you can subscribe to commit notifications on
-						<a href="https://dev.eclipse.org/mailman/listinfo/dsdp-tm-cvs-commit">dsdp-tm-cvs-commit</a>.</li>
+						<a href="https://dev.eclipse.org/mailman/listinfo/tm-cvs-commit">tm-cvs-commit</a>.</li>
 					<li><a href="/tm/development/bug_process.php" target="_self"><b>Bug Process</b></a><br> 
 					   View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
 					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
@@ -113,11 +113,11 @@
 						Coding standards, naming conventions, and other
 						guidelines used by the Platform. TM will use these conventions
 						until such time as deviation is required.</li>
-			    	<li><b><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
+			    	<li><b><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
 						Architectural Overview</a></b><br>
 						A high level summary of the components and their architecture.</li>
 					<li><b><a
-							href="http://www.eclipse.org/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">Project
+							href="http://www.eclipse.org/tm/doc/TM_Use_Cases_v1.1c.pdf">Project
 						Requirements</a></b> <br>
 						Look here for a list of the project use cases and their
 						priorities.</li>
@@ -140,16 +140,14 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 				    TM 3.0 Release Review Slides</a></li>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/DSDP" 
-			    	target="_top">DSDP Overview Diagrams</a></li>				
 				<li><a
-					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_top">TM Use Cases Document</a></li>
 				<!-- <li><a href="/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/tm/doc/index.php">Developer Documents</a></li>

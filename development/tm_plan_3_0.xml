@@ -287,8 +287,8 @@ during the 1.0 to 2.0 development period to declare the APIs final.</p>
     <preamble><![CDATA[
 <p>Plan items listed bleow were defined according to contributor requirements,
 but in accordance with the Target Management
-<a href="http://www.eclipse.org/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
-Use Cases Document</a> and the DSDP and Eclipse
+<a href="http://www.eclipse.org/tm/doc/TM_Use_Cases_v1.1c.pdf">
+Use Cases Document</a> and the Eclipse
 <a href="http://wiki.eclipse.org/RequirementsCouncil06TP#Embedded_Device_Software">
 Themes and Priorities</a> (Preliminary Roadmap v3)
 set forth by the Eclipse Requirments Council.

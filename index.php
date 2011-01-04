@@ -112,7 +112,7 @@
 					   | <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Submit new</a> bugs
 					   | Request an <a target="_top" href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE&rep_platform=All&op_sys=All&priority=P3&bug_severity=enhancement&form_name=enter_bug">enhancement</a>
 					</li>
-					<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management</a></li>
+					<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf"><b>Use cases</b></a> and requirements for Target Management</a></li>
 			    	<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">
       					<b>Architectural Overview</b></a>
     	  				(<a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.ppt">PPT</a>
@@ -195,7 +195,7 @@
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">TM 3.0 Tutorial</a></li>
 				<li><a
-					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases</a></li>
 				<li><a href="/tm/development/plan.php">TM Project Plan</a></li>
 			</ul>

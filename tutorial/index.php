@@ -79,7 +79,7 @@
     <p>
 	Our plans beyond TM 3.0 are available from the
     Target Management <a href="/tm/development/plan.php">Project Plan
-    </a> and our <a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+    </a> and our <a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">
     Use Cases Document</a>, which covers all areas of interest to us.</p>
     
 	  <div class="homeitem3col">
@@ -115,7 +115,7 @@
     	<li><a href="http://wiki.eclipse.org/DSDP">
       		DSDP Top-Level Overview Diagrams</a> to understand how the Target Management
       		Project fits into DSDP, and what its basic building blocks are.</li> 
-    	<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+    	<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">
       		Target Management Use-Case Document</a> 
       		to understand what scenarios we want to cover with our project.</li>
 		<li><a href="/tm/development/plan.php">
@@ -139,7 +139,7 @@
 				    TM 2.0 Release Review Slides</a></li>
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
-				<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+				<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">TM 3.0 Tutorial</a></li>

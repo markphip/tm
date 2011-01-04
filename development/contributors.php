@@ -14,7 +14,7 @@
 	
 	#
 	# Begin: page-specific settings.  Change these. 
-	$pageTitle 		= "DSDP-TM Project Contributors";
+	$pageTitle 		= "TM Project Contributors";
 	$pageKeywords	= "device, target, contributor, committer, lead, author, developer";
 	$pageAuthor		= "Martin Oberhuber";
 	
@@ -36,14 +36,13 @@
 		<div class="homeitem3col">
 		<h3>Target Management Lead</h3>
 		<li><b>Martin Oberhuber, Wind River Systems</b> (martin.oberhuber at windriver.com)<br/>
-			Martin is the overall project lead for the Target Management Project,
-			and in this role he also serves on the DSDP Project Management Council (PMC).
+			Martin is the overall project lead for the Target Management Project.
 			As a software developer and architect, Martin is responsible for the
 			current Target Manager component in Wind River Workbench.<br/>
 			Martin holds an MS degree in Telematics from the University
 			of Technology Graz/Austria, and has been working on source code analysis
 			and tools development since 1999.<br/>
-			<a href="http://wiki.eclipse.org/User:Moberhuber">more about Martin Oberhuber &raquo;</a>
+			<a href="http://wiki.eclipse.org/Martin_Oberhuber">more about Martin Oberhuber &raquo;</a>
 			</li>
 		<li><b>David Dykstal, IBM</b> (david_dykstal at us.ibm.com)<br/>
 		 	David is the Project Lead for the IBM Remote System Explorer,
@@ -183,16 +182,14 @@
 		<div class="sideitem">
 			<h6>Getting started</h6>
 			<ul>				
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
 				    TM 3.0 Release Review Slides</a></li>
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/dsdp/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
+				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
-			    <li><a href="http://wiki.eclipse.org/DSDP" 
-			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
-					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<!-- <li><a href="/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/tm/doc/index.php">Developer Documents</a></li>

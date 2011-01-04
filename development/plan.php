@@ -7,7 +7,7 @@
 	# Author: 		Martin Oberhuber
 	# Date:			2006-02-10
 	#
-	# Description: DSDP-TM project plans
+	# Description: TM project plans
 	#
 	#
 	#****************************************************************************
@@ -64,7 +64,7 @@ background-repeat: repeat-y
         TM Future Planning Wiki</a><br>
         Plan Incubator Wiki, holding ideas for future releases. 
       </li>
-      <li><a href="http://wiki.eclipse.org/DSDP/TM"> DSDP/TM Wiki</a><br>
+      <li><a href="http://wiki.eclipse.org/TM">TM Wiki</a><br>
     	Target Management Wiki, linking to Technology Sub-Groups for breeding future ideas. </li>
     </ul>
       	</div>
@@ -74,7 +74,7 @@ background-repeat: repeat-y
 	<li><a href="/tm/development/">
 		TM Development Home Page</a><br>
 		Main page for Target Management Development Resources.</li>
-	<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">
+	<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">
     	Target Management Use Cases Document</a><br>
     	Requirements: Target Management Use Cases - dated but still current.</li>
 	<li><a href="/tm/doc/index.php">

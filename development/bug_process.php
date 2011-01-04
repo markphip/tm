@@ -7,7 +7,7 @@
 	# Author: 		Martin Oberhuber
 	# Date:			2006-07-03
 	#
-	# Description: Bugzilla Process for the DSDP TM Project
+	# Description: Bugzilla Process for the TM Project
 	#
 	#
 	#****************************************************************************
@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Target Management Bug Process";
-	$pageKeywords	= "DSDP, Target Management, Bugs, Process, Guidelines";
+	$pageKeywords	= "Device, Remote, Target Management, Bugs, Process, Guidelines";
 	$pageAuthor		= "Martin Oberhuber";
 	
 	# Add page-specific Nav bars here
@@ -353,8 +353,8 @@ padding-bottom: 2px">
 			contribution under the EPL.}
 		    </p>
 		If this message does not apply for you (e.g. because you did use 3rd party
-		materials), please contact the <a href="mailto:dsdp-tm-dev@exlipse.org">
-		dsdp-tm-dev@eclipse.org</a> Developer Mailing List to seek assistance of
+		materials), please contact the <a href="mailto:tm-dev@eclipse.org">
+		tm-dev@eclipse.org</a> Developer Mailing List to seek assistance of
 		a committer.<br/>
 		Once your contribution is attached to Bugzilla, a committer will pick it
 		up and follow the <a href="/tm/development/committer_howto.php#external_contrib">
@@ -364,7 +364,7 @@ padding-bottom: 2px">
 		
 		<h2>Testing, tips and tricks for bug finding</h2>
 		<ul>
-		  <li>The <a href="http://wiki.eclipse.org/DSDP/TM/Testing">
+		  <li>The <a href="http://wiki.eclipse.org/TM/Testing">
 		    TM Testing</a> page coordinates the TM Testing efforts.</li>
 		  <li>The <a href="http://wiki.eclipse.org/Field_Guide_to_Callisto_Bugs">
 		    Field Guide to Callisto Bugs</a> is also an interesting read.</li>

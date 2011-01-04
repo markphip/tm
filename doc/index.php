@@ -36,7 +36,7 @@
 
     	<h2>Use Cases (your best bet to get started!)</h2>
     	<ul>
-    	<li><a href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf">DSDP-TM Use Cases v1.1c.pdf</a></li>
+    	<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf">DSDP-TM Use Cases v1.1c.pdf</a></li>
     	<li><a href="/tm/doc/nucleus_edge_target_usecase.pdf">nucleus edge target usecase.pdf</a></li>
     	</ul>
 
@@ -118,7 +118,7 @@
 			    <li><a href="http://wiki.eclipse.org/DSDP" 
 			    	target="_self">DSDP Overview Diagrams</a></li>				
 				<li><a
-					href="/tm/doc/DSDPTM_Use_Cases_v1.1c.pdf"
+					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
 				<!-- <li><a href="/tm/development/index.php">Developer Resources</a></li> -->
 				<li><a href="/tm/development/plan.php"

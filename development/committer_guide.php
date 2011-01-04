@@ -7,7 +7,7 @@
 	# Author: 		Martin Oberhuber
 	# Date:			2006-05-10
 	#
-	# Description: Committer Guidelines for the DSDP TM Project
+	# Description: Committer Guidelines for the TM Project
 	#
 	#
 	#****************************************************************************
@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "TM Committer Guidelines";
-	$pageKeywords	= "DSDP, Target Management, Committer, Guidelines";
+	$pageKeywords	= "Device, Remote, Target Management, Committer, Guidelines";
 	$pageAuthor		= "Martin Oberhuber";
 	
 	# Add page-specific Nav bars here

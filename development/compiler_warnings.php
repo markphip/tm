@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Recommended Compiler Warnings";
-	$pageKeywords	= "DSDP, Target Management, Compiler, Warning, Quality, Guidelines";
+	$pageKeywords	= "Device, Remote, Target Management, Compiler, Warning, Quality, Guidelines";
 	$pageAuthor		= "Martin Oberhuber";
 	
 	# Add page-specific Nav bars here
