@@ -254,6 +254,8 @@ org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,288894,Noriaki Takatsu,5,dmcknight
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,289678,Noriaki Takatsu,30,dmcknight,[api][breaking] ServerSocket creation in multiple IP addresses
 org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,289234,Noriaki Takatsu,30,dmcknight,[multithread][api] Reset and Restart KeepAliveRequestThread
 org.eclipse.tm.rse/plugins/org.eclipse.rse.ui,332393,Noriaki Takatsu,1,dmcknight,Default encoding is removed in System Connection property page
+org.eclipse.tm.rse/plugins/org.eclipse.rse.core,301075,Tom Hochstein,17,dmcknight,Host copy doesn't copy contained property sets
+
 
 Third Party Software,,,, 
 name+version,ipzilla #, directory or jarfile,license name and version,usage
