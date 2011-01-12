@@ -34,14 +34,14 @@
 		<h1>$pageTitle</h1>
 		<h2>March 17-20, 2008: <a href="http://www.eclipsecon.org/2008"> EclipseCon 2008</a></h2> 
 		<p>
-			<a href="http://www.eclipsecon.org/2008/?page=sub/&amp;id=38" target="_blank"> <b> Remote access with the DSDP Target Management Project</b></a>, Tutorial by Martin Oberhuber (Wind River) (slides: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt"> PPT </a> 757 KB | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf"> PDF </a> 639 KB) | (code: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt"> tcf-0.2.0.zip </a> 3.7 MB | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_Econ08_samples.zip"> tmtutorial.zip </a> 465 KB) 
+			<a href="http://www.eclipsecon.org/2008/?page=sub/&amp;id=38" target="_blank"> <b> Remote access with the Target Management Project</b></a>, Tutorial by Martin Oberhuber (Wind River) (slides: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt"> PPT </a> 757 KB | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf"> PDF </a> 639 KB) | (code: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt"> tcf-0.2.0.zip </a> 3.7 MB | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_Econ08_samples.zip"> tmtutorial.zip </a> 465 KB) 
 		</p>
 		<p>
 			<a href="http://www.eclipsecon.org/2008/?page=sub/&amp;id=39" target="_blank"> <b> Target Management New and Noteworthy</b></a>, Short Talk by Martin Oberhuber (Wind River), TM project lead (slides: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Short_ECon08.ppt"> PPT </a> 707 KB | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Short_ECon08.pdf"> PDF </a> 581 KB) 
 		</p>
 		<h2>October 9-11, 2007: Eclipse Summit Europe 2007</h2> 
 		<p>
-			<a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&amp;id=21" target="_blank"> <b>The DSDP Target Management Project</b></a>, long talk by Martin Oberhuber (slides: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.ppt">PPT</a> | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.pdf">PDF</a>) 
+			<a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&amp;id=21" target="_blank"> <b>The Target Management Project</b></a>, long talk by Martin Oberhuber (slides: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.ppt">PPT</a> | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.pdf">PDF</a>) 
 		</p>
 		<h2>April 12, 2007: Webinar</h2> 
 		<p>
@@ -53,7 +53,7 @@
 		</p>
 		<h2>October 9-11, 2007</b>: Eclipse Summit Europe 2007</h2> 
 		<p>
-			<a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&amp;id=21" target="_blank"> <b> The DSDP Target Management Project</b></a>, long talk by Martin Oberhuber (slides: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.ppt"> PPT </a> | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.pdf"> PDF</a>) 
+			<a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&amp;id=21" target="_blank"> <b> The Target Management Project</b></a>, long talk by Martin Oberhuber (slides: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.ppt"> PPT </a> | <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.pdf"> PDF</a>) 
 		</p>
 		<h2>March 5-8, 2007</b>: EclipseCon 2007</h2> 
 		<p>

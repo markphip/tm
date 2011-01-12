@@ -1,7 +1,7 @@
 <?php
 require_once ("../../includes/buildServer-common.php");
 
-$pageTitle = "Eclipse DSDP - TM - Release Notes";
+$pageTitle = "Eclipse Target Management Release Notes";
 
 if (isset($_GET["project"]) && $_GET["project"] == "xsd")
 {

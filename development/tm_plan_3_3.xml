@@ -11,7 +11,7 @@
 
 <!--  Use this to test local rendering in firefox. Comment out this line once this plan is linked to portal data. --><?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?><!-- <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?> --><p:plan plan-format="1.0" xmlns:p="http://www.eclipse.org/project/plan" xmlns="http://www.w3.org/1999/xhtml"
       name="Target Management">
-   <p:release projectid="dsdp.tm" version="3.3"/>
+   <p:release projectid="tools.tm" version="3.3"/>
     <p:introduction><div>
 <p>Last revised 14:00 CET November 16, 2010.<!-- (<img src="http://www.eclipse.org/eclipse/development/new.gif" alt="(new)" border="0" height="12" width="12" /> marks interesting changes since the previous draft of <a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/eclipse/development/plans/eclipse_project_plan_3_7_20100630.xml">June 30, 2010</a>.)--></p><p><i>Please send comments about this plan to the</i> <a href="mailto:tm-dev@eclipse.org">tm-dev@eclipse.org</a> <i>developer  mailing list (<a href="https://dev.eclipse.org/mailman/listinfo/tm-dev">subscription info</a>).</i></p>The Target Management Project provides data models, frameworks and tools 
 for working with remote computer systems.

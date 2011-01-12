@@ -111,7 +111,7 @@
 
 		<h2 style="padding-top:20px">Presentations</h2>
 		<p>
-			<a href="http://www.eclipsecon.org/2008/?page=sub/&amp;id=38" target="_blank">Remote access with the DSDP Target Management Project</a>
+			<a href="http://www.eclipsecon.org/2008/?page=sub/&amp;id=38" target="_blank">Remote access with the Target Management Project</a>
 			<br/>Tutorial by Martin Oberhuber (Wind River), TM project lead
 			<br/>Given at EclipseCon 2008
 			<br/>slides: <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt">PPT</a> 757 KB

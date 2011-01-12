@@ -11,7 +11,7 @@
  -->
 
 <plan plan-format="1.0">
-  <release projectid="dsdp.tm" version="3.0"/>
+  <release projectid="tools.tm" version="3.0"/>
     <introduction><![CDATA[
 The Target Management Project provides data models, frameworks and tools 
 for working with remote computer systems.

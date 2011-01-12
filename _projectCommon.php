@@ -105,7 +105,7 @@ EOBRANDING;
 	$Menu->setProjectBranding($branding);
 	
 	$Nav->addNavSeparator("Target Management", 	"/tm");
-	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm", "_self", 1);
+	$Nav->addCustomNav("About This Project", "http://www.eclipse.org/projects/project_summary.php?projectid=tools.tm", "_self", 1);
 	#$Nav->addCustomNav("About", "/tm/tm-new/about", "_self", 2);
 	#$Nav->addCustomNav("Team", "/tm/tm-new/team",	"_self", 2);
 	$Nav->addCustomNav("Team", "/tm/development/contributors.php",	"_self", 2);

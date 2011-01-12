@@ -81,7 +81,7 @@
 						See the instructions, FAQs and help from the Platform-Releng team.</li>
 					<!-- Dashboard is currently not useful.
 					<li><b><a
-						href="http://www.eclipse.org/projects/dashboard/dashboard_detail.php?project=dsdp.tm">Project
+						href="http://www.eclipse.org/projects/dashboard/dashboard_detail.php?project=tools.tm">Project
 						Dashboard</a></b> <br>
 						View generated project statistics.</li>
 					-->

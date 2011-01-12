@@ -94,7 +94,7 @@
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
 		<ul><li><b>TM 3.3:</b> ETA June, 2011 with Eclipse <a href="http://wiki.eclipse.org/Indigo">Indigo</a>
-		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=dsdp.tm">Project Plan</a>]</li>
+		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.tm">Project Plan</a>]</li>
 		</ul></p>
 
 		<p>
@@ -105,7 +105,7 @@
 			<h3>Quick Links</h3>
 				<ul class="midlist">
 					<li><a href="http://wiki.eclipse.org/TM" target="_blank"><b>Wiki</b></a> | We use the Wiki extensively for collaboration. Find ongoing discussions, meeting notes and other "not so official" stuff there.</li>
-					<li><a href="news://news.eclipse.org/eclipse.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.dsdp.tm">Web access</a>, <a href="http://dev.eclipse.org/newslists/news.eclipse.dsdp.tm/maillist.html">archive</a>).</li>
+					<li><a href="news://news.eclipse.org/eclipse.tm" target="_blank"><b>Newsgroup</b></a> | For general questions and community discussion (<a href="http://www.eclipse.org/newsportal/thread.php?group=eclipse.tm">Web access</a>, <a href="http://dev.eclipse.org/newslists/news.eclipse.tm/maillist.html">archive</a>).</li>
 					<li><a href="http://dev.eclipse.org/mailman/listinfo/tm-dev" target="_blank"><b>Mailing List</b></a> | For project development discussions.</li>
 					<li><a href="/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
 					   | View <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&product=Target+Management&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit">all open</a> issues
@@ -135,7 +135,7 @@
 				<li>
 				  <b>March 17-20, 2008</b>: <a href="http://www.eclipsecon.org/2008">EclipseCon 2008</a> - <ul>
 				    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">
-				         <b>Remote access with the DSDP Target Management Project</b></a>, Tutorial by Martin Oberhuber (Wind River)
+				         <b>Remote access with the Target Management Project</b></a>, Tutorial by Martin Oberhuber (Wind River)
 						(slides:  
 						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt">PPT</a> 757 KB |
 						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf">PDF</a> 639 KB) |
@@ -153,7 +153,7 @@
 				<li>
 				  <b>October 9-11, 2007</b>: Eclipse Summit Europe 2007 -<ul>
 				    <li><a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&id=21" target="_blank">
-				         <b>The DSDP Target Management Project</b></a>, long talk by Martin Oberhuber
+				         <b>The Target Management Project</b></a>, long talk by Martin Oberhuber
 				         (slides:  
 				         <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.ppt">PPT</a> |
 				         <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2007-10-10_TM_ESE2007.pdf">PDF</a>)

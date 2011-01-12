@@ -14,7 +14,7 @@
 <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?>
 <p:plan plan-format="1.0" xmlns:p="http://www.eclipse.org/project/plan" xmlns="http://www.w3.org/1999/xhtml"
       name="Target Management">
-   <p:release projectid="dsdp.tm" version="3.2"/>
+   <p:release projectid="tools.tm" version="3.2"/>
     <p:introduction><div>
 The Target Management Project provides data models, frameworks and tools 
 for working with remote computer systems.
