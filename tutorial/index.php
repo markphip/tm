@@ -53,14 +53,11 @@
 	The following are available from the TM 3.0 download pages 
 	already:
 	<ul>
-	  <li>Fast and Flexible DNS-SD / Zeroconf based <b>Service Discovery</b> (requires EMF)</li>
 	  <li>An ANSI / vt102 compatible <b>Terminal</b> widget with pluggable Serial, ssh and Telnet connectors 
 	    (requires Platform now but can be ported to RCP / J2ME)</li>
 	  <li>Apache <b>Commons Net</b> re-bundled for Eclipse to support FTP, rlogin, telnet
 	    and other standard protocols (requires J2SE-1.2 only)</li>
 	</ul>
-	while the <b><a href="http://wiki.eclipse.org/TCF">Target Communication Framework (TCF)</a></b>
-	is currently available from its SVN Repository only. 
 	
 	<p>TM 3.0 as well as upcoming service releases and milestones are available
     from our 

@@ -60,9 +60,8 @@
     space, the main charter of target management is to provide data models and frameworks
     that are flexible and open enough for vendor-specific extensions. Sample implementations 
     are provided for TCP/IP Secure Shell (ssh) connections, FTP data transfer, Telnet and
-    Windows CE connections. In addition to that, with the <a href="http://wiki.eclipse.org/TCF">Target Communication Framework (TCF)</a>,
-    a lightweight communication protocol specifically suited for embedded software development
-    is also part of our offering.</p>
+    Windows CE connections. In addition to that, a lightweight Terminal View is also 
+    provided as a stand-alone offering.</p>
     <p>
     Current releases can be downloaded for evaluation
     <a href="http://download.eclipse.org/tm/downloads/">here</a>.

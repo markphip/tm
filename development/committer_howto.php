@@ -151,20 +151,6 @@ padding-bottom: 2px">
 			licensed under the EPL. {I am authorized by my employer to make this
 			contribution under the EPL.}
 		    </p>
-		    In the case of the TCF agent, which is dual-licensed under 
-		    <a href="http://www.eclipse.org/org/documents/epl-v10.php">EPL</a> and 
-		    <a href="http://www.eclipse.org/org/documents/edl-v10.php">EDL</a>,
-		    the message added as a bugzilla comment should reference both EPL and EDL:
-		    <p style="border: thin 1px dashed; background-color: ivory; 
-padding-top: 2px; 
-padding-left: 2px;
-padding-right: 2px;
-padding-bottom: 2px">
-		    Legal Message: I, {name}, declare that I developed attached code from
-			scratch, without referencing any 3rd party materials except material
-			licensed under the EPL and EDL. {I am authorized by my employer to make
-			this contribution under the EPL and EDL.}
-		    </p>
 		    The point about <i>"...authorized by my employer"</i> must be added when
 		    the contribution is made as part of an employee relationship that makes
 		    the employer the actual copyright owner. In case the contribution is
