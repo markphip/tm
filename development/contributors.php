@@ -83,7 +83,7 @@
 		This is the list of people who have made code contributions to the 
 		TM Project on Bugzilla so far, with their code actually being 
 		merged into the TM codebase in CVS or SVN. See the
-		<a href="http://www.eclipse.org/projects/ip_log.php?projectid=dsdp.tm">TM IP Log</a>
+		<a href="http://www.eclipse.org/projects/ip_log.php?projectid=tools.tm">TM IP Log</a>
 		for more details about individual contributions. The list below is sorted alphabetically
 		by last name:
 		<ul class="midlist">

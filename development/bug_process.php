@@ -59,7 +59,7 @@
 		    Bugs related to PII</a></li>
 		  <li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=component&type0-0-0=equals&value0-0-0=TCF&field0-0-1=assigned_to&type0-0-1=equals&value0-0-1=dsdp.tm.tcf-inbox%40eclipse.org&field0-0-2=short_desc&type0-0-2=anywords&value0-0-2=tcf">
 		    TCF open bugs</a></li>
-		  <li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=component&type0-0-0=equals&value0-0-0=Terminal&field0-0-1=assigned_to&type0-0-1=equals&value0-0-1=dsdp.tm.core-inbox%40eclipse.org&field0-0-2=short_desc&type0-0-2=anywords&value0-0-2=terminal">
+		  <li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&product=Target+Management&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&cmdtype=doit&field0-0-0=component&type0-0-0=equals&value0-0-0=Terminal&field0-0-1=assigned_to&type0-0-1=equals&value0-0-1=tm.core-inbox%40eclipse.org&field0-0-2=short_desc&type0-0-2=anywords&value0-0-2=terminal">
 		    Terminal open bugs</a></li>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&product=Target+Management&target_milestone=Future&cmdtype=doit">
 		    bugs deferred to the future</a></li>
@@ -277,7 +277,7 @@
 		    too much effort for the current release. They should be triaged again for
 		    the next release, and perhaps be documented as known limitations in
 		    the release notes. Such bugs will typically be in NEW state and assigned
-		    to dsdp.tm.rse-inbox@eclipse.org or dsdp.tm.core-inbox@eclipse.org.</li>
+		    to tm.rse-inbox@eclipse.org or tm.core-inbox@eclipse.org.</li>
 		  <li><b>Assign</b> the bug to a developer and set the <b>target milestone</b>
 		    for bugs that we want to address in the current release cycle.</li>
 		  <li>Assign bugs to the <b>org.eclipse.tm.rse-inbox@eclipse.org</b> with 
