@@ -3,7 +3,7 @@
 <provider id="org.eclipse.team.cvs.core.cvsnature">
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/callisto,org.eclipse.indigo.build,org.eclipse.indigo.build"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/org.eclipse,www/tm/development,www-tm-development"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.commons.net,org.apache.commons.net,v2_0_0"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.orbit/org.apache.commons.net,org.apache.commons.net,v2_2_0"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,org.eclipse.tm.terminal"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal-feature,org.eclipse.tm.terminal-feature"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local,org.eclipse.tm.terminal.local"/>
