@@ -14,8 +14,8 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.transport.udp,org.eclipse.tm.discovery.transport.udp,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.view,org.eclipse.tm.discovery.view,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/discovery/org.eclipse.tm.discovery.wizard,org.eclipse.tm.discovery.wizard,R3_2_1"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,org.eclipse.tm.terminal,R3_2_1"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal-feature,org.eclipse.tm.terminal-feature,R3_2_1"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal,org.eclipse.tm.terminal,R3_2_maintenance"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal-feature,org.eclipse.tm.terminal-feature,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local,org.eclipse.tm.terminal.local,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local-feature,org.eclipse.tm.terminal.local-feature,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.core/terminal/org.eclipse.tm.terminal.local.sdk-feature,org.eclipse.tm.terminal.local.sdk-feature,R3_2_maintenance"/>
@@ -49,11 +49,11 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.sdk-feature,org.eclipse.rse.sdk-feature,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.ssh-feature,org.eclipse.rse.ssh-feature,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.telnet-feature,org.eclipse.rse.telnet-feature,R3_2_1"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.terminals-feature,org.eclipse.rse.terminals-feature,R3_2_1"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.terminals-feature,org.eclipse.rse.terminals-feature,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.useractions-feature,org.eclipse.rse.useractions-feature,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.dstore.core,org.eclipse.dstore.core,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.dstore.extra,org.eclipse.dstore.extra,R3_2_1"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse,org.eclipse.rse,R3_2_1"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse,org.eclipse.rse,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.dstore,org.eclipse.rse.connectorservice.dstore,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.local,org.eclipse.rse.connectorservice.local,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.connectorservice.ssh,org.eclipse.rse.connectorservice.ssh,R3_2_1"/>
@@ -65,7 +65,7 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.files.ui,org.eclipse.rse.files.ui,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.importexport,org.eclipse.rse.importexport,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.processes.ui,org.eclipse.rse.processes.ui,R3_2_1"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.sdk,org.eclipse.rse.sdk,R3_2_1"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.sdk,org.eclipse.rse.sdk,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services,org.eclipse.rse.services,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,org.eclipse.rse.services.dstore,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,org.eclipse.rse.services.files.ftp,R3_2_1"/>
@@ -94,11 +94,11 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.ui.capabilities,org.eclipse.rse.ui.capabilities,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.useractions,org.eclipse.rse.useractions,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.rse.build,org.eclipse.rse.build,R3_2_maintenance"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.rse.releng.infocenter,org.eclipse.rse.releng.infocenter,R3_2_maintenance"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.rse.releng.infocenter,org.eclipse.rse.releng.infocenter,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.rse.updatesite,org.eclipse.rse.updatesite,R3_2_maintenance"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng,org.eclipse.tm.releng,R3_2_maintenance"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng.master-feature,org.eclipse.tm.releng.master-feature,R3_2_maintenance"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng.test-feature,org.eclipse.tm.releng.test-feature,R3_2_maintenance"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng,org.eclipse.tm.releng,R3_2_1"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng.master-feature,org.eclipse.tm.releng.master-feature,R3_2_1"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/releng/org.eclipse.tm.releng.test-feature,org.eclipse.tm.releng.test-feature,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/tests/org.eclipse.rse.tests,org.eclipse.rse.tests,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/tests/org.eclipse.rse.tests-feature,org.eclipse.rse.tests-feature,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/tests/org.eclipse.rse.tests.framework,org.eclipse.rse.tests.framework,R3_2_1"/>
@@ -109,115 +109,117 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.helios.build" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1257517162153_3" label="rse-core" name="rse-core">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.dstore" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.ssh" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.apache.commons.net" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.dstore.core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.dstore.extra" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.connectorservice.dstore" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.connectorservice.local" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.connectorservice.ssh" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.connectorservice.telnet" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.dstore.security" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.efs" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.efs.ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.files.ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.importexport" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.processes.ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.dstore" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.files.ftp" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.local" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.terminals.ssh" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.ssh" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.telnet" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.shells.ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.dstore" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.ftp" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.local" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.ssh" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.processes.core" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.processes.dstore" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.processes.local" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.core" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.processes.ui" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.local" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.terminals.core" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.efs" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.ftp" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.telnet" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.apache.commons.net" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.core" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.dstore.core" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.efs.ui" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.connectorservice.telnet" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.shells.ui" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.connectorservice.ssh" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ui" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.files.ui" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.connectorservice.local" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.dstore" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.ssh" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.core" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.files.ftp" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.dstore" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.importexport" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.services.ssh" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.processes.core" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.files.local" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.useractions" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.terminals.ui" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.telnet" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.connectorservice.dstore" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.processes.shell.linux" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.dstore" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.local" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.ssh" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.shells.telnet" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.terminals.core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.terminals.ssh" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.terminals.ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ui" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.useractions" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1257517559596_8" label="rse-other" name="rse-other">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.dstore.doc.isv" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.doc.isv" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.doc.user" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.examples.daytime" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.examples.tutorial" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.wince" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests.framework" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests.framework.examples" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.rapi" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests.framework" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.doc.user" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.rapi.tests" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.dstore.doc.isv" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.examples.tutorial" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.examples.daytime" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.rapi.examples" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.subsystems.wince" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.rapi.tests" type="4"/>
+</workingSets>
+<workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1296029900813_11" label="should_be_closed" name="should_be_closed">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ui.capabilities" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1257517172279_4" label="tm-discovery" name="tm-discovery">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.engine" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.model.edit" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.doc.isv" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.transport.udp" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.protocol.dnssd" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.wizard" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.model" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.discovery" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.doc.isv" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.engine" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.model" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.model.edit" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.protocol.dnssd" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.transport.udp" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.view" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.discovery.wizard" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1257517203563_6" label="tm-releng" name="tm-releng">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests.manual" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.sdk" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.sdk-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.releng.test-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.core-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.releng.master-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.dstore-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.terminals-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.releng" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.telnet-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.examples-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.releng.infocenter" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.useractions-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.updatesite" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.wince-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ui.capabilities" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/www-tm-development" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.build" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ssh-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.local-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.core-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.dstore-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.examples-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ftp-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.local-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.releng.infocenter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.sdk" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.sdk-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.ssh-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.telnet-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.terminals-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.tests.manual" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.updatesite" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.useractions-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.rse.wince-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.releng" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.releng.master-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.releng.test-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/www-tm-development" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.ui.resourceWorkingSetPage" id="1257517185312_5" label="tm-terminal" name="tm-terminal">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.test-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.view" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.test" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.ssh-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.view-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.local" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.local-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.local.sdk-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.sdk-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.serial" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.serial-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.ssh" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.local.sdk-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.telnet-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.ssh-feature" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.telnet" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.local" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.local-feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.sdk-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.telnet-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.test" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.test-feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.view" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.eclipse.tm.terminal.view-feature" type="4"/>
 </workingSets>
 </psf>
