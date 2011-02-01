@@ -44,7 +44,7 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse-feature,org.eclipse.rse-feature,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.core-feature,org.eclipse.rse.core-feature,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.dstore-feature,org.eclipse.rse.dstore-feature,R3_2_maintenance"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.ftp-feature,org.eclipse.rse.ftp-feature,R3_2_1"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.ftp-feature,org.eclipse.rse.ftp-feature,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.local-feature,org.eclipse.rse.local-feature,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.sdk-feature,org.eclipse.rse.sdk-feature,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/features/org.eclipse.rse.ssh-feature,org.eclipse.rse.ssh-feature,R3_2_1"/>
@@ -69,7 +69,7 @@
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services,org.eclipse.rse.services,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.dstore,org.eclipse.rse.services.dstore,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.files.ftp,org.eclipse.rse.services.files.ftp,R3_2_1"/>
-<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local,org.eclipse.rse.services.local,R3_2_1"/>
+<project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.local,org.eclipse.rse.services.local,R3_2_maintenance"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.ssh,org.eclipse.rse.services.ssh,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.services.telnet,org.eclipse.rse.services.telnet,R3_2_1"/>
 <project reference="1.0,:extssh:dev.eclipse.org:/cvsroot/tools,org.eclipse.tm.rse/plugins/org.eclipse.rse.shells.ui,org.eclipse.rse.shells.ui,R3_2_1"/>
