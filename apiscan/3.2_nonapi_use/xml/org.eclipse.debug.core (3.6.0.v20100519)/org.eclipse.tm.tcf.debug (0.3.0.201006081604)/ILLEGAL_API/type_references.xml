@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<references name="Types" origin="org.eclipse.tm.tcf.debug (0.3.0.201006081604)" referee="org.eclipse.debug.core (3.6.0.v20100519)" reference_count="1" reference_visibility="22">
-    <target name="org.eclipse.debug.core.DebugException" type="org.eclipse.debug.core.DebugException">
-        <reference_kind flags="1" kind="1" reference_kind_name="EXTENDS">
-            <reference linenumber="-1" message_arguments="org.eclipse.tm.internal.tcf.debug.model.TCFError illegally extends org.eclipse.debug.core.DebugException" origin="org.eclipse.tm.internal.tcf.debug.model.TCFError" type="org.eclipse.tm.internal.tcf.debug.model.TCFError"/>
-        </reference_kind>
-    </target>
-</references>

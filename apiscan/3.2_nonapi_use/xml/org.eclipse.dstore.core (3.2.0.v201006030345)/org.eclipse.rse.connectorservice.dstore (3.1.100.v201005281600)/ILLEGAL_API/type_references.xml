@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<references name="Types" origin="org.eclipse.rse.connectorservice.dstore (3.1.100.v201005281600)" referee="org.eclipse.dstore.core (3.2.0.v201006030345)" reference_count="2" reference_visibility="22">
-    <target name="org.eclipse.dstore.core.client.ConnectionStatus" type="org.eclipse.dstore.core.client.ConnectionStatus">
-        <reference_kind flags="1" kind="134217728" reference_kind_name="INSTANTIATION">
-            <reference linenumber="1493" member="changePassword" message_arguments="org.eclipse.rse.connectorservice.dstore.DStoreConnectorService illegally instantiates org.eclipse.dstore.core.client.ConnectionStatus" origin="org.eclipse.rse.connectorservice.dstore.DStoreConnectorService.changePassword(ClientConnection, SystemSignonInformation, IServerLauncherProperties, IProgressMonitor, String)" signature="(Lorg/eclipse/dstore/core/client/ClientConnection;Lorg/eclipse/rse/core/model/SystemSignonInformation;Lorg/eclipse/rse/core/subsystems/IServerLauncherProperties;Lorg/eclipse/core/runtime/IProgressMonitor;Ljava/lang/String;)Lorg/eclipse/dstore/core/client/ConnectionStatus;" type="org.eclipse.rse.connectorservice.dstore.DStoreConnectorService"/>
-            <reference linenumber="572" member="connectWithREXEC" message_arguments="org.eclipse.rse.connectorservice.dstore.DStoreConnectorService illegally instantiates org.eclipse.dstore.core.client.ConnectionStatus" origin="org.eclipse.rse.connectorservice.dstore.DStoreConnectorService.connectWithREXEC(SystemSignonInformation, IRemoteServerLauncher, IProgressMonitor)" signature="(Lorg/eclipse/rse/core/model/SystemSignonInformation;Lorg/eclipse/rse/core/subsystems/IRemoteServerLauncher;Lorg/eclipse/core/runtime/IProgressMonitor;)Lorg/eclipse/dstore/core/client/ConnectionStatus;" type="org.eclipse.rse.connectorservice.dstore.DStoreConnectorService"/>
-        </reference_kind>
-    </target>
-</references>

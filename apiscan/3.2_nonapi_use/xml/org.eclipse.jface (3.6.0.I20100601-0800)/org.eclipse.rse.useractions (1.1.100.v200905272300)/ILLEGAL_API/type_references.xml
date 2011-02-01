@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<references name="Types" origin="org.eclipse.rse.useractions (1.1.100.v200905272300)" referee="org.eclipse.jface (3.6.0.I20100601-0800)" reference_count="1" reference_visibility="22">
-    <target name="org.eclipse.jface.viewers.TreeViewer" type="org.eclipse.jface.viewers.TreeViewer">
-        <reference_kind flags="1" kind="1" reference_kind_name="EXTENDS">
-            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.useractions.ui.uda.SystemUDBaseTreeView illegally extends org.eclipse.jface.viewers.TreeViewer" origin="org.eclipse.rse.internal.useractions.ui.uda.SystemUDBaseTreeView" type="org.eclipse.rse.internal.useractions.ui.uda.SystemUDBaseTreeView"/>
-        </reference_kind>
-    </target>
-</references>

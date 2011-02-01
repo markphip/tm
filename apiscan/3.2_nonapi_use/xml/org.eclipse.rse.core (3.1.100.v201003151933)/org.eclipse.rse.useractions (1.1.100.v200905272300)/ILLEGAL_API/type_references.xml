@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<references name="Types" origin="org.eclipse.rse.useractions (1.1.100.v200905272300)" referee="org.eclipse.rse.core (3.1.100.v201003151933)" reference_count="2" reference_visibility="22">
-    <target name="org.eclipse.rse.core.model.IRSEModelObject" type="org.eclipse.rse.core.model.IRSEModelObject">
-        <reference_kind flags="1" kind="1" reference_kind_name="EXTENDS">
-            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.useractions.IUserActionModel illegally extends org.eclipse.rse.core.model.IRSEModelObject" origin="org.eclipse.rse.internal.useractions.IUserActionModel" type="org.eclipse.rse.internal.useractions.IUserActionModel"/>
-            <reference linenumber="-1" message_arguments="org.eclipse.rse.internal.useractions.IUserActionContext illegally extends org.eclipse.rse.core.model.IRSEModelObject" origin="org.eclipse.rse.internal.useractions.IUserActionContext" type="org.eclipse.rse.internal.useractions.IUserActionContext"/>
-        </reference_kind>
-    </target>
-</references>
