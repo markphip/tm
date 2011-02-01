@@ -75,14 +75,15 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M4-201012140730/">
-		TM 3.3M4</a></font>
-		[<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M4-201012140730/">downloads</a> 
+		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M5-201102011100/">
+		TM 3.3M5</a></font>
+		[<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M5-201102011100/">downloads</a> 
 		| <a href="http://download.eclipse.org/tm/updates/3.3milestones/">update site</a>
-		| <a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M4-201012140730/buildNotes.php">
+		| <a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M5-201102011100/buildNotes.php">
 		build notes</a>]<br/>
-		TM 3.3M4 contains a new SCP file subsystem, and several bug fixes. See the 
-		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M4-201012140730/buildNotes.php">
+		TM 3.3M5 contains a new Commons Net version for IPv6 support, an SSH subsystem performance 
+		improvement, and several fixes to the TM Terminal widget. See the 
+		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M5-201102011100/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.
 		<!-- TODO Enable for ramp-down
 		<br/>
