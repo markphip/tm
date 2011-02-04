@@ -35,7 +35,7 @@
 		<div class="homeitem3col">
 			<h3>Found a Bug?  Have an enhancement idea?</h3>
 			<ul>
-				<li>You can submit bugs/enhancement requests though <a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management&version=unspecified&component=RSE">Bugzilla</a>.</li>
+				<li>You can <a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Target%20Management">submit bugs/enhancement requests</a> though Bugzilla.</li>
 				<li>See the <a href="http://wiki.eclipse.org/TM_and_RSE_FAQ#How_do_I_report_a_bug_or_request_a_feature.3F">FAQ</a> for what to include in your bug reports</li>
 			</ul>
 		</div>
