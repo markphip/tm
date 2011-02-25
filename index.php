@@ -61,13 +61,15 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.1-201009070720/">
-		TM 3.2.1</a></font>
-		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.1-201009070720/">downloads</a> 
+		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">
+		TM 3.2.2</a></font>
+		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">downloads</a> 
 		| <a href="http://download.eclipse.org/tm/updates/3.2/">update site</a>
 		| <a href="/tm/development/relnotes/3.2/readme_tm_3.2.html">release notes</a>
 		]<br/>
-		The TM 3.2.1 service release includes 22 bug fixes compared to TM 3.2. 
+		TM 3.2.2 service release includes 36 bug fixes compared to TM 3.2.1. Highlights include
+		several improvements to the TM Terminal for better ANSI emulation, as well as improved
+		support for Windows 7 and Vista.
 		It is fully compatible with TM 3.2, and runs on Eclipse 3.4 (Ganymede) 
 		and later. Look at the <a href="/tm/tutorial/index.php">Getting Started Page</a>,
 		the build notes and the
@@ -204,7 +206,9 @@
 		
 		<div class="sideitem">
 			<h6>What's New</h6>
-			<ul><li>Sep 24th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.1-201009070720/">TM 3.2.1</a> released</li>
+			<ul>
+				<li>Feb 25th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">TM 3.2.2</a> released</li>
+				<li>Sep 24th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.1-201009070720/">TM 3.2.1</a> released</li>
 			    <li>Jun 23rd: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2-201006071030/">TM 3.2</a> released</li>
 			    <li>Feb 26th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
