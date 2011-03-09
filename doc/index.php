@@ -44,9 +44,9 @@
 		These are part of the downloaded SDK, and available online. The online docs are automatically generated
 		from the latest code every night.
 		<ul>
-		  <li><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.user/gettingstarted/g_start.html">RSE User Guide</a></li>
-		  <li><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.rse.doc.isv/guide/rse_int.html">RSE Developer Guide</a></li>
-		  <li><a href="http://dsdp.eclipse.org/help/latest/topic/org.eclipse.dstore.doc.isv/toc.html">DStore Developer Guide</a></li>
+		  <li><a href="http://help.eclipse.org/helios/topic/org.eclipse.rse.doc.user/gettingstarted/g_start.html">RSE User Guide</a></li>
+		  <li><a href="http://help.eclipse.org/helios/topic/org.eclipse.rse.doc.isv/guide/rse_int.html">RSE Developer Guide</a></li>
+		  <li><a href="http://help.eclipse.org/helios/topic/org.eclipse.dstore.doc.isv/toc.html">DStore Developer Guide</a></li>
 		</ul>
 
 		<h2>Design Documents</h2>

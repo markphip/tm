@@ -70,7 +70,7 @@
 	<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf">EclipseCon 2008 Tutorial</a>
 	(includes <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_Econ08_samples.zip">sample code</a>),
 	which is based on TM 3.0M5. Another
-	<a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
+	<a href="http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
 	Tutorial</a> is available as part of the ISV documentation,
 	and an <a href="http://wiki.eclipse.org/TM_and_RSE_FAQ">
 	FAQ</a> is available on the project Wiki.</p>
@@ -106,7 +106,7 @@
 		  <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf">slides</a> and
 		  <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_Econ08_samples.zip">sample code</a>)
 		</li>
-    	<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
+    	<li><a href="http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html">
     		TM Online Docs Tutorial</a></li>
     	<li><a href="http://wiki.eclipse.org/TM_2.0_Known_Issues_and_Workarounds">
     		TM 2.0 Known Issues and Workarounds</a></li>
@@ -132,7 +132,7 @@
 				    TM 2.0 Release Review Slides</a></li>
 				<li><a href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases Document</a></li>
-				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
+				<li><a href="http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">TM 2.0 Tutorial</a></li>
 				<li><a href="/tm/development/plan.php"
 					target="_self">TM Project Plan</a></li>

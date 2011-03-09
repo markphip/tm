@@ -195,7 +195,7 @@
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
 				    TM 2.0 Release Review Slides</a></li>
 				    -->
-				<li><a href="http://dsdp.eclipse.org/help/latest/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
+				<li><a href="http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
 					target="_self">TM 3.0 Tutorial</a></li>
 				<li><a
 					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
