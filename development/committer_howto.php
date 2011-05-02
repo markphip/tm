@@ -67,27 +67,10 @@
 		<a name="format_checkin_comment"></a>
 		<h2>Format my checkin comment</h2>
 		<p>
-		The <a href="http://dsdp.eclipse.org/tm/searchcvs.php?q=file%3A+org.eclipse.tm%25%2F+days%3A+7">TM SearchCVS</a>
-		facility allows searching for CVS commits, and directly linking to bugzilla provided
-		that checkin comments are properly formatted.
-		Multiple formats are supported, but this is the preferred one (see also
-		<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=164719">
-		bug 164719</a> and 
-		<a href="http://dev.eclipse.org/mhonarc/lists/cross-project-issues-dev/msg00732.html">
-		this e-mail</a>):
-		<ul>
-		  <li>All checkin comments should be formatted like this:<br/>
-		      &nbsp;&nbsp;&nbsp;&nbsp;<b>[123456] fixing ugly images</b><br/>
-		      &nbsp;&nbsp;&nbsp;&nbsp;<b>[123456] apply patch from Ewa Matejska for remotecdt-over-dstore</b><p/>
-		      Where the number [123456] references a bugzilla number, of course. Checkins that fix 
-		      multiple bugs should have the various bug numbers listed on a separate line of the
-		      checkin comment each.
-		</ul>
-		For more details, see the
-		<a href="http://wiki.eclipse.org/Search_CVS%2C_Release_Notes%2C_%26_Build_News">
-		Search CVS, Release_Notes, & Build_News</a> Wiki page and the
-		<a href="http://www.eclipse.org/modeling/emf/news/relnotes.php?project=emf&version=HEAD">
-		EMF Release Notes</a>.</p>
+		All checkin comments should be formatted like when copy-and-pasting the headline of a Bugzilla item, for example:<PRE>
+		Bug 338635 - [releng] Retire or migrate the dsdp.eclipse.org vserver</PRE>
+		related to <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=338635">bug 338635</a>
+		</p>
 		
 		<a name="checkin_fix"></a>
 		<h2>Work with bugs and fixes</h2>
