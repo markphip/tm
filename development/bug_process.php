@@ -39,6 +39,17 @@
 		use the various Bugzilla fields.</p>
 
 		<h2>Interesting Bugzilla Queries</h2>
+		<p><b>Contributions and IP Review</b><p>
+		<ul>
+		  <li><a href="https://bugs.eclipse.org/bugs/buglist.cgi?type0-1-0=notsubstring;field0-1-0=flagtypes.name;field0-0-0=attachments.submitter;classification=Tools;chfieldto=Now;chfield=[Bug%20creation];chfield=resolution;chfield=bug_status;chfield=target_milestone;query_format=advanced;value0-2-0=image%2F;value0-1-0=iplog%2B;chfieldfrom=2010-06-01;field0-2-0=attachments.mimetype;type0-0-0=notregexp;value0-0-0=martin.oberhuber%40windriver.com|dmcknigh%40ca.ibm.com|xuanchen%40ca.ibm.com|anna_dushistova%40mentor|david_dykstal%40us.ibm|uwe.stieber%40windriver.com|michael.scharf%40windriver.com;type0-2-0=notsubstring;product=Target%20Management">
+		      Indigo contributions candidates</a>: <b>Non-committer attachments</b> that are not flagged iplog+ and not an image, on any bug modified <b>since 1-Jun-2010</b>.
+		  <ul>
+		    <li>Use this to find additional candidates to mark iplog+, then use the <a href="http://www.eclipse.org/projects/ip_log.php?projectid=tools.tm">IP Log Tool</a> to filter-out bogus iplog+</li>
+		    <li>Also helpful to generally find contributions not yet attended to (for follow-up with the submitter)</li>
+		    <li>This query does not find code submitted as a bugzilla comment - these are very rare, Wayne's <a href="http://eclipse.org/projects/tools/ip_contribution_review.php?id=tools.tm">contribution review tool</a> might find them</li>
+		  </ul></li>
+		</ul>
+
 		<p><b>Planning and feature work</b></p>
 		<ul>
 		  <li>TM and RSE <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&keywords_type=allwords&keywords=plan&product=Target+Management&cmdtype=doit&order=Assignee">
