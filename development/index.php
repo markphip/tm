@@ -122,10 +122,10 @@
 						Look here for a list of the project use cases and their
 						priorities.</li>
 					<li><b><a
-						href="http://www.eclipse.org/dsdp/dsdp-charter.php">Charter</a></b>
+						href="http://www.eclipse.org/tools/eclipsetools-charter.php">Charter</a></b>
 						<br>
-						As a DSDP subproject, the TM project abides by the
-						<a href="/dsdp/dsdp-charter.php">DSDP Project charter</a> and the
+						As a Tools subproject, the TM project abides by the
+						<a href="/tools/eclipsetools-charter.php">Tools Project charter</a> and the
 						<a href="http://www.eclipse.org/projects/dev_process/Eclipse_Standard_TopLevel_Charter_v1.0.php">
 						Eclipse Standard Charter</a>.</li>
 					<li><b><a

@@ -44,7 +44,7 @@
 			<h6>Related Links</h6>
 			<ul>
 				<li>
-					<a href="/dsdp/dsdp-charter.php"><b>DSDP Project Charter</b></a>
+					<a href="/tools/eclipsetools-charter.php"><b>Tools Project Charter</b></a>
 				</li>
 				<li>
 					<a href="/tm/development/bug_process.php" target="_blank"><b>Bugs</b></a> 
@@ -95,7 +95,7 @@
 		</p>
 		<p>
 			Developer phone conferences are the first Wednesday of every month, 9am PST. See the 
-			<a href="http://wiki.eclipse.org/DSDP/TM/Meeting_Notes">Meeting Notes</a> on the Wiki for actual agenda and details.
+			<a href="http://wiki.eclipse.org/TM/Meeting_Notes">Meeting Notes</a> on the Wiki for actual agenda and details.
 			We also maintain a 
 			<a href="http://www.google.com/calendar/embed?src=vn70im36r00qeusu8nme50cils@group.calendar.google.com&ctz=Canada/Toronto">Google Calendar</a>
 			for our meetings.

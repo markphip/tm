@@ -121,7 +121,7 @@
     	  				| <a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf">PDF</a>).
     	  			</li>
 					<li><a href="/tm/development/plan.php"><b>TM Project Plan</b></a></li>
-					<li><a href="/dsdp/dsdp-charter.php"><b>DSDP Project Charter</b></a></li>
+					<li><a href="/tools/eclipsetools-charter.php"><b>Tools Project Charter</b></a></li>
 		</div>
 		<div class="homeitem">
 			<h3>Events</h3>

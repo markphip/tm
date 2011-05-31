@@ -124,8 +124,8 @@
 
 		<h2>Other stuff for reference</h2>
 		The <a href="http://www.eclipse.org/projects/dev_process/Eclipse_Standard_TopLevel_Charter_v1.0.php">
-		Eclipse Standard Charter</a> (as referenced by the <a href="http://www.eclipse.org/dsdp/dsdp-charter.php">
-		DSDP Project Charter</a>) has more information about committer rights
+		Eclipse Standard Charter</a> (as referenced by the <a href="http://www.eclipse.org/tools/eclipsetools-charter.php">
+		Tools Project Charter</a>) has more information about committer rights
 		and duties, and our development process.<p/>
 		In particular, this charter says that committers need to agree on the
 		<a href="/tm/development/plan.php">project plan</a> and its modifications,
