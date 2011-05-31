@@ -116,7 +116,7 @@ EOBRANDING;
 	$Nav->addCustomNav("Getting Started", "/tm/tutorial/index.php", "_self", 2);
 	$Nav->addCustomNav("Downloads", "http://download.eclipse.org/tm/downloads/index.php", "_self", 2);
 	$Nav->addCustomNav("FAQ (wiki)", "http://wiki.eclipse.org/TM_and_RSE_FAQ", "_self", 2);
-	$Nav->addCustomNav("Newsgroup", "http://www.eclipse.org/newsportal/thread.php?group=eclipse.tm", "_self", 2);
+	$Nav->addCustomNav("Forum", "http://www.eclipse.org/forums/index.php/f/210/", "_self", 2);
 	$Nav->addCustomNav("Bugs", "/tm/bugs", "_self", 2);
 
 	$Nav->addNavSeparator("Integrators", "", "_self", 2);
