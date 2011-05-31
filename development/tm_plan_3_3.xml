@@ -48,7 +48,7 @@ Shortcut to Themes:
     </ul></li>
     <li><b>Stand-alone components:</b><ul>
 	   <li>TM Terminal SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
-	   <li>Redistribution of Apache Commons Net 2.0 (downloadable through the Orbit project).</li>
+	   <li><b>NEW:</b> Redistribution of Apache Commons Net 2.2 (downloadable through the Orbit project).</li>
     </ul></li>
     <li><b>Incubating components:</b><ul>
 	   <li>RSE WinCE Subsystems and RAPI wrappers (runtime and sources) (downloadable).</li>
