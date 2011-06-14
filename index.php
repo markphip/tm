@@ -130,11 +130,6 @@
 				    (See the <a href="http://wiki.eclipse.org/TM">Wiki</a> for actual
 				    agenda and details)</li>
 				<li>
-				  <b>March 22-25, 2010</b>: <a href="http://www.eclipsecon.org/2010">EclipseCon 2010</a> - <ul>
-				    <li><a href="http://www.eclipsecon.org/2010/sessions/?page=sessions&id=1424" target="_blank">
-				         <b>TCF - Target Communication Framework Update for Helios</b></a>, Talk by Martin Oberhuber (slides available)
-					</ul></li>
-				<li>
 				  <b>March 17-20, 2008</b>: <a href="http://www.eclipsecon.org/2008">EclipseCon 2008</a> - <ul>
 				    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">
 				         <b>Remote access with the Target Management Project</b></a>, Tutorial by Martin Oberhuber (Wind River)
@@ -142,7 +137,7 @@
 						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt">PPT</a> 757 KB |
 						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.pdf">PDF</a> 639 KB) |
 						(code:
-						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_ECon08.ppt">tcf-0.2.0.zip</a> 3.7 MB |
+						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/tcf-0.2.0.zip">tcf-0.2.0.zip</a> 3.7 MB |
 						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Tutorial_Econ08_samples.zip">tmtutorial.zip</a> 465 KB)</li>
 				    <li><a href="http://www.eclipsecon.org/2008/?page=sub/&id=39" target="_blank">
 				         <b>Target Management New and Noteworthy</b></a>, Short Talk by Martin Oberhuber (Wind River), TM project lead
@@ -150,8 +145,6 @@
 						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Short_ECon08.ppt">PPT</a> 707 KB |
 						<a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_Short_ECon08.pdf">PDF</a> 581 KB)
 					</ul></li>
-				<li><b>March 14, 2008</b>: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a>
-					publicly announced</li>
 				<li>
 				  <b>October 9-11, 2007</b>: Eclipse Summit Europe 2007 -<ul>
 				    <li><a href="http://www.eclipsecon.org/summiteurope2007/index.php?page=detail/&id=21" target="_blank">
@@ -211,7 +204,6 @@
 			    <li>Jun 23rd: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2-201006071030/">TM 3.2</a> released</li>
 			    <li>Feb 26th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
-			    <li>Mar 14th: <a href="http://tmober.blogspot.com/2008/03/target-communication-framework-tcf.html">TCF</a> publicly announced</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
                 <!--
  			    <li>Mar 22nd: About 70 participants at the
