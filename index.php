@@ -185,18 +185,10 @@
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
+				<li><a href="http://wiki.eclipse.org/TM/3.3_Release_Summary" target="_self">
+				    TM 3.3 Release Summary</a></li>
 				<li><a href="http://eclipse.org/project-slides/Helios/TM_Helios_Release.pdf" target="_self">
 				    TM 3.2 Release Review Slides</a></li>
-				<li><a href="http://eclipse.org/project-slides/Galileo/TM_3.1_Release_Review.pdf" target="_self">
-				    TM 3.1 Release Review Slides</a></li>
-				<li><a href="http://www.eclipse.org/project-slides/TM_3.0_Release_Review.pdf" target="_self">
-				    TM 3.0 Release Review Slides</a></li>
-				    <!--
-				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/TM_2.0_Release_Review.ppt" target="_self">
-				    TM 2.0 Release Review Slides</a></li>
-				    -->
-				<li><a href="http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.rse.doc.user/gettingstarted/g_start.html"
-					target="_self">TM 3.0 Tutorial</a></li>
 				<li><a
 					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases</a></li>
