@@ -207,9 +207,8 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
+				<li>Jun 25th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">TM 3.3</a> released</li>
 				<li>Feb 25th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">TM 3.2.2</a> released</li>
-				<li>Sep 24th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.1-201009070720/">TM 3.2.1</a> released</li>
-			    <li>Jun 23rd: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2-201006071030/">TM 3.2</a> released</li>
 			    <li>Feb 26th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
 			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
 				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
