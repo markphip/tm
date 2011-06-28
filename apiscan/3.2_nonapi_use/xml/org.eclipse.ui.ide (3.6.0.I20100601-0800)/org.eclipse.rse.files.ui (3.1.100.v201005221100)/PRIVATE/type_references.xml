@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<references name="Types" origin="org.eclipse.rse.files.ui (3.1.100.v201005221100)" referee="org.eclipse.ui.ide (3.6.0.I20100601-0800)" reference_count="1" reference_visibility="2">
-    <target name="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup" type="org.eclipse.ui.internal.ide.dialogs.ResourceTreeAndListGroup">
-        <reference_kind flags="0" kind="1" reference_kind_name="EXTENDS">
-            <reference linenumber="-1" origin="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup" type="org.eclipse.rse.internal.files.ui.widgets.SystemFileTreeAndListGroup"/>
-        </reference_kind>
-    </target>
-</references>
