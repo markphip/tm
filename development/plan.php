@@ -85,6 +85,8 @@ background-repeat: repeat-y
 		<div class="homeitem3col">
 			<h3>Historical information about past releases</h3>
 	<ul>
+    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/tm/development/tm_plan_3_3.xml">Target Management Project 3.3 Plan</a><br>
+        This document lays out the feature and API set for the Target Management 3.3 release. </li>
     <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/tm/development/tm_plan_3_2.xml">Target Management Project 3.2 Plan</a><br>
         This document lays out the feature and API set for the Target Management 3.2 release. </li>
     <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/tm/development/tm_plan_3_1.xml">Target Management Project 3.1 Plan</a><br>
