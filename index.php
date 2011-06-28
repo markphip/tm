@@ -61,21 +61,22 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">
-		TM 3.2.2</a></font>
-		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">downloads</a> 
-		| <a href="http://download.eclipse.org/tm/updates/3.2/">update site</a>
-		| <a href="/tm/development/relnotes/3.2/readme_tm_3.2.html">release notes</a>
+		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">
+		TM 3.3</a></font>
+		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">downloads</a> 
+		| <a href="http://download.eclipse.org/tm/updates/3.3/">update site</a>
+		| <a href="/tm/development/relnotes/3.3/readme_tm_3.3.html">release notes</a>
 		]<br/>
-		TM 3.2.2 service release includes 36 bug fixes compared to TM 3.2.1. Highlights include
-		several improvements to the TM Terminal for better ANSI emulation, as well as improved
-		support for Windows 7 and Vista.
+		TM 3.3 includes 137 bug fixes compared to TM 3.2. Highlights include
+		a new SCP file subsystem, performance improvements for SSH, IPv6 support for
+		FTP and Telnet, as well as several improvements to the TM Terminal for better ANSI 
+		emulation and scrolling.
 		It is fully compatible with TM 3.2, and runs on Eclipse 3.4 (Ganymede) 
 		and later. Look at the <a href="/tm/tutorial/index.php">Getting Started Page</a>,
 		the build notes and the
-		<a href="/tm/development/relnotes/3.2/tm-news-3.2.html">TM 3.2 New & Noteworthy</a>
+		<a href="/tm/development/relnotes/3.3/tm-news-3.3.html">TM 3.3 New & Noteworthy</a>
 		for more information.</p>
-
+<!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
 		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M6-201103142031/">
 		TM 3.3M6</a></font>
@@ -86,6 +87,7 @@
 		TM 3.3M6 contains several bugfixes. See the 
 		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M6-201103142031/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.
+-->
 		<!-- TODO Enable for ramp-down
 		<br/>
 		With M7, the <a href="http://wiki.eclipse.org/TM/3.2_Ramp_down_Plan">
@@ -95,9 +97,15 @@
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.3:</b> ETA June, 2011 with Eclipse <a href="http://wiki.eclipse.org/Indigo">Indigo</a>
+		<ul><li><b>TM 3.3.1:</b> ETA Sep 24, 2011 with Eclipse <a href="http://wiki.eclipse.org/Indigo">Indigo SR1</a>
+		        [<a href="http://wiki.eclipse.org/TM/3.3_Ramp_down_Plan#Ramp_down_for_Indigo_SR1_.28tentatively_Sep_24.2C_2011.29">Project Plan</a>]</li>
+		</ul>
+<!--
+		<ul><li><b>TM 3.4:</b> ETA June 2012 with Eclipse <a href="http://wiki.eclipse.org/Juno">Juno</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.tm">Project Plan</a>]</li>
-		</ul></p>
+		</ul>
+-->
+		</p>
 
 		<p>
 		<u>Additional Links:</u><br/> 
