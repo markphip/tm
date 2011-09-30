@@ -76,7 +76,7 @@
 		TM 3.3.1 is a service release with 21 bugs fixed compared to TM 3.3.<br/>
 		TM 3.3 highlights include a new SCP file subsystem, performance improvements for SSH,
 		IPv6 support for FTP and Telnet, as well as several improvements to the TM Terminal 
-		for better ANSI emulation and scrolling.
+		for better ANSI emulation and scrolling.<br/>
 		It is fully compatible with TM 3.2, and runs on Eclipse 3.4 (Ganymede) 
 		and later. Look at the <a href="/tm/tutorial/index.php">Getting Started Page</a>,
 		the build notes and the
