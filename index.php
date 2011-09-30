@@ -61,16 +61,22 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">
-		TM 3.3</a></font>
+		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.1-201109141310/">
+		TM 3.3.1</a></font>
+<!--
 		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">downloads</a> 
 		| <a href="http://download.eclipse.org/tm/updates/3.3/">update site</a>
 		| <a href="/tm/development/relnotes/3.3/readme_tm_3.3.html">release notes</a>
 		]<br/>
-		TM 3.3 includes 137 bug fixes compared to TM 3.2. Highlights include
-		a new SCP file subsystem, performance improvements for SSH, IPv6 support for
-		FTP and Telnet, as well as several improvements to the TM Terminal for better ANSI 
-		emulation and scrolling.
+-->
+		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.1-201109141310/">downloads</a> 
+		| <a href="http://download.eclipse.org/tm/updates/3.3/">update site</a>
+		| <a href="/tm/development/relnotes/3.3/readme_tm_3.3.html">release notes</a>
+		]<br/>
+		TM 3.3.1 is a service release with 21 bugs fixed compared to TM 3.3.<br/>
+		TM 3.3 highlights include a new SCP file subsystem, performance improvements for SSH,
+		IPv6 support for FTP and Telnet, as well as several improvements to the TM Terminal 
+		for better ANSI emulation and scrolling.
 		It is fully compatible with TM 3.2, and runs on Eclipse 3.4 (Ganymede) 
 		and later. Look at the <a href="/tm/tutorial/index.php">Getting Started Page</a>,
 		the build notes and the
@@ -97,14 +103,12 @@
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
-		<ul><li><b>TM 3.3.1:</b> ETA Sep 24, 2011 with Eclipse <a href="http://wiki.eclipse.org/Indigo">Indigo SR1</a>
-		        [<a href="http://wiki.eclipse.org/TM/3.3_Ramp_down_Plan#Ramp_down_for_Indigo_SR1_.28tentatively_Sep_24.2C_2011.29">Project Plan</a>]</li>
+		<ul><li><b>TM 3.3.2:</b> ETA Feb 23, 2012 with Eclipse <a href="http://wiki.eclipse.org/Indigo">Indigo SR2</a>
+		        [<a href="http://wiki.eclipse.org/TM/3.3_Ramp_down_Plan#Ramp_down_for_Indigo_SR2_.28tentatively_Feb_23.2C_2012.29">Project Plan</a>]</li>
 		</ul>
-<!--
 		<ul><li><b>TM 3.4:</b> ETA June 2012 with Eclipse <a href="http://wiki.eclipse.org/Juno">Juno</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.tm">Project Plan</a>]</li>
 		</ul>
--->
 		</p>
 
 		<p>
@@ -199,11 +203,12 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
+				<li>Sep 26th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.1-201109141310/">TM 3.3.1</a> released</li>
 				<li>Jun 25th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">TM 3.3</a> released</li>
-				<li>Feb 25th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">TM 3.2.2</a> released</li>
-			    <li>Feb 26th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
-			    <li>Mar 17th: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
-				<li>Apr 12th: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
+				<li>Feb 2010: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">TM 3.2.2</a> released</li>
+			    <li>Feb 2009: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
+			    <li>Mar 2008: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
+				<li>Apr 2007: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
                 <!--
  			    <li>Mar 22nd: About 70 participants at the
 			    	<a href="http://www.eclipsecon.org/2006/Sub.do?id=287&not_accepted=0"
