@@ -71,7 +71,7 @@ $hasmoved = array(
 	"jet" => "m2t", "jeteditor" => "m2t"); // components which have moved, and to where
 $nomenclature = "Component"; //are we dealing with "components" or "projects"?
 
-include_once $_SERVER["DOCUMENT_ROOT"] . "/dsdp/includes/scripts.php";
+#360651#include_once $_SERVER["DOCUMENT_ROOT"] . "/dsdp/includes/scripts.php";
 
 $regs = null;
 $proj = (isset($_GET["project"]) && preg_match("/^(" . join("|", $projects) . ")$/", $_GET["project"], $regs) ? $regs[1] : getProjectFromPath($PR));
