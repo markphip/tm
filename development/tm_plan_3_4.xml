@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><!--
+    Copyright (c) 2008, 2012 Wind River Systems, Inc. and others.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+   
+    Contributors:
+    Martin Oberhuber (Wind River) - initial API and implementation
+ -->
+
+<!--  Use this to test local rendering in firefox. Comment out this line once this plan is linked to portal data. --><?xml-stylesheet type="text/xsl" href="project-plan-render.xsl"?><!-- <?xml-stylesheet type="text/xsl" href="http://www.eclipse.org/projects/project-plan.xsl"?> --><p:plan plan-format="1.0" xmlns:p="http://www.eclipse.org/project/plan" xmlns="http://www.w3.org/1999/xhtml"
+      name="Target Management">
+   <p:release projectid="tools.tm" version="3.4"/>
+    <p:introduction><div>
+<p>Last revised 14:00 CET February 2, 2012.<!-- (<img src="http://www.eclipse.org/eclipse/development/new.gif" alt="(new)" border="0" height="12" width="12" /> marks interesting changes since the previous draft of <a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/eclipse/development/plans/eclipse_project_plan_3_7_20100630.xml">June 30, 2010</a>.)--></p><p><i>Please send comments about this plan to the</i> <a href="mailto:tm-dev@eclipse.org">tm-dev@eclipse.org</a> <i>developer  mailing list (<a href="https://dev.eclipse.org/mailman/listinfo/tm-dev">subscription info</a>).</i></p>The Target Management Project provides data models, frameworks and tools 
+for working with remote computer systems.
+The main deliverable is the Remote System Explorer (RSE), a feature-rich 
+integrated perspective and toolkit for seamlessly working on
+remote systems. Besides that, we deliver flexible, re-usable 
+components for Networking and Target Management that run stand-alone
+or integrated with RSE.
+<p>
+In terms of interfaces to other Eclipse projects, we provide an
+Eclipse Filesystem (EFS) provider to allow remote resources be
+mapped into an Eclipse Workspace. The DLTK and CDT projects are
+other Eclipse projects known to integrate with Target Management.PTP and PDT can use TM services via the underlying DLTK and CDTlayers. Several Eclipse Packages include TM  (The Eclipse for Webpackage, for instance, includes the TM Terminal). 
+</p>
+Shortcut to Themes:
+<ul>
+  <li><a href="#tp_releng">Improve Release Engineering</a></li>  <li><a href="#tp_unittest">Improve Unittest Coverage</a></li>  <li><a href="#tp_4x">Run on Eclipse 4.x</a></li>  <!--   <li><a href="#tp_usability">Improve Usability</a></li>  <li><a href="#tp_performance">Avoid plugin activation and Improve Performance</a></li>
+   -->  <li><a href="#tp_other">Other</a></li>
+  <!--  Deferred Themes:  --></ul><!--<p><b>Special Notes:</b><ul>  <li>The Target Communication Framework (TCF) has been moved to become  a subproject of <a href="http://www.eclipse.org/cdt">CDT</a>.</li></ul></p>
+-->  </div></p:introduction>
+  <p:release_deliverables><div>
+<ul>
+	<li><b><a name="m_release_deliverables">Target Management</a> source code release</b>, available as versions tagged "R3_4" in the project's<ul>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.rse/?cvsroot=Tools_Project">RSE CVS Repository</a>, and</li>
+		<li><a href="http://dev.eclipse.org/viewcvs/index.cgi/org.eclipse.tm.core/?cvsroot=Tools_Project">TM Core CVS Repository</a>.</li>
+	</ul></li>
+	<li><b>Remote System Explorer (RSE):</b><ul>
+	   <li>RSE SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
+	   <li>RSE client runtime binaries (split up by protocol, includes user documentation) (downloadable).</li>
+	   <li>RSE dstore server runtime (downloadable).</li>
+	   <li>RSE User Actions and Compile Commands (downloadable).</li>
+	   <li>RSE tutorial code and examples (downloadable).</li>
+       <li>RSE unit test framework and tests (downloadable).</li>
+    </ul></li>
+    <li><b>Stand-alone components:</b><ul>
+	   <li>TM Terminal SDK (includes runtime, user and programmer documentation, with sources) (downloadable).</li>
+	   <li>Redistribution of Apache Commons Net 2.2 (downloadable through the Orbit project).</li>
+    </ul></li>
+    <li><b>Incubating components:</b><ul>
+	   <li>RSE WinCE Subsystems and RAPI wrappers (runtime and sources) (downloadable).</li>
+	   <li>TM Local Terminal Connector (runtime and sources) (downloadable).</li>    </ul></li>
+</ul>
+<b>Notes:</b>
+All stand-alone components will have an integration part that makes
+them work inside the RSE framework. For that reason, there are no
+downloadable stand-alone component tests, but the RSE unit test
+component will also have tests for the stand-alone components.
+  </div></p:release_deliverables>
+  <p:release_milestones>
+    <p:preamble><p>      
+<a name="m_release_milestones">Release milestones</a>
+will be occurring at roughly 6 week intervals,
+and will be aligned with the
+<a href="http://wiki.eclipse.org/Juno/Simultaneous_Release_Plan">
+Juno Simultaneous Release</a> train.
+Milestone names start with M3 in order to clarify this
+relationship.
+    </p></p:preamble>
+    <p:milestone date="10/31/2011" milestone="M3"><div>3.4M3</div></p:milestone>    <p:milestone date="12/12/2011" milestone="M4"><div>3.4M4</div></p:milestone>    <p:milestone date="1/30/2012" milestone="M5"><div>3.4M5</div></p:milestone>    <p:milestone date="3/19/2012" milestone="M6"><div>3.4M6 (API Freeze)</div></p:milestone>
+    <p:milestone date="5/7/2012" milestone="M7"><div>3.4M7 (Feature Freeze)</div></p:milestone>
+    <p:milestone date="5/21/2012" milestone="RC1"><div>3.4RC1</div></p:milestone>
+    <p:milestone date="5/28/2011" milestone="RC2"><div>3.4RC2</div></p:milestone>
+    <p:milestone date="6/4/2011" milestone="RC3"><div>3.4RC3</div></p:milestone>
+    <p:milestone date="6/11/2011" milestone="RC4"><div>3.4RC4</div></p:milestone>
+    <p:postamble><div>
+A detailed <a href="http://wiki.eclipse.org/TM/3.4_Ramp_down_Plan">
+TM 3.4 Ramp down Plan</a> towards the release is available especially for the Eclipse 
+<a href="http://wiki.eclipse.org/Juno/Simultaneous_Release_Plan">
+Juno Simultaneous Release</a> integration.
+<p>
+The target date for availability of Target Management 3.4 is:</p>
+<ul>
+	<li>Wednesday June 27, 2011 - TM 3.4 Release date (with Juno)</li>
+</ul>
+    </div></p:postamble>
+  </p:release_milestones>
+  <p:target_environments><div>
+<a name="m_target_environments">In order</a>
+to remain current, each Eclipse release is designed to run on
+reasonably current versions of the underlying operating environments.
+<p>The Target Management Project 3.4 depends upon on the Eclipse Platform 4.2 or 3.8.
+For this release, the RSE sources will mostly be written and compiled
+against version 1.4.2 of the Java Platform APIs (i.e., Java 2 Platform,
+Release 1.4.2 SE), and designed to run on version 1.4.2 of the Java
+Runtime Environment, Standard Edition except for the following components,
+which are compiled on and running against Java 5:
+<b>FTP, Telnet and Import/Export</b>.</p> 
+
+<p>The Target Management deliverables will be tested and validated against a 
+subset of the reference platforms listed in the 
+<a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/eclipse/development/plans/eclipse_project_plan_4_2.xml#target_environments">Eclipse Platform 4.2 Project Plan</a>
+(this list is updated over the course of the release cycle).</p>
+
+<table summary="Target Management Reference Platforms" style="width: 821px;"
+border="1">
+<tbody>
+<tr style="background:#cccccc">
+<th colspan="5" align="center">
+<big><strong>Target Management Reference
+Platforms</strong></big>
+</th>
+</tr>
+<tr>
+<td style="width: 205px;"><b>Operating system</b></td>
+<td style="width: 59px;"><b>OS version</b></td>
+<td style="width: 76px;"><b>Processor architecture</b></td>
+<td style="width: 59px;"><b>Window system</b></td>
+<td style="width: 453px;"><b>Java 2 Platform</b></td>
+</tr>
+<tr>
+<td style="width: 205px;">Microsoft Windows</td>
+<td style="width: 59px;">XP</td>
+<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">Win32</td>
+<td style="width: 453px;">Sun Java 5 Update 22</td>
+</tr>
+<tr>
+<td style="width: 205px;">Microsoft Windows</td>
+<td style="width: 59px;">XP</td>
+<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">Win32</td>
+<td style="width: 453px;">IBM Java 5 SR11</td>
+</tr>
+<tr>
+<td style="width: 205px;">Red Hat Enterprise Linux</td>
+<td style="width: 59px;">WS 4 update 2</td>
+<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">GTK</td>
+<td style="width: 453px;">Sun Java 5 Update 22<br/>
+for Linux x86</td>
+</tr>
+<tr>
+<td style="width: 205px;">SUSE Linux Enterprise Server</td>
+<td style="width: 59px;">11</td>
+<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">GTK</td>
+<td style="width: 453px;">IBM Java 5 SR11</td>
+</tr>
+<tr>
+<td style="width: 205px;">Sun Solaris</td>
+<td style="width: 59px;">10</td>
+<td style="width: 76px;">SPARC</td>
+<td style="width: 59px;">GTK</td>
+<td style="width: 453px;">Sun Java 5 Update 22<br/>
+for Solaris SPARC</td>
+</tr>
+<tr>
+<td style="width: 205px;">Apple Mac OS X (<i>Secondary, see below</i>)</td>
+<td style="width: 59px;">10.5</td>
+<td style="width: 76px;">Universal</td>
+<td style="width: 59px;">Carbon</td>
+<td style="width: 453px;">Apple Java 10.5 Update 2</td>
+</tr>
+</tbody>
+</table>
+
+<p>Apple Mac OS X 10.5 is considered a "secondary" Reference Platform
+meaning that it does receive some amount of systematic testing but
+doesn't enjoy quite the same priority for bug fixes as the other
+Platforms.</p>
+
+<p>Eclipse and Target Management undoubtedly run fine
+in many operating environments beyond the reference platforms we test.
+However, since we do not systematically test them we cannot vouch for them.
+Problems encountered when running Target Management on a non-reference platform
+that cannot be recreated on any reference platform will be given lower
+priority than problems with running Target Management on a reference platform.</p>
+
+<p>Although untested, Target Management should work fine on other OSes that 
+support the same window system. For more details, see the
+<a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/eclipse/development/plans/eclipse_project_plan_4_2.xml#target_environments">
+Eclipse Project Plan 4.2 Reference Platforms</a>.</p>
+
+<h4>
+Datastore Agent Reference Platforms
+</h4>
+<p>The Datastore protocol is the default protocol shipped with RSE for
+accessing remote file systems, process info and shells. It requires a
+Datastore server (agent) running on the remote system.
+This Datastore agent is shipped as plain Java Source Code together with the 
+RSE distribution. It should run fine on any Java Platform, with additional
+Data Miner Plug-ins that may be OS specific.</p>
+<p>We will test and verify the Datastore agent on the following Reference
+Platforms, which are a subset of the Platforms we test the RSE UI on:</p>
+<ul>
+<li>Red Hat Enterprise Linux 4, Intel x86, Sun 1.5.0_14 VM</li>
+<li>SUSE Linux Enterprise Server 10, Intel x86, IBM 1.4.2 sr 7 VM</li>
+<li>Apple Mac OS X 10.5, Power, Apple J2SE 5 sr 4 VM</li>
+</ul>
+
+  </div><p:internationalization><p>
+The Remote System Explorer is designed as the basis for internationalized
+products. The user interface elements provided by the RSE
+components, including dialogs and error messages, are externalized. The
+English strings are provided as the default resource bundles.
+The default bundles will be localized to a subset of those
+locales offered by the Platform. This plan will be updated to indicate
+which locales will be provided and the timeframe for availability.</p>
+    </p:internationalization>
+  </p:target_environments>
+  <p:compatibility_with_previous_releases><div>
+<p><a name="m_compatibility">Target Management 3.4</a> will be backward compatible with TM 3.3.</p>
+<p>
+  <strong>API Contract Compatibility:</strong> Target Management 3.4 will be 
+  compatible with TM 3.3 as per the constraints documented in the TM 3.3 API Docs.
+</p>
+<p><strong>Binary (plug-in) Compatibility:</strong> Target Management 3.4 will be 
+  binary compatible with TM 3.3. 
+</p>
+<p><strong>Source Compatibility:</strong> Target Management 3.4 will likely not be 
+  source compatible with TM 3.3. 
+</p>
+<p><strong>Workspace Compatibility:</strong> We intend to keep Target Management
+  3.4 upwards workspace-compatible with TM 3.3 unless noted. 
+  This means that workspaces and projects created with TM 3.3 can be successfully 
+  opened by Target Management 3.4 and upgraded to a 3.4 workspace.
+  This includes especially TM 3.3 connection definitions, which may propagate 
+  between workspaces via file copying or team repositories.
+  User interface session state may be discarded when a workspace is upgraded.
+  Downward workspace compatibility is not supported. 
+  A workspace created (or opened) by a product based on TM 3.4 may be unusable 
+  with a product based on TM 3.3.
+</p>
+<h3>API Contract</h3>
+<p>APIs published for the Target Management 3.4 release will be carefully
+reviewed prior to release, making use of "internal" packages for
+unsupported and variable implementation classes. Client plug-ins that
+directly depend on anything other than what is specified in the
+published API are inherently unsupportable and receive no guarantees
+about future compatibility. Refer to <i><a
+	href="http://www.eclipse.org/articles/article.php?file=Article-API-Use/index.html">How
+to Use the Eclipse API</a></i> for information about how to write
+compliant plug-ins.</p>
+  </div></p:compatibility_with_previous_releases>
+  <p:themes_and_priorities>
+    <p:preamble><div>
+<p>Plan items listed <a name="m_themes">below</a> were defined according to contributor requirements,
+but in accordance with the Target Management
+<a href="http://www.eclipse.org/tm/doc/TM_Use_Cases_v1.1c.pdf">
+Use Cases Document</a> and the Eclipse
+<a href="http://wiki.eclipse.org/RequirementsCouncilThemesAndPriorities#Embedded_Device_Software">
+Themes and Priorities</a>
+set forth by the Eclipse Requirements Council.
+Each plan item covers a feature or API that is to be added to the 
+Target Management deliverables, or some aspect of the Target 
+Management Project that is to be improved. Each plan item has its 
+own entry in the Eclipse bugzilla database, with a title and a 
+concise summary (usually a single paragraph) that explains the 
+work item at a suitably high enough level so that everyone can 
+readily understand what the work item is without having to understand
+the nitty-gritty detail. 
+</p>
+<p>Not all plan items represent the same amount of work; some may be quite
+large, others, quite small. Although some plan items are for work that is 
+more pressing than others, the plan items appear in no particular order.
+See the corresponding bugzilla items for up-to-date status information on
+ongoing work and planned delivery milestones.
+</p>
+<p>The current status of each plan item is noted:
+</p>
+<ul>
+  <li><b>Committed</b> plan item - A committed plan item is one that we have
+    decided to address for the release. In bugzilla, this is reflected by
+    having a concrete target milestone assigned.</li>
+  <li><b>Proposed</b> plan item - A proposed plan item is one that we are
+    considering addressing for the release. Although we are actively
+    investigating it, we are not yet in a position to commit to it, or to say
+    that we won't be able to address it. After due consideration, a proposal
+    will either be committed or deferred. In bugzilla, such items are reflected
+    by having a target milestone "3.4" assigned.</li>
+  <li><b>Deferred</b> plan item - A reasonable proposal that will not make it in
+    to this release for some reason is marked as deferred with a brief note as
+    to why it was deferred. Deferred plan items may resurface as committed plan
+    items at a later point. In bugzilla, such items are reflected by having
+    a target milestone "Future" or "---" assigned.</li>
+</ul>
+    </div></p:preamble>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Query: Committed = target_milestone LIKE %3.4+M[234567]% AND NOT priority=P5  -->
+<!-- Query: Proposed  = target_milestone IN [ 3.4 , - ]       AND NOT priority=P5  AND resolution=-  -->
+<!-- Query: Deferred  = target_milestone IS Future            AND NOT priority=P5  AND resolution=-  -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <p:theme name="Improve Release Engineering">
+      <p:description><p>
+For the constantly growing TM code size and committer base, it is important to have a 
+reliable but easy-to-use <a name="tp_releng">release engineering</a> system. Required features include automatic
+signing and adoption of Orbit, easy promoting to the Eclipse Servers and Juno, 
+running automated unit tests with automatic reporting of test failures to the mailing
+lists, ability and description for running the releng build on any adopter's system.We intend to adopt <a href="http://eclipse.org/tycho/">Tycho</a> as the de-facto standard build system at Eclipse in this release, and have our main builds run on the Eclipse Hudsoninstance.
+In bugzilla, items related to this theme are tagged with <b>"[releng]"</b> in the Summary  
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[releng%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [releng] open</a>).
+      </p></p:description>
+      <!--  Query: short_desc LIKE %[releng]% -->
+      <p:committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[releng%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.4+M2&amp;target_milestone=3.4+M3&amp;target_milestone=3.4+M4&amp;target_milestone=3.4+M5&amp;target_milestone=3.4+M6&amp;target_milestone=3.4+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:committed>
+      <p:proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[releng%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.4&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:proposed>
+      <p:deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[releng%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:deferred>
+    </p:theme>
+    <p:theme name="Improve Unittest Coverage">
+      <p:description><p>
+As the TM Codebase is growing, it is important to secure its functionality with
+<a name="tp_unittest">unit tests</a> against regressions. Since large portions of RSE especially are UI
+code, there should be an automated UI test suite run every night. Tests should
+automatically run on all supported host platforms against all supported target
+platforms. Adopters should be able to run a TM test suite on their own systems
+easily, and configure it for sanity checking or compliance testing their own
+connector plug-ins.  
+In bugzilla, these items are tagged with <b>"[testing]"</b> in the Summary
+(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[testing%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">
+all [testing] open</a>).
+       </p></p:description>
+      <!--  Query: short_desc LIKE %[testing]% -->
+      <p:committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[testing%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.4+M2&amp;target_milestone=3.4+M3&amp;target_milestone=3.4+M4&amp;target_milestone=3.4+M5&amp;target_milestone=3.4+M6&amp;target_milestone=3.4+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:committed>
+      <p:proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[testing%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.4&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:proposed>
+      <p:deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[testing%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:deferred>
+    </p:theme>    <p:theme name="Run on Eclipse 4.x">      <p:description><p>Eclipse 4.2 is the designate mainstream of Eclipse Platform development.The TM project is committed to <a name="tp_4x">developing, running and testing</a>on the Eclipse 4.2 platform, and fixing defects as they are discovered.In bugzilla, items related to Eclipse 4.x migration are tagged with <b>"[4x]"</b> in the Summary(query: <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[4x%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit">all [testing] open</a>).       </p></p:description>      <!--  Query: short_desc LIKE %[testing]% -->      <p:committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[4x%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.4+M2&amp;target_milestone=3.4+M3&amp;target_milestone=3.4+M4&amp;target_milestone=3.4+M5&amp;target_milestone=3.4+M6&amp;target_milestone=3.4+M7&amp;keywords_type=allwords&amp;keywords=&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:committed>      <p:proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[4x%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.4&amp;target_milestone=---&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:proposed>      <p:deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=[4x%5D&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=allwords&amp;keywords=&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit"></p:deferred>    </p:theme>    <p:theme name="Other">
+      <p:description><p>
+Bug fixes for improved robustness, stability and usability are part of ongoing maintenance.Besides that, here are some larger<a name="tp_other">features and bugs</a> that we plan to address in the next release cycle until 3.4 M7, but are not categorized into one of the themes above.
+&lt;br&gt;
+In order not to overload the project plan with less important items, only those marked with a <b>"plan"</b> keyword will be
+added to the project plan. The pool of known items to add to the plan can be found from the
+associated queries
+(query: all open
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;keywords_type=nowords&amp;keywords=plan&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(releng|testing)&amp;field0-1-0=target_milestone&amp;type0-1-0=substring&amp;value0-1-0=3.&amp;field0-2-0=target_milestone&amp;type0-2-0=notequals&amp;value0-2-0=3.4">committed</a>,
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.4&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(releng|testing)">proposed</a>,
+<a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=nowords&amp;keywords=plan+investigate&amp;bug_status=UNCONFIRMED&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(releng|testing)">deferred</a>
+).
+	  </p></p:description>
+      <!--  Query: short_desc NOT LIKE REGEX "\[(releng|testing)"  -->
+      <p:committed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=3.4+M2&amp;target_milestone=3.4+M3&amp;target_milestone=3.4+M4&amp;target_milestone=3.4+M5&amp;target_milestone=3.4+M6&amp;target_milestone=3.4+M7&amp;keywords_type=anywords&amp;keywords=plan&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(releng|testing)"></p:committed>
+      <p:proposed bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.4&amp;keywords_type=anywords&amp;keywords=plan+investigate&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(releng|testing)"></p:proposed>
+      <p:deferred bugzilla="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=Future&amp;keywords_type=anywords&amp;keywords=plan+investigate&amp;resolution=---&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;priority=P4&amp;cmdtype=doit&amp;field0-0-0=short_desc&amp;type0-0-0=notregexp&amp;value0-0-0=\[(releng|testing)"></p:deferred>
+    </p:theme>
+  </p:themes_and_priorities>
+  <p:appendix name="A"><p>
+      The TM team uses Eclipse Bugzilla for all it's planning. Based on the plan item queries
+      listed above, the following consistency queries should never return any results:</p>
+      <ul>
+        <li>Target milestone "3.4", "---" or "Future" but resolved "FIXED":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;target_milestone=---&amp;target_milestone=3.4&amp;target_milestone=Future&amp;resolution=FIXED&amp;cmdtype=doit">Query</a></li>
+        <li>Keyword "performance" but not tagged "[performance]":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;keywords_type=allwords&amp;keywords=performance&amp;cmdtype=doit&amp;negate0=1&amp;field0-0-0=short_desc&amp;type0-0-0=substring&amp;value0-0-0=[performance">Query</a></li>
+        <li>Component "Terminal" but not tagged "[terminal]":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Terminal&amp;cmdtype=doit&amp;negate0=1&amp;field0-0-0=short_desc&amp;type0-0-0=substring&amp;value0-0-0=[terminal">Query</a></li>
+        <li>Marked "FIXED" but still assigned to an "inbox":
+            <a href="https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced&amp;product=Target+Management&amp;component=Core&amp;component=RSE&amp;component=Terminal&amp;component=Website&amp;resolution=FIXED&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=inbox&amp;cmdtype=doit">Query</a></li>
+      </ul>
+  </p:appendix>  
+</p:plan>
