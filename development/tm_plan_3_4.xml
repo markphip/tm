@@ -73,9 +73,9 @@ relationship.
     <p:milestone date="10/31/2011" milestone="M3"><div>3.4M3</div></p:milestone>    <p:milestone date="12/12/2011" milestone="M4"><div>3.4M4</div></p:milestone>    <p:milestone date="1/30/2012" milestone="M5"><div>3.4M5</div></p:milestone>    <p:milestone date="3/19/2012" milestone="M6"><div>3.4M6 (API Freeze)</div></p:milestone>
     <p:milestone date="5/7/2012" milestone="M7"><div>3.4M7 (Feature Freeze)</div></p:milestone>
     <p:milestone date="5/21/2012" milestone="RC1"><div>3.4RC1</div></p:milestone>
-    <p:milestone date="5/28/2011" milestone="RC2"><div>3.4RC2</div></p:milestone>
-    <p:milestone date="6/4/2011" milestone="RC3"><div>3.4RC3</div></p:milestone>
-    <p:milestone date="6/11/2011" milestone="RC4"><div>3.4RC4</div></p:milestone>
+    <p:milestone date="5/28/2012" milestone="RC2"><div>3.4RC2</div></p:milestone>
+    <p:milestone date="6/4/2012" milestone="RC3"><div>3.4RC3</div></p:milestone>
+    <p:milestone date="6/11/2012" milestone="RC4"><div>3.4RC4</div></p:milestone>
     <p:postamble><div>
 A detailed <a href="http://wiki.eclipse.org/TM/3.4_Ramp_down_Plan">
 TM 3.4 Ramp down Plan</a> towards the release is available especially for the Eclipse 
@@ -84,7 +84,7 @@ Juno Simultaneous Release</a> integration.
 <p>
 The target date for availability of Target Management 3.4 is:</p>
 <ul>
-	<li>Wednesday June 27, 2011 - TM 3.4 Release date (with Juno)</li>
+	<li>Wednesday June 27, 2012 - TM 3.4 Release date (with Juno)</li>
 </ul>
     </div></p:postamble>
   </p:release_milestones>
@@ -122,48 +122,40 @@ Platforms</strong></big>
 <td style="width: 453px;"><b>Java 2 Platform</b></td>
 </tr>
 <tr>
-<td style="width: 205px;">Microsoft Windows</td>
-<td style="width: 59px;">XP</td>
-<td style="width: 76px;">x86-32</td>
+<td style="width: 205px;">Microsoft Windows XP</td>
+<td style="width: 59px;">SP3</td>
+<td style="width: 76px;">x86 32-bit</td>
 <td style="width: 59px;">Win32</td>
-<td style="width: 453px;">Sun Java 5 Update 22</td>
+<td style="width: 453px;">IBM Java 6 SR9</td>
 </tr>
 <tr>
-<td style="width: 205px;">Microsoft Windows</td>
-<td style="width: 59px;">XP</td>
-<td style="width: 76px;">x86-32</td>
+<td style="width: 205px;">Microsoft Windows 7</td>
+<td style="width: 59px;">SP1</td>
+<td style="width: 76px;">x86 64-bit</td>
 <td style="width: 59px;">Win32</td>
-<td style="width: 453px;">IBM Java 5 SR11</td>
+<td style="width: 453px;">Oracle Java 6 Update 27</td>
 </tr>
 <tr>
 <td style="width: 205px;">Red Hat Enterprise Linux</td>
-<td style="width: 59px;">WS 4 update 2</td>
-<td style="width: 76px;">x86-32</td>
+<td style="width: 59px;">WS 5 update 6</td>
+<td style="width: 76px;">x86 64-bit</td>
 <td style="width: 59px;">GTK</td>
-<td style="width: 453px;">Sun Java 5 Update 22<br/>
+<td style="width: 453px;">Oracle Java 6 Update 27<br/>
 for Linux x86</td>
 </tr>
 <tr>
-<td style="width: 205px;">SUSE Linux Enterprise Server</td>
-<td style="width: 59px;">11</td>
-<td style="width: 76px;">x86-32</td>
+<td style="width: 205px;">SUSE Linux Enterprise Desktop</td>
+<td style="width: 59px;">11.2</td>
+<td style="width: 76px;">x86 64-bit</td>
 <td style="width: 59px;">GTK</td>
-<td style="width: 453px;">IBM Java 5 SR11</td>
-</tr>
-<tr>
-<td style="width: 205px;">Sun Solaris</td>
-<td style="width: 59px;">10</td>
-<td style="width: 76px;">SPARC</td>
-<td style="width: 59px;">GTK</td>
-<td style="width: 453px;">Sun Java 5 Update 22<br/>
-for Solaris SPARC</td>
+<td style="width: 453px;">Oracle Java 6 Update 27</td>
 </tr>
 <tr>
 <td style="width: 205px;">Apple Mac OS X (<i>Secondary, see below</i>)</td>
-<td style="width: 59px;">10.5</td>
-<td style="width: 76px;">Universal</td>
-<td style="width: 59px;">Carbon</td>
-<td style="width: 453px;">Apple Java 10.5 Update 2</td>
+<td style="width: 59px;">10.6.8</td>
+<td style="width: 76px;">Universal 64-bit</td>
+<td style="width: 59px;">Cocoa</td>
+<td style="width: 453px;">Apple Java 10.6 Update 5</td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +189,7 @@ Data Miner Plug-ins that may be OS specific.</p>
 <p>We will test and verify the Datastore agent on the following Reference
 Platforms, which are a subset of the Platforms we test the RSE UI on:</p>
 <ul>
-<li>Red Hat Enterprise Linux 4, Intel x86, Sun 1.5.0_14 VM</li>
+<li>Red Hat Enterprise Linux 4, Intel x86, Oracle 1.5.0_14 VM</li>
 <li>SUSE Linux Enterprise Server 10, Intel x86, IBM 1.4.2 sr 7 VM</li>
 <li>Apple Mac OS X 10.5, Power, Apple J2SE 5 sr 4 VM</li>
 </ul>
