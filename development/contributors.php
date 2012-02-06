@@ -58,7 +58,7 @@
 			<li><b>Felix Burton</b>, Wind River</li>
 			<li><b>Xuan Chen</b>, IBM</li>
 			<li><b>Kevin Doyle</b>, IBM</li>
-			<li><b>Anna Dushistova</b>, Mentor Graphics</li>
+			<li><b>Anna Dushistova</b>, MontaVista</li>
 			<li><b>David Dykstal</b>, IBM</li>
 			<li><b>Radoslav Gerganov</b>, ProSyst</li>
 			<li><b>David McKnight</b>, IBM</li>
