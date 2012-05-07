@@ -56,8 +56,8 @@ background-repeat: repeat-y
 		<div class="homeitem3col">
 			<h3>Releases currently under development</h3>
     <ul>
-    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/tm/development/tm_plan_3_3.xml">Target Management Project 3.3 Plan</a><br>
-        This document lays out the feature and API set for the Target Management 3.3 release. </li>
+    <li><a href="http://www.eclipse.org/projects/project-plan.php?planurl=http://www.eclipse.org/tm/development/tm_plan_3_4.xml">Target Management Project 3.4 Plan</a><br>
+        This document lays out the feature and API set for the Target Management 3.4 release. </li>
       <li><a href="/tm/development/bug_process.php"> Target Management Bug Process</a><br>
     	Queries for up-to-date status on plan items and bugs from Eclipse Bugzilla. </li>
       <li><a href="http://wiki.eclipse.org/TM_Future_Planning"> 
