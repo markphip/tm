@@ -61,19 +61,19 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.1-201109141310/">
-		TM 3.3.1</a></font>
+		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.2-201202061000/">
+		TM 3.3.2</a></font>
 <!--
 		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">downloads</a> 
 		| <a href="http://download.eclipse.org/tm/updates/3.3/">update site</a>
 		| <a href="/tm/development/relnotes/3.3/readme_tm_3.3.html">release notes</a>
 		]<br/>
 -->
-		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.1-201109141310/">downloads</a> 
+		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.2-201202061000/">downloads</a> 
 		| <a href="http://download.eclipse.org/tm/updates/3.3/">update site</a>
 		| <a href="/tm/development/relnotes/3.3/readme_tm_3.3.html">release notes</a>
 		]<br/>
-		TM 3.3.1 is a service release with 21 bugs fixed compared to TM 3.3.<br/>
+		TM 3.3.2 is a service release with 22 bugs fixed compared to TM 3.3.<br/>
 		TM 3.3 highlights include a new SCP file subsystem, performance improvements for SSH,
 		IPv6 support for FTP and Telnet, as well as several improvements to the TM Terminal 
 		for better ANSI emulation and scrolling.<br/>
@@ -82,18 +82,18 @@
 		the build notes and the
 		<a href="/tm/development/relnotes/3.3/tm-news-3.3.html">TM 3.3 New & Noteworthy</a>
 		for more information.</p>
-<!--
+
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M6-201103142031/">
-		TM 3.3M6</a></font>
-		[<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M6-201103142031/">downloads</a> 
-		| <a href="http://download.eclipse.org/tm/updates/3.3milestones/">update site</a>
-		| <a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M6-201103142031/buildNotes.php">
+		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4M7-201205071515/">
+		TM 3.4M7</a></font>
+		[<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4M7-201205071515/">downloads</a> 
+		| <a href="http://download.eclipse.org/tm/updates/3.4milestones/">update site</a>
+		| <a href="http://download.eclipse.org/tm/downloads/drops/S-3.4M7-201205071515/buildNotes.php">
 		build notes</a>]<br/>
-		TM 3.3M6 contains several bugfixes. See the 
-		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.3M6-201103142031/buildNotes.php">
+		TM 3.4M7 contains several bugfixes. See the 
+		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4M7-201205071515/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.
--->
+
 		<!-- TODO Enable for ramp-down
 		<br/>
 		With M7, the <a href="http://wiki.eclipse.org/TM/3.2_Ramp_down_Plan">
@@ -103,9 +103,11 @@
 		</p>
 
 		<p><font size="+2"><b>Upcoming Releases:</b></font>
+		<!--
 		<ul><li><b>TM 3.3.2:</b> ETA Feb 23, 2012 with Eclipse <a href="http://wiki.eclipse.org/Indigo">Indigo SR2</a>
 		        [<a href="http://wiki.eclipse.org/TM/3.3_Ramp_down_Plan#Ramp_down_for_Indigo_SR2_.28tentatively_Feb_23.2C_2012.29">Project Plan</a>]</li>
 		</ul>
+		-->
 		<ul><li><b>TM 3.4:</b> ETA June 2012 with Eclipse <a href="http://wiki.eclipse.org/Juno">Juno</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.tm">Project Plan</a>]</li>
 		</ul>
