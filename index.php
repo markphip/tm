@@ -84,14 +84,14 @@
 		for more information.</p>
 
 		<p><font size="+0"><b>Latest Milestone:</b> 
-		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4M7-201205071515/">
-		TM 3.4M7</a></font>
-		[<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4M7-201205071515/">downloads</a> 
+		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4RC1-201205221345/">
+		TM 3.4RC1</a></font>
+		[<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4RC1-201205221345/">downloads</a> 
 		| <a href="http://download.eclipse.org/tm/updates/3.4milestones/">update site</a>
-		| <a href="http://download.eclipse.org/tm/downloads/drops/S-3.4M7-201205071515/buildNotes.php">
+		| <a href="http://download.eclipse.org/tm/downloads/drops/S-3.4RC1-201205221345/buildNotes.php">
 		build notes</a>]<br/>
-		TM 3.4M7 contains several bugfixes. See the 
-		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4M7-201205071515/buildNotes.php">
+		TM 3.4RC1 contains several bugfixes, and a new version of Apache Commons Net. See the 
+		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4RC1-201205221345/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.
 
 		<!-- TODO Enable for ramp-down
