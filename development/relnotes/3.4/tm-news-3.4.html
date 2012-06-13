@@ -16,6 +16,26 @@
   See the <a href="readme_tm_3.4.html">TM 3.4 release notes</a> for details
   on bugs fixed, known issues, noteworthy new API and other changes.</p>
 
+<ul>
+  <li>Equinox Secure Storage is now used for enhanced security of saved passwords,
+      and compatibility with Eclipse 4.2 or later
+      [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=225320">225320</a>].<p/></li>
+
+  <li>The stand-alone terminal now has a UI control for changing its encoding. This
+      can even be changed while connected, in order to support foreign language terminals.
+      Many thanks to Ahmet Alptekin (Tubitak) for this contribution
+      [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=244405">244405</a>].<p/></li>
+
+  <li><b>TM Terminal Preference Page has been moved from terminal.view into terminal.</b>
+      Clients which adopt the TM Terminal widget in a view other than the TM Terminal View
+      can now choose whether they want to leverage the Terminal widget's Preferences for
+      "invert colors", "line buffer" and "font" or not. By default, Preferences are not
+      adopted; clients elect adoption by running makeTerminalView(...<b>true</b>). Clients
+      which don't want to see the Preference page need to hide it by means of a Capability
+      [<a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=378691">bug 378691</a>].<p/></li>
+
+</ul>
+
 <!--  TOC is of no use with only one item
 <ul>
   <li><a href="#RSE">Remote System Explorer (RSE)</a>
