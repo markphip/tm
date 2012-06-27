@@ -61,28 +61,24 @@
         remote VNC display and other uses.</p>
 
 		<p><font size="+2"><b>Latest Release:</b> 
-		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.2-201202061000/">
-		TM 3.3.2</a></font>
+		<a href="http://download.eclipse.org/tm/downloads/drops/R-3.4-201205300905/">
+		TM 3.4</a></font>
+		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.4-201205300905/">downloads</a> 
+		| <a href="http://download.eclipse.org/tm/updates/3.4/">update site</a>
+		| <a href="/tm/development/relnotes/3.4/readme_tm_3.4.html">release notes</a>
+		]<br/>
 <!--
-		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">downloads</a> 
-		| <a href="http://download.eclipse.org/tm/updates/3.3/">update site</a>
-		| <a href="/tm/development/relnotes/3.3/readme_tm_3.3.html">release notes</a>
-		]<br/>
+		TM 3.4.1 is a service release with 22 bugs fixed compared to TM 3.4.<br/>
 -->
-		[<a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.2-201202061000/">downloads</a> 
-		| <a href="http://download.eclipse.org/tm/updates/3.3/">update site</a>
-		| <a href="/tm/development/relnotes/3.3/readme_tm_3.3.html">release notes</a>
-		]<br/>
-		TM 3.3.2 is a service release with 22 bugs fixed compared to TM 3.3.<br/>
-		TM 3.3 highlights include a new SCP file subsystem, performance improvements for SSH,
-		IPv6 support for FTP and Telnet, as well as several improvements to the TM Terminal 
-		for better ANSI emulation and scrolling.<br/>
-		It is fully compatible with TM 3.2, and runs on Eclipse 3.4 (Ganymede) 
+		TM 3.4 highlights include tested Eclipse 4.2 (Juno) support, Equinox secure 
+		storage support for passwords, and selectable encodings for the standalone
+		Terminal.<br/>
+		It is fully compatible with TM 3.2 and later, and runs on Eclipse 3.4 (Ganymede) 
 		and later. Look at the <a href="/tm/tutorial/index.php">Getting Started Page</a>,
 		the build notes and the
-		<a href="/tm/development/relnotes/3.3/tm-news-3.3.html">TM 3.3 New & Noteworthy</a>
+		<a href="/tm/development/relnotes/3.4/tm-news-3.4.html">TM 3.4 New & Noteworthy</a>
 		for more information.</p>
-
+<!--
 		<p><font size="+0"><b>Latest Milestone:</b> 
 		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4RC1-201205221345/">
 		TM 3.4RC1</a></font>
@@ -93,7 +89,7 @@
 		TM 3.4RC1 contains several bugfixes, and a new version of Apache Commons Net. See the 
 		<a href="http://download.eclipse.org/tm/downloads/drops/S-3.4RC1-201205221345/buildNotes.php">
 		build notes</a> for new&amp;noteworthy and more information.
-
+-->
 		<!-- TODO Enable for ramp-down
 		<br/>
 		With M7, the <a href="http://wiki.eclipse.org/TM/3.2_Ramp_down_Plan">
@@ -108,8 +104,9 @@
 		        [<a href="http://wiki.eclipse.org/TM/3.3_Ramp_down_Plan#Ramp_down_for_Indigo_SR2_.28tentatively_Feb_23.2C_2012.29">Project Plan</a>]</li>
 		</ul>
 		-->
-		<ul><li><b>TM 3.4:</b> ETA June 2012 with Eclipse <a href="http://wiki.eclipse.org/Juno">Juno</a>
-		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.tm">Project Plan</a>]</li>
+		<ul><li><b>TM 3.4.1:</b> ETA September 28, 2012 with Eclipse <a href="http://wiki.eclipse.org/Juno">Juno SR1</a>
+		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.tm">Project Plan</a> | 
+		         <a href="http://wiki.eclipse.org/TM/3.4_Ramp_down_Plan">Ramp-down plan</a>]</li>
 		</ul>
 		</p>
 
@@ -191,10 +188,14 @@
 				<li><a href="http://www.eclipse.org/downloads/download.php?file=/tm/presentations/2006-9-29_SummitEurope_TMOverview.pdf"
 					target="_self">TM Overview Slides</a></li>
 				<li><a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
+				<li><a href="https://bugs.eclipse.org/bugs/attachment.cgi?id=217246" target="_self">
+				    TM 3.4 Release Review Slides</a></li>
 				<li><a href="http://wiki.eclipse.org/TM/3.3_Release_Summary" target="_self">
 				    TM 3.3 Release Summary</a></li>
+<!--
 				<li><a href="http://eclipse.org/project-slides/Helios/TM_Helios_Release.pdf" target="_self">
 				    TM 3.2 Release Review Slides</a></li>
+-->
 				<li><a
 					href="/tm/doc/TM_Use_Cases_v1.1c.pdf"
 					target="_self">TM Use Cases</a></li>
@@ -205,10 +206,10 @@
 		<div class="sideitem">
 			<h6>What's New</h6>
 			<ul>
-				<li>Sep 26th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.1-201109141310/">TM 3.3.1</a> released</li>
-				<li>Jun 25th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.3-201106080935/">TM 3.3</a> released</li>
-				<li>Feb 2010: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">TM 3.2.2</a> released</li>
-			    <li>Feb 2009: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
+				<li>Jun 27th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.4-201205300905/">TM 3.4</a> released</li>
+				<li>Feb 24th: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.3.2-201202061000/">TM 3.3.2</a> released</li>
+				<li>Feb 2011: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.2.2-201102130444/">TM 3.2.2</a> released</li>
+			    <li>Feb 2010: <a href="http://download.eclipse.org/tm/downloads/drops/R-3.1.2-201002152323/">TM 3.1.2</a> released</li>
 			    <li>Mar 2008: <a href="http://www.eclipsecon.org/2008/?page=sub/&id=38" target="_blank">TM Tutorial</a> at EclipseCon</li>
 				<li>Apr 2007: 63 people registered at <a href="http://live.eclipse.org/node/229">TM Webinar</a></li>
                 <!--
