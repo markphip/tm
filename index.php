@@ -104,7 +104,7 @@
 		        [<a href="http://wiki.eclipse.org/TM/3.3_Ramp_down_Plan#Ramp_down_for_Indigo_SR2_.28tentatively_Feb_23.2C_2012.29">Project Plan</a>]</li>
 		</ul>
 		-->
-		<ul><li><b>TM 3.4.1:</b> ETA September 28, 2012 with Eclipse <a href="http://wiki.eclipse.org/Juno">Juno SR1</a>
+		<ul><li><b>TM 3.4.2:</b> ETA February 22, 2013 with Eclipse <a href="http://wiki.eclipse.org/Juno">Juno SR1</a>
 		        [<a href="http://www.eclipse.org/projects/project_summary.php?projectid=tools.tm">Project Plan</a> | 
 		         <a href="http://wiki.eclipse.org/TM/3.4_Ramp_down_Plan">Ramp-down plan</a>]</li>
 		</ul>
