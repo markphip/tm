@@ -9,6 +9,7 @@
 	#
 	# Description: TM main page
 	#
+	# 2013-01-08 dwd - testing modification and propagation
 	#
 	#****************************************************************************
 	
@@ -35,7 +36,7 @@
 		<h1>$pageTitle</h1>
 		<h2>Mission Statement</h2>
 		<p>The Target Management project creates data models and frameworks
-		 to configure and manage remote (mainframe down to embedded) systems,
+		 to configure and manage remote systems (from mainframe to embedded),
 		 their connections, and their services.</p>
 		 
 		 <h3>The Vision</h3>
