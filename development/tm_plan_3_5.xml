@@ -100,6 +100,7 @@ the RSE unit test component will also have tests for the stand-alone components.
 
 <p:release_milestones>
 <p:preamble>
+<div>
 <p>
 <a name="m_release_milestones">Release milestones</a>
 will be occurring at roughly 6 week intervals,
@@ -108,6 +109,7 @@ and will be aligned with the
 Kepler Simultaneous Release</a>.
 Target Management's Kepler deliveries fall on the "+1" dates in the Kepler calendar.
 </p>
+</div>
 </p:preamble>
 <p:milestone date="11/16/2012" milestone="M3"><div>3.5M3</div></p:milestone>
 <p:milestone date="12/21/2012" milestone="M4"><div>3.5M4</div></p:milestone>
@@ -136,6 +138,7 @@ The target date for availability of Target Management 3.5 is:
 </p:release_milestones>
 
 <p:target_environments>
+<div>
 <p>
 <a name="m_target_environments">In order</a>
 to remain current, each Eclipse release is designed to run on
@@ -219,8 +222,10 @@ Data Miner Plug-ins that may be OS specific.
 <p>
 We will test and verify the Datastore agent on SUSE Linux Enterprise Server 11, Intel x86, IBM 1.6 VM
 </p>
+</div>
 
 <p:internationalization>
+<div>
 <p>
 The Remote System Explorer is designed as the basis for internationalized
 products. The user interface elements provided by the RSE
@@ -230,10 +235,12 @@ The default bundles will be localized to a subset of those
 locales offered by the Platform. This plan will be updated to indicate
 which locales will be provided and the timeframe for availability.
 </p>
+</div>
 </p:internationalization>
 </p:target_environments>
 
 <p:compatibility_with_previous_releases>
+<div>
 <p>
 <a name="m_compatibility">Target Management 3.5</a> will be backward compatible with TM 3.4.
 </p>
@@ -273,10 +280,12 @@ href="http://www.eclipse.org/articles/article.php?file=Article-API-Use/index.htm
 to Use the Eclipse API</a></i> for information about how to write
 compliant plug-ins.
 </p>
+</div>
 </p:compatibility_with_previous_releases>
 
 <p:themes_and_priorities>
-<p:preamble><div>
+<p:preamble>
+<div>
 <p>
 Plan items listed 
 <a name="m_themes">below</a> were defined according to contributor requirements,
@@ -332,6 +341,7 @@ a target milestone "Future" or "---" assigned.</li>
 <p:theme name="Update Release Engineering">
 <p:description>
 <p>
+<a name="tp_releng"/>
 For the 3.5 release we are updating our release engineering to use the latest Eclipse Foundation tools.
 Required features include automatic
 signing and adoption of Orbit, easy promoting to the Eclipse Servers and Kepler, 
@@ -349,6 +359,7 @@ In bugzilla, items related to this theme are tagged with <b>"[releng]"</b> in th
 <p:theme name="Run on Eclipse 4.3">
 <p:description>
 <p>
+<a name="tp_43"/>
 Eclipse 4.3 is the designated main stream of Eclipse Platform development.
 The TM project is committed to <a name="tp_4x">developing, running and testing</a>
 on the Eclipse 4.3 platform, and fixing defects as they are discovered.
